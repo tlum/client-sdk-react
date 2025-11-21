@@ -11,6 +11,7 @@ export interface StoredCallData {
       provider?: string;
     };
   };
+  squad?: any;
   callOptions?: any;
   timestamp: number;
 }
@@ -62,6 +63,7 @@ export const storeCallData = (
     id: call.id,
     artifactPlan: call.artifactPlan,
     assistant: call.assistant,
+    squad: (call as any).squad,
     callOptions,
     timestamp: Date.now(),
   };

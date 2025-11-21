@@ -7,6 +7,8 @@ export interface VapiWidgetProps {
   assistantId?: string; // Supported by both voice and chat
   assistant?: any; // Assistant object - voice only
   assistantOverrides?: any; // Assistant overrides - supported by both voice and chat
+  squadId?: string; // Squad ID - supported by both voice and chat
+  squad?: any; // Squad object - voice only
 
   // Layout & Position
   position?:

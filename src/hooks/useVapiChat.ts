@@ -29,6 +29,7 @@ export interface UseVapiChatOptions {
   enabled?: boolean;
   publicKey?: string;
   assistantId?: string;
+  squadId?: string;
   assistantOverrides?: AssistantOverrides;
   apiUrl?: string;
   sessionId?: string;
@@ -42,15 +43,25 @@ export const validateChatInput = (
   enabled: boolean,
   publicKey?: string,
   assistantId?: string,
+  squadId?: string,
   client?: VapiChatClient | null
 ): void => {
   if (!enabled || !text.trim()) {
     throw new Error('Chat is disabled or message is empty');
   }
 
-  if (!publicKey || !assistantId) {
+  const hasAssistant = !!assistantId;
+  const hasSquad = !!squadId;
+
+  if (!publicKey || (!hasAssistant && !hasSquad)) {
     throw new Error(
-      'Missing required configuration: publicKey and assistantId'
+      'Missing required configuration: publicKey and either assistantId or squadId'
+    );
+  }
+
+  if (hasAssistant && hasSquad) {
+    throw new Error(
+      'Invalid configuration: exactly one of assistantId or squadId must be provided'
     );
   }
 
@@ -165,6 +176,7 @@ export const useVapiChat = ({
   enabled = true,
   publicKey,
   assistantId,
+  squadId,
   assistantOverrides,
   apiUrl,
   sessionId: initialSessionId,
@@ -233,11 +245,16 @@ export const useVapiChat = ({
           isEndingSessionRef.current = true;
         }
 
+        const useSquad = !!squadId;
+        const effectiveAssistantId = useSquad ? undefined : assistantId;
+        const effectiveSquadId = useSquad ? squadId : undefined;
+
         validateChatInput(
           text,
           enabled,
           publicKey,
-          assistantId,
+          effectiveAssistantId,
+          effectiveSquadId,
           clientRef.current
         );
 
@@ -327,7 +344,8 @@ export const useVapiChat = ({
         const abort = await clientRef.current!.streamChat(
           {
             input,
-            assistantId: assistantId!,
+            assistantId: effectiveAssistantId,
+            squadId: effectiveSquadId,
             assistantOverrides,
             sessionId,
             stream: true,
@@ -356,6 +374,7 @@ export const useVapiChat = ({
       enabled,
       publicKey,
       assistantId,
+      squadId,
       assistantOverrides,
       sessionId,
       addMessage,

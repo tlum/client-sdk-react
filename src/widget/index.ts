@@ -92,7 +92,11 @@ function initializeWidgets() {
         const propName = kebabToCamel(attr.name.replace('data-', ''));
 
         // Special handling for JSON attributes
-        if (propName === 'assistantOverrides' || propName === 'assistant') {
+        if (
+          propName === 'assistantOverrides' ||
+          propName === 'assistant' ||
+          propName === 'squad'
+        ) {
           try {
             props[propName] = JSON.parse(attr.value);
           } catch (e) {
@@ -109,8 +113,24 @@ function initializeWidgets() {
       console.warn('VapiWidget: publicKey is required but not provided');
       props.publicKey = 'demo-key';
     }
-    if (!props.assistantId) {
-      console.warn('VapiWidget: assistantId is required but not provided');
+
+    const hasAssistant =
+      !!(props.assistantId || props.assistant);
+    const hasSquad =
+      !!(props.squadId || props.squad);
+
+    if (hasAssistant && hasSquad) {
+      console.error(
+        'VapiWidget: exactly one of assistant (assistant-id/assistant) or squad (squad-id/squad) must be provided.'
+      );
+      // Skip mounting this widget instance
+      return;
+    }
+
+    if (!hasAssistant && !hasSquad) {
+      console.warn(
+        'VapiWidget: assistantId or squadId is required but not provided; falling back to demo assistant.'
+      );
       props.assistantId = 'demo-assistant';
     }
 
@@ -186,6 +206,8 @@ function initializeWidgets() {
       'assistant-id': 'assistantId',
       'assistant-overrides': 'assistantOverrides',
       assistant: 'assistant',
+      'squad-id': 'squadId',
+      squad: 'squad',
 
       // Deprecated properties
       'base-color': 'baseColor',
@@ -207,7 +229,11 @@ function initializeWidgets() {
       const value = htmlElement.getAttribute(htmlAttr);
       if (value !== null) {
         // Special handling for JSON attributes
-        if (propName === 'assistantOverrides' || propName === 'assistant') {
+        if (
+          propName === 'assistantOverrides' ||
+          propName === 'assistant' ||
+          propName === 'squad'
+        ) {
           try {
             props[propName] = JSON.parse(value);
           } catch (e) {
@@ -223,8 +249,24 @@ function initializeWidgets() {
       console.warn('VapiWidget: publicKey is required but not provided');
       props.publicKey = 'demo-key';
     }
-    if (!props.assistantId) {
-      console.warn('VapiWidget: assistantId is required but not provided');
+
+    const hasAssistant =
+      !!(props.assistantId || props.assistant);
+    const hasSquad =
+      !!(props.squadId || props.squad);
+
+    if (hasAssistant && hasSquad) {
+      console.error(
+        'VapiWidget: exactly one of assistant (assistant-id/assistant) or squad (squad-id/squad) must be provided.'
+      );
+      // Skip mounting this widget instance
+      return;
+    }
+
+    if (!hasAssistant && !hasSquad) {
+      console.warn(
+        'VapiWidget: assistantId or squadId is required but not provided; falling back to demo assistant.'
+      );
       props.assistantId = 'demo-assistant';
     }
 

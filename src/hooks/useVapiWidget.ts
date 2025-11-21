@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import type { UseVapiCallOptions } from './useVapiCall';
+import type { CallOptions, UseVapiCallOptions } from './useVapiCall';
 import { useVapiCall } from './useVapiCall';
 import type { UseVapiChatOptions, ChatMessage } from './useVapiChat';
 import { useVapiChat } from './useVapiChat';
@@ -13,6 +13,8 @@ export interface UseVapiWidgetOptions {
   assistantId?: string;
   assistant?: any;
   assistantOverrides?: AssistantOverrides;
+  squadId?: string;
+  squad?: any;
   apiUrl?: string;
   firstChatMessage?: string;
   voiceAutoReconnect?: boolean;
@@ -30,6 +32,8 @@ export const useVapiWidget = ({
   assistantId,
   assistant,
   assistantOverrides,
+  squadId,
+  squad,
   apiUrl,
   firstChatMessage,
   voiceAutoReconnect = false,
@@ -45,21 +49,34 @@ export const useVapiWidget = ({
 
   const [voiceConversation, setVoiceConversation] = useState<ChatMessage[]>([]);
 
-  const buildCallOptions = (): any => {
-    // Priority: assistant object > assistantId with overrides > assistantId alone
-    if (assistant) {
-      return assistant;
+  const buildCallOptions = (): CallOptions | undefined => {
+    const hasAssistant = !!assistant || !!assistantId;
+    const hasSquad = !!squad || !!squadId;
+
+    if (hasAssistant && hasSquad) {
+      console.error(
+        'VapiWidget: exactly one of assistant (assistantId/assistant) or squad (squadId/squad) must be provided.'
+      );
+      return undefined;
     }
-    if (assistantId) {
-      if (assistantOverrides) {
-        return {
-          assistantId,
-          assistantOverrides,
-        };
-      }
-      return assistantId;
+
+    if (!hasAssistant && !hasSquad) {
+      return undefined;
     }
-    return undefined;
+
+    if (hasSquad) {
+      return {
+        squad: squad ?? undefined,
+        squadId: squad ? undefined : squadId,
+      };
+    }
+
+    // assistant case
+    return {
+      assistant: assistant ?? undefined,
+      assistantId: assistant ? undefined : assistantId,
+      assistantOverrides,
+    };
   };
 
   // Voice call hook - only enabled in voice or hybrid mode
@@ -98,12 +115,13 @@ export const useVapiWidget = ({
     },
   } as UseVapiCallOptions);
 
-  // Chat only supports assistantId and assistantOverrides
+  // Chat supports assistantId OR squadId plus optional assistantOverrides
   const chatEnabled = mode === 'chat' || mode === 'hybrid';
   const chat = useVapiChat({
     enabled: chatEnabled,
     publicKey: chatEnabled ? publicKey : undefined,
     assistantId: chatEnabled ? assistantId : undefined,
+    squadId: chatEnabled ? squadId : undefined,
     assistantOverrides: chatEnabled ? assistantOverrides : undefined,
     apiUrl,
     onMessage, // Keep the callback for external notifications

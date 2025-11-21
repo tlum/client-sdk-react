@@ -66,8 +66,10 @@ The simplest way to add the widget to your website:
 | `assistantId`        | `string` | VAPI assistant ID (supported by both voice and chat)   |
 | `assistant`          | `object` | Full assistant configuration object (voice only)       |
 | `assistantOverrides` | `object` | Assistant overrides (supported by both voice and chat) |
+| `squadId`            | `string` | VAPI squad ID (supported by both voice and chat)       |
+| `squad`              | `object` | Full squad configuration object (voice only)           |
 
-> **Note**: You must provide at least one of `assistantId`, `assistant`, or both `assistantId` and `assistantOverrides`.
+> **Note**: You must provide at least one of `assistantId`, `squadId`, `assistant`, or `squad`.
 
 ### Optional Props
 

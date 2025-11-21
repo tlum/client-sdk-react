@@ -8,7 +8,8 @@ export interface AssistantOverrides {
 
 export interface VapiChatMessage {
   input: string | Array<{ role: string; content: string }>;
-  assistantId: string;
+  assistantId?: string;
+  squadId?: string;
   assistantOverrides?: AssistantOverrides;
   sessionId?: string;
   stream?: boolean;

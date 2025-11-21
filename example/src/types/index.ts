@@ -35,4 +35,6 @@ export interface WidgetConfig {
     };
   };
   assistant?: any;
+  squadId?: string;
+  squad?: any;
 }

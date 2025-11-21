@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import Vapi from '@vapi-ai/web';
 import * as vapiCallStorage from '../utils/vapiCallStorage';
 import type { StorageType } from '../utils/vapiCallStorage';
+import type { AssistantOverrides } from '../utils/vapiChatClient';
 
 export interface VapiCallState {
   isCallActive: boolean;
@@ -20,9 +21,17 @@ export interface VapiCallHandlers {
   clearStoredCall: () => void;
 }
 
+export interface CallOptions {
+  assistantId?: string;
+  assistant?: any;
+  assistantOverrides?: AssistantOverrides;
+  squadId?: string;
+  squad?: any;
+}
+
 export interface UseVapiCallOptions {
   publicKey: string;
-  callOptions: any;
+  callOptions?: CallOptions;
   apiUrl?: string;
   enabled?: boolean;
   voiceAutoReconnect?: boolean;
@@ -175,6 +184,39 @@ export const useVapiCall = ({
       return;
     }
 
+    if (!callOptions) {
+      console.error('Cannot start call: no callOptions provided');
+      return;
+    }
+
+    const hasSquad = !!(callOptions.squad || callOptions.squadId);
+    const hasAssistant = !!(callOptions.assistant || callOptions.assistantId);
+
+    if (hasSquad && hasAssistant) {
+      console.error(
+        'Cannot start call: exactly one of assistant or squad must be provided in callOptions'
+      );
+      return;
+    }
+
+    if (!hasSquad && !hasAssistant) {
+      console.error('Cannot start call: no assistant or squad provided');
+      return;
+    }
+
+    const useSquad = hasSquad;
+    const assistantConfig =
+      hasAssistant && !useSquad
+        ? callOptions.assistant ?? callOptions.assistantId
+        : undefined;
+    const assistantOverrides =
+      assistantConfig && !callOptions.assistant
+        ? callOptions.assistantOverrides
+        : undefined;
+    const squadConfig = useSquad
+      ? callOptions.squad ?? callOptions.squadId
+      : undefined;
+
     try {
       console.log('Starting call with configuration:', callOptions);
       console.log('Starting call with options:', {
@@ -183,11 +225,11 @@ export const useVapiCall = ({
       setConnectionStatus('connecting');
       const call = await vapi.start(
         // assistant
-        callOptions,
+        assistantConfig,
         // assistant overrides,
-        undefined,
+        assistantOverrides,
         // squad
-        undefined,
+        squadConfig,
         // workflow
         undefined,
         // workflow overrides
@@ -300,6 +342,8 @@ export const useVapiCall = ({
         id: storedData.id,
         artifactPlan: storedData.artifactPlan,
         assistant: storedData.assistant,
+        // squad is not part of the typed reconnect options; server
+        // already knows which squad/assistant this call belongs to.
       });
       console.log('Successfully reconnected to call');
     } catch (error) {
