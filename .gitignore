@@ -8,7 +8,7 @@ node_modules/
 .yarn/install-state.gz
 
 # Production builds
-dist/
+#dist/
 build/
 out/
 

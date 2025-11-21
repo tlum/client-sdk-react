@@ -1,0 +1,24933 @@
+(function(){"use strict";try{if(typeof document<"u"){var r=document.createElement("style");r.appendChild(document.createTextNode(`.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.vapi-widget-wrapper .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.vapi-widget-wrapper .static{position:static}.vapi-widget-wrapper .fixed{position:fixed}.vapi-widget-wrapper .absolute{position:absolute}.vapi-widget-wrapper .relative{position:relative}.vapi-widget-wrapper .sticky{position:sticky}.vapi-widget-wrapper .inset-0{inset:0}.vapi-widget-wrapper .bottom-6{bottom:1.5rem}.vapi-widget-wrapper .left-0{left:0}.vapi-widget-wrapper .left-1\\/2{left:50%}.vapi-widget-wrapper .left-6{left:1.5rem}.vapi-widget-wrapper .right-6{right:1.5rem}.vapi-widget-wrapper .top-0{top:0}.vapi-widget-wrapper .top-6{top:1.5rem}.vapi-widget-wrapper .top-8{top:2rem}.vapi-widget-wrapper .top-full{top:100%}.vapi-widget-wrapper .z-10{z-index:10}.vapi-widget-wrapper .z-40{z-index:40}.vapi-widget-wrapper .z-50{z-index:50}.vapi-widget-wrapper .mx-auto{margin-left:auto;margin-right:auto}.vapi-widget-wrapper .my-3{margin-top:.75rem;margin-bottom:.75rem}.vapi-widget-wrapper .mb-0\\.5{margin-bottom:.125rem}.vapi-widget-wrapper .mb-1{margin-bottom:.25rem}.vapi-widget-wrapper .mb-2{margin-bottom:.5rem}.vapi-widget-wrapper .mb-3{margin-bottom:.75rem}.vapi-widget-wrapper .mb-4{margin-bottom:1rem}.vapi-widget-wrapper .mb-6{margin-bottom:1.5rem}.vapi-widget-wrapper .mb-8{margin-bottom:2rem}.vapi-widget-wrapper .ml-0\\.5{margin-left:.125rem}.vapi-widget-wrapper .ml-1{margin-left:.25rem}.vapi-widget-wrapper .ml-2{margin-left:.5rem}.vapi-widget-wrapper .mt-1{margin-top:.25rem}.vapi-widget-wrapper .mt-2{margin-top:.5rem}.vapi-widget-wrapper .mt-6{margin-top:1.5rem}.vapi-widget-wrapper .block{display:block}.vapi-widget-wrapper .inline-block{display:inline-block}.vapi-widget-wrapper .inline{display:inline}.vapi-widget-wrapper .flex{display:flex}.vapi-widget-wrapper .inline-flex{display:inline-flex}.vapi-widget-wrapper .grid{display:grid}.vapi-widget-wrapper .hidden{display:none}.vapi-widget-wrapper .h-1\\.5{height:.375rem}.vapi-widget-wrapper .h-10{height:2.5rem}.vapi-widget-wrapper .h-12{height:3rem}.vapi-widget-wrapper .h-14{height:3.5rem}.vapi-widget-wrapper .h-16{height:4rem}.vapi-widget-wrapper .h-20{height:5rem}.vapi-widget-wrapper .h-3{height:.75rem}.vapi-widget-wrapper .h-4{height:1rem}.vapi-widget-wrapper .h-5{height:1.25rem}.vapi-widget-wrapper .h-6{height:1.5rem}.vapi-widget-wrapper .h-8{height:2rem}.vapi-widget-wrapper .h-80{height:20rem}.vapi-widget-wrapper .h-\\[24rem\\]{height:24rem}.vapi-widget-wrapper .h-\\[32rem\\]{height:32rem}.vapi-widget-wrapper .h-\\[36rem\\]{height:36rem}.vapi-widget-wrapper .h-\\[40rem\\]{height:40rem}.vapi-widget-wrapper .h-\\[44rem\\]{height:44rem}.vapi-widget-wrapper .max-h-\\[calc\\(100vh-4rem\\)\\]{max-height:calc(100vh - 4rem)}.vapi-widget-wrapper .min-h-screen{min-height:100vh}.vapi-widget-wrapper .w-0\\.5{width:.125rem}.vapi-widget-wrapper .w-1\\.5{width:.375rem}.vapi-widget-wrapper .w-10{width:2.5rem}.vapi-widget-wrapper .w-11{width:2.75rem}.vapi-widget-wrapper .w-12{width:3rem}.vapi-widget-wrapper .w-16{width:4rem}.vapi-widget-wrapper .w-20{width:5rem}.vapi-widget-wrapper .w-3{width:.75rem}.vapi-widget-wrapper .w-4{width:1rem}.vapi-widget-wrapper .w-5{width:1.25rem}.vapi-widget-wrapper .w-6{width:1.5rem}.vapi-widget-wrapper .w-72{width:18rem}.vapi-widget-wrapper .w-8{width:2rem}.vapi-widget-wrapper .w-96{width:24rem}.vapi-widget-wrapper .w-\\[28rem\\]{width:28rem}.vapi-widget-wrapper .w-full{width:100%}.vapi-widget-wrapper .max-w-7xl{max-width:80rem}.vapi-widget-wrapper .max-w-xs{max-width:20rem}.vapi-widget-wrapper .flex-1{flex:1 1 0%}.vapi-widget-wrapper .flex-shrink-0{flex-shrink:0}.vapi-widget-wrapper .-translate-x-1\\/2{--tw-translate-x: -50%;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.vapi-widget-wrapper .transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes pulse{50%{opacity:.5}}.vapi-widget-wrapper .animate-pulse{animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite}@keyframes spin{to{transform:rotate(360deg)}}.vapi-widget-wrapper .animate-spin{animation:spin 1s linear infinite}.vapi-widget-wrapper .cursor-not-allowed{cursor:not-allowed}.vapi-widget-wrapper .cursor-pointer{cursor:pointer}.vapi-widget-wrapper .list-inside{list-style-position:inside}.vapi-widget-wrapper .list-decimal{list-style-type:decimal}.vapi-widget-wrapper .list-disc{list-style-type:disc}.vapi-widget-wrapper .grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.vapi-widget-wrapper .grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.vapi-widget-wrapper .grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.vapi-widget-wrapper .flex-col{flex-direction:column}.vapi-widget-wrapper .items-center{align-items:center}.vapi-widget-wrapper .justify-start{justify-content:flex-start}.vapi-widget-wrapper .justify-end{justify-content:flex-end}.vapi-widget-wrapper .justify-center{justify-content:center}.vapi-widget-wrapper .justify-between{justify-content:space-between}.vapi-widget-wrapper .gap-2{gap:.5rem}.vapi-widget-wrapper .gap-3{gap:.75rem}.vapi-widget-wrapper .gap-4{gap:1rem}.vapi-widget-wrapper .gap-8{gap:2rem}.vapi-widget-wrapper :is(.space-x-1>:not([hidden])~:not([hidden])){--tw-space-x-reverse: 0;margin-right:calc(.25rem * var(--tw-space-x-reverse));margin-left:calc(.25rem * calc(1 - var(--tw-space-x-reverse)))}.vapi-widget-wrapper :is(.space-x-2>:not([hidden])~:not([hidden])){--tw-space-x-reverse: 0;margin-right:calc(.5rem * var(--tw-space-x-reverse));margin-left:calc(.5rem * calc(1 - var(--tw-space-x-reverse)))}.vapi-widget-wrapper :is(.space-x-3>:not([hidden])~:not([hidden])){--tw-space-x-reverse: 0;margin-right:calc(.75rem * var(--tw-space-x-reverse));margin-left:calc(.75rem * calc(1 - var(--tw-space-x-reverse)))}.vapi-widget-wrapper :is(.space-x-8>:not([hidden])~:not([hidden])){--tw-space-x-reverse: 0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.vapi-widget-wrapper :is(.space-y-2>:not([hidden])~:not([hidden])){--tw-space-y-reverse: 0;margin-top:calc(.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem * var(--tw-space-y-reverse))}.vapi-widget-wrapper :is(.space-y-3>:not([hidden])~:not([hidden])){--tw-space-y-reverse: 0;margin-top:calc(.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem * var(--tw-space-y-reverse))}.vapi-widget-wrapper :is(.space-y-4>:not([hidden])~:not([hidden])){--tw-space-y-reverse: 0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.vapi-widget-wrapper :is(.space-y-6>:not([hidden])~:not([hidden])){--tw-space-y-reverse: 0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.vapi-widget-wrapper :is(.space-y-8>:not([hidden])~:not([hidden])){--tw-space-y-reverse: 0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.vapi-widget-wrapper .overflow-hidden{overflow:hidden}.vapi-widget-wrapper .overflow-x-auto{overflow-x:auto}.vapi-widget-wrapper .overflow-y-auto{overflow-y:auto}.vapi-widget-wrapper .rounded{border-radius:.25rem}.vapi-widget-wrapper .rounded-2xl{border-radius:1rem}.vapi-widget-wrapper .rounded-3xl{border-radius:1.5rem}.vapi-widget-wrapper .rounded-full{border-radius:9999px}.vapi-widget-wrapper .rounded-lg{border-radius:.5rem}.vapi-widget-wrapper .rounded-md{border-radius:.375rem}.vapi-widget-wrapper .rounded-none{border-radius:0}.vapi-widget-wrapper .rounded-xl{border-radius:.75rem}.vapi-widget-wrapper .border{border-width:1px}.vapi-widget-wrapper .border-2{border-width:2px}.vapi-widget-wrapper .border-b{border-bottom-width:1px}.vapi-widget-wrapper .border-b-2{border-bottom-width:2px}.vapi-widget-wrapper .border-l-2{border-left-width:2px}.vapi-widget-wrapper .border-dashed{border-style:dashed}.vapi-widget-wrapper .border-current{border-color:currentColor}.vapi-widget-wrapper .border-gray-200{--tw-border-opacity: 1;border-color:rgb(229 231 235 / var(--tw-border-opacity))}.vapi-widget-wrapper .border-gray-300{--tw-border-opacity: 1;border-color:rgb(209 213 219 / var(--tw-border-opacity))}.vapi-widget-wrapper .border-gray-400{--tw-border-opacity: 1;border-color:rgb(156 163 175 / var(--tw-border-opacity))}.vapi-widget-wrapper .border-gray-600{--tw-border-opacity: 1;border-color:rgb(75 85 99 / var(--tw-border-opacity))}.vapi-widget-wrapper .border-gray-700{--tw-border-opacity: 1;border-color:rgb(55 65 81 / var(--tw-border-opacity))}.vapi-widget-wrapper .border-gray-800{--tw-border-opacity: 1;border-color:rgb(31 41 55 / var(--tw-border-opacity))}.vapi-widget-wrapper .border-teal-500{--tw-border-opacity: 1;border-color:rgb(20 184 166 / var(--tw-border-opacity))}.vapi-widget-wrapper .border-transparent{border-color:transparent}.vapi-widget-wrapper .border-t-transparent{border-top-color:transparent}.vapi-widget-wrapper .bg-black{--tw-bg-opacity: 1;background-color:rgb(0 0 0 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-current{background-color:currentColor}.vapi-widget-wrapper .bg-gray-100{--tw-bg-opacity: 1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-gray-200{--tw-bg-opacity: 1;background-color:rgb(229 231 235 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-gray-300{--tw-bg-opacity: 1;background-color:rgb(209 213 219 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-gray-50{--tw-bg-opacity: 1;background-color:rgb(249 250 251 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-gray-600{--tw-bg-opacity: 1;background-color:rgb(75 85 99 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-gray-700{--tw-bg-opacity: 1;background-color:rgb(55 65 81 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-gray-800{--tw-bg-opacity: 1;background-color:rgb(31 41 55 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-green-400{--tw-bg-opacity: 1;background-color:rgb(74 222 128 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-teal-50{--tw-bg-opacity: 1;background-color:rgb(240 253 250 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-teal-500{--tw-bg-opacity: 1;background-color:rgb(20 184 166 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-white{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.vapi-widget-wrapper .bg-opacity-10{--tw-bg-opacity: .1}.vapi-widget-wrapper .p-1{padding:.25rem}.vapi-widget-wrapper .p-2{padding:.5rem}.vapi-widget-wrapper .p-3{padding:.75rem}.vapi-widget-wrapper .p-4{padding:1rem}.vapi-widget-wrapper .p-6{padding:1.5rem}.vapi-widget-wrapper .p-8{padding:2rem}.vapi-widget-wrapper .px-1{padding-left:.25rem;padding-right:.25rem}.vapi-widget-wrapper .px-2{padding-left:.5rem;padding-right:.5rem}.vapi-widget-wrapper .px-3{padding-left:.75rem;padding-right:.75rem}.vapi-widget-wrapper .px-4{padding-left:1rem;padding-right:1rem}.vapi-widget-wrapper .px-6{padding-left:1.5rem;padding-right:1.5rem}.vapi-widget-wrapper .py-0\\.5{padding-top:.125rem;padding-bottom:.125rem}.vapi-widget-wrapper .py-1{padding-top:.25rem;padding-bottom:.25rem}.vapi-widget-wrapper .py-1\\.5{padding-top:.375rem;padding-bottom:.375rem}.vapi-widget-wrapper .py-2{padding-top:.5rem;padding-bottom:.5rem}.vapi-widget-wrapper .py-3{padding-top:.75rem;padding-bottom:.75rem}.vapi-widget-wrapper .py-4{padding-top:1rem;padding-bottom:1rem}.vapi-widget-wrapper .py-8{padding-top:2rem;padding-bottom:2rem}.vapi-widget-wrapper .pl-2{padding-left:.5rem}.vapi-widget-wrapper .text-center{text-align:center}.vapi-widget-wrapper .font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.vapi-widget-wrapper .text-3xl{font-size:1.875rem;line-height:2.25rem}.vapi-widget-wrapper .text-base{font-size:1rem;line-height:1.5rem}.vapi-widget-wrapper .text-lg{font-size:1.125rem;line-height:1.75rem}.vapi-widget-wrapper .text-sm{font-size:.875rem;line-height:1.25rem}.vapi-widget-wrapper .text-xl{font-size:1.25rem;line-height:1.75rem}.vapi-widget-wrapper .text-xs{font-size:.75rem;line-height:1rem}.vapi-widget-wrapper .font-bold{font-weight:700}.vapi-widget-wrapper .font-medium{font-weight:500}.vapi-widget-wrapper .font-normal{font-weight:400}.vapi-widget-wrapper .font-semibold{font-weight:600}.vapi-widget-wrapper .capitalize{text-transform:capitalize}.vapi-widget-wrapper .italic{font-style:italic}.vapi-widget-wrapper .text-gray-100{--tw-text-opacity: 1;color:rgb(243 244 246 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-gray-200{--tw-text-opacity: 1;color:rgb(229 231 235 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-gray-300{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-gray-600{--tw-text-opacity: 1;color:rgb(75 85 99 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-gray-700{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-gray-800{--tw-text-opacity: 1;color:rgb(31 41 55 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-gray-900{--tw-text-opacity: 1;color:rgb(17 24 39 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-green-400{--tw-text-opacity: 1;color:rgb(74 222 128 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-indigo-600{--tw-text-opacity: 1;color:rgb(79 70 229 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-red-400{--tw-text-opacity: 1;color:rgb(248 113 113 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-red-500{--tw-text-opacity: 1;color:rgb(239 68 68 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-red-600{--tw-text-opacity: 1;color:rgb(220 38 38 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-teal-600{--tw-text-opacity: 1;color:rgb(13 148 136 / var(--tw-text-opacity))}.vapi-widget-wrapper .text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity))}.vapi-widget-wrapper .underline{text-decoration-line:underline}.vapi-widget-wrapper .placeholder-gray-400::-moz-placeholder{--tw-placeholder-opacity: 1;color:rgb(156 163 175 / var(--tw-placeholder-opacity))}.vapi-widget-wrapper .placeholder-gray-400::placeholder{--tw-placeholder-opacity: 1;color:rgb(156 163 175 / var(--tw-placeholder-opacity))}.vapi-widget-wrapper .placeholder-gray-500::-moz-placeholder{--tw-placeholder-opacity: 1;color:rgb(107 114 128 / var(--tw-placeholder-opacity))}.vapi-widget-wrapper .placeholder-gray-500::placeholder{--tw-placeholder-opacity: 1;color:rgb(107 114 128 / var(--tw-placeholder-opacity))}.vapi-widget-wrapper .accent-teal-500{accent-color:#14b8a6}.vapi-widget-wrapper .opacity-50{opacity:.5}.vapi-widget-wrapper .opacity-80{opacity:.8}.vapi-widget-wrapper .shadow-lg{--tw-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);--tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.vapi-widget-wrapper .shadow-sm{--tw-shadow: 0 1px 2px 0 rgb(0 0 0 / .05);--tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.vapi-widget-wrapper .shadow-xl{--tw-shadow: 0 20px 25px -5px rgb(0 0 0 / .1), 0 8px 10px -6px rgb(0 0 0 / .1);--tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.vapi-widget-wrapper .filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.vapi-widget-wrapper .transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.vapi-widget-wrapper .transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.vapi-widget-wrapper .transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.vapi-widget-wrapper .duration-150{transition-duration:.15s}.vapi-widget-wrapper .duration-300{transition-duration:.3s}.vapi-widget-wrapper .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.vapi-widget-wrapper{box-sizing:border-box}.vapi-widget-wrapper *,.vapi-widget-wrapper *:before,.vapi-widget-wrapper *:after{box-sizing:border-box}.vapi-widget-wrapper{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal}.vapi-widget-wrapper button,.vapi-widget-wrapper [role=button],.vapi-widget-wrapper input,.vapi-widget-wrapper textarea,.vapi-widget-wrapper select{margin:0;padding:0;border:0 solid;border-radius:0;background-color:transparent;background-image:none;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit}.vapi-widget-wrapper button,.vapi-widget-wrapper [role=button]{cursor:pointer;text-align:inherit;-webkit-appearance:button;-moz-appearance:button;appearance:button}.vapi-widget-wrapper input,.vapi-widget-wrapper textarea,.vapi-widget-wrapper select{-webkit-appearance:none;-moz-appearance:none;appearance:none}.vapi-widget-wrapper button:focus,.vapi-widget-wrapper input:focus,.vapi-widget-wrapper textarea:focus,.vapi-widget-wrapper select:focus{outline:0;outline-offset:0}.vapi-widget-wrapper h1,.vapi-widget-wrapper h2,.vapi-widget-wrapper h3,.vapi-widget-wrapper h4,.vapi-widget-wrapper h5,.vapi-widget-wrapper h6,.vapi-widget-wrapper p{margin:0;font-size:inherit;font-weight:inherit}.vapi-widget-wrapper ul,.vapi-widget-wrapper ol{margin:0;padding:0;list-style:none}.vapi-widget-wrapper a{color:inherit;text-decoration:inherit}.vapi-widget-wrapper fieldset{margin:0;padding:0;border:0}.vapi-widget-wrapper legend{padding:0}.vapi-widget-wrapper input,.vapi-widget-wrapper textarea{-webkit-text-size-adjust:100%}.vapi-conversation-area{scrollbar-width:none}.vapi-conversation-area::-webkit-scrollbar{display:none}.vapi-widget-wrapper .after\\:absolute:after{content:var(--tw-content);position:absolute}.vapi-widget-wrapper .after\\:left-\\[2px\\]:after{content:var(--tw-content);left:2px}.vapi-widget-wrapper .after\\:top-\\[2px\\]:after{content:var(--tw-content);top:2px}.vapi-widget-wrapper .after\\:h-5:after{content:var(--tw-content);height:1.25rem}.vapi-widget-wrapper .after\\:w-5:after{content:var(--tw-content);width:1.25rem}.vapi-widget-wrapper .after\\:rounded-full:after{content:var(--tw-content);border-radius:9999px}.vapi-widget-wrapper .after\\:bg-white:after{content:var(--tw-content);--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.vapi-widget-wrapper .after\\:transition-all:after{content:var(--tw-content);transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.vapi-widget-wrapper .after\\:content-\\[\\'\\'\\]:after{--tw-content: "";content:var(--tw-content)}.vapi-widget-wrapper .last\\:mb-0:last-child{margin-bottom:0}.vapi-widget-wrapper .hover\\:-translate-y-1:hover{--tw-translate-y: -.25rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.vapi-widget-wrapper .hover\\:scale-105:hover{--tw-scale-x: 1.05;--tw-scale-y: 1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.vapi-widget-wrapper .hover\\:border-gray-300:hover{--tw-border-opacity: 1;border-color:rgb(209 213 219 / var(--tw-border-opacity))}.vapi-widget-wrapper .hover\\:border-gray-400:hover{--tw-border-opacity: 1;border-color:rgb(156 163 175 / var(--tw-border-opacity))}.vapi-widget-wrapper .hover\\:border-red-600:hover{--tw-border-opacity: 1;border-color:rgb(220 38 38 / var(--tw-border-opacity))}.vapi-widget-wrapper .hover\\:bg-gray-100:hover{--tw-bg-opacity: 1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.vapi-widget-wrapper .hover\\:bg-gray-200:hover{--tw-bg-opacity: 1;background-color:rgb(229 231 235 / var(--tw-bg-opacity))}.vapi-widget-wrapper .hover\\:bg-gray-50:hover{--tw-bg-opacity: 1;background-color:rgb(249 250 251 / var(--tw-bg-opacity))}.vapi-widget-wrapper .hover\\:bg-red-50:hover{--tw-bg-opacity: 1;background-color:rgb(254 242 242 / var(--tw-bg-opacity))}.vapi-widget-wrapper .hover\\:bg-teal-600:hover{--tw-bg-opacity: 1;background-color:rgb(13 148 136 / var(--tw-bg-opacity))}.vapi-widget-wrapper .hover\\:text-gray-700:hover{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity))}.vapi-widget-wrapper .hover\\:text-teal-700:hover{--tw-text-opacity: 1;color:rgb(15 118 110 / var(--tw-text-opacity))}.vapi-widget-wrapper .hover\\:opacity-80:hover{opacity:.8}.vapi-widget-wrapper .hover\\:opacity-90:hover{opacity:.9}.vapi-widget-wrapper .hover\\:shadow-xl:hover{--tw-shadow: 0 20px 25px -5px rgb(0 0 0 / .1), 0 8px 10px -6px rgb(0 0 0 / .1);--tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.vapi-widget-wrapper .focus\\:border-indigo-500:focus{--tw-border-opacity: 1;border-color:rgb(99 102 241 / var(--tw-border-opacity))}.vapi-widget-wrapper .focus\\:border-teal-500:focus{--tw-border-opacity: 1;border-color:rgb(20 184 166 / var(--tw-border-opacity))}.vapi-widget-wrapper .focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.vapi-widget-wrapper .focus\\:ring-2:focus{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.vapi-widget-wrapper .focus\\:ring-indigo-500:focus{--tw-ring-opacity: 1;--tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity))}.vapi-widget-wrapper .focus\\:ring-teal-500:focus{--tw-ring-opacity: 1;--tw-ring-color: rgb(20 184 166 / var(--tw-ring-opacity))}.vapi-widget-wrapper .active\\:scale-95:active{--tw-scale-x: .95;--tw-scale-y: .95;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.vapi-widget-wrapper :is(.peer:checked~.peer-checked\\:bg-teal-600){--tw-bg-opacity: 1;background-color:rgb(13 148 136 / var(--tw-bg-opacity))}.vapi-widget-wrapper :is(.peer:checked~.peer-checked\\:after\\:translate-x-full):after{content:var(--tw-content);--tw-translate-x: 100%;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.vapi-widget-wrapper :is(.peer:checked~.peer-checked\\:after\\:border-white):after{content:var(--tw-content);--tw-border-opacity: 1;border-color:rgb(255 255 255 / var(--tw-border-opacity))}.vapi-widget-wrapper :is(.peer:focus~.peer-focus\\:outline-none){outline:2px solid transparent;outline-offset:2px}@media (min-width: 640px){.vapi-widget-wrapper .sm\\:text-sm{font-size:.875rem;line-height:1.25rem}}@media (min-width: 1024px){.vapi-widget-wrapper .lg\\:sticky{position:sticky}.vapi-widget-wrapper .lg\\:top-8{top:2rem}.vapi-widget-wrapper .lg\\:col-span-1{grid-column:span 1 / span 1}.vapi-widget-wrapper .lg\\:col-span-2{grid-column:span 2 / span 2}.vapi-widget-wrapper .lg\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}}@keyframes pulse{0%,to{opacity:1}50%{opacity:.5}}@keyframes blink{0%,50%{opacity:1}51%,to{opacity:0}}@keyframes spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}@keyframes glow{0%,to{box-shadow:0 0 0 4px #ef44444d,0 0 25px #ef444480}50%{box-shadow:0 0 0 8px #ef44444d,0 0 40px #ef4444b3}}.animate-pulse{animation:pulse 1s cubic-bezier(.4,0,.6,1) infinite}.animate-blink{animation:blink 1s steps(1,start) infinite}.animate-spin{animation:spin 1s linear infinite}.animate-glow{animation:glow 2s ease-in-out infinite}`)),document.head.appendChild(r)}}catch(e){console.error("vite-plugin-css-injected-by-js",e)}})();
+function _l(e) {
+  return e && e.__esModule && Object.prototype.hasOwnProperty.call(e, "default") ? e.default : e;
+}
+function rS(e) {
+  if (Object.prototype.hasOwnProperty.call(e, "__esModule")) return e;
+  var t = e.default;
+  if (typeof t == "function") {
+    var r = function o() {
+      var a = !1;
+      try {
+        a = this instanceof o;
+      } catch {
+      }
+      return a ? Reflect.construct(t, arguments, this.constructor) : t.apply(this, arguments);
+    };
+    r.prototype = t.prototype;
+  } else r = {};
+  return Object.defineProperty(r, "__esModule", { value: !0 }), Object.keys(e).forEach(function(o) {
+    var a = Object.getOwnPropertyDescriptor(e, o);
+    Object.defineProperty(r, o, a.get ? a : {
+      enumerable: !0,
+      get: function() {
+        return e[o];
+      }
+    });
+  }), r;
+}
+var Sc = { exports: {} }, Ne = {};
+/**
+ * @license React
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+var Kh;
+function iS() {
+  if (Kh) return Ne;
+  Kh = 1;
+  var e = Symbol.for("react.element"), t = Symbol.for("react.portal"), r = Symbol.for("react.fragment"), o = Symbol.for("react.strict_mode"), a = Symbol.for("react.profiler"), s = Symbol.for("react.provider"), u = Symbol.for("react.context"), f = Symbol.for("react.forward_ref"), p = Symbol.for("react.suspense"), m = Symbol.for("react.memo"), y = Symbol.for("react.lazy"), v = Symbol.iterator;
+  function _(I) {
+    return I === null || typeof I != "object" ? null : (I = v && I[v] || I["@@iterator"], typeof I == "function" ? I : null);
+  }
+  var k = { isMounted: function() {
+    return !1;
+  }, enqueueForceUpdate: function() {
+  }, enqueueReplaceState: function() {
+  }, enqueueSetState: function() {
+  } }, T = Object.assign, E = {};
+  function L(I, G, d) {
+    this.props = I, this.context = G, this.refs = E, this.updater = d || k;
+  }
+  L.prototype.isReactComponent = {}, L.prototype.setState = function(I, G) {
+    if (typeof I != "object" && typeof I != "function" && I != null) throw Error("setState(...): takes an object of state variables to update or a function which returns an object of state variables.");
+    this.updater.enqueueSetState(this, I, G, "setState");
+  }, L.prototype.forceUpdate = function(I) {
+    this.updater.enqueueForceUpdate(this, I, "forceUpdate");
+  };
+  function M() {
+  }
+  M.prototype = L.prototype;
+  function V(I, G, d) {
+    this.props = I, this.context = G, this.refs = E, this.updater = d || k;
+  }
+  var B = V.prototype = new M();
+  B.constructor = V, T(B, L.prototype), B.isPureReactComponent = !0;
+  var j = Array.isArray, N = Object.prototype.hasOwnProperty, A = { current: null }, H = { key: !0, ref: !0, __self: !0, __source: !0 };
+  function z(I, G, d) {
+    var S, w = {}, x = null, P = null;
+    if (G != null) for (S in G.ref !== void 0 && (P = G.ref), G.key !== void 0 && (x = "" + G.key), G) N.call(G, S) && !H.hasOwnProperty(S) && (w[S] = G[S]);
+    var U = arguments.length - 2;
+    if (U === 1) w.children = d;
+    else if (1 < U) {
+      for (var Q = Array(U), K = 0; K < U; K++) Q[K] = arguments[K + 2];
+      w.children = Q;
+    }
+    if (I && I.defaultProps) for (S in U = I.defaultProps, U) w[S] === void 0 && (w[S] = U[S]);
+    return { $$typeof: e, type: I, key: x, ref: P, props: w, _owner: A.current };
+  }
+  function ae(I, G) {
+    return { $$typeof: e, type: I.type, key: G, ref: I.ref, props: I.props, _owner: I._owner };
+  }
+  function X(I) {
+    return typeof I == "object" && I !== null && I.$$typeof === e;
+  }
+  function ne(I) {
+    var G = { "=": "=0", ":": "=2" };
+    return "$" + I.replace(/[=:]/g, function(d) {
+      return G[d];
+    });
+  }
+  var le = /\/+/g;
+  function pe(I, G) {
+    return typeof I == "object" && I !== null && I.key != null ? ne("" + I.key) : G.toString(36);
+  }
+  function q(I, G, d, S, w) {
+    var x = typeof I;
+    (x === "undefined" || x === "boolean") && (I = null);
+    var P = !1;
+    if (I === null) P = !0;
+    else switch (x) {
+      case "string":
+      case "number":
+        P = !0;
+        break;
+      case "object":
+        switch (I.$$typeof) {
+          case e:
+          case t:
+            P = !0;
+        }
+    }
+    if (P) return P = I, w = w(P), I = S === "" ? "." + pe(P, 0) : S, j(w) ? (d = "", I != null && (d = I.replace(le, "$&/") + "/"), q(w, G, d, "", function(K) {
+      return K;
+    })) : w != null && (X(w) && (w = ae(w, d + (!w.key || P && P.key === w.key ? "" : ("" + w.key).replace(le, "$&/") + "/") + I)), G.push(w)), 1;
+    if (P = 0, S = S === "" ? "." : S + ":", j(I)) for (var U = 0; U < I.length; U++) {
+      x = I[U];
+      var Q = S + pe(x, U);
+      P += q(x, G, d, Q, w);
+    }
+    else if (Q = _(I), typeof Q == "function") for (I = Q.call(I), U = 0; !(x = I.next()).done; ) x = x.value, Q = S + pe(x, U++), P += q(x, G, d, Q, w);
+    else if (x === "object") throw G = String(I), Error("Objects are not valid as a React child (found: " + (G === "[object Object]" ? "object with keys {" + Object.keys(I).join(", ") + "}" : G) + "). If you meant to render a collection of children, use an array instead.");
+    return P;
+  }
+  function ue(I, G, d) {
+    if (I == null) return I;
+    var S = [], w = 0;
+    return q(I, S, "", "", function(x) {
+      return G.call(d, x, w++);
+    }), S;
+  }
+  function be(I) {
+    if (I._status === -1) {
+      var G = I._result;
+      G = G(), G.then(function(d) {
+        (I._status === 0 || I._status === -1) && (I._status = 1, I._result = d);
+      }, function(d) {
+        (I._status === 0 || I._status === -1) && (I._status = 2, I._result = d);
+      }), I._status === -1 && (I._status = 0, I._result = G);
+    }
+    if (I._status === 1) return I._result.default;
+    throw I._result;
+  }
+  var ve = { current: null }, Y = { transition: null }, re = { ReactCurrentDispatcher: ve, ReactCurrentBatchConfig: Y, ReactCurrentOwner: A };
+  function C() {
+    throw Error("act(...) is not supported in production builds of React.");
+  }
+  return Ne.Children = { map: ue, forEach: function(I, G, d) {
+    ue(I, function() {
+      G.apply(this, arguments);
+    }, d);
+  }, count: function(I) {
+    var G = 0;
+    return ue(I, function() {
+      G++;
+    }), G;
+  }, toArray: function(I) {
+    return ue(I, function(G) {
+      return G;
+    }) || [];
+  }, only: function(I) {
+    if (!X(I)) throw Error("React.Children.only expected to receive a single React element child.");
+    return I;
+  } }, Ne.Component = L, Ne.Fragment = r, Ne.Profiler = a, Ne.PureComponent = V, Ne.StrictMode = o, Ne.Suspense = p, Ne.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = re, Ne.act = C, Ne.cloneElement = function(I, G, d) {
+    if (I == null) throw Error("React.cloneElement(...): The argument must be a React element, but you passed " + I + ".");
+    var S = T({}, I.props), w = I.key, x = I.ref, P = I._owner;
+    if (G != null) {
+      if (G.ref !== void 0 && (x = G.ref, P = A.current), G.key !== void 0 && (w = "" + G.key), I.type && I.type.defaultProps) var U = I.type.defaultProps;
+      for (Q in G) N.call(G, Q) && !H.hasOwnProperty(Q) && (S[Q] = G[Q] === void 0 && U !== void 0 ? U[Q] : G[Q]);
+    }
+    var Q = arguments.length - 2;
+    if (Q === 1) S.children = d;
+    else if (1 < Q) {
+      U = Array(Q);
+      for (var K = 0; K < Q; K++) U[K] = arguments[K + 2];
+      S.children = U;
+    }
+    return { $$typeof: e, type: I.type, key: w, ref: x, props: S, _owner: P };
+  }, Ne.createContext = function(I) {
+    return I = { $$typeof: u, _currentValue: I, _currentValue2: I, _threadCount: 0, Provider: null, Consumer: null, _defaultValue: null, _globalName: null }, I.Provider = { $$typeof: s, _context: I }, I.Consumer = I;
+  }, Ne.createElement = z, Ne.createFactory = function(I) {
+    var G = z.bind(null, I);
+    return G.type = I, G;
+  }, Ne.createRef = function() {
+    return { current: null };
+  }, Ne.forwardRef = function(I) {
+    return { $$typeof: f, render: I };
+  }, Ne.isValidElement = X, Ne.lazy = function(I) {
+    return { $$typeof: y, _payload: { _status: -1, _result: I }, _init: be };
+  }, Ne.memo = function(I, G) {
+    return { $$typeof: m, type: I, compare: G === void 0 ? null : G };
+  }, Ne.startTransition = function(I) {
+    var G = Y.transition;
+    Y.transition = {};
+    try {
+      I();
+    } finally {
+      Y.transition = G;
+    }
+  }, Ne.unstable_act = C, Ne.useCallback = function(I, G) {
+    return ve.current.useCallback(I, G);
+  }, Ne.useContext = function(I) {
+    return ve.current.useContext(I);
+  }, Ne.useDebugValue = function() {
+  }, Ne.useDeferredValue = function(I) {
+    return ve.current.useDeferredValue(I);
+  }, Ne.useEffect = function(I, G) {
+    return ve.current.useEffect(I, G);
+  }, Ne.useId = function() {
+    return ve.current.useId();
+  }, Ne.useImperativeHandle = function(I, G, d) {
+    return ve.current.useImperativeHandle(I, G, d);
+  }, Ne.useInsertionEffect = function(I, G) {
+    return ve.current.useInsertionEffect(I, G);
+  }, Ne.useLayoutEffect = function(I, G) {
+    return ve.current.useLayoutEffect(I, G);
+  }, Ne.useMemo = function(I, G) {
+    return ve.current.useMemo(I, G);
+  }, Ne.useReducer = function(I, G, d) {
+    return ve.current.useReducer(I, G, d);
+  }, Ne.useRef = function(I) {
+    return ve.current.useRef(I);
+  }, Ne.useState = function(I) {
+    return ve.current.useState(I);
+  }, Ne.useSyncExternalStore = function(I, G, d) {
+    return ve.current.useSyncExternalStore(I, G, d);
+  }, Ne.useTransition = function() {
+    return ve.current.useTransition();
+  }, Ne.version = "18.3.1", Ne;
+}
+var Xh;
+function Wd() {
+  return Xh || (Xh = 1, Sc.exports = iS()), Sc.exports;
+}
+var D = Wd();
+const oS = /* @__PURE__ */ _l(D);
+var Ns = {}, kc = { exports: {} }, Qt = {}, _c = { exports: {} }, bc = {};
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+var em;
+function aS() {
+  return em || (em = 1, function(e) {
+    function t(Y, re) {
+      var C = Y.length;
+      Y.push(re);
+      e: for (; 0 < C; ) {
+        var I = C - 1 >>> 1, G = Y[I];
+        if (0 < a(G, re)) Y[I] = re, Y[C] = G, C = I;
+        else break e;
+      }
+    }
+    function r(Y) {
+      return Y.length === 0 ? null : Y[0];
+    }
+    function o(Y) {
+      if (Y.length === 0) return null;
+      var re = Y[0], C = Y.pop();
+      if (C !== re) {
+        Y[0] = C;
+        e: for (var I = 0, G = Y.length, d = G >>> 1; I < d; ) {
+          var S = 2 * (I + 1) - 1, w = Y[S], x = S + 1, P = Y[x];
+          if (0 > a(w, C)) x < G && 0 > a(P, w) ? (Y[I] = P, Y[x] = C, I = x) : (Y[I] = w, Y[S] = C, I = S);
+          else if (x < G && 0 > a(P, C)) Y[I] = P, Y[x] = C, I = x;
+          else break e;
+        }
+      }
+      return re;
+    }
+    function a(Y, re) {
+      var C = Y.sortIndex - re.sortIndex;
+      return C !== 0 ? C : Y.id - re.id;
+    }
+    if (typeof performance == "object" && typeof performance.now == "function") {
+      var s = performance;
+      e.unstable_now = function() {
+        return s.now();
+      };
+    } else {
+      var u = Date, f = u.now();
+      e.unstable_now = function() {
+        return u.now() - f;
+      };
+    }
+    var p = [], m = [], y = 1, v = null, _ = 3, k = !1, T = !1, E = !1, L = typeof setTimeout == "function" ? setTimeout : null, M = typeof clearTimeout == "function" ? clearTimeout : null, V = typeof setImmediate < "u" ? setImmediate : null;
+    typeof navigator < "u" && navigator.scheduling !== void 0 && navigator.scheduling.isInputPending !== void 0 && navigator.scheduling.isInputPending.bind(navigator.scheduling);
+    function B(Y) {
+      for (var re = r(m); re !== null; ) {
+        if (re.callback === null) o(m);
+        else if (re.startTime <= Y) o(m), re.sortIndex = re.expirationTime, t(p, re);
+        else break;
+        re = r(m);
+      }
+    }
+    function j(Y) {
+      if (E = !1, B(Y), !T) if (r(p) !== null) T = !0, be(N);
+      else {
+        var re = r(m);
+        re !== null && ve(j, re.startTime - Y);
+      }
+    }
+    function N(Y, re) {
+      T = !1, E && (E = !1, M(z), z = -1), k = !0;
+      var C = _;
+      try {
+        for (B(re), v = r(p); v !== null && (!(v.expirationTime > re) || Y && !ne()); ) {
+          var I = v.callback;
+          if (typeof I == "function") {
+            v.callback = null, _ = v.priorityLevel;
+            var G = I(v.expirationTime <= re);
+            re = e.unstable_now(), typeof G == "function" ? v.callback = G : v === r(p) && o(p), B(re);
+          } else o(p);
+          v = r(p);
+        }
+        if (v !== null) var d = !0;
+        else {
+          var S = r(m);
+          S !== null && ve(j, S.startTime - re), d = !1;
+        }
+        return d;
+      } finally {
+        v = null, _ = C, k = !1;
+      }
+    }
+    var A = !1, H = null, z = -1, ae = 5, X = -1;
+    function ne() {
+      return !(e.unstable_now() - X < ae);
+    }
+    function le() {
+      if (H !== null) {
+        var Y = e.unstable_now();
+        X = Y;
+        var re = !0;
+        try {
+          re = H(!0, Y);
+        } finally {
+          re ? pe() : (A = !1, H = null);
+        }
+      } else A = !1;
+    }
+    var pe;
+    if (typeof V == "function") pe = function() {
+      V(le);
+    };
+    else if (typeof MessageChannel < "u") {
+      var q = new MessageChannel(), ue = q.port2;
+      q.port1.onmessage = le, pe = function() {
+        ue.postMessage(null);
+      };
+    } else pe = function() {
+      L(le, 0);
+    };
+    function be(Y) {
+      H = Y, A || (A = !0, pe());
+    }
+    function ve(Y, re) {
+      z = L(function() {
+        Y(e.unstable_now());
+      }, re);
+    }
+    e.unstable_IdlePriority = 5, e.unstable_ImmediatePriority = 1, e.unstable_LowPriority = 4, e.unstable_NormalPriority = 3, e.unstable_Profiling = null, e.unstable_UserBlockingPriority = 2, e.unstable_cancelCallback = function(Y) {
+      Y.callback = null;
+    }, e.unstable_continueExecution = function() {
+      T || k || (T = !0, be(N));
+    }, e.unstable_forceFrameRate = function(Y) {
+      0 > Y || 125 < Y ? console.error("forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported") : ae = 0 < Y ? Math.floor(1e3 / Y) : 5;
+    }, e.unstable_getCurrentPriorityLevel = function() {
+      return _;
+    }, e.unstable_getFirstCallbackNode = function() {
+      return r(p);
+    }, e.unstable_next = function(Y) {
+      switch (_) {
+        case 1:
+        case 2:
+        case 3:
+          var re = 3;
+          break;
+        default:
+          re = _;
+      }
+      var C = _;
+      _ = re;
+      try {
+        return Y();
+      } finally {
+        _ = C;
+      }
+    }, e.unstable_pauseExecution = function() {
+    }, e.unstable_requestPaint = function() {
+    }, e.unstable_runWithPriority = function(Y, re) {
+      switch (Y) {
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+          break;
+        default:
+          Y = 3;
+      }
+      var C = _;
+      _ = Y;
+      try {
+        return re();
+      } finally {
+        _ = C;
+      }
+    }, e.unstable_scheduleCallback = function(Y, re, C) {
+      var I = e.unstable_now();
+      switch (typeof C == "object" && C !== null ? (C = C.delay, C = typeof C == "number" && 0 < C ? I + C : I) : C = I, Y) {
+        case 1:
+          var G = -1;
+          break;
+        case 2:
+          G = 250;
+          break;
+        case 5:
+          G = 1073741823;
+          break;
+        case 4:
+          G = 1e4;
+          break;
+        default:
+          G = 5e3;
+      }
+      return G = C + G, Y = { id: y++, callback: re, priorityLevel: Y, startTime: C, expirationTime: G, sortIndex: -1 }, C > I ? (Y.sortIndex = C, t(m, Y), r(p) === null && Y === r(m) && (E ? (M(z), z = -1) : E = !0, ve(j, C - I))) : (Y.sortIndex = G, t(p, Y), T || k || (T = !0, be(N))), Y;
+    }, e.unstable_shouldYield = ne, e.unstable_wrapCallback = function(Y) {
+      var re = _;
+      return function() {
+        var C = _;
+        _ = re;
+        try {
+          return Y.apply(this, arguments);
+        } finally {
+          _ = C;
+        }
+      };
+    };
+  }(bc)), bc;
+}
+var tm;
+function sS() {
+  return tm || (tm = 1, _c.exports = aS()), _c.exports;
+}
+/**
+ * @license React
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+var nm;
+function lS() {
+  if (nm) return Qt;
+  nm = 1;
+  var e = Wd(), t = sS();
+  function r(n) {
+    for (var i = "https://reactjs.org/docs/error-decoder.html?invariant=" + n, l = 1; l < arguments.length; l++) i += "&args[]=" + encodeURIComponent(arguments[l]);
+    return "Minified React error #" + n + "; visit " + i + " for the full message or use the non-minified dev environment for full errors and additional helpful warnings.";
+  }
+  var o = /* @__PURE__ */ new Set(), a = {};
+  function s(n, i) {
+    u(n, i), u(n + "Capture", i);
+  }
+  function u(n, i) {
+    for (a[n] = i, n = 0; n < i.length; n++) o.add(i[n]);
+  }
+  var f = !(typeof window > "u" || typeof window.document > "u" || typeof window.document.createElement > "u"), p = Object.prototype.hasOwnProperty, m = /^[:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD][:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD\-.0-9\u00B7\u0300-\u036F\u203F-\u2040]*$/, y = {}, v = {};
+  function _(n) {
+    return p.call(v, n) ? !0 : p.call(y, n) ? !1 : m.test(n) ? v[n] = !0 : (y[n] = !0, !1);
+  }
+  function k(n, i, l, c) {
+    if (l !== null && l.type === 0) return !1;
+    switch (typeof i) {
+      case "function":
+      case "symbol":
+        return !0;
+      case "boolean":
+        return c ? !1 : l !== null ? !l.acceptsBooleans : (n = n.toLowerCase().slice(0, 5), n !== "data-" && n !== "aria-");
+      default:
+        return !1;
+    }
+  }
+  function T(n, i, l, c) {
+    if (i === null || typeof i > "u" || k(n, i, l, c)) return !0;
+    if (c) return !1;
+    if (l !== null) switch (l.type) {
+      case 3:
+        return !i;
+      case 4:
+        return i === !1;
+      case 5:
+        return isNaN(i);
+      case 6:
+        return isNaN(i) || 1 > i;
+    }
+    return !1;
+  }
+  function E(n, i, l, c, h, g, b) {
+    this.acceptsBooleans = i === 2 || i === 3 || i === 4, this.attributeName = c, this.attributeNamespace = h, this.mustUseProperty = l, this.propertyName = n, this.type = i, this.sanitizeURL = g, this.removeEmptyString = b;
+  }
+  var L = {};
+  "children dangerouslySetInnerHTML defaultValue defaultChecked innerHTML suppressContentEditableWarning suppressHydrationWarning style".split(" ").forEach(function(n) {
+    L[n] = new E(n, 0, !1, n, null, !1, !1);
+  }), [["acceptCharset", "accept-charset"], ["className", "class"], ["htmlFor", "for"], ["httpEquiv", "http-equiv"]].forEach(function(n) {
+    var i = n[0];
+    L[i] = new E(i, 1, !1, n[1], null, !1, !1);
+  }), ["contentEditable", "draggable", "spellCheck", "value"].forEach(function(n) {
+    L[n] = new E(n, 2, !1, n.toLowerCase(), null, !1, !1);
+  }), ["autoReverse", "externalResourcesRequired", "focusable", "preserveAlpha"].forEach(function(n) {
+    L[n] = new E(n, 2, !1, n, null, !1, !1);
+  }), "allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope".split(" ").forEach(function(n) {
+    L[n] = new E(n, 3, !1, n.toLowerCase(), null, !1, !1);
+  }), ["checked", "multiple", "muted", "selected"].forEach(function(n) {
+    L[n] = new E(n, 3, !0, n, null, !1, !1);
+  }), ["capture", "download"].forEach(function(n) {
+    L[n] = new E(n, 4, !1, n, null, !1, !1);
+  }), ["cols", "rows", "size", "span"].forEach(function(n) {
+    L[n] = new E(n, 6, !1, n, null, !1, !1);
+  }), ["rowSpan", "start"].forEach(function(n) {
+    L[n] = new E(n, 5, !1, n.toLowerCase(), null, !1, !1);
+  });
+  var M = /[\-:]([a-z])/g;
+  function V(n) {
+    return n[1].toUpperCase();
+  }
+  "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height".split(" ").forEach(function(n) {
+    var i = n.replace(
+      M,
+      V
+    );
+    L[i] = new E(i, 1, !1, n, null, !1, !1);
+  }), "xlink:actuate xlink:arcrole xlink:role xlink:show xlink:title xlink:type".split(" ").forEach(function(n) {
+    var i = n.replace(M, V);
+    L[i] = new E(i, 1, !1, n, "http://www.w3.org/1999/xlink", !1, !1);
+  }), ["xml:base", "xml:lang", "xml:space"].forEach(function(n) {
+    var i = n.replace(M, V);
+    L[i] = new E(i, 1, !1, n, "http://www.w3.org/XML/1998/namespace", !1, !1);
+  }), ["tabIndex", "crossOrigin"].forEach(function(n) {
+    L[n] = new E(n, 1, !1, n.toLowerCase(), null, !1, !1);
+  }), L.xlinkHref = new E("xlinkHref", 1, !1, "xlink:href", "http://www.w3.org/1999/xlink", !0, !1), ["src", "href", "action", "formAction"].forEach(function(n) {
+    L[n] = new E(n, 1, !1, n.toLowerCase(), null, !0, !0);
+  });
+  function B(n, i, l, c) {
+    var h = L.hasOwnProperty(i) ? L[i] : null;
+    (h !== null ? h.type !== 0 : c || !(2 < i.length) || i[0] !== "o" && i[0] !== "O" || i[1] !== "n" && i[1] !== "N") && (T(i, l, h, c) && (l = null), c || h === null ? _(i) && (l === null ? n.removeAttribute(i) : n.setAttribute(i, "" + l)) : h.mustUseProperty ? n[h.propertyName] = l === null ? h.type === 3 ? !1 : "" : l : (i = h.attributeName, c = h.attributeNamespace, l === null ? n.removeAttribute(i) : (h = h.type, l = h === 3 || h === 4 && l === !0 ? "" : "" + l, c ? n.setAttributeNS(c, i, l) : n.setAttribute(i, l))));
+  }
+  var j = e.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED, N = Symbol.for("react.element"), A = Symbol.for("react.portal"), H = Symbol.for("react.fragment"), z = Symbol.for("react.strict_mode"), ae = Symbol.for("react.profiler"), X = Symbol.for("react.provider"), ne = Symbol.for("react.context"), le = Symbol.for("react.forward_ref"), pe = Symbol.for("react.suspense"), q = Symbol.for("react.suspense_list"), ue = Symbol.for("react.memo"), be = Symbol.for("react.lazy"), ve = Symbol.for("react.offscreen"), Y = Symbol.iterator;
+  function re(n) {
+    return n === null || typeof n != "object" ? null : (n = Y && n[Y] || n["@@iterator"], typeof n == "function" ? n : null);
+  }
+  var C = Object.assign, I;
+  function G(n) {
+    if (I === void 0) try {
+      throw Error();
+    } catch (l) {
+      var i = l.stack.trim().match(/\n( *(at )?)/);
+      I = i && i[1] || "";
+    }
+    return `
+` + I + n;
+  }
+  var d = !1;
+  function S(n, i) {
+    if (!n || d) return "";
+    d = !0;
+    var l = Error.prepareStackTrace;
+    Error.prepareStackTrace = void 0;
+    try {
+      if (i) if (i = function() {
+        throw Error();
+      }, Object.defineProperty(i.prototype, "props", { set: function() {
+        throw Error();
+      } }), typeof Reflect == "object" && Reflect.construct) {
+        try {
+          Reflect.construct(i, []);
+        } catch (W) {
+          var c = W;
+        }
+        Reflect.construct(n, [], i);
+      } else {
+        try {
+          i.call();
+        } catch (W) {
+          c = W;
+        }
+        n.call(i.prototype);
+      }
+      else {
+        try {
+          throw Error();
+        } catch (W) {
+          c = W;
+        }
+        n();
+      }
+    } catch (W) {
+      if (W && c && typeof W.stack == "string") {
+        for (var h = W.stack.split(`
+`), g = c.stack.split(`
+`), b = h.length - 1, O = g.length - 1; 1 <= b && 0 <= O && h[b] !== g[O]; ) O--;
+        for (; 1 <= b && 0 <= O; b--, O--) if (h[b] !== g[O]) {
+          if (b !== 1 || O !== 1)
+            do
+              if (b--, O--, 0 > O || h[b] !== g[O]) {
+                var R = `
+` + h[b].replace(" at new ", " at ");
+                return n.displayName && R.includes("<anonymous>") && (R = R.replace("<anonymous>", n.displayName)), R;
+              }
+            while (1 <= b && 0 <= O);
+          break;
+        }
+      }
+    } finally {
+      d = !1, Error.prepareStackTrace = l;
+    }
+    return (n = n ? n.displayName || n.name : "") ? G(n) : "";
+  }
+  function w(n) {
+    switch (n.tag) {
+      case 5:
+        return G(n.type);
+      case 16:
+        return G("Lazy");
+      case 13:
+        return G("Suspense");
+      case 19:
+        return G("SuspenseList");
+      case 0:
+      case 2:
+      case 15:
+        return n = S(n.type, !1), n;
+      case 11:
+        return n = S(n.type.render, !1), n;
+      case 1:
+        return n = S(n.type, !0), n;
+      default:
+        return "";
+    }
+  }
+  function x(n) {
+    if (n == null) return null;
+    if (typeof n == "function") return n.displayName || n.name || null;
+    if (typeof n == "string") return n;
+    switch (n) {
+      case H:
+        return "Fragment";
+      case A:
+        return "Portal";
+      case ae:
+        return "Profiler";
+      case z:
+        return "StrictMode";
+      case pe:
+        return "Suspense";
+      case q:
+        return "SuspenseList";
+    }
+    if (typeof n == "object") switch (n.$$typeof) {
+      case ne:
+        return (n.displayName || "Context") + ".Consumer";
+      case X:
+        return (n._context.displayName || "Context") + ".Provider";
+      case le:
+        var i = n.render;
+        return n = n.displayName, n || (n = i.displayName || i.name || "", n = n !== "" ? "ForwardRef(" + n + ")" : "ForwardRef"), n;
+      case ue:
+        return i = n.displayName || null, i !== null ? i : x(n.type) || "Memo";
+      case be:
+        i = n._payload, n = n._init;
+        try {
+          return x(n(i));
+        } catch {
+        }
+    }
+    return null;
+  }
+  function P(n) {
+    var i = n.type;
+    switch (n.tag) {
+      case 24:
+        return "Cache";
+      case 9:
+        return (i.displayName || "Context") + ".Consumer";
+      case 10:
+        return (i._context.displayName || "Context") + ".Provider";
+      case 18:
+        return "DehydratedFragment";
+      case 11:
+        return n = i.render, n = n.displayName || n.name || "", i.displayName || (n !== "" ? "ForwardRef(" + n + ")" : "ForwardRef");
+      case 7:
+        return "Fragment";
+      case 5:
+        return i;
+      case 4:
+        return "Portal";
+      case 3:
+        return "Root";
+      case 6:
+        return "Text";
+      case 16:
+        return x(i);
+      case 8:
+        return i === z ? "StrictMode" : "Mode";
+      case 22:
+        return "Offscreen";
+      case 12:
+        return "Profiler";
+      case 21:
+        return "Scope";
+      case 13:
+        return "Suspense";
+      case 19:
+        return "SuspenseList";
+      case 25:
+        return "TracingMarker";
+      case 1:
+      case 0:
+      case 17:
+      case 2:
+      case 14:
+      case 15:
+        if (typeof i == "function") return i.displayName || i.name || null;
+        if (typeof i == "string") return i;
+    }
+    return null;
+  }
+  function U(n) {
+    switch (typeof n) {
+      case "boolean":
+      case "number":
+      case "string":
+      case "undefined":
+        return n;
+      case "object":
+        return n;
+      default:
+        return "";
+    }
+  }
+  function Q(n) {
+    var i = n.type;
+    return (n = n.nodeName) && n.toLowerCase() === "input" && (i === "checkbox" || i === "radio");
+  }
+  function K(n) {
+    var i = Q(n) ? "checked" : "value", l = Object.getOwnPropertyDescriptor(n.constructor.prototype, i), c = "" + n[i];
+    if (!n.hasOwnProperty(i) && typeof l < "u" && typeof l.get == "function" && typeof l.set == "function") {
+      var h = l.get, g = l.set;
+      return Object.defineProperty(n, i, { configurable: !0, get: function() {
+        return h.call(this);
+      }, set: function(b) {
+        c = "" + b, g.call(this, b);
+      } }), Object.defineProperty(n, i, { enumerable: l.enumerable }), { getValue: function() {
+        return c;
+      }, setValue: function(b) {
+        c = "" + b;
+      }, stopTracking: function() {
+        n._valueTracker = null, delete n[i];
+      } };
+    }
+  }
+  function he(n) {
+    n._valueTracker || (n._valueTracker = K(n));
+  }
+  function Te(n) {
+    if (!n) return !1;
+    var i = n._valueTracker;
+    if (!i) return !0;
+    var l = i.getValue(), c = "";
+    return n && (c = Q(n) ? n.checked ? "true" : "false" : n.value), n = c, n !== l ? (i.setValue(n), !0) : !1;
+  }
+  function Oe(n) {
+    if (n = n || (typeof document < "u" ? document : void 0), typeof n > "u") return null;
+    try {
+      return n.activeElement || n.body;
+    } catch {
+      return n.body;
+    }
+  }
+  function gt(n, i) {
+    var l = i.checked;
+    return C({}, i, { defaultChecked: void 0, defaultValue: void 0, value: void 0, checked: l ?? n._wrapperState.initialChecked });
+  }
+  function Rt(n, i) {
+    var l = i.defaultValue == null ? "" : i.defaultValue, c = i.checked != null ? i.checked : i.defaultChecked;
+    l = U(i.value != null ? i.value : l), n._wrapperState = { initialChecked: c, initialValue: l, controlled: i.type === "checkbox" || i.type === "radio" ? i.checked != null : i.value != null };
+  }
+  function en(n, i) {
+    i = i.checked, i != null && B(n, "checked", i, !1);
+  }
+  function Je(n, i) {
+    en(n, i);
+    var l = U(i.value), c = i.type;
+    if (l != null) c === "number" ? (l === 0 && n.value === "" || n.value != l) && (n.value = "" + l) : n.value !== "" + l && (n.value = "" + l);
+    else if (c === "submit" || c === "reset") {
+      n.removeAttribute("value");
+      return;
+    }
+    i.hasOwnProperty("value") ? At(n, i.type, l) : i.hasOwnProperty("defaultValue") && At(n, i.type, U(i.defaultValue)), i.checked == null && i.defaultChecked != null && (n.defaultChecked = !!i.defaultChecked);
+  }
+  function ft(n, i, l) {
+    if (i.hasOwnProperty("value") || i.hasOwnProperty("defaultValue")) {
+      var c = i.type;
+      if (!(c !== "submit" && c !== "reset" || i.value !== void 0 && i.value !== null)) return;
+      i = "" + n._wrapperState.initialValue, l || i === n.value || (n.value = i), n.defaultValue = i;
+    }
+    l = n.name, l !== "" && (n.name = ""), n.defaultChecked = !!n._wrapperState.initialChecked, l !== "" && (n.name = l);
+  }
+  function At(n, i, l) {
+    (i !== "number" || Oe(n.ownerDocument) !== n) && (l == null ? n.defaultValue = "" + n._wrapperState.initialValue : n.defaultValue !== "" + l && (n.defaultValue = "" + l));
+  }
+  var yt = Array.isArray;
+  function _t(n, i, l, c) {
+    if (n = n.options, i) {
+      i = {};
+      for (var h = 0; h < l.length; h++) i["$" + l[h]] = !0;
+      for (l = 0; l < n.length; l++) h = i.hasOwnProperty("$" + n[l].value), n[l].selected !== h && (n[l].selected = h), h && c && (n[l].defaultSelected = !0);
+    } else {
+      for (l = "" + U(l), i = null, h = 0; h < n.length; h++) {
+        if (n[h].value === l) {
+          n[h].selected = !0, c && (n[h].defaultSelected = !0);
+          return;
+        }
+        i !== null || n[h].disabled || (i = n[h]);
+      }
+      i !== null && (i.selected = !0);
+    }
+  }
+  function tn(n, i) {
+    if (i.dangerouslySetInnerHTML != null) throw Error(r(91));
+    return C({}, i, { value: void 0, defaultValue: void 0, children: "" + n._wrapperState.initialValue });
+  }
+  function hn(n, i) {
+    var l = i.value;
+    if (l == null) {
+      if (l = i.children, i = i.defaultValue, l != null) {
+        if (i != null) throw Error(r(92));
+        if (yt(l)) {
+          if (1 < l.length) throw Error(r(93));
+          l = l[0];
+        }
+        i = l;
+      }
+      i == null && (i = ""), l = i;
+    }
+    n._wrapperState = { initialValue: U(l) };
+  }
+  function xn(n, i) {
+    var l = U(i.value), c = U(i.defaultValue);
+    l != null && (l = "" + l, l !== n.value && (n.value = l), i.defaultValue == null && n.defaultValue !== l && (n.defaultValue = l)), c != null && (n.defaultValue = "" + c);
+  }
+  function Tn(n) {
+    var i = n.textContent;
+    i === n._wrapperState.initialValue && i !== "" && i !== null && (n.value = i);
+  }
+  function Z(n) {
+    switch (n) {
+      case "svg":
+        return "http://www.w3.org/2000/svg";
+      case "math":
+        return "http://www.w3.org/1998/Math/MathML";
+      default:
+        return "http://www.w3.org/1999/xhtml";
+    }
+  }
+  function fe(n, i) {
+    return n == null || n === "http://www.w3.org/1999/xhtml" ? Z(i) : n === "http://www.w3.org/2000/svg" && i === "foreignObject" ? "http://www.w3.org/1999/xhtml" : n;
+  }
+  var Ee, Le = function(n) {
+    return typeof MSApp < "u" && MSApp.execUnsafeLocalFunction ? function(i, l, c, h) {
+      MSApp.execUnsafeLocalFunction(function() {
+        return n(i, l, c, h);
+      });
+    } : n;
+  }(function(n, i) {
+    if (n.namespaceURI !== "http://www.w3.org/2000/svg" || "innerHTML" in n) n.innerHTML = i;
+    else {
+      for (Ee = Ee || document.createElement("div"), Ee.innerHTML = "<svg>" + i.valueOf().toString() + "</svg>", i = Ee.firstChild; n.firstChild; ) n.removeChild(n.firstChild);
+      for (; i.firstChild; ) n.appendChild(i.firstChild);
+    }
+  });
+  function je(n, i) {
+    if (i) {
+      var l = n.firstChild;
+      if (l && l === n.lastChild && l.nodeType === 3) {
+        l.nodeValue = i;
+        return;
+      }
+    }
+    n.textContent = i;
+  }
+  var at = {
+    animationIterationCount: !0,
+    aspectRatio: !0,
+    borderImageOutset: !0,
+    borderImageSlice: !0,
+    borderImageWidth: !0,
+    boxFlex: !0,
+    boxFlexGroup: !0,
+    boxOrdinalGroup: !0,
+    columnCount: !0,
+    columns: !0,
+    flex: !0,
+    flexGrow: !0,
+    flexPositive: !0,
+    flexShrink: !0,
+    flexNegative: !0,
+    flexOrder: !0,
+    gridArea: !0,
+    gridRow: !0,
+    gridRowEnd: !0,
+    gridRowSpan: !0,
+    gridRowStart: !0,
+    gridColumn: !0,
+    gridColumnEnd: !0,
+    gridColumnSpan: !0,
+    gridColumnStart: !0,
+    fontWeight: !0,
+    lineClamp: !0,
+    lineHeight: !0,
+    opacity: !0,
+    order: !0,
+    orphans: !0,
+    tabSize: !0,
+    widows: !0,
+    zIndex: !0,
+    zoom: !0,
+    fillOpacity: !0,
+    floodOpacity: !0,
+    stopOpacity: !0,
+    strokeDasharray: !0,
+    strokeDashoffset: !0,
+    strokeMiterlimit: !0,
+    strokeOpacity: !0,
+    strokeWidth: !0
+  }, An = ["Webkit", "ms", "Moz", "O"];
+  Object.keys(at).forEach(function(n) {
+    An.forEach(function(i) {
+      i = i + n.charAt(0).toUpperCase() + n.substring(1), at[i] = at[n];
+    });
+  });
+  function Mt(n, i, l) {
+    return i == null || typeof i == "boolean" || i === "" ? "" : l || typeof i != "number" || i === 0 || at.hasOwnProperty(n) && at[n] ? ("" + i).trim() : i + "px";
+  }
+  function Vn(n, i) {
+    n = n.style;
+    for (var l in i) if (i.hasOwnProperty(l)) {
+      var c = l.indexOf("--") === 0, h = Mt(l, i[l], c);
+      l === "float" && (l = "cssFloat"), c ? n.setProperty(l, h) : n[l] = h;
+    }
+  }
+  var Qn = C({ menuitem: !0 }, { area: !0, base: !0, br: !0, col: !0, embed: !0, hr: !0, img: !0, input: !0, keygen: !0, link: !0, meta: !0, param: !0, source: !0, track: !0, wbr: !0 });
+  function pt(n, i) {
+    if (i) {
+      if (Qn[n] && (i.children != null || i.dangerouslySetInnerHTML != null)) throw Error(r(137, n));
+      if (i.dangerouslySetInnerHTML != null) {
+        if (i.children != null) throw Error(r(60));
+        if (typeof i.dangerouslySetInnerHTML != "object" || !("__html" in i.dangerouslySetInnerHTML)) throw Error(r(61));
+      }
+      if (i.style != null && typeof i.style != "object") throw Error(r(62));
+    }
+  }
+  function $t(n, i) {
+    if (n.indexOf("-") === -1) return typeof i.is == "string";
+    switch (n) {
+      case "annotation-xml":
+      case "color-profile":
+      case "font-face":
+      case "font-face-src":
+      case "font-face-uri":
+      case "font-face-format":
+      case "font-face-name":
+      case "missing-glyph":
+        return !1;
+      default:
+        return !0;
+    }
+  }
+  var Ft = null;
+  function ho(n) {
+    return n = n.target || n.srcElement || window, n.correspondingUseElement && (n = n.correspondingUseElement), n.nodeType === 3 ? n.parentNode : n;
+  }
+  var mo = null, gr = null, Zn = null;
+  function go(n) {
+    if (n = Fo(n)) {
+      if (typeof mo != "function") throw Error(r(280));
+      var i = n.stateNode;
+      i && (i = Za(i), mo(n.stateNode, n.type, i));
+    }
+  }
+  function yo(n) {
+    gr ? Zn ? Zn.push(n) : Zn = [n] : gr = n;
+  }
+  function vo() {
+    if (gr) {
+      var n = gr, i = Zn;
+      if (Zn = gr = null, go(n), i) for (n = 0; n < i.length; n++) go(i[n]);
+    }
+  }
+  function Ea(n, i) {
+    return n(i);
+  }
+  function bi() {
+  }
+  var Jr = !1;
+  function Ca(n, i, l) {
+    if (Jr) return n(i, l);
+    Jr = !0;
+    try {
+      return Ea(n, i, l);
+    } finally {
+      Jr = !1, (gr !== null || Zn !== null) && (bi(), vo());
+    }
+  }
+  function Wr(n, i) {
+    var l = n.stateNode;
+    if (l === null) return null;
+    var c = Za(l);
+    if (c === null) return null;
+    l = c[i];
+    e: switch (i) {
+      case "onClick":
+      case "onClickCapture":
+      case "onDoubleClick":
+      case "onDoubleClickCapture":
+      case "onMouseDown":
+      case "onMouseDownCapture":
+      case "onMouseMove":
+      case "onMouseMoveCapture":
+      case "onMouseUp":
+      case "onMouseUpCapture":
+      case "onMouseEnter":
+        (c = !c.disabled) || (n = n.type, c = !(n === "button" || n === "input" || n === "select" || n === "textarea")), n = !c;
+        break e;
+      default:
+        n = !1;
+    }
+    if (n) return null;
+    if (l && typeof l != "function") throw Error(r(231, i, typeof l));
+    return l;
+  }
+  var Gr = !1;
+  if (f) try {
+    var Yr = {};
+    Object.defineProperty(Yr, "passive", { get: function() {
+      Gr = !0;
+    } }), window.addEventListener("test", Yr, Yr), window.removeEventListener("test", Yr, Yr);
+  } catch {
+    Gr = !1;
+  }
+  function jl(n, i, l, c, h, g, b, O, R) {
+    var W = Array.prototype.slice.call(arguments, 3);
+    try {
+      i.apply(l, W);
+    } catch (oe) {
+      this.onError(oe);
+    }
+  }
+  var yr = !1, Ei = null, ke = !1, ut = null, Af = { onError: function(n) {
+    yr = !0, Ei = n;
+  } };
+  function bt(n, i, l, c, h, g, b, O, R) {
+    yr = !1, Ei = null, jl.apply(Af, arguments);
+  }
+  function Nl(n, i, l, c, h, g, b, O, R) {
+    if (bt.apply(this, arguments), yr) {
+      if (yr) {
+        var W = Ei;
+        yr = !1, Ei = null;
+      } else throw Error(r(198));
+      ke || (ke = !0, ut = W);
+    }
+  }
+  function Kn(n) {
+    var i = n, l = n;
+    if (n.alternate) for (; i.return; ) i = i.return;
+    else {
+      n = i;
+      do
+        i = n, (i.flags & 4098) !== 0 && (l = i.return), n = i.return;
+      while (n);
+    }
+    return i.tag === 3 ? l : null;
+  }
+  function xa(n) {
+    if (n.tag === 13) {
+      var i = n.memoizedState;
+      if (i === null && (n = n.alternate, n !== null && (i = n.memoizedState)), i !== null) return i.dehydrated;
+    }
+    return null;
+  }
+  function Ta(n) {
+    if (Kn(n) !== n) throw Error(r(188));
+  }
+  function Rl(n) {
+    var i = n.alternate;
+    if (!i) {
+      if (i = Kn(n), i === null) throw Error(r(188));
+      return i !== n ? null : n;
+    }
+    for (var l = n, c = i; ; ) {
+      var h = l.return;
+      if (h === null) break;
+      var g = h.alternate;
+      if (g === null) {
+        if (c = h.return, c !== null) {
+          l = c;
+          continue;
+        }
+        break;
+      }
+      if (h.child === g.child) {
+        for (g = h.child; g; ) {
+          if (g === l) return Ta(h), n;
+          if (g === c) return Ta(h), i;
+          g = g.sibling;
+        }
+        throw Error(r(188));
+      }
+      if (l.return !== c.return) l = h, c = g;
+      else {
+        for (var b = !1, O = h.child; O; ) {
+          if (O === l) {
+            b = !0, l = h, c = g;
+            break;
+          }
+          if (O === c) {
+            b = !0, c = h, l = g;
+            break;
+          }
+          O = O.sibling;
+        }
+        if (!b) {
+          for (O = g.child; O; ) {
+            if (O === l) {
+              b = !0, l = g, c = h;
+              break;
+            }
+            if (O === c) {
+              b = !0, c = g, l = h;
+              break;
+            }
+            O = O.sibling;
+          }
+          if (!b) throw Error(r(189));
+        }
+      }
+      if (l.alternate !== c) throw Error(r(190));
+    }
+    if (l.tag !== 3) throw Error(r(188));
+    return l.stateNode.current === l ? n : i;
+  }
+  function Aa(n) {
+    return n = Rl(n), n !== null ? Ma(n) : null;
+  }
+  function Ma(n) {
+    if (n.tag === 5 || n.tag === 6) return n;
+    for (n = n.child; n !== null; ) {
+      var i = Ma(n);
+      if (i !== null) return i;
+      n = n.sibling;
+    }
+    return null;
+  }
+  var Ci = t.unstable_scheduleCallback, wo = t.unstable_cancelCallback, Pa = t.unstable_shouldYield, Fl = t.unstable_requestPaint, nt = t.unstable_now, Vl = t.unstable_getCurrentPriorityLevel, xi = t.unstable_ImmediatePriority, Oa = t.unstable_UserBlockingPriority, Xn = t.unstable_NormalPriority, zl = t.unstable_LowPriority, Ia = t.unstable_IdlePriority, Ti = null, He = null;
+  function nn(n) {
+    if (He && typeof He.onCommitFiberRoot == "function") try {
+      He.onCommitFiberRoot(Ti, n, void 0, (n.current.flags & 128) === 128);
+    } catch {
+    }
+  }
+  var Et = Math.clz32 ? Math.clz32 : k1, w1 = Math.log, S1 = Math.LN2;
+  function k1(n) {
+    return n >>>= 0, n === 0 ? 32 : 31 - (w1(n) / S1 | 0) | 0;
+  }
+  var La = 64, Da = 4194304;
+  function So(n) {
+    switch (n & -n) {
+      case 1:
+        return 1;
+      case 2:
+        return 2;
+      case 4:
+        return 4;
+      case 8:
+        return 8;
+      case 16:
+        return 16;
+      case 32:
+        return 32;
+      case 64:
+      case 128:
+      case 256:
+      case 512:
+      case 1024:
+      case 2048:
+      case 4096:
+      case 8192:
+      case 16384:
+      case 32768:
+      case 65536:
+      case 131072:
+      case 262144:
+      case 524288:
+      case 1048576:
+      case 2097152:
+        return n & 4194240;
+      case 4194304:
+      case 8388608:
+      case 16777216:
+      case 33554432:
+      case 67108864:
+        return n & 130023424;
+      case 134217728:
+        return 134217728;
+      case 268435456:
+        return 268435456;
+      case 536870912:
+        return 536870912;
+      case 1073741824:
+        return 1073741824;
+      default:
+        return n;
+    }
+  }
+  function ja(n, i) {
+    var l = n.pendingLanes;
+    if (l === 0) return 0;
+    var c = 0, h = n.suspendedLanes, g = n.pingedLanes, b = l & 268435455;
+    if (b !== 0) {
+      var O = b & ~h;
+      O !== 0 ? c = So(O) : (g &= b, g !== 0 && (c = So(g)));
+    } else b = l & ~h, b !== 0 ? c = So(b) : g !== 0 && (c = So(g));
+    if (c === 0) return 0;
+    if (i !== 0 && i !== c && (i & h) === 0 && (h = c & -c, g = i & -i, h >= g || h === 16 && (g & 4194240) !== 0)) return i;
+    if ((c & 4) !== 0 && (c |= l & 16), i = n.entangledLanes, i !== 0) for (n = n.entanglements, i &= c; 0 < i; ) l = 31 - Et(i), h = 1 << l, c |= n[l], i &= ~h;
+    return c;
+  }
+  function _1(n, i) {
+    switch (n) {
+      case 1:
+      case 2:
+      case 4:
+        return i + 250;
+      case 8:
+      case 16:
+      case 32:
+      case 64:
+      case 128:
+      case 256:
+      case 512:
+      case 1024:
+      case 2048:
+      case 4096:
+      case 8192:
+      case 16384:
+      case 32768:
+      case 65536:
+      case 131072:
+      case 262144:
+      case 524288:
+      case 1048576:
+      case 2097152:
+        return i + 5e3;
+      case 4194304:
+      case 8388608:
+      case 16777216:
+      case 33554432:
+      case 67108864:
+        return -1;
+      case 134217728:
+      case 268435456:
+      case 536870912:
+      case 1073741824:
+        return -1;
+      default:
+        return -1;
+    }
+  }
+  function b1(n, i) {
+    for (var l = n.suspendedLanes, c = n.pingedLanes, h = n.expirationTimes, g = n.pendingLanes; 0 < g; ) {
+      var b = 31 - Et(g), O = 1 << b, R = h[b];
+      R === -1 ? ((O & l) === 0 || (O & c) !== 0) && (h[b] = _1(O, i)) : R <= i && (n.expiredLanes |= O), g &= ~O;
+    }
+  }
+  function Bl(n) {
+    return n = n.pendingLanes & -1073741825, n !== 0 ? n : n & 1073741824 ? 1073741824 : 0;
+  }
+  function Mf() {
+    var n = La;
+    return La <<= 1, (La & 4194240) === 0 && (La = 64), n;
+  }
+  function Ul(n) {
+    for (var i = [], l = 0; 31 > l; l++) i.push(n);
+    return i;
+  }
+  function ko(n, i, l) {
+    n.pendingLanes |= i, i !== 536870912 && (n.suspendedLanes = 0, n.pingedLanes = 0), n = n.eventTimes, i = 31 - Et(i), n[i] = l;
+  }
+  function E1(n, i) {
+    var l = n.pendingLanes & ~i;
+    n.pendingLanes = i, n.suspendedLanes = 0, n.pingedLanes = 0, n.expiredLanes &= i, n.mutableReadLanes &= i, n.entangledLanes &= i, i = n.entanglements;
+    var c = n.eventTimes;
+    for (n = n.expirationTimes; 0 < l; ) {
+      var h = 31 - Et(l), g = 1 << h;
+      i[h] = 0, c[h] = -1, n[h] = -1, l &= ~g;
+    }
+  }
+  function ql(n, i) {
+    var l = n.entangledLanes |= i;
+    for (n = n.entanglements; l; ) {
+      var c = 31 - Et(l), h = 1 << c;
+      h & i | n[c] & i && (n[c] |= i), l &= ~h;
+    }
+  }
+  var $e = 0;
+  function Pf(n) {
+    return n &= -n, 1 < n ? 4 < n ? (n & 268435455) !== 0 ? 16 : 536870912 : 4 : 1;
+  }
+  var Of, $l, If, Lf, Df, Hl = !1, Na = [], vr = null, wr = null, Sr = null, _o = /* @__PURE__ */ new Map(), bo = /* @__PURE__ */ new Map(), kr = [], C1 = "mousedown mouseup touchcancel touchend touchstart auxclick dblclick pointercancel pointerdown pointerup dragend dragstart drop compositionend compositionstart keydown keypress keyup input textInput copy cut paste click change contextmenu reset submit".split(" ");
+  function jf(n, i) {
+    switch (n) {
+      case "focusin":
+      case "focusout":
+        vr = null;
+        break;
+      case "dragenter":
+      case "dragleave":
+        wr = null;
+        break;
+      case "mouseover":
+      case "mouseout":
+        Sr = null;
+        break;
+      case "pointerover":
+      case "pointerout":
+        _o.delete(i.pointerId);
+        break;
+      case "gotpointercapture":
+      case "lostpointercapture":
+        bo.delete(i.pointerId);
+    }
+  }
+  function Eo(n, i, l, c, h, g) {
+    return n === null || n.nativeEvent !== g ? (n = { blockedOn: i, domEventName: l, eventSystemFlags: c, nativeEvent: g, targetContainers: [h] }, i !== null && (i = Fo(i), i !== null && $l(i)), n) : (n.eventSystemFlags |= c, i = n.targetContainers, h !== null && i.indexOf(h) === -1 && i.push(h), n);
+  }
+  function x1(n, i, l, c, h) {
+    switch (i) {
+      case "focusin":
+        return vr = Eo(vr, n, i, l, c, h), !0;
+      case "dragenter":
+        return wr = Eo(wr, n, i, l, c, h), !0;
+      case "mouseover":
+        return Sr = Eo(Sr, n, i, l, c, h), !0;
+      case "pointerover":
+        var g = h.pointerId;
+        return _o.set(g, Eo(_o.get(g) || null, n, i, l, c, h)), !0;
+      case "gotpointercapture":
+        return g = h.pointerId, bo.set(g, Eo(bo.get(g) || null, n, i, l, c, h)), !0;
+    }
+    return !1;
+  }
+  function Nf(n) {
+    var i = Qr(n.target);
+    if (i !== null) {
+      var l = Kn(i);
+      if (l !== null) {
+        if (i = l.tag, i === 13) {
+          if (i = xa(l), i !== null) {
+            n.blockedOn = i, Df(n.priority, function() {
+              If(l);
+            });
+            return;
+          }
+        } else if (i === 3 && l.stateNode.current.memoizedState.isDehydrated) {
+          n.blockedOn = l.tag === 3 ? l.stateNode.containerInfo : null;
+          return;
+        }
+      }
+    }
+    n.blockedOn = null;
+  }
+  function Ra(n) {
+    if (n.blockedOn !== null) return !1;
+    for (var i = n.targetContainers; 0 < i.length; ) {
+      var l = Wl(n.domEventName, n.eventSystemFlags, i[0], n.nativeEvent);
+      if (l === null) {
+        l = n.nativeEvent;
+        var c = new l.constructor(l.type, l);
+        Ft = c, l.target.dispatchEvent(c), Ft = null;
+      } else return i = Fo(l), i !== null && $l(i), n.blockedOn = l, !1;
+      i.shift();
+    }
+    return !0;
+  }
+  function Rf(n, i, l) {
+    Ra(n) && l.delete(i);
+  }
+  function T1() {
+    Hl = !1, vr !== null && Ra(vr) && (vr = null), wr !== null && Ra(wr) && (wr = null), Sr !== null && Ra(Sr) && (Sr = null), _o.forEach(Rf), bo.forEach(Rf);
+  }
+  function Co(n, i) {
+    n.blockedOn === i && (n.blockedOn = null, Hl || (Hl = !0, t.unstable_scheduleCallback(t.unstable_NormalPriority, T1)));
+  }
+  function xo(n) {
+    function i(h) {
+      return Co(h, n);
+    }
+    if (0 < Na.length) {
+      Co(Na[0], n);
+      for (var l = 1; l < Na.length; l++) {
+        var c = Na[l];
+        c.blockedOn === n && (c.blockedOn = null);
+      }
+    }
+    for (vr !== null && Co(vr, n), wr !== null && Co(wr, n), Sr !== null && Co(Sr, n), _o.forEach(i), bo.forEach(i), l = 0; l < kr.length; l++) c = kr[l], c.blockedOn === n && (c.blockedOn = null);
+    for (; 0 < kr.length && (l = kr[0], l.blockedOn === null); ) Nf(l), l.blockedOn === null && kr.shift();
+  }
+  var Ai = j.ReactCurrentBatchConfig, Fa = !0;
+  function A1(n, i, l, c) {
+    var h = $e, g = Ai.transition;
+    Ai.transition = null;
+    try {
+      $e = 1, Jl(n, i, l, c);
+    } finally {
+      $e = h, Ai.transition = g;
+    }
+  }
+  function M1(n, i, l, c) {
+    var h = $e, g = Ai.transition;
+    Ai.transition = null;
+    try {
+      $e = 4, Jl(n, i, l, c);
+    } finally {
+      $e = h, Ai.transition = g;
+    }
+  }
+  function Jl(n, i, l, c) {
+    if (Fa) {
+      var h = Wl(n, i, l, c);
+      if (h === null) cu(n, i, c, Va, l), jf(n, c);
+      else if (x1(h, n, i, l, c)) c.stopPropagation();
+      else if (jf(n, c), i & 4 && -1 < C1.indexOf(n)) {
+        for (; h !== null; ) {
+          var g = Fo(h);
+          if (g !== null && Of(g), g = Wl(n, i, l, c), g === null && cu(n, i, c, Va, l), g === h) break;
+          h = g;
+        }
+        h !== null && c.stopPropagation();
+      } else cu(n, i, c, null, l);
+    }
+  }
+  var Va = null;
+  function Wl(n, i, l, c) {
+    if (Va = null, n = ho(c), n = Qr(n), n !== null) if (i = Kn(n), i === null) n = null;
+    else if (l = i.tag, l === 13) {
+      if (n = xa(i), n !== null) return n;
+      n = null;
+    } else if (l === 3) {
+      if (i.stateNode.current.memoizedState.isDehydrated) return i.tag === 3 ? i.stateNode.containerInfo : null;
+      n = null;
+    } else i !== n && (n = null);
+    return Va = n, null;
+  }
+  function Ff(n) {
+    switch (n) {
+      case "cancel":
+      case "click":
+      case "close":
+      case "contextmenu":
+      case "copy":
+      case "cut":
+      case "auxclick":
+      case "dblclick":
+      case "dragend":
+      case "dragstart":
+      case "drop":
+      case "focusin":
+      case "focusout":
+      case "input":
+      case "invalid":
+      case "keydown":
+      case "keypress":
+      case "keyup":
+      case "mousedown":
+      case "mouseup":
+      case "paste":
+      case "pause":
+      case "play":
+      case "pointercancel":
+      case "pointerdown":
+      case "pointerup":
+      case "ratechange":
+      case "reset":
+      case "resize":
+      case "seeked":
+      case "submit":
+      case "touchcancel":
+      case "touchend":
+      case "touchstart":
+      case "volumechange":
+      case "change":
+      case "selectionchange":
+      case "textInput":
+      case "compositionstart":
+      case "compositionend":
+      case "compositionupdate":
+      case "beforeblur":
+      case "afterblur":
+      case "beforeinput":
+      case "blur":
+      case "fullscreenchange":
+      case "focus":
+      case "hashchange":
+      case "popstate":
+      case "select":
+      case "selectstart":
+        return 1;
+      case "drag":
+      case "dragenter":
+      case "dragexit":
+      case "dragleave":
+      case "dragover":
+      case "mousemove":
+      case "mouseout":
+      case "mouseover":
+      case "pointermove":
+      case "pointerout":
+      case "pointerover":
+      case "scroll":
+      case "toggle":
+      case "touchmove":
+      case "wheel":
+      case "mouseenter":
+      case "mouseleave":
+      case "pointerenter":
+      case "pointerleave":
+        return 4;
+      case "message":
+        switch (Vl()) {
+          case xi:
+            return 1;
+          case Oa:
+            return 4;
+          case Xn:
+          case zl:
+            return 16;
+          case Ia:
+            return 536870912;
+          default:
+            return 16;
+        }
+      default:
+        return 16;
+    }
+  }
+  var _r = null, Gl = null, za = null;
+  function Vf() {
+    if (za) return za;
+    var n, i = Gl, l = i.length, c, h = "value" in _r ? _r.value : _r.textContent, g = h.length;
+    for (n = 0; n < l && i[n] === h[n]; n++) ;
+    var b = l - n;
+    for (c = 1; c <= b && i[l - c] === h[g - c]; c++) ;
+    return za = h.slice(n, 1 < c ? 1 - c : void 0);
+  }
+  function Ba(n) {
+    var i = n.keyCode;
+    return "charCode" in n ? (n = n.charCode, n === 0 && i === 13 && (n = 13)) : n = i, n === 10 && (n = 13), 32 <= n || n === 13 ? n : 0;
+  }
+  function Ua() {
+    return !0;
+  }
+  function zf() {
+    return !1;
+  }
+  function rn(n) {
+    function i(l, c, h, g, b) {
+      this._reactName = l, this._targetInst = h, this.type = c, this.nativeEvent = g, this.target = b, this.currentTarget = null;
+      for (var O in n) n.hasOwnProperty(O) && (l = n[O], this[O] = l ? l(g) : g[O]);
+      return this.isDefaultPrevented = (g.defaultPrevented != null ? g.defaultPrevented : g.returnValue === !1) ? Ua : zf, this.isPropagationStopped = zf, this;
+    }
+    return C(i.prototype, { preventDefault: function() {
+      this.defaultPrevented = !0;
+      var l = this.nativeEvent;
+      l && (l.preventDefault ? l.preventDefault() : typeof l.returnValue != "unknown" && (l.returnValue = !1), this.isDefaultPrevented = Ua);
+    }, stopPropagation: function() {
+      var l = this.nativeEvent;
+      l && (l.stopPropagation ? l.stopPropagation() : typeof l.cancelBubble != "unknown" && (l.cancelBubble = !0), this.isPropagationStopped = Ua);
+    }, persist: function() {
+    }, isPersistent: Ua }), i;
+  }
+  var Mi = { eventPhase: 0, bubbles: 0, cancelable: 0, timeStamp: function(n) {
+    return n.timeStamp || Date.now();
+  }, defaultPrevented: 0, isTrusted: 0 }, Yl = rn(Mi), To = C({}, Mi, { view: 0, detail: 0 }), P1 = rn(To), Ql, Zl, Ao, qa = C({}, To, { screenX: 0, screenY: 0, clientX: 0, clientY: 0, pageX: 0, pageY: 0, ctrlKey: 0, shiftKey: 0, altKey: 0, metaKey: 0, getModifierState: Xl, button: 0, buttons: 0, relatedTarget: function(n) {
+    return n.relatedTarget === void 0 ? n.fromElement === n.srcElement ? n.toElement : n.fromElement : n.relatedTarget;
+  }, movementX: function(n) {
+    return "movementX" in n ? n.movementX : (n !== Ao && (Ao && n.type === "mousemove" ? (Ql = n.screenX - Ao.screenX, Zl = n.screenY - Ao.screenY) : Zl = Ql = 0, Ao = n), Ql);
+  }, movementY: function(n) {
+    return "movementY" in n ? n.movementY : Zl;
+  } }), Bf = rn(qa), O1 = C({}, qa, { dataTransfer: 0 }), I1 = rn(O1), L1 = C({}, To, { relatedTarget: 0 }), Kl = rn(L1), D1 = C({}, Mi, { animationName: 0, elapsedTime: 0, pseudoElement: 0 }), j1 = rn(D1), N1 = C({}, Mi, { clipboardData: function(n) {
+    return "clipboardData" in n ? n.clipboardData : window.clipboardData;
+  } }), R1 = rn(N1), F1 = C({}, Mi, { data: 0 }), Uf = rn(F1), V1 = {
+    Esc: "Escape",
+    Spacebar: " ",
+    Left: "ArrowLeft",
+    Up: "ArrowUp",
+    Right: "ArrowRight",
+    Down: "ArrowDown",
+    Del: "Delete",
+    Win: "OS",
+    Menu: "ContextMenu",
+    Apps: "ContextMenu",
+    Scroll: "ScrollLock",
+    MozPrintableKey: "Unidentified"
+  }, z1 = {
+    8: "Backspace",
+    9: "Tab",
+    12: "Clear",
+    13: "Enter",
+    16: "Shift",
+    17: "Control",
+    18: "Alt",
+    19: "Pause",
+    20: "CapsLock",
+    27: "Escape",
+    32: " ",
+    33: "PageUp",
+    34: "PageDown",
+    35: "End",
+    36: "Home",
+    37: "ArrowLeft",
+    38: "ArrowUp",
+    39: "ArrowRight",
+    40: "ArrowDown",
+    45: "Insert",
+    46: "Delete",
+    112: "F1",
+    113: "F2",
+    114: "F3",
+    115: "F4",
+    116: "F5",
+    117: "F6",
+    118: "F7",
+    119: "F8",
+    120: "F9",
+    121: "F10",
+    122: "F11",
+    123: "F12",
+    144: "NumLock",
+    145: "ScrollLock",
+    224: "Meta"
+  }, B1 = { Alt: "altKey", Control: "ctrlKey", Meta: "metaKey", Shift: "shiftKey" };
+  function U1(n) {
+    var i = this.nativeEvent;
+    return i.getModifierState ? i.getModifierState(n) : (n = B1[n]) ? !!i[n] : !1;
+  }
+  function Xl() {
+    return U1;
+  }
+  var q1 = C({}, To, { key: function(n) {
+    if (n.key) {
+      var i = V1[n.key] || n.key;
+      if (i !== "Unidentified") return i;
+    }
+    return n.type === "keypress" ? (n = Ba(n), n === 13 ? "Enter" : String.fromCharCode(n)) : n.type === "keydown" || n.type === "keyup" ? z1[n.keyCode] || "Unidentified" : "";
+  }, code: 0, location: 0, ctrlKey: 0, shiftKey: 0, altKey: 0, metaKey: 0, repeat: 0, locale: 0, getModifierState: Xl, charCode: function(n) {
+    return n.type === "keypress" ? Ba(n) : 0;
+  }, keyCode: function(n) {
+    return n.type === "keydown" || n.type === "keyup" ? n.keyCode : 0;
+  }, which: function(n) {
+    return n.type === "keypress" ? Ba(n) : n.type === "keydown" || n.type === "keyup" ? n.keyCode : 0;
+  } }), $1 = rn(q1), H1 = C({}, qa, { pointerId: 0, width: 0, height: 0, pressure: 0, tangentialPressure: 0, tiltX: 0, tiltY: 0, twist: 0, pointerType: 0, isPrimary: 0 }), qf = rn(H1), J1 = C({}, To, { touches: 0, targetTouches: 0, changedTouches: 0, altKey: 0, metaKey: 0, ctrlKey: 0, shiftKey: 0, getModifierState: Xl }), W1 = rn(J1), G1 = C({}, Mi, { propertyName: 0, elapsedTime: 0, pseudoElement: 0 }), Y1 = rn(G1), Q1 = C({}, qa, {
+    deltaX: function(n) {
+      return "deltaX" in n ? n.deltaX : "wheelDeltaX" in n ? -n.wheelDeltaX : 0;
+    },
+    deltaY: function(n) {
+      return "deltaY" in n ? n.deltaY : "wheelDeltaY" in n ? -n.wheelDeltaY : "wheelDelta" in n ? -n.wheelDelta : 0;
+    },
+    deltaZ: 0,
+    deltaMode: 0
+  }), Z1 = rn(Q1), K1 = [9, 13, 27, 32], eu = f && "CompositionEvent" in window, Mo = null;
+  f && "documentMode" in document && (Mo = document.documentMode);
+  var X1 = f && "TextEvent" in window && !Mo, $f = f && (!eu || Mo && 8 < Mo && 11 >= Mo), Hf = " ", Jf = !1;
+  function Wf(n, i) {
+    switch (n) {
+      case "keyup":
+        return K1.indexOf(i.keyCode) !== -1;
+      case "keydown":
+        return i.keyCode !== 229;
+      case "keypress":
+      case "mousedown":
+      case "focusout":
+        return !0;
+      default:
+        return !1;
+    }
+  }
+  function Gf(n) {
+    return n = n.detail, typeof n == "object" && "data" in n ? n.data : null;
+  }
+  var Pi = !1;
+  function ew(n, i) {
+    switch (n) {
+      case "compositionend":
+        return Gf(i);
+      case "keypress":
+        return i.which !== 32 ? null : (Jf = !0, Hf);
+      case "textInput":
+        return n = i.data, n === Hf && Jf ? null : n;
+      default:
+        return null;
+    }
+  }
+  function tw(n, i) {
+    if (Pi) return n === "compositionend" || !eu && Wf(n, i) ? (n = Vf(), za = Gl = _r = null, Pi = !1, n) : null;
+    switch (n) {
+      case "paste":
+        return null;
+      case "keypress":
+        if (!(i.ctrlKey || i.altKey || i.metaKey) || i.ctrlKey && i.altKey) {
+          if (i.char && 1 < i.char.length) return i.char;
+          if (i.which) return String.fromCharCode(i.which);
+        }
+        return null;
+      case "compositionend":
+        return $f && i.locale !== "ko" ? null : i.data;
+      default:
+        return null;
+    }
+  }
+  var nw = { color: !0, date: !0, datetime: !0, "datetime-local": !0, email: !0, month: !0, number: !0, password: !0, range: !0, search: !0, tel: !0, text: !0, time: !0, url: !0, week: !0 };
+  function Yf(n) {
+    var i = n && n.nodeName && n.nodeName.toLowerCase();
+    return i === "input" ? !!nw[n.type] : i === "textarea";
+  }
+  function Qf(n, i, l, c) {
+    yo(c), i = Ga(i, "onChange"), 0 < i.length && (l = new Yl("onChange", "change", null, l, c), n.push({ event: l, listeners: i }));
+  }
+  var Po = null, Oo = null;
+  function rw(n) {
+    hp(n, 0);
+  }
+  function $a(n) {
+    var i = ji(n);
+    if (Te(i)) return n;
+  }
+  function iw(n, i) {
+    if (n === "change") return i;
+  }
+  var Zf = !1;
+  if (f) {
+    var tu;
+    if (f) {
+      var nu = "oninput" in document;
+      if (!nu) {
+        var Kf = document.createElement("div");
+        Kf.setAttribute("oninput", "return;"), nu = typeof Kf.oninput == "function";
+      }
+      tu = nu;
+    } else tu = !1;
+    Zf = tu && (!document.documentMode || 9 < document.documentMode);
+  }
+  function Xf() {
+    Po && (Po.detachEvent("onpropertychange", ep), Oo = Po = null);
+  }
+  function ep(n) {
+    if (n.propertyName === "value" && $a(Oo)) {
+      var i = [];
+      Qf(i, Oo, n, ho(n)), Ca(rw, i);
+    }
+  }
+  function ow(n, i, l) {
+    n === "focusin" ? (Xf(), Po = i, Oo = l, Po.attachEvent("onpropertychange", ep)) : n === "focusout" && Xf();
+  }
+  function aw(n) {
+    if (n === "selectionchange" || n === "keyup" || n === "keydown") return $a(Oo);
+  }
+  function sw(n, i) {
+    if (n === "click") return $a(i);
+  }
+  function lw(n, i) {
+    if (n === "input" || n === "change") return $a(i);
+  }
+  function uw(n, i) {
+    return n === i && (n !== 0 || 1 / n === 1 / i) || n !== n && i !== i;
+  }
+  var Mn = typeof Object.is == "function" ? Object.is : uw;
+  function Io(n, i) {
+    if (Mn(n, i)) return !0;
+    if (typeof n != "object" || n === null || typeof i != "object" || i === null) return !1;
+    var l = Object.keys(n), c = Object.keys(i);
+    if (l.length !== c.length) return !1;
+    for (c = 0; c < l.length; c++) {
+      var h = l[c];
+      if (!p.call(i, h) || !Mn(n[h], i[h])) return !1;
+    }
+    return !0;
+  }
+  function tp(n) {
+    for (; n && n.firstChild; ) n = n.firstChild;
+    return n;
+  }
+  function np(n, i) {
+    var l = tp(n);
+    n = 0;
+    for (var c; l; ) {
+      if (l.nodeType === 3) {
+        if (c = n + l.textContent.length, n <= i && c >= i) return { node: l, offset: i - n };
+        n = c;
+      }
+      e: {
+        for (; l; ) {
+          if (l.nextSibling) {
+            l = l.nextSibling;
+            break e;
+          }
+          l = l.parentNode;
+        }
+        l = void 0;
+      }
+      l = tp(l);
+    }
+  }
+  function rp(n, i) {
+    return n && i ? n === i ? !0 : n && n.nodeType === 3 ? !1 : i && i.nodeType === 3 ? rp(n, i.parentNode) : "contains" in n ? n.contains(i) : n.compareDocumentPosition ? !!(n.compareDocumentPosition(i) & 16) : !1 : !1;
+  }
+  function ip() {
+    for (var n = window, i = Oe(); i instanceof n.HTMLIFrameElement; ) {
+      try {
+        var l = typeof i.contentWindow.location.href == "string";
+      } catch {
+        l = !1;
+      }
+      if (l) n = i.contentWindow;
+      else break;
+      i = Oe(n.document);
+    }
+    return i;
+  }
+  function ru(n) {
+    var i = n && n.nodeName && n.nodeName.toLowerCase();
+    return i && (i === "input" && (n.type === "text" || n.type === "search" || n.type === "tel" || n.type === "url" || n.type === "password") || i === "textarea" || n.contentEditable === "true");
+  }
+  function cw(n) {
+    var i = ip(), l = n.focusedElem, c = n.selectionRange;
+    if (i !== l && l && l.ownerDocument && rp(l.ownerDocument.documentElement, l)) {
+      if (c !== null && ru(l)) {
+        if (i = c.start, n = c.end, n === void 0 && (n = i), "selectionStart" in l) l.selectionStart = i, l.selectionEnd = Math.min(n, l.value.length);
+        else if (n = (i = l.ownerDocument || document) && i.defaultView || window, n.getSelection) {
+          n = n.getSelection();
+          var h = l.textContent.length, g = Math.min(c.start, h);
+          c = c.end === void 0 ? g : Math.min(c.end, h), !n.extend && g > c && (h = c, c = g, g = h), h = np(l, g);
+          var b = np(
+            l,
+            c
+          );
+          h && b && (n.rangeCount !== 1 || n.anchorNode !== h.node || n.anchorOffset !== h.offset || n.focusNode !== b.node || n.focusOffset !== b.offset) && (i = i.createRange(), i.setStart(h.node, h.offset), n.removeAllRanges(), g > c ? (n.addRange(i), n.extend(b.node, b.offset)) : (i.setEnd(b.node, b.offset), n.addRange(i)));
+        }
+      }
+      for (i = [], n = l; n = n.parentNode; ) n.nodeType === 1 && i.push({ element: n, left: n.scrollLeft, top: n.scrollTop });
+      for (typeof l.focus == "function" && l.focus(), l = 0; l < i.length; l++) n = i[l], n.element.scrollLeft = n.left, n.element.scrollTop = n.top;
+    }
+  }
+  var dw = f && "documentMode" in document && 11 >= document.documentMode, Oi = null, iu = null, Lo = null, ou = !1;
+  function op(n, i, l) {
+    var c = l.window === l ? l.document : l.nodeType === 9 ? l : l.ownerDocument;
+    ou || Oi == null || Oi !== Oe(c) || (c = Oi, "selectionStart" in c && ru(c) ? c = { start: c.selectionStart, end: c.selectionEnd } : (c = (c.ownerDocument && c.ownerDocument.defaultView || window).getSelection(), c = { anchorNode: c.anchorNode, anchorOffset: c.anchorOffset, focusNode: c.focusNode, focusOffset: c.focusOffset }), Lo && Io(Lo, c) || (Lo = c, c = Ga(iu, "onSelect"), 0 < c.length && (i = new Yl("onSelect", "select", null, i, l), n.push({ event: i, listeners: c }), i.target = Oi)));
+  }
+  function Ha(n, i) {
+    var l = {};
+    return l[n.toLowerCase()] = i.toLowerCase(), l["Webkit" + n] = "webkit" + i, l["Moz" + n] = "moz" + i, l;
+  }
+  var Ii = { animationend: Ha("Animation", "AnimationEnd"), animationiteration: Ha("Animation", "AnimationIteration"), animationstart: Ha("Animation", "AnimationStart"), transitionend: Ha("Transition", "TransitionEnd") }, au = {}, ap = {};
+  f && (ap = document.createElement("div").style, "AnimationEvent" in window || (delete Ii.animationend.animation, delete Ii.animationiteration.animation, delete Ii.animationstart.animation), "TransitionEvent" in window || delete Ii.transitionend.transition);
+  function Ja(n) {
+    if (au[n]) return au[n];
+    if (!Ii[n]) return n;
+    var i = Ii[n], l;
+    for (l in i) if (i.hasOwnProperty(l) && l in ap) return au[n] = i[l];
+    return n;
+  }
+  var sp = Ja("animationend"), lp = Ja("animationiteration"), up = Ja("animationstart"), cp = Ja("transitionend"), dp = /* @__PURE__ */ new Map(), fp = "abort auxClick cancel canPlay canPlayThrough click close contextMenu copy cut drag dragEnd dragEnter dragExit dragLeave dragOver dragStart drop durationChange emptied encrypted ended error gotPointerCapture input invalid keyDown keyPress keyUp load loadedData loadedMetadata loadStart lostPointerCapture mouseDown mouseMove mouseOut mouseOver mouseUp paste pause play playing pointerCancel pointerDown pointerMove pointerOut pointerOver pointerUp progress rateChange reset resize seeked seeking stalled submit suspend timeUpdate touchCancel touchEnd touchStart volumeChange scroll toggle touchMove waiting wheel".split(" ");
+  function br(n, i) {
+    dp.set(n, i), s(i, [n]);
+  }
+  for (var su = 0; su < fp.length; su++) {
+    var lu = fp[su], fw = lu.toLowerCase(), pw = lu[0].toUpperCase() + lu.slice(1);
+    br(fw, "on" + pw);
+  }
+  br(sp, "onAnimationEnd"), br(lp, "onAnimationIteration"), br(up, "onAnimationStart"), br("dblclick", "onDoubleClick"), br("focusin", "onFocus"), br("focusout", "onBlur"), br(cp, "onTransitionEnd"), u("onMouseEnter", ["mouseout", "mouseover"]), u("onMouseLeave", ["mouseout", "mouseover"]), u("onPointerEnter", ["pointerout", "pointerover"]), u("onPointerLeave", ["pointerout", "pointerover"]), s("onChange", "change click focusin focusout input keydown keyup selectionchange".split(" ")), s("onSelect", "focusout contextmenu dragend focusin keydown keyup mousedown mouseup selectionchange".split(" ")), s("onBeforeInput", ["compositionend", "keypress", "textInput", "paste"]), s("onCompositionEnd", "compositionend focusout keydown keypress keyup mousedown".split(" ")), s("onCompositionStart", "compositionstart focusout keydown keypress keyup mousedown".split(" ")), s("onCompositionUpdate", "compositionupdate focusout keydown keypress keyup mousedown".split(" "));
+  var Do = "abort canplay canplaythrough durationchange emptied encrypted ended error loadeddata loadedmetadata loadstart pause play playing progress ratechange resize seeked seeking stalled suspend timeupdate volumechange waiting".split(" "), hw = new Set("cancel close invalid load scroll toggle".split(" ").concat(Do));
+  function pp(n, i, l) {
+    var c = n.type || "unknown-event";
+    n.currentTarget = l, Nl(c, i, void 0, n), n.currentTarget = null;
+  }
+  function hp(n, i) {
+    i = (i & 4) !== 0;
+    for (var l = 0; l < n.length; l++) {
+      var c = n[l], h = c.event;
+      c = c.listeners;
+      e: {
+        var g = void 0;
+        if (i) for (var b = c.length - 1; 0 <= b; b--) {
+          var O = c[b], R = O.instance, W = O.currentTarget;
+          if (O = O.listener, R !== g && h.isPropagationStopped()) break e;
+          pp(h, O, W), g = R;
+        }
+        else for (b = 0; b < c.length; b++) {
+          if (O = c[b], R = O.instance, W = O.currentTarget, O = O.listener, R !== g && h.isPropagationStopped()) break e;
+          pp(h, O, W), g = R;
+        }
+      }
+    }
+    if (ke) throw n = ut, ke = !1, ut = null, n;
+  }
+  function Xe(n, i) {
+    var l = i[gu];
+    l === void 0 && (l = i[gu] = /* @__PURE__ */ new Set());
+    var c = n + "__bubble";
+    l.has(c) || (mp(i, n, 2, !1), l.add(c));
+  }
+  function uu(n, i, l) {
+    var c = 0;
+    i && (c |= 4), mp(l, n, c, i);
+  }
+  var Wa = "_reactListening" + Math.random().toString(36).slice(2);
+  function jo(n) {
+    if (!n[Wa]) {
+      n[Wa] = !0, o.forEach(function(l) {
+        l !== "selectionchange" && (hw.has(l) || uu(l, !1, n), uu(l, !0, n));
+      });
+      var i = n.nodeType === 9 ? n : n.ownerDocument;
+      i === null || i[Wa] || (i[Wa] = !0, uu("selectionchange", !1, i));
+    }
+  }
+  function mp(n, i, l, c) {
+    switch (Ff(i)) {
+      case 1:
+        var h = A1;
+        break;
+      case 4:
+        h = M1;
+        break;
+      default:
+        h = Jl;
+    }
+    l = h.bind(null, i, l, n), h = void 0, !Gr || i !== "touchstart" && i !== "touchmove" && i !== "wheel" || (h = !0), c ? h !== void 0 ? n.addEventListener(i, l, { capture: !0, passive: h }) : n.addEventListener(i, l, !0) : h !== void 0 ? n.addEventListener(i, l, { passive: h }) : n.addEventListener(i, l, !1);
+  }
+  function cu(n, i, l, c, h) {
+    var g = c;
+    if ((i & 1) === 0 && (i & 2) === 0 && c !== null) e: for (; ; ) {
+      if (c === null) return;
+      var b = c.tag;
+      if (b === 3 || b === 4) {
+        var O = c.stateNode.containerInfo;
+        if (O === h || O.nodeType === 8 && O.parentNode === h) break;
+        if (b === 4) for (b = c.return; b !== null; ) {
+          var R = b.tag;
+          if ((R === 3 || R === 4) && (R = b.stateNode.containerInfo, R === h || R.nodeType === 8 && R.parentNode === h)) return;
+          b = b.return;
+        }
+        for (; O !== null; ) {
+          if (b = Qr(O), b === null) return;
+          if (R = b.tag, R === 5 || R === 6) {
+            c = g = b;
+            continue e;
+          }
+          O = O.parentNode;
+        }
+      }
+      c = c.return;
+    }
+    Ca(function() {
+      var W = g, oe = ho(l), se = [];
+      e: {
+        var ie = dp.get(n);
+        if (ie !== void 0) {
+          var me = Yl, ye = n;
+          switch (n) {
+            case "keypress":
+              if (Ba(l) === 0) break e;
+            case "keydown":
+            case "keyup":
+              me = $1;
+              break;
+            case "focusin":
+              ye = "focus", me = Kl;
+              break;
+            case "focusout":
+              ye = "blur", me = Kl;
+              break;
+            case "beforeblur":
+            case "afterblur":
+              me = Kl;
+              break;
+            case "click":
+              if (l.button === 2) break e;
+            case "auxclick":
+            case "dblclick":
+            case "mousedown":
+            case "mousemove":
+            case "mouseup":
+            case "mouseout":
+            case "mouseover":
+            case "contextmenu":
+              me = Bf;
+              break;
+            case "drag":
+            case "dragend":
+            case "dragenter":
+            case "dragexit":
+            case "dragleave":
+            case "dragover":
+            case "dragstart":
+            case "drop":
+              me = I1;
+              break;
+            case "touchcancel":
+            case "touchend":
+            case "touchmove":
+            case "touchstart":
+              me = W1;
+              break;
+            case sp:
+            case lp:
+            case up:
+              me = j1;
+              break;
+            case cp:
+              me = Y1;
+              break;
+            case "scroll":
+              me = P1;
+              break;
+            case "wheel":
+              me = Z1;
+              break;
+            case "copy":
+            case "cut":
+            case "paste":
+              me = R1;
+              break;
+            case "gotpointercapture":
+            case "lostpointercapture":
+            case "pointercancel":
+            case "pointerdown":
+            case "pointermove":
+            case "pointerout":
+            case "pointerover":
+            case "pointerup":
+              me = qf;
+          }
+          var we = (i & 4) !== 0, st = !we && n === "scroll", $ = we ? ie !== null ? ie + "Capture" : null : ie;
+          we = [];
+          for (var F = W, J; F !== null; ) {
+            J = F;
+            var de = J.stateNode;
+            if (J.tag === 5 && de !== null && (J = de, $ !== null && (de = Wr(F, $), de != null && we.push(No(F, de, J)))), st) break;
+            F = F.return;
+          }
+          0 < we.length && (ie = new me(ie, ye, null, l, oe), se.push({ event: ie, listeners: we }));
+        }
+      }
+      if ((i & 7) === 0) {
+        e: {
+          if (ie = n === "mouseover" || n === "pointerover", me = n === "mouseout" || n === "pointerout", ie && l !== Ft && (ye = l.relatedTarget || l.fromElement) && (Qr(ye) || ye[er])) break e;
+          if ((me || ie) && (ie = oe.window === oe ? oe : (ie = oe.ownerDocument) ? ie.defaultView || ie.parentWindow : window, me ? (ye = l.relatedTarget || l.toElement, me = W, ye = ye ? Qr(ye) : null, ye !== null && (st = Kn(ye), ye !== st || ye.tag !== 5 && ye.tag !== 6) && (ye = null)) : (me = null, ye = W), me !== ye)) {
+            if (we = Bf, de = "onMouseLeave", $ = "onMouseEnter", F = "mouse", (n === "pointerout" || n === "pointerover") && (we = qf, de = "onPointerLeave", $ = "onPointerEnter", F = "pointer"), st = me == null ? ie : ji(me), J = ye == null ? ie : ji(ye), ie = new we(de, F + "leave", me, l, oe), ie.target = st, ie.relatedTarget = J, de = null, Qr(oe) === W && (we = new we($, F + "enter", ye, l, oe), we.target = J, we.relatedTarget = st, de = we), st = de, me && ye) t: {
+              for (we = me, $ = ye, F = 0, J = we; J; J = Li(J)) F++;
+              for (J = 0, de = $; de; de = Li(de)) J++;
+              for (; 0 < F - J; ) we = Li(we), F--;
+              for (; 0 < J - F; ) $ = Li($), J--;
+              for (; F--; ) {
+                if (we === $ || $ !== null && we === $.alternate) break t;
+                we = Li(we), $ = Li($);
+              }
+              we = null;
+            }
+            else we = null;
+            me !== null && gp(se, ie, me, we, !1), ye !== null && st !== null && gp(se, st, ye, we, !0);
+          }
+        }
+        e: {
+          if (ie = W ? ji(W) : window, me = ie.nodeName && ie.nodeName.toLowerCase(), me === "select" || me === "input" && ie.type === "file") var Se = iw;
+          else if (Yf(ie)) if (Zf) Se = lw;
+          else {
+            Se = aw;
+            var Ce = ow;
+          }
+          else (me = ie.nodeName) && me.toLowerCase() === "input" && (ie.type === "checkbox" || ie.type === "radio") && (Se = sw);
+          if (Se && (Se = Se(n, W))) {
+            Qf(se, Se, l, oe);
+            break e;
+          }
+          Ce && Ce(n, ie, W), n === "focusout" && (Ce = ie._wrapperState) && Ce.controlled && ie.type === "number" && At(ie, "number", ie.value);
+        }
+        switch (Ce = W ? ji(W) : window, n) {
+          case "focusin":
+            (Yf(Ce) || Ce.contentEditable === "true") && (Oi = Ce, iu = W, Lo = null);
+            break;
+          case "focusout":
+            Lo = iu = Oi = null;
+            break;
+          case "mousedown":
+            ou = !0;
+            break;
+          case "contextmenu":
+          case "mouseup":
+          case "dragend":
+            ou = !1, op(se, l, oe);
+            break;
+          case "selectionchange":
+            if (dw) break;
+          case "keydown":
+          case "keyup":
+            op(se, l, oe);
+        }
+        var xe;
+        if (eu) e: {
+          switch (n) {
+            case "compositionstart":
+              var Ae = "onCompositionStart";
+              break e;
+            case "compositionend":
+              Ae = "onCompositionEnd";
+              break e;
+            case "compositionupdate":
+              Ae = "onCompositionUpdate";
+              break e;
+          }
+          Ae = void 0;
+        }
+        else Pi ? Wf(n, l) && (Ae = "onCompositionEnd") : n === "keydown" && l.keyCode === 229 && (Ae = "onCompositionStart");
+        Ae && ($f && l.locale !== "ko" && (Pi || Ae !== "onCompositionStart" ? Ae === "onCompositionEnd" && Pi && (xe = Vf()) : (_r = oe, Gl = "value" in _r ? _r.value : _r.textContent, Pi = !0)), Ce = Ga(W, Ae), 0 < Ce.length && (Ae = new Uf(Ae, n, null, l, oe), se.push({ event: Ae, listeners: Ce }), xe ? Ae.data = xe : (xe = Gf(l), xe !== null && (Ae.data = xe)))), (xe = X1 ? ew(n, l) : tw(n, l)) && (W = Ga(W, "onBeforeInput"), 0 < W.length && (oe = new Uf("onBeforeInput", "beforeinput", null, l, oe), se.push({ event: oe, listeners: W }), oe.data = xe));
+      }
+      hp(se, i);
+    });
+  }
+  function No(n, i, l) {
+    return { instance: n, listener: i, currentTarget: l };
+  }
+  function Ga(n, i) {
+    for (var l = i + "Capture", c = []; n !== null; ) {
+      var h = n, g = h.stateNode;
+      h.tag === 5 && g !== null && (h = g, g = Wr(n, l), g != null && c.unshift(No(n, g, h)), g = Wr(n, i), g != null && c.push(No(n, g, h))), n = n.return;
+    }
+    return c;
+  }
+  function Li(n) {
+    if (n === null) return null;
+    do
+      n = n.return;
+    while (n && n.tag !== 5);
+    return n || null;
+  }
+  function gp(n, i, l, c, h) {
+    for (var g = i._reactName, b = []; l !== null && l !== c; ) {
+      var O = l, R = O.alternate, W = O.stateNode;
+      if (R !== null && R === c) break;
+      O.tag === 5 && W !== null && (O = W, h ? (R = Wr(l, g), R != null && b.unshift(No(l, R, O))) : h || (R = Wr(l, g), R != null && b.push(No(l, R, O)))), l = l.return;
+    }
+    b.length !== 0 && n.push({ event: i, listeners: b });
+  }
+  var mw = /\r\n?/g, gw = /\u0000|\uFFFD/g;
+  function yp(n) {
+    return (typeof n == "string" ? n : "" + n).replace(mw, `
+`).replace(gw, "");
+  }
+  function Ya(n, i, l) {
+    if (i = yp(i), yp(n) !== i && l) throw Error(r(425));
+  }
+  function Qa() {
+  }
+  var du = null, fu = null;
+  function pu(n, i) {
+    return n === "textarea" || n === "noscript" || typeof i.children == "string" || typeof i.children == "number" || typeof i.dangerouslySetInnerHTML == "object" && i.dangerouslySetInnerHTML !== null && i.dangerouslySetInnerHTML.__html != null;
+  }
+  var hu = typeof setTimeout == "function" ? setTimeout : void 0, yw = typeof clearTimeout == "function" ? clearTimeout : void 0, vp = typeof Promise == "function" ? Promise : void 0, vw = typeof queueMicrotask == "function" ? queueMicrotask : typeof vp < "u" ? function(n) {
+    return vp.resolve(null).then(n).catch(ww);
+  } : hu;
+  function ww(n) {
+    setTimeout(function() {
+      throw n;
+    });
+  }
+  function mu(n, i) {
+    var l = i, c = 0;
+    do {
+      var h = l.nextSibling;
+      if (n.removeChild(l), h && h.nodeType === 8) if (l = h.data, l === "/$") {
+        if (c === 0) {
+          n.removeChild(h), xo(i);
+          return;
+        }
+        c--;
+      } else l !== "$" && l !== "$?" && l !== "$!" || c++;
+      l = h;
+    } while (l);
+    xo(i);
+  }
+  function Er(n) {
+    for (; n != null; n = n.nextSibling) {
+      var i = n.nodeType;
+      if (i === 1 || i === 3) break;
+      if (i === 8) {
+        if (i = n.data, i === "$" || i === "$!" || i === "$?") break;
+        if (i === "/$") return null;
+      }
+    }
+    return n;
+  }
+  function wp(n) {
+    n = n.previousSibling;
+    for (var i = 0; n; ) {
+      if (n.nodeType === 8) {
+        var l = n.data;
+        if (l === "$" || l === "$!" || l === "$?") {
+          if (i === 0) return n;
+          i--;
+        } else l === "/$" && i++;
+      }
+      n = n.previousSibling;
+    }
+    return null;
+  }
+  var Di = Math.random().toString(36).slice(2), zn = "__reactFiber$" + Di, Ro = "__reactProps$" + Di, er = "__reactContainer$" + Di, gu = "__reactEvents$" + Di, Sw = "__reactListeners$" + Di, kw = "__reactHandles$" + Di;
+  function Qr(n) {
+    var i = n[zn];
+    if (i) return i;
+    for (var l = n.parentNode; l; ) {
+      if (i = l[er] || l[zn]) {
+        if (l = i.alternate, i.child !== null || l !== null && l.child !== null) for (n = wp(n); n !== null; ) {
+          if (l = n[zn]) return l;
+          n = wp(n);
+        }
+        return i;
+      }
+      n = l, l = n.parentNode;
+    }
+    return null;
+  }
+  function Fo(n) {
+    return n = n[zn] || n[er], !n || n.tag !== 5 && n.tag !== 6 && n.tag !== 13 && n.tag !== 3 ? null : n;
+  }
+  function ji(n) {
+    if (n.tag === 5 || n.tag === 6) return n.stateNode;
+    throw Error(r(33));
+  }
+  function Za(n) {
+    return n[Ro] || null;
+  }
+  var yu = [], Ni = -1;
+  function Cr(n) {
+    return { current: n };
+  }
+  function et(n) {
+    0 > Ni || (n.current = yu[Ni], yu[Ni] = null, Ni--);
+  }
+  function Ye(n, i) {
+    Ni++, yu[Ni] = n.current, n.current = i;
+  }
+  var xr = {}, Pt = Cr(xr), Ht = Cr(!1), Zr = xr;
+  function Ri(n, i) {
+    var l = n.type.contextTypes;
+    if (!l) return xr;
+    var c = n.stateNode;
+    if (c && c.__reactInternalMemoizedUnmaskedChildContext === i) return c.__reactInternalMemoizedMaskedChildContext;
+    var h = {}, g;
+    for (g in l) h[g] = i[g];
+    return c && (n = n.stateNode, n.__reactInternalMemoizedUnmaskedChildContext = i, n.__reactInternalMemoizedMaskedChildContext = h), h;
+  }
+  function Jt(n) {
+    return n = n.childContextTypes, n != null;
+  }
+  function Ka() {
+    et(Ht), et(Pt);
+  }
+  function Sp(n, i, l) {
+    if (Pt.current !== xr) throw Error(r(168));
+    Ye(Pt, i), Ye(Ht, l);
+  }
+  function kp(n, i, l) {
+    var c = n.stateNode;
+    if (i = i.childContextTypes, typeof c.getChildContext != "function") return l;
+    c = c.getChildContext();
+    for (var h in c) if (!(h in i)) throw Error(r(108, P(n) || "Unknown", h));
+    return C({}, l, c);
+  }
+  function Xa(n) {
+    return n = (n = n.stateNode) && n.__reactInternalMemoizedMergedChildContext || xr, Zr = Pt.current, Ye(Pt, n), Ye(Ht, Ht.current), !0;
+  }
+  function _p(n, i, l) {
+    var c = n.stateNode;
+    if (!c) throw Error(r(169));
+    l ? (n = kp(n, i, Zr), c.__reactInternalMemoizedMergedChildContext = n, et(Ht), et(Pt), Ye(Pt, n)) : et(Ht), Ye(Ht, l);
+  }
+  var tr = null, es = !1, vu = !1;
+  function bp(n) {
+    tr === null ? tr = [n] : tr.push(n);
+  }
+  function _w(n) {
+    es = !0, bp(n);
+  }
+  function Tr() {
+    if (!vu && tr !== null) {
+      vu = !0;
+      var n = 0, i = $e;
+      try {
+        var l = tr;
+        for ($e = 1; n < l.length; n++) {
+          var c = l[n];
+          do
+            c = c(!0);
+          while (c !== null);
+        }
+        tr = null, es = !1;
+      } catch (h) {
+        throw tr !== null && (tr = tr.slice(n + 1)), Ci(xi, Tr), h;
+      } finally {
+        $e = i, vu = !1;
+      }
+    }
+    return null;
+  }
+  var Fi = [], Vi = 0, ts = null, ns = 0, mn = [], gn = 0, Kr = null, nr = 1, rr = "";
+  function Xr(n, i) {
+    Fi[Vi++] = ns, Fi[Vi++] = ts, ts = n, ns = i;
+  }
+  function Ep(n, i, l) {
+    mn[gn++] = nr, mn[gn++] = rr, mn[gn++] = Kr, Kr = n;
+    var c = nr;
+    n = rr;
+    var h = 32 - Et(c) - 1;
+    c &= ~(1 << h), l += 1;
+    var g = 32 - Et(i) + h;
+    if (30 < g) {
+      var b = h - h % 5;
+      g = (c & (1 << b) - 1).toString(32), c >>= b, h -= b, nr = 1 << 32 - Et(i) + h | l << h | c, rr = g + n;
+    } else nr = 1 << g | l << h | c, rr = n;
+  }
+  function wu(n) {
+    n.return !== null && (Xr(n, 1), Ep(n, 1, 0));
+  }
+  function Su(n) {
+    for (; n === ts; ) ts = Fi[--Vi], Fi[Vi] = null, ns = Fi[--Vi], Fi[Vi] = null;
+    for (; n === Kr; ) Kr = mn[--gn], mn[gn] = null, rr = mn[--gn], mn[gn] = null, nr = mn[--gn], mn[gn] = null;
+  }
+  var on = null, an = null, tt = !1, Pn = null;
+  function Cp(n, i) {
+    var l = Sn(5, null, null, 0);
+    l.elementType = "DELETED", l.stateNode = i, l.return = n, i = n.deletions, i === null ? (n.deletions = [l], n.flags |= 16) : i.push(l);
+  }
+  function xp(n, i) {
+    switch (n.tag) {
+      case 5:
+        var l = n.type;
+        return i = i.nodeType !== 1 || l.toLowerCase() !== i.nodeName.toLowerCase() ? null : i, i !== null ? (n.stateNode = i, on = n, an = Er(i.firstChild), !0) : !1;
+      case 6:
+        return i = n.pendingProps === "" || i.nodeType !== 3 ? null : i, i !== null ? (n.stateNode = i, on = n, an = null, !0) : !1;
+      case 13:
+        return i = i.nodeType !== 8 ? null : i, i !== null ? (l = Kr !== null ? { id: nr, overflow: rr } : null, n.memoizedState = { dehydrated: i, treeContext: l, retryLane: 1073741824 }, l = Sn(18, null, null, 0), l.stateNode = i, l.return = n, n.child = l, on = n, an = null, !0) : !1;
+      default:
+        return !1;
+    }
+  }
+  function ku(n) {
+    return (n.mode & 1) !== 0 && (n.flags & 128) === 0;
+  }
+  function _u(n) {
+    if (tt) {
+      var i = an;
+      if (i) {
+        var l = i;
+        if (!xp(n, i)) {
+          if (ku(n)) throw Error(r(418));
+          i = Er(l.nextSibling);
+          var c = on;
+          i && xp(n, i) ? Cp(c, l) : (n.flags = n.flags & -4097 | 2, tt = !1, on = n);
+        }
+      } else {
+        if (ku(n)) throw Error(r(418));
+        n.flags = n.flags & -4097 | 2, tt = !1, on = n;
+      }
+    }
+  }
+  function Tp(n) {
+    for (n = n.return; n !== null && n.tag !== 5 && n.tag !== 3 && n.tag !== 13; ) n = n.return;
+    on = n;
+  }
+  function rs(n) {
+    if (n !== on) return !1;
+    if (!tt) return Tp(n), tt = !0, !1;
+    var i;
+    if ((i = n.tag !== 3) && !(i = n.tag !== 5) && (i = n.type, i = i !== "head" && i !== "body" && !pu(n.type, n.memoizedProps)), i && (i = an)) {
+      if (ku(n)) throw Ap(), Error(r(418));
+      for (; i; ) Cp(n, i), i = Er(i.nextSibling);
+    }
+    if (Tp(n), n.tag === 13) {
+      if (n = n.memoizedState, n = n !== null ? n.dehydrated : null, !n) throw Error(r(317));
+      e: {
+        for (n = n.nextSibling, i = 0; n; ) {
+          if (n.nodeType === 8) {
+            var l = n.data;
+            if (l === "/$") {
+              if (i === 0) {
+                an = Er(n.nextSibling);
+                break e;
+              }
+              i--;
+            } else l !== "$" && l !== "$!" && l !== "$?" || i++;
+          }
+          n = n.nextSibling;
+        }
+        an = null;
+      }
+    } else an = on ? Er(n.stateNode.nextSibling) : null;
+    return !0;
+  }
+  function Ap() {
+    for (var n = an; n; ) n = Er(n.nextSibling);
+  }
+  function zi() {
+    an = on = null, tt = !1;
+  }
+  function bu(n) {
+    Pn === null ? Pn = [n] : Pn.push(n);
+  }
+  var bw = j.ReactCurrentBatchConfig;
+  function Vo(n, i, l) {
+    if (n = l.ref, n !== null && typeof n != "function" && typeof n != "object") {
+      if (l._owner) {
+        if (l = l._owner, l) {
+          if (l.tag !== 1) throw Error(r(309));
+          var c = l.stateNode;
+        }
+        if (!c) throw Error(r(147, n));
+        var h = c, g = "" + n;
+        return i !== null && i.ref !== null && typeof i.ref == "function" && i.ref._stringRef === g ? i.ref : (i = function(b) {
+          var O = h.refs;
+          b === null ? delete O[g] : O[g] = b;
+        }, i._stringRef = g, i);
+      }
+      if (typeof n != "string") throw Error(r(284));
+      if (!l._owner) throw Error(r(290, n));
+    }
+    return n;
+  }
+  function is(n, i) {
+    throw n = Object.prototype.toString.call(i), Error(r(31, n === "[object Object]" ? "object with keys {" + Object.keys(i).join(", ") + "}" : n));
+  }
+  function Mp(n) {
+    var i = n._init;
+    return i(n._payload);
+  }
+  function Pp(n) {
+    function i($, F) {
+      if (n) {
+        var J = $.deletions;
+        J === null ? ($.deletions = [F], $.flags |= 16) : J.push(F);
+      }
+    }
+    function l($, F) {
+      if (!n) return null;
+      for (; F !== null; ) i($, F), F = F.sibling;
+      return null;
+    }
+    function c($, F) {
+      for ($ = /* @__PURE__ */ new Map(); F !== null; ) F.key !== null ? $.set(F.key, F) : $.set(F.index, F), F = F.sibling;
+      return $;
+    }
+    function h($, F) {
+      return $ = jr($, F), $.index = 0, $.sibling = null, $;
+    }
+    function g($, F, J) {
+      return $.index = J, n ? (J = $.alternate, J !== null ? (J = J.index, J < F ? ($.flags |= 2, F) : J) : ($.flags |= 2, F)) : ($.flags |= 1048576, F);
+    }
+    function b($) {
+      return n && $.alternate === null && ($.flags |= 2), $;
+    }
+    function O($, F, J, de) {
+      return F === null || F.tag !== 6 ? (F = hc(J, $.mode, de), F.return = $, F) : (F = h(F, J), F.return = $, F);
+    }
+    function R($, F, J, de) {
+      var Se = J.type;
+      return Se === H ? oe($, F, J.props.children, de, J.key) : F !== null && (F.elementType === Se || typeof Se == "object" && Se !== null && Se.$$typeof === be && Mp(Se) === F.type) ? (de = h(F, J.props), de.ref = Vo($, F, J), de.return = $, de) : (de = As(J.type, J.key, J.props, null, $.mode, de), de.ref = Vo($, F, J), de.return = $, de);
+    }
+    function W($, F, J, de) {
+      return F === null || F.tag !== 4 || F.stateNode.containerInfo !== J.containerInfo || F.stateNode.implementation !== J.implementation ? (F = mc(J, $.mode, de), F.return = $, F) : (F = h(F, J.children || []), F.return = $, F);
+    }
+    function oe($, F, J, de, Se) {
+      return F === null || F.tag !== 7 ? (F = si(J, $.mode, de, Se), F.return = $, F) : (F = h(F, J), F.return = $, F);
+    }
+    function se($, F, J) {
+      if (typeof F == "string" && F !== "" || typeof F == "number") return F = hc("" + F, $.mode, J), F.return = $, F;
+      if (typeof F == "object" && F !== null) {
+        switch (F.$$typeof) {
+          case N:
+            return J = As(F.type, F.key, F.props, null, $.mode, J), J.ref = Vo($, null, F), J.return = $, J;
+          case A:
+            return F = mc(F, $.mode, J), F.return = $, F;
+          case be:
+            var de = F._init;
+            return se($, de(F._payload), J);
+        }
+        if (yt(F) || re(F)) return F = si(F, $.mode, J, null), F.return = $, F;
+        is($, F);
+      }
+      return null;
+    }
+    function ie($, F, J, de) {
+      var Se = F !== null ? F.key : null;
+      if (typeof J == "string" && J !== "" || typeof J == "number") return Se !== null ? null : O($, F, "" + J, de);
+      if (typeof J == "object" && J !== null) {
+        switch (J.$$typeof) {
+          case N:
+            return J.key === Se ? R($, F, J, de) : null;
+          case A:
+            return J.key === Se ? W($, F, J, de) : null;
+          case be:
+            return Se = J._init, ie(
+              $,
+              F,
+              Se(J._payload),
+              de
+            );
+        }
+        if (yt(J) || re(J)) return Se !== null ? null : oe($, F, J, de, null);
+        is($, J);
+      }
+      return null;
+    }
+    function me($, F, J, de, Se) {
+      if (typeof de == "string" && de !== "" || typeof de == "number") return $ = $.get(J) || null, O(F, $, "" + de, Se);
+      if (typeof de == "object" && de !== null) {
+        switch (de.$$typeof) {
+          case N:
+            return $ = $.get(de.key === null ? J : de.key) || null, R(F, $, de, Se);
+          case A:
+            return $ = $.get(de.key === null ? J : de.key) || null, W(F, $, de, Se);
+          case be:
+            var Ce = de._init;
+            return me($, F, J, Ce(de._payload), Se);
+        }
+        if (yt(de) || re(de)) return $ = $.get(J) || null, oe(F, $, de, Se, null);
+        is(F, de);
+      }
+      return null;
+    }
+    function ye($, F, J, de) {
+      for (var Se = null, Ce = null, xe = F, Ae = F = 0, St = null; xe !== null && Ae < J.length; Ae++) {
+        xe.index > Ae ? (St = xe, xe = null) : St = xe.sibling;
+        var Be = ie($, xe, J[Ae], de);
+        if (Be === null) {
+          xe === null && (xe = St);
+          break;
+        }
+        n && xe && Be.alternate === null && i($, xe), F = g(Be, F, Ae), Ce === null ? Se = Be : Ce.sibling = Be, Ce = Be, xe = St;
+      }
+      if (Ae === J.length) return l($, xe), tt && Xr($, Ae), Se;
+      if (xe === null) {
+        for (; Ae < J.length; Ae++) xe = se($, J[Ae], de), xe !== null && (F = g(xe, F, Ae), Ce === null ? Se = xe : Ce.sibling = xe, Ce = xe);
+        return tt && Xr($, Ae), Se;
+      }
+      for (xe = c($, xe); Ae < J.length; Ae++) St = me(xe, $, Ae, J[Ae], de), St !== null && (n && St.alternate !== null && xe.delete(St.key === null ? Ae : St.key), F = g(St, F, Ae), Ce === null ? Se = St : Ce.sibling = St, Ce = St);
+      return n && xe.forEach(function(Nr) {
+        return i($, Nr);
+      }), tt && Xr($, Ae), Se;
+    }
+    function we($, F, J, de) {
+      var Se = re(J);
+      if (typeof Se != "function") throw Error(r(150));
+      if (J = Se.call(J), J == null) throw Error(r(151));
+      for (var Ce = Se = null, xe = F, Ae = F = 0, St = null, Be = J.next(); xe !== null && !Be.done; Ae++, Be = J.next()) {
+        xe.index > Ae ? (St = xe, xe = null) : St = xe.sibling;
+        var Nr = ie($, xe, Be.value, de);
+        if (Nr === null) {
+          xe === null && (xe = St);
+          break;
+        }
+        n && xe && Nr.alternate === null && i($, xe), F = g(Nr, F, Ae), Ce === null ? Se = Nr : Ce.sibling = Nr, Ce = Nr, xe = St;
+      }
+      if (Be.done) return l(
+        $,
+        xe
+      ), tt && Xr($, Ae), Se;
+      if (xe === null) {
+        for (; !Be.done; Ae++, Be = J.next()) Be = se($, Be.value, de), Be !== null && (F = g(Be, F, Ae), Ce === null ? Se = Be : Ce.sibling = Be, Ce = Be);
+        return tt && Xr($, Ae), Se;
+      }
+      for (xe = c($, xe); !Be.done; Ae++, Be = J.next()) Be = me(xe, $, Ae, Be.value, de), Be !== null && (n && Be.alternate !== null && xe.delete(Be.key === null ? Ae : Be.key), F = g(Be, F, Ae), Ce === null ? Se = Be : Ce.sibling = Be, Ce = Be);
+      return n && xe.forEach(function(nS) {
+        return i($, nS);
+      }), tt && Xr($, Ae), Se;
+    }
+    function st($, F, J, de) {
+      if (typeof J == "object" && J !== null && J.type === H && J.key === null && (J = J.props.children), typeof J == "object" && J !== null) {
+        switch (J.$$typeof) {
+          case N:
+            e: {
+              for (var Se = J.key, Ce = F; Ce !== null; ) {
+                if (Ce.key === Se) {
+                  if (Se = J.type, Se === H) {
+                    if (Ce.tag === 7) {
+                      l($, Ce.sibling), F = h(Ce, J.props.children), F.return = $, $ = F;
+                      break e;
+                    }
+                  } else if (Ce.elementType === Se || typeof Se == "object" && Se !== null && Se.$$typeof === be && Mp(Se) === Ce.type) {
+                    l($, Ce.sibling), F = h(Ce, J.props), F.ref = Vo($, Ce, J), F.return = $, $ = F;
+                    break e;
+                  }
+                  l($, Ce);
+                  break;
+                } else i($, Ce);
+                Ce = Ce.sibling;
+              }
+              J.type === H ? (F = si(J.props.children, $.mode, de, J.key), F.return = $, $ = F) : (de = As(J.type, J.key, J.props, null, $.mode, de), de.ref = Vo($, F, J), de.return = $, $ = de);
+            }
+            return b($);
+          case A:
+            e: {
+              for (Ce = J.key; F !== null; ) {
+                if (F.key === Ce) if (F.tag === 4 && F.stateNode.containerInfo === J.containerInfo && F.stateNode.implementation === J.implementation) {
+                  l($, F.sibling), F = h(F, J.children || []), F.return = $, $ = F;
+                  break e;
+                } else {
+                  l($, F);
+                  break;
+                }
+                else i($, F);
+                F = F.sibling;
+              }
+              F = mc(J, $.mode, de), F.return = $, $ = F;
+            }
+            return b($);
+          case be:
+            return Ce = J._init, st($, F, Ce(J._payload), de);
+        }
+        if (yt(J)) return ye($, F, J, de);
+        if (re(J)) return we($, F, J, de);
+        is($, J);
+      }
+      return typeof J == "string" && J !== "" || typeof J == "number" ? (J = "" + J, F !== null && F.tag === 6 ? (l($, F.sibling), F = h(F, J), F.return = $, $ = F) : (l($, F), F = hc(J, $.mode, de), F.return = $, $ = F), b($)) : l($, F);
+    }
+    return st;
+  }
+  var Bi = Pp(!0), Op = Pp(!1), os = Cr(null), as = null, Ui = null, Eu = null;
+  function Cu() {
+    Eu = Ui = as = null;
+  }
+  function xu(n) {
+    var i = os.current;
+    et(os), n._currentValue = i;
+  }
+  function Tu(n, i, l) {
+    for (; n !== null; ) {
+      var c = n.alternate;
+      if ((n.childLanes & i) !== i ? (n.childLanes |= i, c !== null && (c.childLanes |= i)) : c !== null && (c.childLanes & i) !== i && (c.childLanes |= i), n === l) break;
+      n = n.return;
+    }
+  }
+  function qi(n, i) {
+    as = n, Eu = Ui = null, n = n.dependencies, n !== null && n.firstContext !== null && ((n.lanes & i) !== 0 && (Wt = !0), n.firstContext = null);
+  }
+  function yn(n) {
+    var i = n._currentValue;
+    if (Eu !== n) if (n = { context: n, memoizedValue: i, next: null }, Ui === null) {
+      if (as === null) throw Error(r(308));
+      Ui = n, as.dependencies = { lanes: 0, firstContext: n };
+    } else Ui = Ui.next = n;
+    return i;
+  }
+  var ei = null;
+  function Au(n) {
+    ei === null ? ei = [n] : ei.push(n);
+  }
+  function Ip(n, i, l, c) {
+    var h = i.interleaved;
+    return h === null ? (l.next = l, Au(i)) : (l.next = h.next, h.next = l), i.interleaved = l, ir(n, c);
+  }
+  function ir(n, i) {
+    n.lanes |= i;
+    var l = n.alternate;
+    for (l !== null && (l.lanes |= i), l = n, n = n.return; n !== null; ) n.childLanes |= i, l = n.alternate, l !== null && (l.childLanes |= i), l = n, n = n.return;
+    return l.tag === 3 ? l.stateNode : null;
+  }
+  var Ar = !1;
+  function Mu(n) {
+    n.updateQueue = { baseState: n.memoizedState, firstBaseUpdate: null, lastBaseUpdate: null, shared: { pending: null, interleaved: null, lanes: 0 }, effects: null };
+  }
+  function Lp(n, i) {
+    n = n.updateQueue, i.updateQueue === n && (i.updateQueue = { baseState: n.baseState, firstBaseUpdate: n.firstBaseUpdate, lastBaseUpdate: n.lastBaseUpdate, shared: n.shared, effects: n.effects });
+  }
+  function or(n, i) {
+    return { eventTime: n, lane: i, tag: 0, payload: null, callback: null, next: null };
+  }
+  function Mr(n, i, l) {
+    var c = n.updateQueue;
+    if (c === null) return null;
+    if (c = c.shared, (Ve & 2) !== 0) {
+      var h = c.pending;
+      return h === null ? i.next = i : (i.next = h.next, h.next = i), c.pending = i, ir(n, l);
+    }
+    return h = c.interleaved, h === null ? (i.next = i, Au(c)) : (i.next = h.next, h.next = i), c.interleaved = i, ir(n, l);
+  }
+  function ss(n, i, l) {
+    if (i = i.updateQueue, i !== null && (i = i.shared, (l & 4194240) !== 0)) {
+      var c = i.lanes;
+      c &= n.pendingLanes, l |= c, i.lanes = l, ql(n, l);
+    }
+  }
+  function Dp(n, i) {
+    var l = n.updateQueue, c = n.alternate;
+    if (c !== null && (c = c.updateQueue, l === c)) {
+      var h = null, g = null;
+      if (l = l.firstBaseUpdate, l !== null) {
+        do {
+          var b = { eventTime: l.eventTime, lane: l.lane, tag: l.tag, payload: l.payload, callback: l.callback, next: null };
+          g === null ? h = g = b : g = g.next = b, l = l.next;
+        } while (l !== null);
+        g === null ? h = g = i : g = g.next = i;
+      } else h = g = i;
+      l = { baseState: c.baseState, firstBaseUpdate: h, lastBaseUpdate: g, shared: c.shared, effects: c.effects }, n.updateQueue = l;
+      return;
+    }
+    n = l.lastBaseUpdate, n === null ? l.firstBaseUpdate = i : n.next = i, l.lastBaseUpdate = i;
+  }
+  function ls(n, i, l, c) {
+    var h = n.updateQueue;
+    Ar = !1;
+    var g = h.firstBaseUpdate, b = h.lastBaseUpdate, O = h.shared.pending;
+    if (O !== null) {
+      h.shared.pending = null;
+      var R = O, W = R.next;
+      R.next = null, b === null ? g = W : b.next = W, b = R;
+      var oe = n.alternate;
+      oe !== null && (oe = oe.updateQueue, O = oe.lastBaseUpdate, O !== b && (O === null ? oe.firstBaseUpdate = W : O.next = W, oe.lastBaseUpdate = R));
+    }
+    if (g !== null) {
+      var se = h.baseState;
+      b = 0, oe = W = R = null, O = g;
+      do {
+        var ie = O.lane, me = O.eventTime;
+        if ((c & ie) === ie) {
+          oe !== null && (oe = oe.next = {
+            eventTime: me,
+            lane: 0,
+            tag: O.tag,
+            payload: O.payload,
+            callback: O.callback,
+            next: null
+          });
+          e: {
+            var ye = n, we = O;
+            switch (ie = i, me = l, we.tag) {
+              case 1:
+                if (ye = we.payload, typeof ye == "function") {
+                  se = ye.call(me, se, ie);
+                  break e;
+                }
+                se = ye;
+                break e;
+              case 3:
+                ye.flags = ye.flags & -65537 | 128;
+              case 0:
+                if (ye = we.payload, ie = typeof ye == "function" ? ye.call(me, se, ie) : ye, ie == null) break e;
+                se = C({}, se, ie);
+                break e;
+              case 2:
+                Ar = !0;
+            }
+          }
+          O.callback !== null && O.lane !== 0 && (n.flags |= 64, ie = h.effects, ie === null ? h.effects = [O] : ie.push(O));
+        } else me = { eventTime: me, lane: ie, tag: O.tag, payload: O.payload, callback: O.callback, next: null }, oe === null ? (W = oe = me, R = se) : oe = oe.next = me, b |= ie;
+        if (O = O.next, O === null) {
+          if (O = h.shared.pending, O === null) break;
+          ie = O, O = ie.next, ie.next = null, h.lastBaseUpdate = ie, h.shared.pending = null;
+        }
+      } while (!0);
+      if (oe === null && (R = se), h.baseState = R, h.firstBaseUpdate = W, h.lastBaseUpdate = oe, i = h.shared.interleaved, i !== null) {
+        h = i;
+        do
+          b |= h.lane, h = h.next;
+        while (h !== i);
+      } else g === null && (h.shared.lanes = 0);
+      ri |= b, n.lanes = b, n.memoizedState = se;
+    }
+  }
+  function jp(n, i, l) {
+    if (n = i.effects, i.effects = null, n !== null) for (i = 0; i < n.length; i++) {
+      var c = n[i], h = c.callback;
+      if (h !== null) {
+        if (c.callback = null, c = l, typeof h != "function") throw Error(r(191, h));
+        h.call(c);
+      }
+    }
+  }
+  var zo = {}, Bn = Cr(zo), Bo = Cr(zo), Uo = Cr(zo);
+  function ti(n) {
+    if (n === zo) throw Error(r(174));
+    return n;
+  }
+  function Pu(n, i) {
+    switch (Ye(Uo, i), Ye(Bo, n), Ye(Bn, zo), n = i.nodeType, n) {
+      case 9:
+      case 11:
+        i = (i = i.documentElement) ? i.namespaceURI : fe(null, "");
+        break;
+      default:
+        n = n === 8 ? i.parentNode : i, i = n.namespaceURI || null, n = n.tagName, i = fe(i, n);
+    }
+    et(Bn), Ye(Bn, i);
+  }
+  function $i() {
+    et(Bn), et(Bo), et(Uo);
+  }
+  function Np(n) {
+    ti(Uo.current);
+    var i = ti(Bn.current), l = fe(i, n.type);
+    i !== l && (Ye(Bo, n), Ye(Bn, l));
+  }
+  function Ou(n) {
+    Bo.current === n && (et(Bn), et(Bo));
+  }
+  var rt = Cr(0);
+  function us(n) {
+    for (var i = n; i !== null; ) {
+      if (i.tag === 13) {
+        var l = i.memoizedState;
+        if (l !== null && (l = l.dehydrated, l === null || l.data === "$?" || l.data === "$!")) return i;
+      } else if (i.tag === 19 && i.memoizedProps.revealOrder !== void 0) {
+        if ((i.flags & 128) !== 0) return i;
+      } else if (i.child !== null) {
+        i.child.return = i, i = i.child;
+        continue;
+      }
+      if (i === n) break;
+      for (; i.sibling === null; ) {
+        if (i.return === null || i.return === n) return null;
+        i = i.return;
+      }
+      i.sibling.return = i.return, i = i.sibling;
+    }
+    return null;
+  }
+  var Iu = [];
+  function Lu() {
+    for (var n = 0; n < Iu.length; n++) Iu[n]._workInProgressVersionPrimary = null;
+    Iu.length = 0;
+  }
+  var cs = j.ReactCurrentDispatcher, Du = j.ReactCurrentBatchConfig, ni = 0, it = null, ht = null, vt = null, ds = !1, qo = !1, $o = 0, Ew = 0;
+  function Ot() {
+    throw Error(r(321));
+  }
+  function ju(n, i) {
+    if (i === null) return !1;
+    for (var l = 0; l < i.length && l < n.length; l++) if (!Mn(n[l], i[l])) return !1;
+    return !0;
+  }
+  function Nu(n, i, l, c, h, g) {
+    if (ni = g, it = i, i.memoizedState = null, i.updateQueue = null, i.lanes = 0, cs.current = n === null || n.memoizedState === null ? Aw : Mw, n = l(c, h), qo) {
+      g = 0;
+      do {
+        if (qo = !1, $o = 0, 25 <= g) throw Error(r(301));
+        g += 1, vt = ht = null, i.updateQueue = null, cs.current = Pw, n = l(c, h);
+      } while (qo);
+    }
+    if (cs.current = hs, i = ht !== null && ht.next !== null, ni = 0, vt = ht = it = null, ds = !1, i) throw Error(r(300));
+    return n;
+  }
+  function Ru() {
+    var n = $o !== 0;
+    return $o = 0, n;
+  }
+  function Un() {
+    var n = { memoizedState: null, baseState: null, baseQueue: null, queue: null, next: null };
+    return vt === null ? it.memoizedState = vt = n : vt = vt.next = n, vt;
+  }
+  function vn() {
+    if (ht === null) {
+      var n = it.alternate;
+      n = n !== null ? n.memoizedState : null;
+    } else n = ht.next;
+    var i = vt === null ? it.memoizedState : vt.next;
+    if (i !== null) vt = i, ht = n;
+    else {
+      if (n === null) throw Error(r(310));
+      ht = n, n = { memoizedState: ht.memoizedState, baseState: ht.baseState, baseQueue: ht.baseQueue, queue: ht.queue, next: null }, vt === null ? it.memoizedState = vt = n : vt = vt.next = n;
+    }
+    return vt;
+  }
+  function Ho(n, i) {
+    return typeof i == "function" ? i(n) : i;
+  }
+  function Fu(n) {
+    var i = vn(), l = i.queue;
+    if (l === null) throw Error(r(311));
+    l.lastRenderedReducer = n;
+    var c = ht, h = c.baseQueue, g = l.pending;
+    if (g !== null) {
+      if (h !== null) {
+        var b = h.next;
+        h.next = g.next, g.next = b;
+      }
+      c.baseQueue = h = g, l.pending = null;
+    }
+    if (h !== null) {
+      g = h.next, c = c.baseState;
+      var O = b = null, R = null, W = g;
+      do {
+        var oe = W.lane;
+        if ((ni & oe) === oe) R !== null && (R = R.next = { lane: 0, action: W.action, hasEagerState: W.hasEagerState, eagerState: W.eagerState, next: null }), c = W.hasEagerState ? W.eagerState : n(c, W.action);
+        else {
+          var se = {
+            lane: oe,
+            action: W.action,
+            hasEagerState: W.hasEagerState,
+            eagerState: W.eagerState,
+            next: null
+          };
+          R === null ? (O = R = se, b = c) : R = R.next = se, it.lanes |= oe, ri |= oe;
+        }
+        W = W.next;
+      } while (W !== null && W !== g);
+      R === null ? b = c : R.next = O, Mn(c, i.memoizedState) || (Wt = !0), i.memoizedState = c, i.baseState = b, i.baseQueue = R, l.lastRenderedState = c;
+    }
+    if (n = l.interleaved, n !== null) {
+      h = n;
+      do
+        g = h.lane, it.lanes |= g, ri |= g, h = h.next;
+      while (h !== n);
+    } else h === null && (l.lanes = 0);
+    return [i.memoizedState, l.dispatch];
+  }
+  function Vu(n) {
+    var i = vn(), l = i.queue;
+    if (l === null) throw Error(r(311));
+    l.lastRenderedReducer = n;
+    var c = l.dispatch, h = l.pending, g = i.memoizedState;
+    if (h !== null) {
+      l.pending = null;
+      var b = h = h.next;
+      do
+        g = n(g, b.action), b = b.next;
+      while (b !== h);
+      Mn(g, i.memoizedState) || (Wt = !0), i.memoizedState = g, i.baseQueue === null && (i.baseState = g), l.lastRenderedState = g;
+    }
+    return [g, c];
+  }
+  function Rp() {
+  }
+  function Fp(n, i) {
+    var l = it, c = vn(), h = i(), g = !Mn(c.memoizedState, h);
+    if (g && (c.memoizedState = h, Wt = !0), c = c.queue, zu(Bp.bind(null, l, c, n), [n]), c.getSnapshot !== i || g || vt !== null && vt.memoizedState.tag & 1) {
+      if (l.flags |= 2048, Jo(9, zp.bind(null, l, c, h, i), void 0, null), wt === null) throw Error(r(349));
+      (ni & 30) !== 0 || Vp(l, i, h);
+    }
+    return h;
+  }
+  function Vp(n, i, l) {
+    n.flags |= 16384, n = { getSnapshot: i, value: l }, i = it.updateQueue, i === null ? (i = { lastEffect: null, stores: null }, it.updateQueue = i, i.stores = [n]) : (l = i.stores, l === null ? i.stores = [n] : l.push(n));
+  }
+  function zp(n, i, l, c) {
+    i.value = l, i.getSnapshot = c, Up(i) && qp(n);
+  }
+  function Bp(n, i, l) {
+    return l(function() {
+      Up(i) && qp(n);
+    });
+  }
+  function Up(n) {
+    var i = n.getSnapshot;
+    n = n.value;
+    try {
+      var l = i();
+      return !Mn(n, l);
+    } catch {
+      return !0;
+    }
+  }
+  function qp(n) {
+    var i = ir(n, 1);
+    i !== null && Dn(i, n, 1, -1);
+  }
+  function $p(n) {
+    var i = Un();
+    return typeof n == "function" && (n = n()), i.memoizedState = i.baseState = n, n = { pending: null, interleaved: null, lanes: 0, dispatch: null, lastRenderedReducer: Ho, lastRenderedState: n }, i.queue = n, n = n.dispatch = Tw.bind(null, it, n), [i.memoizedState, n];
+  }
+  function Jo(n, i, l, c) {
+    return n = { tag: n, create: i, destroy: l, deps: c, next: null }, i = it.updateQueue, i === null ? (i = { lastEffect: null, stores: null }, it.updateQueue = i, i.lastEffect = n.next = n) : (l = i.lastEffect, l === null ? i.lastEffect = n.next = n : (c = l.next, l.next = n, n.next = c, i.lastEffect = n)), n;
+  }
+  function Hp() {
+    return vn().memoizedState;
+  }
+  function fs(n, i, l, c) {
+    var h = Un();
+    it.flags |= n, h.memoizedState = Jo(1 | i, l, void 0, c === void 0 ? null : c);
+  }
+  function ps(n, i, l, c) {
+    var h = vn();
+    c = c === void 0 ? null : c;
+    var g = void 0;
+    if (ht !== null) {
+      var b = ht.memoizedState;
+      if (g = b.destroy, c !== null && ju(c, b.deps)) {
+        h.memoizedState = Jo(i, l, g, c);
+        return;
+      }
+    }
+    it.flags |= n, h.memoizedState = Jo(1 | i, l, g, c);
+  }
+  function Jp(n, i) {
+    return fs(8390656, 8, n, i);
+  }
+  function zu(n, i) {
+    return ps(2048, 8, n, i);
+  }
+  function Wp(n, i) {
+    return ps(4, 2, n, i);
+  }
+  function Gp(n, i) {
+    return ps(4, 4, n, i);
+  }
+  function Yp(n, i) {
+    if (typeof i == "function") return n = n(), i(n), function() {
+      i(null);
+    };
+    if (i != null) return n = n(), i.current = n, function() {
+      i.current = null;
+    };
+  }
+  function Qp(n, i, l) {
+    return l = l != null ? l.concat([n]) : null, ps(4, 4, Yp.bind(null, i, n), l);
+  }
+  function Bu() {
+  }
+  function Zp(n, i) {
+    var l = vn();
+    i = i === void 0 ? null : i;
+    var c = l.memoizedState;
+    return c !== null && i !== null && ju(i, c[1]) ? c[0] : (l.memoizedState = [n, i], n);
+  }
+  function Kp(n, i) {
+    var l = vn();
+    i = i === void 0 ? null : i;
+    var c = l.memoizedState;
+    return c !== null && i !== null && ju(i, c[1]) ? c[0] : (n = n(), l.memoizedState = [n, i], n);
+  }
+  function Xp(n, i, l) {
+    return (ni & 21) === 0 ? (n.baseState && (n.baseState = !1, Wt = !0), n.memoizedState = l) : (Mn(l, i) || (l = Mf(), it.lanes |= l, ri |= l, n.baseState = !0), i);
+  }
+  function Cw(n, i) {
+    var l = $e;
+    $e = l !== 0 && 4 > l ? l : 4, n(!0);
+    var c = Du.transition;
+    Du.transition = {};
+    try {
+      n(!1), i();
+    } finally {
+      $e = l, Du.transition = c;
+    }
+  }
+  function eh() {
+    return vn().memoizedState;
+  }
+  function xw(n, i, l) {
+    var c = Lr(n);
+    if (l = { lane: c, action: l, hasEagerState: !1, eagerState: null, next: null }, th(n)) nh(i, l);
+    else if (l = Ip(n, i, l, c), l !== null) {
+      var h = zt();
+      Dn(l, n, c, h), rh(l, i, c);
+    }
+  }
+  function Tw(n, i, l) {
+    var c = Lr(n), h = { lane: c, action: l, hasEagerState: !1, eagerState: null, next: null };
+    if (th(n)) nh(i, h);
+    else {
+      var g = n.alternate;
+      if (n.lanes === 0 && (g === null || g.lanes === 0) && (g = i.lastRenderedReducer, g !== null)) try {
+        var b = i.lastRenderedState, O = g(b, l);
+        if (h.hasEagerState = !0, h.eagerState = O, Mn(O, b)) {
+          var R = i.interleaved;
+          R === null ? (h.next = h, Au(i)) : (h.next = R.next, R.next = h), i.interleaved = h;
+          return;
+        }
+      } catch {
+      } finally {
+      }
+      l = Ip(n, i, h, c), l !== null && (h = zt(), Dn(l, n, c, h), rh(l, i, c));
+    }
+  }
+  function th(n) {
+    var i = n.alternate;
+    return n === it || i !== null && i === it;
+  }
+  function nh(n, i) {
+    qo = ds = !0;
+    var l = n.pending;
+    l === null ? i.next = i : (i.next = l.next, l.next = i), n.pending = i;
+  }
+  function rh(n, i, l) {
+    if ((l & 4194240) !== 0) {
+      var c = i.lanes;
+      c &= n.pendingLanes, l |= c, i.lanes = l, ql(n, l);
+    }
+  }
+  var hs = { readContext: yn, useCallback: Ot, useContext: Ot, useEffect: Ot, useImperativeHandle: Ot, useInsertionEffect: Ot, useLayoutEffect: Ot, useMemo: Ot, useReducer: Ot, useRef: Ot, useState: Ot, useDebugValue: Ot, useDeferredValue: Ot, useTransition: Ot, useMutableSource: Ot, useSyncExternalStore: Ot, useId: Ot, unstable_isNewReconciler: !1 }, Aw = { readContext: yn, useCallback: function(n, i) {
+    return Un().memoizedState = [n, i === void 0 ? null : i], n;
+  }, useContext: yn, useEffect: Jp, useImperativeHandle: function(n, i, l) {
+    return l = l != null ? l.concat([n]) : null, fs(
+      4194308,
+      4,
+      Yp.bind(null, i, n),
+      l
+    );
+  }, useLayoutEffect: function(n, i) {
+    return fs(4194308, 4, n, i);
+  }, useInsertionEffect: function(n, i) {
+    return fs(4, 2, n, i);
+  }, useMemo: function(n, i) {
+    var l = Un();
+    return i = i === void 0 ? null : i, n = n(), l.memoizedState = [n, i], n;
+  }, useReducer: function(n, i, l) {
+    var c = Un();
+    return i = l !== void 0 ? l(i) : i, c.memoizedState = c.baseState = i, n = { pending: null, interleaved: null, lanes: 0, dispatch: null, lastRenderedReducer: n, lastRenderedState: i }, c.queue = n, n = n.dispatch = xw.bind(null, it, n), [c.memoizedState, n];
+  }, useRef: function(n) {
+    var i = Un();
+    return n = { current: n }, i.memoizedState = n;
+  }, useState: $p, useDebugValue: Bu, useDeferredValue: function(n) {
+    return Un().memoizedState = n;
+  }, useTransition: function() {
+    var n = $p(!1), i = n[0];
+    return n = Cw.bind(null, n[1]), Un().memoizedState = n, [i, n];
+  }, useMutableSource: function() {
+  }, useSyncExternalStore: function(n, i, l) {
+    var c = it, h = Un();
+    if (tt) {
+      if (l === void 0) throw Error(r(407));
+      l = l();
+    } else {
+      if (l = i(), wt === null) throw Error(r(349));
+      (ni & 30) !== 0 || Vp(c, i, l);
+    }
+    h.memoizedState = l;
+    var g = { value: l, getSnapshot: i };
+    return h.queue = g, Jp(Bp.bind(
+      null,
+      c,
+      g,
+      n
+    ), [n]), c.flags |= 2048, Jo(9, zp.bind(null, c, g, l, i), void 0, null), l;
+  }, useId: function() {
+    var n = Un(), i = wt.identifierPrefix;
+    if (tt) {
+      var l = rr, c = nr;
+      l = (c & ~(1 << 32 - Et(c) - 1)).toString(32) + l, i = ":" + i + "R" + l, l = $o++, 0 < l && (i += "H" + l.toString(32)), i += ":";
+    } else l = Ew++, i = ":" + i + "r" + l.toString(32) + ":";
+    return n.memoizedState = i;
+  }, unstable_isNewReconciler: !1 }, Mw = {
+    readContext: yn,
+    useCallback: Zp,
+    useContext: yn,
+    useEffect: zu,
+    useImperativeHandle: Qp,
+    useInsertionEffect: Wp,
+    useLayoutEffect: Gp,
+    useMemo: Kp,
+    useReducer: Fu,
+    useRef: Hp,
+    useState: function() {
+      return Fu(Ho);
+    },
+    useDebugValue: Bu,
+    useDeferredValue: function(n) {
+      var i = vn();
+      return Xp(i, ht.memoizedState, n);
+    },
+    useTransition: function() {
+      var n = Fu(Ho)[0], i = vn().memoizedState;
+      return [n, i];
+    },
+    useMutableSource: Rp,
+    useSyncExternalStore: Fp,
+    useId: eh,
+    unstable_isNewReconciler: !1
+  }, Pw = { readContext: yn, useCallback: Zp, useContext: yn, useEffect: zu, useImperativeHandle: Qp, useInsertionEffect: Wp, useLayoutEffect: Gp, useMemo: Kp, useReducer: Vu, useRef: Hp, useState: function() {
+    return Vu(Ho);
+  }, useDebugValue: Bu, useDeferredValue: function(n) {
+    var i = vn();
+    return ht === null ? i.memoizedState = n : Xp(i, ht.memoizedState, n);
+  }, useTransition: function() {
+    var n = Vu(Ho)[0], i = vn().memoizedState;
+    return [n, i];
+  }, useMutableSource: Rp, useSyncExternalStore: Fp, useId: eh, unstable_isNewReconciler: !1 };
+  function On(n, i) {
+    if (n && n.defaultProps) {
+      i = C({}, i), n = n.defaultProps;
+      for (var l in n) i[l] === void 0 && (i[l] = n[l]);
+      return i;
+    }
+    return i;
+  }
+  function Uu(n, i, l, c) {
+    i = n.memoizedState, l = l(c, i), l = l == null ? i : C({}, i, l), n.memoizedState = l, n.lanes === 0 && (n.updateQueue.baseState = l);
+  }
+  var ms = { isMounted: function(n) {
+    return (n = n._reactInternals) ? Kn(n) === n : !1;
+  }, enqueueSetState: function(n, i, l) {
+    n = n._reactInternals;
+    var c = zt(), h = Lr(n), g = or(c, h);
+    g.payload = i, l != null && (g.callback = l), i = Mr(n, g, h), i !== null && (Dn(i, n, h, c), ss(i, n, h));
+  }, enqueueReplaceState: function(n, i, l) {
+    n = n._reactInternals;
+    var c = zt(), h = Lr(n), g = or(c, h);
+    g.tag = 1, g.payload = i, l != null && (g.callback = l), i = Mr(n, g, h), i !== null && (Dn(i, n, h, c), ss(i, n, h));
+  }, enqueueForceUpdate: function(n, i) {
+    n = n._reactInternals;
+    var l = zt(), c = Lr(n), h = or(l, c);
+    h.tag = 2, i != null && (h.callback = i), i = Mr(n, h, c), i !== null && (Dn(i, n, c, l), ss(i, n, c));
+  } };
+  function ih(n, i, l, c, h, g, b) {
+    return n = n.stateNode, typeof n.shouldComponentUpdate == "function" ? n.shouldComponentUpdate(c, g, b) : i.prototype && i.prototype.isPureReactComponent ? !Io(l, c) || !Io(h, g) : !0;
+  }
+  function oh(n, i, l) {
+    var c = !1, h = xr, g = i.contextType;
+    return typeof g == "object" && g !== null ? g = yn(g) : (h = Jt(i) ? Zr : Pt.current, c = i.contextTypes, g = (c = c != null) ? Ri(n, h) : xr), i = new i(l, g), n.memoizedState = i.state !== null && i.state !== void 0 ? i.state : null, i.updater = ms, n.stateNode = i, i._reactInternals = n, c && (n = n.stateNode, n.__reactInternalMemoizedUnmaskedChildContext = h, n.__reactInternalMemoizedMaskedChildContext = g), i;
+  }
+  function ah(n, i, l, c) {
+    n = i.state, typeof i.componentWillReceiveProps == "function" && i.componentWillReceiveProps(l, c), typeof i.UNSAFE_componentWillReceiveProps == "function" && i.UNSAFE_componentWillReceiveProps(l, c), i.state !== n && ms.enqueueReplaceState(i, i.state, null);
+  }
+  function qu(n, i, l, c) {
+    var h = n.stateNode;
+    h.props = l, h.state = n.memoizedState, h.refs = {}, Mu(n);
+    var g = i.contextType;
+    typeof g == "object" && g !== null ? h.context = yn(g) : (g = Jt(i) ? Zr : Pt.current, h.context = Ri(n, g)), h.state = n.memoizedState, g = i.getDerivedStateFromProps, typeof g == "function" && (Uu(n, i, g, l), h.state = n.memoizedState), typeof i.getDerivedStateFromProps == "function" || typeof h.getSnapshotBeforeUpdate == "function" || typeof h.UNSAFE_componentWillMount != "function" && typeof h.componentWillMount != "function" || (i = h.state, typeof h.componentWillMount == "function" && h.componentWillMount(), typeof h.UNSAFE_componentWillMount == "function" && h.UNSAFE_componentWillMount(), i !== h.state && ms.enqueueReplaceState(h, h.state, null), ls(n, l, h, c), h.state = n.memoizedState), typeof h.componentDidMount == "function" && (n.flags |= 4194308);
+  }
+  function Hi(n, i) {
+    try {
+      var l = "", c = i;
+      do
+        l += w(c), c = c.return;
+      while (c);
+      var h = l;
+    } catch (g) {
+      h = `
+Error generating stack: ` + g.message + `
+` + g.stack;
+    }
+    return { value: n, source: i, stack: h, digest: null };
+  }
+  function $u(n, i, l) {
+    return { value: n, source: null, stack: l ?? null, digest: i ?? null };
+  }
+  function Hu(n, i) {
+    try {
+      console.error(i.value);
+    } catch (l) {
+      setTimeout(function() {
+        throw l;
+      });
+    }
+  }
+  var Ow = typeof WeakMap == "function" ? WeakMap : Map;
+  function sh(n, i, l) {
+    l = or(-1, l), l.tag = 3, l.payload = { element: null };
+    var c = i.value;
+    return l.callback = function() {
+      _s || (_s = !0, ac = c), Hu(n, i);
+    }, l;
+  }
+  function lh(n, i, l) {
+    l = or(-1, l), l.tag = 3;
+    var c = n.type.getDerivedStateFromError;
+    if (typeof c == "function") {
+      var h = i.value;
+      l.payload = function() {
+        return c(h);
+      }, l.callback = function() {
+        Hu(n, i);
+      };
+    }
+    var g = n.stateNode;
+    return g !== null && typeof g.componentDidCatch == "function" && (l.callback = function() {
+      Hu(n, i), typeof c != "function" && (Or === null ? Or = /* @__PURE__ */ new Set([this]) : Or.add(this));
+      var b = i.stack;
+      this.componentDidCatch(i.value, { componentStack: b !== null ? b : "" });
+    }), l;
+  }
+  function uh(n, i, l) {
+    var c = n.pingCache;
+    if (c === null) {
+      c = n.pingCache = new Ow();
+      var h = /* @__PURE__ */ new Set();
+      c.set(i, h);
+    } else h = c.get(i), h === void 0 && (h = /* @__PURE__ */ new Set(), c.set(i, h));
+    h.has(l) || (h.add(l), n = Hw.bind(null, n, i, l), i.then(n, n));
+  }
+  function ch(n) {
+    do {
+      var i;
+      if ((i = n.tag === 13) && (i = n.memoizedState, i = i !== null ? i.dehydrated !== null : !0), i) return n;
+      n = n.return;
+    } while (n !== null);
+    return null;
+  }
+  function dh(n, i, l, c, h) {
+    return (n.mode & 1) === 0 ? (n === i ? n.flags |= 65536 : (n.flags |= 128, l.flags |= 131072, l.flags &= -52805, l.tag === 1 && (l.alternate === null ? l.tag = 17 : (i = or(-1, 1), i.tag = 2, Mr(l, i, 1))), l.lanes |= 1), n) : (n.flags |= 65536, n.lanes = h, n);
+  }
+  var Iw = j.ReactCurrentOwner, Wt = !1;
+  function Vt(n, i, l, c) {
+    i.child = n === null ? Op(i, null, l, c) : Bi(i, n.child, l, c);
+  }
+  function fh(n, i, l, c, h) {
+    l = l.render;
+    var g = i.ref;
+    return qi(i, h), c = Nu(n, i, l, c, g, h), l = Ru(), n !== null && !Wt ? (i.updateQueue = n.updateQueue, i.flags &= -2053, n.lanes &= ~h, ar(n, i, h)) : (tt && l && wu(i), i.flags |= 1, Vt(n, i, c, h), i.child);
+  }
+  function ph(n, i, l, c, h) {
+    if (n === null) {
+      var g = l.type;
+      return typeof g == "function" && !pc(g) && g.defaultProps === void 0 && l.compare === null && l.defaultProps === void 0 ? (i.tag = 15, i.type = g, hh(n, i, g, c, h)) : (n = As(l.type, null, c, i, i.mode, h), n.ref = i.ref, n.return = i, i.child = n);
+    }
+    if (g = n.child, (n.lanes & h) === 0) {
+      var b = g.memoizedProps;
+      if (l = l.compare, l = l !== null ? l : Io, l(b, c) && n.ref === i.ref) return ar(n, i, h);
+    }
+    return i.flags |= 1, n = jr(g, c), n.ref = i.ref, n.return = i, i.child = n;
+  }
+  function hh(n, i, l, c, h) {
+    if (n !== null) {
+      var g = n.memoizedProps;
+      if (Io(g, c) && n.ref === i.ref) if (Wt = !1, i.pendingProps = c = g, (n.lanes & h) !== 0) (n.flags & 131072) !== 0 && (Wt = !0);
+      else return i.lanes = n.lanes, ar(n, i, h);
+    }
+    return Ju(n, i, l, c, h);
+  }
+  function mh(n, i, l) {
+    var c = i.pendingProps, h = c.children, g = n !== null ? n.memoizedState : null;
+    if (c.mode === "hidden") if ((i.mode & 1) === 0) i.memoizedState = { baseLanes: 0, cachePool: null, transitions: null }, Ye(Wi, sn), sn |= l;
+    else {
+      if ((l & 1073741824) === 0) return n = g !== null ? g.baseLanes | l : l, i.lanes = i.childLanes = 1073741824, i.memoizedState = { baseLanes: n, cachePool: null, transitions: null }, i.updateQueue = null, Ye(Wi, sn), sn |= n, null;
+      i.memoizedState = { baseLanes: 0, cachePool: null, transitions: null }, c = g !== null ? g.baseLanes : l, Ye(Wi, sn), sn |= c;
+    }
+    else g !== null ? (c = g.baseLanes | l, i.memoizedState = null) : c = l, Ye(Wi, sn), sn |= c;
+    return Vt(n, i, h, l), i.child;
+  }
+  function gh(n, i) {
+    var l = i.ref;
+    (n === null && l !== null || n !== null && n.ref !== l) && (i.flags |= 512, i.flags |= 2097152);
+  }
+  function Ju(n, i, l, c, h) {
+    var g = Jt(l) ? Zr : Pt.current;
+    return g = Ri(i, g), qi(i, h), l = Nu(n, i, l, c, g, h), c = Ru(), n !== null && !Wt ? (i.updateQueue = n.updateQueue, i.flags &= -2053, n.lanes &= ~h, ar(n, i, h)) : (tt && c && wu(i), i.flags |= 1, Vt(n, i, l, h), i.child);
+  }
+  function yh(n, i, l, c, h) {
+    if (Jt(l)) {
+      var g = !0;
+      Xa(i);
+    } else g = !1;
+    if (qi(i, h), i.stateNode === null) ys(n, i), oh(i, l, c), qu(i, l, c, h), c = !0;
+    else if (n === null) {
+      var b = i.stateNode, O = i.memoizedProps;
+      b.props = O;
+      var R = b.context, W = l.contextType;
+      typeof W == "object" && W !== null ? W = yn(W) : (W = Jt(l) ? Zr : Pt.current, W = Ri(i, W));
+      var oe = l.getDerivedStateFromProps, se = typeof oe == "function" || typeof b.getSnapshotBeforeUpdate == "function";
+      se || typeof b.UNSAFE_componentWillReceiveProps != "function" && typeof b.componentWillReceiveProps != "function" || (O !== c || R !== W) && ah(i, b, c, W), Ar = !1;
+      var ie = i.memoizedState;
+      b.state = ie, ls(i, c, b, h), R = i.memoizedState, O !== c || ie !== R || Ht.current || Ar ? (typeof oe == "function" && (Uu(i, l, oe, c), R = i.memoizedState), (O = Ar || ih(i, l, O, c, ie, R, W)) ? (se || typeof b.UNSAFE_componentWillMount != "function" && typeof b.componentWillMount != "function" || (typeof b.componentWillMount == "function" && b.componentWillMount(), typeof b.UNSAFE_componentWillMount == "function" && b.UNSAFE_componentWillMount()), typeof b.componentDidMount == "function" && (i.flags |= 4194308)) : (typeof b.componentDidMount == "function" && (i.flags |= 4194308), i.memoizedProps = c, i.memoizedState = R), b.props = c, b.state = R, b.context = W, c = O) : (typeof b.componentDidMount == "function" && (i.flags |= 4194308), c = !1);
+    } else {
+      b = i.stateNode, Lp(n, i), O = i.memoizedProps, W = i.type === i.elementType ? O : On(i.type, O), b.props = W, se = i.pendingProps, ie = b.context, R = l.contextType, typeof R == "object" && R !== null ? R = yn(R) : (R = Jt(l) ? Zr : Pt.current, R = Ri(i, R));
+      var me = l.getDerivedStateFromProps;
+      (oe = typeof me == "function" || typeof b.getSnapshotBeforeUpdate == "function") || typeof b.UNSAFE_componentWillReceiveProps != "function" && typeof b.componentWillReceiveProps != "function" || (O !== se || ie !== R) && ah(i, b, c, R), Ar = !1, ie = i.memoizedState, b.state = ie, ls(i, c, b, h);
+      var ye = i.memoizedState;
+      O !== se || ie !== ye || Ht.current || Ar ? (typeof me == "function" && (Uu(i, l, me, c), ye = i.memoizedState), (W = Ar || ih(i, l, W, c, ie, ye, R) || !1) ? (oe || typeof b.UNSAFE_componentWillUpdate != "function" && typeof b.componentWillUpdate != "function" || (typeof b.componentWillUpdate == "function" && b.componentWillUpdate(c, ye, R), typeof b.UNSAFE_componentWillUpdate == "function" && b.UNSAFE_componentWillUpdate(c, ye, R)), typeof b.componentDidUpdate == "function" && (i.flags |= 4), typeof b.getSnapshotBeforeUpdate == "function" && (i.flags |= 1024)) : (typeof b.componentDidUpdate != "function" || O === n.memoizedProps && ie === n.memoizedState || (i.flags |= 4), typeof b.getSnapshotBeforeUpdate != "function" || O === n.memoizedProps && ie === n.memoizedState || (i.flags |= 1024), i.memoizedProps = c, i.memoizedState = ye), b.props = c, b.state = ye, b.context = R, c = W) : (typeof b.componentDidUpdate != "function" || O === n.memoizedProps && ie === n.memoizedState || (i.flags |= 4), typeof b.getSnapshotBeforeUpdate != "function" || O === n.memoizedProps && ie === n.memoizedState || (i.flags |= 1024), c = !1);
+    }
+    return Wu(n, i, l, c, g, h);
+  }
+  function Wu(n, i, l, c, h, g) {
+    gh(n, i);
+    var b = (i.flags & 128) !== 0;
+    if (!c && !b) return h && _p(i, l, !1), ar(n, i, g);
+    c = i.stateNode, Iw.current = i;
+    var O = b && typeof l.getDerivedStateFromError != "function" ? null : c.render();
+    return i.flags |= 1, n !== null && b ? (i.child = Bi(i, n.child, null, g), i.child = Bi(i, null, O, g)) : Vt(n, i, O, g), i.memoizedState = c.state, h && _p(i, l, !0), i.child;
+  }
+  function vh(n) {
+    var i = n.stateNode;
+    i.pendingContext ? Sp(n, i.pendingContext, i.pendingContext !== i.context) : i.context && Sp(n, i.context, !1), Pu(n, i.containerInfo);
+  }
+  function wh(n, i, l, c, h) {
+    return zi(), bu(h), i.flags |= 256, Vt(n, i, l, c), i.child;
+  }
+  var Gu = { dehydrated: null, treeContext: null, retryLane: 0 };
+  function Yu(n) {
+    return { baseLanes: n, cachePool: null, transitions: null };
+  }
+  function Sh(n, i, l) {
+    var c = i.pendingProps, h = rt.current, g = !1, b = (i.flags & 128) !== 0, O;
+    if ((O = b) || (O = n !== null && n.memoizedState === null ? !1 : (h & 2) !== 0), O ? (g = !0, i.flags &= -129) : (n === null || n.memoizedState !== null) && (h |= 1), Ye(rt, h & 1), n === null)
+      return _u(i), n = i.memoizedState, n !== null && (n = n.dehydrated, n !== null) ? ((i.mode & 1) === 0 ? i.lanes = 1 : n.data === "$!" ? i.lanes = 8 : i.lanes = 1073741824, null) : (b = c.children, n = c.fallback, g ? (c = i.mode, g = i.child, b = { mode: "hidden", children: b }, (c & 1) === 0 && g !== null ? (g.childLanes = 0, g.pendingProps = b) : g = Ms(b, c, 0, null), n = si(n, c, l, null), g.return = i, n.return = i, g.sibling = n, i.child = g, i.child.memoizedState = Yu(l), i.memoizedState = Gu, n) : Qu(i, b));
+    if (h = n.memoizedState, h !== null && (O = h.dehydrated, O !== null)) return Lw(n, i, b, c, O, h, l);
+    if (g) {
+      g = c.fallback, b = i.mode, h = n.child, O = h.sibling;
+      var R = { mode: "hidden", children: c.children };
+      return (b & 1) === 0 && i.child !== h ? (c = i.child, c.childLanes = 0, c.pendingProps = R, i.deletions = null) : (c = jr(h, R), c.subtreeFlags = h.subtreeFlags & 14680064), O !== null ? g = jr(O, g) : (g = si(g, b, l, null), g.flags |= 2), g.return = i, c.return = i, c.sibling = g, i.child = c, c = g, g = i.child, b = n.child.memoizedState, b = b === null ? Yu(l) : { baseLanes: b.baseLanes | l, cachePool: null, transitions: b.transitions }, g.memoizedState = b, g.childLanes = n.childLanes & ~l, i.memoizedState = Gu, c;
+    }
+    return g = n.child, n = g.sibling, c = jr(g, { mode: "visible", children: c.children }), (i.mode & 1) === 0 && (c.lanes = l), c.return = i, c.sibling = null, n !== null && (l = i.deletions, l === null ? (i.deletions = [n], i.flags |= 16) : l.push(n)), i.child = c, i.memoizedState = null, c;
+  }
+  function Qu(n, i) {
+    return i = Ms({ mode: "visible", children: i }, n.mode, 0, null), i.return = n, n.child = i;
+  }
+  function gs(n, i, l, c) {
+    return c !== null && bu(c), Bi(i, n.child, null, l), n = Qu(i, i.pendingProps.children), n.flags |= 2, i.memoizedState = null, n;
+  }
+  function Lw(n, i, l, c, h, g, b) {
+    if (l)
+      return i.flags & 256 ? (i.flags &= -257, c = $u(Error(r(422))), gs(n, i, b, c)) : i.memoizedState !== null ? (i.child = n.child, i.flags |= 128, null) : (g = c.fallback, h = i.mode, c = Ms({ mode: "visible", children: c.children }, h, 0, null), g = si(g, h, b, null), g.flags |= 2, c.return = i, g.return = i, c.sibling = g, i.child = c, (i.mode & 1) !== 0 && Bi(i, n.child, null, b), i.child.memoizedState = Yu(b), i.memoizedState = Gu, g);
+    if ((i.mode & 1) === 0) return gs(n, i, b, null);
+    if (h.data === "$!") {
+      if (c = h.nextSibling && h.nextSibling.dataset, c) var O = c.dgst;
+      return c = O, g = Error(r(419)), c = $u(g, c, void 0), gs(n, i, b, c);
+    }
+    if (O = (b & n.childLanes) !== 0, Wt || O) {
+      if (c = wt, c !== null) {
+        switch (b & -b) {
+          case 4:
+            h = 2;
+            break;
+          case 16:
+            h = 8;
+            break;
+          case 64:
+          case 128:
+          case 256:
+          case 512:
+          case 1024:
+          case 2048:
+          case 4096:
+          case 8192:
+          case 16384:
+          case 32768:
+          case 65536:
+          case 131072:
+          case 262144:
+          case 524288:
+          case 1048576:
+          case 2097152:
+          case 4194304:
+          case 8388608:
+          case 16777216:
+          case 33554432:
+          case 67108864:
+            h = 32;
+            break;
+          case 536870912:
+            h = 268435456;
+            break;
+          default:
+            h = 0;
+        }
+        h = (h & (c.suspendedLanes | b)) !== 0 ? 0 : h, h !== 0 && h !== g.retryLane && (g.retryLane = h, ir(n, h), Dn(c, n, h, -1));
+      }
+      return fc(), c = $u(Error(r(421))), gs(n, i, b, c);
+    }
+    return h.data === "$?" ? (i.flags |= 128, i.child = n.child, i = Jw.bind(null, n), h._reactRetry = i, null) : (n = g.treeContext, an = Er(h.nextSibling), on = i, tt = !0, Pn = null, n !== null && (mn[gn++] = nr, mn[gn++] = rr, mn[gn++] = Kr, nr = n.id, rr = n.overflow, Kr = i), i = Qu(i, c.children), i.flags |= 4096, i);
+  }
+  function kh(n, i, l) {
+    n.lanes |= i;
+    var c = n.alternate;
+    c !== null && (c.lanes |= i), Tu(n.return, i, l);
+  }
+  function Zu(n, i, l, c, h) {
+    var g = n.memoizedState;
+    g === null ? n.memoizedState = { isBackwards: i, rendering: null, renderingStartTime: 0, last: c, tail: l, tailMode: h } : (g.isBackwards = i, g.rendering = null, g.renderingStartTime = 0, g.last = c, g.tail = l, g.tailMode = h);
+  }
+  function _h(n, i, l) {
+    var c = i.pendingProps, h = c.revealOrder, g = c.tail;
+    if (Vt(n, i, c.children, l), c = rt.current, (c & 2) !== 0) c = c & 1 | 2, i.flags |= 128;
+    else {
+      if (n !== null && (n.flags & 128) !== 0) e: for (n = i.child; n !== null; ) {
+        if (n.tag === 13) n.memoizedState !== null && kh(n, l, i);
+        else if (n.tag === 19) kh(n, l, i);
+        else if (n.child !== null) {
+          n.child.return = n, n = n.child;
+          continue;
+        }
+        if (n === i) break e;
+        for (; n.sibling === null; ) {
+          if (n.return === null || n.return === i) break e;
+          n = n.return;
+        }
+        n.sibling.return = n.return, n = n.sibling;
+      }
+      c &= 1;
+    }
+    if (Ye(rt, c), (i.mode & 1) === 0) i.memoizedState = null;
+    else switch (h) {
+      case "forwards":
+        for (l = i.child, h = null; l !== null; ) n = l.alternate, n !== null && us(n) === null && (h = l), l = l.sibling;
+        l = h, l === null ? (h = i.child, i.child = null) : (h = l.sibling, l.sibling = null), Zu(i, !1, h, l, g);
+        break;
+      case "backwards":
+        for (l = null, h = i.child, i.child = null; h !== null; ) {
+          if (n = h.alternate, n !== null && us(n) === null) {
+            i.child = h;
+            break;
+          }
+          n = h.sibling, h.sibling = l, l = h, h = n;
+        }
+        Zu(i, !0, l, null, g);
+        break;
+      case "together":
+        Zu(i, !1, null, null, void 0);
+        break;
+      default:
+        i.memoizedState = null;
+    }
+    return i.child;
+  }
+  function ys(n, i) {
+    (i.mode & 1) === 0 && n !== null && (n.alternate = null, i.alternate = null, i.flags |= 2);
+  }
+  function ar(n, i, l) {
+    if (n !== null && (i.dependencies = n.dependencies), ri |= i.lanes, (l & i.childLanes) === 0) return null;
+    if (n !== null && i.child !== n.child) throw Error(r(153));
+    if (i.child !== null) {
+      for (n = i.child, l = jr(n, n.pendingProps), i.child = l, l.return = i; n.sibling !== null; ) n = n.sibling, l = l.sibling = jr(n, n.pendingProps), l.return = i;
+      l.sibling = null;
+    }
+    return i.child;
+  }
+  function Dw(n, i, l) {
+    switch (i.tag) {
+      case 3:
+        vh(i), zi();
+        break;
+      case 5:
+        Np(i);
+        break;
+      case 1:
+        Jt(i.type) && Xa(i);
+        break;
+      case 4:
+        Pu(i, i.stateNode.containerInfo);
+        break;
+      case 10:
+        var c = i.type._context, h = i.memoizedProps.value;
+        Ye(os, c._currentValue), c._currentValue = h;
+        break;
+      case 13:
+        if (c = i.memoizedState, c !== null)
+          return c.dehydrated !== null ? (Ye(rt, rt.current & 1), i.flags |= 128, null) : (l & i.child.childLanes) !== 0 ? Sh(n, i, l) : (Ye(rt, rt.current & 1), n = ar(n, i, l), n !== null ? n.sibling : null);
+        Ye(rt, rt.current & 1);
+        break;
+      case 19:
+        if (c = (l & i.childLanes) !== 0, (n.flags & 128) !== 0) {
+          if (c) return _h(n, i, l);
+          i.flags |= 128;
+        }
+        if (h = i.memoizedState, h !== null && (h.rendering = null, h.tail = null, h.lastEffect = null), Ye(rt, rt.current), c) break;
+        return null;
+      case 22:
+      case 23:
+        return i.lanes = 0, mh(n, i, l);
+    }
+    return ar(n, i, l);
+  }
+  var bh, Ku, Eh, Ch;
+  bh = function(n, i) {
+    for (var l = i.child; l !== null; ) {
+      if (l.tag === 5 || l.tag === 6) n.appendChild(l.stateNode);
+      else if (l.tag !== 4 && l.child !== null) {
+        l.child.return = l, l = l.child;
+        continue;
+      }
+      if (l === i) break;
+      for (; l.sibling === null; ) {
+        if (l.return === null || l.return === i) return;
+        l = l.return;
+      }
+      l.sibling.return = l.return, l = l.sibling;
+    }
+  }, Ku = function() {
+  }, Eh = function(n, i, l, c) {
+    var h = n.memoizedProps;
+    if (h !== c) {
+      n = i.stateNode, ti(Bn.current);
+      var g = null;
+      switch (l) {
+        case "input":
+          h = gt(n, h), c = gt(n, c), g = [];
+          break;
+        case "select":
+          h = C({}, h, { value: void 0 }), c = C({}, c, { value: void 0 }), g = [];
+          break;
+        case "textarea":
+          h = tn(n, h), c = tn(n, c), g = [];
+          break;
+        default:
+          typeof h.onClick != "function" && typeof c.onClick == "function" && (n.onclick = Qa);
+      }
+      pt(l, c);
+      var b;
+      l = null;
+      for (W in h) if (!c.hasOwnProperty(W) && h.hasOwnProperty(W) && h[W] != null) if (W === "style") {
+        var O = h[W];
+        for (b in O) O.hasOwnProperty(b) && (l || (l = {}), l[b] = "");
+      } else W !== "dangerouslySetInnerHTML" && W !== "children" && W !== "suppressContentEditableWarning" && W !== "suppressHydrationWarning" && W !== "autoFocus" && (a.hasOwnProperty(W) ? g || (g = []) : (g = g || []).push(W, null));
+      for (W in c) {
+        var R = c[W];
+        if (O = h?.[W], c.hasOwnProperty(W) && R !== O && (R != null || O != null)) if (W === "style") if (O) {
+          for (b in O) !O.hasOwnProperty(b) || R && R.hasOwnProperty(b) || (l || (l = {}), l[b] = "");
+          for (b in R) R.hasOwnProperty(b) && O[b] !== R[b] && (l || (l = {}), l[b] = R[b]);
+        } else l || (g || (g = []), g.push(
+          W,
+          l
+        )), l = R;
+        else W === "dangerouslySetInnerHTML" ? (R = R ? R.__html : void 0, O = O ? O.__html : void 0, R != null && O !== R && (g = g || []).push(W, R)) : W === "children" ? typeof R != "string" && typeof R != "number" || (g = g || []).push(W, "" + R) : W !== "suppressContentEditableWarning" && W !== "suppressHydrationWarning" && (a.hasOwnProperty(W) ? (R != null && W === "onScroll" && Xe("scroll", n), g || O === R || (g = [])) : (g = g || []).push(W, R));
+      }
+      l && (g = g || []).push("style", l);
+      var W = g;
+      (i.updateQueue = W) && (i.flags |= 4);
+    }
+  }, Ch = function(n, i, l, c) {
+    l !== c && (i.flags |= 4);
+  };
+  function Wo(n, i) {
+    if (!tt) switch (n.tailMode) {
+      case "hidden":
+        i = n.tail;
+        for (var l = null; i !== null; ) i.alternate !== null && (l = i), i = i.sibling;
+        l === null ? n.tail = null : l.sibling = null;
+        break;
+      case "collapsed":
+        l = n.tail;
+        for (var c = null; l !== null; ) l.alternate !== null && (c = l), l = l.sibling;
+        c === null ? i || n.tail === null ? n.tail = null : n.tail.sibling = null : c.sibling = null;
+    }
+  }
+  function It(n) {
+    var i = n.alternate !== null && n.alternate.child === n.child, l = 0, c = 0;
+    if (i) for (var h = n.child; h !== null; ) l |= h.lanes | h.childLanes, c |= h.subtreeFlags & 14680064, c |= h.flags & 14680064, h.return = n, h = h.sibling;
+    else for (h = n.child; h !== null; ) l |= h.lanes | h.childLanes, c |= h.subtreeFlags, c |= h.flags, h.return = n, h = h.sibling;
+    return n.subtreeFlags |= c, n.childLanes = l, i;
+  }
+  function jw(n, i, l) {
+    var c = i.pendingProps;
+    switch (Su(i), i.tag) {
+      case 2:
+      case 16:
+      case 15:
+      case 0:
+      case 11:
+      case 7:
+      case 8:
+      case 12:
+      case 9:
+      case 14:
+        return It(i), null;
+      case 1:
+        return Jt(i.type) && Ka(), It(i), null;
+      case 3:
+        return c = i.stateNode, $i(), et(Ht), et(Pt), Lu(), c.pendingContext && (c.context = c.pendingContext, c.pendingContext = null), (n === null || n.child === null) && (rs(i) ? i.flags |= 4 : n === null || n.memoizedState.isDehydrated && (i.flags & 256) === 0 || (i.flags |= 1024, Pn !== null && (uc(Pn), Pn = null))), Ku(n, i), It(i), null;
+      case 5:
+        Ou(i);
+        var h = ti(Uo.current);
+        if (l = i.type, n !== null && i.stateNode != null) Eh(n, i, l, c, h), n.ref !== i.ref && (i.flags |= 512, i.flags |= 2097152);
+        else {
+          if (!c) {
+            if (i.stateNode === null) throw Error(r(166));
+            return It(i), null;
+          }
+          if (n = ti(Bn.current), rs(i)) {
+            c = i.stateNode, l = i.type;
+            var g = i.memoizedProps;
+            switch (c[zn] = i, c[Ro] = g, n = (i.mode & 1) !== 0, l) {
+              case "dialog":
+                Xe("cancel", c), Xe("close", c);
+                break;
+              case "iframe":
+              case "object":
+              case "embed":
+                Xe("load", c);
+                break;
+              case "video":
+              case "audio":
+                for (h = 0; h < Do.length; h++) Xe(Do[h], c);
+                break;
+              case "source":
+                Xe("error", c);
+                break;
+              case "img":
+              case "image":
+              case "link":
+                Xe(
+                  "error",
+                  c
+                ), Xe("load", c);
+                break;
+              case "details":
+                Xe("toggle", c);
+                break;
+              case "input":
+                Rt(c, g), Xe("invalid", c);
+                break;
+              case "select":
+                c._wrapperState = { wasMultiple: !!g.multiple }, Xe("invalid", c);
+                break;
+              case "textarea":
+                hn(c, g), Xe("invalid", c);
+            }
+            pt(l, g), h = null;
+            for (var b in g) if (g.hasOwnProperty(b)) {
+              var O = g[b];
+              b === "children" ? typeof O == "string" ? c.textContent !== O && (g.suppressHydrationWarning !== !0 && Ya(c.textContent, O, n), h = ["children", O]) : typeof O == "number" && c.textContent !== "" + O && (g.suppressHydrationWarning !== !0 && Ya(
+                c.textContent,
+                O,
+                n
+              ), h = ["children", "" + O]) : a.hasOwnProperty(b) && O != null && b === "onScroll" && Xe("scroll", c);
+            }
+            switch (l) {
+              case "input":
+                he(c), ft(c, g, !0);
+                break;
+              case "textarea":
+                he(c), Tn(c);
+                break;
+              case "select":
+              case "option":
+                break;
+              default:
+                typeof g.onClick == "function" && (c.onclick = Qa);
+            }
+            c = h, i.updateQueue = c, c !== null && (i.flags |= 4);
+          } else {
+            b = h.nodeType === 9 ? h : h.ownerDocument, n === "http://www.w3.org/1999/xhtml" && (n = Z(l)), n === "http://www.w3.org/1999/xhtml" ? l === "script" ? (n = b.createElement("div"), n.innerHTML = "<script><\/script>", n = n.removeChild(n.firstChild)) : typeof c.is == "string" ? n = b.createElement(l, { is: c.is }) : (n = b.createElement(l), l === "select" && (b = n, c.multiple ? b.multiple = !0 : c.size && (b.size = c.size))) : n = b.createElementNS(n, l), n[zn] = i, n[Ro] = c, bh(n, i, !1, !1), i.stateNode = n;
+            e: {
+              switch (b = $t(l, c), l) {
+                case "dialog":
+                  Xe("cancel", n), Xe("close", n), h = c;
+                  break;
+                case "iframe":
+                case "object":
+                case "embed":
+                  Xe("load", n), h = c;
+                  break;
+                case "video":
+                case "audio":
+                  for (h = 0; h < Do.length; h++) Xe(Do[h], n);
+                  h = c;
+                  break;
+                case "source":
+                  Xe("error", n), h = c;
+                  break;
+                case "img":
+                case "image":
+                case "link":
+                  Xe(
+                    "error",
+                    n
+                  ), Xe("load", n), h = c;
+                  break;
+                case "details":
+                  Xe("toggle", n), h = c;
+                  break;
+                case "input":
+                  Rt(n, c), h = gt(n, c), Xe("invalid", n);
+                  break;
+                case "option":
+                  h = c;
+                  break;
+                case "select":
+                  n._wrapperState = { wasMultiple: !!c.multiple }, h = C({}, c, { value: void 0 }), Xe("invalid", n);
+                  break;
+                case "textarea":
+                  hn(n, c), h = tn(n, c), Xe("invalid", n);
+                  break;
+                default:
+                  h = c;
+              }
+              pt(l, h), O = h;
+              for (g in O) if (O.hasOwnProperty(g)) {
+                var R = O[g];
+                g === "style" ? Vn(n, R) : g === "dangerouslySetInnerHTML" ? (R = R ? R.__html : void 0, R != null && Le(n, R)) : g === "children" ? typeof R == "string" ? (l !== "textarea" || R !== "") && je(n, R) : typeof R == "number" && je(n, "" + R) : g !== "suppressContentEditableWarning" && g !== "suppressHydrationWarning" && g !== "autoFocus" && (a.hasOwnProperty(g) ? R != null && g === "onScroll" && Xe("scroll", n) : R != null && B(n, g, R, b));
+              }
+              switch (l) {
+                case "input":
+                  he(n), ft(n, c, !1);
+                  break;
+                case "textarea":
+                  he(n), Tn(n);
+                  break;
+                case "option":
+                  c.value != null && n.setAttribute("value", "" + U(c.value));
+                  break;
+                case "select":
+                  n.multiple = !!c.multiple, g = c.value, g != null ? _t(n, !!c.multiple, g, !1) : c.defaultValue != null && _t(
+                    n,
+                    !!c.multiple,
+                    c.defaultValue,
+                    !0
+                  );
+                  break;
+                default:
+                  typeof h.onClick == "function" && (n.onclick = Qa);
+              }
+              switch (l) {
+                case "button":
+                case "input":
+                case "select":
+                case "textarea":
+                  c = !!c.autoFocus;
+                  break e;
+                case "img":
+                  c = !0;
+                  break e;
+                default:
+                  c = !1;
+              }
+            }
+            c && (i.flags |= 4);
+          }
+          i.ref !== null && (i.flags |= 512, i.flags |= 2097152);
+        }
+        return It(i), null;
+      case 6:
+        if (n && i.stateNode != null) Ch(n, i, n.memoizedProps, c);
+        else {
+          if (typeof c != "string" && i.stateNode === null) throw Error(r(166));
+          if (l = ti(Uo.current), ti(Bn.current), rs(i)) {
+            if (c = i.stateNode, l = i.memoizedProps, c[zn] = i, (g = c.nodeValue !== l) && (n = on, n !== null)) switch (n.tag) {
+              case 3:
+                Ya(c.nodeValue, l, (n.mode & 1) !== 0);
+                break;
+              case 5:
+                n.memoizedProps.suppressHydrationWarning !== !0 && Ya(c.nodeValue, l, (n.mode & 1) !== 0);
+            }
+            g && (i.flags |= 4);
+          } else c = (l.nodeType === 9 ? l : l.ownerDocument).createTextNode(c), c[zn] = i, i.stateNode = c;
+        }
+        return It(i), null;
+      case 13:
+        if (et(rt), c = i.memoizedState, n === null || n.memoizedState !== null && n.memoizedState.dehydrated !== null) {
+          if (tt && an !== null && (i.mode & 1) !== 0 && (i.flags & 128) === 0) Ap(), zi(), i.flags |= 98560, g = !1;
+          else if (g = rs(i), c !== null && c.dehydrated !== null) {
+            if (n === null) {
+              if (!g) throw Error(r(318));
+              if (g = i.memoizedState, g = g !== null ? g.dehydrated : null, !g) throw Error(r(317));
+              g[zn] = i;
+            } else zi(), (i.flags & 128) === 0 && (i.memoizedState = null), i.flags |= 4;
+            It(i), g = !1;
+          } else Pn !== null && (uc(Pn), Pn = null), g = !0;
+          if (!g) return i.flags & 65536 ? i : null;
+        }
+        return (i.flags & 128) !== 0 ? (i.lanes = l, i) : (c = c !== null, c !== (n !== null && n.memoizedState !== null) && c && (i.child.flags |= 8192, (i.mode & 1) !== 0 && (n === null || (rt.current & 1) !== 0 ? mt === 0 && (mt = 3) : fc())), i.updateQueue !== null && (i.flags |= 4), It(i), null);
+      case 4:
+        return $i(), Ku(n, i), n === null && jo(i.stateNode.containerInfo), It(i), null;
+      case 10:
+        return xu(i.type._context), It(i), null;
+      case 17:
+        return Jt(i.type) && Ka(), It(i), null;
+      case 19:
+        if (et(rt), g = i.memoizedState, g === null) return It(i), null;
+        if (c = (i.flags & 128) !== 0, b = g.rendering, b === null) if (c) Wo(g, !1);
+        else {
+          if (mt !== 0 || n !== null && (n.flags & 128) !== 0) for (n = i.child; n !== null; ) {
+            if (b = us(n), b !== null) {
+              for (i.flags |= 128, Wo(g, !1), c = b.updateQueue, c !== null && (i.updateQueue = c, i.flags |= 4), i.subtreeFlags = 0, c = l, l = i.child; l !== null; ) g = l, n = c, g.flags &= 14680066, b = g.alternate, b === null ? (g.childLanes = 0, g.lanes = n, g.child = null, g.subtreeFlags = 0, g.memoizedProps = null, g.memoizedState = null, g.updateQueue = null, g.dependencies = null, g.stateNode = null) : (g.childLanes = b.childLanes, g.lanes = b.lanes, g.child = b.child, g.subtreeFlags = 0, g.deletions = null, g.memoizedProps = b.memoizedProps, g.memoizedState = b.memoizedState, g.updateQueue = b.updateQueue, g.type = b.type, n = b.dependencies, g.dependencies = n === null ? null : { lanes: n.lanes, firstContext: n.firstContext }), l = l.sibling;
+              return Ye(rt, rt.current & 1 | 2), i.child;
+            }
+            n = n.sibling;
+          }
+          g.tail !== null && nt() > Gi && (i.flags |= 128, c = !0, Wo(g, !1), i.lanes = 4194304);
+        }
+        else {
+          if (!c) if (n = us(b), n !== null) {
+            if (i.flags |= 128, c = !0, l = n.updateQueue, l !== null && (i.updateQueue = l, i.flags |= 4), Wo(g, !0), g.tail === null && g.tailMode === "hidden" && !b.alternate && !tt) return It(i), null;
+          } else 2 * nt() - g.renderingStartTime > Gi && l !== 1073741824 && (i.flags |= 128, c = !0, Wo(g, !1), i.lanes = 4194304);
+          g.isBackwards ? (b.sibling = i.child, i.child = b) : (l = g.last, l !== null ? l.sibling = b : i.child = b, g.last = b);
+        }
+        return g.tail !== null ? (i = g.tail, g.rendering = i, g.tail = i.sibling, g.renderingStartTime = nt(), i.sibling = null, l = rt.current, Ye(rt, c ? l & 1 | 2 : l & 1), i) : (It(i), null);
+      case 22:
+      case 23:
+        return dc(), c = i.memoizedState !== null, n !== null && n.memoizedState !== null !== c && (i.flags |= 8192), c && (i.mode & 1) !== 0 ? (sn & 1073741824) !== 0 && (It(i), i.subtreeFlags & 6 && (i.flags |= 8192)) : It(i), null;
+      case 24:
+        return null;
+      case 25:
+        return null;
+    }
+    throw Error(r(156, i.tag));
+  }
+  function Nw(n, i) {
+    switch (Su(i), i.tag) {
+      case 1:
+        return Jt(i.type) && Ka(), n = i.flags, n & 65536 ? (i.flags = n & -65537 | 128, i) : null;
+      case 3:
+        return $i(), et(Ht), et(Pt), Lu(), n = i.flags, (n & 65536) !== 0 && (n & 128) === 0 ? (i.flags = n & -65537 | 128, i) : null;
+      case 5:
+        return Ou(i), null;
+      case 13:
+        if (et(rt), n = i.memoizedState, n !== null && n.dehydrated !== null) {
+          if (i.alternate === null) throw Error(r(340));
+          zi();
+        }
+        return n = i.flags, n & 65536 ? (i.flags = n & -65537 | 128, i) : null;
+      case 19:
+        return et(rt), null;
+      case 4:
+        return $i(), null;
+      case 10:
+        return xu(i.type._context), null;
+      case 22:
+      case 23:
+        return dc(), null;
+      case 24:
+        return null;
+      default:
+        return null;
+    }
+  }
+  var vs = !1, Lt = !1, Rw = typeof WeakSet == "function" ? WeakSet : Set, ge = null;
+  function Ji(n, i) {
+    var l = n.ref;
+    if (l !== null) if (typeof l == "function") try {
+      l(null);
+    } catch (c) {
+      ot(n, i, c);
+    }
+    else l.current = null;
+  }
+  function Xu(n, i, l) {
+    try {
+      l();
+    } catch (c) {
+      ot(n, i, c);
+    }
+  }
+  var xh = !1;
+  function Fw(n, i) {
+    if (du = Fa, n = ip(), ru(n)) {
+      if ("selectionStart" in n) var l = { start: n.selectionStart, end: n.selectionEnd };
+      else e: {
+        l = (l = n.ownerDocument) && l.defaultView || window;
+        var c = l.getSelection && l.getSelection();
+        if (c && c.rangeCount !== 0) {
+          l = c.anchorNode;
+          var h = c.anchorOffset, g = c.focusNode;
+          c = c.focusOffset;
+          try {
+            l.nodeType, g.nodeType;
+          } catch {
+            l = null;
+            break e;
+          }
+          var b = 0, O = -1, R = -1, W = 0, oe = 0, se = n, ie = null;
+          t: for (; ; ) {
+            for (var me; se !== l || h !== 0 && se.nodeType !== 3 || (O = b + h), se !== g || c !== 0 && se.nodeType !== 3 || (R = b + c), se.nodeType === 3 && (b += se.nodeValue.length), (me = se.firstChild) !== null; )
+              ie = se, se = me;
+            for (; ; ) {
+              if (se === n) break t;
+              if (ie === l && ++W === h && (O = b), ie === g && ++oe === c && (R = b), (me = se.nextSibling) !== null) break;
+              se = ie, ie = se.parentNode;
+            }
+            se = me;
+          }
+          l = O === -1 || R === -1 ? null : { start: O, end: R };
+        } else l = null;
+      }
+      l = l || { start: 0, end: 0 };
+    } else l = null;
+    for (fu = { focusedElem: n, selectionRange: l }, Fa = !1, ge = i; ge !== null; ) if (i = ge, n = i.child, (i.subtreeFlags & 1028) !== 0 && n !== null) n.return = i, ge = n;
+    else for (; ge !== null; ) {
+      i = ge;
+      try {
+        var ye = i.alternate;
+        if ((i.flags & 1024) !== 0) switch (i.tag) {
+          case 0:
+          case 11:
+          case 15:
+            break;
+          case 1:
+            if (ye !== null) {
+              var we = ye.memoizedProps, st = ye.memoizedState, $ = i.stateNode, F = $.getSnapshotBeforeUpdate(i.elementType === i.type ? we : On(i.type, we), st);
+              $.__reactInternalSnapshotBeforeUpdate = F;
+            }
+            break;
+          case 3:
+            var J = i.stateNode.containerInfo;
+            J.nodeType === 1 ? J.textContent = "" : J.nodeType === 9 && J.documentElement && J.removeChild(J.documentElement);
+            break;
+          case 5:
+          case 6:
+          case 4:
+          case 17:
+            break;
+          default:
+            throw Error(r(163));
+        }
+      } catch (de) {
+        ot(i, i.return, de);
+      }
+      if (n = i.sibling, n !== null) {
+        n.return = i.return, ge = n;
+        break;
+      }
+      ge = i.return;
+    }
+    return ye = xh, xh = !1, ye;
+  }
+  function Go(n, i, l) {
+    var c = i.updateQueue;
+    if (c = c !== null ? c.lastEffect : null, c !== null) {
+      var h = c = c.next;
+      do {
+        if ((h.tag & n) === n) {
+          var g = h.destroy;
+          h.destroy = void 0, g !== void 0 && Xu(i, l, g);
+        }
+        h = h.next;
+      } while (h !== c);
+    }
+  }
+  function ws(n, i) {
+    if (i = i.updateQueue, i = i !== null ? i.lastEffect : null, i !== null) {
+      var l = i = i.next;
+      do {
+        if ((l.tag & n) === n) {
+          var c = l.create;
+          l.destroy = c();
+        }
+        l = l.next;
+      } while (l !== i);
+    }
+  }
+  function ec(n) {
+    var i = n.ref;
+    if (i !== null) {
+      var l = n.stateNode;
+      switch (n.tag) {
+        case 5:
+          n = l;
+          break;
+        default:
+          n = l;
+      }
+      typeof i == "function" ? i(n) : i.current = n;
+    }
+  }
+  function Th(n) {
+    var i = n.alternate;
+    i !== null && (n.alternate = null, Th(i)), n.child = null, n.deletions = null, n.sibling = null, n.tag === 5 && (i = n.stateNode, i !== null && (delete i[zn], delete i[Ro], delete i[gu], delete i[Sw], delete i[kw])), n.stateNode = null, n.return = null, n.dependencies = null, n.memoizedProps = null, n.memoizedState = null, n.pendingProps = null, n.stateNode = null, n.updateQueue = null;
+  }
+  function Ah(n) {
+    return n.tag === 5 || n.tag === 3 || n.tag === 4;
+  }
+  function Mh(n) {
+    e: for (; ; ) {
+      for (; n.sibling === null; ) {
+        if (n.return === null || Ah(n.return)) return null;
+        n = n.return;
+      }
+      for (n.sibling.return = n.return, n = n.sibling; n.tag !== 5 && n.tag !== 6 && n.tag !== 18; ) {
+        if (n.flags & 2 || n.child === null || n.tag === 4) continue e;
+        n.child.return = n, n = n.child;
+      }
+      if (!(n.flags & 2)) return n.stateNode;
+    }
+  }
+  function tc(n, i, l) {
+    var c = n.tag;
+    if (c === 5 || c === 6) n = n.stateNode, i ? l.nodeType === 8 ? l.parentNode.insertBefore(n, i) : l.insertBefore(n, i) : (l.nodeType === 8 ? (i = l.parentNode, i.insertBefore(n, l)) : (i = l, i.appendChild(n)), l = l._reactRootContainer, l != null || i.onclick !== null || (i.onclick = Qa));
+    else if (c !== 4 && (n = n.child, n !== null)) for (tc(n, i, l), n = n.sibling; n !== null; ) tc(n, i, l), n = n.sibling;
+  }
+  function nc(n, i, l) {
+    var c = n.tag;
+    if (c === 5 || c === 6) n = n.stateNode, i ? l.insertBefore(n, i) : l.appendChild(n);
+    else if (c !== 4 && (n = n.child, n !== null)) for (nc(n, i, l), n = n.sibling; n !== null; ) nc(n, i, l), n = n.sibling;
+  }
+  var Ct = null, In = !1;
+  function Pr(n, i, l) {
+    for (l = l.child; l !== null; ) Ph(n, i, l), l = l.sibling;
+  }
+  function Ph(n, i, l) {
+    if (He && typeof He.onCommitFiberUnmount == "function") try {
+      He.onCommitFiberUnmount(Ti, l);
+    } catch {
+    }
+    switch (l.tag) {
+      case 5:
+        Lt || Ji(l, i);
+      case 6:
+        var c = Ct, h = In;
+        Ct = null, Pr(n, i, l), Ct = c, In = h, Ct !== null && (In ? (n = Ct, l = l.stateNode, n.nodeType === 8 ? n.parentNode.removeChild(l) : n.removeChild(l)) : Ct.removeChild(l.stateNode));
+        break;
+      case 18:
+        Ct !== null && (In ? (n = Ct, l = l.stateNode, n.nodeType === 8 ? mu(n.parentNode, l) : n.nodeType === 1 && mu(n, l), xo(n)) : mu(Ct, l.stateNode));
+        break;
+      case 4:
+        c = Ct, h = In, Ct = l.stateNode.containerInfo, In = !0, Pr(n, i, l), Ct = c, In = h;
+        break;
+      case 0:
+      case 11:
+      case 14:
+      case 15:
+        if (!Lt && (c = l.updateQueue, c !== null && (c = c.lastEffect, c !== null))) {
+          h = c = c.next;
+          do {
+            var g = h, b = g.destroy;
+            g = g.tag, b !== void 0 && ((g & 2) !== 0 || (g & 4) !== 0) && Xu(l, i, b), h = h.next;
+          } while (h !== c);
+        }
+        Pr(n, i, l);
+        break;
+      case 1:
+        if (!Lt && (Ji(l, i), c = l.stateNode, typeof c.componentWillUnmount == "function")) try {
+          c.props = l.memoizedProps, c.state = l.memoizedState, c.componentWillUnmount();
+        } catch (O) {
+          ot(l, i, O);
+        }
+        Pr(n, i, l);
+        break;
+      case 21:
+        Pr(n, i, l);
+        break;
+      case 22:
+        l.mode & 1 ? (Lt = (c = Lt) || l.memoizedState !== null, Pr(n, i, l), Lt = c) : Pr(n, i, l);
+        break;
+      default:
+        Pr(n, i, l);
+    }
+  }
+  function Oh(n) {
+    var i = n.updateQueue;
+    if (i !== null) {
+      n.updateQueue = null;
+      var l = n.stateNode;
+      l === null && (l = n.stateNode = new Rw()), i.forEach(function(c) {
+        var h = Ww.bind(null, n, c);
+        l.has(c) || (l.add(c), c.then(h, h));
+      });
+    }
+  }
+  function Ln(n, i) {
+    var l = i.deletions;
+    if (l !== null) for (var c = 0; c < l.length; c++) {
+      var h = l[c];
+      try {
+        var g = n, b = i, O = b;
+        e: for (; O !== null; ) {
+          switch (O.tag) {
+            case 5:
+              Ct = O.stateNode, In = !1;
+              break e;
+            case 3:
+              Ct = O.stateNode.containerInfo, In = !0;
+              break e;
+            case 4:
+              Ct = O.stateNode.containerInfo, In = !0;
+              break e;
+          }
+          O = O.return;
+        }
+        if (Ct === null) throw Error(r(160));
+        Ph(g, b, h), Ct = null, In = !1;
+        var R = h.alternate;
+        R !== null && (R.return = null), h.return = null;
+      } catch (W) {
+        ot(h, i, W);
+      }
+    }
+    if (i.subtreeFlags & 12854) for (i = i.child; i !== null; ) Ih(i, n), i = i.sibling;
+  }
+  function Ih(n, i) {
+    var l = n.alternate, c = n.flags;
+    switch (n.tag) {
+      case 0:
+      case 11:
+      case 14:
+      case 15:
+        if (Ln(i, n), qn(n), c & 4) {
+          try {
+            Go(3, n, n.return), ws(3, n);
+          } catch (we) {
+            ot(n, n.return, we);
+          }
+          try {
+            Go(5, n, n.return);
+          } catch (we) {
+            ot(n, n.return, we);
+          }
+        }
+        break;
+      case 1:
+        Ln(i, n), qn(n), c & 512 && l !== null && Ji(l, l.return);
+        break;
+      case 5:
+        if (Ln(i, n), qn(n), c & 512 && l !== null && Ji(l, l.return), n.flags & 32) {
+          var h = n.stateNode;
+          try {
+            je(h, "");
+          } catch (we) {
+            ot(n, n.return, we);
+          }
+        }
+        if (c & 4 && (h = n.stateNode, h != null)) {
+          var g = n.memoizedProps, b = l !== null ? l.memoizedProps : g, O = n.type, R = n.updateQueue;
+          if (n.updateQueue = null, R !== null) try {
+            O === "input" && g.type === "radio" && g.name != null && en(h, g), $t(O, b);
+            var W = $t(O, g);
+            for (b = 0; b < R.length; b += 2) {
+              var oe = R[b], se = R[b + 1];
+              oe === "style" ? Vn(h, se) : oe === "dangerouslySetInnerHTML" ? Le(h, se) : oe === "children" ? je(h, se) : B(h, oe, se, W);
+            }
+            switch (O) {
+              case "input":
+                Je(h, g);
+                break;
+              case "textarea":
+                xn(h, g);
+                break;
+              case "select":
+                var ie = h._wrapperState.wasMultiple;
+                h._wrapperState.wasMultiple = !!g.multiple;
+                var me = g.value;
+                me != null ? _t(h, !!g.multiple, me, !1) : ie !== !!g.multiple && (g.defaultValue != null ? _t(
+                  h,
+                  !!g.multiple,
+                  g.defaultValue,
+                  !0
+                ) : _t(h, !!g.multiple, g.multiple ? [] : "", !1));
+            }
+            h[Ro] = g;
+          } catch (we) {
+            ot(n, n.return, we);
+          }
+        }
+        break;
+      case 6:
+        if (Ln(i, n), qn(n), c & 4) {
+          if (n.stateNode === null) throw Error(r(162));
+          h = n.stateNode, g = n.memoizedProps;
+          try {
+            h.nodeValue = g;
+          } catch (we) {
+            ot(n, n.return, we);
+          }
+        }
+        break;
+      case 3:
+        if (Ln(i, n), qn(n), c & 4 && l !== null && l.memoizedState.isDehydrated) try {
+          xo(i.containerInfo);
+        } catch (we) {
+          ot(n, n.return, we);
+        }
+        break;
+      case 4:
+        Ln(i, n), qn(n);
+        break;
+      case 13:
+        Ln(i, n), qn(n), h = n.child, h.flags & 8192 && (g = h.memoizedState !== null, h.stateNode.isHidden = g, !g || h.alternate !== null && h.alternate.memoizedState !== null || (oc = nt())), c & 4 && Oh(n);
+        break;
+      case 22:
+        if (oe = l !== null && l.memoizedState !== null, n.mode & 1 ? (Lt = (W = Lt) || oe, Ln(i, n), Lt = W) : Ln(i, n), qn(n), c & 8192) {
+          if (W = n.memoizedState !== null, (n.stateNode.isHidden = W) && !oe && (n.mode & 1) !== 0) for (ge = n, oe = n.child; oe !== null; ) {
+            for (se = ge = oe; ge !== null; ) {
+              switch (ie = ge, me = ie.child, ie.tag) {
+                case 0:
+                case 11:
+                case 14:
+                case 15:
+                  Go(4, ie, ie.return);
+                  break;
+                case 1:
+                  Ji(ie, ie.return);
+                  var ye = ie.stateNode;
+                  if (typeof ye.componentWillUnmount == "function") {
+                    c = ie, l = ie.return;
+                    try {
+                      i = c, ye.props = i.memoizedProps, ye.state = i.memoizedState, ye.componentWillUnmount();
+                    } catch (we) {
+                      ot(c, l, we);
+                    }
+                  }
+                  break;
+                case 5:
+                  Ji(ie, ie.return);
+                  break;
+                case 22:
+                  if (ie.memoizedState !== null) {
+                    jh(se);
+                    continue;
+                  }
+              }
+              me !== null ? (me.return = ie, ge = me) : jh(se);
+            }
+            oe = oe.sibling;
+          }
+          e: for (oe = null, se = n; ; ) {
+            if (se.tag === 5) {
+              if (oe === null) {
+                oe = se;
+                try {
+                  h = se.stateNode, W ? (g = h.style, typeof g.setProperty == "function" ? g.setProperty("display", "none", "important") : g.display = "none") : (O = se.stateNode, R = se.memoizedProps.style, b = R != null && R.hasOwnProperty("display") ? R.display : null, O.style.display = Mt("display", b));
+                } catch (we) {
+                  ot(n, n.return, we);
+                }
+              }
+            } else if (se.tag === 6) {
+              if (oe === null) try {
+                se.stateNode.nodeValue = W ? "" : se.memoizedProps;
+              } catch (we) {
+                ot(n, n.return, we);
+              }
+            } else if ((se.tag !== 22 && se.tag !== 23 || se.memoizedState === null || se === n) && se.child !== null) {
+              se.child.return = se, se = se.child;
+              continue;
+            }
+            if (se === n) break e;
+            for (; se.sibling === null; ) {
+              if (se.return === null || se.return === n) break e;
+              oe === se && (oe = null), se = se.return;
+            }
+            oe === se && (oe = null), se.sibling.return = se.return, se = se.sibling;
+          }
+        }
+        break;
+      case 19:
+        Ln(i, n), qn(n), c & 4 && Oh(n);
+        break;
+      case 21:
+        break;
+      default:
+        Ln(
+          i,
+          n
+        ), qn(n);
+    }
+  }
+  function qn(n) {
+    var i = n.flags;
+    if (i & 2) {
+      try {
+        e: {
+          for (var l = n.return; l !== null; ) {
+            if (Ah(l)) {
+              var c = l;
+              break e;
+            }
+            l = l.return;
+          }
+          throw Error(r(160));
+        }
+        switch (c.tag) {
+          case 5:
+            var h = c.stateNode;
+            c.flags & 32 && (je(h, ""), c.flags &= -33);
+            var g = Mh(n);
+            nc(n, g, h);
+            break;
+          case 3:
+          case 4:
+            var b = c.stateNode.containerInfo, O = Mh(n);
+            tc(n, O, b);
+            break;
+          default:
+            throw Error(r(161));
+        }
+      } catch (R) {
+        ot(n, n.return, R);
+      }
+      n.flags &= -3;
+    }
+    i & 4096 && (n.flags &= -4097);
+  }
+  function Vw(n, i, l) {
+    ge = n, Lh(n);
+  }
+  function Lh(n, i, l) {
+    for (var c = (n.mode & 1) !== 0; ge !== null; ) {
+      var h = ge, g = h.child;
+      if (h.tag === 22 && c) {
+        var b = h.memoizedState !== null || vs;
+        if (!b) {
+          var O = h.alternate, R = O !== null && O.memoizedState !== null || Lt;
+          O = vs;
+          var W = Lt;
+          if (vs = b, (Lt = R) && !W) for (ge = h; ge !== null; ) b = ge, R = b.child, b.tag === 22 && b.memoizedState !== null ? Nh(h) : R !== null ? (R.return = b, ge = R) : Nh(h);
+          for (; g !== null; ) ge = g, Lh(g), g = g.sibling;
+          ge = h, vs = O, Lt = W;
+        }
+        Dh(n);
+      } else (h.subtreeFlags & 8772) !== 0 && g !== null ? (g.return = h, ge = g) : Dh(n);
+    }
+  }
+  function Dh(n) {
+    for (; ge !== null; ) {
+      var i = ge;
+      if ((i.flags & 8772) !== 0) {
+        var l = i.alternate;
+        try {
+          if ((i.flags & 8772) !== 0) switch (i.tag) {
+            case 0:
+            case 11:
+            case 15:
+              Lt || ws(5, i);
+              break;
+            case 1:
+              var c = i.stateNode;
+              if (i.flags & 4 && !Lt) if (l === null) c.componentDidMount();
+              else {
+                var h = i.elementType === i.type ? l.memoizedProps : On(i.type, l.memoizedProps);
+                c.componentDidUpdate(h, l.memoizedState, c.__reactInternalSnapshotBeforeUpdate);
+              }
+              var g = i.updateQueue;
+              g !== null && jp(i, g, c);
+              break;
+            case 3:
+              var b = i.updateQueue;
+              if (b !== null) {
+                if (l = null, i.child !== null) switch (i.child.tag) {
+                  case 5:
+                    l = i.child.stateNode;
+                    break;
+                  case 1:
+                    l = i.child.stateNode;
+                }
+                jp(i, b, l);
+              }
+              break;
+            case 5:
+              var O = i.stateNode;
+              if (l === null && i.flags & 4) {
+                l = O;
+                var R = i.memoizedProps;
+                switch (i.type) {
+                  case "button":
+                  case "input":
+                  case "select":
+                  case "textarea":
+                    R.autoFocus && l.focus();
+                    break;
+                  case "img":
+                    R.src && (l.src = R.src);
+                }
+              }
+              break;
+            case 6:
+              break;
+            case 4:
+              break;
+            case 12:
+              break;
+            case 13:
+              if (i.memoizedState === null) {
+                var W = i.alternate;
+                if (W !== null) {
+                  var oe = W.memoizedState;
+                  if (oe !== null) {
+                    var se = oe.dehydrated;
+                    se !== null && xo(se);
+                  }
+                }
+              }
+              break;
+            case 19:
+            case 17:
+            case 21:
+            case 22:
+            case 23:
+            case 25:
+              break;
+            default:
+              throw Error(r(163));
+          }
+          Lt || i.flags & 512 && ec(i);
+        } catch (ie) {
+          ot(i, i.return, ie);
+        }
+      }
+      if (i === n) {
+        ge = null;
+        break;
+      }
+      if (l = i.sibling, l !== null) {
+        l.return = i.return, ge = l;
+        break;
+      }
+      ge = i.return;
+    }
+  }
+  function jh(n) {
+    for (; ge !== null; ) {
+      var i = ge;
+      if (i === n) {
+        ge = null;
+        break;
+      }
+      var l = i.sibling;
+      if (l !== null) {
+        l.return = i.return, ge = l;
+        break;
+      }
+      ge = i.return;
+    }
+  }
+  function Nh(n) {
+    for (; ge !== null; ) {
+      var i = ge;
+      try {
+        switch (i.tag) {
+          case 0:
+          case 11:
+          case 15:
+            var l = i.return;
+            try {
+              ws(4, i);
+            } catch (R) {
+              ot(i, l, R);
+            }
+            break;
+          case 1:
+            var c = i.stateNode;
+            if (typeof c.componentDidMount == "function") {
+              var h = i.return;
+              try {
+                c.componentDidMount();
+              } catch (R) {
+                ot(i, h, R);
+              }
+            }
+            var g = i.return;
+            try {
+              ec(i);
+            } catch (R) {
+              ot(i, g, R);
+            }
+            break;
+          case 5:
+            var b = i.return;
+            try {
+              ec(i);
+            } catch (R) {
+              ot(i, b, R);
+            }
+        }
+      } catch (R) {
+        ot(i, i.return, R);
+      }
+      if (i === n) {
+        ge = null;
+        break;
+      }
+      var O = i.sibling;
+      if (O !== null) {
+        O.return = i.return, ge = O;
+        break;
+      }
+      ge = i.return;
+    }
+  }
+  var zw = Math.ceil, Ss = j.ReactCurrentDispatcher, rc = j.ReactCurrentOwner, wn = j.ReactCurrentBatchConfig, Ve = 0, wt = null, ct = null, xt = 0, sn = 0, Wi = Cr(0), mt = 0, Yo = null, ri = 0, ks = 0, ic = 0, Qo = null, Gt = null, oc = 0, Gi = 1 / 0, sr = null, _s = !1, ac = null, Or = null, bs = !1, Ir = null, Es = 0, Zo = 0, sc = null, Cs = -1, xs = 0;
+  function zt() {
+    return (Ve & 6) !== 0 ? nt() : Cs !== -1 ? Cs : Cs = nt();
+  }
+  function Lr(n) {
+    return (n.mode & 1) === 0 ? 1 : (Ve & 2) !== 0 && xt !== 0 ? xt & -xt : bw.transition !== null ? (xs === 0 && (xs = Mf()), xs) : (n = $e, n !== 0 || (n = window.event, n = n === void 0 ? 16 : Ff(n.type)), n);
+  }
+  function Dn(n, i, l, c) {
+    if (50 < Zo) throw Zo = 0, sc = null, Error(r(185));
+    ko(n, l, c), ((Ve & 2) === 0 || n !== wt) && (n === wt && ((Ve & 2) === 0 && (ks |= l), mt === 4 && Dr(n, xt)), Yt(n, c), l === 1 && Ve === 0 && (i.mode & 1) === 0 && (Gi = nt() + 500, es && Tr()));
+  }
+  function Yt(n, i) {
+    var l = n.callbackNode;
+    b1(n, i);
+    var c = ja(n, n === wt ? xt : 0);
+    if (c === 0) l !== null && wo(l), n.callbackNode = null, n.callbackPriority = 0;
+    else if (i = c & -c, n.callbackPriority !== i) {
+      if (l != null && wo(l), i === 1) n.tag === 0 ? _w(Fh.bind(null, n)) : bp(Fh.bind(null, n)), vw(function() {
+        (Ve & 6) === 0 && Tr();
+      }), l = null;
+      else {
+        switch (Pf(c)) {
+          case 1:
+            l = xi;
+            break;
+          case 4:
+            l = Oa;
+            break;
+          case 16:
+            l = Xn;
+            break;
+          case 536870912:
+            l = Ia;
+            break;
+          default:
+            l = Xn;
+        }
+        l = Jh(l, Rh.bind(null, n));
+      }
+      n.callbackPriority = i, n.callbackNode = l;
+    }
+  }
+  function Rh(n, i) {
+    if (Cs = -1, xs = 0, (Ve & 6) !== 0) throw Error(r(327));
+    var l = n.callbackNode;
+    if (Yi() && n.callbackNode !== l) return null;
+    var c = ja(n, n === wt ? xt : 0);
+    if (c === 0) return null;
+    if ((c & 30) !== 0 || (c & n.expiredLanes) !== 0 || i) i = Ts(n, c);
+    else {
+      i = c;
+      var h = Ve;
+      Ve |= 2;
+      var g = zh();
+      (wt !== n || xt !== i) && (sr = null, Gi = nt() + 500, oi(n, i));
+      do
+        try {
+          qw();
+          break;
+        } catch (O) {
+          Vh(n, O);
+        }
+      while (!0);
+      Cu(), Ss.current = g, Ve = h, ct !== null ? i = 0 : (wt = null, xt = 0, i = mt);
+    }
+    if (i !== 0) {
+      if (i === 2 && (h = Bl(n), h !== 0 && (c = h, i = lc(n, h))), i === 1) throw l = Yo, oi(n, 0), Dr(n, c), Yt(n, nt()), l;
+      if (i === 6) Dr(n, c);
+      else {
+        if (h = n.current.alternate, (c & 30) === 0 && !Bw(h) && (i = Ts(n, c), i === 2 && (g = Bl(n), g !== 0 && (c = g, i = lc(n, g))), i === 1)) throw l = Yo, oi(n, 0), Dr(n, c), Yt(n, nt()), l;
+        switch (n.finishedWork = h, n.finishedLanes = c, i) {
+          case 0:
+          case 1:
+            throw Error(r(345));
+          case 2:
+            ai(n, Gt, sr);
+            break;
+          case 3:
+            if (Dr(n, c), (c & 130023424) === c && (i = oc + 500 - nt(), 10 < i)) {
+              if (ja(n, 0) !== 0) break;
+              if (h = n.suspendedLanes, (h & c) !== c) {
+                zt(), n.pingedLanes |= n.suspendedLanes & h;
+                break;
+              }
+              n.timeoutHandle = hu(ai.bind(null, n, Gt, sr), i);
+              break;
+            }
+            ai(n, Gt, sr);
+            break;
+          case 4:
+            if (Dr(n, c), (c & 4194240) === c) break;
+            for (i = n.eventTimes, h = -1; 0 < c; ) {
+              var b = 31 - Et(c);
+              g = 1 << b, b = i[b], b > h && (h = b), c &= ~g;
+            }
+            if (c = h, c = nt() - c, c = (120 > c ? 120 : 480 > c ? 480 : 1080 > c ? 1080 : 1920 > c ? 1920 : 3e3 > c ? 3e3 : 4320 > c ? 4320 : 1960 * zw(c / 1960)) - c, 10 < c) {
+              n.timeoutHandle = hu(ai.bind(null, n, Gt, sr), c);
+              break;
+            }
+            ai(n, Gt, sr);
+            break;
+          case 5:
+            ai(n, Gt, sr);
+            break;
+          default:
+            throw Error(r(329));
+        }
+      }
+    }
+    return Yt(n, nt()), n.callbackNode === l ? Rh.bind(null, n) : null;
+  }
+  function lc(n, i) {
+    var l = Qo;
+    return n.current.memoizedState.isDehydrated && (oi(n, i).flags |= 256), n = Ts(n, i), n !== 2 && (i = Gt, Gt = l, i !== null && uc(i)), n;
+  }
+  function uc(n) {
+    Gt === null ? Gt = n : Gt.push.apply(Gt, n);
+  }
+  function Bw(n) {
+    for (var i = n; ; ) {
+      if (i.flags & 16384) {
+        var l = i.updateQueue;
+        if (l !== null && (l = l.stores, l !== null)) for (var c = 0; c < l.length; c++) {
+          var h = l[c], g = h.getSnapshot;
+          h = h.value;
+          try {
+            if (!Mn(g(), h)) return !1;
+          } catch {
+            return !1;
+          }
+        }
+      }
+      if (l = i.child, i.subtreeFlags & 16384 && l !== null) l.return = i, i = l;
+      else {
+        if (i === n) break;
+        for (; i.sibling === null; ) {
+          if (i.return === null || i.return === n) return !0;
+          i = i.return;
+        }
+        i.sibling.return = i.return, i = i.sibling;
+      }
+    }
+    return !0;
+  }
+  function Dr(n, i) {
+    for (i &= ~ic, i &= ~ks, n.suspendedLanes |= i, n.pingedLanes &= ~i, n = n.expirationTimes; 0 < i; ) {
+      var l = 31 - Et(i), c = 1 << l;
+      n[l] = -1, i &= ~c;
+    }
+  }
+  function Fh(n) {
+    if ((Ve & 6) !== 0) throw Error(r(327));
+    Yi();
+    var i = ja(n, 0);
+    if ((i & 1) === 0) return Yt(n, nt()), null;
+    var l = Ts(n, i);
+    if (n.tag !== 0 && l === 2) {
+      var c = Bl(n);
+      c !== 0 && (i = c, l = lc(n, c));
+    }
+    if (l === 1) throw l = Yo, oi(n, 0), Dr(n, i), Yt(n, nt()), l;
+    if (l === 6) throw Error(r(345));
+    return n.finishedWork = n.current.alternate, n.finishedLanes = i, ai(n, Gt, sr), Yt(n, nt()), null;
+  }
+  function cc(n, i) {
+    var l = Ve;
+    Ve |= 1;
+    try {
+      return n(i);
+    } finally {
+      Ve = l, Ve === 0 && (Gi = nt() + 500, es && Tr());
+    }
+  }
+  function ii(n) {
+    Ir !== null && Ir.tag === 0 && (Ve & 6) === 0 && Yi();
+    var i = Ve;
+    Ve |= 1;
+    var l = wn.transition, c = $e;
+    try {
+      if (wn.transition = null, $e = 1, n) return n();
+    } finally {
+      $e = c, wn.transition = l, Ve = i, (Ve & 6) === 0 && Tr();
+    }
+  }
+  function dc() {
+    sn = Wi.current, et(Wi);
+  }
+  function oi(n, i) {
+    n.finishedWork = null, n.finishedLanes = 0;
+    var l = n.timeoutHandle;
+    if (l !== -1 && (n.timeoutHandle = -1, yw(l)), ct !== null) for (l = ct.return; l !== null; ) {
+      var c = l;
+      switch (Su(c), c.tag) {
+        case 1:
+          c = c.type.childContextTypes, c != null && Ka();
+          break;
+        case 3:
+          $i(), et(Ht), et(Pt), Lu();
+          break;
+        case 5:
+          Ou(c);
+          break;
+        case 4:
+          $i();
+          break;
+        case 13:
+          et(rt);
+          break;
+        case 19:
+          et(rt);
+          break;
+        case 10:
+          xu(c.type._context);
+          break;
+        case 22:
+        case 23:
+          dc();
+      }
+      l = l.return;
+    }
+    if (wt = n, ct = n = jr(n.current, null), xt = sn = i, mt = 0, Yo = null, ic = ks = ri = 0, Gt = Qo = null, ei !== null) {
+      for (i = 0; i < ei.length; i++) if (l = ei[i], c = l.interleaved, c !== null) {
+        l.interleaved = null;
+        var h = c.next, g = l.pending;
+        if (g !== null) {
+          var b = g.next;
+          g.next = h, c.next = b;
+        }
+        l.pending = c;
+      }
+      ei = null;
+    }
+    return n;
+  }
+  function Vh(n, i) {
+    do {
+      var l = ct;
+      try {
+        if (Cu(), cs.current = hs, ds) {
+          for (var c = it.memoizedState; c !== null; ) {
+            var h = c.queue;
+            h !== null && (h.pending = null), c = c.next;
+          }
+          ds = !1;
+        }
+        if (ni = 0, vt = ht = it = null, qo = !1, $o = 0, rc.current = null, l === null || l.return === null) {
+          mt = 1, Yo = i, ct = null;
+          break;
+        }
+        e: {
+          var g = n, b = l.return, O = l, R = i;
+          if (i = xt, O.flags |= 32768, R !== null && typeof R == "object" && typeof R.then == "function") {
+            var W = R, oe = O, se = oe.tag;
+            if ((oe.mode & 1) === 0 && (se === 0 || se === 11 || se === 15)) {
+              var ie = oe.alternate;
+              ie ? (oe.updateQueue = ie.updateQueue, oe.memoizedState = ie.memoizedState, oe.lanes = ie.lanes) : (oe.updateQueue = null, oe.memoizedState = null);
+            }
+            var me = ch(b);
+            if (me !== null) {
+              me.flags &= -257, dh(me, b, O, g, i), me.mode & 1 && uh(g, W, i), i = me, R = W;
+              var ye = i.updateQueue;
+              if (ye === null) {
+                var we = /* @__PURE__ */ new Set();
+                we.add(R), i.updateQueue = we;
+              } else ye.add(R);
+              break e;
+            } else {
+              if ((i & 1) === 0) {
+                uh(g, W, i), fc();
+                break e;
+              }
+              R = Error(r(426));
+            }
+          } else if (tt && O.mode & 1) {
+            var st = ch(b);
+            if (st !== null) {
+              (st.flags & 65536) === 0 && (st.flags |= 256), dh(st, b, O, g, i), bu(Hi(R, O));
+              break e;
+            }
+          }
+          g = R = Hi(R, O), mt !== 4 && (mt = 2), Qo === null ? Qo = [g] : Qo.push(g), g = b;
+          do {
+            switch (g.tag) {
+              case 3:
+                g.flags |= 65536, i &= -i, g.lanes |= i;
+                var $ = sh(g, R, i);
+                Dp(g, $);
+                break e;
+              case 1:
+                O = R;
+                var F = g.type, J = g.stateNode;
+                if ((g.flags & 128) === 0 && (typeof F.getDerivedStateFromError == "function" || J !== null && typeof J.componentDidCatch == "function" && (Or === null || !Or.has(J)))) {
+                  g.flags |= 65536, i &= -i, g.lanes |= i;
+                  var de = lh(g, O, i);
+                  Dp(g, de);
+                  break e;
+                }
+            }
+            g = g.return;
+          } while (g !== null);
+        }
+        Uh(l);
+      } catch (Se) {
+        i = Se, ct === l && l !== null && (ct = l = l.return);
+        continue;
+      }
+      break;
+    } while (!0);
+  }
+  function zh() {
+    var n = Ss.current;
+    return Ss.current = hs, n === null ? hs : n;
+  }
+  function fc() {
+    (mt === 0 || mt === 3 || mt === 2) && (mt = 4), wt === null || (ri & 268435455) === 0 && (ks & 268435455) === 0 || Dr(wt, xt);
+  }
+  function Ts(n, i) {
+    var l = Ve;
+    Ve |= 2;
+    var c = zh();
+    (wt !== n || xt !== i) && (sr = null, oi(n, i));
+    do
+      try {
+        Uw();
+        break;
+      } catch (h) {
+        Vh(n, h);
+      }
+    while (!0);
+    if (Cu(), Ve = l, Ss.current = c, ct !== null) throw Error(r(261));
+    return wt = null, xt = 0, mt;
+  }
+  function Uw() {
+    for (; ct !== null; ) Bh(ct);
+  }
+  function qw() {
+    for (; ct !== null && !Pa(); ) Bh(ct);
+  }
+  function Bh(n) {
+    var i = Hh(n.alternate, n, sn);
+    n.memoizedProps = n.pendingProps, i === null ? Uh(n) : ct = i, rc.current = null;
+  }
+  function Uh(n) {
+    var i = n;
+    do {
+      var l = i.alternate;
+      if (n = i.return, (i.flags & 32768) === 0) {
+        if (l = jw(l, i, sn), l !== null) {
+          ct = l;
+          return;
+        }
+      } else {
+        if (l = Nw(l, i), l !== null) {
+          l.flags &= 32767, ct = l;
+          return;
+        }
+        if (n !== null) n.flags |= 32768, n.subtreeFlags = 0, n.deletions = null;
+        else {
+          mt = 6, ct = null;
+          return;
+        }
+      }
+      if (i = i.sibling, i !== null) {
+        ct = i;
+        return;
+      }
+      ct = i = n;
+    } while (i !== null);
+    mt === 0 && (mt = 5);
+  }
+  function ai(n, i, l) {
+    var c = $e, h = wn.transition;
+    try {
+      wn.transition = null, $e = 1, $w(n, i, l, c);
+    } finally {
+      wn.transition = h, $e = c;
+    }
+    return null;
+  }
+  function $w(n, i, l, c) {
+    do
+      Yi();
+    while (Ir !== null);
+    if ((Ve & 6) !== 0) throw Error(r(327));
+    l = n.finishedWork;
+    var h = n.finishedLanes;
+    if (l === null) return null;
+    if (n.finishedWork = null, n.finishedLanes = 0, l === n.current) throw Error(r(177));
+    n.callbackNode = null, n.callbackPriority = 0;
+    var g = l.lanes | l.childLanes;
+    if (E1(n, g), n === wt && (ct = wt = null, xt = 0), (l.subtreeFlags & 2064) === 0 && (l.flags & 2064) === 0 || bs || (bs = !0, Jh(Xn, function() {
+      return Yi(), null;
+    })), g = (l.flags & 15990) !== 0, (l.subtreeFlags & 15990) !== 0 || g) {
+      g = wn.transition, wn.transition = null;
+      var b = $e;
+      $e = 1;
+      var O = Ve;
+      Ve |= 4, rc.current = null, Fw(n, l), Ih(l, n), cw(fu), Fa = !!du, fu = du = null, n.current = l, Vw(l), Fl(), Ve = O, $e = b, wn.transition = g;
+    } else n.current = l;
+    if (bs && (bs = !1, Ir = n, Es = h), g = n.pendingLanes, g === 0 && (Or = null), nn(l.stateNode), Yt(n, nt()), i !== null) for (c = n.onRecoverableError, l = 0; l < i.length; l++) h = i[l], c(h.value, { componentStack: h.stack, digest: h.digest });
+    if (_s) throw _s = !1, n = ac, ac = null, n;
+    return (Es & 1) !== 0 && n.tag !== 0 && Yi(), g = n.pendingLanes, (g & 1) !== 0 ? n === sc ? Zo++ : (Zo = 0, sc = n) : Zo = 0, Tr(), null;
+  }
+  function Yi() {
+    if (Ir !== null) {
+      var n = Pf(Es), i = wn.transition, l = $e;
+      try {
+        if (wn.transition = null, $e = 16 > n ? 16 : n, Ir === null) var c = !1;
+        else {
+          if (n = Ir, Ir = null, Es = 0, (Ve & 6) !== 0) throw Error(r(331));
+          var h = Ve;
+          for (Ve |= 4, ge = n.current; ge !== null; ) {
+            var g = ge, b = g.child;
+            if ((ge.flags & 16) !== 0) {
+              var O = g.deletions;
+              if (O !== null) {
+                for (var R = 0; R < O.length; R++) {
+                  var W = O[R];
+                  for (ge = W; ge !== null; ) {
+                    var oe = ge;
+                    switch (oe.tag) {
+                      case 0:
+                      case 11:
+                      case 15:
+                        Go(8, oe, g);
+                    }
+                    var se = oe.child;
+                    if (se !== null) se.return = oe, ge = se;
+                    else for (; ge !== null; ) {
+                      oe = ge;
+                      var ie = oe.sibling, me = oe.return;
+                      if (Th(oe), oe === W) {
+                        ge = null;
+                        break;
+                      }
+                      if (ie !== null) {
+                        ie.return = me, ge = ie;
+                        break;
+                      }
+                      ge = me;
+                    }
+                  }
+                }
+                var ye = g.alternate;
+                if (ye !== null) {
+                  var we = ye.child;
+                  if (we !== null) {
+                    ye.child = null;
+                    do {
+                      var st = we.sibling;
+                      we.sibling = null, we = st;
+                    } while (we !== null);
+                  }
+                }
+                ge = g;
+              }
+            }
+            if ((g.subtreeFlags & 2064) !== 0 && b !== null) b.return = g, ge = b;
+            else e: for (; ge !== null; ) {
+              if (g = ge, (g.flags & 2048) !== 0) switch (g.tag) {
+                case 0:
+                case 11:
+                case 15:
+                  Go(9, g, g.return);
+              }
+              var $ = g.sibling;
+              if ($ !== null) {
+                $.return = g.return, ge = $;
+                break e;
+              }
+              ge = g.return;
+            }
+          }
+          var F = n.current;
+          for (ge = F; ge !== null; ) {
+            b = ge;
+            var J = b.child;
+            if ((b.subtreeFlags & 2064) !== 0 && J !== null) J.return = b, ge = J;
+            else e: for (b = F; ge !== null; ) {
+              if (O = ge, (O.flags & 2048) !== 0) try {
+                switch (O.tag) {
+                  case 0:
+                  case 11:
+                  case 15:
+                    ws(9, O);
+                }
+              } catch (Se) {
+                ot(O, O.return, Se);
+              }
+              if (O === b) {
+                ge = null;
+                break e;
+              }
+              var de = O.sibling;
+              if (de !== null) {
+                de.return = O.return, ge = de;
+                break e;
+              }
+              ge = O.return;
+            }
+          }
+          if (Ve = h, Tr(), He && typeof He.onPostCommitFiberRoot == "function") try {
+            He.onPostCommitFiberRoot(Ti, n);
+          } catch {
+          }
+          c = !0;
+        }
+        return c;
+      } finally {
+        $e = l, wn.transition = i;
+      }
+    }
+    return !1;
+  }
+  function qh(n, i, l) {
+    i = Hi(l, i), i = sh(n, i, 1), n = Mr(n, i, 1), i = zt(), n !== null && (ko(n, 1, i), Yt(n, i));
+  }
+  function ot(n, i, l) {
+    if (n.tag === 3) qh(n, n, l);
+    else for (; i !== null; ) {
+      if (i.tag === 3) {
+        qh(i, n, l);
+        break;
+      } else if (i.tag === 1) {
+        var c = i.stateNode;
+        if (typeof i.type.getDerivedStateFromError == "function" || typeof c.componentDidCatch == "function" && (Or === null || !Or.has(c))) {
+          n = Hi(l, n), n = lh(i, n, 1), i = Mr(i, n, 1), n = zt(), i !== null && (ko(i, 1, n), Yt(i, n));
+          break;
+        }
+      }
+      i = i.return;
+    }
+  }
+  function Hw(n, i, l) {
+    var c = n.pingCache;
+    c !== null && c.delete(i), i = zt(), n.pingedLanes |= n.suspendedLanes & l, wt === n && (xt & l) === l && (mt === 4 || mt === 3 && (xt & 130023424) === xt && 500 > nt() - oc ? oi(n, 0) : ic |= l), Yt(n, i);
+  }
+  function $h(n, i) {
+    i === 0 && ((n.mode & 1) === 0 ? i = 1 : (i = Da, Da <<= 1, (Da & 130023424) === 0 && (Da = 4194304)));
+    var l = zt();
+    n = ir(n, i), n !== null && (ko(n, i, l), Yt(n, l));
+  }
+  function Jw(n) {
+    var i = n.memoizedState, l = 0;
+    i !== null && (l = i.retryLane), $h(n, l);
+  }
+  function Ww(n, i) {
+    var l = 0;
+    switch (n.tag) {
+      case 13:
+        var c = n.stateNode, h = n.memoizedState;
+        h !== null && (l = h.retryLane);
+        break;
+      case 19:
+        c = n.stateNode;
+        break;
+      default:
+        throw Error(r(314));
+    }
+    c !== null && c.delete(i), $h(n, l);
+  }
+  var Hh;
+  Hh = function(n, i, l) {
+    if (n !== null) if (n.memoizedProps !== i.pendingProps || Ht.current) Wt = !0;
+    else {
+      if ((n.lanes & l) === 0 && (i.flags & 128) === 0) return Wt = !1, Dw(n, i, l);
+      Wt = (n.flags & 131072) !== 0;
+    }
+    else Wt = !1, tt && (i.flags & 1048576) !== 0 && Ep(i, ns, i.index);
+    switch (i.lanes = 0, i.tag) {
+      case 2:
+        var c = i.type;
+        ys(n, i), n = i.pendingProps;
+        var h = Ri(i, Pt.current);
+        qi(i, l), h = Nu(null, i, c, n, h, l);
+        var g = Ru();
+        return i.flags |= 1, typeof h == "object" && h !== null && typeof h.render == "function" && h.$$typeof === void 0 ? (i.tag = 1, i.memoizedState = null, i.updateQueue = null, Jt(c) ? (g = !0, Xa(i)) : g = !1, i.memoizedState = h.state !== null && h.state !== void 0 ? h.state : null, Mu(i), h.updater = ms, i.stateNode = h, h._reactInternals = i, qu(i, c, n, l), i = Wu(null, i, c, !0, g, l)) : (i.tag = 0, tt && g && wu(i), Vt(null, i, h, l), i = i.child), i;
+      case 16:
+        c = i.elementType;
+        e: {
+          switch (ys(n, i), n = i.pendingProps, h = c._init, c = h(c._payload), i.type = c, h = i.tag = Yw(c), n = On(c, n), h) {
+            case 0:
+              i = Ju(null, i, c, n, l);
+              break e;
+            case 1:
+              i = yh(null, i, c, n, l);
+              break e;
+            case 11:
+              i = fh(null, i, c, n, l);
+              break e;
+            case 14:
+              i = ph(null, i, c, On(c.type, n), l);
+              break e;
+          }
+          throw Error(r(
+            306,
+            c,
+            ""
+          ));
+        }
+        return i;
+      case 0:
+        return c = i.type, h = i.pendingProps, h = i.elementType === c ? h : On(c, h), Ju(n, i, c, h, l);
+      case 1:
+        return c = i.type, h = i.pendingProps, h = i.elementType === c ? h : On(c, h), yh(n, i, c, h, l);
+      case 3:
+        e: {
+          if (vh(i), n === null) throw Error(r(387));
+          c = i.pendingProps, g = i.memoizedState, h = g.element, Lp(n, i), ls(i, c, null, l);
+          var b = i.memoizedState;
+          if (c = b.element, g.isDehydrated) if (g = { element: c, isDehydrated: !1, cache: b.cache, pendingSuspenseBoundaries: b.pendingSuspenseBoundaries, transitions: b.transitions }, i.updateQueue.baseState = g, i.memoizedState = g, i.flags & 256) {
+            h = Hi(Error(r(423)), i), i = wh(n, i, c, l, h);
+            break e;
+          } else if (c !== h) {
+            h = Hi(Error(r(424)), i), i = wh(n, i, c, l, h);
+            break e;
+          } else for (an = Er(i.stateNode.containerInfo.firstChild), on = i, tt = !0, Pn = null, l = Op(i, null, c, l), i.child = l; l; ) l.flags = l.flags & -3 | 4096, l = l.sibling;
+          else {
+            if (zi(), c === h) {
+              i = ar(n, i, l);
+              break e;
+            }
+            Vt(n, i, c, l);
+          }
+          i = i.child;
+        }
+        return i;
+      case 5:
+        return Np(i), n === null && _u(i), c = i.type, h = i.pendingProps, g = n !== null ? n.memoizedProps : null, b = h.children, pu(c, h) ? b = null : g !== null && pu(c, g) && (i.flags |= 32), gh(n, i), Vt(n, i, b, l), i.child;
+      case 6:
+        return n === null && _u(i), null;
+      case 13:
+        return Sh(n, i, l);
+      case 4:
+        return Pu(i, i.stateNode.containerInfo), c = i.pendingProps, n === null ? i.child = Bi(i, null, c, l) : Vt(n, i, c, l), i.child;
+      case 11:
+        return c = i.type, h = i.pendingProps, h = i.elementType === c ? h : On(c, h), fh(n, i, c, h, l);
+      case 7:
+        return Vt(n, i, i.pendingProps, l), i.child;
+      case 8:
+        return Vt(n, i, i.pendingProps.children, l), i.child;
+      case 12:
+        return Vt(n, i, i.pendingProps.children, l), i.child;
+      case 10:
+        e: {
+          if (c = i.type._context, h = i.pendingProps, g = i.memoizedProps, b = h.value, Ye(os, c._currentValue), c._currentValue = b, g !== null) if (Mn(g.value, b)) {
+            if (g.children === h.children && !Ht.current) {
+              i = ar(n, i, l);
+              break e;
+            }
+          } else for (g = i.child, g !== null && (g.return = i); g !== null; ) {
+            var O = g.dependencies;
+            if (O !== null) {
+              b = g.child;
+              for (var R = O.firstContext; R !== null; ) {
+                if (R.context === c) {
+                  if (g.tag === 1) {
+                    R = or(-1, l & -l), R.tag = 2;
+                    var W = g.updateQueue;
+                    if (W !== null) {
+                      W = W.shared;
+                      var oe = W.pending;
+                      oe === null ? R.next = R : (R.next = oe.next, oe.next = R), W.pending = R;
+                    }
+                  }
+                  g.lanes |= l, R = g.alternate, R !== null && (R.lanes |= l), Tu(
+                    g.return,
+                    l,
+                    i
+                  ), O.lanes |= l;
+                  break;
+                }
+                R = R.next;
+              }
+            } else if (g.tag === 10) b = g.type === i.type ? null : g.child;
+            else if (g.tag === 18) {
+              if (b = g.return, b === null) throw Error(r(341));
+              b.lanes |= l, O = b.alternate, O !== null && (O.lanes |= l), Tu(b, l, i), b = g.sibling;
+            } else b = g.child;
+            if (b !== null) b.return = g;
+            else for (b = g; b !== null; ) {
+              if (b === i) {
+                b = null;
+                break;
+              }
+              if (g = b.sibling, g !== null) {
+                g.return = b.return, b = g;
+                break;
+              }
+              b = b.return;
+            }
+            g = b;
+          }
+          Vt(n, i, h.children, l), i = i.child;
+        }
+        return i;
+      case 9:
+        return h = i.type, c = i.pendingProps.children, qi(i, l), h = yn(h), c = c(h), i.flags |= 1, Vt(n, i, c, l), i.child;
+      case 14:
+        return c = i.type, h = On(c, i.pendingProps), h = On(c.type, h), ph(n, i, c, h, l);
+      case 15:
+        return hh(n, i, i.type, i.pendingProps, l);
+      case 17:
+        return c = i.type, h = i.pendingProps, h = i.elementType === c ? h : On(c, h), ys(n, i), i.tag = 1, Jt(c) ? (n = !0, Xa(i)) : n = !1, qi(i, l), oh(i, c, h), qu(i, c, h, l), Wu(null, i, c, !0, n, l);
+      case 19:
+        return _h(n, i, l);
+      case 22:
+        return mh(n, i, l);
+    }
+    throw Error(r(156, i.tag));
+  };
+  function Jh(n, i) {
+    return Ci(n, i);
+  }
+  function Gw(n, i, l, c) {
+    this.tag = n, this.key = l, this.sibling = this.child = this.return = this.stateNode = this.type = this.elementType = null, this.index = 0, this.ref = null, this.pendingProps = i, this.dependencies = this.memoizedState = this.updateQueue = this.memoizedProps = null, this.mode = c, this.subtreeFlags = this.flags = 0, this.deletions = null, this.childLanes = this.lanes = 0, this.alternate = null;
+  }
+  function Sn(n, i, l, c) {
+    return new Gw(n, i, l, c);
+  }
+  function pc(n) {
+    return n = n.prototype, !(!n || !n.isReactComponent);
+  }
+  function Yw(n) {
+    if (typeof n == "function") return pc(n) ? 1 : 0;
+    if (n != null) {
+      if (n = n.$$typeof, n === le) return 11;
+      if (n === ue) return 14;
+    }
+    return 2;
+  }
+  function jr(n, i) {
+    var l = n.alternate;
+    return l === null ? (l = Sn(n.tag, i, n.key, n.mode), l.elementType = n.elementType, l.type = n.type, l.stateNode = n.stateNode, l.alternate = n, n.alternate = l) : (l.pendingProps = i, l.type = n.type, l.flags = 0, l.subtreeFlags = 0, l.deletions = null), l.flags = n.flags & 14680064, l.childLanes = n.childLanes, l.lanes = n.lanes, l.child = n.child, l.memoizedProps = n.memoizedProps, l.memoizedState = n.memoizedState, l.updateQueue = n.updateQueue, i = n.dependencies, l.dependencies = i === null ? null : { lanes: i.lanes, firstContext: i.firstContext }, l.sibling = n.sibling, l.index = n.index, l.ref = n.ref, l;
+  }
+  function As(n, i, l, c, h, g) {
+    var b = 2;
+    if (c = n, typeof n == "function") pc(n) && (b = 1);
+    else if (typeof n == "string") b = 5;
+    else e: switch (n) {
+      case H:
+        return si(l.children, h, g, i);
+      case z:
+        b = 8, h |= 8;
+        break;
+      case ae:
+        return n = Sn(12, l, i, h | 2), n.elementType = ae, n.lanes = g, n;
+      case pe:
+        return n = Sn(13, l, i, h), n.elementType = pe, n.lanes = g, n;
+      case q:
+        return n = Sn(19, l, i, h), n.elementType = q, n.lanes = g, n;
+      case ve:
+        return Ms(l, h, g, i);
+      default:
+        if (typeof n == "object" && n !== null) switch (n.$$typeof) {
+          case X:
+            b = 10;
+            break e;
+          case ne:
+            b = 9;
+            break e;
+          case le:
+            b = 11;
+            break e;
+          case ue:
+            b = 14;
+            break e;
+          case be:
+            b = 16, c = null;
+            break e;
+        }
+        throw Error(r(130, n == null ? n : typeof n, ""));
+    }
+    return i = Sn(b, l, i, h), i.elementType = n, i.type = c, i.lanes = g, i;
+  }
+  function si(n, i, l, c) {
+    return n = Sn(7, n, c, i), n.lanes = l, n;
+  }
+  function Ms(n, i, l, c) {
+    return n = Sn(22, n, c, i), n.elementType = ve, n.lanes = l, n.stateNode = { isHidden: !1 }, n;
+  }
+  function hc(n, i, l) {
+    return n = Sn(6, n, null, i), n.lanes = l, n;
+  }
+  function mc(n, i, l) {
+    return i = Sn(4, n.children !== null ? n.children : [], n.key, i), i.lanes = l, i.stateNode = { containerInfo: n.containerInfo, pendingChildren: null, implementation: n.implementation }, i;
+  }
+  function Qw(n, i, l, c, h) {
+    this.tag = i, this.containerInfo = n, this.finishedWork = this.pingCache = this.current = this.pendingChildren = null, this.timeoutHandle = -1, this.callbackNode = this.pendingContext = this.context = null, this.callbackPriority = 0, this.eventTimes = Ul(0), this.expirationTimes = Ul(-1), this.entangledLanes = this.finishedLanes = this.mutableReadLanes = this.expiredLanes = this.pingedLanes = this.suspendedLanes = this.pendingLanes = 0, this.entanglements = Ul(0), this.identifierPrefix = c, this.onRecoverableError = h, this.mutableSourceEagerHydrationData = null;
+  }
+  function gc(n, i, l, c, h, g, b, O, R) {
+    return n = new Qw(n, i, l, O, R), i === 1 ? (i = 1, g === !0 && (i |= 8)) : i = 0, g = Sn(3, null, null, i), n.current = g, g.stateNode = n, g.memoizedState = { element: c, isDehydrated: l, cache: null, transitions: null, pendingSuspenseBoundaries: null }, Mu(g), n;
+  }
+  function Zw(n, i, l) {
+    var c = 3 < arguments.length && arguments[3] !== void 0 ? arguments[3] : null;
+    return { $$typeof: A, key: c == null ? null : "" + c, children: n, containerInfo: i, implementation: l };
+  }
+  function Wh(n) {
+    if (!n) return xr;
+    n = n._reactInternals;
+    e: {
+      if (Kn(n) !== n || n.tag !== 1) throw Error(r(170));
+      var i = n;
+      do {
+        switch (i.tag) {
+          case 3:
+            i = i.stateNode.context;
+            break e;
+          case 1:
+            if (Jt(i.type)) {
+              i = i.stateNode.__reactInternalMemoizedMergedChildContext;
+              break e;
+            }
+        }
+        i = i.return;
+      } while (i !== null);
+      throw Error(r(171));
+    }
+    if (n.tag === 1) {
+      var l = n.type;
+      if (Jt(l)) return kp(n, l, i);
+    }
+    return i;
+  }
+  function Gh(n, i, l, c, h, g, b, O, R) {
+    return n = gc(l, c, !0, n, h, g, b, O, R), n.context = Wh(null), l = n.current, c = zt(), h = Lr(l), g = or(c, h), g.callback = i ?? null, Mr(l, g, h), n.current.lanes = h, ko(n, h, c), Yt(n, c), n;
+  }
+  function Ps(n, i, l, c) {
+    var h = i.current, g = zt(), b = Lr(h);
+    return l = Wh(l), i.context === null ? i.context = l : i.pendingContext = l, i = or(g, b), i.payload = { element: n }, c = c === void 0 ? null : c, c !== null && (i.callback = c), n = Mr(h, i, b), n !== null && (Dn(n, h, b, g), ss(n, h, b)), b;
+  }
+  function Os(n) {
+    if (n = n.current, !n.child) return null;
+    switch (n.child.tag) {
+      case 5:
+        return n.child.stateNode;
+      default:
+        return n.child.stateNode;
+    }
+  }
+  function Yh(n, i) {
+    if (n = n.memoizedState, n !== null && n.dehydrated !== null) {
+      var l = n.retryLane;
+      n.retryLane = l !== 0 && l < i ? l : i;
+    }
+  }
+  function yc(n, i) {
+    Yh(n, i), (n = n.alternate) && Yh(n, i);
+  }
+  function Kw() {
+    return null;
+  }
+  var Qh = typeof reportError == "function" ? reportError : function(n) {
+    console.error(n);
+  };
+  function vc(n) {
+    this._internalRoot = n;
+  }
+  Is.prototype.render = vc.prototype.render = function(n) {
+    var i = this._internalRoot;
+    if (i === null) throw Error(r(409));
+    Ps(n, i, null, null);
+  }, Is.prototype.unmount = vc.prototype.unmount = function() {
+    var n = this._internalRoot;
+    if (n !== null) {
+      this._internalRoot = null;
+      var i = n.containerInfo;
+      ii(function() {
+        Ps(null, n, null, null);
+      }), i[er] = null;
+    }
+  };
+  function Is(n) {
+    this._internalRoot = n;
+  }
+  Is.prototype.unstable_scheduleHydration = function(n) {
+    if (n) {
+      var i = Lf();
+      n = { blockedOn: null, target: n, priority: i };
+      for (var l = 0; l < kr.length && i !== 0 && i < kr[l].priority; l++) ;
+      kr.splice(l, 0, n), l === 0 && Nf(n);
+    }
+  };
+  function wc(n) {
+    return !(!n || n.nodeType !== 1 && n.nodeType !== 9 && n.nodeType !== 11);
+  }
+  function Ls(n) {
+    return !(!n || n.nodeType !== 1 && n.nodeType !== 9 && n.nodeType !== 11 && (n.nodeType !== 8 || n.nodeValue !== " react-mount-point-unstable "));
+  }
+  function Zh() {
+  }
+  function Xw(n, i, l, c, h) {
+    if (h) {
+      if (typeof c == "function") {
+        var g = c;
+        c = function() {
+          var W = Os(b);
+          g.call(W);
+        };
+      }
+      var b = Gh(i, c, n, 0, null, !1, !1, "", Zh);
+      return n._reactRootContainer = b, n[er] = b.current, jo(n.nodeType === 8 ? n.parentNode : n), ii(), b;
+    }
+    for (; h = n.lastChild; ) n.removeChild(h);
+    if (typeof c == "function") {
+      var O = c;
+      c = function() {
+        var W = Os(R);
+        O.call(W);
+      };
+    }
+    var R = gc(n, 0, !1, null, null, !1, !1, "", Zh);
+    return n._reactRootContainer = R, n[er] = R.current, jo(n.nodeType === 8 ? n.parentNode : n), ii(function() {
+      Ps(i, R, l, c);
+    }), R;
+  }
+  function Ds(n, i, l, c, h) {
+    var g = l._reactRootContainer;
+    if (g) {
+      var b = g;
+      if (typeof h == "function") {
+        var O = h;
+        h = function() {
+          var R = Os(b);
+          O.call(R);
+        };
+      }
+      Ps(i, b, n, h);
+    } else b = Xw(l, i, n, h, c);
+    return Os(b);
+  }
+  Of = function(n) {
+    switch (n.tag) {
+      case 3:
+        var i = n.stateNode;
+        if (i.current.memoizedState.isDehydrated) {
+          var l = So(i.pendingLanes);
+          l !== 0 && (ql(i, l | 1), Yt(i, nt()), (Ve & 6) === 0 && (Gi = nt() + 500, Tr()));
+        }
+        break;
+      case 13:
+        ii(function() {
+          var c = ir(n, 1);
+          if (c !== null) {
+            var h = zt();
+            Dn(c, n, 1, h);
+          }
+        }), yc(n, 1);
+    }
+  }, $l = function(n) {
+    if (n.tag === 13) {
+      var i = ir(n, 134217728);
+      if (i !== null) {
+        var l = zt();
+        Dn(i, n, 134217728, l);
+      }
+      yc(n, 134217728);
+    }
+  }, If = function(n) {
+    if (n.tag === 13) {
+      var i = Lr(n), l = ir(n, i);
+      if (l !== null) {
+        var c = zt();
+        Dn(l, n, i, c);
+      }
+      yc(n, i);
+    }
+  }, Lf = function() {
+    return $e;
+  }, Df = function(n, i) {
+    var l = $e;
+    try {
+      return $e = n, i();
+    } finally {
+      $e = l;
+    }
+  }, mo = function(n, i, l) {
+    switch (i) {
+      case "input":
+        if (Je(n, l), i = l.name, l.type === "radio" && i != null) {
+          for (l = n; l.parentNode; ) l = l.parentNode;
+          for (l = l.querySelectorAll("input[name=" + JSON.stringify("" + i) + '][type="radio"]'), i = 0; i < l.length; i++) {
+            var c = l[i];
+            if (c !== n && c.form === n.form) {
+              var h = Za(c);
+              if (!h) throw Error(r(90));
+              Te(c), Je(c, h);
+            }
+          }
+        }
+        break;
+      case "textarea":
+        xn(n, l);
+        break;
+      case "select":
+        i = l.value, i != null && _t(n, !!l.multiple, i, !1);
+    }
+  }, Ea = cc, bi = ii;
+  var eS = { usingClientEntryPoint: !1, Events: [Fo, ji, Za, yo, vo, cc] }, Ko = { findFiberByHostInstance: Qr, bundleType: 0, version: "18.3.1", rendererPackageName: "react-dom" }, tS = { bundleType: Ko.bundleType, version: Ko.version, rendererPackageName: Ko.rendererPackageName, rendererConfig: Ko.rendererConfig, overrideHookState: null, overrideHookStateDeletePath: null, overrideHookStateRenamePath: null, overrideProps: null, overridePropsDeletePath: null, overridePropsRenamePath: null, setErrorHandler: null, setSuspenseHandler: null, scheduleUpdate: null, currentDispatcherRef: j.ReactCurrentDispatcher, findHostInstanceByFiber: function(n) {
+    return n = Aa(n), n === null ? null : n.stateNode;
+  }, findFiberByHostInstance: Ko.findFiberByHostInstance || Kw, findHostInstancesForRefresh: null, scheduleRefresh: null, scheduleRoot: null, setRefreshHandler: null, getCurrentFiber: null, reconcilerVersion: "18.3.1-next-f1338f8080-20240426" };
+  if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ < "u") {
+    var js = __REACT_DEVTOOLS_GLOBAL_HOOK__;
+    if (!js.isDisabled && js.supportsFiber) try {
+      Ti = js.inject(tS), He = js;
+    } catch {
+    }
+  }
+  return Qt.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = eS, Qt.createPortal = function(n, i) {
+    var l = 2 < arguments.length && arguments[2] !== void 0 ? arguments[2] : null;
+    if (!wc(i)) throw Error(r(200));
+    return Zw(n, i, null, l);
+  }, Qt.createRoot = function(n, i) {
+    if (!wc(n)) throw Error(r(299));
+    var l = !1, c = "", h = Qh;
+    return i != null && (i.unstable_strictMode === !0 && (l = !0), i.identifierPrefix !== void 0 && (c = i.identifierPrefix), i.onRecoverableError !== void 0 && (h = i.onRecoverableError)), i = gc(n, 1, !1, null, null, l, !1, c, h), n[er] = i.current, jo(n.nodeType === 8 ? n.parentNode : n), new vc(i);
+  }, Qt.findDOMNode = function(n) {
+    if (n == null) return null;
+    if (n.nodeType === 1) return n;
+    var i = n._reactInternals;
+    if (i === void 0)
+      throw typeof n.render == "function" ? Error(r(188)) : (n = Object.keys(n).join(","), Error(r(268, n)));
+    return n = Aa(i), n = n === null ? null : n.stateNode, n;
+  }, Qt.flushSync = function(n) {
+    return ii(n);
+  }, Qt.hydrate = function(n, i, l) {
+    if (!Ls(i)) throw Error(r(200));
+    return Ds(null, n, i, !0, l);
+  }, Qt.hydrateRoot = function(n, i, l) {
+    if (!wc(n)) throw Error(r(405));
+    var c = l != null && l.hydratedSources || null, h = !1, g = "", b = Qh;
+    if (l != null && (l.unstable_strictMode === !0 && (h = !0), l.identifierPrefix !== void 0 && (g = l.identifierPrefix), l.onRecoverableError !== void 0 && (b = l.onRecoverableError)), i = Gh(i, null, n, 1, l ?? null, h, !1, g, b), n[er] = i.current, jo(n), c) for (n = 0; n < c.length; n++) l = c[n], h = l._getVersion, h = h(l._source), i.mutableSourceEagerHydrationData == null ? i.mutableSourceEagerHydrationData = [l, h] : i.mutableSourceEagerHydrationData.push(
+      l,
+      h
+    );
+    return new Is(i);
+  }, Qt.render = function(n, i, l) {
+    if (!Ls(i)) throw Error(r(200));
+    return Ds(null, n, i, !1, l);
+  }, Qt.unmountComponentAtNode = function(n) {
+    if (!Ls(n)) throw Error(r(40));
+    return n._reactRootContainer ? (ii(function() {
+      Ds(null, null, n, !1, function() {
+        n._reactRootContainer = null, n[er] = null;
+      });
+    }), !0) : !1;
+  }, Qt.unstable_batchedUpdates = cc, Qt.unstable_renderSubtreeIntoContainer = function(n, i, l, c) {
+    if (!Ls(l)) throw Error(r(200));
+    if (n == null || n._reactInternals === void 0) throw Error(r(38));
+    return Ds(n, i, l, !1, c);
+  }, Qt.version = "18.3.1-next-f1338f8080-20240426", Qt;
+}
+var rm;
+function uS() {
+  if (rm) return kc.exports;
+  rm = 1;
+  function e() {
+    if (!(typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ > "u" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE != "function"))
+      try {
+        __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(e);
+      } catch (t) {
+        console.error(t);
+      }
+  }
+  return e(), kc.exports = lS(), kc.exports;
+}
+var im;
+function cS() {
+  if (im) return Ns;
+  im = 1;
+  var e = uS();
+  return Ns.createRoot = e.createRoot, Ns.hydrateRoot = e.hydrateRoot, Ns;
+}
+var dS = cS(), Ec = { exports: {} }, Xo = {};
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+var om;
+function fS() {
+  if (om) return Xo;
+  om = 1;
+  var e = Wd(), t = Symbol.for("react.element"), r = Symbol.for("react.fragment"), o = Object.prototype.hasOwnProperty, a = e.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner, s = { key: !0, ref: !0, __self: !0, __source: !0 };
+  function u(f, p, m) {
+    var y, v = {}, _ = null, k = null;
+    m !== void 0 && (_ = "" + m), p.key !== void 0 && (_ = "" + p.key), p.ref !== void 0 && (k = p.ref);
+    for (y in p) o.call(p, y) && !s.hasOwnProperty(y) && (v[y] = p[y]);
+    if (f && f.defaultProps) for (y in p = f.defaultProps, p) v[y] === void 0 && (v[y] = p[y]);
+    return { $$typeof: t, type: f, key: _, ref: k, props: v, _owner: a.current };
+  }
+  return Xo.Fragment = r, Xo.jsx = u, Xo.jsxs = u, Xo;
+}
+var am;
+function pS() {
+  return am || (am = 1, Ec.exports = fS()), Ec.exports;
+}
+var ee = pS(), Qi = {};
+function sm(e, t) {
+  if (e == null) return {};
+  var r, o, a = function(u, f) {
+    if (u == null) return {};
+    var p = {};
+    for (var m in u) if ({}.hasOwnProperty.call(u, m)) {
+      if (f.indexOf(m) !== -1) continue;
+      p[m] = u[m];
+    }
+    return p;
+  }(e, t);
+  if (Object.getOwnPropertySymbols) {
+    var s = Object.getOwnPropertySymbols(e);
+    for (o = 0; o < s.length; o++) r = s[o], t.indexOf(r) === -1 && {}.propertyIsEnumerable.call(e, r) && (a[r] = e[r]);
+  }
+  return a;
+}
+function fn(e, t) {
+  if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function");
+}
+function ze(e) {
+  return ze = typeof Symbol == "function" && typeof Symbol.iterator == "symbol" ? function(t) {
+    return typeof t;
+  } : function(t) {
+    return t && typeof Symbol == "function" && t.constructor === Symbol && t !== Symbol.prototype ? "symbol" : typeof t;
+  }, ze(e);
+}
+function qy(e) {
+  var t = function(r, o) {
+    if (ze(r) != "object" || !r) return r;
+    var a = r[Symbol.toPrimitive];
+    if (a !== void 0) {
+      var s = a.call(r, o);
+      if (ze(s) != "object") return s;
+      throw new TypeError("@@toPrimitive must return a primitive value.");
+    }
+    return String(r);
+  }(e, "string");
+  return ze(t) == "symbol" ? t : t + "";
+}
+function lm(e, t) {
+  for (var r = 0; r < t.length; r++) {
+    var o = t[r];
+    o.enumerable = o.enumerable || !1, o.configurable = !0, "value" in o && (o.writable = !0), Object.defineProperty(e, qy(o.key), o);
+  }
+}
+function pn(e, t, r) {
+  return t && lm(e.prototype, t), r && lm(e, r), Object.defineProperty(e, "prototype", { writable: !1 }), e;
+}
+function bl(e, t) {
+  if (t && (ze(t) == "object" || typeof t == "function")) return t;
+  if (t !== void 0) throw new TypeError("Derived constructors may only return object or undefined");
+  return function(r) {
+    if (r === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+    return r;
+  }(e);
+}
+function Fn(e) {
+  return Fn = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function(t) {
+    return t.__proto__ || Object.getPrototypeOf(t);
+  }, Fn(e);
+}
+function ga(e, t) {
+  return ga = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function(r, o) {
+    return r.__proto__ = o, r;
+  }, ga(e, t);
+}
+function El(e, t) {
+  if (typeof t != "function" && t !== null) throw new TypeError("Super expression must either be null or a function");
+  e.prototype = Object.create(t && t.prototype, { constructor: { value: e, writable: !0, configurable: !0 } }), Object.defineProperty(e, "prototype", { writable: !1 }), t && ga(e, t);
+}
+function Wn(e, t, r) {
+  return (t = qy(t)) in e ? Object.defineProperty(e, t, { value: r, enumerable: !0, configurable: !0, writable: !0 }) : e[t] = r, e;
+}
+function um(e, t, r, o, a, s, u) {
+  try {
+    var f = e[s](u), p = f.value;
+  } catch (m) {
+    return void r(m);
+  }
+  f.done ? t(p) : Promise.resolve(p).then(o, a);
+}
+function Me(e) {
+  return function() {
+    var t = this, r = arguments;
+    return new Promise(function(o, a) {
+      var s = e.apply(t, r);
+      function u(p) {
+        um(s, o, a, u, f, "next", p);
+      }
+      function f(p) {
+        um(s, o, a, u, f, "throw", p);
+      }
+      u(void 0);
+    });
+  };
+}
+function cm(e, t) {
+  (t == null || t > e.length) && (t = e.length);
+  for (var r = 0, o = Array(t); r < t; r++) o[r] = e[r];
+  return o;
+}
+function jt(e, t) {
+  return function(r) {
+    if (Array.isArray(r)) return r;
+  }(e) || function(r, o) {
+    var a = r == null ? null : typeof Symbol < "u" && r[Symbol.iterator] || r["@@iterator"];
+    if (a != null) {
+      var s, u, f, p, m = [], y = !0, v = !1;
+      try {
+        if (f = (a = a.call(r)).next, o === 0) {
+          if (Object(a) !== a) return;
+          y = !1;
+        } else for (; !(y = (s = f.call(a)).done) && (m.push(s.value), m.length !== o); y = !0) ;
+      } catch (_) {
+        v = !0, u = _;
+      } finally {
+        try {
+          if (!y && a.return != null && (p = a.return(), Object(p) !== p)) return;
+        } finally {
+          if (v) throw u;
+        }
+      }
+      return m;
+    }
+  }(e, t) || function(r, o) {
+    if (r) {
+      if (typeof r == "string") return cm(r, o);
+      var a = {}.toString.call(r).slice(8, -1);
+      return a === "Object" && r.constructor && (a = r.constructor.name), a === "Map" || a === "Set" ? Array.from(r) : a === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(a) ? cm(r, o) : void 0;
+    }
+  }(e, t) || function() {
+    throw new TypeError(`Invalid attempt to destructure non-iterable instance.
+In order to be iterable, non-array objects must have a [Symbol.iterator]() method.`);
+  }();
+}
+function hS(e) {
+  return e && e.__esModule && Object.prototype.hasOwnProperty.call(e, "default") ? e.default : e;
+}
+var dm, Rs = { exports: {} }, id = function() {
+  if (dm) return Rs.exports;
+  dm = 1;
+  var e, t = typeof Reflect == "object" ? Reflect : null, r = t && typeof t.apply == "function" ? t.apply : function(E, L, M) {
+    return Function.prototype.apply.call(E, L, M);
+  };
+  e = t && typeof t.ownKeys == "function" ? t.ownKeys : Object.getOwnPropertySymbols ? function(E) {
+    return Object.getOwnPropertyNames(E).concat(Object.getOwnPropertySymbols(E));
+  } : function(E) {
+    return Object.getOwnPropertyNames(E);
+  };
+  var o = Number.isNaN || function(E) {
+    return E != E;
+  };
+  function a() {
+    a.init.call(this);
+  }
+  Rs.exports = a, Rs.exports.once = function(E, L) {
+    return new Promise(function(M, V) {
+      function B(N) {
+        E.removeListener(L, j), V(N);
+      }
+      function j() {
+        typeof E.removeListener == "function" && E.removeListener("error", B), M([].slice.call(arguments));
+      }
+      T(E, L, j, { once: !0 }), L !== "error" && function(N, A, H) {
+        typeof N.on == "function" && T(N, "error", A, H);
+      }(E, B, { once: !0 });
+    });
+  }, a.EventEmitter = a, a.prototype._events = void 0, a.prototype._eventsCount = 0, a.prototype._maxListeners = void 0;
+  var s = 10;
+  function u(E) {
+    if (typeof E != "function") throw new TypeError('The "listener" argument must be of type Function. Received type ' + typeof E);
+  }
+  function f(E) {
+    return E._maxListeners === void 0 ? a.defaultMaxListeners : E._maxListeners;
+  }
+  function p(E, L, M, V) {
+    var B, j, N, A;
+    if (u(M), (j = E._events) === void 0 ? (j = E._events = /* @__PURE__ */ Object.create(null), E._eventsCount = 0) : (j.newListener !== void 0 && (E.emit("newListener", L, M.listener ? M.listener : M), j = E._events), N = j[L]), N === void 0) N = j[L] = M, ++E._eventsCount;
+    else if (typeof N == "function" ? N = j[L] = V ? [M, N] : [N, M] : V ? N.unshift(M) : N.push(M), (B = f(E)) > 0 && N.length > B && !N.warned) {
+      N.warned = !0;
+      var H = new Error("Possible EventEmitter memory leak detected. " + N.length + " " + String(L) + " listeners added. Use emitter.setMaxListeners() to increase limit");
+      H.name = "MaxListenersExceededWarning", H.emitter = E, H.type = L, H.count = N.length, A = H, console && console.warn && console.warn(A);
+    }
+    return E;
+  }
+  function m() {
+    if (!this.fired) return this.target.removeListener(this.type, this.wrapFn), this.fired = !0, arguments.length === 0 ? this.listener.call(this.target) : this.listener.apply(this.target, arguments);
+  }
+  function y(E, L, M) {
+    var V = { fired: !1, wrapFn: void 0, target: E, type: L, listener: M }, B = m.bind(V);
+    return B.listener = M, V.wrapFn = B, B;
+  }
+  function v(E, L, M) {
+    var V = E._events;
+    if (V === void 0) return [];
+    var B = V[L];
+    return B === void 0 ? [] : typeof B == "function" ? M ? [B.listener || B] : [B] : M ? function(j) {
+      for (var N = new Array(j.length), A = 0; A < N.length; ++A) N[A] = j[A].listener || j[A];
+      return N;
+    }(B) : k(B, B.length);
+  }
+  function _(E) {
+    var L = this._events;
+    if (L !== void 0) {
+      var M = L[E];
+      if (typeof M == "function") return 1;
+      if (M !== void 0) return M.length;
+    }
+    return 0;
+  }
+  function k(E, L) {
+    for (var M = new Array(L), V = 0; V < L; ++V) M[V] = E[V];
+    return M;
+  }
+  function T(E, L, M, V) {
+    if (typeof E.on == "function") V.once ? E.once(L, M) : E.on(L, M);
+    else {
+      if (typeof E.addEventListener != "function") throw new TypeError('The "emitter" argument must be of type EventEmitter. Received type ' + typeof E);
+      E.addEventListener(L, function B(j) {
+        V.once && E.removeEventListener(L, B), M(j);
+      });
+    }
+  }
+  return Object.defineProperty(a, "defaultMaxListeners", { enumerable: !0, get: function() {
+    return s;
+  }, set: function(E) {
+    if (typeof E != "number" || E < 0 || o(E)) throw new RangeError('The value of "defaultMaxListeners" is out of range. It must be a non-negative number. Received ' + E + ".");
+    s = E;
+  } }), a.init = function() {
+    this._events !== void 0 && this._events !== Object.getPrototypeOf(this)._events || (this._events = /* @__PURE__ */ Object.create(null), this._eventsCount = 0), this._maxListeners = this._maxListeners || void 0;
+  }, a.prototype.setMaxListeners = function(E) {
+    if (typeof E != "number" || E < 0 || o(E)) throw new RangeError('The value of "n" is out of range. It must be a non-negative number. Received ' + E + ".");
+    return this._maxListeners = E, this;
+  }, a.prototype.getMaxListeners = function() {
+    return f(this);
+  }, a.prototype.emit = function(E) {
+    for (var L = [], M = 1; M < arguments.length; M++) L.push(arguments[M]);
+    var V = E === "error", B = this._events;
+    if (B !== void 0) V = V && B.error === void 0;
+    else if (!V) return !1;
+    if (V) {
+      var j;
+      if (L.length > 0 && (j = L[0]), j instanceof Error) throw j;
+      var N = new Error("Unhandled error." + (j ? " (" + j.message + ")" : ""));
+      throw N.context = j, N;
+    }
+    var A = B[E];
+    if (A === void 0) return !1;
+    if (typeof A == "function") r(A, this, L);
+    else {
+      var H = A.length, z = k(A, H);
+      for (M = 0; M < H; ++M) r(z[M], this, L);
+    }
+    return !0;
+  }, a.prototype.addListener = function(E, L) {
+    return p(this, E, L, !1);
+  }, a.prototype.on = a.prototype.addListener, a.prototype.prependListener = function(E, L) {
+    return p(this, E, L, !0);
+  }, a.prototype.once = function(E, L) {
+    return u(L), this.on(E, y(this, E, L)), this;
+  }, a.prototype.prependOnceListener = function(E, L) {
+    return u(L), this.prependListener(E, y(this, E, L)), this;
+  }, a.prototype.removeListener = function(E, L) {
+    var M, V, B, j, N;
+    if (u(L), (V = this._events) === void 0) return this;
+    if ((M = V[E]) === void 0) return this;
+    if (M === L || M.listener === L) --this._eventsCount == 0 ? this._events = /* @__PURE__ */ Object.create(null) : (delete V[E], V.removeListener && this.emit("removeListener", E, M.listener || L));
+    else if (typeof M != "function") {
+      for (B = -1, j = M.length - 1; j >= 0; j--) if (M[j] === L || M[j].listener === L) {
+        N = M[j].listener, B = j;
+        break;
+      }
+      if (B < 0) return this;
+      B === 0 ? M.shift() : function(A, H) {
+        for (; H + 1 < A.length; H++) A[H] = A[H + 1];
+        A.pop();
+      }(M, B), M.length === 1 && (V[E] = M[0]), V.removeListener !== void 0 && this.emit("removeListener", E, N || L);
+    }
+    return this;
+  }, a.prototype.off = a.prototype.removeListener, a.prototype.removeAllListeners = function(E) {
+    var L, M, V;
+    if ((M = this._events) === void 0) return this;
+    if (M.removeListener === void 0) return arguments.length === 0 ? (this._events = /* @__PURE__ */ Object.create(null), this._eventsCount = 0) : M[E] !== void 0 && (--this._eventsCount == 0 ? this._events = /* @__PURE__ */ Object.create(null) : delete M[E]), this;
+    if (arguments.length === 0) {
+      var B, j = Object.keys(M);
+      for (V = 0; V < j.length; ++V) (B = j[V]) !== "removeListener" && this.removeAllListeners(B);
+      return this.removeAllListeners("removeListener"), this._events = /* @__PURE__ */ Object.create(null), this._eventsCount = 0, this;
+    }
+    if (typeof (L = M[E]) == "function") this.removeListener(E, L);
+    else if (L !== void 0) for (V = L.length - 1; V >= 0; V--) this.removeListener(E, L[V]);
+    return this;
+  }, a.prototype.listeners = function(E) {
+    return v(this, E, !0);
+  }, a.prototype.rawListeners = function(E) {
+    return v(this, E, !1);
+  }, a.listenerCount = function(E, L) {
+    return typeof E.listenerCount == "function" ? E.listenerCount(L) : _.call(E, L);
+  }, a.prototype.listenerCount = _, a.prototype.eventNames = function() {
+    return this._eventsCount > 0 ? e(this._events) : [];
+  }, Rs.exports;
+}(), Fs = hS(id), fm = Object.prototype.hasOwnProperty;
+function pm(e, t, r) {
+  for (r of e.keys()) if (Ut(r, t)) return r;
+}
+function Ut(e, t) {
+  var r, o, a;
+  if (e === t) return !0;
+  if (e && t && (r = e.constructor) === t.constructor) {
+    if (r === Date) return e.getTime() === t.getTime();
+    if (r === RegExp) return e.toString() === t.toString();
+    if (r === Array) {
+      if ((o = e.length) === t.length) for (; o-- && Ut(e[o], t[o]); ) ;
+      return o === -1;
+    }
+    if (r === Set) {
+      if (e.size !== t.size) return !1;
+      for (o of e)
+        if ((a = o) && typeof a == "object" && !(a = pm(t, a)) || !t.has(a)) return !1;
+      return !0;
+    }
+    if (r === Map) {
+      if (e.size !== t.size) return !1;
+      for (o of e)
+        if ((a = o[0]) && typeof a == "object" && !(a = pm(t, a)) || !Ut(o[1], t.get(a))) return !1;
+      return !0;
+    }
+    if (r === ArrayBuffer) e = new Uint8Array(e), t = new Uint8Array(t);
+    else if (r === DataView) {
+      if ((o = e.byteLength) === t.byteLength) for (; o-- && e.getInt8(o) === t.getInt8(o); ) ;
+      return o === -1;
+    }
+    if (ArrayBuffer.isView(e)) {
+      if ((o = e.byteLength) === t.byteLength) for (; o-- && e[o] === t[o]; ) ;
+      return o === -1;
+    }
+    if (!r || typeof e == "object") {
+      for (r in o = 0, e)
+        if (fm.call(e, r) && ++o && !fm.call(t, r) || !(r in t) || !Ut(e[r], t[r])) return !1;
+      return Object.keys(t).length === o;
+    }
+  }
+  return e != e && t != t;
+}
+const mS = { "Amazon Silk": "amazon_silk", "Android Browser": "android", Bada: "bada", BlackBerry: "blackberry", Chrome: "chrome", Chromium: "chromium", Electron: "electron", Epiphany: "epiphany", Firefox: "firefox", Focus: "focus", Generic: "generic", "Google Search": "google_search", Googlebot: "googlebot", "Internet Explorer": "ie", "K-Meleon": "k_meleon", Maxthon: "maxthon", "Microsoft Edge": "edge", "MZ Browser": "mz", "NAVER Whale Browser": "naver", Opera: "opera", "Opera Coast": "opera_coast", PhantomJS: "phantomjs", Puffin: "puffin", QupZilla: "qupzilla", QQ: "qq", QQLite: "qqlite", Safari: "safari", Sailfish: "sailfish", "Samsung Internet for Android": "samsung_internet", SeaMonkey: "seamonkey", Sleipnir: "sleipnir", Swing: "swing", Tizen: "tizen", "UC Browser": "uc", Vivaldi: "vivaldi", "WebOS Browser": "webos", WeChat: "wechat", "Yandex Browser": "yandex", Roku: "roku" }, $y = { amazon_silk: "Amazon Silk", android: "Android Browser", bada: "Bada", blackberry: "BlackBerry", chrome: "Chrome", chromium: "Chromium", electron: "Electron", epiphany: "Epiphany", firefox: "Firefox", focus: "Focus", generic: "Generic", googlebot: "Googlebot", google_search: "Google Search", ie: "Internet Explorer", k_meleon: "K-Meleon", maxthon: "Maxthon", edge: "Microsoft Edge", mz: "MZ Browser", naver: "NAVER Whale Browser", opera: "Opera", opera_coast: "Opera Coast", phantomjs: "PhantomJS", puffin: "Puffin", qupzilla: "QupZilla", qq: "QQ Browser", qqlite: "QQ Browser Lite", safari: "Safari", sailfish: "Sailfish", samsung_internet: "Samsung Internet for Android", seamonkey: "SeaMonkey", sleipnir: "Sleipnir", swing: "Swing", tizen: "Tizen", uc: "UC Browser", vivaldi: "Vivaldi", webos: "WebOS Browser", wechat: "WeChat", yandex: "Yandex Browser" }, lt = { tablet: "tablet", mobile: "mobile", desktop: "desktop", tv: "tv" }, Bt = { WindowsPhone: "Windows Phone", Windows: "Windows", MacOS: "macOS", iOS: "iOS", Android: "Android", WebOS: "WebOS", BlackBerry: "BlackBerry", Bada: "Bada", Tizen: "Tizen", Linux: "Linux", ChromeOS: "Chrome OS", PlayStation4: "PlayStation 4", Roku: "Roku" }, Vr = { EdgeHTML: "EdgeHTML", Blink: "Blink", Trident: "Trident", Presto: "Presto", Gecko: "Gecko", WebKit: "WebKit" };
+class te {
+  static getFirstMatch(t, r) {
+    const o = r.match(t);
+    return o && o.length > 0 && o[1] || "";
+  }
+  static getSecondMatch(t, r) {
+    const o = r.match(t);
+    return o && o.length > 1 && o[2] || "";
+  }
+  static matchAndReturnConst(t, r, o) {
+    if (t.test(r)) return o;
+  }
+  static getWindowsVersionName(t) {
+    switch (t) {
+      case "NT":
+        return "NT";
+      case "XP":
+      case "NT 5.1":
+        return "XP";
+      case "NT 5.0":
+        return "2000";
+      case "NT 5.2":
+        return "2003";
+      case "NT 6.0":
+        return "Vista";
+      case "NT 6.1":
+        return "7";
+      case "NT 6.2":
+        return "8";
+      case "NT 6.3":
+        return "8.1";
+      case "NT 10.0":
+        return "10";
+      default:
+        return;
+    }
+  }
+  static getMacOSVersionName(t) {
+    const r = t.split(".").splice(0, 2).map((o) => parseInt(o, 10) || 0);
+    if (r.push(0), r[0] === 10) switch (r[1]) {
+      case 5:
+        return "Leopard";
+      case 6:
+        return "Snow Leopard";
+      case 7:
+        return "Lion";
+      case 8:
+        return "Mountain Lion";
+      case 9:
+        return "Mavericks";
+      case 10:
+        return "Yosemite";
+      case 11:
+        return "El Capitan";
+      case 12:
+        return "Sierra";
+      case 13:
+        return "High Sierra";
+      case 14:
+        return "Mojave";
+      case 15:
+        return "Catalina";
+      default:
+        return;
+    }
+  }
+  static getAndroidVersionName(t) {
+    const r = t.split(".").splice(0, 2).map((o) => parseInt(o, 10) || 0);
+    if (r.push(0), !(r[0] === 1 && r[1] < 5)) return r[0] === 1 && r[1] < 6 ? "Cupcake" : r[0] === 1 && r[1] >= 6 ? "Donut" : r[0] === 2 && r[1] < 2 ? "Eclair" : r[0] === 2 && r[1] === 2 ? "Froyo" : r[0] === 2 && r[1] > 2 ? "Gingerbread" : r[0] === 3 ? "Honeycomb" : r[0] === 4 && r[1] < 1 ? "Ice Cream Sandwich" : r[0] === 4 && r[1] < 4 ? "Jelly Bean" : r[0] === 4 && r[1] >= 4 ? "KitKat" : r[0] === 5 ? "Lollipop" : r[0] === 6 ? "Marshmallow" : r[0] === 7 ? "Nougat" : r[0] === 8 ? "Oreo" : r[0] === 9 ? "Pie" : void 0;
+  }
+  static getVersionPrecision(t) {
+    return t.split(".").length;
+  }
+  static compareVersions(t, r, o = !1) {
+    const a = te.getVersionPrecision(t), s = te.getVersionPrecision(r);
+    let u = Math.max(a, s), f = 0;
+    const p = te.map([t, r], (m) => {
+      const y = u - te.getVersionPrecision(m), v = m + new Array(y + 1).join(".0");
+      return te.map(v.split("."), (_) => new Array(20 - _.length).join("0") + _).reverse();
+    });
+    for (o && (f = u - Math.min(a, s)), u -= 1; u >= f; ) {
+      if (p[0][u] > p[1][u]) return 1;
+      if (p[0][u] === p[1][u]) {
+        if (u === f) return 0;
+        u -= 1;
+      } else if (p[0][u] < p[1][u]) return -1;
+    }
+  }
+  static map(t, r) {
+    const o = [];
+    let a;
+    if (Array.prototype.map) return Array.prototype.map.call(t, r);
+    for (a = 0; a < t.length; a += 1) o.push(r(t[a]));
+    return o;
+  }
+  static find(t, r) {
+    let o, a;
+    if (Array.prototype.find) return Array.prototype.find.call(t, r);
+    for (o = 0, a = t.length; o < a; o += 1) {
+      const s = t[o];
+      if (r(s, o)) return s;
+    }
+  }
+  static assign(t, ...r) {
+    const o = t;
+    let a, s;
+    if (Object.assign) return Object.assign(t, ...r);
+    for (a = 0, s = r.length; a < s; a += 1) {
+      const u = r[a];
+      typeof u == "object" && u !== null && Object.keys(u).forEach((f) => {
+        o[f] = u[f];
+      });
+    }
+    return t;
+  }
+  static getBrowserAlias(t) {
+    return mS[t];
+  }
+  static getBrowserTypeByAlias(t) {
+    return $y[t] || "";
+  }
+}
+const We = /version\/(\d+(\.?_?\d+)+)/i, gS = [{ test: [/googlebot/i], describe(e) {
+  const t = { name: "Googlebot" }, r = te.getFirstMatch(/googlebot\/(\d+(\.\d+))/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/opera/i], describe(e) {
+  const t = { name: "Opera" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/(?:opera)[\s/](\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/opr\/|opios/i], describe(e) {
+  const t = { name: "Opera" }, r = te.getFirstMatch(/(?:opr|opios)[\s/](\S+)/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/SamsungBrowser/i], describe(e) {
+  const t = { name: "Samsung Internet for Android" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/(?:SamsungBrowser)[\s/](\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/Whale/i], describe(e) {
+  const t = { name: "NAVER Whale Browser" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/(?:whale)[\s/](\d+(?:\.\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/MZBrowser/i], describe(e) {
+  const t = { name: "MZ Browser" }, r = te.getFirstMatch(/(?:MZBrowser)[\s/](\d+(?:\.\d+)+)/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/focus/i], describe(e) {
+  const t = { name: "Focus" }, r = te.getFirstMatch(/(?:focus)[\s/](\d+(?:\.\d+)+)/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/swing/i], describe(e) {
+  const t = { name: "Swing" }, r = te.getFirstMatch(/(?:swing)[\s/](\d+(?:\.\d+)+)/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/coast/i], describe(e) {
+  const t = { name: "Opera Coast" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/(?:coast)[\s/](\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/opt\/\d+(?:.?_?\d+)+/i], describe(e) {
+  const t = { name: "Opera Touch" }, r = te.getFirstMatch(/(?:opt)[\s/](\d+(\.?_?\d+)+)/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/yabrowser/i], describe(e) {
+  const t = { name: "Yandex Browser" }, r = te.getFirstMatch(/(?:yabrowser)[\s/](\d+(\.?_?\d+)+)/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/ucbrowser/i], describe(e) {
+  const t = { name: "UC Browser" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/(?:ucbrowser)[\s/](\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/Maxthon|mxios/i], describe(e) {
+  const t = { name: "Maxthon" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/(?:Maxthon|mxios)[\s/](\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/epiphany/i], describe(e) {
+  const t = { name: "Epiphany" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/(?:epiphany)[\s/](\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/puffin/i], describe(e) {
+  const t = { name: "Puffin" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/(?:puffin)[\s/](\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/sleipnir/i], describe(e) {
+  const t = { name: "Sleipnir" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/(?:sleipnir)[\s/](\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/k-meleon/i], describe(e) {
+  const t = { name: "K-Meleon" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/(?:k-meleon)[\s/](\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/micromessenger/i], describe(e) {
+  const t = { name: "WeChat" }, r = te.getFirstMatch(/(?:micromessenger)[\s/](\d+(\.?_?\d+)+)/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/qqbrowser/i], describe(e) {
+  const t = { name: /qqbrowserlite/i.test(e) ? "QQ Browser Lite" : "QQ Browser" }, r = te.getFirstMatch(/(?:qqbrowserlite|qqbrowser)[/](\d+(\.?_?\d+)+)/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/msie|trident/i], describe(e) {
+  const t = { name: "Internet Explorer" }, r = te.getFirstMatch(/(?:msie |rv:)(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/\sedg\//i], describe(e) {
+  const t = { name: "Microsoft Edge" }, r = te.getFirstMatch(/\sedg\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/edg([ea]|ios)/i], describe(e) {
+  const t = { name: "Microsoft Edge" }, r = te.getSecondMatch(/edg([ea]|ios)\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/vivaldi/i], describe(e) {
+  const t = { name: "Vivaldi" }, r = te.getFirstMatch(/vivaldi\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/seamonkey/i], describe(e) {
+  const t = { name: "SeaMonkey" }, r = te.getFirstMatch(/seamonkey\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/sailfish/i], describe(e) {
+  const t = { name: "Sailfish" }, r = te.getFirstMatch(/sailfish\s?browser\/(\d+(\.\d+)?)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/silk/i], describe(e) {
+  const t = { name: "Amazon Silk" }, r = te.getFirstMatch(/silk\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/phantom/i], describe(e) {
+  const t = { name: "PhantomJS" }, r = te.getFirstMatch(/phantomjs\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/slimerjs/i], describe(e) {
+  const t = { name: "SlimerJS" }, r = te.getFirstMatch(/slimerjs\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/blackberry|\bbb\d+/i, /rim\stablet/i], describe(e) {
+  const t = { name: "BlackBerry" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/blackberry[\d]+\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/(web|hpw)[o0]s/i], describe(e) {
+  const t = { name: "WebOS Browser" }, r = te.getFirstMatch(We, e) || te.getFirstMatch(/w(?:eb)?[o0]sbrowser\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/bada/i], describe(e) {
+  const t = { name: "Bada" }, r = te.getFirstMatch(/dolfin\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/tizen/i], describe(e) {
+  const t = { name: "Tizen" }, r = te.getFirstMatch(/(?:tizen\s?)?browser\/(\d+(\.?_?\d+)+)/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/qupzilla/i], describe(e) {
+  const t = { name: "QupZilla" }, r = te.getFirstMatch(/(?:qupzilla)[\s/](\d+(\.?_?\d+)+)/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/firefox|iceweasel|fxios/i], describe(e) {
+  const t = { name: "Firefox" }, r = te.getFirstMatch(/(?:firefox|iceweasel|fxios)[\s/](\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/electron/i], describe(e) {
+  const t = { name: "Electron" }, r = te.getFirstMatch(/(?:electron)\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/MiuiBrowser/i], describe(e) {
+  const t = { name: "Miui" }, r = te.getFirstMatch(/(?:MiuiBrowser)[\s/](\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/chromium/i], describe(e) {
+  const t = { name: "Chromium" }, r = te.getFirstMatch(/(?:chromium)[\s/](\d+(\.?_?\d+)+)/i, e) || te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/chrome|crios|crmo/i], describe(e) {
+  const t = { name: "Chrome" }, r = te.getFirstMatch(/(?:chrome|crios|crmo)\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/GSA/i], describe(e) {
+  const t = { name: "Google Search" }, r = te.getFirstMatch(/(?:GSA)\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test(e) {
+  const t = !e.test(/like android/i), r = e.test(/android/i);
+  return t && r;
+}, describe(e) {
+  const t = { name: "Android Browser" }, r = te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/playstation 4/i], describe(e) {
+  const t = { name: "PlayStation 4" }, r = te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/safari|applewebkit/i], describe(e) {
+  const t = { name: "Safari" }, r = te.getFirstMatch(We, e);
+  return r && (t.version = r), t;
+} }, { test: [/.*/i], describe(e) {
+  const t = e.search("\\(") !== -1 ? /^(.*)\/(.*)[ \t]\((.*)/ : /^(.*)\/(.*) /;
+  return { name: te.getFirstMatch(t, e), version: te.getSecondMatch(t, e) };
+} }];
+var yS = [{ test: [/Roku\/DVP/], describe(e) {
+  const t = te.getFirstMatch(/Roku\/DVP-(\d+\.\d+)/i, e);
+  return { name: Bt.Roku, version: t };
+} }, { test: [/windows phone/i], describe(e) {
+  const t = te.getFirstMatch(/windows phone (?:os)?\s?(\d+(\.\d+)*)/i, e);
+  return { name: Bt.WindowsPhone, version: t };
+} }, { test: [/windows /i], describe(e) {
+  const t = te.getFirstMatch(/Windows ((NT|XP)( \d\d?.\d)?)/i, e), r = te.getWindowsVersionName(t);
+  return { name: Bt.Windows, version: t, versionName: r };
+} }, { test: [/Macintosh(.*?) FxiOS(.*?)\//], describe(e) {
+  const t = { name: Bt.iOS }, r = te.getSecondMatch(/(Version\/)(\d[\d.]+)/, e);
+  return r && (t.version = r), t;
+} }, { test: [/macintosh/i], describe(e) {
+  const t = te.getFirstMatch(/mac os x (\d+(\.?_?\d+)+)/i, e).replace(/[_\s]/g, "."), r = te.getMacOSVersionName(t), o = { name: Bt.MacOS, version: t };
+  return r && (o.versionName = r), o;
+} }, { test: [/(ipod|iphone|ipad)/i], describe(e) {
+  const t = te.getFirstMatch(/os (\d+([_\s]\d+)*) like mac os x/i, e).replace(/[_\s]/g, ".");
+  return { name: Bt.iOS, version: t };
+} }, { test(e) {
+  const t = !e.test(/like android/i), r = e.test(/android/i);
+  return t && r;
+}, describe(e) {
+  const t = te.getFirstMatch(/android[\s/-](\d+(\.\d+)*)/i, e), r = te.getAndroidVersionName(t), o = { name: Bt.Android, version: t };
+  return r && (o.versionName = r), o;
+} }, { test: [/(web|hpw)[o0]s/i], describe(e) {
+  const t = te.getFirstMatch(/(?:web|hpw)[o0]s\/(\d+(\.\d+)*)/i, e), r = { name: Bt.WebOS };
+  return t && t.length && (r.version = t), r;
+} }, { test: [/blackberry|\bbb\d+/i, /rim\stablet/i], describe(e) {
+  const t = te.getFirstMatch(/rim\stablet\sos\s(\d+(\.\d+)*)/i, e) || te.getFirstMatch(/blackberry\d+\/(\d+([_\s]\d+)*)/i, e) || te.getFirstMatch(/\bbb(\d+)/i, e);
+  return { name: Bt.BlackBerry, version: t };
+} }, { test: [/bada/i], describe(e) {
+  const t = te.getFirstMatch(/bada\/(\d+(\.\d+)*)/i, e);
+  return { name: Bt.Bada, version: t };
+} }, { test: [/tizen/i], describe(e) {
+  const t = te.getFirstMatch(/tizen[/\s](\d+(\.\d+)*)/i, e);
+  return { name: Bt.Tizen, version: t };
+} }, { test: [/linux/i], describe: () => ({ name: Bt.Linux }) }, { test: [/CrOS/], describe: () => ({ name: Bt.ChromeOS }) }, { test: [/PlayStation 4/], describe(e) {
+  const t = te.getFirstMatch(/PlayStation 4[/\s](\d+(\.\d+)*)/i, e);
+  return { name: Bt.PlayStation4, version: t };
+} }], vS = [{ test: [/googlebot/i], describe: () => ({ type: "bot", vendor: "Google" }) }, { test: [/huawei/i], describe(e) {
+  const t = te.getFirstMatch(/(can-l01)/i, e) && "Nova", r = { type: lt.mobile, vendor: "Huawei" };
+  return t && (r.model = t), r;
+} }, { test: [/nexus\s*(?:7|8|9|10).*/i], describe: () => ({ type: lt.tablet, vendor: "Nexus" }) }, { test: [/ipad/i], describe: () => ({ type: lt.tablet, vendor: "Apple", model: "iPad" }) }, { test: [/Macintosh(.*?) FxiOS(.*?)\//], describe: () => ({ type: lt.tablet, vendor: "Apple", model: "iPad" }) }, { test: [/kftt build/i], describe: () => ({ type: lt.tablet, vendor: "Amazon", model: "Kindle Fire HD 7" }) }, { test: [/silk/i], describe: () => ({ type: lt.tablet, vendor: "Amazon" }) }, { test: [/tablet(?! pc)/i], describe: () => ({ type: lt.tablet }) }, { test(e) {
+  const t = e.test(/ipod|iphone/i), r = e.test(/like (ipod|iphone)/i);
+  return t && !r;
+}, describe(e) {
+  const t = te.getFirstMatch(/(ipod|iphone)/i, e);
+  return { type: lt.mobile, vendor: "Apple", model: t };
+} }, { test: [/nexus\s*[0-6].*/i, /galaxy nexus/i], describe: () => ({ type: lt.mobile, vendor: "Nexus" }) }, { test: [/[^-]mobi/i], describe: () => ({ type: lt.mobile }) }, { test: (e) => e.getBrowserName(!0) === "blackberry", describe: () => ({ type: lt.mobile, vendor: "BlackBerry" }) }, { test: (e) => e.getBrowserName(!0) === "bada", describe: () => ({ type: lt.mobile }) }, { test: (e) => e.getBrowserName() === "windows phone", describe: () => ({ type: lt.mobile, vendor: "Microsoft" }) }, { test(e) {
+  const t = Number(String(e.getOSVersion()).split(".")[0]);
+  return e.getOSName(!0) === "android" && t >= 3;
+}, describe: () => ({ type: lt.tablet }) }, { test: (e) => e.getOSName(!0) === "android", describe: () => ({ type: lt.mobile }) }, { test: (e) => e.getOSName(!0) === "macos", describe: () => ({ type: lt.desktop, vendor: "Apple" }) }, { test: (e) => e.getOSName(!0) === "windows", describe: () => ({ type: lt.desktop }) }, { test: (e) => e.getOSName(!0) === "linux", describe: () => ({ type: lt.desktop }) }, { test: (e) => e.getOSName(!0) === "playstation 4", describe: () => ({ type: lt.tv }) }, { test: (e) => e.getOSName(!0) === "roku", describe: () => ({ type: lt.tv }) }], wS = [{ test: (e) => e.getBrowserName(!0) === "microsoft edge", describe(e) {
+  if (/\sedg\//i.test(e)) return { name: Vr.Blink };
+  const t = te.getFirstMatch(/edge\/(\d+(\.?_?\d+)+)/i, e);
+  return { name: Vr.EdgeHTML, version: t };
+} }, { test: [/trident/i], describe(e) {
+  const t = { name: Vr.Trident }, r = te.getFirstMatch(/trident\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: (e) => e.test(/presto/i), describe(e) {
+  const t = { name: Vr.Presto }, r = te.getFirstMatch(/presto\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test(e) {
+  const t = e.test(/gecko/i), r = e.test(/like gecko/i);
+  return t && !r;
+}, describe(e) {
+  const t = { name: Vr.Gecko }, r = te.getFirstMatch(/gecko\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }, { test: [/(apple)?webkit\/537\.36/i], describe: () => ({ name: Vr.Blink }) }, { test: [/(apple)?webkit/i], describe(e) {
+  const t = { name: Vr.WebKit }, r = te.getFirstMatch(/webkit\/(\d+(\.?_?\d+)+)/i, e);
+  return r && (t.version = r), t;
+} }];
+class hm {
+  constructor(t, r = !1) {
+    if (t == null || t === "") throw new Error("UserAgent parameter can't be empty");
+    this._ua = t, this.parsedResult = {}, r !== !0 && this.parse();
+  }
+  getUA() {
+    return this._ua;
+  }
+  test(t) {
+    return t.test(this._ua);
+  }
+  parseBrowser() {
+    this.parsedResult.browser = {};
+    const t = te.find(gS, (r) => {
+      if (typeof r.test == "function") return r.test(this);
+      if (r.test instanceof Array) return r.test.some((o) => this.test(o));
+      throw new Error("Browser's test function is not valid");
+    });
+    return t && (this.parsedResult.browser = t.describe(this.getUA())), this.parsedResult.browser;
+  }
+  getBrowser() {
+    return this.parsedResult.browser ? this.parsedResult.browser : this.parseBrowser();
+  }
+  getBrowserName(t) {
+    return t ? String(this.getBrowser().name).toLowerCase() || "" : this.getBrowser().name || "";
+  }
+  getBrowserVersion() {
+    return this.getBrowser().version;
+  }
+  getOS() {
+    return this.parsedResult.os ? this.parsedResult.os : this.parseOS();
+  }
+  parseOS() {
+    this.parsedResult.os = {};
+    const t = te.find(yS, (r) => {
+      if (typeof r.test == "function") return r.test(this);
+      if (r.test instanceof Array) return r.test.some((o) => this.test(o));
+      throw new Error("Browser's test function is not valid");
+    });
+    return t && (this.parsedResult.os = t.describe(this.getUA())), this.parsedResult.os;
+  }
+  getOSName(t) {
+    const { name: r } = this.getOS();
+    return t ? String(r).toLowerCase() || "" : r || "";
+  }
+  getOSVersion() {
+    return this.getOS().version;
+  }
+  getPlatform() {
+    return this.parsedResult.platform ? this.parsedResult.platform : this.parsePlatform();
+  }
+  getPlatformType(t = !1) {
+    const { type: r } = this.getPlatform();
+    return t ? String(r).toLowerCase() || "" : r || "";
+  }
+  parsePlatform() {
+    this.parsedResult.platform = {};
+    const t = te.find(vS, (r) => {
+      if (typeof r.test == "function") return r.test(this);
+      if (r.test instanceof Array) return r.test.some((o) => this.test(o));
+      throw new Error("Browser's test function is not valid");
+    });
+    return t && (this.parsedResult.platform = t.describe(this.getUA())), this.parsedResult.platform;
+  }
+  getEngine() {
+    return this.parsedResult.engine ? this.parsedResult.engine : this.parseEngine();
+  }
+  getEngineName(t) {
+    return t ? String(this.getEngine().name).toLowerCase() || "" : this.getEngine().name || "";
+  }
+  parseEngine() {
+    this.parsedResult.engine = {};
+    const t = te.find(wS, (r) => {
+      if (typeof r.test == "function") return r.test(this);
+      if (r.test instanceof Array) return r.test.some((o) => this.test(o));
+      throw new Error("Browser's test function is not valid");
+    });
+    return t && (this.parsedResult.engine = t.describe(this.getUA())), this.parsedResult.engine;
+  }
+  parse() {
+    return this.parseBrowser(), this.parseOS(), this.parsePlatform(), this.parseEngine(), this;
+  }
+  getResult() {
+    return te.assign({}, this.parsedResult);
+  }
+  satisfies(t) {
+    const r = {};
+    let o = 0;
+    const a = {};
+    let s = 0;
+    if (Object.keys(t).forEach((u) => {
+      const f = t[u];
+      typeof f == "string" ? (a[u] = f, s += 1) : typeof f == "object" && (r[u] = f, o += 1);
+    }), o > 0) {
+      const u = Object.keys(r), f = te.find(u, (m) => this.isOS(m));
+      if (f) {
+        const m = this.satisfies(r[f]);
+        if (m !== void 0) return m;
+      }
+      const p = te.find(u, (m) => this.isPlatform(m));
+      if (p) {
+        const m = this.satisfies(r[p]);
+        if (m !== void 0) return m;
+      }
+    }
+    if (s > 0) {
+      const u = Object.keys(a), f = te.find(u, (p) => this.isBrowser(p, !0));
+      if (f !== void 0) return this.compareVersion(a[f]);
+    }
+  }
+  isBrowser(t, r = !1) {
+    const o = this.getBrowserName().toLowerCase();
+    let a = t.toLowerCase();
+    const s = te.getBrowserTypeByAlias(a);
+    return r && s && (a = s.toLowerCase()), a === o;
+  }
+  compareVersion(t) {
+    let r = [0], o = t, a = !1;
+    const s = this.getBrowserVersion();
+    if (typeof s == "string") return t[0] === ">" || t[0] === "<" ? (o = t.substr(1), t[1] === "=" ? (a = !0, o = t.substr(2)) : r = [], t[0] === ">" ? r.push(1) : r.push(-1)) : t[0] === "=" ? o = t.substr(1) : t[0] === "~" && (a = !0, o = t.substr(1)), r.indexOf(te.compareVersions(s, o, a)) > -1;
+  }
+  isOS(t) {
+    return this.getOSName(!0) === String(t).toLowerCase();
+  }
+  isPlatform(t) {
+    return this.getPlatformType(!0) === String(t).toLowerCase();
+  }
+  isEngine(t) {
+    return this.getEngineName(!0) === String(t).toLowerCase();
+  }
+  is(t, r = !1) {
+    return this.isBrowser(t, r) || this.isOS(t) || this.isPlatform(t);
+  }
+  some(t = []) {
+    return t.some((r) => this.is(r));
+  }
+}
+/*!
+ * Bowser - a browser detector
+ * https://github.com/lancedikson/bowser
+ * MIT License | (c) Dustin Diaz 2012-2015
+ * MIT License | (c) Denis Demchenko 2015-2019
+ */
+class SS {
+  static getParser(t, r = !1) {
+    if (typeof t != "string") throw new Error("UserAgent should be a string");
+    return new hm(t, r);
+  }
+  static parse(t) {
+    return new hm(t).getResult();
+  }
+  static get BROWSER_MAP() {
+    return $y;
+  }
+  static get ENGINE_MAP() {
+    return Vr;
+  }
+  static get OS_MAP() {
+    return Bt;
+  }
+  static get PLATFORMS_MAP() {
+    return lt;
+  }
+}
+function Cl() {
+  return Date.now() + Math.random().toString();
+}
+function ea() {
+  throw new Error("Method must be implemented in subclass");
+}
+function Hy(e, t) {
+  return t != null && t.proxyUrl ? t.proxyUrl + (t.proxyUrl.slice(-1) === "/" ? "" : "/") + e.substring(8) : e;
+}
+function ul(e) {
+  return e != null && e.callObjectBundleUrlOverride ? e.callObjectBundleUrlOverride : Hy("https://c.daily.co/call-machine/versioned/".concat("0.84.0", "/static/call-machine-object-bundle.js"), e);
+}
+function cl(e) {
+  try {
+    new URL(e);
+  } catch {
+    return !1;
+  }
+  return !0;
+}
+const Ze = typeof __SENTRY_DEBUG__ > "u" || __SENTRY_DEBUG__, pi = "8.55.0", qe = globalThis;
+function dl(e, t, r) {
+  const o = qe, a = o.__SENTRY__ = o.__SENTRY__ || {}, s = a[pi] = a[pi] || {};
+  return s[e] || (s[e] = t());
+}
+const Si = typeof __SENTRY_DEBUG__ > "u" || __SENTRY_DEBUG__, od = ["debug", "info", "warn", "error", "log", "assert", "trace"], fl = {};
+function wa(e) {
+  if (!("console" in qe)) return e();
+  const t = qe.console, r = {}, o = Object.keys(fl);
+  o.forEach((a) => {
+    const s = fl[a];
+    r[a] = t[a], t[a] = s;
+  });
+  try {
+    return e();
+  } finally {
+    o.forEach((a) => {
+      t[a] = r[a];
+    });
+  }
+}
+const Ie = dl("logger", function() {
+  let e = !1;
+  const t = { enable: () => {
+    e = !0;
+  }, disable: () => {
+    e = !1;
+  }, isEnabled: () => e };
+  return Si ? od.forEach((r) => {
+    t[r] = (...o) => {
+      e && wa(() => {
+        qe.console[r](`Sentry Logger [${r}]:`, ...o);
+      });
+    };
+  }) : od.forEach((r) => {
+    t[r] = () => {
+    };
+  }), t;
+}), fi = "?", mm = /\(error: (.*)\)/, gm = /captureMessage|captureException/;
+function Vs(e) {
+  return e[e.length - 1] || {};
+}
+const ym = "<anonymous>";
+function qr(e) {
+  try {
+    return e && typeof e == "function" && e.name || ym;
+  } catch {
+    return ym;
+  }
+}
+function vm(e) {
+  const t = e.exception;
+  if (t) {
+    const r = [];
+    try {
+      return t.values.forEach((o) => {
+        o.stacktrace.frames && r.push(...o.stacktrace.frames);
+      }), r;
+    } catch {
+      return;
+    }
+  }
+}
+const nl = {}, wm = {};
+function hi(e, t) {
+  nl[e] = nl[e] || [], nl[e].push(t);
+}
+function mi(e, t) {
+  if (!wm[e]) {
+    wm[e] = !0;
+    try {
+      t();
+    } catch (r) {
+      Si && Ie.error(`Error while instrumenting ${e}`, r);
+    }
+  }
+}
+function Rn(e, t) {
+  const r = e && nl[e];
+  if (r) for (const o of r) try {
+    o(t);
+  } catch (a) {
+    Si && Ie.error(`Error while triggering instrumentation handler.
+Type: ${e}
+Name: ${qr(o)}
+Error:`, a);
+  }
+}
+let Cc = null;
+function kS() {
+  Cc = qe.onerror, qe.onerror = function(e, t, r, o, a) {
+    return Rn("error", { column: o, error: a, line: r, msg: e, url: t }), !!Cc && Cc.apply(this, arguments);
+  }, qe.onerror.__SENTRY_INSTRUMENTED__ = !0;
+}
+let xc = null;
+function _S() {
+  xc = qe.onunhandledrejection, qe.onunhandledrejection = function(e) {
+    return Rn("unhandledrejection", e), !xc || xc.apply(this, arguments);
+  }, qe.onunhandledrejection.__SENTRY_INSTRUMENTED__ = !0;
+}
+function xl() {
+  return Gd(qe), qe;
+}
+function Gd(e) {
+  const t = e.__SENTRY__ = e.__SENTRY__ || {};
+  return t.version = t.version || pi, t[pi] = t[pi] || {};
+}
+const Jy = Object.prototype.toString;
+function Yd(e) {
+  switch (Jy.call(e)) {
+    case "[object Error]":
+    case "[object Exception]":
+    case "[object DOMException]":
+    case "[object WebAssembly.Exception]":
+      return !0;
+    default:
+      return gi(e, Error);
+  }
+}
+function co(e, t) {
+  return Jy.call(e) === `[object ${t}]`;
+}
+function Wy(e) {
+  return co(e, "ErrorEvent");
+}
+function Sm(e) {
+  return co(e, "DOMError");
+}
+function fr(e) {
+  return co(e, "String");
+}
+function Qd(e) {
+  return typeof e == "object" && e !== null && "__sentry_template_string__" in e && "__sentry_template_values__" in e;
+}
+function ad(e) {
+  return e === null || Qd(e) || typeof e != "object" && typeof e != "function";
+}
+function oo(e) {
+  return co(e, "Object");
+}
+function Tl(e) {
+  return typeof Event < "u" && gi(e, Event);
+}
+function Al(e) {
+  return !!(e && e.then && typeof e.then == "function");
+}
+function gi(e, t) {
+  try {
+    return e instanceof t;
+  } catch {
+    return !1;
+  }
+}
+function Gy(e) {
+  return !(typeof e != "object" || e === null || !e.__isVue && !e._isVue);
+}
+const Zd = qe;
+function Yy(e, t = {}) {
+  if (!e) return "<unknown>";
+  try {
+    let r = e;
+    const o = 5, a = [];
+    let s = 0, u = 0;
+    const f = " > ", p = f.length;
+    let m;
+    const y = Array.isArray(t) ? t : t.keyAttrs, v = !Array.isArray(t) && t.maxStringLength || 80;
+    for (; r && s++ < o && (m = bS(r, y), !(m === "html" || s > 1 && u + a.length * p + m.length >= v)); ) a.push(m), u += m.length, r = r.parentNode;
+    return a.reverse().join(f);
+  } catch {
+    return "<unknown>";
+  }
+}
+function bS(e, t) {
+  const r = e, o = [];
+  if (!r || !r.tagName) return "";
+  if (Zd.HTMLElement && r instanceof HTMLElement && r.dataset) {
+    if (r.dataset.sentryComponent) return r.dataset.sentryComponent;
+    if (r.dataset.sentryElement) return r.dataset.sentryElement;
+  }
+  o.push(r.tagName.toLowerCase());
+  const a = t && t.length ? t.filter((u) => r.getAttribute(u)).map((u) => [u, r.getAttribute(u)]) : null;
+  if (a && a.length) a.forEach((u) => {
+    o.push(`[${u[0]}="${u[1]}"]`);
+  });
+  else {
+    r.id && o.push(`#${r.id}`);
+    const u = r.className;
+    if (u && fr(u)) {
+      const f = u.split(/\s+/);
+      for (const p of f) o.push(`.${p}`);
+    }
+  }
+  const s = ["aria-label", "type", "name", "title", "alt"];
+  for (const u of s) {
+    const f = r.getAttribute(u);
+    f && o.push(`[${u}="${f}"]`);
+  }
+  return o.join("");
+}
+function to(e, t = 0) {
+  return typeof e != "string" || t === 0 || e.length <= t ? e : `${e.slice(0, t)}...`;
+}
+function km(e, t) {
+  if (!Array.isArray(e)) return "";
+  const r = [];
+  for (let o = 0; o < e.length; o++) {
+    const a = e[o];
+    try {
+      Gy(a) ? r.push("[VueViewModel]") : r.push(String(a));
+    } catch {
+      r.push("[value cannot be serialized]");
+    }
+  }
+  return r.join(t);
+}
+function ES(e, t, r = !1) {
+  return !!fr(e) && (co(t, "RegExp") ? t.test(e) : !!fr(t) && (r ? e === t : e.includes(t)));
+}
+function zs(e, t = [], r = !1) {
+  return t.some((o) => ES(e, o, r));
+}
+function cn(e, t, r) {
+  if (!(t in e)) return;
+  const o = e[t], a = r(o);
+  typeof a == "function" && Qy(a, o);
+  try {
+    e[t] = a;
+  } catch {
+    Si && Ie.log(`Failed to replace method "${t}" in object`, e);
+  }
+}
+function yi(e, t, r) {
+  try {
+    Object.defineProperty(e, t, { value: r, writable: !0, configurable: !0 });
+  } catch {
+    Si && Ie.log(`Failed to add non-enumerable property "${t}" to object`, e);
+  }
+}
+function Qy(e, t) {
+  try {
+    const r = t.prototype || {};
+    e.prototype = t.prototype = r, yi(e, "__sentry_original__", t);
+  } catch {
+  }
+}
+function Kd(e) {
+  return e.__sentry_original__;
+}
+function Zy(e) {
+  if (Yd(e)) return { message: e.message, name: e.name, stack: e.stack, ...bm(e) };
+  if (Tl(e)) {
+    const t = { type: e.type, target: _m(e.target), currentTarget: _m(e.currentTarget), ...bm(e) };
+    return typeof CustomEvent < "u" && gi(e, CustomEvent) && (t.detail = e.detail), t;
+  }
+  return e;
+}
+function _m(e) {
+  try {
+    return t = e, typeof Element < "u" && gi(t, Element) ? Yy(e) : Object.prototype.toString.call(e);
+  } catch {
+    return "<unknown>";
+  }
+  var t;
+}
+function bm(e) {
+  if (typeof e == "object" && e !== null) {
+    const t = {};
+    for (const r in e) Object.prototype.hasOwnProperty.call(e, r) && (t[r] = e[r]);
+    return t;
+  }
+  return {};
+}
+function bn(e) {
+  return sd(e, /* @__PURE__ */ new Map());
+}
+function sd(e, t) {
+  if (function(r) {
+    if (!oo(r)) return !1;
+    try {
+      const o = Object.getPrototypeOf(r).constructor.name;
+      return !o || o === "Object";
+    } catch {
+      return !0;
+    }
+  }(e)) {
+    const r = t.get(e);
+    if (r !== void 0) return r;
+    const o = {};
+    t.set(e, o);
+    for (const a of Object.getOwnPropertyNames(e)) e[a] !== void 0 && (o[a] = sd(e[a], t));
+    return o;
+  }
+  if (Array.isArray(e)) {
+    const r = t.get(e);
+    if (r !== void 0) return r;
+    const o = [];
+    return t.set(e, o), e.forEach((a) => {
+      o.push(sd(a, t));
+    }), o;
+  }
+  return e;
+}
+function Sa() {
+  return Date.now() / 1e3;
+}
+const hr = function() {
+  const { performance: e } = qe;
+  if (!e || !e.now) return Sa;
+  const t = Date.now() - e.now(), r = e.timeOrigin == null ? t : e.timeOrigin;
+  return () => (r + e.now()) / 1e3;
+}();
+function En() {
+  const e = qe, t = e.crypto || e.msCrypto;
+  let r = () => 16 * Math.random();
+  try {
+    if (t && t.randomUUID) return t.randomUUID().replace(/-/g, "");
+    t && t.getRandomValues && (r = () => {
+      const o = new Uint8Array(1);
+      return t.getRandomValues(o), o[0];
+    });
+  } catch {
+  }
+  return ("10000000100040008000" + 1e11).replace(/[018]/g, (o) => (o ^ (15 & r()) >> o / 4).toString(16));
+}
+function Ky(e) {
+  return e.exception && e.exception.values ? e.exception.values[0] : void 0;
+}
+function Br(e) {
+  const { message: t, event_id: r } = e;
+  if (t) return t;
+  const o = Ky(e);
+  return o ? o.type && o.value ? `${o.type}: ${o.value}` : o.type || o.value || r || "<unknown>" : r || "<unknown>";
+}
+function ld(e, t, r) {
+  const o = e.exception = e.exception || {}, a = o.values = o.values || [], s = a[0] = a[0] || {};
+  s.value || (s.value = t || ""), s.type || (s.type = "Error");
+}
+function ao(e, t) {
+  const r = Ky(e);
+  if (!r) return;
+  const o = r.mechanism;
+  if (r.mechanism = { type: "generic", handled: !0, ...o, ...t }, t && "data" in t) {
+    const a = { ...o && o.data, ...t.data };
+    r.mechanism.data = a;
+  }
+}
+function Em(e) {
+  if (function(t) {
+    try {
+      return t.__sentry_captured__;
+    } catch {
+    }
+  }(e)) return !0;
+  try {
+    yi(e, "__sentry_captured__", !0);
+  } catch {
+  }
+  return !1;
+}
+var cr;
+function vi(e) {
+  return new kn((t) => {
+    t(e);
+  });
+}
+function pl(e) {
+  return new kn((t, r) => {
+    r(e);
+  });
+}
+(() => {
+  const { performance: e } = qe;
+  !e || !e.now || (e.now(), e.timing && e.timing.navigationStart);
+})(), function(e) {
+  e[e.PENDING = 0] = "PENDING", e[e.RESOLVED = 1] = "RESOLVED", e[e.REJECTED = 2] = "REJECTED";
+}(cr || (cr = {}));
+class kn {
+  constructor(t) {
+    kn.prototype.__init.call(this), kn.prototype.__init2.call(this), kn.prototype.__init3.call(this), kn.prototype.__init4.call(this), this._state = cr.PENDING, this._handlers = [];
+    try {
+      t(this._resolve, this._reject);
+    } catch (r) {
+      this._reject(r);
+    }
+  }
+  then(t, r) {
+    return new kn((o, a) => {
+      this._handlers.push([!1, (s) => {
+        if (t) try {
+          o(t(s));
+        } catch (u) {
+          a(u);
+        }
+        else o(s);
+      }, (s) => {
+        if (r) try {
+          o(r(s));
+        } catch (u) {
+          a(u);
+        }
+        else a(s);
+      }]), this._executeHandlers();
+    });
+  }
+  catch(t) {
+    return this.then((r) => r, t);
+  }
+  finally(t) {
+    return new kn((r, o) => {
+      let a, s;
+      return this.then((u) => {
+        s = !1, a = u, t && t();
+      }, (u) => {
+        s = !0, a = u, t && t();
+      }).then(() => {
+        s ? o(a) : r(a);
+      });
+    });
+  }
+  __init() {
+    this._resolve = (t) => {
+      this._setResult(cr.RESOLVED, t);
+    };
+  }
+  __init2() {
+    this._reject = (t) => {
+      this._setResult(cr.REJECTED, t);
+    };
+  }
+  __init3() {
+    this._setResult = (t, r) => {
+      this._state === cr.PENDING && (Al(r) ? r.then(this._resolve, this._reject) : (this._state = t, this._value = r, this._executeHandlers()));
+    };
+  }
+  __init4() {
+    this._executeHandlers = () => {
+      if (this._state === cr.PENDING) return;
+      const t = this._handlers.slice();
+      this._handlers = [], t.forEach((r) => {
+        r[0] || (this._state === cr.RESOLVED && r[1](this._value), this._state === cr.REJECTED && r[2](this._value), r[0] = !0);
+      });
+    };
+  }
+}
+function CS(e) {
+  const t = hr(), r = { sid: En(), init: !0, timestamp: t, started: t, duration: 0, status: "ok", errors: 0, ignoreDuration: !1, toJSON: () => function(o) {
+    return bn({ sid: `${o.sid}`, init: o.init, started: new Date(1e3 * o.started).toISOString(), timestamp: new Date(1e3 * o.timestamp).toISOString(), status: o.status, errors: o.errors, did: typeof o.did == "number" || typeof o.did == "string" ? `${o.did}` : void 0, duration: o.duration, abnormal_mechanism: o.abnormal_mechanism, attrs: { release: o.release, environment: o.environment, ip_address: o.ipAddress, user_agent: o.userAgent } });
+  }(r) };
+  return e && so(r, e), r;
+}
+function so(e, t = {}) {
+  if (t.user && (!e.ipAddress && t.user.ip_address && (e.ipAddress = t.user.ip_address), e.did || t.did || (e.did = t.user.id || t.user.email || t.user.username)), e.timestamp = t.timestamp || hr(), t.abnormal_mechanism && (e.abnormal_mechanism = t.abnormal_mechanism), t.ignoreDuration && (e.ignoreDuration = t.ignoreDuration), t.sid && (e.sid = t.sid.length === 32 ? t.sid : En()), t.init !== void 0 && (e.init = t.init), !e.did && t.did && (e.did = `${t.did}`), typeof t.started == "number" && (e.started = t.started), e.ignoreDuration) e.duration = void 0;
+  else if (typeof t.duration == "number") e.duration = t.duration;
+  else {
+    const r = e.timestamp - e.started;
+    e.duration = r >= 0 ? r : 0;
+  }
+  t.release && (e.release = t.release), t.environment && (e.environment = t.environment), !e.ipAddress && t.ipAddress && (e.ipAddress = t.ipAddress), !e.userAgent && t.userAgent && (e.userAgent = t.userAgent), typeof t.errors == "number" && (e.errors = t.errors), t.status && (e.status = t.status);
+}
+function Cm() {
+  return En();
+}
+function ud() {
+  return En().substring(16);
+}
+function Ml(e, t, r = 2) {
+  if (!t || typeof t != "object" || r <= 0) return t;
+  if (e && t && Object.keys(t).length === 0) return e;
+  const o = { ...e };
+  for (const a in t) Object.prototype.hasOwnProperty.call(t, a) && (o[a] = Ml(o[a], t[a], r - 1));
+  return o;
+}
+const cd = "_sentrySpan";
+function xm(e, t) {
+  t ? yi(e, cd, t) : delete e[cd];
+}
+function Tm(e) {
+  return e[cd];
+}
+class Xd {
+  constructor() {
+    this._notifyingListeners = !1, this._scopeListeners = [], this._eventProcessors = [], this._breadcrumbs = [], this._attachments = [], this._user = {}, this._tags = {}, this._extra = {}, this._contexts = {}, this._sdkProcessingMetadata = {}, this._propagationContext = { traceId: Cm(), spanId: ud() };
+  }
+  clone() {
+    const t = new Xd();
+    return t._breadcrumbs = [...this._breadcrumbs], t._tags = { ...this._tags }, t._extra = { ...this._extra }, t._contexts = { ...this._contexts }, this._contexts.flags && (t._contexts.flags = { values: [...this._contexts.flags.values] }), t._user = this._user, t._level = this._level, t._session = this._session, t._transactionName = this._transactionName, t._fingerprint = this._fingerprint, t._eventProcessors = [...this._eventProcessors], t._requestSession = this._requestSession, t._attachments = [...this._attachments], t._sdkProcessingMetadata = { ...this._sdkProcessingMetadata }, t._propagationContext = { ...this._propagationContext }, t._client = this._client, t._lastEventId = this._lastEventId, xm(t, Tm(this)), t;
+  }
+  setClient(t) {
+    this._client = t;
+  }
+  setLastEventId(t) {
+    this._lastEventId = t;
+  }
+  getClient() {
+    return this._client;
+  }
+  lastEventId() {
+    return this._lastEventId;
+  }
+  addScopeListener(t) {
+    this._scopeListeners.push(t);
+  }
+  addEventProcessor(t) {
+    return this._eventProcessors.push(t), this;
+  }
+  setUser(t) {
+    return this._user = t || { email: void 0, id: void 0, ip_address: void 0, username: void 0 }, this._session && so(this._session, { user: t }), this._notifyScopeListeners(), this;
+  }
+  getUser() {
+    return this._user;
+  }
+  getRequestSession() {
+    return this._requestSession;
+  }
+  setRequestSession(t) {
+    return this._requestSession = t, this;
+  }
+  setTags(t) {
+    return this._tags = { ...this._tags, ...t }, this._notifyScopeListeners(), this;
+  }
+  setTag(t, r) {
+    return this._tags = { ...this._tags, [t]: r }, this._notifyScopeListeners(), this;
+  }
+  setExtras(t) {
+    return this._extra = { ...this._extra, ...t }, this._notifyScopeListeners(), this;
+  }
+  setExtra(t, r) {
+    return this._extra = { ...this._extra, [t]: r }, this._notifyScopeListeners(), this;
+  }
+  setFingerprint(t) {
+    return this._fingerprint = t, this._notifyScopeListeners(), this;
+  }
+  setLevel(t) {
+    return this._level = t, this._notifyScopeListeners(), this;
+  }
+  setTransactionName(t) {
+    return this._transactionName = t, this._notifyScopeListeners(), this;
+  }
+  setContext(t, r) {
+    return r === null ? delete this._contexts[t] : this._contexts[t] = r, this._notifyScopeListeners(), this;
+  }
+  setSession(t) {
+    return t ? this._session = t : delete this._session, this._notifyScopeListeners(), this;
+  }
+  getSession() {
+    return this._session;
+  }
+  update(t) {
+    if (!t) return this;
+    const r = typeof t == "function" ? t(this) : t, [o, a] = r instanceof $r ? [r.getScopeData(), r.getRequestSession()] : oo(r) ? [t, t.requestSession] : [], { tags: s, extra: u, user: f, contexts: p, level: m, fingerprint: y = [], propagationContext: v } = o || {};
+    return this._tags = { ...this._tags, ...s }, this._extra = { ...this._extra, ...u }, this._contexts = { ...this._contexts, ...p }, f && Object.keys(f).length && (this._user = f), m && (this._level = m), y.length && (this._fingerprint = y), v && (this._propagationContext = v), a && (this._requestSession = a), this;
+  }
+  clear() {
+    return this._breadcrumbs = [], this._tags = {}, this._extra = {}, this._user = {}, this._contexts = {}, this._level = void 0, this._transactionName = void 0, this._fingerprint = void 0, this._requestSession = void 0, this._session = void 0, xm(this, void 0), this._attachments = [], this.setPropagationContext({ traceId: Cm() }), this._notifyScopeListeners(), this;
+  }
+  addBreadcrumb(t, r) {
+    const o = typeof r == "number" ? r : 100;
+    if (o <= 0) return this;
+    const a = { timestamp: Sa(), ...t };
+    return this._breadcrumbs.push(a), this._breadcrumbs.length > o && (this._breadcrumbs = this._breadcrumbs.slice(-o), this._client && this._client.recordDroppedEvent("buffer_overflow", "log_item")), this._notifyScopeListeners(), this;
+  }
+  getLastBreadcrumb() {
+    return this._breadcrumbs[this._breadcrumbs.length - 1];
+  }
+  clearBreadcrumbs() {
+    return this._breadcrumbs = [], this._notifyScopeListeners(), this;
+  }
+  addAttachment(t) {
+    return this._attachments.push(t), this;
+  }
+  clearAttachments() {
+    return this._attachments = [], this;
+  }
+  getScopeData() {
+    return { breadcrumbs: this._breadcrumbs, attachments: this._attachments, contexts: this._contexts, tags: this._tags, extra: this._extra, user: this._user, level: this._level, fingerprint: this._fingerprint || [], eventProcessors: this._eventProcessors, propagationContext: this._propagationContext, sdkProcessingMetadata: this._sdkProcessingMetadata, transactionName: this._transactionName, span: Tm(this) };
+  }
+  setSDKProcessingMetadata(t) {
+    return this._sdkProcessingMetadata = Ml(this._sdkProcessingMetadata, t, 2), this;
+  }
+  setPropagationContext(t) {
+    return this._propagationContext = { spanId: ud(), ...t }, this;
+  }
+  getPropagationContext() {
+    return this._propagationContext;
+  }
+  captureException(t, r) {
+    const o = r && r.event_id ? r.event_id : En();
+    if (!this._client) return Ie.warn("No client configured on scope - will not capture exception!"), o;
+    const a = new Error("Sentry syntheticException");
+    return this._client.captureException(t, { originalException: t, syntheticException: a, ...r, event_id: o }, this), o;
+  }
+  captureMessage(t, r, o) {
+    const a = o && o.event_id ? o.event_id : En();
+    if (!this._client) return Ie.warn("No client configured on scope - will not capture message!"), a;
+    const s = new Error(t);
+    return this._client.captureMessage(t, r, { originalException: t, syntheticException: s, ...o, event_id: a }, this), a;
+  }
+  captureEvent(t, r) {
+    const o = r && r.event_id ? r.event_id : En();
+    return this._client ? (this._client.captureEvent(t, { ...r, event_id: o }, this), o) : (Ie.warn("No client configured on scope - will not capture event!"), o);
+  }
+  _notifyScopeListeners() {
+    this._notifyingListeners || (this._notifyingListeners = !0, this._scopeListeners.forEach((t) => {
+      t(this);
+    }), this._notifyingListeners = !1);
+  }
+}
+const $r = Xd;
+class xS {
+  constructor(t, r) {
+    let o, a;
+    o = t || new $r(), a = r || new $r(), this._stack = [{ scope: o }], this._isolationScope = a;
+  }
+  withScope(t) {
+    const r = this._pushScope();
+    let o;
+    try {
+      o = t(r);
+    } catch (a) {
+      throw this._popScope(), a;
+    }
+    return Al(o) ? o.then((a) => (this._popScope(), a), (a) => {
+      throw this._popScope(), a;
+    }) : (this._popScope(), o);
+  }
+  getClient() {
+    return this.getStackTop().client;
+  }
+  getScope() {
+    return this.getStackTop().scope;
+  }
+  getIsolationScope() {
+    return this._isolationScope;
+  }
+  getStackTop() {
+    return this._stack[this._stack.length - 1];
+  }
+  _pushScope() {
+    const t = this.getScope().clone();
+    return this._stack.push({ client: this.getClient(), scope: t }), t;
+  }
+  _popScope() {
+    return !(this._stack.length <= 1) && !!this._stack.pop();
+  }
+}
+function lo() {
+  const e = Gd(xl());
+  return e.stack = e.stack || new xS(dl("defaultCurrentScope", () => new $r()), dl("defaultIsolationScope", () => new $r()));
+}
+function TS(e) {
+  return lo().withScope(e);
+}
+function AS(e, t) {
+  const r = lo();
+  return r.withScope(() => (r.getStackTop().scope = e, t(e)));
+}
+function Am(e) {
+  return lo().withScope(() => e(lo().getIsolationScope()));
+}
+function ef(e) {
+  const t = Gd(e);
+  return t.acs ? t.acs : { withIsolationScope: Am, withScope: TS, withSetScope: AS, withSetIsolationScope: (r, o) => Am(o), getCurrentScope: () => lo().getScope(), getIsolationScope: () => lo().getIsolationScope() };
+}
+function ki() {
+  return ef(xl()).getCurrentScope();
+}
+function ka() {
+  return ef(xl()).getIsolationScope();
+}
+function Dt() {
+  return ki().getClient();
+}
+function MS(e) {
+  const t = e.getPropagationContext(), { traceId: r, spanId: o, parentSpanId: a } = t;
+  return bn({ trace_id: r, span_id: o, parent_span_id: a });
+}
+function PS(e) {
+  const t = e._sentryMetrics;
+  if (!t) return;
+  const r = {};
+  for (const [, [o, a]] of t)
+    (r[o] || (r[o] = [])).push(bn(a));
+  return r;
+}
+const OS = /^sentry-/;
+function IS(e) {
+  const t = function(o) {
+    if (!(!o || !fr(o) && !Array.isArray(o)))
+      return Array.isArray(o) ? o.reduce((a, s) => {
+        const u = Mm(s);
+        return Object.entries(u).forEach(([f, p]) => {
+          a[f] = p;
+        }), a;
+      }, {}) : Mm(o);
+  }(e);
+  if (!t) return;
+  const r = Object.entries(t).reduce((o, [a, s]) => (a.match(OS) && (o[a.slice(7)] = s), o), {});
+  return Object.keys(r).length > 0 ? r : void 0;
+}
+function Mm(e) {
+  return e.split(",").map((t) => t.split("=").map((r) => decodeURIComponent(r.trim()))).reduce((t, [r, o]) => (r && o && (t[r] = o), t), {});
+}
+let Pm = !1;
+function LS(e) {
+  const { spanId: t, traceId: r, isRemote: o } = e.spanContext();
+  return bn({ parent_span_id: o ? t : tf(e).parent_span_id, span_id: o ? ud() : t, trace_id: r });
+}
+function Om(e) {
+  return typeof e == "number" ? Im(e) : Array.isArray(e) ? e[0] + e[1] / 1e9 : e instanceof Date ? Im(e.getTime()) : hr();
+}
+function Im(e) {
+  return e > 9999999999 ? e / 1e3 : e;
+}
+function tf(e) {
+  if (function(t) {
+    return typeof t.getSpanJSON == "function";
+  }(e)) return e.getSpanJSON();
+  try {
+    const { spanId: t, traceId: r } = e.spanContext();
+    if (function(o) {
+      const a = o;
+      return !!(a.attributes && a.startTime && a.name && a.endTime && a.status);
+    }(e)) {
+      const { attributes: o, startTime: a, name: s, endTime: u, parentSpanId: f, status: p } = e;
+      return bn({ span_id: t, trace_id: r, data: o, description: s, parent_span_id: f, start_timestamp: Om(a), timestamp: Om(u) || void 0, status: DS(p), op: o["sentry.op"], origin: o["sentry.origin"], _metrics_summary: PS(e) });
+    }
+    return { span_id: t, trace_id: r };
+  } catch {
+    return {};
+  }
+}
+function DS(e) {
+  if (e && e.code !== 0) return e.code === 1 ? "ok" : e.message || "unknown_error";
+}
+function Xy(e) {
+  return e._sentryRootSpan || e;
+}
+function jS() {
+  Pm || (wa(() => {
+    console.warn("[Sentry] Deprecation warning: Returning null from `beforeSendSpan` will be disallowed from SDK version 9.0.0 onwards. The callback will only support mutating spans. To drop certain spans, configure the respective integrations directly.");
+  }), Pm = !0);
+}
+const nf = "production";
+function ev(e, t) {
+  const r = t.getOptions(), { publicKey: o } = t.getDsn() || {}, a = bn({ environment: r.environment || nf, release: r.release, public_key: o, trace_id: e });
+  return t.emit("createDsc", a), a;
+}
+function NS(e) {
+  const t = Dt();
+  if (!t) return {};
+  const r = Xy(e), o = r._frozenDsc;
+  if (o) return o;
+  const a = r.spanContext().traceState, s = a && a.get("sentry.dsc"), u = s && IS(s);
+  if (u) return u;
+  const f = ev(e.spanContext().traceId, t), p = tf(r), m = p.data || {}, y = m["sentry.sample_rate"];
+  y != null && (f.sample_rate = `${y}`);
+  const v = m["sentry.source"], _ = p.description;
+  return v !== "url" && _ && (f.transaction = _), function(k) {
+    if (typeof __SENTRY_TRACING__ == "boolean" && !__SENTRY_TRACING__) return !1;
+    const T = Dt(), E = T && T.getOptions();
+    return !!E && (E.enableTracing || "tracesSampleRate" in E || "tracesSampler" in E);
+  }() && (f.sampled = String(function(k) {
+    const { traceFlags: T } = k.spanContext();
+    return T === 1;
+  }(r))), t.emit("createDsc", f, r), f;
+}
+const RS = /^(?:(\w+):)\/\/(?:(\w+)(?::(\w+)?)?@)([\w.-]+)(?::(\d+))?\/(.+)/;
+function hl(e, t = !1) {
+  const { host: r, path: o, pass: a, port: s, projectId: u, protocol: f, publicKey: p } = e;
+  return `${f}://${p}${t && a ? `:${a}` : ""}@${r}${s ? `:${s}` : ""}/${o && `${o}/`}${u}`;
+}
+function Lm(e) {
+  return { protocol: e.protocol, publicKey: e.publicKey || "", pass: e.pass || "", host: e.host, port: e.port || "", path: e.path || "", projectId: e.projectId };
+}
+function FS(e) {
+  const t = typeof e == "string" ? function(r) {
+    const o = RS.exec(r);
+    if (!o) return void wa(() => {
+      console.error(`Invalid Sentry Dsn: ${r}`);
+    });
+    const [a, s, u = "", f = "", p = "", m = ""] = o.slice(1);
+    let y = "", v = m;
+    const _ = v.split("/");
+    if (_.length > 1 && (y = _.slice(0, -1).join("/"), v = _.pop()), v) {
+      const k = v.match(/^\d+/);
+      k && (v = k[0]);
+    }
+    return Lm({ host: f, pass: u, path: y, projectId: v, port: p, protocol: a, publicKey: s });
+  }(e) : Lm(e);
+  if (t && function(r) {
+    if (!Si) return !0;
+    const { port: o, projectId: a, protocol: s } = r;
+    return !(["protocol", "publicKey", "host", "projectId"].find((u) => !r[u] && (Ie.error(`Invalid Sentry Dsn: ${u} missing`), !0)) || (a.match(/^\d+$/) ? /* @__PURE__ */ function(u) {
+      return u === "http" || u === "https";
+    }(s) ? o && isNaN(parseInt(o, 10)) && (Ie.error(`Invalid Sentry Dsn: Invalid port ${o}`), 1) : (Ie.error(`Invalid Sentry Dsn: Invalid protocol ${s}`), 1) : (Ie.error(`Invalid Sentry Dsn: Invalid projectId ${a}`), 1)));
+  }(t)) return t;
+}
+function dr(e, t = 100, r = 1 / 0) {
+  try {
+    return dd("", e, t, r);
+  } catch (o) {
+    return { ERROR: `**non-serializable** (${o})` };
+  }
+}
+function tv(e, t = 3, r = 102400) {
+  const o = dr(e, t);
+  return a = o, function(s) {
+    return ~-encodeURI(s).split(/%..|./).length;
+  }(JSON.stringify(a)) > r ? tv(e, t - 1, r) : o;
+  var a;
+}
+function dd(e, t, r = 1 / 0, o = 1 / 0, a = /* @__PURE__ */ function() {
+  const s = typeof WeakSet == "function", u = s ? /* @__PURE__ */ new WeakSet() : [];
+  return [function(f) {
+    if (s) return !!u.has(f) || (u.add(f), !1);
+    for (let p = 0; p < u.length; p++) if (u[p] === f) return !0;
+    return u.push(f), !1;
+  }, function(f) {
+    if (s) u.delete(f);
+    else for (let p = 0; p < u.length; p++) if (u[p] === f) {
+      u.splice(p, 1);
+      break;
+    }
+  }];
+}()) {
+  const [s, u] = a;
+  if (t == null || ["boolean", "string"].includes(typeof t) || typeof t == "number" && Number.isFinite(t)) return t;
+  const f = function(k, T) {
+    try {
+      if (k === "domain" && T && typeof T == "object" && T._events) return "[Domain]";
+      if (k === "domainEmitter") return "[DomainEmitter]";
+      if (typeof global < "u" && T === global) return "[Global]";
+      if (typeof window < "u" && T === window) return "[Window]";
+      if (typeof document < "u" && T === document) return "[Document]";
+      if (Gy(T)) return "[VueViewModel]";
+      if (oo(E = T) && "nativeEvent" in E && "preventDefault" in E && "stopPropagation" in E) return "[SyntheticEvent]";
+      if (typeof T == "number" && !Number.isFinite(T)) return `[${T}]`;
+      if (typeof T == "function") return `[Function: ${qr(T)}]`;
+      if (typeof T == "symbol") return `[${String(T)}]`;
+      if (typeof T == "bigint") return `[BigInt: ${String(T)}]`;
+      const L = function(M) {
+        const V = Object.getPrototypeOf(M);
+        return V ? V.constructor.name : "null prototype";
+      }(T);
+      return /^HTML(\w*)Element$/.test(L) ? `[HTMLElement: ${L}]` : `[object ${L}]`;
+    } catch (L) {
+      return `**non-serializable** (${L})`;
+    }
+    var E;
+  }(e, t);
+  if (!f.startsWith("[object ")) return f;
+  if (t.__sentry_skip_normalization__) return t;
+  const p = typeof t.__sentry_override_normalization_depth__ == "number" ? t.__sentry_override_normalization_depth__ : r;
+  if (p === 0) return f.replace("object ", "");
+  if (s(t)) return "[Circular ~]";
+  const m = t;
+  if (m && typeof m.toJSON == "function") try {
+    return dd("", m.toJSON(), p - 1, o, a);
+  } catch {
+  }
+  const y = Array.isArray(t) ? [] : {};
+  let v = 0;
+  const _ = Zy(t);
+  for (const k in _) {
+    if (!Object.prototype.hasOwnProperty.call(_, k)) continue;
+    if (v >= o) {
+      y[k] = "[MaxProperties ~]";
+      break;
+    }
+    const T = _[k];
+    y[k] = dd(k, T, p - 1, o, a), v++;
+  }
+  return u(t), y;
+}
+function ya(e, t = []) {
+  return [e, t];
+}
+function VS(e, t) {
+  const [r, o] = e;
+  return [r, [...o, t]];
+}
+function Dm(e, t) {
+  const r = e[1];
+  for (const o of r)
+    if (t(o, o[0].type)) return !0;
+  return !1;
+}
+function fd(e) {
+  return qe.__SENTRY__ && qe.__SENTRY__.encodePolyfill ? qe.__SENTRY__.encodePolyfill(e) : new TextEncoder().encode(e);
+}
+function zS(e) {
+  const [t, r] = e;
+  let o = JSON.stringify(t);
+  function a(s) {
+    typeof o == "string" ? o = typeof s == "string" ? o + s : [fd(o), s] : o.push(typeof s == "string" ? fd(s) : s);
+  }
+  for (const s of r) {
+    const [u, f] = s;
+    if (a(`
+${JSON.stringify(u)}
+`), typeof f == "string" || f instanceof Uint8Array) a(f);
+    else {
+      let p;
+      try {
+        p = JSON.stringify(f);
+      } catch {
+        p = JSON.stringify(dr(f));
+      }
+      a(p);
+    }
+  }
+  return typeof o == "string" ? o : function(s) {
+    const u = s.reduce((m, y) => m + y.length, 0), f = new Uint8Array(u);
+    let p = 0;
+    for (const m of s) f.set(m, p), p += m.length;
+    return f;
+  }(o);
+}
+function BS(e) {
+  const t = typeof e.data == "string" ? fd(e.data) : e.data;
+  return [bn({ type: "attachment", length: t.length, filename: e.filename, content_type: e.contentType, attachment_type: e.attachmentType }), t];
+}
+const US = { session: "session", sessions: "session", attachment: "attachment", transaction: "transaction", event: "error", client_report: "internal", user_report: "default", profile: "profile", profile_chunk: "profile", replay_event: "replay", replay_recording: "replay", check_in: "monitor", feedback: "feedback", span: "span", statsd: "metric_bucket", raw_security: "security" };
+function jm(e) {
+  return US[e];
+}
+function nv(e) {
+  if (!e || !e.sdk) return;
+  const { name: t, version: r } = e.sdk;
+  return { name: t, version: r };
+}
+function qS(e, t, r, o) {
+  const a = nv(r), s = e.type && e.type !== "replay_event" ? e.type : "event";
+  (function(f, p) {
+    p && (f.sdk = f.sdk || {}, f.sdk.name = f.sdk.name || p.name, f.sdk.version = f.sdk.version || p.version, f.sdk.integrations = [...f.sdk.integrations || [], ...p.integrations || []], f.sdk.packages = [...f.sdk.packages || [], ...p.packages || []]);
+  })(e, r && r.sdk);
+  const u = function(f, p, m, y) {
+    const v = f.sdkProcessingMetadata && f.sdkProcessingMetadata.dynamicSamplingContext;
+    return { event_id: f.event_id, sent_at: (/* @__PURE__ */ new Date()).toISOString(), ...p && { sdk: p }, ...!!m && y && { dsn: hl(y) }, ...v && { trace: bn({ ...v }) } };
+  }(e, a, o, t);
+  return delete e.sdkProcessingMetadata, ya(u, [[{ type: s }, e]]);
+}
+function pd(e, t, r, o = 0) {
+  return new kn((a, s) => {
+    const u = e[o];
+    if (t === null || typeof u != "function") a(t);
+    else {
+      const f = u({ ...t }, r);
+      Ze && u.id && f === null && Ie.log(`Event processor "${u.id}" dropped event`), Al(f) ? f.then((p) => pd(e, p, r, o + 1).then(a)).then(null, s) : pd(e, f, r, o + 1).then(a).then(null, s);
+    }
+  });
+}
+let Bs, Nm, Tc;
+function $S(e, t) {
+  const { fingerprint: r, span: o, breadcrumbs: a, sdkProcessingMetadata: s } = t;
+  (function(u, f) {
+    const { extra: p, tags: m, user: y, contexts: v, level: _, transactionName: k } = f, T = bn(p);
+    T && Object.keys(T).length && (u.extra = { ...T, ...u.extra });
+    const E = bn(m);
+    E && Object.keys(E).length && (u.tags = { ...E, ...u.tags });
+    const L = bn(y);
+    L && Object.keys(L).length && (u.user = { ...L, ...u.user });
+    const M = bn(v);
+    M && Object.keys(M).length && (u.contexts = { ...M, ...u.contexts }), _ && (u.level = _), k && u.type !== "transaction" && (u.transaction = k);
+  })(e, t), o && function(u, f) {
+    u.contexts = { trace: LS(f), ...u.contexts }, u.sdkProcessingMetadata = { dynamicSamplingContext: NS(f), ...u.sdkProcessingMetadata };
+    const p = Xy(f), m = tf(p).description;
+    m && !u.transaction && u.type === "transaction" && (u.transaction = m);
+  }(e, o), function(u, f) {
+    u.fingerprint = u.fingerprint ? Array.isArray(u.fingerprint) ? u.fingerprint : [u.fingerprint] : [], f && (u.fingerprint = u.fingerprint.concat(f)), u.fingerprint && !u.fingerprint.length && delete u.fingerprint;
+  }(e, r), function(u, f) {
+    const p = [...u.breadcrumbs || [], ...f];
+    u.breadcrumbs = p.length ? p : void 0;
+  }(e, a), function(u, f) {
+    u.sdkProcessingMetadata = { ...u.sdkProcessingMetadata, ...f };
+  }(e, s);
+}
+function Rm(e, t) {
+  const { extra: r, tags: o, user: a, contexts: s, level: u, sdkProcessingMetadata: f, breadcrumbs: p, fingerprint: m, eventProcessors: y, attachments: v, propagationContext: _, transactionName: k, span: T } = t;
+  Us(e, "extra", r), Us(e, "tags", o), Us(e, "user", a), Us(e, "contexts", s), e.sdkProcessingMetadata = Ml(e.sdkProcessingMetadata, f, 2), u && (e.level = u), k && (e.transactionName = k), T && (e.span = T), p.length && (e.breadcrumbs = [...e.breadcrumbs, ...p]), m.length && (e.fingerprint = [...e.fingerprint, ...m]), y.length && (e.eventProcessors = [...e.eventProcessors, ...y]), v.length && (e.attachments = [...e.attachments, ...v]), e.propagationContext = { ...e.propagationContext, ..._ };
+}
+function Us(e, t, r) {
+  e[t] = Ml(e[t], r, 1);
+}
+function HS(e, t, r, o, a, s) {
+  const { normalizeDepth: u = 3, normalizeMaxBreadth: f = 1e3 } = e, p = { ...t, event_id: t.event_id || r.event_id || En(), timestamp: t.timestamp || Sa() }, m = r.integrations || e.integrations.map((T) => T.name);
+  (function(T, E) {
+    const { environment: L, release: M, dist: V, maxValueLength: B = 250 } = E;
+    T.environment = T.environment || L || nf, !T.release && M && (T.release = M), !T.dist && V && (T.dist = V), T.message && (T.message = to(T.message, B));
+    const j = T.exception && T.exception.values && T.exception.values[0];
+    j && j.value && (j.value = to(j.value, B));
+    const N = T.request;
+    N && N.url && (N.url = to(N.url, B));
+  })(p, e), function(T, E) {
+    E.length > 0 && (T.sdk = T.sdk || {}, T.sdk.integrations = [...T.sdk.integrations || [], ...E]);
+  }(p, m), a && a.emit("applyFrameMetadata", t), t.type === void 0 && function(T, E) {
+    const L = function(M) {
+      const V = qe._sentryDebugIds;
+      if (!V) return {};
+      const B = Object.keys(V);
+      return Tc && B.length === Nm || (Nm = B.length, Tc = B.reduce((j, N) => {
+        Bs || (Bs = {});
+        const A = Bs[N];
+        if (A) j[A[0]] = A[1];
+        else {
+          const H = M(N);
+          for (let z = H.length - 1; z >= 0; z--) {
+            const ae = H[z], X = ae && ae.filename, ne = V[N];
+            if (X && ne) {
+              j[X] = ne, Bs[N] = [X, ne];
+              break;
+            }
+          }
+        }
+        return j;
+      }, {})), Tc;
+    }(E);
+    try {
+      T.exception.values.forEach((M) => {
+        M.stacktrace.frames.forEach((V) => {
+          L && V.filename && (V.debug_id = L[V.filename]);
+        });
+      });
+    } catch {
+    }
+  }(p, e.stackParser);
+  const y = function(T, E) {
+    if (!E) return T;
+    const L = T ? T.clone() : new $r();
+    return L.update(E), L;
+  }(o, r.captureContext);
+  r.mechanism && ao(p, r.mechanism);
+  const v = a ? a.getEventProcessors() : [], _ = dl("globalScope", () => new $r()).getScopeData();
+  s && Rm(_, s.getScopeData()), y && Rm(_, y.getScopeData());
+  const k = [...r.attachments || [], ..._.attachments];
+  return k.length && (r.attachments = k), $S(p, _), pd([...v, ..._.eventProcessors], p, r).then((T) => (T && function(E) {
+    const L = {};
+    try {
+      E.exception.values.forEach((V) => {
+        V.stacktrace.frames.forEach((B) => {
+          B.debug_id && (B.abs_path ? L[B.abs_path] = B.debug_id : B.filename && (L[B.filename] = B.debug_id), delete B.debug_id);
+        });
+      });
+    } catch {
+    }
+    if (Object.keys(L).length === 0) return;
+    E.debug_meta = E.debug_meta || {}, E.debug_meta.images = E.debug_meta.images || [];
+    const M = E.debug_meta.images;
+    Object.entries(L).forEach(([V, B]) => {
+      M.push({ type: "sourcemap", code_file: V, debug_id: B });
+    });
+  }(T), typeof u == "number" && u > 0 ? function(E, L, M) {
+    if (!E) return null;
+    const V = { ...E, ...E.breadcrumbs && { breadcrumbs: E.breadcrumbs.map((B) => ({ ...B, ...B.data && { data: dr(B.data, L, M) } })) }, ...E.user && { user: dr(E.user, L, M) }, ...E.contexts && { contexts: dr(E.contexts, L, M) }, ...E.extra && { extra: dr(E.extra, L, M) } };
+    return E.contexts && E.contexts.trace && V.contexts && (V.contexts.trace = E.contexts.trace, E.contexts.trace.data && (V.contexts.trace.data = dr(E.contexts.trace.data, L, M))), E.spans && (V.spans = E.spans.map((B) => ({ ...B, ...B.data && { data: dr(B.data, L, M) } }))), E.contexts && E.contexts.flags && V.contexts && (V.contexts.flags = dr(E.contexts.flags, 3, M)), V;
+  }(T, u, f) : T));
+}
+function Fm(e, t) {
+  return ki().captureEvent(e, t);
+}
+function Vm(e) {
+  const t = Dt(), r = ka(), o = ki(), { release: a, environment: s = nf } = t && t.getOptions() || {}, { userAgent: u } = qe.navigator || {}, f = CS({ release: a, environment: s, user: o.getUser() || r.getUser(), ...u && { userAgent: u }, ...e }), p = r.getSession();
+  return p && p.status === "ok" && so(p, { status: "exited" }), rv(), r.setSession(f), o.setSession(f), f;
+}
+function rv() {
+  const e = ka(), t = ki(), r = t.getSession() || e.getSession();
+  r && function(o, a) {
+    let s = {};
+    o.status === "ok" && (s = { status: "exited" }), so(o, s);
+  }(r), iv(), e.setSession(), t.setSession();
+}
+function iv() {
+  const e = ka(), t = ki(), r = Dt(), o = t.getSession() || e.getSession();
+  o && r && r.captureSession(o);
+}
+function zm(e = !1) {
+  e ? rv() : iv();
+}
+function JS(e, t, r) {
+  return t || `${function(o) {
+    return `${function(a) {
+      const s = a.protocol ? `${a.protocol}:` : "", u = a.port ? `:${a.port}` : "";
+      return `${s}//${a.host}${u}${a.path ? `/${a.path}` : ""}/api/`;
+    }(o)}${o.projectId}/envelope/`;
+  }(e)}?${function(o, a) {
+    const s = { sentry_version: "7" };
+    return o.publicKey && (s.sentry_key = o.publicKey), a && (s.sentry_client = `${a.name}/${a.version}`), new URLSearchParams(s).toString();
+  }(e, r)}`;
+}
+const Bm = [];
+function Um(e, t) {
+  for (const r of t) r && r.afterAllSetup && r.afterAllSetup(e);
+}
+function qm(e, t, r) {
+  if (r[t.name]) Ze && Ie.log(`Integration skipped because it was already installed: ${t.name}`);
+  else {
+    if (r[t.name] = t, Bm.indexOf(t.name) === -1 && typeof t.setupOnce == "function" && (t.setupOnce(), Bm.push(t.name)), t.setup && typeof t.setup == "function" && t.setup(e), typeof t.preprocessEvent == "function") {
+      const o = t.preprocessEvent.bind(t);
+      e.on("preprocessEvent", (a, s) => o(a, s, e));
+    }
+    if (typeof t.processEvent == "function") {
+      const o = t.processEvent.bind(t), a = Object.assign((s, u) => o(s, u, e), { id: t.name });
+      e.addEventProcessor(a);
+    }
+    Ze && Ie.log(`Integration installed: ${t.name}`);
+  }
+}
+class Nn extends Error {
+  constructor(t, r = "warn") {
+    super(t), this.message = t, this.logLevel = r;
+  }
+}
+const $m = "Not capturing exception because it's already been captured.";
+class WS {
+  constructor(t) {
+    if (this._options = t, this._integrations = {}, this._numProcessing = 0, this._outcomes = {}, this._hooks = {}, this._eventProcessors = [], t.dsn ? this._dsn = FS(t.dsn) : Ze && Ie.warn("No DSN provided, client will not send events."), this._dsn) {
+      const o = JS(this._dsn, t.tunnel, t._metadata ? t._metadata.sdk : void 0);
+      this._transport = t.transport({ tunnel: this._options.tunnel, recordDroppedEvent: this.recordDroppedEvent.bind(this), ...t.transportOptions, url: o });
+    }
+    const r = ["enableTracing", "tracesSampleRate", "tracesSampler"].find((o) => o in t && t[o] == null);
+    r && wa(() => {
+      console.warn(`[Sentry] Deprecation warning: \`${r}\` is set to undefined, which leads to tracing being enabled. In v9, a value of \`undefined\` will result in tracing being disabled.`);
+    });
+  }
+  captureException(t, r, o) {
+    const a = En();
+    if (Em(t)) return Ze && Ie.log($m), a;
+    const s = { event_id: a, ...r };
+    return this._process(this.eventFromException(t, s).then((u) => this._captureEvent(u, s, o))), s.event_id;
+  }
+  captureMessage(t, r, o, a) {
+    const s = { event_id: En(), ...o }, u = Qd(t) ? t : String(t), f = ad(t) ? this.eventFromMessage(u, r, s) : this.eventFromException(t, s);
+    return this._process(f.then((p) => this._captureEvent(p, s, a))), s.event_id;
+  }
+  captureEvent(t, r, o) {
+    const a = En();
+    if (r && r.originalException && Em(r.originalException)) return Ze && Ie.log($m), a;
+    const s = { event_id: a, ...r }, u = (t.sdkProcessingMetadata || {}).capturedSpanScope;
+    return this._process(this._captureEvent(t, s, u || o)), s.event_id;
+  }
+  captureSession(t) {
+    typeof t.release != "string" ? Ze && Ie.warn("Discarded session because of missing or non-string release") : (this.sendSession(t), so(t, { init: !1 }));
+  }
+  getDsn() {
+    return this._dsn;
+  }
+  getOptions() {
+    return this._options;
+  }
+  getSdkMetadata() {
+    return this._options._metadata;
+  }
+  getTransport() {
+    return this._transport;
+  }
+  flush(t) {
+    const r = this._transport;
+    return r ? (this.emit("flush"), this._isClientDoneProcessing(t).then((o) => r.flush(t).then((a) => o && a))) : vi(!0);
+  }
+  close(t) {
+    return this.flush(t).then((r) => (this.getOptions().enabled = !1, this.emit("close"), r));
+  }
+  getEventProcessors() {
+    return this._eventProcessors;
+  }
+  addEventProcessor(t) {
+    this._eventProcessors.push(t);
+  }
+  init() {
+    (this._isEnabled() || this._options.integrations.some(({ name: t }) => t.startsWith("Spotlight"))) && this._setupIntegrations();
+  }
+  getIntegrationByName(t) {
+    return this._integrations[t];
+  }
+  addIntegration(t) {
+    const r = this._integrations[t.name];
+    qm(this, t, this._integrations), r || Um(this, [t]);
+  }
+  sendEvent(t, r = {}) {
+    this.emit("beforeSendEvent", t, r);
+    let o = qS(t, this._dsn, this._options._metadata, this._options.tunnel);
+    for (const s of r.attachments || []) o = VS(o, BS(s));
+    const a = this.sendEnvelope(o);
+    a && a.then((s) => this.emit("afterSendEvent", t, s), null);
+  }
+  sendSession(t) {
+    const r = function(o, a, s, u) {
+      const f = nv(s);
+      return ya({ sent_at: (/* @__PURE__ */ new Date()).toISOString(), ...f && { sdk: f }, ...!!u && a && { dsn: hl(a) } }, ["aggregates" in o ? [{ type: "sessions" }, o] : [{ type: "session" }, o.toJSON()]]);
+    }(t, this._dsn, this._options._metadata, this._options.tunnel);
+    this.sendEnvelope(r);
+  }
+  recordDroppedEvent(t, r, o) {
+    if (this._options.sendClientReports) {
+      const a = typeof o == "number" ? o : 1, s = `${t}:${r}`;
+      Ze && Ie.log(`Recording outcome: "${s}"${a > 1 ? ` (${a} times)` : ""}`), this._outcomes[s] = (this._outcomes[s] || 0) + a;
+    }
+  }
+  on(t, r) {
+    const o = this._hooks[t] = this._hooks[t] || [];
+    return o.push(r), () => {
+      const a = o.indexOf(r);
+      a > -1 && o.splice(a, 1);
+    };
+  }
+  emit(t, ...r) {
+    const o = this._hooks[t];
+    o && o.forEach((a) => a(...r));
+  }
+  sendEnvelope(t) {
+    return this.emit("beforeEnvelope", t), this._isEnabled() && this._transport ? this._transport.send(t).then(null, (r) => (Ze && Ie.error("Error while sending envelope:", r), r)) : (Ze && Ie.error("Transport disabled"), vi({}));
+  }
+  _setupIntegrations() {
+    const { integrations: t } = this._options;
+    this._integrations = function(r, o) {
+      const a = {};
+      return o.forEach((s) => {
+        s && qm(r, s, a);
+      }), a;
+    }(this, t), Um(this, t);
+  }
+  _updateSessionFromEvent(t, r) {
+    let o = r.level === "fatal", a = !1;
+    const s = r.exception && r.exception.values;
+    if (s) {
+      a = !0;
+      for (const f of s) {
+        const p = f.mechanism;
+        if (p && p.handled === !1) {
+          o = !0;
+          break;
+        }
+      }
+    }
+    const u = t.status === "ok";
+    (u && t.errors === 0 || u && o) && (so(t, { ...o && { status: "crashed" }, errors: t.errors || Number(a || o) }), this.captureSession(t));
+  }
+  _isClientDoneProcessing(t) {
+    return new kn((r) => {
+      let o = 0;
+      const a = setInterval(() => {
+        this._numProcessing == 0 ? (clearInterval(a), r(!0)) : (o += 1, t && o >= t && (clearInterval(a), r(!1)));
+      }, 1);
+    });
+  }
+  _isEnabled() {
+    return this.getOptions().enabled !== !1 && this._transport !== void 0;
+  }
+  _prepareEvent(t, r, o = ki(), a = ka()) {
+    const s = this.getOptions(), u = Object.keys(this._integrations);
+    return !r.integrations && u.length > 0 && (r.integrations = u), this.emit("preprocessEvent", t, r), t.type || a.setLastEventId(t.event_id || r.event_id), HS(s, t, r, o, this, a).then((f) => {
+      if (f === null) return f;
+      f.contexts = { trace: MS(o), ...f.contexts };
+      const p = function(m, y) {
+        const v = y.getPropagationContext();
+        return v.dsc || ev(v.traceId, m);
+      }(this, o);
+      return f.sdkProcessingMetadata = { dynamicSamplingContext: p, ...f.sdkProcessingMetadata }, f;
+    });
+  }
+  _captureEvent(t, r = {}, o) {
+    return this._processEvent(t, r, o).then((a) => a.event_id, (a) => {
+      Ze && (a instanceof Nn && a.logLevel === "log" ? Ie.log(a.message) : Ie.warn(a));
+    });
+  }
+  _processEvent(t, r, o) {
+    const a = this.getOptions(), { sampleRate: s } = a, u = Jm(t), f = Hm(t), p = t.type || "error", m = `before send for type \`${p}\``, y = s === void 0 ? void 0 : function(k) {
+      if (typeof k == "boolean") return Number(k);
+      const T = typeof k == "string" ? parseFloat(k) : k;
+      if (!(typeof T != "number" || isNaN(T) || T < 0 || T > 1)) return T;
+      Ze && Ie.warn(`[Tracing] Given sample rate is invalid. Sample rate must be a boolean or a number between 0 and 1. Got ${JSON.stringify(k)} of type ${JSON.stringify(typeof k)}.`);
+    }(s);
+    if (f && typeof y == "number" && Math.random() > y) return this.recordDroppedEvent("sample_rate", "error", t), pl(new Nn(`Discarding event because it's not included in the random sample (sampling rate = ${s})`, "log"));
+    const v = p === "replay_event" ? "replay" : p, _ = (t.sdkProcessingMetadata || {}).capturedSpanIsolationScope;
+    return this._prepareEvent(t, r, o, _).then((k) => {
+      if (k === null) throw this.recordDroppedEvent("event_processor", v, t), new Nn("An event processor returned `null`, will not send event.", "log");
+      if (r.data && r.data.__sentry__ === !0) return k;
+      const T = function(E, L, M, V) {
+        const { beforeSend: B, beforeSendTransaction: j, beforeSendSpan: N } = L;
+        if (Hm(M) && B) return B(M, V);
+        if (Jm(M)) {
+          if (M.spans && N) {
+            const A = [];
+            for (const H of M.spans) {
+              const z = N(H);
+              z ? A.push(z) : (jS(), E.recordDroppedEvent("before_send", "span"));
+            }
+            M.spans = A;
+          }
+          if (j) {
+            if (M.spans) {
+              const A = M.spans.length;
+              M.sdkProcessingMetadata = { ...M.sdkProcessingMetadata, spanCountBeforeProcessing: A };
+            }
+            return j(M, V);
+          }
+        }
+        return M;
+      }(this, a, k, r);
+      return function(E, L) {
+        const M = `${L} must return \`null\` or a valid event.`;
+        if (Al(E)) return E.then((V) => {
+          if (!oo(V) && V !== null) throw new Nn(M);
+          return V;
+        }, (V) => {
+          throw new Nn(`${L} rejected with ${V}`);
+        });
+        if (!oo(E) && E !== null) throw new Nn(M);
+        return E;
+      }(T, m);
+    }).then((k) => {
+      if (k === null) {
+        if (this.recordDroppedEvent("before_send", v, t), u) {
+          const L = 1 + (t.spans || []).length;
+          this.recordDroppedEvent("before_send", "span", L);
+        }
+        throw new Nn(`${m} returned \`null\`, will not send event.`, "log");
+      }
+      const T = o && o.getSession();
+      if (!u && T && this._updateSessionFromEvent(T, k), u) {
+        const L = (k.sdkProcessingMetadata && k.sdkProcessingMetadata.spanCountBeforeProcessing || 0) - (k.spans ? k.spans.length : 0);
+        L > 0 && this.recordDroppedEvent("before_send", "span", L);
+      }
+      const E = k.transaction_info;
+      if (u && E && k.transaction !== t.transaction) {
+        const L = "custom";
+        k.transaction_info = { ...E, source: L };
+      }
+      return this.sendEvent(k, r), k;
+    }).then(null, (k) => {
+      throw k instanceof Nn ? k : (this.captureException(k, { data: { __sentry__: !0 }, originalException: k }), new Nn(`Event processing pipeline threw an error, original event will not be sent. Details have been sent as a new event.
+Reason: ${k}`));
+    });
+  }
+  _process(t) {
+    this._numProcessing++, t.then((r) => (this._numProcessing--, r), (r) => (this._numProcessing--, r));
+  }
+  _clearOutcomes() {
+    const t = this._outcomes;
+    return this._outcomes = {}, Object.entries(t).map(([r, o]) => {
+      const [a, s] = r.split(":");
+      return { reason: a, category: s, quantity: o };
+    });
+  }
+  _flushOutcomes() {
+    Ze && Ie.log("Flushing outcomes...");
+    const t = this._clearOutcomes();
+    if (t.length === 0) return void (Ze && Ie.log("No outcomes to send"));
+    if (!this._dsn) return void (Ze && Ie.log("No dsn provided, will not send outcomes"));
+    Ze && Ie.log("Sending outcomes:", t);
+    const r = (o = t, ya((a = this._options.tunnel && hl(this._dsn)) ? { dsn: a } : {}, [[{ type: "client_report" }, { timestamp: s || Sa(), discarded_events: o }]]));
+    var o, a, s;
+    this.sendEnvelope(r);
+  }
+}
+function Hm(e) {
+  return e.type === void 0;
+}
+function Jm(e) {
+  return e.type === "transaction";
+}
+function GS(e) {
+  const t = [];
+  function r(o) {
+    return t.splice(t.indexOf(o), 1)[0] || Promise.resolve(void 0);
+  }
+  return { $: t, add: function(o) {
+    if (!(e === void 0 || t.length < e)) return pl(new Nn("Not adding Promise because buffer limit was reached."));
+    const a = o();
+    return t.indexOf(a) === -1 && t.push(a), a.then(() => r(a)).then(null, () => r(a).then(null, () => {
+    })), a;
+  }, drain: function(o) {
+    return new kn((a, s) => {
+      let u = t.length;
+      if (!u) return a(!0);
+      const f = setTimeout(() => {
+        o && o > 0 && a(!1);
+      }, o);
+      t.forEach((p) => {
+        vi(p).then(() => {
+          --u || (clearTimeout(f), a(!0));
+        }, s);
+      });
+    });
+  } };
+}
+function YS(e, { statusCode: t, headers: r }, o = Date.now()) {
+  const a = { ...e }, s = r && r["x-sentry-rate-limits"], u = r && r["retry-after"];
+  if (s) for (const f of s.trim().split(",")) {
+    const [p, m, , , y] = f.split(":", 5), v = parseInt(p, 10), _ = 1e3 * (isNaN(v) ? 60 : v);
+    if (m) for (const k of m.split(";")) k === "metric_bucket" && y && !y.split(";").includes("custom") || (a[k] = o + _);
+    else a.all = o + _;
+  }
+  else u ? a.all = o + function(f, p = Date.now()) {
+    const m = parseInt(`${f}`, 10);
+    if (!isNaN(m)) return 1e3 * m;
+    const y = Date.parse(`${f}`);
+    return isNaN(y) ? 6e4 : y - p;
+  }(u, o) : t === 429 && (a.all = o + 6e4);
+  return a;
+}
+function QS(e, t, r = GS(e.bufferSize || 64)) {
+  let o = {};
+  return { send: function(a) {
+    const s = [];
+    if (Dm(a, (p, m) => {
+      const y = jm(m);
+      if (function(v, _, k = Date.now()) {
+        return function(T, E) {
+          return T[E] || T.all || 0;
+        }(v, _) > k;
+      }(o, y)) {
+        const v = Wm(p, m);
+        e.recordDroppedEvent("ratelimit_backoff", y, v);
+      } else s.push(p);
+    }), s.length === 0) return vi({});
+    const u = ya(a[0], s), f = (p) => {
+      Dm(u, (m, y) => {
+        const v = Wm(m, y);
+        e.recordDroppedEvent(p, jm(y), v);
+      });
+    };
+    return r.add(() => t({ body: zS(u) }).then((p) => (p.statusCode !== void 0 && (p.statusCode < 200 || p.statusCode >= 300) && Ze && Ie.warn(`Sentry responded with status code ${p.statusCode} to sent event.`), o = YS(o, p), p), (p) => {
+      throw f("network_error"), p;
+    })).then((p) => p, (p) => {
+      if (p instanceof Nn) return Ze && Ie.error("Skipped sending event because buffer is full."), f("queue_overflow"), vi({});
+      throw p;
+    });
+  }, flush: (a) => r.drain(a) };
+}
+function Wm(e, t) {
+  if (t === "event" || t === "transaction") return Array.isArray(e) ? e[1] : void 0;
+}
+const ZS = 100;
+function li(e, t) {
+  const r = Dt(), o = ka();
+  if (!r) return;
+  const { beforeBreadcrumb: a = null, maxBreadcrumbs: s = ZS } = r.getOptions();
+  if (s <= 0) return;
+  const u = { timestamp: Sa(), ...e }, f = a ? wa(() => a(u, t)) : u;
+  f !== null && (r.emit && r.emit("beforeAddBreadcrumb", f, t), o.addBreadcrumb(f, s));
+}
+let Gm;
+const Ym = /* @__PURE__ */ new WeakMap(), KS = () => ({ name: "FunctionToString", setupOnce() {
+  Gm = Function.prototype.toString;
+  try {
+    Function.prototype.toString = function(...e) {
+      const t = Kd(this), r = Ym.has(Dt()) && t !== void 0 ? t : this;
+      return Gm.apply(r, e);
+    };
+  } catch {
+  }
+}, setup(e) {
+  Ym.set(e, !0);
+} }), XS = [/^Script error\.?$/, /^Javascript error: Script error\.? on line 0$/, /^ResizeObserver loop completed with undelivered notifications.$/, /^Cannot redefine property: googletag$/, "undefined is not an object (evaluating 'a.L')", `can't redefine non-configurable property "solana"`, "vv().getRestrictions is not a function. (In 'vv().getRestrictions(1,a)', 'vv().getRestrictions' is undefined)", "Can't find variable: _AutofillCallbackHandler", /^Non-Error promise rejection captured with value: Object Not Found Matching Id:\d+, MethodName:simulateEvent, ParamCount:\d+$/], ek = (e = {}) => ({ name: "InboundFilters", processEvent(t, r, o) {
+  const a = o.getOptions(), s = function(u = {}, f = {}) {
+    return { allowUrls: [...u.allowUrls || [], ...f.allowUrls || []], denyUrls: [...u.denyUrls || [], ...f.denyUrls || []], ignoreErrors: [...u.ignoreErrors || [], ...f.ignoreErrors || [], ...u.disableErrorDefaults ? [] : XS], ignoreTransactions: [...u.ignoreTransactions || [], ...f.ignoreTransactions || []], ignoreInternal: u.ignoreInternal === void 0 || u.ignoreInternal };
+  }(e, a);
+  return function(u, f) {
+    return f.ignoreInternal && function(p) {
+      try {
+        return p.exception.values[0].type === "SentryError";
+      } catch {
+      }
+      return !1;
+    }(u) ? (Ze && Ie.warn(`Event dropped due to being internal Sentry Error.
+Event: ${Br(u)}`), !0) : function(p, m) {
+      return p.type || !m || !m.length ? !1 : function(y) {
+        const v = [];
+        y.message && v.push(y.message);
+        let _;
+        try {
+          _ = y.exception.values[y.exception.values.length - 1];
+        } catch {
+        }
+        return _ && _.value && (v.push(_.value), _.type && v.push(`${_.type}: ${_.value}`)), v;
+      }(p).some((y) => zs(y, m));
+    }(u, f.ignoreErrors) ? (Ze && Ie.warn(`Event dropped due to being matched by \`ignoreErrors\` option.
+Event: ${Br(u)}`), !0) : function(p) {
+      return p.type || !p.exception || !p.exception.values || p.exception.values.length === 0 ? !1 : !p.message && !p.exception.values.some((m) => m.stacktrace || m.type && m.type !== "Error" || m.value);
+    }(u) ? (Ze && Ie.warn(`Event dropped due to not having an error message, error type or stacktrace.
+Event: ${Br(u)}`), !0) : function(p, m) {
+      if (p.type !== "transaction" || !m || !m.length) return !1;
+      const y = p.transaction;
+      return !!y && zs(y, m);
+    }(u, f.ignoreTransactions) ? (Ze && Ie.warn(`Event dropped due to being matched by \`ignoreTransactions\` option.
+Event: ${Br(u)}`), !0) : function(p, m) {
+      if (!m || !m.length) return !1;
+      const y = qs(p);
+      return !!y && zs(y, m);
+    }(u, f.denyUrls) ? (Ze && Ie.warn(`Event dropped due to being matched by \`denyUrls\` option.
+Event: ${Br(u)}.
+Url: ${qs(u)}`), !0) : function(p, m) {
+      if (!m || !m.length) return !0;
+      const y = qs(p);
+      return !y || zs(y, m);
+    }(u, f.allowUrls) ? !1 : (Ze && Ie.warn(`Event dropped due to not being matched by \`allowUrls\` option.
+Event: ${Br(u)}.
+Url: ${qs(u)}`), !0);
+  }(t, s) ? null : t;
+} });
+function qs(e) {
+  try {
+    let t;
+    try {
+      t = e.exception.values[0].stacktrace.frames;
+    } catch {
+    }
+    return t ? function(r = []) {
+      for (let o = r.length - 1; o >= 0; o--) {
+        const a = r[o];
+        if (a && a.filename !== "<anonymous>" && a.filename !== "[native code]") return a.filename || null;
+      }
+      return null;
+    }(t) : null;
+  } catch {
+    return Ze && Ie.error(`Cannot extract url for event ${Br(e)}`), null;
+  }
+}
+function tk(e, t, r = 250, o, a, s, u) {
+  if (!(s.exception && s.exception.values && u && gi(u.originalException, Error))) return;
+  const f = s.exception.values.length > 0 ? s.exception.values[s.exception.values.length - 1] : void 0;
+  var p, m;
+  f && (s.exception.values = (p = hd(e, t, a, u.originalException, o, s.exception.values, f, 0), m = r, p.map((y) => (y.value && (y.value = to(y.value, m)), y))));
+}
+function hd(e, t, r, o, a, s, u, f) {
+  if (s.length >= r + 1) return s;
+  let p = [...s];
+  if (gi(o[a], Error)) {
+    Qm(u, f);
+    const m = e(t, o[a]), y = p.length;
+    Zm(m, a, y, f), p = hd(e, t, r, o[a], a, [m, ...p], m, y);
+  }
+  return Array.isArray(o.errors) && o.errors.forEach((m, y) => {
+    if (gi(m, Error)) {
+      Qm(u, f);
+      const v = e(t, m), _ = p.length;
+      Zm(v, `errors[${y}]`, _, f), p = hd(e, t, r, m, a, [v, ...p], v, _);
+    }
+  }), p;
+}
+function Qm(e, t) {
+  e.mechanism = e.mechanism || { type: "generic", handled: !0 }, e.mechanism = { ...e.mechanism, ...e.type === "AggregateError" && { is_exception_group: !0 }, exception_id: t };
+}
+function Zm(e, t, r, o) {
+  e.mechanism = e.mechanism || { type: "generic", handled: !0 }, e.mechanism = { ...e.mechanism, type: "chained", source: t, exception_id: r, parent_id: o };
+}
+function Ac(e) {
+  if (!e) return {};
+  const t = e.match(/^(([^:/?#]+):)?(\/\/([^/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?$/);
+  if (!t) return {};
+  const r = t[6] || "", o = t[8] || "";
+  return { host: t[4], path: t[5], protocol: t[2], search: r, hash: o, relative: t[5] + r + o };
+}
+function nk() {
+  "console" in qe && od.forEach(function(e) {
+    e in qe.console && cn(qe.console, e, function(t) {
+      return fl[e] = t, function(...r) {
+        Rn("console", { args: r, level: e });
+        const o = fl[e];
+        o && o.apply(qe.console, r);
+      };
+    });
+  });
+}
+function rk(e) {
+  return e === "warn" ? "warning" : ["fatal", "error", "warning", "log", "info", "debug"].includes(e) ? e : "log";
+}
+const ik = () => {
+  let e;
+  return { name: "Dedupe", processEvent(t) {
+    if (t.type) return t;
+    try {
+      if (function(r, o) {
+        return o ? !!(function(a, s) {
+          const u = a.message, f = s.message;
+          return !(!u && !f || u && !f || !u && f || u !== f || !Xm(a, s) || !Km(a, s));
+        }(r, o) || function(a, s) {
+          const u = eg(s), f = eg(a);
+          return !(!u || !f || u.type !== f.type || u.value !== f.value || !Xm(a, s) || !Km(a, s));
+        }(r, o)) : !1;
+      }(t, e)) return Ze && Ie.warn("Event dropped due to being a duplicate of previously captured event."), null;
+    } catch {
+    }
+    return e = t;
+  } };
+};
+function Km(e, t) {
+  let r = vm(e), o = vm(t);
+  if (!r && !o) return !0;
+  if (r && !o || !r && o || o.length !== r.length) return !1;
+  for (let a = 0; a < o.length; a++) {
+    const s = o[a], u = r[a];
+    if (s.filename !== u.filename || s.lineno !== u.lineno || s.colno !== u.colno || s.function !== u.function) return !1;
+  }
+  return !0;
+}
+function Xm(e, t) {
+  let r = e.fingerprint, o = t.fingerprint;
+  if (!r && !o) return !0;
+  if (r && !o || !r && o) return !1;
+  try {
+    return r.join("") === o.join("");
+  } catch {
+    return !1;
+  }
+}
+function eg(e) {
+  return e.exception && e.exception.values && e.exception.values[0];
+}
+function tg(e) {
+  return e === void 0 ? void 0 : e >= 400 && e < 500 ? "warning" : e >= 500 ? "error" : void 0;
+}
+const Mc = qe;
+function md(e) {
+  return e && /^function\s+\w+\(\)\s+\{\s+\[native code\]\s+\}$/.test(e.toString());
+}
+function ok() {
+  if (typeof EdgeRuntime == "string") return !0;
+  if (!function() {
+    if (!("fetch" in Mc)) return !1;
+    try {
+      return new Headers(), new Request("http://www.example.com"), new Response(), !0;
+    } catch {
+      return !1;
+    }
+  }()) return !1;
+  if (md(Mc.fetch)) return !0;
+  let e = !1;
+  const t = Mc.document;
+  if (t && typeof t.createElement == "function") try {
+    const r = t.createElement("iframe");
+    r.hidden = !0, t.head.appendChild(r), r.contentWindow && r.contentWindow.fetch && (e = md(r.contentWindow.fetch)), t.head.removeChild(r);
+  } catch (r) {
+    Si && Ie.warn("Could not create sandbox iframe for pure fetch check, bailing to window.fetch: ", r);
+  }
+  return e;
+}
+function ak(e, t) {
+  const r = "fetch";
+  hi(r, e), mi(r, () => function(o, a = !1) {
+    a && !ok() || cn(qe, "fetch", function(s) {
+      return function(...u) {
+        const f = new Error(), { method: p, url: m } = function(v) {
+          if (v.length === 0) return { method: "GET", url: "" };
+          if (v.length === 2) {
+            const [k, T] = v;
+            return { url: ng(k), method: gd(T, "method") ? String(T.method).toUpperCase() : "GET" };
+          }
+          const _ = v[0];
+          return { url: ng(_), method: gd(_, "method") ? String(_.method).toUpperCase() : "GET" };
+        }(u), y = { args: u, fetchData: { method: p, url: m }, startTimestamp: 1e3 * hr(), virtualError: f };
+        return o || Rn("fetch", { ...y }), s.apply(qe, u).then(async (v) => (o ? o(v) : Rn("fetch", { ...y, endTimestamp: 1e3 * hr(), response: v }), v), (v) => {
+          throw Rn("fetch", { ...y, endTimestamp: 1e3 * hr(), error: v }), Yd(v) && v.stack === void 0 && (v.stack = f.stack, yi(v, "framesToPop", 1)), v;
+        });
+      };
+    });
+  }(void 0, t));
+}
+function gd(e, t) {
+  return !!e && typeof e == "object" && !!e[t];
+}
+function ng(e) {
+  return typeof e == "string" ? e : e ? gd(e, "url") ? e.url : e.toString ? e.toString() : "" : "";
+}
+const $s = qe, kt = qe;
+let yd = 0;
+function rg() {
+  return yd > 0;
+}
+function uo(e, t = {}) {
+  if (!/* @__PURE__ */ function(o) {
+    return typeof o == "function";
+  }(e)) return e;
+  try {
+    const o = e.__sentry_wrapped__;
+    if (o) return typeof o == "function" ? o : e;
+    if (Kd(e)) return e;
+  } catch {
+    return e;
+  }
+  const r = function(...o) {
+    try {
+      const a = o.map((s) => uo(s, t));
+      return e.apply(this, a);
+    } catch (a) {
+      throw yd++, setTimeout(() => {
+        yd--;
+      }), function(...s) {
+        const u = ef(xl());
+        if (s.length === 2) {
+          const [f, p] = s;
+          return f ? u.withSetScope(f, p) : u.withScope(p);
+        }
+        u.withScope(s[0]);
+      }((s) => {
+        var u;
+        s.addEventProcessor((f) => (t.mechanism && (ld(f, void 0), ao(f, t.mechanism)), f.extra = { ...f.extra, arguments: o }, f)), u = a, ki().captureException(u, void 0);
+      }), a;
+    }
+  };
+  try {
+    for (const o in e) Object.prototype.hasOwnProperty.call(e, o) && (r[o] = e[o]);
+  } catch {
+  }
+  Qy(r, e), yi(e, "__sentry_wrapped__", r);
+  try {
+    Object.getOwnPropertyDescriptor(r, "name").configurable && Object.defineProperty(r, "name", { get: () => e.name });
+  } catch {
+  }
+  return r;
+}
+const Pl = typeof __SENTRY_DEBUG__ > "u" || __SENTRY_DEBUG__;
+function rf(e, t) {
+  const r = of(e, t), o = { type: uk(t), value: ck(t) };
+  return r.length && (o.stacktrace = { frames: r }), o.type === void 0 && o.value === "" && (o.value = "Unrecoverable error caught"), o;
+}
+function sk(e, t, r, o) {
+  const a = Dt(), s = a && a.getOptions().normalizeDepth, u = function(m) {
+    for (const y in m) if (Object.prototype.hasOwnProperty.call(m, y)) {
+      const v = m[y];
+      if (v instanceof Error) return v;
+    }
+  }(t), f = { __serialized__: tv(t, s) };
+  if (u) return { exception: { values: [rf(e, u)] }, extra: f };
+  const p = { exception: { values: [{ type: Tl(t) ? t.constructor.name : o ? "UnhandledRejection" : "Error", value: dk(t, { isUnhandledRejection: o }) }] }, extra: f };
+  if (r) {
+    const m = of(e, r);
+    m.length && (p.exception.values[0].stacktrace = { frames: m });
+  }
+  return p;
+}
+function Pc(e, t) {
+  return { exception: { values: [rf(e, t)] } };
+}
+function of(e, t) {
+  const r = t.stacktrace || t.stack || "", o = function(s) {
+    return s && lk.test(s.message) ? 1 : 0;
+  }(t), a = function(s) {
+    return typeof s.framesToPop == "number" ? s.framesToPop : 0;
+  }(t);
+  try {
+    return e(r, o, a);
+  } catch {
+  }
+  return [];
+}
+const lk = /Minified React error #\d+;/i;
+function ov(e) {
+  return typeof WebAssembly < "u" && WebAssembly.Exception !== void 0 && e instanceof WebAssembly.Exception;
+}
+function uk(e) {
+  const t = e && e.name;
+  return !t && ov(e) ? e.message && Array.isArray(e.message) && e.message.length == 2 ? e.message[0] : "WebAssembly.Exception" : t;
+}
+function ck(e) {
+  const t = e && e.message;
+  return t ? t.error && typeof t.error.message == "string" ? t.error.message : ov(e) && Array.isArray(e.message) && e.message.length == 2 ? e.message[1] : t : "No error message";
+}
+function vd(e, t, r, o, a) {
+  let s;
+  if (Wy(t) && t.error)
+    return Pc(e, t.error);
+  if (Sm(t) || co(t, "DOMException")) {
+    const u = t;
+    if ("stack" in t) s = Pc(e, t);
+    else {
+      const f = u.name || (Sm(u) ? "DOMError" : "DOMException"), p = u.message ? `${f}: ${u.message}` : f;
+      s = wd(e, p, r, o), ld(s, p);
+    }
+    return "code" in u && (s.tags = { ...s.tags, "DOMException.code": `${u.code}` }), s;
+  }
+  return Yd(t) ? Pc(e, t) : oo(t) || Tl(t) ? (s = sk(e, t, r, a), ao(s, { synthetic: !0 }), s) : (s = wd(e, t, r, o), ld(s, `${t}`), ao(s, { synthetic: !0 }), s);
+}
+function wd(e, t, r, o) {
+  const a = {};
+  if (o && r) {
+    const s = of(e, r);
+    s.length && (a.exception = { values: [{ value: t, stacktrace: { frames: s } }] }), ao(a, { synthetic: !0 });
+  }
+  if (Qd(t)) {
+    const { __sentry_template_string__: s, __sentry_template_values__: u } = t;
+    return a.logentry = { message: s, params: u }, a;
+  }
+  return a.message = t, a;
+}
+function dk(e, { isUnhandledRejection: t }) {
+  const r = function(a, s = 40) {
+    const u = Object.keys(Zy(a));
+    u.sort();
+    const f = u[0];
+    if (!f) return "[object has no keys]";
+    if (f.length >= s) return to(f, s);
+    for (let p = u.length; p > 0; p--) {
+      const m = u.slice(0, p).join(", ");
+      if (!(m.length > s)) return p === u.length ? m : to(m, s);
+    }
+    return "";
+  }(e), o = t ? "promise rejection" : "exception";
+  return Wy(e) ? `Event \`ErrorEvent\` captured as ${o} with message \`${e.message}\`` : Tl(e) ? `Event \`${function(a) {
+    try {
+      const s = Object.getPrototypeOf(a);
+      return s ? s.constructor.name : void 0;
+    } catch {
+    }
+  }(e)}\` (type=${e.type}) captured as ${o}` : `Object captured as ${o} with keys: ${r}`;
+}
+class fk extends WS {
+  constructor(t) {
+    const r = { parentSpanIsAlwaysRootSpan: !0, ...t };
+    (function(o, a, s = [a], u = "npm") {
+      const f = o._metadata || {};
+      f.sdk || (f.sdk = { name: `sentry.javascript.${a}`, packages: s.map((p) => ({ name: `${u}:@sentry/${p}`, version: pi })), version: pi }), o._metadata = f;
+    })(r, "browser", ["browser"], kt.SENTRY_SDK_SOURCE || "npm"), super(r), r.sendClientReports && kt.document && kt.document.addEventListener("visibilitychange", () => {
+      kt.document.visibilityState === "hidden" && this._flushOutcomes();
+    });
+  }
+  eventFromException(t, r) {
+    return function(o, a, s, u) {
+      const f = vd(o, a, s && s.syntheticException || void 0, u);
+      return ao(f), f.level = "error", s && s.event_id && (f.event_id = s.event_id), vi(f);
+    }(this._options.stackParser, t, r, this._options.attachStacktrace);
+  }
+  eventFromMessage(t, r = "info", o) {
+    return function(a, s, u = "info", f, p) {
+      const m = wd(a, s, f && f.syntheticException || void 0, p);
+      return m.level = u, f && f.event_id && (m.event_id = f.event_id), vi(m);
+    }(this._options.stackParser, t, r, o, this._options.attachStacktrace);
+  }
+  captureUserFeedback(t) {
+    if (!this._isEnabled()) return void (Pl && Ie.warn("SDK not enabled, will not capture user feedback."));
+    const r = function(o, { metadata: a, tunnel: s, dsn: u }) {
+      const f = { event_id: o.event_id, sent_at: (/* @__PURE__ */ new Date()).toISOString(), ...a && a.sdk && { sdk: { name: a.sdk.name, version: a.sdk.version } }, ...!!s && !!u && { dsn: hl(u) } };
+      return ya(f, [/* @__PURE__ */ function(m) {
+        return [{ type: "user_report" }, m];
+      }(o)]);
+    }(t, { metadata: this.getSdkMetadata(), dsn: this.getDsn(), tunnel: this.getOptions().tunnel });
+    this.sendEnvelope(r);
+  }
+  _prepareEvent(t, r, o) {
+    return t.platform = t.platform || "javascript", super._prepareEvent(t, r, o);
+  }
+}
+const pk = typeof __SENTRY_DEBUG__ > "u" || __SENTRY_DEBUG__, qt = qe;
+let ig, Oc, Ic, Hs;
+function hk() {
+  if (!qt.document) return;
+  const e = Rn.bind(null, "dom"), t = og(e, !0);
+  qt.document.addEventListener("click", t, !1), qt.document.addEventListener("keypress", t, !1), ["EventTarget", "Node"].forEach((r) => {
+    const o = qt[r], a = o && o.prototype;
+    a && a.hasOwnProperty && a.hasOwnProperty("addEventListener") && (cn(a, "addEventListener", function(s) {
+      return function(u, f, p) {
+        if (u === "click" || u == "keypress") try {
+          const m = this.__sentry_instrumentation_handlers__ = this.__sentry_instrumentation_handlers__ || {}, y = m[u] = m[u] || { refCount: 0 };
+          if (!y.handler) {
+            const v = og(e);
+            y.handler = v, s.call(this, u, v, p);
+          }
+          y.refCount++;
+        } catch {
+        }
+        return s.call(this, u, f, p);
+      };
+    }), cn(a, "removeEventListener", function(s) {
+      return function(u, f, p) {
+        if (u === "click" || u == "keypress") try {
+          const m = this.__sentry_instrumentation_handlers__ || {}, y = m[u];
+          y && (y.refCount--, y.refCount <= 0 && (s.call(this, u, y.handler, p), y.handler = void 0, delete m[u]), Object.keys(m).length === 0 && delete this.__sentry_instrumentation_handlers__);
+        } catch {
+        }
+        return s.call(this, u, f, p);
+      };
+    }));
+  });
+}
+function og(e, t = !1) {
+  return (r) => {
+    if (!r || r._sentryCaptured) return;
+    const o = function(s) {
+      try {
+        return s.target;
+      } catch {
+        return null;
+      }
+    }(r);
+    if (function(s, u) {
+      return s === "keypress" && (!u || !u.tagName || u.tagName !== "INPUT" && u.tagName !== "TEXTAREA" && !u.isContentEditable);
+    }(r.type, o)) return;
+    yi(r, "_sentryCaptured", !0), o && !o._sentryId && yi(o, "_sentryId", En());
+    const a = r.type === "keypress" ? "input" : r.type;
+    (function(s) {
+      if (s.type !== Oc) return !1;
+      try {
+        if (!s.target || s.target._sentryId !== Ic) return !1;
+      } catch {
+      }
+      return !0;
+    })(r) || (e({ event: r, name: a, global: t }), Oc = r.type, Ic = o ? o._sentryId : void 0), clearTimeout(ig), ig = qt.setTimeout(() => {
+      Ic = void 0, Oc = void 0;
+    }, 1e3);
+  };
+}
+function av(e) {
+  const t = "history";
+  hi(t, e), mi(t, mk);
+}
+function mk() {
+  if (!function() {
+    const r = $s.chrome, o = r && r.app && r.app.runtime, a = "history" in $s && !!$s.history.pushState && !!$s.history.replaceState;
+    return !o && a;
+  }()) return;
+  const e = qt.onpopstate;
+  function t(r) {
+    return function(...o) {
+      const a = o.length > 2 ? o[2] : void 0;
+      if (a) {
+        const s = Hs, u = String(a);
+        Hs = u, Rn("history", { from: s, to: u });
+      }
+      return r.apply(this, o);
+    };
+  }
+  qt.onpopstate = function(...r) {
+    const o = qt.location.href, a = Hs;
+    if (Hs = o, Rn("history", { from: a, to: o }), e) try {
+      return e.apply(this, r);
+    } catch {
+    }
+  }, cn(qt.history, "pushState", t), cn(qt.history, "replaceState", t);
+}
+const rl = {};
+function ag(e) {
+  rl[e] = void 0;
+}
+const sa = "__sentry_xhr_v3__";
+function gk() {
+  if (!qt.XMLHttpRequest) return;
+  const e = XMLHttpRequest.prototype;
+  e.open = new Proxy(e.open, { apply(t, r, o) {
+    const a = new Error(), s = 1e3 * hr(), u = fr(o[0]) ? o[0].toUpperCase() : void 0, f = function(m) {
+      if (fr(m)) return m;
+      try {
+        return m.toString();
+      } catch {
+      }
+    }(o[1]);
+    if (!u || !f) return t.apply(r, o);
+    r[sa] = { method: u, url: f, request_headers: {} }, u === "POST" && f.match(/sentry_key/) && (r.__sentry_own_request__ = !0);
+    const p = () => {
+      const m = r[sa];
+      if (m && r.readyState === 4) {
+        try {
+          m.status_code = r.status;
+        } catch {
+        }
+        Rn("xhr", { endTimestamp: 1e3 * hr(), startTimestamp: s, xhr: r, virtualError: a });
+      }
+    };
+    return "onreadystatechange" in r && typeof r.onreadystatechange == "function" ? r.onreadystatechange = new Proxy(r.onreadystatechange, { apply: (m, y, v) => (p(), m.apply(y, v)) }) : r.addEventListener("readystatechange", p), r.setRequestHeader = new Proxy(r.setRequestHeader, { apply(m, y, v) {
+      const [_, k] = v, T = y[sa];
+      return T && fr(_) && fr(k) && (T.request_headers[_.toLowerCase()] = k), m.apply(y, v);
+    } }), t.apply(r, o);
+  } }), e.send = new Proxy(e.send, { apply(t, r, o) {
+    const a = r[sa];
+    return a ? (o[0] !== void 0 && (a.body = o[0]), Rn("xhr", { startTimestamp: 1e3 * hr(), xhr: r }), t.apply(r, o)) : t.apply(r, o);
+  } });
+}
+function yk(e, t = function(r) {
+  const o = rl[r];
+  if (o) return o;
+  let a = qt[r];
+  if (md(a)) return rl[r] = a.bind(qt);
+  const s = qt.document;
+  if (s && typeof s.createElement == "function") try {
+    const u = s.createElement("iframe");
+    u.hidden = !0, s.head.appendChild(u);
+    const f = u.contentWindow;
+    f && f[r] && (a = f[r]), s.head.removeChild(u);
+  } catch (u) {
+    pk && Ie.warn(`Could not create sandbox iframe for ${r} check, bailing to window.${r}: `, u);
+  }
+  return a && (rl[r] = a.bind(qt));
+}("fetch")) {
+  let r = 0, o = 0;
+  return QS(e, function(a) {
+    const s = a.body.length;
+    r += s, o++;
+    const u = { body: a.body, method: "POST", referrerPolicy: "origin", headers: e.headers, keepalive: r <= 6e4 && o < 15, ...e.fetchOptions };
+    if (!t) return ag("fetch"), pl("No fetch implementation available");
+    try {
+      return t(e.url, u).then((f) => (r -= s, o--, { statusCode: f.status, headers: { "x-sentry-rate-limits": f.headers.get("X-Sentry-Rate-Limits"), "retry-after": f.headers.get("Retry-After") } }));
+    } catch (f) {
+      return ag("fetch"), r -= s, o--, pl(f);
+    }
+  });
+}
+function Lc(e, t, r, o) {
+  const a = { filename: e, function: t === "<anonymous>" ? fi : t, in_app: !0 };
+  return r !== void 0 && (a.lineno = r), o !== void 0 && (a.colno = o), a;
+}
+const vk = /^\s*at (\S+?)(?::(\d+))(?::(\d+))\s*$/i, wk = /^\s*at (?:(.+?\)(?: \[.+\])?|.*?) ?\((?:address at )?)?(?:async )?((?:<anonymous>|[-a-z]+:|.*bundle|\/)?.*?)(?::(\d+))?(?::(\d+))?\)?\s*$/i, Sk = /\((\S*)(?::(\d+))(?::(\d+))\)/, kk = /^\s*(.*?)(?:\((.*?)\))?(?:^|@)?((?:[-a-z]+)?:\/.*?|\[native code\]|[^@]*(?:bundle|\d+\.js)|\/[\w\-. /=]+)(?::(\d+))?(?::(\d+))?\s*$/i, _k = /(\S+) line (\d+)(?: > eval line \d+)* > eval/i, bk = function(...e) {
+  const t = e.sort((r, o) => r[0] - o[0]).map((r) => r[1]);
+  return (r, o = 0, a = 0) => {
+    const s = [], u = r.split(`
+`);
+    for (let f = o; f < u.length; f++) {
+      const p = u[f];
+      if (p.length > 1024) continue;
+      const m = mm.test(p) ? p.replace(mm, "$1") : p;
+      if (!m.match(/\S*Error: /)) {
+        for (const y of t) {
+          const v = y(m);
+          if (v) {
+            s.push(v);
+            break;
+          }
+        }
+        if (s.length >= 50 + a) break;
+      }
+    }
+    return function(f) {
+      if (!f.length) return [];
+      const p = Array.from(f);
+      return /sentryWrapped/.test(Vs(p).function || "") && p.pop(), p.reverse(), gm.test(Vs(p).function || "") && (p.pop(), gm.test(Vs(p).function || "") && p.pop()), p.slice(0, 50).map((m) => ({ ...m, filename: m.filename || Vs(p).filename, function: m.function || fi }));
+    }(s.slice(a));
+  };
+}([30, (e) => {
+  const t = vk.exec(e);
+  if (t) {
+    const [, o, a, s] = t;
+    return Lc(o, fi, +a, +s);
+  }
+  const r = wk.exec(e);
+  if (r) {
+    if (r[2] && r[2].indexOf("eval") === 0) {
+      const s = Sk.exec(r[2]);
+      s && (r[2] = s[1], r[3] = s[2], r[4] = s[3]);
+    }
+    const [o, a] = sg(r[1] || fi, r[2]);
+    return Lc(a, o, r[3] ? +r[3] : void 0, r[4] ? +r[4] : void 0);
+  }
+}], [50, (e) => {
+  const t = kk.exec(e);
+  if (t) {
+    if (t[3] && t[3].indexOf(" > eval") > -1) {
+      const a = _k.exec(t[3]);
+      a && (t[1] = t[1] || "eval", t[3] = a[1], t[4] = a[2], t[5] = "");
+    }
+    let r = t[3], o = t[1] || fi;
+    return [o, r] = sg(o, r), Lc(r, o, t[4] ? +t[4] : void 0, t[5] ? +t[5] : void 0);
+  }
+}]), sg = (e, t) => {
+  const r = e.indexOf("safari-extension") !== -1, o = e.indexOf("safari-web-extension") !== -1;
+  return r || o ? [e.indexOf("@") !== -1 ? e.split("@")[0] : fi, r ? `safari-extension:${t}` : `safari-web-extension:${t}`] : [e, t];
+}, lg = 1024, Ek = (e = {}) => {
+  const t = { console: !0, dom: !0, fetch: !0, history: !0, sentry: !0, xhr: !0, ...e };
+  return { name: "Breadcrumbs", setup(r) {
+    var o;
+    t.console && function(a) {
+      const s = "console";
+      hi(s, a), mi(s, nk);
+    }(/* @__PURE__ */ function(a) {
+      return function(s) {
+        if (Dt() !== a) return;
+        const u = { category: "console", data: { arguments: s.args, logger: "console" }, level: rk(s.level), message: km(s.args, " ") };
+        if (s.level === "assert") {
+          if (s.args[0] !== !1) return;
+          u.message = `Assertion failed: ${km(s.args.slice(1), " ") || "console.assert"}`, u.data.arguments = s.args.slice(1);
+        }
+        li(u, { input: s.args, level: s.level });
+      };
+    }(r)), t.dom && (o = /* @__PURE__ */ function(a, s) {
+      return function(u) {
+        if (Dt() !== a) return;
+        let f, p, m = typeof s == "object" ? s.serializeAttribute : void 0, y = typeof s == "object" && typeof s.maxStringLength == "number" ? s.maxStringLength : void 0;
+        y && y > lg && (Pl && Ie.warn(`\`dom.maxStringLength\` cannot exceed 1024, but a value of ${y} was configured. Sentry will use 1024 instead.`), y = lg), typeof m == "string" && (m = [m]);
+        try {
+          const _ = u.event, k = function(T) {
+            return !!T && !!T.target;
+          }(_) ? _.target : _;
+          f = Yy(k, { keyAttrs: m, maxStringLength: y }), p = function(T) {
+            if (!Zd.HTMLElement) return null;
+            let E = T;
+            for (let L = 0; L < 5; L++) {
+              if (!E) return null;
+              if (E instanceof HTMLElement) {
+                if (E.dataset.sentryComponent) return E.dataset.sentryComponent;
+                if (E.dataset.sentryElement) return E.dataset.sentryElement;
+              }
+              E = E.parentNode;
+            }
+            return null;
+          }(k);
+        } catch {
+          f = "<unknown>";
+        }
+        if (f.length === 0) return;
+        const v = { category: `ui.${u.name}`, message: f };
+        p && (v.data = { "ui.component_name": p }), li(v, { event: u.event, name: u.name, global: u.global });
+      };
+    }(r, t.dom), hi("dom", o), mi("dom", hk)), t.xhr && function(a) {
+      hi("xhr", a), mi("xhr", gk);
+    }(/* @__PURE__ */ function(a) {
+      return function(s) {
+        if (Dt() !== a) return;
+        const { startTimestamp: u, endTimestamp: f } = s, p = s.xhr[sa];
+        if (!u || !f || !p) return;
+        const { method: m, url: y, status_code: v, body: _ } = p, k = { method: m, url: y, status_code: v }, T = { xhr: s.xhr, input: _, startTimestamp: u, endTimestamp: f };
+        li({ category: "xhr", data: k, type: "http", level: tg(v) }, T);
+      };
+    }(r)), t.fetch && ak(/* @__PURE__ */ function(a) {
+      return function(s) {
+        if (Dt() !== a) return;
+        const { startTimestamp: u, endTimestamp: f } = s;
+        if (f && (!s.fetchData.url.match(/sentry_key/) || s.fetchData.method !== "POST")) if (s.error)
+          li({ category: "fetch", data: s.fetchData, level: "error", type: "http" }, { data: s.error, input: s.args, startTimestamp: u, endTimestamp: f });
+        else {
+          const p = s.response, m = { ...s.fetchData, status_code: p && p.status }, y = { input: s.args, response: p, startTimestamp: u, endTimestamp: f };
+          li({ category: "fetch", data: m, type: "http", level: tg(m.status_code) }, y);
+        }
+      };
+    }(r)), t.history && av(/* @__PURE__ */ function(a) {
+      return function(s) {
+        if (Dt() !== a) return;
+        let u = s.from, f = s.to;
+        const p = Ac(kt.location.href);
+        let m = u ? Ac(u) : void 0;
+        const y = Ac(f);
+        m && m.path || (m = p), p.protocol === y.protocol && p.host === y.host && (f = y.relative), p.protocol === m.protocol && p.host === m.host && (u = m.relative), li({ category: "navigation", data: { from: u, to: f } });
+      };
+    }(r)), t.sentry && r.on("beforeSendEvent", /* @__PURE__ */ function(a) {
+      return function(s) {
+        Dt() === a && li({ category: "sentry." + (s.type === "transaction" ? "transaction" : "event"), event_id: s.event_id, level: s.level, message: Br(s) }, { event: s });
+      };
+    }(r));
+  } };
+}, Ck = ["EventTarget", "Window", "Node", "ApplicationCache", "AudioTrackList", "BroadcastChannel", "ChannelMergerNode", "CryptoOperation", "EventSource", "FileReader", "HTMLUnknownElement", "IDBDatabase", "IDBRequest", "IDBTransaction", "KeyOperation", "MediaController", "MessagePort", "ModalWindow", "Notification", "SVGElementInstance", "Screen", "SharedWorker", "TextTrack", "TextTrackCue", "TextTrackList", "WebSocket", "WebSocketWorker", "Worker", "XMLHttpRequest", "XMLHttpRequestEventTarget", "XMLHttpRequestUpload"], xk = (e = {}) => {
+  const t = { XMLHttpRequest: !0, eventTarget: !0, requestAnimationFrame: !0, setInterval: !0, setTimeout: !0, ...e };
+  return { name: "BrowserApiErrors", setupOnce() {
+    t.setTimeout && cn(kt, "setTimeout", ug), t.setInterval && cn(kt, "setInterval", ug), t.requestAnimationFrame && cn(kt, "requestAnimationFrame", Tk), t.XMLHttpRequest && "XMLHttpRequest" in kt && cn(XMLHttpRequest.prototype, "send", Ak);
+    const r = t.eventTarget;
+    r && (Array.isArray(r) ? r : Ck).forEach(Mk);
+  } };
+};
+function ug(e) {
+  return function(...t) {
+    const r = t[0];
+    return t[0] = uo(r, { mechanism: { data: { function: qr(e) }, handled: !1, type: "instrument" } }), e.apply(this, t);
+  };
+}
+function Tk(e) {
+  return function(t) {
+    return e.apply(this, [uo(t, { mechanism: { data: { function: "requestAnimationFrame", handler: qr(e) }, handled: !1, type: "instrument" } })]);
+  };
+}
+function Ak(e) {
+  return function(...t) {
+    const r = this;
+    return ["onload", "onerror", "onprogress", "onreadystatechange"].forEach((o) => {
+      o in r && typeof r[o] == "function" && cn(r, o, function(a) {
+        const s = { mechanism: { data: { function: o, handler: qr(a) }, handled: !1, type: "instrument" } }, u = Kd(a);
+        return u && (s.mechanism.data.handler = qr(u)), uo(a, s);
+      });
+    }), e.apply(this, t);
+  };
+}
+function Mk(e) {
+  const t = kt[e], r = t && t.prototype;
+  r && r.hasOwnProperty && r.hasOwnProperty("addEventListener") && (cn(r, "addEventListener", function(o) {
+    return function(a, s, u) {
+      try {
+        typeof s.handleEvent == "function" && (s.handleEvent = uo(s.handleEvent, { mechanism: { data: { function: "handleEvent", handler: qr(s), target: e }, handled: !1, type: "instrument" } }));
+      } catch {
+      }
+      return o.apply(this, [a, uo(s, { mechanism: { data: { function: "addEventListener", handler: qr(s), target: e }, handled: !1, type: "instrument" } }), u]);
+    };
+  }), cn(r, "removeEventListener", function(o) {
+    return function(a, s, u) {
+      try {
+        const f = s.__sentry_wrapped__;
+        f && o.call(this, a, f, u);
+      } catch {
+      }
+      return o.call(this, a, s, u);
+    };
+  }));
+}
+const Pk = () => ({ name: "BrowserSession", setupOnce() {
+  kt.document !== void 0 ? (Vm({ ignoreDuration: !0 }), zm(), av(({ from: e, to: t }) => {
+    e !== void 0 && e !== t && (Vm({ ignoreDuration: !0 }), zm());
+  })) : Pl && Ie.warn("Using the `browserSessionIntegration` in non-browser environments is not supported.");
+} }), Ok = (e = {}) => {
+  const t = { onerror: !0, onunhandledrejection: !0, ...e };
+  return { name: "GlobalHandlers", setupOnce() {
+    Error.stackTraceLimit = 50;
+  }, setup(r) {
+    t.onerror && (function(o) {
+      (function(a) {
+        const s = "error";
+        hi(s, a), mi(s, kS);
+      })((a) => {
+        const { stackParser: s, attachStacktrace: u } = dg();
+        if (Dt() !== o || rg()) return;
+        const { msg: f, url: p, line: m, column: y, error: v } = a, _ = function(k, T, E, L) {
+          const M = k.exception = k.exception || {}, V = M.values = M.values || [], B = V[0] = V[0] || {}, j = B.stacktrace = B.stacktrace || {}, N = j.frames = j.frames || [], A = L, H = E, z = fr(T) && T.length > 0 ? T : function() {
+            try {
+              return Zd.document.location.href;
+            } catch {
+              return "";
+            }
+          }();
+          return N.length === 0 && N.push({ colno: A, filename: z, function: fi, in_app: !0, lineno: H }), k;
+        }(vd(s, v || f, void 0, u, !1), p, m, y);
+        _.level = "error", Fm(_, { originalException: v, mechanism: { handled: !1, type: "onerror" } });
+      });
+    }(r), cg("onerror")), t.onunhandledrejection && (function(o) {
+      (function(a) {
+        const s = "unhandledrejection";
+        hi(s, a), mi(s, _S);
+      })((a) => {
+        const { stackParser: s, attachStacktrace: u } = dg();
+        if (Dt() !== o || rg()) return;
+        const f = function(m) {
+          if (ad(m)) return m;
+          try {
+            if ("reason" in m) return m.reason;
+            if ("detail" in m && "reason" in m.detail) return m.detail.reason;
+          } catch {
+          }
+          return m;
+        }(a), p = ad(f) ? { exception: { values: [{ type: "UnhandledRejection", value: `Non-Error promise rejection captured with value: ${String(f)}` }] } } : vd(s, f, void 0, u, !0);
+        p.level = "error", Fm(p, { originalException: f, mechanism: { handled: !1, type: "onunhandledrejection" } });
+      });
+    }(r), cg("onunhandledrejection"));
+  } };
+};
+function cg(e) {
+  Pl && Ie.log(`Global Handler attached: ${e}`);
+}
+function dg() {
+  const e = Dt();
+  return e && e.getOptions() || { stackParser: () => [], attachStacktrace: !1 };
+}
+const Ik = () => ({ name: "HttpContext", preprocessEvent(e) {
+  if (!kt.navigator && !kt.location && !kt.document) return;
+  const t = e.request && e.request.url || kt.location && kt.location.href, { referrer: r } = kt.document || {}, { userAgent: o } = kt.navigator || {}, a = { ...e.request && e.request.headers, ...r && { Referer: r }, ...o && { "User-Agent": o } }, s = { ...e.request, ...t && { url: t }, headers: a };
+  e.request = s;
+} }), Lk = (e = {}) => {
+  const t = e.limit || 5, r = e.key || "cause";
+  return { name: "LinkedErrors", preprocessEvent(o, a, s) {
+    const u = s.getOptions();
+    tk(rf, u.stackParser, u.maxValueLength, r, t, o, a);
+  } };
+};
+var Sd = "new", fg = "loading", pg = "loaded", ml = "joining-meeting", Ur = "joined-meeting", zr = "left-meeting", ur = "error", Dk = "blocked", jk = "off", Nk = "sendable", Rk = "loading", Fk = "interrupted", sv = "playable", il = "unknown", lv = "full", Vk = "lobby", zk = "none", uv = "base", Bk = "*", Uk = "ejected", qk = "nbf-room", $k = "nbf-token", Hk = "exp-room", Jk = "exp-token", kd = "no-room", Wk = "meeting-full", cv = "end-of-life", Gk = "not-allowed", dv = "connection-error", Yk = "cam-in-use", Qk = "mic-in-use", Zk = "cam-mic-in-use", Kk = "permissions", Xk = "undefined-mediadevices", e_ = "not-found", t_ = "constraints", n_ = "unknown", fv = "iframe-ready-for-launch-config", pv = "iframe-launch-config", hv = "theme-updated", mv = "loading", gv = "load-attempt-failed", _d = "loaded", yv = "started-camera", vv = "camera-error", wv = "joining-meeting", Sv = "joined-meeting", kv = "left-meeting", _v = "participant-joined", bv = "participant-updated", Ev = "participant-left", Cv = "participant-counts-updated", xv = "access-state-updated", Tv = "meeting-session-summary-updated", Av = "meeting-session-state-updated", r_ = "meeting-session-data-error", Mv = "waiting-participant-added", Pv = "waiting-participant-updated", Ov = "waiting-participant-removed", Iv = "track-started", Lv = "track-stopped", Dv = "transcription-started", jv = "transcription-stopped", Nv = "transcription-error", bd = "recording-started", Ed = "recording-stopped", Rv = "recording-stats", Fv = "recording-error", Vv = "recording-upload-completed", zv = "recording-data", Bv = "app-message", Uv = "transcription-message", qv = "remote-media-player-started", $v = "remote-media-player-updated", Hv = "remote-media-player-stopped", Jv = "local-screen-share-started", Wv = "local-screen-share-stopped", Gv = "local-screen-share-canceled", Yv = "active-speaker-change", Qv = "active-speaker-mode-change", Zv = "network-quality-change", Kv = "network-connection", Xv = "cpu-load-change", e0 = "face-counts-updated", la = "fullscreen", ua = "exited-fullscreen", t0 = "live-streaming-started", n0 = "live-streaming-updated", r0 = "live-streaming-stopped", i0 = "live-streaming-error", o0 = "lang-updated", a0 = "receive-settings-updated", Cd = "input-settings-updated", xd = "nonfatal-error", Td = "error", Dc = 4096, hg = 102400, jc = "iframe-call-message", mg = "local-screen-start", gg = "daily-method-update-live-streaming-endpoints", Js = "transmit-log", pr = "daily-custom-track", ol = { NONE: "none", BGBLUR: "background-blur", BGIMAGE: "background-image", FACE_DETECTION: "face-detection" }, s0 = { NONE: "none", NOISE_CANCELLATION: "noise-cancellation" }, Ad = { PLAY: "play", PAUSE: "pause" }, Nc = ["jpg", "png", "jpeg"], i_ = "add-endpoints", o_ = "remove-endpoints", yg = "sip-call-transfer";
+function Cn() {
+  return !Fe() && typeof window < "u" && window.navigator && window.navigator.userAgent ? window.navigator.userAgent : "";
+}
+function Fe() {
+  return typeof navigator < "u" && navigator.product && navigator.product === "ReactNative";
+}
+function l0() {
+  return navigator && navigator.mediaDevices && navigator.mediaDevices.getUserMedia;
+}
+function a_() {
+  return !!(navigator && navigator.mediaDevices && navigator.mediaDevices.getDisplayMedia) && (function(e, t) {
+    if (!e || !t) return !0;
+    switch (e) {
+      case "Chrome":
+        return t.major >= 75;
+      case "Safari":
+        return RTCRtpTransceiver.prototype.hasOwnProperty("currentDirection") && !(t.major === 13 && t.minor === 0 && t.point === 0);
+      case "Firefox":
+        return t.major >= 67;
+    }
+    return !0;
+  }(wi(), gl()) || Fe());
+}
+function vg() {
+  if (Fe() || !document) return !1;
+  var e = document.createElement("iframe");
+  return !!e.requestFullscreen || !!e.webkitRequestFullscreen;
+}
+var Md = "none", s_ = "software", l_ = "hardware", u_ = function() {
+  try {
+    var e, t = document.createElement("canvas"), r = !1;
+    (e = t.getContext("webgl2", { failIfMajorPerformanceCaveat: !0 })) || (r = !0, e = t.getContext("webgl2"));
+    var o = e != null;
+    return t.remove(), o ? r ? s_ : l_ : Md;
+  } catch {
+    return Md;
+  }
+}();
+function u0() {
+  var e = arguments.length > 0 && arguments[0] !== void 0 && arguments[0];
+  return !Fe() && u_ !== Md && (e ? function() {
+    return wg() ? !1 : ["Chrome", "Firefox"].includes(wi());
+  }() : function() {
+    if (wg()) return !1;
+    var t = wi();
+    if (t === "Safari") {
+      var r = sf();
+      if (r.major < 15 || r.major === 15 && r.minor < 4) return !1;
+    }
+    return t === "Chrome" ? af().major >= 77 : t === "Firefox" ? lf().major >= 97 : ["Chrome", "Firefox", "Safari"].includes(t);
+  }());
+}
+function c0() {
+  if (Fe() || d0() || typeof AudioWorkletNode > "u") return !1;
+  switch (wi()) {
+    case "Chrome":
+    case "Firefox":
+      return !0;
+    case "Safari":
+      var e = gl();
+      return e.major > 17 || e.major === 17 && e.minor >= 4;
+  }
+  return !1;
+}
+function Rc() {
+  return l0() && typeof MediaStreamTrack < "u" && !function() {
+    var e, t = wi();
+    if (!Cn()) return !0;
+    switch (t) {
+      case "Chrome":
+        return (e = af()).major && e.major > 0 && e.major < 75;
+      case "Firefox":
+        return (e = lf()).major < 91;
+      case "Safari":
+        return (e = sf()).major < 13 || e.major === 13 && e.minor < 1;
+      default:
+        return !0;
+    }
+  }();
+}
+function d0() {
+  return Cn().match(/Linux; Android/);
+}
+function wg() {
+  var e, t = Cn(), r = t.match(/Mac/) && (!Fe() && typeof window < "u" && (e = window) !== null && e !== void 0 && (e = e.navigator) !== null && e !== void 0 && e.maxTouchPoints ? window.navigator.maxTouchPoints : 0) >= 5;
+  return !!(t.match(/Mobi/) || t.match(/Android/) || r) || !!Cn().match(/DailyAnd\//) || void 0;
+}
+function wi() {
+  if (typeof window < "u") {
+    var e = Cn();
+    return f0() ? "Safari" : e.indexOf("Edge") > -1 ? "Edge" : e.match(/Chrome\//) ? "Chrome" : e.indexOf("Safari") > -1 || p0() ? "Safari" : e.indexOf("Firefox") > -1 ? "Firefox" : e.indexOf("MSIE") > -1 || e.indexOf(".NET") > -1 ? "IE" : "Unknown Browser";
+  }
+}
+function gl() {
+  switch (wi()) {
+    case "Chrome":
+      return af();
+    case "Safari":
+      return sf();
+    case "Firefox":
+      return lf();
+    case "Edge":
+      return function() {
+        var e = 0, t = 0;
+        if (typeof window < "u") {
+          var r = Cn().match(/Edge\/(\d+).(\d+)/);
+          if (r) try {
+            e = parseInt(r[1]), t = parseInt(r[2]);
+          } catch {
+          }
+        }
+        return { major: e, minor: t };
+      }();
+  }
+}
+function af() {
+  var e = 0, t = 0, r = 0, o = 0, a = !1;
+  if (typeof window < "u") {
+    var s = Cn(), u = s.match(/Chrome\/(\d+).(\d+).(\d+).(\d+)/);
+    if (u) try {
+      e = parseInt(u[1]), t = parseInt(u[2]), r = parseInt(u[3]), o = parseInt(u[4]), a = s.indexOf("OPR/") > -1;
+    } catch {
+    }
+  }
+  return { major: e, minor: t, build: r, patch: o, opera: a };
+}
+function f0() {
+  return !!Cn().match(/iPad|iPhone|iPod/i) && l0();
+}
+function p0() {
+  return Cn().indexOf("AppleWebKit/605.1.15") > -1;
+}
+function sf() {
+  var e = 0, t = 0, r = 0;
+  if (typeof window < "u") {
+    var o = Cn().match(/Version\/(\d+).(\d+)(.(\d+))?/);
+    if (o) try {
+      e = parseInt(o[1]), t = parseInt(o[2]), r = parseInt(o[4]);
+    } catch {
+    }
+    else (f0() || p0()) && (e = 14, t = 0, r = 3);
+  }
+  return { major: e, minor: t, point: r };
+}
+function lf() {
+  var e = 0, t = 0;
+  if (typeof window < "u") {
+    var r = Cn().match(/Firefox\/(\d+).(\d+)/);
+    if (r) try {
+      e = parseInt(r[1]), t = parseInt(r[2]);
+    } catch {
+    }
+  }
+  return { major: e, minor: t };
+}
+var h0 = function() {
+  return pn(function e() {
+    fn(this, e);
+  }, [{ key: "addListenerForMessagesFromCallMachine", value: function(e, t, r) {
+    ea();
+  } }, { key: "addListenerForMessagesFromDailyJs", value: function(e, t, r) {
+    ea();
+  } }, { key: "sendMessageToCallMachine", value: function(e, t, r, o) {
+    ea();
+  } }, { key: "sendMessageToDailyJs", value: function(e, t) {
+    ea();
+  } }, { key: "removeListener", value: function(e) {
+    ea();
+  } }]);
+}();
+function Sg(e, t) {
+  var r = Object.keys(e);
+  if (Object.getOwnPropertySymbols) {
+    var o = Object.getOwnPropertySymbols(e);
+    t && (o = o.filter(function(a) {
+      return Object.getOwnPropertyDescriptor(e, a).enumerable;
+    })), r.push.apply(r, o);
+  }
+  return r;
+}
+function Fc(e) {
+  for (var t = 1; t < arguments.length; t++) {
+    var r = arguments[t] != null ? arguments[t] : {};
+    t % 2 ? Sg(Object(r), !0).forEach(function(o) {
+      Wn(e, o, r[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r)) : Sg(Object(r)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(r, o));
+    });
+  }
+  return e;
+}
+function m0() {
+  try {
+    var e = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function() {
+    }));
+  } catch {
+  }
+  return (m0 = function() {
+    return !!e;
+  })();
+}
+var c_ = function() {
+  function e() {
+    var t, r, o, a;
+    return fn(this, e), r = this, o = Fn(o = e), (t = bl(r, m0() ? Reflect.construct(o, [], Fn(r).constructor) : o.apply(r, a)))._wrappedListeners = {}, t._messageCallbacks = {}, t;
+  }
+  return El(e, h0), pn(e, [{ key: "addListenerForMessagesFromCallMachine", value: function(t, r, o) {
+    var a = this, s = function(u) {
+      if (u.data && u.data.what === "iframe-call-message" && (!u.data.callClientId || u.data.callClientId === r) && (!u.data.from || u.data.from !== "module")) {
+        var f = Fc({}, u.data);
+        if (delete f.from, f.callbackStamp && a._messageCallbacks[f.callbackStamp]) {
+          var p = f.callbackStamp;
+          a._messageCallbacks[p].call(o, f), delete a._messageCallbacks[p];
+        }
+        delete f.what, delete f.callbackStamp, t.call(o, f);
+      }
+    };
+    this._wrappedListeners[t] = s, window.addEventListener("message", s);
+  } }, { key: "addListenerForMessagesFromDailyJs", value: function(t, r, o) {
+    var a = function(s) {
+      var u;
+      if (!(!s.data || s.data.what !== jc || !s.data.action || s.data.from && s.data.from !== "module" || s.data.callClientId && r && s.data.callClientId !== r || s != null && (u = s.data) !== null && u !== void 0 && u.callFrameId)) {
+        var f = s.data;
+        t.call(o, f);
+      }
+    };
+    this._wrappedListeners[t] = a, window.addEventListener("message", a);
+  } }, { key: "sendMessageToCallMachine", value: function(t, r, o, a) {
+    if (!o) throw new Error("undefined callClientId. Are you trying to use a DailyCall instance previously destroyed?");
+    var s = Fc({}, t);
+    if (s.what = jc, s.from = "module", s.callClientId = o, r) {
+      var u = Cl();
+      this._messageCallbacks[u] = r, s.callbackStamp = u;
+    }
+    var f = a ? a.contentWindow : window, p = this._callMachineTargetOrigin(a);
+    p && f.postMessage(s, p);
+  } }, { key: "sendMessageToDailyJs", value: function(t, r) {
+    t.what = jc, t.callClientId = r, t.from = "embedded", window.postMessage(t, this._targetOriginFromWindowLocation());
+  } }, { key: "removeListener", value: function(t) {
+    var r = this._wrappedListeners[t];
+    r && (window.removeEventListener("message", r), delete this._wrappedListeners[t]);
+  } }, { key: "forwardPackagedMessageToCallMachine", value: function(t, r, o) {
+    var a = Fc({}, t);
+    a.callClientId = o;
+    var s = r ? r.contentWindow : window, u = this._callMachineTargetOrigin(r);
+    u && s.postMessage(a, u);
+  } }, { key: "addListenerForPackagedMessagesFromCallMachine", value: function(t, r) {
+    var o = function(a) {
+      if (a.data && a.data.what === "iframe-call-message" && (!a.data.callClientId || a.data.callClientId === r) && (!a.data.from || a.data.from !== "module")) {
+        var s = a.data;
+        t(s);
+      }
+    };
+    return this._wrappedListeners[t] = o, window.addEventListener("message", o), t;
+  } }, { key: "removeListenerForPackagedMessagesFromCallMachine", value: function(t) {
+    var r = this._wrappedListeners[t];
+    r && (window.removeEventListener("message", r), delete this._wrappedListeners[t]);
+  } }, { key: "_callMachineTargetOrigin", value: function(t) {
+    return t ? t.src ? new URL(t.src).origin : void 0 : this._targetOriginFromWindowLocation();
+  } }, { key: "_targetOriginFromWindowLocation", value: function() {
+    return window.location.protocol === "file:" ? "*" : window.location.origin;
+  } }]);
+}();
+function kg(e, t) {
+  var r = Object.keys(e);
+  if (Object.getOwnPropertySymbols) {
+    var o = Object.getOwnPropertySymbols(e);
+    t && (o = o.filter(function(a) {
+      return Object.getOwnPropertyDescriptor(e, a).enumerable;
+    })), r.push.apply(r, o);
+  }
+  return r;
+}
+function g0() {
+  try {
+    var e = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function() {
+    }));
+  } catch {
+  }
+  return (g0 = function() {
+    return !!e;
+  })();
+}
+var d_ = function() {
+  function e() {
+    var t, r, o, a;
+    return fn(this, e), r = this, o = Fn(o = e), t = bl(r, g0() ? Reflect.construct(o, [], Fn(r).constructor) : o.apply(r, a)), global.callMachineToDailyJsEmitter = global.callMachineToDailyJsEmitter || new id.EventEmitter(), global.dailyJsToCallMachineEmitter = global.dailyJsToCallMachineEmitter || new id.EventEmitter(), t._wrappedListeners = {}, t._messageCallbacks = {}, t;
+  }
+  return El(e, h0), pn(e, [{ key: "addListenerForMessagesFromCallMachine", value: function(t, r, o) {
+    this._addListener(t, global.callMachineToDailyJsEmitter, r, o, "received call machine message");
+  } }, { key: "addListenerForMessagesFromDailyJs", value: function(t, r, o) {
+    this._addListener(t, global.dailyJsToCallMachineEmitter, r, o, "received daily-js message");
+  } }, { key: "sendMessageToCallMachine", value: function(t, r, o) {
+    this._sendMessage(t, global.dailyJsToCallMachineEmitter, o, r, "sending message to call machine");
+  } }, { key: "sendMessageToDailyJs", value: function(t, r) {
+    this._sendMessage(t, global.callMachineToDailyJsEmitter, r, null, "sending message to daily-js");
+  } }, { key: "removeListener", value: function(t) {
+    var r = this._wrappedListeners[t];
+    r && (global.callMachineToDailyJsEmitter.removeListener("message", r), global.dailyJsToCallMachineEmitter.removeListener("message", r), delete this._wrappedListeners[t]);
+  } }, { key: "_addListener", value: function(t, r, o, a, s) {
+    var u = this, f = function(p) {
+      if (p.callClientId === o) {
+        if (p.callbackStamp && u._messageCallbacks[p.callbackStamp]) {
+          var m = p.callbackStamp;
+          u._messageCallbacks[m].call(a, p), delete u._messageCallbacks[m];
+        }
+        t.call(a, p);
+      }
+    };
+    this._wrappedListeners[t] = f, r.addListener("message", f);
+  } }, { key: "_sendMessage", value: function(t, r, o, a, s) {
+    var u = function(p) {
+      for (var m = 1; m < arguments.length; m++) {
+        var y = arguments[m] != null ? arguments[m] : {};
+        m % 2 ? kg(Object(y), !0).forEach(function(v) {
+          Wn(p, v, y[v]);
+        }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(p, Object.getOwnPropertyDescriptors(y)) : kg(Object(y)).forEach(function(v) {
+          Object.defineProperty(p, v, Object.getOwnPropertyDescriptor(y, v));
+        });
+      }
+      return p;
+    }({}, t);
+    if (u.callClientId = o, a) {
+      var f = Cl();
+      this._messageCallbacks[f] = a, u.callbackStamp = f;
+    }
+    r.emit("message", u);
+  } }]);
+}(), Pd = "replace", Od = "shallow-merge", _g = [Pd, Od], f_ = function() {
+  function e() {
+    var t = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {}, r = t.data, o = t.mergeStrategy, a = o === void 0 ? Pd : o;
+    fn(this, e), e._validateMergeStrategy(a), e._validateData(r, a), this.mergeStrategy = a, this.data = r;
+  }
+  return pn(e, [{ key: "isNoOp", value: function() {
+    return e.isNoOpUpdate(this.data, this.mergeStrategy);
+  } }], [{ key: "isNoOpUpdate", value: function(t, r) {
+    return Object.keys(t).length === 0 && r === Od;
+  } }, { key: "_validateMergeStrategy", value: function(t) {
+    if (!_g.includes(t)) throw Error("Unrecognized mergeStrategy provided. Options are: [".concat(_g, "]"));
+  } }, { key: "_validateData", value: function(t, r) {
+    if (!function(f) {
+      if (f == null || ze(f) !== "object") return !1;
+      var p = Object.getPrototypeOf(f);
+      return p == null || p === Object.prototype;
+    }(t)) throw Error("Meeting session data must be a plain (map-like) object");
+    var o;
+    try {
+      if (o = JSON.stringify(t), r === Pd) {
+        var a = JSON.parse(o);
+        Ut(a, t) || console.warn("The meeting session data provided will be modified when serialized.", a, t);
+      } else if (r === Od) {
+        for (var s in t) if (Object.hasOwnProperty.call(t, s) && t[s] !== void 0) {
+          var u = JSON.parse(JSON.stringify(t[s]));
+          Ut(t[s], u) || console.warn("At least one key in the meeting session data provided will be modified when serialized.", u, t[s]);
+        }
+      }
+    } catch (f) {
+      throw Error("Meeting session data must be serializable to JSON: ".concat(f));
+    }
+    if (o.length > hg) throw Error("Meeting session data is too large (".concat(o.length, " characters). Maximum size suppported is ").concat(hg, "."));
+  } }]);
+}();
+function y0() {
+  try {
+    var e = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function() {
+    }));
+  } catch {
+  }
+  return (y0 = function() {
+    return !!e;
+  })();
+}
+function Id(e) {
+  var t = typeof Map == "function" ? /* @__PURE__ */ new Map() : void 0;
+  return Id = function(r) {
+    if (r === null || !function(a) {
+      try {
+        return Function.toString.call(a).indexOf("[native code]") !== -1;
+      } catch {
+        return typeof a == "function";
+      }
+    }(r)) return r;
+    if (typeof r != "function") throw new TypeError("Super expression must either be null or a function");
+    if (t !== void 0) {
+      if (t.has(r)) return t.get(r);
+      t.set(r, o);
+    }
+    function o() {
+      return function(a, s, u) {
+        if (y0()) return Reflect.construct.apply(null, arguments);
+        var f = [null];
+        f.push.apply(f, s);
+        var p = new (a.bind.apply(a, f))();
+        return u && ga(p, u.prototype), p;
+      }(r, arguments, Fn(this).constructor);
+    }
+    return o.prototype = Object.create(r.prototype, { constructor: { value: o, enumerable: !1, writable: !0, configurable: !0 } }), ga(o, r);
+  }, Id(e);
+}
+function v0() {
+  try {
+    var e = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function() {
+    }));
+  } catch {
+  }
+  return (v0 = function() {
+    return !!e;
+  })();
+}
+function bg(e) {
+  var t, r = (t = window._daily) === null || t === void 0 ? void 0 : t.pendings;
+  if (r) {
+    var o = r.indexOf(e);
+    o !== -1 && r.splice(o, 1);
+  }
+}
+var p_ = function() {
+  return pn(function e(t) {
+    fn(this, e), this._currentLoad = null, this._callClientId = t;
+  }, [{ key: "load", value: function() {
+    var e, t = this, r = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {}, o = arguments.length > 1 ? arguments[1] : void 0, a = arguments.length > 2 ? arguments[2] : void 0;
+    if (this.loaded) return window._daily.instances[this._callClientId].callMachine.reset(), void o(!0);
+    e = this._callClientId, window._daily.pendings.push(e), this._currentLoad && this._currentLoad.cancel(), this._currentLoad = new h_(r, function() {
+      o(!1);
+    }, function(s, u) {
+      u || bg(t._callClientId), a(s, u);
+    }), this._currentLoad.start();
+  } }, { key: "cancel", value: function() {
+    this._currentLoad && this._currentLoad.cancel(), bg(this._callClientId);
+  } }, { key: "loaded", get: function() {
+    return this._currentLoad && this._currentLoad.succeeded;
+  } }]);
+}(), h_ = function() {
+  return pn(function e() {
+    var t = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {}, r = arguments.length > 1 ? arguments[1] : void 0, o = arguments.length > 2 ? arguments[2] : void 0;
+    fn(this, e), this._attemptsRemaining = 3, this._currentAttempt = null, this._dailyConfig = t, this._successCallback = r, this._failureCallback = o;
+  }, [{ key: "start", value: function() {
+    var e = this;
+    if (!this._currentAttempt) {
+      var t = function(r) {
+        e._currentAttempt.cancelled || (e._attemptsRemaining--, e._failureCallback(r, e._attemptsRemaining > 0), e._attemptsRemaining <= 0 || setTimeout(function() {
+          e._currentAttempt.cancelled || (e._currentAttempt = new Eg(e._dailyConfig, e._successCallback, t), e._currentAttempt.start());
+        }, 3e3));
+      };
+      this._currentAttempt = new Eg(this._dailyConfig, this._successCallback, t), this._currentAttempt.start();
+    }
+  } }, { key: "cancel", value: function() {
+    this._currentAttempt && this._currentAttempt.cancel();
+  } }, { key: "cancelled", get: function() {
+    return this._currentAttempt && this._currentAttempt.cancelled;
+  } }, { key: "succeeded", get: function() {
+    return this._currentAttempt && this._currentAttempt.succeeded;
+  } }]);
+}(), Vc = function() {
+  function e() {
+    return fn(this, e), t = this, o = arguments, r = Fn(r = e), bl(t, v0() ? Reflect.construct(r, o || [], Fn(t).constructor) : r.apply(t, o));
+    var t, r, o;
+  }
+  return El(e, Id(Error)), pn(e);
+}(), yl = 2e4, Eg = function() {
+  return pn(function t(r, o, a) {
+    fn(this, t), this._loadAttemptImpl = Fe() || !r.avoidEval ? new m_(r, o, a) : new g_(r, o, a);
+  }, [{ key: "start", value: (e = Me(function* () {
+    return this._loadAttemptImpl.start();
+  }), function() {
+    return e.apply(this, arguments);
+  }) }, { key: "cancel", value: function() {
+    this._loadAttemptImpl.cancel();
+  } }, { key: "cancelled", get: function() {
+    return this._loadAttemptImpl.cancelled;
+  } }, { key: "succeeded", get: function() {
+    return this._loadAttemptImpl.succeeded;
+  } }]);
+  var e;
+}(), m_ = function() {
+  return pn(function a(s, u, f) {
+    fn(this, a), this.cancelled = !1, this.succeeded = !1, this._networkTimedOut = !1, this._networkTimeout = null, this._iosCache = typeof iOSCallObjectBundleCache < "u" && iOSCallObjectBundleCache, this._refetchHeaders = null, this._dailyConfig = s, this._successCallback = u, this._failureCallback = f;
+  }, [{ key: "start", value: (o = Me(function* () {
+    var a = ul(this._dailyConfig);
+    !(yield this._tryLoadFromIOSCache(a)) && this._loadFromNetwork(a);
+  }), function() {
+    return o.apply(this, arguments);
+  }) }, { key: "cancel", value: function() {
+    clearTimeout(this._networkTimeout), this.cancelled = !0;
+  } }, { key: "_tryLoadFromIOSCache", value: (r = Me(function* (a) {
+    if (!this._iosCache) return !1;
+    try {
+      var s = yield this._iosCache.get(a);
+      return !!this.cancelled || !!s && (s.code ? (Function('"use strict";' + s.code)(), this.succeeded = !0, this._successCallback(), !0) : (this._refetchHeaders = s.refetchHeaders, !1));
+    } catch {
+      return !1;
+    }
+  }), function(a) {
+    return r.apply(this, arguments);
+  }) }, { key: "_loadFromNetwork", value: (t = Me(function* (a) {
+    var s = this;
+    this._networkTimeout = setTimeout(function() {
+      s._networkTimedOut = !0, s._failureCallback({ msg: "Timed out (>".concat(yl, " ms) when loading call object bundle ").concat(a), type: "timeout" });
+    }, yl);
+    try {
+      var u = this._refetchHeaders ? { headers: this._refetchHeaders } : {}, f = yield fetch(a, u);
+      if (clearTimeout(this._networkTimeout), this.cancelled || this._networkTimedOut) throw new Vc();
+      var p = yield this._getBundleCodeFromResponse(a, f);
+      if (this.cancelled) throw new Vc();
+      Function('"use strict";' + p)(), this._iosCache && this._iosCache.set(a, p, f.headers), this.succeeded = !0, this._successCallback();
+    } catch (m) {
+      if (clearTimeout(this._networkTimeout), m instanceof Vc || this.cancelled || this._networkTimedOut) return;
+      this._failureCallback({ msg: "Failed to load call object bundle ".concat(a, ": ").concat(m), type: m.message });
+    }
+  }), function(a) {
+    return t.apply(this, arguments);
+  }) }, { key: "_getBundleCodeFromResponse", value: (e = Me(function* (a, s) {
+    if (s.ok) return yield s.text();
+    if (this._iosCache && s.status === 304) return (yield this._iosCache.renew(a, s.headers)).code;
+    throw new Error("Received ".concat(s.status, " response"));
+  }), function(a, s) {
+    return e.apply(this, arguments);
+  }) }]);
+  var e, t, r, o;
+}(), g_ = function() {
+  return pn(function e(t, r, o) {
+    fn(this, e), this.cancelled = !1, this.succeeded = !1, this._dailyConfig = t, this._successCallback = r, this._failureCallback = o, this._attemptId = Cl(), this._networkTimeout = null, this._scriptElement = null;
+  }, [{ key: "start", value: function() {
+    window._dailyCallMachineLoadWaitlist || (window._dailyCallMachineLoadWaitlist = /* @__PURE__ */ new Set());
+    var e = ul(this._dailyConfig);
+    (typeof document > "u" ? "undefined" : ze(document)) === "object" ? this._startLoading(e) : this._failureCallback({ msg: "Call object bundle must be loaded in a DOM/web context", type: "missing context" });
+  } }, { key: "cancel", value: function() {
+    this._stopLoading(), this.cancelled = !0;
+  } }, { key: "_startLoading", value: function(e) {
+    var t = this;
+    this._signUpForCallMachineLoadWaitlist(), this._networkTimeout = setTimeout(function() {
+      t._stopLoading(), t._failureCallback({ msg: "Timed out (>".concat(yl, " ms) when loading call object bundle ").concat(e), type: "timeout" });
+    }, yl);
+    var r = document.getElementsByTagName("head")[0], o = document.createElement("script");
+    this._scriptElement = o, o.onload = function() {
+      t._stopLoading(), t.succeeded = !0, t._successCallback();
+    }, o.onerror = function(a) {
+      t._stopLoading(), t._failureCallback({ msg: "Failed to load call object bundle ".concat(a.target.src), type: a.message });
+    }, o.src = e, r.appendChild(o);
+  } }, { key: "_stopLoading", value: function() {
+    this._withdrawFromCallMachineLoadWaitlist(), clearTimeout(this._networkTimeout), this._scriptElement && (this._scriptElement.onload = null, this._scriptElement.onerror = null);
+  } }, { key: "_signUpForCallMachineLoadWaitlist", value: function() {
+    window._dailyCallMachineLoadWaitlist.add(this._attemptId);
+  } }, { key: "_withdrawFromCallMachineLoadWaitlist", value: function() {
+    window._dailyCallMachineLoadWaitlist.delete(this._attemptId);
+  } }]);
+}(), Ws = function(e, t, r) {
+  return v_(e.local, t, r) === !0;
+}, y_ = function(e, t, r) {
+  return e.local.streams && e.local.streams[t] && e.local.streams[t].stream && e.local.streams[t].stream["get".concat(r === "video" ? "Video" : "Audio", "Tracks")]()[0];
+}, eo = function(e, t, r, o) {
+  var a = w_(e, t, r, o);
+  return a && a.pendingTrack;
+}, v_ = function(e, t, r) {
+  if (!e) return !1;
+  var o = function(s) {
+    switch (s) {
+      case "avatar":
+        return !0;
+      case "staged":
+        return s;
+      default:
+        return !!s;
+    }
+  }, a = e.public.subscribedTracks;
+  return a && a[t] ? ["cam-audio", "cam-video", "screen-video", "screen-audio", "rmpAudio", "rmpVideo"].indexOf(r) === -1 && a[t].custom ? [!0, "staged"].includes(a[t].custom) ? o(a[t].custom) : o(a[t].custom[r]) : o(a[t][r]) : !a || o(a.ALL);
+}, w_ = function(e, t, r, o) {
+  var a = Object.values(e.streams || {}).filter(function(s) {
+    return s.participantId === t && s.type === r && s.pendingTrack && s.pendingTrack.kind === o;
+  }).sort(function(s, u) {
+    return new Date(u.starttime) - new Date(s.starttime);
+  });
+  return a && a[0];
+}, S_ = function(e, t) {
+  var r = e.local.public.customTracks;
+  if (r && r[t]) return r[t].track;
+};
+function Cg(e, t) {
+  for (var r = t.getState(), o = 0, a = ["cam", "screen"]; o < a.length; o++) for (var s = a[o], u = 0, f = ["video", "audio"]; u < f.length; u++) {
+    var p = f[u], m = s === "cam" ? p : "screen".concat(p.charAt(0).toUpperCase() + p.slice(1)), y = e.tracks[m];
+    if (y) {
+      var v = e.local ? y_(r, s, p) : eo(r, e.session_id, s, p);
+      y.state === "playable" && (y.track = v), y.persistentTrack = v;
+    }
+  }
+}
+function xg(e, t) {
+  try {
+    var r = t.getState();
+    for (var o in e.tracks) if (!k_(o)) {
+      var a = e.tracks[o].kind;
+      if (a) {
+        var s = e.tracks[o];
+        if (s) {
+          var u = e.local ? S_(r, o) : eo(r, e.session_id, o, a);
+          s.state === "playable" && (e.tracks[o].track = u), s.persistentTrack = u;
+        }
+      } else console.error("unknown type for custom track");
+    }
+  } catch (f) {
+    console.error(f);
+  }
+}
+function k_(e) {
+  return ["video", "audio", "screenVideo", "screenAudio"].includes(e);
+}
+function Tg(e, t, r) {
+  var o = r.getState();
+  if (e.local) {
+    if (e.audio) try {
+      e.audioTrack = o.local.streams.cam.stream.getAudioTracks()[0], e.audioTrack || (e.audio = !1);
+    } catch {
+    }
+    if (e.video) try {
+      e.videoTrack = o.local.streams.cam.stream.getVideoTracks()[0], e.videoTrack || (e.video = !1);
+    } catch {
+    }
+    if (e.screen) try {
+      e.screenVideoTrack = o.local.streams.screen.stream.getVideoTracks()[0], e.screenAudioTrack = o.local.streams.screen.stream.getAudioTracks()[0], e.screenVideoTrack || e.screenAudioTrack || (e.screen = !1);
+    } catch {
+    }
+  } else {
+    var a = !0;
+    try {
+      var s = o.participants[e.session_id];
+      s && s.public && s.public.rtcType && s.public.rtcType.impl === "peer-to-peer" && s.private && !["connected", "completed"].includes(s.private.peeringState) && (a = !1);
+    } catch (y) {
+      console.error(y);
+    }
+    if (!a) return e.audio = !1, e.audioTrack = !1, e.video = !1, e.videoTrack = !1, e.screen = !1, void (e.screenTrack = !1);
+    try {
+      if (o.streams, e.audio && Ws(o, e.session_id, "cam-audio")) {
+        var u = eo(o, e.session_id, "cam", "audio");
+        u && (t && t.audioTrack && t.audioTrack.id === u.id ? e.audioTrack = u : u.muted || (e.audioTrack = u)), e.audioTrack || (e.audio = !1);
+      }
+      if (e.video && Ws(o, e.session_id, "cam-video")) {
+        var f = eo(o, e.session_id, "cam", "video");
+        f && (t && t.videoTrack && t.videoTrack.id === f.id ? e.videoTrack = f : f.muted || (e.videoTrack = f)), e.videoTrack || (e.video = !1);
+      }
+      if (e.screen && Ws(o, e.session_id, "screen-audio")) {
+        var p = eo(o, e.session_id, "screen", "audio");
+        p && (t && t.screenAudioTrack && t.screenAudioTrack.id === p.id ? e.screenAudioTrack = p : p.muted || (e.screenAudioTrack = p));
+      }
+      if (e.screen && Ws(o, e.session_id, "screen-video")) {
+        var m = eo(o, e.session_id, "screen", "video");
+        m && (t && t.screenVideoTrack && t.screenVideoTrack.id === m.id ? e.screenVideoTrack = m : m.muted || (e.screenVideoTrack = m));
+      }
+      e.screenVideoTrack || e.screenAudioTrack || (e.screen = !1);
+    } catch (y) {
+      console.error("unexpected error matching up tracks", y);
+    }
+  }
+}
+function __(e, t) {
+  var r = typeof Symbol < "u" && e[Symbol.iterator] || e["@@iterator"];
+  if (!r) {
+    if (Array.isArray(e) || (r = function(p, m) {
+      if (p) {
+        if (typeof p == "string") return Ag(p, m);
+        var y = {}.toString.call(p).slice(8, -1);
+        return y === "Object" && p.constructor && (y = p.constructor.name), y === "Map" || y === "Set" ? Array.from(p) : y === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(y) ? Ag(p, m) : void 0;
+      }
+    }(e)) || t) {
+      r && (e = r);
+      var o = 0, a = function() {
+      };
+      return { s: a, n: function() {
+        return o >= e.length ? { done: !0 } : { done: !1, value: e[o++] };
+      }, e: function(p) {
+        throw p;
+      }, f: a };
+    }
+    throw new TypeError(`Invalid attempt to iterate non-iterable instance.
+In order to be iterable, non-array objects must have a [Symbol.iterator]() method.`);
+  }
+  var s, u = !0, f = !1;
+  return { s: function() {
+    r = r.call(e);
+  }, n: function() {
+    var p = r.next();
+    return u = p.done, p;
+  }, e: function(p) {
+    f = !0, s = p;
+  }, f: function() {
+    try {
+      u || r.return == null || r.return();
+    } finally {
+      if (f) throw s;
+    }
+  } };
+}
+function Ag(e, t) {
+  (t == null || t > e.length) && (t = e.length);
+  for (var r = 0, o = Array(t); r < t; r++) o[r] = e[r];
+  return o;
+}
+var Hn = /* @__PURE__ */ new Map(), no = null;
+function b_(e, t) {
+  var r = typeof Symbol < "u" && e[Symbol.iterator] || e["@@iterator"];
+  if (!r) {
+    if (Array.isArray(e) || (r = function(p, m) {
+      if (p) {
+        if (typeof p == "string") return Mg(p, m);
+        var y = {}.toString.call(p).slice(8, -1);
+        return y === "Object" && p.constructor && (y = p.constructor.name), y === "Map" || y === "Set" ? Array.from(p) : y === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(y) ? Mg(p, m) : void 0;
+      }
+    }(e)) || t) {
+      r && (e = r);
+      var o = 0, a = function() {
+      };
+      return { s: a, n: function() {
+        return o >= e.length ? { done: !0 } : { done: !1, value: e[o++] };
+      }, e: function(p) {
+        throw p;
+      }, f: a };
+    }
+    throw new TypeError(`Invalid attempt to iterate non-iterable instance.
+In order to be iterable, non-array objects must have a [Symbol.iterator]() method.`);
+  }
+  var s, u = !0, f = !1;
+  return { s: function() {
+    r = r.call(e);
+  }, n: function() {
+    var p = r.next();
+    return u = p.done, p;
+  }, e: function(p) {
+    f = !0, s = p;
+  }, f: function() {
+    try {
+      u || r.return == null || r.return();
+    } finally {
+      if (f) throw s;
+    }
+  } };
+}
+function Mg(e, t) {
+  (t == null || t > e.length) && (t = e.length);
+  for (var r = 0, o = Array(t); r < t; r++) o[r] = e[r];
+  return o;
+}
+var Jn = /* @__PURE__ */ new Map(), da = null;
+function E_(e) {
+  w0() ? function(t) {
+    Hn.has(t) || (Hn.set(t, {}), navigator.mediaDevices.enumerateDevices().then(function(r) {
+      Hn.has(t) && (Hn.get(t).lastDevicesString = JSON.stringify(r), no || (no = function() {
+        var o = Me(function* () {
+          var a, s = yield navigator.mediaDevices.enumerateDevices(), u = __(Hn.keys());
+          try {
+            for (u.s(); !(a = u.n()).done; ) {
+              var f = a.value, p = JSON.stringify(s);
+              p !== Hn.get(f).lastDevicesString && (Hn.get(f).lastDevicesString = p, f(s));
+            }
+          } catch (m) {
+            u.e(m);
+          } finally {
+            u.f();
+          }
+        });
+        return function() {
+          return o.apply(this, arguments);
+        };
+      }(), navigator.mediaDevices.addEventListener("devicechange", no)));
+    }).catch(function() {
+    }));
+  }(e) : function(t) {
+    Jn.has(t) || (Jn.set(t, {}), navigator.mediaDevices.enumerateDevices().then(function(r) {
+      Jn.has(t) && (Jn.get(t).lastDevicesString = JSON.stringify(r), da || (da = setInterval(Me(function* () {
+        var o, a = yield navigator.mediaDevices.enumerateDevices(), s = b_(Jn.keys());
+        try {
+          for (s.s(); !(o = s.n()).done; ) {
+            var u = o.value, f = JSON.stringify(a);
+            f !== Jn.get(u).lastDevicesString && (Jn.get(u).lastDevicesString = f, u(a));
+          }
+        } catch (p) {
+          s.e(p);
+        } finally {
+          s.f();
+        }
+      }), 3e3)));
+    }));
+  }(e);
+}
+function C_(e) {
+  w0() ? function(t) {
+    Hn.has(t) && (Hn.delete(t), Hn.size === 0 && no && (navigator.mediaDevices.removeEventListener("devicechange", no), no = null));
+  }(e) : function(t) {
+    Jn.has(t) && (Jn.delete(t), Jn.size === 0 && da && (clearInterval(da), da = null));
+  }(e);
+}
+function w0() {
+  var e;
+  return Fe() || ((e = navigator.mediaDevices) === null || e === void 0 ? void 0 : e.ondevicechange) !== void 0;
+}
+var x_ = /* @__PURE__ */ new Set();
+function T_(e, t) {
+  return e && e.readyState === "live" && !function(r, o) {
+    return r.muted && !x_.has(r.id);
+  }(e);
+}
+function Pg(e, t) {
+  var r = Object.keys(e);
+  if (Object.getOwnPropertySymbols) {
+    var o = Object.getOwnPropertySymbols(e);
+    t && (o = o.filter(function(a) {
+      return Object.getOwnPropertyDescriptor(e, a).enumerable;
+    })), r.push.apply(r, o);
+  }
+  return r;
+}
+function Rr(e) {
+  for (var t = 1; t < arguments.length; t++) {
+    var r = arguments[t] != null ? arguments[t] : {};
+    t % 2 ? Pg(Object(r), !0).forEach(function(o) {
+      Wn(e, o, r[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r)) : Pg(Object(r)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(r, o));
+    });
+  }
+  return e;
+}
+var ca = Object.freeze({ VIDEO: "video", AUDIO: "audio", SCREEN_VIDEO: "screenVideo", SCREEN_AUDIO: "screenAudio", CUSTOM_VIDEO: "customVideo", CUSTOM_AUDIO: "customAudio" }), A_ = Object.freeze({ PARTICIPANTS: "participants", STREAMING: "streaming", TRANSCRIPTION: "transcription" }), fa = Object.values(ca), Og = ["v", "a", "sv", "sa", "cv", "ca"];
+Object.freeze(fa.reduce(function(e, t, r) {
+  return e[t] = Og[r], e;
+}, {})), Object.freeze(Og.reduce(function(e, t, r) {
+  return e[t] = fa[r], e;
+}, {}));
+var M_ = [ca.VIDEO, ca.AUDIO, ca.SCREEN_VIDEO, ca.SCREEN_AUDIO], Ig = Object.values(A_), Lg = ["p", "s", "t"];
+Object.freeze(Ig.reduce(function(e, t, r) {
+  return e[t] = Lg[r], e;
+}, {})), Object.freeze(Lg.reduce(function(e, t, r) {
+  return e[t] = Ig[r], e;
+}, {}));
+var S0 = function() {
+  function e() {
+    var t = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {}, r = t.base, o = t.byUserId, a = t.byParticipantId;
+    fn(this, e), this.base = r, this.byUserId = o, this.byParticipantId = a;
+  }
+  return pn(e, [{ key: "clone", value: function() {
+    var t = new e();
+    if (this.base instanceof Tt ? t.base = this.base.clone() : t.base = this.base, this.byUserId !== void 0) for (var r in t.byUserId = {}, this.byUserId) {
+      var o = this.byUserId[r];
+      t.byUserId[r] = o instanceof Tt ? o.clone() : o;
+    }
+    if (this.byParticipantId !== void 0) for (var a in t.byParticipantId = {}, this.byParticipantId) {
+      var s = this.byParticipantId[a];
+      t.byParticipantId[a] = s instanceof Tt ? s.clone() : s;
+    }
+    return t;
+  } }, { key: "toJSONObject", value: function() {
+    var t = {};
+    if (typeof this.base == "boolean" ? t.base = this.base : this.base instanceof Tt && (t.base = this.base.toJSONObject()), this.byUserId !== void 0) for (var r in t.byUserId = {}, this.byUserId) {
+      var o = this.byUserId[r];
+      t.byUserId[r] = o instanceof Tt ? o.toJSONObject() : o;
+    }
+    if (this.byParticipantId !== void 0) for (var a in t.byParticipantId = {}, this.byParticipantId) {
+      var s = this.byParticipantId[a];
+      t.byParticipantId[a] = s instanceof Tt ? s.toJSONObject() : s;
+    }
+    return t;
+  } }, { key: "toMinifiedJSONObject", value: function() {
+    var t = {};
+    if (this.base !== void 0 && (typeof this.base == "boolean" ? t.b = this.base : t.b = this.base.toMinifiedJSONObject()), this.byUserId !== void 0) for (var r in t.u = {}, this.byUserId) {
+      var o = this.byUserId[r];
+      t.u[r] = typeof o == "boolean" ? o : o.toMinifiedJSONObject();
+    }
+    if (this.byParticipantId !== void 0) for (var a in t.p = {}, this.byParticipantId) {
+      var s = this.byParticipantId[a];
+      t.p[a] = typeof s == "boolean" ? s : s.toMinifiedJSONObject();
+    }
+    return t;
+  } }, { key: "normalize", value: function() {
+    return this.base instanceof Tt && (this.base = this.base.normalize()), this.byUserId && (this.byUserId = Object.fromEntries(Object.entries(this.byUserId).map(function(t) {
+      var r = jt(t, 2), o = r[0], a = r[1];
+      return [o, a instanceof Tt ? a.normalize() : a];
+    }))), this.byParticipantId && (this.byParticipantId = Object.fromEntries(Object.entries(this.byParticipantId).map(function(t) {
+      var r = jt(t, 2), o = r[0], a = r[1];
+      return [o, a instanceof Tt ? a.normalize() : a];
+    }))), this;
+  } }], [{ key: "fromJSONObject", value: function(t) {
+    var r, o, a;
+    if (t.base !== void 0 && (r = typeof t.base == "boolean" ? t.base : Tt.fromJSONObject(t.base)), t.byUserId !== void 0) for (var s in o = {}, t.byUserId) {
+      var u = t.byUserId[s];
+      o[s] = typeof u == "boolean" ? u : Tt.fromJSONObject(u);
+    }
+    if (t.byParticipantId !== void 0) for (var f in a = {}, t.byParticipantId) {
+      var p = t.byParticipantId[f];
+      a[f] = typeof p == "boolean" ? p : Tt.fromJSONObject(p);
+    }
+    return new e({ base: r, byUserId: o, byParticipantId: a });
+  } }, { key: "fromMinifiedJSONObject", value: function(t) {
+    var r, o, a;
+    if (t.b !== void 0 && (r = typeof t.b == "boolean" ? t.b : Tt.fromMinifiedJSONObject(t.b)), t.u !== void 0) for (var s in o = {}, t.u) {
+      var u = t.u[s];
+      o[s] = typeof u == "boolean" ? u : Tt.fromMinifiedJSONObject(u);
+    }
+    if (t.p !== void 0) for (var f in a = {}, t.p) {
+      var p = t.p[f];
+      a[f] = typeof p == "boolean" ? p : Tt.fromMinifiedJSONObject(p);
+    }
+    return new e({ base: r, byUserId: o, byParticipantId: a });
+  } }, { key: "validateJSONObject", value: function(t) {
+    if (ze(t) !== "object") return [!1, "canReceive must be an object"];
+    for (var r = ["base", "byUserId", "byParticipantId"], o = 0, a = Object.keys(t); o < a.length; o++) {
+      var s = a[o];
+      if (!r.includes(s)) return [!1, "canReceive can only contain keys (".concat(r.join(", "), ")")];
+      if (s === "base") {
+        var u = jt(Tt.validateJSONObject(t.base, !0), 2), f = u[0], p = u[1];
+        if (!f) return [!1, p];
+      } else {
+        if (ze(t[s]) !== "object") return [!1, "invalid (non-object) value for field '".concat(s, "' in canReceive")];
+        for (var m = 0, y = Object.values(t[s]); m < y.length; m++) {
+          var v = y[m], _ = jt(Tt.validateJSONObject(v), 2), k = _[0], T = _[1];
+          if (!k) return [!1, T];
+        }
+      }
+    }
+    return [!0];
+  } }]);
+}(), Tt = function() {
+  function e() {
+    var t = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {}, r = t.video, o = t.audio, a = t.screenVideo, s = t.screenAudio, u = t.customVideo, f = t.customAudio;
+    fn(this, e), this.video = r, this.audio = o, this.screenVideo = a, this.screenAudio = s, this.customVideo = u, this.customAudio = f;
+  }
+  return pn(e, [{ key: "clone", value: function() {
+    var t = new e();
+    return this.video !== void 0 && (t.video = this.video), this.audio !== void 0 && (t.audio = this.audio), this.screenVideo !== void 0 && (t.screenVideo = this.screenVideo), this.screenAudio !== void 0 && (t.screenAudio = this.screenAudio), this.customVideo !== void 0 && (t.customVideo = Rr({}, this.customVideo)), this.customAudio !== void 0 && (t.customAudio = Rr({}, this.customAudio)), t;
+  } }, { key: "toJSONObject", value: function() {
+    var t = {};
+    return this.video !== void 0 && (t.video = this.video), this.audio !== void 0 && (t.audio = this.audio), this.screenVideo !== void 0 && (t.screenVideo = this.screenVideo), this.screenAudio !== void 0 && (t.screenAudio = this.screenAudio), this.customVideo !== void 0 && (t.customVideo = Rr({}, this.customVideo)), this.customAudio !== void 0 && (t.customAudio = Rr({}, this.customAudio)), t;
+  } }, { key: "toMinifiedJSONObject", value: function() {
+    var t = {};
+    return this.video !== void 0 && (t.v = this.video), this.audio !== void 0 && (t.a = this.audio), this.screenVideo !== void 0 && (t.sv = this.screenVideo), this.screenAudio !== void 0 && (t.sa = this.screenAudio), this.customVideo !== void 0 && (t.cv = Rr({}, this.customVideo)), this.customAudio !== void 0 && (t.ca = Rr({}, this.customAudio)), t;
+  } }, { key: "normalize", value: function() {
+    function t(r, o) {
+      return r && Object.keys(r).length === 1 && r["*"] === o;
+    }
+    return !(this.video !== !0 || this.audio !== !0 || this.screenVideo !== !0 || this.screenAudio !== !0 || !t(this.customVideo, !0) || !t(this.customAudio, !0)) || (this.video !== !1 || this.audio !== !1 || this.screenVideo !== !1 || this.screenAudio !== !1 || !t(this.customVideo, !1) || !t(this.customAudio, !1)) && this;
+  } }], [{ key: "fromBoolean", value: function(t) {
+    return new e({ video: t, audio: t, screenVideo: t, screenAudio: t, customVideo: { "*": t }, customAudio: { "*": t } });
+  } }, { key: "fromJSONObject", value: function(t) {
+    return new e({ video: t.video, audio: t.audio, screenVideo: t.screenVideo, screenAudio: t.screenAudio, customVideo: t.customVideo !== void 0 ? Rr({}, t.customVideo) : void 0, customAudio: t.customAudio !== void 0 ? Rr({}, t.customAudio) : void 0 });
+  } }, { key: "fromMinifiedJSONObject", value: function(t) {
+    return new e({ video: t.v, audio: t.a, screenVideo: t.sv, screenAudio: t.sa, customVideo: t.cv, customAudio: t.ca });
+  } }, { key: "validateJSONObject", value: function(t, r) {
+    if (typeof t == "boolean") return [!0];
+    if (ze(t) !== "object") return [!1, "invalid (non-object, non-boolean) value in canReceive"];
+    for (var o = Object.keys(t), a = 0, s = o; a < s.length; a++) {
+      var u = s[a];
+      if (!fa.includes(u)) return [!1, "invalid media type '".concat(u, "' in canReceive")];
+      if (M_.includes(u)) {
+        if (typeof t[u] != "boolean") return [!1, "invalid (non-boolean) value for media type '".concat(u, "' in canReceive")];
+      } else {
+        if (ze(t[u]) !== "object") return [!1, "invalid (non-object) value for media type '".concat(u, "' in canReceive")];
+        for (var f = 0, p = Object.values(t[u]); f < p.length; f++)
+          if (typeof p[f] != "boolean") return [!1, "invalid (non-boolean) value for entry within '".concat(u, "' in canReceive")];
+        if (r && t[u]["*"] === void 0) return [!1, `canReceive "base" permission must specify "*" as an entry within '`.concat(u, "'")];
+      }
+    }
+    return r && o.length !== fa.length ? [!1, 'canReceive "base" permission must specify all media types: '.concat(fa.join(", "), " (or be set to a boolean shorthand)")] : [!0];
+  } }]);
+}(), P_ = ["result"], O_ = ["preserveIframe"];
+function Dg(e, t) {
+  var r = Object.keys(e);
+  if (Object.getOwnPropertySymbols) {
+    var o = Object.getOwnPropertySymbols(e);
+    t && (o = o.filter(function(a) {
+      return Object.getOwnPropertyDescriptor(e, a).enumerable;
+    })), r.push.apply(r, o);
+  }
+  return r;
+}
+function _e(e) {
+  for (var t = 1; t < arguments.length; t++) {
+    var r = arguments[t] != null ? arguments[t] : {};
+    t % 2 ? Dg(Object(r), !0).forEach(function(o) {
+      Wn(e, o, r[o]);
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r)) : Dg(Object(r)).forEach(function(o) {
+      Object.defineProperty(e, o, Object.getOwnPropertyDescriptor(r, o));
+    });
+  }
+  return e;
+}
+function k0() {
+  try {
+    var e = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function() {
+    }));
+  } catch {
+  }
+  return (k0 = function() {
+    return !!e;
+  })();
+}
+function jg(e, t) {
+  var r = typeof Symbol < "u" && e[Symbol.iterator] || e["@@iterator"];
+  if (!r) {
+    if (Array.isArray(e) || (r = function(p, m) {
+      if (p) {
+        if (typeof p == "string") return Ng(p, m);
+        var y = {}.toString.call(p).slice(8, -1);
+        return y === "Object" && p.constructor && (y = p.constructor.name), y === "Map" || y === "Set" ? Array.from(p) : y === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(y) ? Ng(p, m) : void 0;
+      }
+    }(e)) || t) {
+      r && (e = r);
+      var o = 0, a = function() {
+      };
+      return { s: a, n: function() {
+        return o >= e.length ? { done: !0 } : { done: !1, value: e[o++] };
+      }, e: function(p) {
+        throw p;
+      }, f: a };
+    }
+    throw new TypeError(`Invalid attempt to iterate non-iterable instance.
+In order to be iterable, non-array objects must have a [Symbol.iterator]() method.`);
+  }
+  var s, u = !0, f = !1;
+  return { s: function() {
+    r = r.call(e);
+  }, n: function() {
+    var p = r.next();
+    return u = p.done, p;
+  }, e: function(p) {
+    f = !0, s = p;
+  }, f: function() {
+    try {
+      u || r.return == null || r.return();
+    } finally {
+      if (f) throw s;
+    }
+  } };
+}
+function Ng(e, t) {
+  (t == null || t > e.length) && (t = e.length);
+  for (var r = 0, o = Array(t); r < t; r++) o[r] = e[r];
+  return o;
+}
+var ui = {}, Rg = "video", I_ = "voice", Fg = Fe() ? { data: {} } : { data: {}, topology: "none" }, Vg = { present: 0, hidden: 0 }, _0 = { maxBitrate: { min: 1e5, max: 25e5 }, maxFramerate: { min: 1, max: 30 }, scaleResolutionDownBy: { min: 1, max: 8 } }, zc = Object.keys(_0), zg = ["state", "volume", "simulcastEncodings"], Bg = { androidInCallNotification: { title: "string", subtitle: "string", iconName: "string", disableForCustomOverride: "boolean" }, disableAutoDeviceManagement: { audio: "boolean", video: "boolean" } }, vl = { id: { iconPath: "string", iconPathDarkMode: "string", label: "string", tooltip: "string", visualState: "'default' | 'sidebar-open' | 'active'" } }, Ld = { id: { allow: "string", controlledBy: "'*' | 'owners' | string[]", csp: "string", iconURL: "string", label: "string", loading: "'eager' | 'lazy'", location: "'main' | 'sidebar'", name: "string", referrerPolicy: "string", sandbox: "string", src: "string", srcdoc: "string", shared: "string[] | 'owners' | boolean" } }, ci = { customIntegrations: { validate: P0, help: A0() }, customTrayButtons: { validate: M0, help: "customTrayButtons should be a dictionary of the type ".concat(JSON.stringify(vl)) }, url: { validate: function(e) {
+  return typeof e == "string";
+}, help: "url should be a string" }, baseUrl: { validate: function(e) {
+  return typeof e == "string";
+}, help: "baseUrl should be a string" }, token: { validate: function(e) {
+  return typeof e == "string";
+}, help: "token should be a string", queryString: "t" }, dailyConfig: { validate: function(e, t) {
+  try {
+    return t.validateDailyConfig(e), !0;
+  } catch (r) {
+    console.error("Failed to validate dailyConfig", r);
+  }
+  return !1;
+}, help: "Unsupported dailyConfig. Check error logs for detailed info." }, reactNativeConfig: { validate: function(e) {
+  return O0(e, Bg);
+}, help: "reactNativeConfig should look like ".concat(JSON.stringify(Bg), ", all fields optional") }, lang: { validate: function(e) {
+  return ["da", "de", "en-us", "en", "es", "fi", "fr", "it", "jp", "ka", "nl", "no", "pl", "pt", "pt-BR", "ru", "sv", "tr", "user"].includes(e);
+}, help: "language not supported. Options are: da, de, en-us, en, es, fi, fr, it, jp, ka, nl, no, pl, pt, pt-BR, ru, sv, tr, user" }, userName: !0, userData: { validate: function(e) {
+  try {
+    return b0(e), !0;
+  } catch (t) {
+    return console.error(t), !1;
+  }
+}, help: "invalid userData type provided" }, startVideoOff: !0, startAudioOff: !0, allowLocalVideo: !0, allowLocalAudio: !0, activeSpeakerMode: !0, showLeaveButton: !0, showLocalVideo: !0, showParticipantsBar: !0, showFullscreenButton: !0, showUserNameChangeUI: !0, iframeStyle: !0, customLayout: !0, cssFile: !0, cssText: !0, bodyClass: !0, videoSource: { validate: function(e, t) {
+  if (typeof e == "boolean") return t._preloadCache.allowLocalVideo = e, !0;
+  var r;
+  if (e instanceof MediaStreamTrack) t._sharedTracks.videoTrack = e, r = { customTrack: pr };
+  else {
+    if (delete t._sharedTracks.videoTrack, typeof e != "string") return console.error("videoSource must be a MediaStreamTrack, boolean, or a string"), !1;
+    r = { deviceId: e };
+  }
+  return t._updatePreloadCacheInputSettings({ video: { settings: r } }, !1), !0;
+} }, audioSource: { validate: function(e, t) {
+  if (typeof e == "boolean") return t._preloadCache.allowLocalAudio = e, !0;
+  var r;
+  if (e instanceof MediaStreamTrack) t._sharedTracks.audioTrack = e, r = { customTrack: pr };
+  else {
+    if (delete t._sharedTracks.audioTrack, typeof e != "string") return console.error("audioSource must be a MediaStreamTrack, boolean, or a string"), !1;
+    r = { deviceId: e };
+  }
+  return t._updatePreloadCacheInputSettings({ audio: { settings: r } }, !1), !0;
+} }, subscribeToTracksAutomatically: { validate: function(e, t) {
+  return t._preloadCache.subscribeToTracksAutomatically = e, !0;
+} }, theme: { validate: function(e) {
+  var t = ["accent", "accentText", "background", "backgroundAccent", "baseText", "border", "mainAreaBg", "mainAreaBgAccent", "mainAreaText", "supportiveText"], r = function(o) {
+    for (var a = 0, s = Object.keys(o); a < s.length; a++) {
+      var u = s[a];
+      if (!t.includes(u)) return console.error('unsupported color "'.concat(u, '". Valid colors: ').concat(t.join(", "))), !1;
+      if (!o[u].match(/^#[0-9a-f]{6}|#[0-9a-f]{3}$/i)) return console.error("".concat(u, ' theme color should be provided in valid hex color format. Received: "').concat(o[u], '"')), !1;
+    }
+    return !0;
+  };
+  return ze(e) === "object" && ("light" in e && "dark" in e || "colors" in e) ? "light" in e && "dark" in e ? "colors" in e.light ? "colors" in e.dark ? r(e.light.colors) && r(e.dark.colors) : (console.error('Dark theme is missing "colors" property.', e), !1) : (console.error('Light theme is missing "colors" property.', e), !1) : r(e.colors) : (console.error('Theme must contain either both "light" and "dark" properties, or "colors".', e), !1);
+}, help: "unsupported theme configuration. Check error logs for detailed info." }, layoutConfig: { validate: function(e) {
+  if ("grid" in e) {
+    var t = e.grid;
+    if ("maxTilesPerPage" in t) {
+      if (!Number.isInteger(t.maxTilesPerPage)) return console.error("grid.maxTilesPerPage should be an integer. You passed ".concat(t.maxTilesPerPage, ".")), !1;
+      if (t.maxTilesPerPage > 49) return console.error("grid.maxTilesPerPage can't be larger than 49 without sacrificing browser performance. Please contact us at https://www.daily.co/contact to talk about your use case."), !1;
+    }
+    if ("minTilesPerPage" in t) {
+      if (!Number.isInteger(t.minTilesPerPage)) return console.error("grid.minTilesPerPage should be an integer. You passed ".concat(t.minTilesPerPage, ".")), !1;
+      if (t.minTilesPerPage < 1) return console.error("grid.minTilesPerPage can't be lower than 1."), !1;
+      if ("maxTilesPerPage" in t && t.minTilesPerPage > t.maxTilesPerPage) return console.error("grid.minTilesPerPage can't be higher than grid.maxTilesPerPage."), !1;
+    }
+  }
+  return !0;
+}, help: "unsupported layoutConfig. Check error logs for detailed info." }, receiveSettings: { validate: function(e) {
+  return E0(e, { allowAllParticipantsKey: !1 });
+}, help: T0({ allowAllParticipantsKey: !1 }) }, sendSettings: { validate: function(e, t) {
+  return !!function(r, o) {
+    try {
+      return o.validateUpdateSendSettings(r), !0;
+    } catch (a) {
+      return console.error("Failed to validate send settings", a), !1;
+    }
+  }(e, t) && (t._preloadCache.sendSettings = e, !0);
+}, help: "Invalid sendSettings provided. Check error logs for detailed info." }, inputSettings: { validate: function(e, t) {
+  var r;
+  return !!C0(e) && (t._inputSettings || (t._inputSettings = {}), x0(e, (r = t.properties) === null || r === void 0 ? void 0 : r.dailyConfig, t._sharedTracks), t._updatePreloadCacheInputSettings(e, !0), !0);
+}, help: Dd() }, layout: { validate: function(e) {
+  return e === "custom-v1" || e === "browser" || e === "none";
+}, help: 'layout may only be set to "custom-v1"', queryString: "layout" }, emb: { queryString: "emb" }, embHref: { queryString: "embHref" }, dailyJsVersion: { queryString: "dailyJsVersion" }, proxy: { queryString: "proxy" }, strictMode: !0, allowMultipleCallInstances: !0 }, Gs = { styles: { validate: function(e) {
+  for (var t in e) if (t !== "cam" && t !== "screen") return !1;
+  if (e.cam) {
+    for (var r in e.cam) if (r !== "div" && r !== "video") return !1;
+  }
+  if (e.screen) {
+    for (var o in e.screen) if (o !== "div" && o !== "video") return !1;
+  }
+  return !0;
+}, help: "styles format should be a subset of: { cam: {div: {}, video: {}}, screen: {div: {}, video: {}} }" }, setSubscribedTracks: { validate: function(e, t) {
+  if (t._preloadCache.subscribeToTracksAutomatically) return !1;
+  var r = [!0, !1, "staged"];
+  if (r.includes(e) || !Fe() && e === "avatar") return !0;
+  var o = ["audio", "video", "screenAudio", "screenVideo", "rmpAudio", "rmpVideo"], a = function(s) {
+    var u = arguments.length > 1 && arguments[1] !== void 0 && arguments[1];
+    for (var f in s) if (f === "custom") {
+      if (!r.includes(s[f]) && !a(s[f], !0)) return !1;
+    } else {
+      var p = !u && !o.includes(f), m = !r.includes(s[f]);
+      if (p || m) return !1;
+    }
+    return !0;
+  };
+  return a(e);
+}, help: "setSubscribedTracks cannot be used when setSubscribeToTracksAutomatically is enabled, and should be of the form: " + "true".concat(Fe() ? "" : " | 'avatar'", " | false | 'staged' | { [audio: true|false|'staged'], [video: true|false|'staged'], [screenAudio: true|false|'staged'], [screenVideo: true|false|'staged'] }") }, setAudio: !0, setVideo: !0, setScreenShare: { validate: function(e) {
+  return e === !1;
+}, help: "setScreenShare must be false, as it's only meant for stopping remote participants' screen shares" }, eject: !0, updatePermissions: { validate: function(e) {
+  for (var t = 0, r = Object.entries(e); t < r.length; t++) {
+    var o = jt(r[t], 2), a = o[0], s = o[1];
+    switch (a) {
+      case "hasPresence":
+        if (typeof s != "boolean") return !1;
+        break;
+      case "canSend":
+        if (s instanceof Set || s instanceof Array || Array.isArray(s)) {
+          var u, f = ["video", "audio", "screenVideo", "screenAudio", "customVideo", "customAudio"], p = jg(s);
+          try {
+            for (p.s(); !(u = p.n()).done; ) {
+              var m = u.value;
+              if (!f.includes(m)) return !1;
+            }
+          } catch (M) {
+            p.e(M);
+          } finally {
+            p.f();
+          }
+        } else if (typeof s != "boolean") return !1;
+        (s instanceof Array || Array.isArray(s)) && (e.canSend = new Set(s));
+        break;
+      case "canReceive":
+        var y = jt(S0.validateJSONObject(s), 2), v = y[0], _ = y[1];
+        if (!v) return console.error(_), !1;
+        break;
+      case "canAdmin":
+        if (s instanceof Set || s instanceof Array || Array.isArray(s)) {
+          var k, T = ["participants", "streaming", "transcription"], E = jg(s);
+          try {
+            for (E.s(); !(k = E.n()).done; ) {
+              var L = k.value;
+              if (!T.includes(L)) return !1;
+            }
+          } catch (M) {
+            E.e(M);
+          } finally {
+            E.f();
+          }
+        } else if (typeof s != "boolean") return !1;
+        (s instanceof Array || Array.isArray(s)) && (e.canAdmin = new Set(s));
+        break;
+      default:
+        return !1;
+    }
+  }
+  return !0;
+}, help: "updatePermissions can take hasPresence, canSend, canReceive, and canAdmin permissions. hasPresence must be a boolean. canSend can be a boolean or an Array or Set of media types (video, audio, screenVideo, screenAudio, customVideo, customAudio). canReceive must be an object specifying base, byUserId, and/or byParticipantId fields (see documentation for more details). canAdmin can be a boolean or an Array or Set of admin types (participants, streaming, transcription)." } };
+Promise.any || (Promise.any = function() {
+  var e = Me(function* (t) {
+    return new Promise(function(r, o) {
+      var a = [];
+      t.forEach(function(s) {
+        return Promise.resolve(s).then(function(u) {
+          r(u);
+        }).catch(function(u) {
+          a.push(u), a.length === t.length && o(a);
+        });
+      });
+    });
+  });
+  return function(t) {
+    return e.apply(this, arguments);
+  };
+}());
+var L_ = function() {
+  function e(d) {
+    var S, w, x, P, U, Q, K = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
+    if (fn(this, e), x = this, P = Fn(P = e), Wn(w = bl(x, k0() ? Reflect.construct(P, [], Fn(x).constructor) : P.apply(x, U)), "startListeningForDeviceChanges", function() {
+      E_(w.handleDeviceChange);
+    }), Wn(w, "stopListeningForDeviceChanges", function() {
+      C_(w.handleDeviceChange);
+    }), Wn(w, "handleDeviceChange", function(Te) {
+      Te = Te.map(function(Oe) {
+        return JSON.parse(JSON.stringify(Oe));
+      }), w.emitDailyJSEvent({ action: "available-devices-updated", availableDevices: Te });
+    }), Wn(w, "handleNativeAppStateChange", function() {
+      var Te = Me(function* (Oe) {
+        if (Oe === "destroyed") return console.warn("App has been destroyed before leaving the meeting. Cleaning up all the resources!"), void (yield w.destroy());
+        var gt = Oe === "active";
+        w.disableReactNativeAutoDeviceManagement("video") || (gt ? w.camUnmutedBeforeLosingNativeActiveState && w.setLocalVideo(!0) : (w.camUnmutedBeforeLosingNativeActiveState = w.localVideo(), w.camUnmutedBeforeLosingNativeActiveState && w.setLocalVideo(!1)));
+      });
+      return function(Oe) {
+        return Te.apply(this, arguments);
+      };
+    }()), Wn(w, "handleNativeAudioFocusChange", function(Te) {
+      w.disableReactNativeAutoDeviceManagement("audio") || (w._hasNativeAudioFocus = Te, w.toggleParticipantAudioBasedOnNativeAudioFocus(), w._hasNativeAudioFocus ? w.micUnmutedBeforeLosingNativeAudioFocus && w.setLocalAudio(!0) : (w.micUnmutedBeforeLosingNativeAudioFocus = w.localAudio(), w.setLocalAudio(!1)));
+    }), Wn(w, "handleNativeSystemScreenCaptureStop", function() {
+      w.stopScreenShare();
+    }), !Rc() && !Fe()) throw new Error("WebRTC not supported or suppressed");
+    if (w.strictMode = K.strictMode === void 0 || K.strictMode, w.allowMultipleCallInstances = (S = K.allowMultipleCallInstances) !== null && S !== void 0 && S, Object.keys(ui).length && (w._logDuplicateInstanceAttempt(), !w.allowMultipleCallInstances)) {
+      if (w.strictMode) throw new Error("Duplicate DailyIframe instances are not allowed");
+      console.warn("Using strictMode: false to allow multiple call instances is now deprecated. Set `allowMultipleCallInstances: true`");
+    }
+    if (window._daily || (window._daily = { pendings: [], instances: {} }), w.callClientId = Cl(), ui[(Q = w).callClientId] = Q, window._daily.instances[w.callClientId] = {}, w._sharedTracks = {}, window._daily.instances[w.callClientId].tracks = w._sharedTracks, K.dailyJsVersion = e.version(), w._iframe = d, w._callObjectMode = K.layout === "none" && !w._iframe, w._preloadCache = { subscribeToTracksAutomatically: !0, outputDeviceId: null, inputSettings: null, sendSettings: null, videoTrackForNetworkConnectivityTest: null, videoTrackForConnectionQualityTest: null }, K.showLocalVideo !== void 0 ? w._callObjectMode ? console.error("showLocalVideo is not available in call object mode") : w._showLocalVideo = !!K.showLocalVideo : w._showLocalVideo = !0, K.showParticipantsBar !== void 0 ? w._callObjectMode ? console.error("showParticipantsBar is not available in call object mode") : w._showParticipantsBar = !!K.showParticipantsBar : w._showParticipantsBar = !0, K.customIntegrations !== void 0 ? w._callObjectMode ? console.error("customIntegrations is not available in call object mode") : w._customIntegrations = K.customIntegrations : w._customIntegrations = {}, K.customTrayButtons !== void 0 ? w._callObjectMode ? console.error("customTrayButtons is not available in call object mode") : w._customTrayButtons = K.customTrayButtons : w._customTrayButtons = {}, K.activeSpeakerMode !== void 0 ? w._callObjectMode ? console.error("activeSpeakerMode is not available in call object mode") : w._activeSpeakerMode = !!K.activeSpeakerMode : w._activeSpeakerMode = !1, K.receiveSettings ? w._callObjectMode ? w._receiveSettings = K.receiveSettings : console.error("receiveSettings is only available in call object mode") : w._receiveSettings = {}, w.validateProperties(K), w.properties = _e({}, K), w._inputSettings || (w._inputSettings = {}), w._callObjectLoader = w._callObjectMode ? new p_(w.callClientId) : null, w._callState = Sd, w._isPreparingToJoin = !1, w._accessState = { access: il }, w._meetingSessionSummary = {}, w._finalSummaryOfPrevSession = {}, w._meetingSessionState = qc(Fg, w._callObjectMode), w._nativeInCallAudioMode = Rg, w._participants = {}, w._isScreenSharing = !1, w._participantCounts = Vg, w._rmpPlayerState = {}, w._waitingParticipants = {}, w._network = { threshold: "good", quality: 100, networkState: "unknown", stats: {} }, w._activeSpeaker = {}, w._localAudioLevel = 0, w._isLocalAudioLevelObserverRunning = !1, w._remoteParticipantsAudioLevel = {}, w._isRemoteParticipantsAudioLevelObserverRunning = !1, w._maxAppMessageSize = Dc, w._messageChannel = Fe() ? new d_() : new c_(), w._iframe && (w._iframe.requestFullscreen ? w._iframe.addEventListener("fullscreenchange", function() {
+      document.fullscreenElement === w._iframe ? (w.emitDailyJSEvent({ action: la }), w.sendMessageToCallMachine({ action: la })) : (w.emitDailyJSEvent({ action: ua }), w.sendMessageToCallMachine({ action: ua }));
+    }) : w._iframe.webkitRequestFullscreen && w._iframe.addEventListener("webkitfullscreenchange", function() {
+      document.webkitFullscreenElement === w._iframe ? (w.emitDailyJSEvent({ action: la }), w.sendMessageToCallMachine({ action: la })) : (w.emitDailyJSEvent({ action: ua }), w.sendMessageToCallMachine({ action: ua }));
+    })), Fe()) {
+      var he = w.nativeUtils();
+      he.addAudioFocusChangeListener && he.removeAudioFocusChangeListener && he.addAppStateChangeListener && he.removeAppStateChangeListener && he.addSystemScreenCaptureStopListener && he.removeSystemScreenCaptureStopListener || console.warn("expected (add|remove)(AudioFocusChange|AppActiveStateChange|SystemScreenCaptureStop)Listener to be available in React Native"), w._hasNativeAudioFocus = !0, he.addAudioFocusChangeListener(w.handleNativeAudioFocusChange), he.addAppStateChangeListener(w.handleNativeAppStateChange), he.addSystemScreenCaptureStopListener(w.handleNativeSystemScreenCaptureStop);
+    }
+    return w._callObjectMode && w.startListeningForDeviceChanges(), w._messageChannel.addListenerForMessagesFromCallMachine(w.handleMessageFromCallMachine, w.callClientId, w), w;
+  }
+  return El(e, Fs), pn(e, [{ key: "destroy", value: (G = Me(function* () {
+    var d;
+    try {
+      yield this.leave();
+    } catch {
+    }
+    var S = this._iframe;
+    if (S) {
+      var w = S.parentElement;
+      w && w.removeChild(S);
+    }
+    if (this._messageChannel.removeListener(this.handleMessageFromCallMachine), Fe()) {
+      var x = this.nativeUtils();
+      x.removeAudioFocusChangeListener(this.handleNativeAudioFocusChange), x.removeAppStateChangeListener(this.handleNativeAppStateChange), x.removeSystemScreenCaptureStopListener(this.handleNativeSystemScreenCaptureStop);
+    }
+    this._callObjectMode && this.stopListeningForDeviceChanges(), this.resetMeetingDependentVars(), this._destroyed = !0, this.emitDailyJSEvent({ action: "call-instance-destroyed" }), delete ui[this.callClientId], !((d = window) === null || d === void 0 || (d = d._daily) === null || d === void 0) && d.instances && delete window._daily.instances[this.callClientId], this.strictMode && (this.callClientId = void 0);
+  }), function() {
+    return G.apply(this, arguments);
+  }) }, { key: "isDestroyed", value: function() {
+    return !!this._destroyed;
+  } }, { key: "loadCss", value: function(d) {
+    var S = d.bodyClass, w = d.cssFile, x = d.cssText;
+    return Re(), this.sendMessageToCallMachine({ action: "load-css", cssFile: this.absoluteUrl(w), bodyClass: S, cssText: x }), this;
+  } }, { key: "iframe", value: function() {
+    return Re(), this._iframe;
+  } }, { key: "meetingState", value: function() {
+    return this._callState;
+  } }, { key: "accessState", value: function() {
+    return jn(this._callObjectMode, "accessState()"), this._accessState;
+  } }, { key: "participants", value: function() {
+    return this._participants;
+  } }, { key: "participantCounts", value: function() {
+    return this._participantCounts;
+  } }, { key: "waitingParticipants", value: function() {
+    return jn(this._callObjectMode, "waitingParticipants()"), this._waitingParticipants;
+  } }, { key: "validateParticipantProperties", value: function(d, S) {
+    for (var w in S) {
+      if (!Gs[w]) throw new Error("unrecognized updateParticipant property ".concat(w));
+      if (Gs[w].validate && !Gs[w].validate(S[w], this, this._participants[d])) throw new Error(Gs[w].help);
+    }
+  } }, { key: "updateParticipant", value: function(d, S) {
+    return this._participants.local && this._participants.local.session_id === d && (d = "local"), d && S && (this.validateParticipantProperties(d, S), this.sendMessageToCallMachine({ action: "update-participant", id: d, properties: S })), this;
+  } }, { key: "updateParticipants", value: function(d) {
+    var S = this._participants.local && this._participants.local.session_id;
+    for (var w in d) w === S && (w = "local"), w && d[w] && this.validateParticipantProperties(w, d[w]);
+    return this.sendMessageToCallMachine({ action: "update-participants", participants: d }), this;
+  } }, { key: "updateWaitingParticipant", value: (I = Me(function* () {
+    var d = this, S = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "", w = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
+    if (jn(this._callObjectMode, "updateWaitingParticipant()"), Ge(this._callState, "updateWaitingParticipant()"), typeof S != "string" || ze(w) !== "object") throw new Error("updateWaitingParticipant() must take an id string and a updates object");
+    return new Promise(function(x, P) {
+      d.sendMessageToCallMachine({ action: "daily-method-update-waiting-participant", id: S, updates: w }, function(U) {
+        U.error && P(U.error), U.id || P(new Error("unknown error in updateWaitingParticipant()")), x({ id: U.id });
+      });
+    });
+  }), function() {
+    return I.apply(this, arguments);
+  }) }, { key: "updateWaitingParticipants", value: (C = Me(function* () {
+    var d = this, S = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    if (jn(this._callObjectMode, "updateWaitingParticipants()"), Ge(this._callState, "updateWaitingParticipants()"), ze(S) !== "object") throw new Error("updateWaitingParticipants() must take a mapping between ids and update objects");
+    return new Promise(function(w, x) {
+      d.sendMessageToCallMachine({ action: "daily-method-update-waiting-participants", updatesById: S }, function(P) {
+        P.error && x(P.error), P.ids || x(new Error("unknown error in updateWaitingParticipants()")), w({ ids: P.ids });
+      });
+    });
+  }), function() {
+    return C.apply(this, arguments);
+  }) }, { key: "requestAccess", value: (re = Me(function* () {
+    var d = this, S = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {}, w = S.access, x = w === void 0 ? { level: lv } : w, P = S.name, U = P === void 0 ? "" : P;
+    return jn(this._callObjectMode, "requestAccess()"), Ge(this._callState, "requestAccess()"), new Promise(function(Q, K) {
+      d.sendMessageToCallMachine({ action: "daily-method-request-access", access: x, name: U }, function(he) {
+        he.error && K(he.error), he.access || K(new Error("unknown error in requestAccess()")), Q({ access: he.access, granted: he.granted });
+      });
+    });
+  }), function() {
+    return re.apply(this, arguments);
+  }) }, { key: "localAudio", value: function() {
+    return this._participants.local ? !["blocked", "off"].includes(this._participants.local.tracks.audio.state) : null;
+  } }, { key: "localVideo", value: function() {
+    return this._participants.local ? !["blocked", "off"].includes(this._participants.local.tracks.video.state) : null;
+  } }, { key: "setLocalAudio", value: function(d) {
+    var S = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
+    return "forceDiscardTrack" in S && (Fe() ? (console.warn("forceDiscardTrack option not supported in React Native; ignoring"), S = {}) : d && (console.warn("forceDiscardTrack option only supported when calling setLocalAudio(false); ignoring"), S = {})), this.sendMessageToCallMachine({ action: "local-audio", state: d, options: S }), this;
+  } }, { key: "localScreenAudio", value: function() {
+    return this._participants.local ? !["blocked", "off"].includes(this._participants.local.tracks.screenAudio.state) : null;
+  } }, { key: "localScreenVideo", value: function() {
+    return this._participants.local ? !["blocked", "off"].includes(this._participants.local.tracks.screenVideo.state) : null;
+  } }, { key: "updateScreenShare", value: function(d) {
+    if (this._isScreenSharing) return this.sendMessageToCallMachine({ action: "local-screen-update", options: d }), this;
+    console.warn("There is no screen share in progress. Try calling startScreenShare first.");
+  } }, { key: "setLocalVideo", value: function(d) {
+    return this.sendMessageToCallMachine({ action: "local-video", state: d }), this;
+  } }, { key: "_setAllowLocalAudio", value: function(d) {
+    if (this._preloadCache.allowLocalAudio = d, this._callMachineInitialized) return this.sendMessageToCallMachine({ action: "set-allow-local-audio", state: d }), this;
+  } }, { key: "_setAllowLocalVideo", value: function(d) {
+    if (this._preloadCache.allowLocalVideo = d, this._callMachineInitialized) return this.sendMessageToCallMachine({ action: "set-allow-local-video", state: d }), this;
+  } }, { key: "getReceiveSettings", value: (Y = Me(function* (d) {
+    var S = this, w = (arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {}).showInheritedValues, x = w !== void 0 && w;
+    if (jn(this._callObjectMode, "getReceiveSettings()"), !this._callMachineInitialized) return this._receiveSettings;
+    switch (ze(d)) {
+      case "string":
+        return new Promise(function(P) {
+          S.sendMessageToCallMachine({ action: "get-single-participant-receive-settings", id: d, showInheritedValues: x }, function(U) {
+            P(U.receiveSettings);
+          });
+        });
+      case "undefined":
+        return this._receiveSettings;
+      default:
+        throw new Error('first argument to getReceiveSettings() must be a participant id (or "base"), or there should be no arguments');
+    }
+  }), function(d) {
+    return Y.apply(this, arguments);
+  }) }, { key: "updateReceiveSettings", value: (ve = Me(function* (d) {
+    var S = this;
+    if (jn(this._callObjectMode, "updateReceiveSettings()"), !E0(d, { allowAllParticipantsKey: !0 })) throw new Error(T0({ allowAllParticipantsKey: !0 }));
+    return Ge(this._callState, "updateReceiveSettings()", "To specify receive settings earlier, use the receiveSettings config property."), new Promise(function(w) {
+      S.sendMessageToCallMachine({ action: "update-receive-settings", receiveSettings: d }, function(x) {
+        w({ receiveSettings: x.receiveSettings });
+      });
+    });
+  }), function(d) {
+    return ve.apply(this, arguments);
+  }) }, { key: "_prepInputSettingsForSharing", value: function(d, S) {
+    if (d) {
+      var w = {};
+      if (d.audio) {
+        var x, P, U;
+        d.audio.settings && (!Object.keys(d.audio.settings).length && S || (w.audio = { settings: _e({}, d.audio.settings) })), S && (x = w.audio) !== null && x !== void 0 && (x = x.settings) !== null && x !== void 0 && x.customTrack && (w.audio.settings = { customTrack: this._sharedTracks.audioTrack });
+        var Q = ((P = d.audio.processor) === null || P === void 0 ? void 0 : P.type) === "none" && ((U = d.audio.processor) === null || U === void 0 ? void 0 : U._isDefaultWhenNone);
+        if (d.audio.processor && !Q) {
+          var K = _e({}, d.audio.processor);
+          delete K._isDefaultWhenNone, w.audio = _e(_e({}, w.audio), {}, { processor: K });
+        }
+      }
+      if (d.video) {
+        var he, Te, Oe;
+        d.video.settings && (!Object.keys(d.video.settings).length && S || (w.video = { settings: _e({}, d.video.settings) })), S && (he = w.video) !== null && he !== void 0 && (he = he.settings) !== null && he !== void 0 && he.customTrack && (w.video.settings = { customTrack: this._sharedTracks.videoTrack });
+        var gt = ((Te = d.video.processor) === null || Te === void 0 ? void 0 : Te.type) === "none" && ((Oe = d.video.processor) === null || Oe === void 0 ? void 0 : Oe._isDefaultWhenNone);
+        if (d.video.processor && !gt) {
+          var Rt = _e({}, d.video.processor);
+          delete Rt._isDefaultWhenNone, w.video = _e(_e({}, w.video), {}, { processor: Rt });
+        }
+      }
+      return w;
+    }
+  } }, { key: "getInputSettings", value: function() {
+    var d = this;
+    return Re(), new Promise(function(S) {
+      S(d._getInputSettings());
+    });
+  } }, { key: "_getInputSettings", value: function() {
+    var d, S, w, x, P, U, Q = { processor: { type: "none", _isDefaultWhenNone: !0 } };
+    this._inputSettings ? (d = ((w = this._inputSettings) === null || w === void 0 ? void 0 : w.video) || Q, S = ((x = this._inputSettings) === null || x === void 0 ? void 0 : x.audio) || Q) : (d = ((P = this._preloadCache) === null || P === void 0 || (P = P.inputSettings) === null || P === void 0 ? void 0 : P.video) || Q, S = ((U = this._preloadCache) === null || U === void 0 || (U = U.inputSettings) === null || U === void 0 ? void 0 : U.audio) || Q);
+    var K = { audio: S, video: d };
+    return this._prepInputSettingsForSharing(K, !0);
+  } }, { key: "_updatePreloadCacheInputSettings", value: function(d, S) {
+    var w = this._inputSettings || {}, x = {};
+    if (d.video) {
+      var P, U, Q;
+      x.video = {}, d.video.settings ? (x.video.settings = {}, S || d.video.settings.customTrack || (Q = w.video) === null || Q === void 0 || !Q.settings ? x.video.settings = d.video.settings : x.video.settings = _e(_e({}, w.video.settings), d.video.settings), Object.keys(x.video.settings).length || delete x.video.settings) : (P = w.video) !== null && P !== void 0 && P.settings && (x.video.settings = w.video.settings), d.video.processor ? x.video.processor = d.video.processor : (U = w.video) !== null && U !== void 0 && U.processor && (x.video.processor = w.video.processor);
+    } else w.video && (x.video = w.video);
+    if (d.audio) {
+      var K, he, Te;
+      x.audio = {}, d.audio.settings ? (x.audio.settings = {}, S || d.audio.settings.customTrack || (Te = w.audio) === null || Te === void 0 || !Te.settings ? x.audio.settings = d.audio.settings : x.audio.settings = _e(_e({}, w.audio.settings), d.audio.settings), Object.keys(x.audio.settings).length || delete x.audio.settings) : (K = w.audio) !== null && K !== void 0 && K.settings && (x.audio.settings = w.audio.settings), d.audio.processor ? x.audio.processor = d.audio.processor : (he = w.audio) !== null && he !== void 0 && he.processor && (x.audio.processor = w.audio.processor);
+    } else w.audio && (x.audio = w.audio);
+    this._maybeUpdateInputSettings(x);
+  } }, { key: "_devicesFromInputSettings", value: function(d) {
+    var S, w, x = (d == null || (S = d.video) === null || S === void 0 || (S = S.settings) === null || S === void 0 ? void 0 : S.deviceId) || null, P = (d == null || (w = d.audio) === null || w === void 0 || (w = w.settings) === null || w === void 0 ? void 0 : w.deviceId) || null, U = this._preloadCache.outputDeviceId || null;
+    return { camera: x ? { deviceId: x } : {}, mic: P ? { deviceId: P } : {}, speaker: U ? { deviceId: U } : {} };
+  } }, { key: "updateInputSettings", value: (be = Me(function* (d) {
+    var S = this;
+    return Re(), C0(d) ? d.video || d.audio ? (x0(d, this.properties.dailyConfig, this._sharedTracks), this._callObjectMode && !this._callMachineInitialized ? (this._updatePreloadCacheInputSettings(d, !0), this._getInputSettings()) : new Promise(function(w, x) {
+      S.sendMessageToCallMachine({ action: "update-input-settings", inputSettings: d }, function(P) {
+        if (P.error) x(P.error);
+        else {
+          if (P.returnPreloadCache) return S._updatePreloadCacheInputSettings(d, !0), void w(S._getInputSettings());
+          S._maybeUpdateInputSettings(P.inputSettings), w(S._prepInputSettingsForSharing(P.inputSettings, !0));
+        }
+      });
+    })) : this._getInputSettings() : (console.error(Dd()), Promise.reject(Dd()));
+  }), function(d) {
+    return be.apply(this, arguments);
+  }) }, { key: "setBandwidth", value: function(d) {
+    var S = d.kbs, w = d.trackConstraints;
+    if (Re(), this._callMachineInitialized) return this.sendMessageToCallMachine({ action: "set-bandwidth", kbs: S, trackConstraints: w }), this;
+  } }, { key: "getDailyLang", value: function() {
+    var d = this;
+    if (Re(), this._callMachineInitialized) return new Promise(function(S) {
+      d.sendMessageToCallMachine({ action: "get-daily-lang" }, function(w) {
+        delete w.action, delete w.callbackStamp, S(w);
+      });
+    });
+  } }, { key: "setDailyLang", value: function(d) {
+    return Re(), this.sendMessageToCallMachine({ action: "set-daily-lang", lang: d }), this;
+  } }, { key: "setProxyUrl", value: function(d) {
+    return this.sendMessageToCallMachine({ action: "set-proxy-url", proxyUrl: d }), this;
+  } }, { key: "setIceConfig", value: function(d) {
+    return this.sendMessageToCallMachine({ action: "set-ice-config", iceConfig: d }), this;
+  } }, { key: "meetingSessionSummary", value: function() {
+    return [zr, ur].includes(this._callState) ? this._finalSummaryOfPrevSession : this._meetingSessionSummary;
+  } }, { key: "getMeetingSession", value: (ue = Me(function* () {
+    var d = this;
+    return console.warn("getMeetingSession() is deprecated: use meetingSessionSummary(), which will return immediately"), Ge(this._callState, "getMeetingSession()"), new Promise(function(S) {
+      d.sendMessageToCallMachine({ action: "get-meeting-session" }, function(w) {
+        delete w.action, delete w.callbackStamp, S(w);
+      });
+    });
+  }), function() {
+    return ue.apply(this, arguments);
+  }) }, { key: "meetingSessionState", value: function() {
+    return Ge(this._callState, "meetingSessionState"), this._meetingSessionState;
+  } }, { key: "setMeetingSessionData", value: function(d) {
+    var S = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : "replace";
+    jn(this._callObjectMode, "setMeetingSessionData()"), Ge(this._callState, "setMeetingSessionData");
+    try {
+      (function(w, x) {
+        new f_({ data: w, mergeStrategy: x });
+      })(d, S);
+    } catch (w) {
+      throw console.error(w), w;
+    }
+    try {
+      this.sendMessageToCallMachine({ action: "set-session-data", data: d, mergeStrategy: S });
+    } catch (w) {
+      throw new Error("Error setting meeting session data: ".concat(w));
+    }
+  } }, { key: "setUserName", value: function(d, S) {
+    var w = this;
+    return this.properties.userName = d, new Promise(function(x) {
+      w.sendMessageToCallMachine({ action: "set-user-name", name: d ?? "", thisMeetingOnly: Fe() || !!S && !!S.thisMeetingOnly }, function(P) {
+        delete P.action, delete P.callbackStamp, x(P);
+      });
+    });
+  } }, { key: "setUserData", value: (q = Me(function* (d) {
+    var S = this;
+    try {
+      b0(d);
+    } catch (w) {
+      throw console.error(w), w;
+    }
+    if (this.properties.userData = d, this._callMachineInitialized) return new Promise(function(w) {
+      try {
+        S.sendMessageToCallMachine({ action: "set-user-data", userData: d }, function(x) {
+          delete x.action, delete x.callbackStamp, w(x);
+        });
+      } catch (x) {
+        throw new Error("Error setting user data: ".concat(x));
+      }
+    });
+  }), function(d) {
+    return q.apply(this, arguments);
+  }) }, { key: "validateAudioLevelInterval", value: function(d) {
+    if (d && (d < 100 || typeof d != "number")) throw new Error("The interval must be a number greater than or equal to 100 milliseconds.");
+  } }, { key: "startLocalAudioLevelObserver", value: function(d) {
+    var S = this;
+    if (typeof AudioWorkletNode > "u" && !Fe()) throw new Error("startLocalAudioLevelObserver() is not supported on this browser");
+    if (this.validateAudioLevelInterval(d), this._callMachineInitialized) return this._isLocalAudioLevelObserverRunning = !0, new Promise(function(w, x) {
+      S.sendMessageToCallMachine({ action: "start-local-audio-level-observer", interval: d }, function(P) {
+        S._isLocalAudioLevelObserverRunning = !P.error, P.error ? x({ error: P.error }) : w();
+      });
+    });
+    this._preloadCache.localAudioLevelObserver = { enabled: !0, interval: d };
+  } }, { key: "isLocalAudioLevelObserverRunning", value: function() {
+    return this._isLocalAudioLevelObserverRunning;
+  } }, { key: "stopLocalAudioLevelObserver", value: function() {
+    this._preloadCache.localAudioLevelObserver = null, this._localAudioLevel = 0, this._isLocalAudioLevelObserverRunning = !1, this.sendMessageToCallMachine({ action: "stop-local-audio-level-observer" });
+  } }, { key: "startRemoteParticipantsAudioLevelObserver", value: function(d) {
+    var S = this;
+    if (this.validateAudioLevelInterval(d), this._callMachineInitialized) return this._isRemoteParticipantsAudioLevelObserverRunning = !0, new Promise(function(w, x) {
+      S.sendMessageToCallMachine({ action: "start-remote-participants-audio-level-observer", interval: d }, function(P) {
+        S._isRemoteParticipantsAudioLevelObserverRunning = !P.error, P.error ? x({ error: P.error }) : w();
+      });
+    });
+    this._preloadCache.remoteParticipantsAudioLevelObserver = { enabled: !0, interval: d };
+  } }, { key: "isRemoteParticipantsAudioLevelObserverRunning", value: function() {
+    return this._isRemoteParticipantsAudioLevelObserverRunning;
+  } }, { key: "stopRemoteParticipantsAudioLevelObserver", value: function() {
+    this._preloadCache.remoteParticipantsAudioLevelObserver = null, this._remoteParticipantsAudioLevel = {}, this._isRemoteParticipantsAudioLevelObserverRunning = !1, this.sendMessageToCallMachine({ action: "stop-remote-participants-audio-level-observer" });
+  } }, { key: "startCamera", value: (pe = Me(function* () {
+    var d = this, S = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    if (jn(this._callObjectMode, "startCamera()"), Bc(this._callState, this._isPreparingToJoin, "startCamera()", "Did you mean to use setLocalAudio() and/or setLocalVideo() instead?"), this.needsLoad()) try {
+      yield this.load(S);
+    } catch (w) {
+      return Promise.reject(w);
+    }
+    else {
+      if (this._didPreAuth) {
+        if (S.url && S.url !== this.properties.url) return console.error("url in startCamera() is different than the one used in preAuth()"), Promise.reject();
+        if (S.token && S.token !== this.properties.token) return console.error("token in startCamera() is different than the one used in preAuth()"), Promise.reject();
+      }
+      this.validateProperties(S), this.properties = _e(_e({}, this.properties), S);
+    }
+    return new Promise(function(w) {
+      d._preloadCache.inputSettings = d._prepInputSettingsForSharing(d._inputSettings, !1), d.sendMessageToCallMachine({ action: "start-camera", properties: Zi(d.properties, d.callClientId), preloadCache: Zi(d._preloadCache, d.callClientId) }, function(x) {
+        w({ camera: x.camera, mic: x.mic, speaker: x.speaker });
+      });
+    });
+  }), function() {
+    return pe.apply(this, arguments);
+  }) }, { key: "validateCustomTrack", value: function(d, S, w) {
+    if (w && w.length > 50) throw new Error("Custom track `trackName` must not be more than 50 characters");
+    if (S && S !== "music" && S !== "speech" && !(S instanceof Object)) throw new Error("Custom track `mode` must be either `music` | `speech` | `DailyMicAudioModeSettings` or `undefined`");
+    if (w && ["cam-audio", "cam-video", "screen-video", "screen-audio", "rmpAudio", "rmpVideo", "customVideoDefaults"].includes(w)) throw new Error("Custom track `trackName` must not match a track name already used by daily: cam-audio, cam-video, customVideoDefaults, screen-video, screen-audio, rmpAudio, rmpVideo");
+    if (!(d instanceof MediaStreamTrack)) throw new Error("Custom tracks provided must be instances of MediaStreamTrack");
+  } }, { key: "startCustomTrack", value: function() {
+    var d = this, S = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : { track, mode, trackName, ignoreAudioLevel };
+    return Re(), Ge(this._callState, "startCustomTrack()"), this.validateCustomTrack(S.track, S.mode, S.trackName), new Promise(function(w, x) {
+      d._sharedTracks.customTrack = S.track, S.track = pr, d.sendMessageToCallMachine({ action: "start-custom-track", properties: S }, function(P) {
+        P.error ? x({ error: P.error }) : w(P.mediaTag);
+      });
+    });
+  } }, { key: "stopCustomTrack", value: function(d) {
+    var S = this;
+    return Re(), Ge(this._callState, "stopCustomTrack()"), new Promise(function(w) {
+      S.sendMessageToCallMachine({ action: "stop-custom-track", mediaTag: d }, function(x) {
+        w(x.mediaTag);
+      });
+    });
+  } }, { key: "setCamera", value: function(d) {
+    var S = this;
+    return ta(), Ys(this._callMachineInitialized, "setCamera()"), new Promise(function(w) {
+      S.sendMessageToCallMachine({ action: "set-camera", cameraDeviceId: d }, function(x) {
+        w({ device: x.device });
+      });
+    });
+  } }, { key: "setAudioDevice", value: (le = Me(function* (d) {
+    return ta(), this.nativeUtils().setAudioDevice(d), { deviceId: yield this.nativeUtils().getAudioDevice() };
+  }), function(d) {
+    return le.apply(this, arguments);
+  }) }, { key: "cycleCamera", value: function() {
+    var d = this, S = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    return new Promise(function(w) {
+      d.sendMessageToCallMachine({ action: "cycle-camera", properties: S }, function(x) {
+        w({ device: x.device });
+      });
+    });
+  } }, { key: "cycleMic", value: function() {
+    var d = this;
+    return Re(), new Promise(function(S) {
+      d.sendMessageToCallMachine({ action: "cycle-mic" }, function(w) {
+        S({ device: w.device });
+      });
+    });
+  } }, { key: "getCameraFacingMode", value: function() {
+    var d = this;
+    return ta(), new Promise(function(S) {
+      d.sendMessageToCallMachine({ action: "get-camera-facing-mode" }, function(w) {
+        S(w.facingMode);
+      });
+    });
+  } }, { key: "setInputDevicesAsync", value: (ne = Me(function* (d) {
+    var S = this, w = d.audioDeviceId, x = d.videoDeviceId, P = d.audioSource, U = d.videoSource;
+    if (Re(), P !== void 0 && (w = P), U !== void 0 && (x = U), typeof w == "boolean" && (this._setAllowLocalAudio(w), w = void 0), typeof x == "boolean" && (this._setAllowLocalVideo(x), x = void 0), !w && !x) return yield this.getInputDevices();
+    var Q = {};
+    return w && (w instanceof MediaStreamTrack ? (this._sharedTracks.audioTrack = w, w = pr, Q.audio = { settings: { customTrack: w } }) : (delete this._sharedTracks.audioTrack, Q.audio = { settings: { deviceId: w } })), x && (x instanceof MediaStreamTrack ? (this._sharedTracks.videoTrack = x, x = pr, Q.video = { settings: { customTrack: x } }) : (delete this._sharedTracks.videoTrack, Q.video = { settings: { deviceId: x } })), this._callObjectMode && this.needsLoad() ? (this._updatePreloadCacheInputSettings(Q, !1), this._devicesFromInputSettings(this._inputSettings)) : new Promise(function(K) {
+      S.sendMessageToCallMachine({ action: "set-input-devices", audioDeviceId: w, videoDeviceId: x }, function(he) {
+        if (delete he.action, delete he.callbackStamp, he.returnPreloadCache) return S._updatePreloadCacheInputSettings(Q, !1), void K(S._devicesFromInputSettings(S._inputSettings));
+        K(he);
+      });
+    });
+  }), function(d) {
+    return ne.apply(this, arguments);
+  }) }, { key: "setOutputDeviceAsync", value: (X = Me(function* (d) {
+    var S = this, w = d.outputDeviceId;
+    if (Re(), !w || typeof w != "string") throw new Error("outputDeviceId must be provided and must be a valid device id");
+    return this._preloadCache.outputDeviceId = w, this._callObjectMode && this.needsLoad() ? this._devicesFromInputSettings(this._inputSettings) : new Promise(function(x, P) {
+      S.sendMessageToCallMachine({ action: "set-output-device", outputDeviceId: w }, function(U) {
+        if (delete U.action, delete U.callbackStamp, U.error) {
+          var Q = new Error(U.error.message);
+          return Q.type = U.error.type, void P(Q);
+        }
+        U.returnPreloadCache ? x(S._devicesFromInputSettings(S._inputSettings)) : x(U);
+      });
+    });
+  }), function(d) {
+    return X.apply(this, arguments);
+  }) }, { key: "getInputDevices", value: (ae = Me(function* () {
+    var d = this;
+    return this._callObjectMode && this.needsLoad() ? this._devicesFromInputSettings(this._inputSettings) : new Promise(function(S) {
+      d.sendMessageToCallMachine({ action: "get-input-devices" }, function(w) {
+        w.returnPreloadCache ? S(d._devicesFromInputSettings(d._inputSettings)) : S({ camera: w.camera, mic: w.mic, speaker: w.speaker });
+      });
+    });
+  }), function() {
+    return ae.apply(this, arguments);
+  }) }, { key: "nativeInCallAudioMode", value: function() {
+    return ta(), this._nativeInCallAudioMode;
+  } }, { key: "setNativeInCallAudioMode", value: function(d) {
+    if (ta(), [Rg, I_].includes(d)) {
+      if (d !== this._nativeInCallAudioMode) return this._nativeInCallAudioMode = d, !this.disableReactNativeAutoDeviceManagement("audio") && al(this._callState, this._isPreparingToJoin) && this.nativeUtils().setAudioMode(this._nativeInCallAudioMode), this;
+    } else console.error("invalid in-call audio mode specified: ", d);
+  } }, { key: "preAuth", value: (z = Me(function* () {
+    var d = this, S = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    if (jn(this._callObjectMode, "preAuth()"), Bc(this._callState, this._isPreparingToJoin, "preAuth()"), this.needsLoad() && (yield this.load(S)), !S.url) throw new Error("preAuth() requires at least a url to be provided");
+    return this.validateProperties(S), this.properties = _e(_e({}, this.properties), S), new Promise(function(w, x) {
+      d._preloadCache.inputSettings = d._prepInputSettingsForSharing(d._inputSettings, !1), d.sendMessageToCallMachine({ action: "daily-method-preauth", properties: Zi(d.properties, d.callClientId), preloadCache: Zi(d._preloadCache, d.callClientId) }, function(P) {
+        return P.error ? x(P.error) : P.access ? (d._didPreAuth = !0, void w({ access: P.access })) : x(new Error("unknown error in preAuth()"));
+      });
+    });
+  }), function() {
+    return z.apply(this, arguments);
+  }) }, { key: "load", value: (H = Me(function* (d) {
+    var S = this;
+    if (this.needsLoad()) {
+      if (this._destroyed && (this._logUseAfterDestroy(), this.strictMode)) throw new Error("Use after destroy");
+      if (d && (this.validateProperties(d), this.properties = _e(_e({}, this.properties), d)), !this._callObjectMode && !this.properties.url) throw new Error("can't load iframe meeting because url property isn't set");
+      return this._updateCallState(fg), this.emitDailyJSEvent({ action: mv }), this._callObjectMode ? new Promise(function(w, x) {
+        S._callObjectLoader.cancel();
+        var P = Date.now();
+        S._callObjectLoader.load(S.properties.dailyConfig, function(U) {
+          S._bundleLoadTime = U ? "no-op" : Date.now() - P, S._updateCallState(pg), U && S.emitDailyJSEvent({ action: _d }), w();
+        }, function(U, Q) {
+          if (S.emitDailyJSEvent({ action: gv }), !Q) {
+            S._updateCallState(ur), S.resetMeetingDependentVars();
+            var K = { action: Td, errorMsg: U.msg, error: { type: "connection-error", msg: "Failed to load call object bundle.", details: { on: "load", sourceError: U, bundleUrl: ul(S.properties.dailyConfig) } } };
+            S._maybeSendToSentry(K), S.emitDailyJSEvent(K), x(U.msg);
+          }
+        });
+      }) : (this._iframe.src = Hy(this.assembleMeetingUrl(), this.properties.dailyConfig), new Promise(function(w, x) {
+        S._loadedCallback = function(P) {
+          S._callState !== ur ? (S._updateCallState(pg), (S.properties.cssFile || S.properties.cssText) && S.loadCss(S.properties), w()) : x(P);
+        };
+      }));
+    }
+  }), function(d) {
+    return H.apply(this, arguments);
+  }) }, { key: "join", value: (A = Me(function* () {
+    var d = this, S = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    this._testCallInProgress && this.stopTestCallQuality();
+    var w = !1;
+    if (this.needsLoad()) {
+      this.updateIsPreparingToJoin(!0);
+      try {
+        yield this.load(S);
+      } catch (x) {
+        return this.updateIsPreparingToJoin(!1), Promise.reject(x);
+      }
+    } else {
+      if (w = !(!this.properties.cssFile && !this.properties.cssText), this._didPreAuth) {
+        if (S.url && S.url !== this.properties.url) return console.error("url in join() is different than the one used in preAuth()"), this.updateIsPreparingToJoin(!1), Promise.reject();
+        if (S.token && S.token !== this.properties.token) return console.error("token in join() is different than the one used in preAuth()"), this.updateIsPreparingToJoin(!1), Promise.reject();
+      }
+      if (S.url && !this._callObjectMode && S.url && S.url !== this.properties.url) return console.error("url in join() is different than the one used in load() (".concat(this.properties.url, " -> ").concat(S.url, ")")), this.updateIsPreparingToJoin(!1), Promise.reject();
+      this.validateProperties(S), this.properties = _e(_e({}, this.properties), S);
+    }
+    return S.showLocalVideo !== void 0 && (this._callObjectMode ? console.error("showLocalVideo is not available in callObject mode") : this._showLocalVideo = !!S.showLocalVideo), S.showParticipantsBar !== void 0 && (this._callObjectMode ? console.error("showParticipantsBar is not available in callObject mode") : this._showParticipantsBar = !!S.showParticipantsBar), this._callState === Ur || this._callState === ml ? (console.warn("already joined meeting, call leave() before joining again"), void this.updateIsPreparingToJoin(!1)) : (this._updateCallState(ml, !1), this.emitDailyJSEvent({ action: wv }), this._preloadCache.inputSettings = this._prepInputSettingsForSharing(this._inputSettings || {}, !1), this.sendMessageToCallMachine({ action: "join-meeting", properties: Zi(this.properties, this.callClientId), preloadCache: Zi(this._preloadCache, this.callClientId) }), new Promise(function(x, P) {
+      d._joinedCallback = function(U, Q) {
+        if (d._callState !== ur) {
+          if (d._updateCallState(Ur), U) for (var K in U) {
+            if (d._callObjectMode) {
+              var he = d._callMachine().store;
+              Cg(U[K], he), xg(U[K], he), Tg(U[K], d._participants[K], he);
+            }
+            d._participants[K] = _e({}, U[K]), d.toggleParticipantAudioBasedOnNativeAudioFocus();
+          }
+          w && d.loadCss(d.properties), x(U);
+        } else P(Q);
+      };
+    }));
+  }), function() {
+    return A.apply(this, arguments);
+  }) }, { key: "leave", value: (N = Me(function* () {
+    var d = this;
+    return this._testCallInProgress && this.stopTestCallQuality(), new Promise(function(S) {
+      d._callState === zr || d._callState === ur ? S() : d._callObjectLoader && !d._callObjectLoader.loaded ? (d._callObjectLoader.cancel(), d._updateCallState(zr), d.resetMeetingDependentVars(), d.emitDailyJSEvent({ action: zr }), S()) : (d._resolveLeave = S, d.sendMessageToCallMachine({ action: "leave-meeting" }));
+    });
+  }), function() {
+    return N.apply(this, arguments);
+  }) }, { key: "startScreenShare", value: (j = Me(function* () {
+    var d = this, S = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    if (Ys(this._callMachineInitialized, "startScreenShare()"), S.screenVideoSendSettings && this._validateVideoSendSettings("screenVideo", S.screenVideoSendSettings), S.mediaStream && (this._sharedTracks.screenMediaStream = S.mediaStream, S.mediaStream = pr), typeof DailyNativeUtils < "u" && DailyNativeUtils.isIOS !== void 0 && DailyNativeUtils.isIOS) {
+      var w = this.nativeUtils();
+      if (yield w.isScreenBeingCaptured()) return void this.emitDailyJSEvent({ action: xd, type: "screen-share-error", errorMsg: "Could not start the screen sharing. The screen is already been captured!" });
+      w.setSystemScreenCaptureStartCallback(function() {
+        w.setSystemScreenCaptureStartCallback(null), d.sendMessageToCallMachine({ action: mg, captureOptions: S });
+      }), w.presentSystemScreenCapturePrompt();
+    } else this.sendMessageToCallMachine({ action: mg, captureOptions: S });
+  }), function() {
+    return j.apply(this, arguments);
+  }) }, { key: "stopScreenShare", value: function() {
+    Ys(this._callMachineInitialized, "stopScreenShare()"), this.sendMessageToCallMachine({ action: "local-screen-stop" });
+  } }, { key: "startRecording", value: function() {
+    var d = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {}, S = d.type;
+    if (S && S !== "cloud" && S !== "raw-tracks" && S !== "local") throw new Error("invalid type: ".concat(S, ", allowed values 'cloud', 'raw-tracks', or 'local'"));
+    this.sendMessageToCallMachine(_e({ action: "local-recording-start" }, d));
+  } }, { key: "updateRecording", value: function(d) {
+    var S = d.layout, w = S === void 0 ? { preset: "default" } : S, x = d.instanceId;
+    this.sendMessageToCallMachine({ action: "daily-method-update-recording", layout: w, instanceId: x });
+  } }, { key: "stopRecording", value: function() {
+    var d = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    this.sendMessageToCallMachine(_e({ action: "local-recording-stop" }, d));
+  } }, { key: "startLiveStreaming", value: function() {
+    var d = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    this.sendMessageToCallMachine(_e({ action: "daily-method-start-live-streaming" }, d));
+  } }, { key: "updateLiveStreaming", value: function(d) {
+    var S = d.layout, w = S === void 0 ? { preset: "default" } : S, x = d.instanceId;
+    this.sendMessageToCallMachine({ action: "daily-method-update-live-streaming", layout: w, instanceId: x });
+  } }, { key: "addLiveStreamingEndpoints", value: function(d) {
+    var S = d.endpoints, w = d.instanceId;
+    this.sendMessageToCallMachine({ action: gg, endpointsOp: i_, endpoints: S, instanceId: w });
+  } }, { key: "removeLiveStreamingEndpoints", value: function(d) {
+    var S = d.endpoints, w = d.instanceId;
+    this.sendMessageToCallMachine({ action: gg, endpointsOp: o_, endpoints: S, instanceId: w });
+  } }, { key: "stopLiveStreaming", value: function() {
+    var d = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    this.sendMessageToCallMachine(_e({ action: "daily-method-stop-live-streaming" }, d));
+  } }, { key: "validateDailyConfig", value: function(d) {
+    d.camSimulcastEncodings && (console.warn("camSimulcastEncodings is deprecated. Use sendSettings, found in DailyCallOptions, to provide camera simulcast settings."), this.validateSimulcastEncodings(d.camSimulcastEncodings)), d.screenSimulcastEncodings && console.warn("screenSimulcastEncodings is deprecated. Use sendSettings, found in DailyCallOptions, to provide screen simulcast settings."), d0() && d.noAutoDefaultDeviceChange && console.warn("noAutoDefaultDeviceChange is not supported on Android, and will be ignored.");
+  } }, { key: "validateSimulcastEncodings", value: function(d) {
+    var S = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : null, w = arguments.length > 2 && arguments[2] !== void 0 && arguments[2];
+    if (d) {
+      if (!(d instanceof Array || Array.isArray(d))) throw new Error("encodings must be an Array");
+      if (!Jg(d.length, 1, 3)) throw new Error("encodings must be an Array with between 1 to ".concat(3, " layers"));
+      for (var x = 0; x < d.length; x++) {
+        var P = d[x];
+        for (var U in this._validateEncodingLayerHasValidProperties(P), P) if (zc.includes(U)) {
+          if (typeof P[U] != "number") throw new Error("".concat(U, " must be a number"));
+          if (S) {
+            var Q = S[U], K = Q.min, he = Q.max;
+            if (!Jg(P[U], K, he)) throw new Error("".concat(U, " value not in range. valid range: ").concat(K, " to ").concat(he));
+          }
+        } else if (!["active", "scalabilityMode"].includes(U)) throw new Error("Invalid key ".concat(U, ", valid keys are:") + Object.values(zc));
+        if (w && !P.hasOwnProperty("maxBitrate")) throw new Error("maxBitrate is not specified");
+      }
+    }
+  } }, { key: "startRemoteMediaPlayer", value: (B = Me(function* (d) {
+    var S = this, w = d.url, x = d.settings, P = x === void 0 ? { state: Ad.PLAY } : x;
+    try {
+      (function(U) {
+        if (typeof U != "string") throw new Error('url parameter must be "string" type');
+      })(w), Hg(P), function(U) {
+        for (var Q in U) if (!zg.includes(Q)) throw new Error("Invalid key ".concat(Q, ", valid keys are: ").concat(zg));
+        U.simulcastEncodings && this.validateSimulcastEncodings(U.simulcastEncodings, _0, !0);
+      }(P);
+    } catch (U) {
+      throw console.error("invalid argument Error: ".concat(U)), console.error(`startRemoteMediaPlayer arguments must be of the form:
+  { url: "playback url",
+  settings?:
+  {state: "play"|"pause", simulcastEncodings?: [{}] } }`), U;
+    }
+    return new Promise(function(U, Q) {
+      S.sendMessageToCallMachine({ action: "daily-method-start-remote-media-player", url: w, settings: P }, function(K) {
+        K.error ? Q({ error: K.error, errorMsg: K.errorMsg }) : U({ session_id: K.session_id, remoteMediaPlayerState: { state: K.state, settings: K.settings } });
+      });
+    });
+  }), function(d) {
+    return B.apply(this, arguments);
+  }) }, { key: "stopRemoteMediaPlayer", value: (V = Me(function* (d) {
+    var S = this;
+    if (typeof d != "string") throw new Error(" remotePlayerID must be of type string");
+    return new Promise(function(w, x) {
+      S.sendMessageToCallMachine({ action: "daily-method-stop-remote-media-player", session_id: d }, function(P) {
+        P.error ? x({ error: P.error, errorMsg: P.errorMsg }) : w();
+      });
+    });
+  }), function(d) {
+    return V.apply(this, arguments);
+  }) }, { key: "updateRemoteMediaPlayer", value: (M = Me(function* (d) {
+    var S = this, w = d.session_id, x = d.settings;
+    try {
+      Hg(x);
+    } catch (P) {
+      throw console.error("invalid argument Error: ".concat(P)), console.error(`updateRemoteMediaPlayer arguments must be of the form:
+  session_id: "participant session",
+  { settings?: {state: "play"|"pause"} }`), P;
+    }
+    return new Promise(function(P, U) {
+      S.sendMessageToCallMachine({ action: "daily-method-update-remote-media-player", session_id: w, settings: x }, function(Q) {
+        Q.error ? U({ error: Q.error, errorMsg: Q.errorMsg }) : P({ session_id: Q.session_id, remoteMediaPlayerState: { state: Q.state, settings: Q.settings } });
+      });
+    });
+  }), function(d) {
+    return M.apply(this, arguments);
+  }) }, { key: "startTranscription", value: function(d) {
+    Ge(this._callState, "startTranscription()"), this.sendMessageToCallMachine(_e({ action: "daily-method-start-transcription" }, d));
+  } }, { key: "updateTranscription", value: function(d) {
+    if (Ge(this._callState, "updateTranscription()"), !d) throw new Error("updateTranscription Error: options is mandatory");
+    if (ze(d) !== "object") throw new Error("updateTranscription Error: options must be object type");
+    if (d.participants && !Array.isArray(d.participants)) throw new Error("updateTranscription Error: participants must be an array");
+    this.sendMessageToCallMachine(_e({ action: "daily-method-update-transcription" }, d));
+  } }, { key: "stopTranscription", value: function(d) {
+    if (Ge(this._callState, "stopTranscription()"), d && ze(d) !== "object") throw new Error("stopTranscription Error: options must be object type");
+    if (d && !d.instanceId) throw new Error('"instanceId" not provided');
+    this.sendMessageToCallMachine(_e({ action: "daily-method-stop-transcription" }, d));
+  } }, { key: "startDialOut", value: (L = Me(function* (d) {
+    var S = this;
+    Ge(this._callState, "startDialOut()");
+    var w = function(Q) {
+      if (Q) {
+        if (!Array.isArray(Q)) throw new Error("Error starting dial out: audio codec must be an array");
+        if (Q.length <= 0) throw new Error("Error starting dial out: audio codec array specified but empty");
+        Q.forEach(function(K) {
+          if (typeof K != "string") throw new Error("Error starting dial out: audio codec must be a string");
+          if (K !== "OPUS" && K !== "PCMU" && K !== "PCMA" && K !== "G722") throw new Error("Error starting dial out: audio codec must be one of OPUS, PCMU, PCMA, G722");
+        });
+      }
+    };
+    if (!d.sipUri && !d.phoneNumber) throw new Error("Error starting dial out: either a sip uri or phone number must be provided");
+    if (d.sipUri && d.phoneNumber) throw new Error("Error starting dial out: only one of sip uri or phone number must be provided");
+    if (d.sipUri) {
+      if (typeof d.sipUri != "string") throw new Error("Error starting dial out: sipUri must be a string");
+      if (!d.sipUri.startsWith("sip:")) throw new Error("Error starting dial out: Invalid SIP URI, must start with 'sip:'");
+      if (d.video && typeof d.video != "boolean") throw new Error("Error starting dial out: video must be a boolean value");
+      (function(Q) {
+        if (Q && (w(Q.audio), Q.video)) {
+          if (!Array.isArray(Q.video)) throw new Error("Error starting dial out: video codec must be an array");
+          if (Q.video.length <= 0) throw new Error("Error starting dial out: video codec array specified but empty");
+          Q.video.forEach(function(K) {
+            if (typeof K != "string") throw new Error("Error starting dial out: video codec must be a string");
+            if (K !== "H264" && K !== "VP8") throw new Error("Error starting dial out: video codec must be H264 or VP8");
+          });
+        }
+      })(d.codecs);
+    }
+    if (d.phoneNumber) {
+      if (typeof d.phoneNumber != "string") throw new Error("Error starting dial out: phoneNumber must be a string");
+      if (!/^\+\d{1,}$/.test(d.phoneNumber)) throw new Error("Error starting dial out: Invalid phone number, must be valid phone number as per E.164");
+      d.codecs && w(d.codecs.audio);
+    }
+    if (d.callerId) {
+      if (typeof d.callerId != "string") throw new Error("Error starting dial out: callerId must be a string");
+      if (d.sipUri) throw new Error("Error starting dial out: callerId not allowed with sipUri");
+    }
+    if (d.displayName) {
+      if (typeof d.displayName != "string") throw new Error("Error starting dial out: displayName must be a string");
+      if (d.displayName.length >= 200) throw new Error("Error starting dial out: displayName length must be less than 200");
+    }
+    if (d.userId) {
+      if (typeof d.userId != "string") throw new Error("Error starting dial out: userId must be a string");
+      if (d.userId.length > 36) throw new Error("Error starting dial out: userId length must be less than or equal to 36");
+    }
+    if (Ug(d), d.permissions && d.permissions.canReceive) {
+      var x = jt(S0.validateJSONObject(d.permissions.canReceive), 2), P = x[0], U = x[1];
+      if (!P) throw new Error(U);
+    }
+    return new Promise(function(Q, K) {
+      S.sendMessageToCallMachine(_e({ action: "dialout-start" }, d), function(he) {
+        he.error ? K(he.error) : Q(he);
+      });
+    });
+  }), function(d) {
+    return L.apply(this, arguments);
+  }) }, { key: "stopDialOut", value: function(d) {
+    var S = this;
+    return Ge(this._callState, "stopDialOut()"), new Promise(function(w, x) {
+      S.sendMessageToCallMachine(_e({ action: "dialout-stop" }, d), function(P) {
+        P.error ? x(P.error) : w(P);
+      });
+    });
+  } }, { key: "sipCallTransfer", value: (E = Me(function* (d) {
+    var S = this;
+    if (Ge(this._callState, "sipCallTransfer()"), !d) throw new Error("sipCallTransfer() requires a sessionId and toEndPoint");
+    return d.useSipRefer = !1, $g(d, "sipCallTransfer"), Ug(d), new Promise(function(w, x) {
+      S.sendMessageToCallMachine(_e({ action: yg }, d), function(P) {
+        P.error ? x(P.error) : w(P);
+      });
+    });
+  }), function(d) {
+    return E.apply(this, arguments);
+  }) }, { key: "sipRefer", value: (T = Me(function* (d) {
+    var S = this;
+    if (Ge(this._callState, "sipRefer()"), !d) throw new Error("sessionId and toEndPoint are mandatory parameter");
+    return d.useSipRefer = !0, $g(d, "sipRefer"), new Promise(function(w, x) {
+      S.sendMessageToCallMachine(_e({ action: yg }, d), function(P) {
+        P.error ? x(P.error) : w(P);
+      });
+    });
+  }), function(d) {
+    return T.apply(this, arguments);
+  }) }, { key: "sendDTMF", value: (k = Me(function* (d) {
+    var S = this;
+    return Ge(this._callState, "sendDTMF()"), function(w) {
+      var x = w.sessionId, P = w.tones;
+      if (!x || !P) throw new Error("sessionId and tones are mandatory parameter");
+      if (typeof x != "string" || typeof P != "string") throw new Error("sessionId and tones should be of string type");
+      if (P.length > 20) throw new Error("tones string must be upto 20 characters");
+      var U = /[^0-9A-D*#]/g, Q = P.match(U);
+      if (Q && Q[0]) throw new Error("".concat(Q[0], " is not valid DTMF tone"));
+    }(d), new Promise(function(w, x) {
+      S.sendMessageToCallMachine(_e({ action: "send-dtmf" }, d), function(P) {
+        P.error ? x(P.error) : w(P);
+      });
+    });
+  }), function(d) {
+    return k.apply(this, arguments);
+  }) }, { key: "getNetworkStats", value: function() {
+    var d = this;
+    return this._callState !== Ur ? Promise.resolve(_e({ stats: { latest: {} } }, this._network)) : new Promise(function(S) {
+      d.sendMessageToCallMachine({ action: "get-calc-stats" }, function(w) {
+        S(_e(_e({}, d._network), {}, { stats: w.stats }));
+      });
+    });
+  } }, { key: "testWebsocketConnectivity", value: (_ = Me(function* () {
+    var d = this;
+    if (Uc(this._testCallInProgress, "testWebsocketConnectivity()"), this.needsLoad()) try {
+      yield this.load();
+    } catch (S) {
+      return Promise.reject(S);
+    }
+    return new Promise(function(S, w) {
+      d.sendMessageToCallMachine({ action: "test-websocket-connectivity" }, function(x) {
+        x.error ? w(x.error) : S(x.results);
+      });
+    });
+  }), function() {
+    return _.apply(this, arguments);
+  }) }, { key: "abortTestWebsocketConnectivity", value: function() {
+    this.sendMessageToCallMachine({ action: "abort-test-websocket-connectivity" });
+  } }, { key: "_validateVideoTrackForNetworkTests", value: function(d) {
+    return d ? d instanceof MediaStreamTrack ? !!T_(d) || (console.error("Video track is not playable. This test needs a live video track."), !1) : (console.error("Video track needs to be of type `MediaStreamTrack`."), !1) : (console.error("Missing video track. You must provide a video track in order to run this test."), !1);
+  } }, { key: "testCallQuality", value: (v = Me(function* () {
+    var d = this;
+    Re(), jn(this._callObjectMode, "testCallQuality()"), Ys(this._callMachineInitialized, "testCallQuality()", null, !0), Bc(this._callState, this._isPreparingToJoin, "testCallQuality()");
+    var S = this._testCallAlreadyInProgress, w = function(P) {
+      S || (d._testCallInProgress = P);
+    };
+    if (w(!0), this.needsLoad()) try {
+      var x = this._callState;
+      yield this.load(), this._callState = x;
+    } catch (P) {
+      return w(!1), Promise.reject(P);
+    }
+    return new Promise(function(P) {
+      d.sendMessageToCallMachine({ action: "test-call-quality", dailyJsVersion: d.properties.dailyJsVersion }, function(U) {
+        var Q = U.results, K = Q.result, he = sm(Q, P_);
+        if (K === "failed") {
+          var Te, Oe = _e({}, he);
+          (Te = he.error) !== null && Te !== void 0 && Te.details ? (he.error.details = JSON.parse(he.error.details), Oe.error = _e(_e({}, Oe.error), {}, { details: _e({}, Oe.error.details) }), Oe.error.details.duringTest = "testCallQuality") : (Oe.error = Oe.error ? _e({}, Oe.error) : {}, Oe.error.details = { duringTest: "testCallQuality" }), d._maybeSendToSentry(Oe);
+        }
+        w(!1), P(_e({ result: K }, he));
+      });
+    });
+  }), function() {
+    return v.apply(this, arguments);
+  }) }, { key: "stopTestCallQuality", value: function() {
+    this.sendMessageToCallMachine({ action: "stop-test-call-quality" });
+  } }, { key: "testConnectionQuality", value: (y = Me(function* (d) {
+    var S;
+    Fe() ? (console.warn("testConnectionQuality() is deprecated: use testPeerToPeerCallQuality() instead"), S = yield this.testPeerToPeerCallQuality(d)) : (console.warn("testConnectionQuality() is deprecated: use testCallQuality() instead"), S = yield this.testCallQuality());
+    var w = { result: S.result, secondsElapsed: S.secondsElapsed };
+    return S.data && (w.data = { maxRTT: S.data.maxRoundTripTime, packetLoss: S.data.avgRecvPacketLoss }), w;
+  }), function(d) {
+    return y.apply(this, arguments);
+  }) }, { key: "testPeerToPeerCallQuality", value: (m = Me(function* (d) {
+    var S = this;
+    if (Uc(this._testCallInProgress, "testPeerToPeerCallQuality()"), this.needsLoad()) try {
+      yield this.load();
+    } catch (P) {
+      return Promise.reject(P);
+    }
+    var w = d.videoTrack, x = d.duration;
+    if (!this._validateVideoTrackForNetworkTests(w)) throw new Error("Video track error");
+    return this._sharedTracks.videoTrackForConnectionQualityTest = w, new Promise(function(P, U) {
+      S.sendMessageToCallMachine({ action: "test-p2p-call-quality", duration: x }, function(Q) {
+        Q.error ? U(Q.error) : P(Q.results);
+      });
+    });
+  }), function(d) {
+    return m.apply(this, arguments);
+  }) }, { key: "stopTestConnectionQuality", value: function() {
+    Fe() ? (console.warn("stopTestConnectionQuality() is deprecated: use testPeerToPeerCallQuality() and stopTestPeerToPeerCallQuality() instead"), this.stopTestPeerToPeerCallQuality()) : (console.warn("stopTestConnectionQuality() is deprecated: use testCallQuality() and stopTestCallQuality() instead"), this.stopTestCallQuality());
+  } }, { key: "stopTestPeerToPeerCallQuality", value: function() {
+    this.sendMessageToCallMachine({ action: "stop-test-p2p-call-quality" });
+  } }, { key: "testNetworkConnectivity", value: (p = Me(function* (d) {
+    var S = this;
+    if (Uc(this._testCallInProgress, "testNetworkConnectivity()"), this.needsLoad()) try {
+      yield this.load();
+    } catch (w) {
+      return Promise.reject(w);
+    }
+    if (!this._validateVideoTrackForNetworkTests(d)) throw new Error("Video track error");
+    return this._sharedTracks.videoTrackForNetworkConnectivityTest = d, new Promise(function(w, x) {
+      S.sendMessageToCallMachine({ action: "test-network-connectivity" }, function(P) {
+        P.error ? x(P.error) : w(P.results);
+      });
+    });
+  }), function(d) {
+    return p.apply(this, arguments);
+  }) }, { key: "abortTestNetworkConnectivity", value: function() {
+    this.sendMessageToCallMachine({ action: "abort-test-network-connectivity" });
+  } }, { key: "getCpuLoadStats", value: function() {
+    var d = this;
+    return new Promise(function(S) {
+      d._callState === Ur ? d.sendMessageToCallMachine({ action: "get-cpu-load-stats" }, function(w) {
+        S(w.cpuStats);
+      }) : S({ cpuLoadState: void 0, cpuLoadStateReason: void 0, stats: {} });
+    });
+  } }, { key: "_validateEncodingLayerHasValidProperties", value: function(d) {
+    var S;
+    if (!(((S = Object.keys(d)) === null || S === void 0 ? void 0 : S.length) > 0)) throw new Error("Empty encoding is not allowed. At least one of these valid keys should be specified:" + Object.values(zc));
+  } }, { key: "_validateVideoSendSettings", value: function(d, S) {
+    var w = d === "screenVideo" ? ["default-screen-video", "detail-optimized", "motion-optimized", "motion-and-detail-balanced"] : ["default-video", "bandwidth-optimized", "bandwidth-and-quality-balanced", "quality-optimized", "adaptive-2-layers", "adaptive-3-layers"], x = "Video send settings should be either an object or one of the supported presets: ".concat(w.join());
+    if (typeof S == "string") {
+      if (!w.includes(S)) throw new Error(x);
+    } else {
+      if (ze(S) !== "object") throw new Error(x);
+      if (!S.maxQuality && !S.encodings && S.allowAdaptiveLayers === void 0) throw new Error("Video send settings must contain at least maxQuality, allowAdaptiveLayers or encodings attribute");
+      if (S.maxQuality && ["low", "medium", "high"].indexOf(S.maxQuality) === -1) throw new Error("maxQuality must be either low, medium or high");
+      if (S.encodings) {
+        var P = !1;
+        switch (Object.keys(S.encodings).length) {
+          case 1:
+            P = !S.encodings.low;
+            break;
+          case 2:
+            P = !S.encodings.low || !S.encodings.medium;
+            break;
+          case 3:
+            P = !S.encodings.low || !S.encodings.medium || !S.encodings.high;
+            break;
+          default:
+            P = !0;
+        }
+        if (P) throw new Error("Encodings must be defined as: low, low and medium, or low, medium and high.");
+        S.encodings.low && this._validateEncodingLayerHasValidProperties(S.encodings.low), S.encodings.medium && this._validateEncodingLayerHasValidProperties(S.encodings.medium), S.encodings.high && this._validateEncodingLayerHasValidProperties(S.encodings.high);
+      }
+    }
+  } }, { key: "validateUpdateSendSettings", value: function(d) {
+    var S = this;
+    if (!d || Object.keys(d).length === 0) throw new Error("Send settings must contain at least information for one track!");
+    Object.entries(d).forEach(function(w) {
+      var x = jt(w, 2), P = x[0], U = x[1];
+      S._validateVideoSendSettings(P, U);
+    });
+  } }, { key: "updateSendSettings", value: function(d) {
+    var S = this;
+    return this.validateUpdateSendSettings(d), this.needsLoad() ? (this._preloadCache.sendSettings = d, { sendSettings: this._preloadCache.sendSettings }) : new Promise(function(w, x) {
+      S.sendMessageToCallMachine({ action: "update-send-settings", sendSettings: d }, function(P) {
+        P.error ? x(P.error) : w(P.sendSettings);
+      });
+    });
+  } }, { key: "getSendSettings", value: function() {
+    return this._sendSettings || this._preloadCache.sendSettings;
+  } }, { key: "getLocalAudioLevel", value: function() {
+    return this._localAudioLevel;
+  } }, { key: "getRemoteParticipantsAudioLevel", value: function() {
+    return this._remoteParticipantsAudioLevel;
+  } }, { key: "getActiveSpeaker", value: function() {
+    return Re(), this._activeSpeaker;
+  } }, { key: "setActiveSpeakerMode", value: function(d) {
+    return Re(), this.sendMessageToCallMachine({ action: "set-active-speaker-mode", enabled: d }), this;
+  } }, { key: "activeSpeakerMode", value: function() {
+    return Re(), this._activeSpeakerMode;
+  } }, { key: "subscribeToTracksAutomatically", value: function() {
+    return this._preloadCache.subscribeToTracksAutomatically;
+  } }, { key: "setSubscribeToTracksAutomatically", value: function(d) {
+    return Ge(this._callState, "setSubscribeToTracksAutomatically()", "Use the subscribeToTracksAutomatically configuration property."), this._preloadCache.subscribeToTracksAutomatically = d, this.sendMessageToCallMachine({ action: "daily-method-subscribe-to-tracks-automatically", enabled: d }), this;
+  } }, { key: "enumerateDevices", value: (f = Me(function* () {
+    var d = this;
+    if (this._callObjectMode) {
+      var S = yield navigator.mediaDevices.enumerateDevices();
+      return wi() === "Firefox" && gl().major > 115 && gl().major < 123 && (S = S.filter(function(w) {
+        return w.kind !== "audiooutput";
+      })), { devices: S.map(function(w) {
+        var x = JSON.parse(JSON.stringify(w));
+        if (!Fe() && w.kind === "videoinput" && w.getCapabilities) {
+          var P, U = w.getCapabilities();
+          x.facing = (U == null || (P = U.facingMode) === null || P === void 0 ? void 0 : P.length) >= 1 ? U.facingMode[0] : void 0;
+        }
+        return x;
+      }) };
+    }
+    return new Promise(function(w) {
+      d.sendMessageToCallMachine({ action: "enumerate-devices" }, function(x) {
+        w({ devices: x.devices });
+      });
+    });
+  }), function() {
+    return f.apply(this, arguments);
+  }) }, { key: "sendAppMessage", value: function(d) {
+    var S = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : "*";
+    if (Ge(this._callState, "sendAppMessage()"), JSON.stringify(d).length > this._maxAppMessageSize) throw new Error("Message data too large. Max size is " + this._maxAppMessageSize);
+    return this.sendMessageToCallMachine({ action: "app-msg", data: d, to: S }), this;
+  } }, { key: "addFakeParticipant", value: function(d) {
+    return Re(), Ge(this._callState, "addFakeParticipant()"), this.sendMessageToCallMachine(_e({ action: "add-fake-participant" }, d)), this;
+  } }, { key: "setShowNamesMode", value: function(d) {
+    return ln(this._callObjectMode, "setShowNamesMode()"), Re(), d && d !== "always" && d !== "never" ? (console.error('setShowNamesMode argument should be "always", "never", or false'), this) : (this.sendMessageToCallMachine({ action: "set-show-names", mode: d }), this);
+  } }, { key: "setShowLocalVideo", value: function() {
+    var d = !(arguments.length > 0 && arguments[0] !== void 0) || arguments[0];
+    return ln(this._callObjectMode, "setShowLocalVideo()"), Re(), Ge(this._callState, "setShowLocalVideo()"), typeof d != "boolean" ? (console.error("setShowLocalVideo only accepts a boolean value"), this) : (this.sendMessageToCallMachine({ action: "set-show-local-video", show: d }), this._showLocalVideo = d, this);
+  } }, { key: "showLocalVideo", value: function() {
+    return ln(this._callObjectMode, "showLocalVideo()"), Re(), this._showLocalVideo;
+  } }, { key: "setShowParticipantsBar", value: function() {
+    var d = !(arguments.length > 0 && arguments[0] !== void 0) || arguments[0];
+    return ln(this._callObjectMode, "setShowParticipantsBar()"), Re(), Ge(this._callState, "setShowParticipantsBar()"), typeof d != "boolean" ? (console.error("setShowParticipantsBar only accepts a boolean value"), this) : (this.sendMessageToCallMachine({ action: "set-show-participants-bar", show: d }), this._showParticipantsBar = d, this);
+  } }, { key: "showParticipantsBar", value: function() {
+    return ln(this._callObjectMode, "showParticipantsBar()"), Re(), this._showParticipantsBar;
+  } }, { key: "customIntegrations", value: function() {
+    return Re(), ln(this._callObjectMode, "customIntegrations()"), this._customIntegrations;
+  } }, { key: "setCustomIntegrations", value: function(d) {
+    return Re(), ln(this._callObjectMode, "setCustomIntegrations()"), Ge(this._callState, "setCustomIntegrations()"), P0(d) ? (this.sendMessageToCallMachine({ action: "set-custom-integrations", integrations: d }), this._customIntegrations = d, this) : this;
+  } }, { key: "startCustomIntegrations", value: function(d) {
+    var S = this;
+    if (Re(), ln(this._callObjectMode, "startCustomIntegrations()"), Ge(this._callState, "startCustomIntegrations()"), Array.isArray(d) && d.some(function(P) {
+      return typeof P != "string";
+    }) || !Array.isArray(d) && typeof d != "string") return console.error("startCustomIntegrations() only accepts string | string[]"), this;
+    var w = typeof d == "string" ? [d] : d, x = w.filter(function(P) {
+      return !(P in S._customIntegrations);
+    });
+    return x.length ? (console.error(`Can't find custom integration(s): "`.concat(x.join(", "), '"')), this) : (this.sendMessageToCallMachine({ action: "start-custom-integrations", ids: w }), this);
+  } }, { key: "stopCustomIntegrations", value: function(d) {
+    var S = this;
+    if (Re(), ln(this._callObjectMode, "stopCustomIntegrations()"), Ge(this._callState, "stopCustomIntegrations()"), Array.isArray(d) && d.some(function(P) {
+      return typeof P != "string";
+    }) || !Array.isArray(d) && typeof d != "string") return console.error("stopCustomIntegrations() only accepts string | string[]"), this;
+    var w = typeof d == "string" ? [d] : d, x = w.filter(function(P) {
+      return !(P in S._customIntegrations);
+    });
+    return x.length ? (console.error(`Can't find custom integration(s): "`.concat(x.join(", "), '"')), this) : (this.sendMessageToCallMachine({ action: "stop-custom-integrations", ids: w }), this);
+  } }, { key: "customTrayButtons", value: function() {
+    return ln(this._callObjectMode, "customTrayButtons()"), Re(), this._customTrayButtons;
+  } }, { key: "updateCustomTrayButtons", value: function(d) {
+    return ln(this._callObjectMode, "updateCustomTrayButtons()"), Re(), Ge(this._callState, "updateCustomTrayButtons()"), M0(d) ? (this.sendMessageToCallMachine({ action: "update-custom-tray-buttons", btns: d }), this._customTrayButtons = d, this) : (console.error("updateCustomTrayButtons only accepts a dictionary of the type ".concat(JSON.stringify(vl))), this);
+  } }, { key: "theme", value: function() {
+    return ln(this._callObjectMode, "theme()"), this.properties.theme;
+  } }, { key: "setTheme", value: function(d) {
+    var S = this;
+    return ln(this._callObjectMode, "setTheme()"), new Promise(function(w, x) {
+      try {
+        S.validateProperties({ theme: d }), S.properties.theme = _e({}, d), S.sendMessageToCallMachine({ action: "set-theme", theme: S.properties.theme });
+        try {
+          S.emitDailyJSEvent({ action: hv, theme: S.properties.theme });
+        } catch (P) {
+          console.log("could not emit 'theme-updated'", P);
+        }
+        w(S.properties.theme);
+      } catch (P) {
+        x(P);
+      }
+    });
+  } }, { key: "requestFullscreen", value: (u = Me(function* () {
+    if (Re(), this._iframe && !document.fullscreenElement && vg()) try {
+      (yield this._iframe.requestFullscreen) ? this._iframe.requestFullscreen() : this._iframe.webkitRequestFullscreen();
+    } catch (d) {
+      console.log("could not make video call fullscreen", d);
+    }
+  }), function() {
+    return u.apply(this, arguments);
+  }) }, { key: "exitFullscreen", value: function() {
+    Re(), document.fullscreenElement ? document.exitFullscreen() : document.webkitFullscreenElement && document.webkitExitFullscreen();
+  } }, { key: "getSidebarView", value: (s = Me(function* () {
+    var d = this;
+    return this._callObjectMode ? (console.error("getSidebarView is not available in callObject mode"), Promise.resolve(null)) : new Promise(function(S) {
+      d.sendMessageToCallMachine({ action: "get-sidebar-view" }, function(w) {
+        S(w.view);
+      });
+    });
+  }), function() {
+    return s.apply(this, arguments);
+  }) }, { key: "setSidebarView", value: function(d) {
+    return this._callObjectMode ? (console.error("setSidebarView is not available in callObject mode"), this) : (this.sendMessageToCallMachine({ action: "set-sidebar-view", view: d }), this);
+  } }, { key: "room", value: (a = Me(function* () {
+    var d = this, S = (arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {}).includeRoomConfigDefaults, w = S === void 0 || S;
+    return this._accessState.access === il || this.needsLoad() ? this.properties.url ? { roomUrlPendingJoin: this.properties.url } : null : new Promise(function(x) {
+      d.sendMessageToCallMachine({ action: "lib-room-info", includeRoomConfigDefaults: w }, function(P) {
+        delete P.action, delete P.callbackStamp, x(P);
+      });
+    });
+  }), function() {
+    return a.apply(this, arguments);
+  }) }, { key: "geo", value: (o = Me(function* () {
+    try {
+      var d = yield fetch("https://gs.daily.co/_ks_/x-swsl/:");
+      return { current: (yield d.json()).geo };
+    } catch (S) {
+      return console.error("geo lookup failed", S), { current: "" };
+    }
+  }), function() {
+    return o.apply(this, arguments);
+  }) }, { key: "setNetworkTopology", value: (r = Me(function* (d) {
+    var S = this;
+    return Re(), Ge(this._callState, "setNetworkTopology()"), new Promise(function(w, x) {
+      S.sendMessageToCallMachine({ action: "set-network-topology", opts: d }, function(P) {
+        P.error ? x({ error: P.error }) : w({ workerId: P.workerId });
+      });
+    });
+  }), function(d) {
+    return r.apply(this, arguments);
+  }) }, { key: "getNetworkTopology", value: (t = Me(function* () {
+    var d = this;
+    return new Promise(function(S, w) {
+      d.needsLoad() && S({ topology: "none" }), d.sendMessageToCallMachine({ action: "get-network-topology" }, function(x) {
+        x.error ? w({ error: x.error }) : S({ topology: x.topology });
+      });
+    });
+  }), function() {
+    return t.apply(this, arguments);
+  }) }, { key: "setPlayNewParticipantSound", value: function(d) {
+    if (Re(), typeof d != "number" && d !== !0 && d !== !1) throw new Error("argument to setShouldPlayNewParticipantSound should be true, false, or a number, but is ".concat(d));
+    this.sendMessageToCallMachine({ action: "daily-method-set-play-ding", arg: d });
+  } }, { key: "on", value: function(d, S) {
+    return Fs.prototype.on.call(this, d, S);
+  } }, { key: "once", value: function(d, S) {
+    return Fs.prototype.once.call(this, d, S);
+  } }, { key: "off", value: function(d, S) {
+    return Fs.prototype.off.call(this, d, S);
+  } }, { key: "validateProperties", value: function(d) {
+    var S, w;
+    if (d != null && (S = d.dailyConfig) !== null && S !== void 0 && S.userMediaAudioConstraints) {
+      var x, P;
+      Fe() || console.warn("userMediaAudioConstraints is deprecated. You can override constraints with inputSettings.audio.settings, found in DailyCallOptions.");
+      var U = d.inputSettings || {};
+      U.audio = ((x = d.inputSettings) === null || x === void 0 ? void 0 : x.audio) || {}, U.audio.settings = ((P = d.inputSettings) === null || P === void 0 || (P = P.audio) === null || P === void 0 ? void 0 : P.settings) || {}, U.audio.settings = _e(_e({}, U.audio.settings), d.dailyConfig.userMediaAudioConstraints), d.inputSettings = U, delete d.dailyConfig.userMediaAudioConstraints;
+    }
+    if (d != null && (w = d.dailyConfig) !== null && w !== void 0 && w.userMediaVideoConstraints) {
+      var Q, K;
+      Fe() || console.warn("userMediaVideoConstraints is deprecated. You can override constraints with inputSettings.video.settings, found in DailyCallOptions.");
+      var he = d.inputSettings || {};
+      he.video = ((Q = d.inputSettings) === null || Q === void 0 ? void 0 : Q.video) || {}, he.video.settings = ((K = d.inputSettings) === null || K === void 0 || (K = K.video) === null || K === void 0 ? void 0 : K.settings) || {}, he.video.settings = _e(_e({}, he.video.settings), d.dailyConfig.userMediaVideoConstraints), d.inputSettings = he, delete d.dailyConfig.userMediaVideoConstraints;
+    }
+    for (var Te in d) if (ci[Te]) {
+      if (ci[Te].validate && !ci[Te].validate(d[Te], this)) throw new Error("property '".concat(Te, "': ").concat(ci[Te].help));
+    } else console.warn("Ignoring unrecognized property '".concat(Te, "'")), delete d[Te];
+  } }, { key: "assembleMeetingUrl", value: function() {
+    var d, S, w = _e(_e({}, this.properties), {}, { emb: this.callClientId, embHref: encodeURIComponent(window.location.href), proxy: (d = this.properties.dailyConfig) !== null && d !== void 0 && d.proxyUrl ? encodeURIComponent((S = this.properties.dailyConfig) === null || S === void 0 ? void 0 : S.proxyUrl) : void 0 }), x = w.url.match(/\?/) ? "&" : "?";
+    return w.url + x + Object.keys(ci).filter(function(P) {
+      return ci[P].queryString && w[P] !== void 0;
+    }).map(function(P) {
+      return "".concat(ci[P].queryString, "=").concat(w[P]);
+    }).join("&");
+  } }, { key: "needsLoad", value: function() {
+    return [Sd, fg, zr, ur].includes(this._callState);
+  } }, { key: "sendMessageToCallMachine", value: function(d, S) {
+    if (this._destroyed && (this._logUseAfterDestroy(), this.strictMode)) throw new Error("Use after destroy");
+    this._messageChannel.sendMessageToCallMachine(d, S, this.callClientId, this._iframe);
+  } }, { key: "forwardPackagedMessageToCallMachine", value: function(d) {
+    this._messageChannel.forwardPackagedMessageToCallMachine(d, this._iframe, this.callClientId);
+  } }, { key: "addListenerForPackagedMessagesFromCallMachine", value: function(d) {
+    return this._messageChannel.addListenerForPackagedMessagesFromCallMachine(d, this.callClientId);
+  } }, { key: "removeListenerForPackagedMessagesFromCallMachine", value: function(d) {
+    this._messageChannel.removeListenerForPackagedMessagesFromCallMachine(d);
+  } }, { key: "handleMessageFromCallMachine", value: function(d) {
+    switch (d.action) {
+      case fv:
+        this.sendMessageToCallMachine(_e({ action: pv }, this.properties));
+        break;
+      case "call-machine-initialized":
+        this._callMachineInitialized = !0;
+        var S = { action: Js, level: "log", code: 1011, stats: { event: "bundle load", time: this._bundleLoadTime === "no-op" ? 0 : this._bundleLoadTime, preLoaded: this._bundleLoadTime === "no-op", url: ul(this.properties.dailyConfig) } };
+        this.sendMessageToCallMachine(S), this._delayDuplicateInstanceLog && this._logDuplicateInstanceAttempt();
+        break;
+      case _d:
+        this._loadedCallback && (this._loadedCallback(), this._loadedCallback = null), this.emitDailyJSEvent(d);
+        break;
+      case Sv:
+        var w, x = _e({}, d);
+        delete x.internal, this._maxAppMessageSize = ((w = d.internal) === null || w === void 0 ? void 0 : w._maxAppMessageSize) || Dc, this._joinedCallback && (this._joinedCallback(d.participants), this._joinedCallback = null), this.emitDailyJSEvent(x);
+        break;
+      case _v:
+      case bv:
+        if (this._callState === zr) return;
+        if (d.participant && d.participant.session_id) {
+          var P = d.participant.local ? "local" : d.participant.session_id;
+          if (this._callObjectMode) {
+            var U = this._callMachine().store;
+            Cg(d.participant, U), xg(d.participant, U), Tg(d.participant, this._participants[P], U);
+          }
+          try {
+            this.maybeParticipantTracksStopped(this._participants[P], d.participant), this.maybeParticipantTracksStarted(this._participants[P], d.participant), this.maybeEventRecordingStopped(this._participants[P], d.participant), this.maybeEventRecordingStarted(this._participants[P], d.participant);
+          } catch (Z) {
+            console.error("track events error", Z);
+          }
+          this.compareEqualForParticipantUpdateEvent(d.participant, this._participants[P]) || (this._participants[P] = _e({}, d.participant), this.toggleParticipantAudioBasedOnNativeAudioFocus(), this.emitDailyJSEvent(d));
+        }
+        break;
+      case Ev:
+        if (d.participant && d.participant.session_id) {
+          var Q = this._participants[d.participant.session_id];
+          Q && this.maybeParticipantTracksStopped(Q, null), delete this._participants[d.participant.session_id], this.emitDailyJSEvent(d);
+        }
+        break;
+      case Cv:
+        Ut(this._participantCounts, d.participantCounts) || (this._participantCounts = d.participantCounts, this.emitDailyJSEvent(d));
+        break;
+      case xv:
+        var K = { access: d.access };
+        d.awaitingAccess && (K.awaitingAccess = d.awaitingAccess), Ut(this._accessState, K) || (this._accessState = K, this.emitDailyJSEvent(d));
+        break;
+      case Tv:
+        if (d.meetingSession) {
+          this._meetingSessionSummary = d.meetingSession, this.emitDailyJSEvent(d);
+          var he = _e(_e({}, d), {}, { action: "meeting-session-updated" });
+          this.emitDailyJSEvent(he);
+        }
+        break;
+      case Td:
+        var Te;
+        this._iframe && !d.preserveIframe && (this._iframe.src = ""), this._updateCallState(ur), this.resetMeetingDependentVars(), this._loadedCallback && (this._loadedCallback(d.errorMsg), this._loadedCallback = null), d.preserveIframe;
+        var Oe = sm(d, O_);
+        Oe != null && (Te = Oe.error) !== null && Te !== void 0 && Te.details && (Oe.error.details = JSON.parse(Oe.error.details)), this._maybeSendToSentry(d), this._joinedCallback && (this._joinedCallback(null, Oe), this._joinedCallback = null), this.emitDailyJSEvent(Oe);
+        break;
+      case kv:
+        this._callState !== ur && this._updateCallState(zr), this.resetMeetingDependentVars(), this._resolveLeave && (this._resolveLeave(), this._resolveLeave = null), this.emitDailyJSEvent(d);
+        break;
+      case "selected-devices-updated":
+        d.devices && this.emitDailyJSEvent(d);
+        break;
+      case Zv:
+        var gt = d.state, Rt = d.threshold, en = d.quality, Je = gt.state, ft = gt.reasons;
+        Je === this._network.networkState && Ut(ft, this._network.networkStateReasons) && Rt === this._network.threshold && en === this._network.quality || (this._network.networkState = Je, this._network.networkStateReasons = ft, this._network.quality = en, this._network.threshold = Rt, d.networkState = Je, ft.length && (d.networkStateReasons = ft), delete d.state, this.emitDailyJSEvent(d));
+        break;
+      case Xv:
+        d && d.cpuLoadState && this.emitDailyJSEvent(d);
+        break;
+      case e0:
+        d && d.faceCounts !== void 0 && this.emitDailyJSEvent(d);
+        break;
+      case Yv:
+        var At = d.activeSpeaker;
+        this._activeSpeaker.peerId !== At.peerId && (this._activeSpeaker.peerId = At.peerId, this.emitDailyJSEvent({ action: d.action, activeSpeaker: this._activeSpeaker }));
+        break;
+      case "show-local-video-changed":
+        if (this._callObjectMode) return;
+        var yt = d.show;
+        this._showLocalVideo = yt, this.emitDailyJSEvent({ action: d.action, show: yt });
+        break;
+      case Qv:
+        var _t = d.enabled;
+        this._activeSpeakerMode !== _t && (this._activeSpeakerMode = _t, this.emitDailyJSEvent({ action: d.action, enabled: this._activeSpeakerMode }));
+        break;
+      case Mv:
+      case Pv:
+      case Ov:
+        this._waitingParticipants = d.allWaitingParticipants, this.emitDailyJSEvent({ action: d.action, participant: d.participant });
+        break;
+      case a0:
+        Ut(this._receiveSettings, d.receiveSettings) || (this._receiveSettings = d.receiveSettings, this.emitDailyJSEvent({ action: d.action, receiveSettings: d.receiveSettings }));
+        break;
+      case Cd:
+        this._maybeUpdateInputSettings(d.inputSettings);
+        break;
+      case "send-settings-updated":
+        Ut(this._sendSettings, d.sendSettings) || (this._sendSettings = d.sendSettings, this._preloadCache.sendSettings = null, this.emitDailyJSEvent({ action: d.action, sendSettings: d.sendSettings }));
+        break;
+      case "local-audio-level":
+        this._localAudioLevel = d.audioLevel, this._preloadCache.localAudioLevelObserver = null, this.emitDailyJSEvent(d);
+        break;
+      case "remote-participants-audio-level":
+        this._remoteParticipantsAudioLevel = d.participantsAudioLevel, this._preloadCache.remoteParticipantsAudioLevelObserver = null, this.emitDailyJSEvent(d);
+        break;
+      case qv:
+        var tn = d.session_id;
+        this._rmpPlayerState[tn] = d.playerState, this.emitDailyJSEvent(d);
+        break;
+      case Hv:
+        delete this._rmpPlayerState[d.session_id], this.emitDailyJSEvent(d);
+        break;
+      case $v:
+        var hn = d.session_id, xn = this._rmpPlayerState[hn];
+        xn && this.compareEqualForRMPUpdateEvent(xn, d.remoteMediaPlayerState) || (this._rmpPlayerState[hn] = d.remoteMediaPlayerState, this.emitDailyJSEvent(d));
+        break;
+      case "custom-button-click":
+      case "sidebar-view-changed":
+      case "pip-started":
+      case "pip-stopped":
+        this.emitDailyJSEvent(d);
+        break;
+      case Av:
+        var Tn = this._meetingSessionState.topology !== (d.meetingSessionState && d.meetingSessionState.topology);
+        this._meetingSessionState = qc(d.meetingSessionState, this._callObjectMode), (this._callObjectMode || Tn) && this.emitDailyJSEvent(d);
+        break;
+      case Jv:
+        this._isScreenSharing = !0, this.emitDailyJSEvent(d);
+        break;
+      case Wv:
+      case Gv:
+        this._isScreenSharing = !1, this.emitDailyJSEvent(d);
+        break;
+      case bd:
+      case Ed:
+      case Rv:
+      case Fv:
+      case Vv:
+      case Dv:
+      case jv:
+      case Nv:
+      case yv:
+      case vv:
+      case Bv:
+      case Uv:
+      case "test-completed":
+      case Kv:
+      case zv:
+      case t0:
+      case n0:
+      case r0:
+      case i0:
+      case xd:
+      case o0:
+      case "dialin-ready":
+      case "dialin-connected":
+      case "dialin-error":
+      case "dialin-stopped":
+      case "dialin-warning":
+      case "dialout-connected":
+      case "dialout-answered":
+      case "dialout-error":
+      case "dialout-stopped":
+      case "dialout-warning":
+        this.emitDailyJSEvent(d);
+        break;
+      case "request-fullscreen":
+        this.requestFullscreen();
+        break;
+      case "request-exit-fullscreen":
+        this.exitFullscreen();
+    }
+  } }, { key: "maybeEventRecordingStopped", value: function(d, S) {
+    var w = "record";
+    d && (S.local || S[w] !== !1 || d[w] === S[w] || this.emitDailyJSEvent({ action: Ed }));
+  } }, { key: "maybeEventRecordingStarted", value: function(d, S) {
+    var w = "record";
+    d && (S.local || S[w] !== !0 || d[w] === S[w] || this.emitDailyJSEvent({ action: bd }));
+  } }, { key: "_trackStatePlayable", value: function(d) {
+    return !(!d || d.state !== sv);
+  } }, { key: "_trackChanged", value: function(d, S) {
+    return d?.id !== S?.id;
+  } }, { key: "maybeEventTrackStopped", value: function(d, S, w) {
+    var x, P, U = (x = S?.tracks[d]) !== null && x !== void 0 ? x : null, Q = (P = w?.tracks[d]) !== null && P !== void 0 ? P : null, K = U?.track;
+    if (K) {
+      var he = this._trackStatePlayable(U), Te = this._trackStatePlayable(Q), Oe = this._trackChanged(K, Q?.track);
+      he && (Te && !Oe || this.emitDailyJSEvent({ action: Lv, track: K, participant: w ?? S, type: d }));
+    }
+  } }, { key: "maybeEventTrackStarted", value: function(d, S, w) {
+    var x, P, U = (x = S?.tracks[d]) !== null && x !== void 0 ? x : null, Q = (P = w?.tracks[d]) !== null && P !== void 0 ? P : null, K = Q?.track;
+    if (K) {
+      var he = this._trackStatePlayable(U), Te = this._trackStatePlayable(Q), Oe = this._trackChanged(U?.track, K);
+      Te && (he && !Oe || this.emitDailyJSEvent({ action: Iv, track: K, participant: w, type: d }));
+    }
+  } }, { key: "maybeParticipantTracksStopped", value: function(d, S) {
+    if (d) for (var w in d.tracks) this.maybeEventTrackStopped(w, d, S);
+  } }, { key: "maybeParticipantTracksStarted", value: function(d, S) {
+    if (S) for (var w in S.tracks) this.maybeEventTrackStarted(w, d, S);
+  } }, { key: "compareEqualForRMPUpdateEvent", value: function(d, S) {
+    var w, x;
+    return d.state === S.state && ((w = d.settings) === null || w === void 0 ? void 0 : w.volume) === ((x = S.settings) === null || x === void 0 ? void 0 : x.volume);
+  } }, { key: "emitDailyJSEvent", value: function(d) {
+    try {
+      d.callClientId = this.callClientId, this.emit(d.action, d);
+    } catch (S) {
+      console.log("could not emit", d, S);
+    }
+  } }, { key: "compareEqualForParticipantUpdateEvent", value: function(d, S) {
+    return !!Ut(d, S) && (!d.videoTrack || !S.videoTrack || d.videoTrack.id === S.videoTrack.id && d.videoTrack.muted === S.videoTrack.muted && d.videoTrack.enabled === S.videoTrack.enabled) && (!d.audioTrack || !S.audioTrack || d.audioTrack.id === S.audioTrack.id && d.audioTrack.muted === S.audioTrack.muted && d.audioTrack.enabled === S.audioTrack.enabled);
+  } }, { key: "nativeUtils", value: function() {
+    return Fe() ? typeof DailyNativeUtils > "u" ? (console.warn("in React Native, DailyNativeUtils is expected to be available"), null) : DailyNativeUtils : null;
+  } }, { key: "updateIsPreparingToJoin", value: function(d) {
+    this._updateCallState(this._callState, d);
+  } }, { key: "_updateCallState", value: function(d) {
+    var S = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : this._isPreparingToJoin;
+    if (d !== this._callState || S !== this._isPreparingToJoin) {
+      var w = this._callState, x = this._isPreparingToJoin;
+      this._callState = d, this._isPreparingToJoin = S;
+      var P = this._callState === Ur;
+      this.updateShowAndroidOngoingMeetingNotification(P);
+      var U = al(w, x), Q = al(this._callState, this._isPreparingToJoin);
+      U !== Q && (this.updateKeepDeviceAwake(Q), this.updateDeviceAudioMode(Q), this.updateNoOpRecordingEnsuringBackgroundContinuity(Q));
+    }
+  } }, { key: "resetMeetingDependentVars", value: function() {
+    this._participants = {}, this._participantCounts = Vg, this._waitingParticipants = {}, this._activeSpeaker = {}, this._activeSpeakerMode = !1, this._didPreAuth = !1, this._accessState = { access: il }, this._finalSummaryOfPrevSession = this._meetingSessionSummary, this._meetingSessionSummary = {}, this._meetingSessionState = qc(Fg, this._callObjectMode), this._isScreenSharing = !1, this._receiveSettings = {}, this._inputSettings = void 0, this._sendSettings = {}, this._localAudioLevel = 0, this._isLocalAudioLevelObserverRunning = !1, this._remoteParticipantsAudioLevel = {}, this._isRemoteParticipantsAudioLevelObserverRunning = !1, this._maxAppMessageSize = Dc, this._callMachineInitialized = !1, this._bundleLoadTime = void 0, this._preloadCache;
+  } }, { key: "updateKeepDeviceAwake", value: function(d) {
+    Fe() && this.nativeUtils().setKeepDeviceAwake(d, this.callClientId);
+  } }, { key: "updateDeviceAudioMode", value: function(d) {
+    if (Fe() && !this.disableReactNativeAutoDeviceManagement("audio")) {
+      var S = d ? this._nativeInCallAudioMode : "idle";
+      this.nativeUtils().setAudioMode(S);
+    }
+  } }, { key: "updateShowAndroidOngoingMeetingNotification", value: function(d) {
+    if (Fe() && this.nativeUtils().setShowOngoingMeetingNotification) {
+      var S, w, x, P;
+      if (this.properties.reactNativeConfig && this.properties.reactNativeConfig.androidInCallNotification) {
+        var U = this.properties.reactNativeConfig.androidInCallNotification;
+        S = U.title, w = U.subtitle, x = U.iconName, P = U.disableForCustomOverride;
+      }
+      P && (d = !1), this.nativeUtils().setShowOngoingMeetingNotification(d, S, w, x, this.callClientId);
+    }
+  } }, { key: "updateNoOpRecordingEnsuringBackgroundContinuity", value: function(d) {
+    Fe() && this.nativeUtils().enableNoOpRecordingEnsuringBackgroundContinuity && this.nativeUtils().enableNoOpRecordingEnsuringBackgroundContinuity(d);
+  } }, { key: "toggleParticipantAudioBasedOnNativeAudioFocus", value: function() {
+    var d;
+    if (Fe()) {
+      var S = (d = this._callMachine()) === null || d === void 0 || (d = d.store) === null || d === void 0 ? void 0 : d.getState();
+      for (var w in S?.streams) {
+        var x = S.streams[w];
+        x && x.pendingTrack && x.pendingTrack.kind === "audio" && (x.pendingTrack.enabled = this._hasNativeAudioFocus);
+      }
+    }
+  } }, { key: "disableReactNativeAutoDeviceManagement", value: function(d) {
+    return this.properties.reactNativeConfig && this.properties.reactNativeConfig.disableAutoDeviceManagement && this.properties.reactNativeConfig.disableAutoDeviceManagement[d];
+  } }, { key: "absoluteUrl", value: function(d) {
+    if (d !== void 0) {
+      var S = document.createElement("a");
+      return S.href = d, S.href;
+    }
+  } }, { key: "sayHello", value: function() {
+    var d = "hello, world.";
+    return console.log(d), d;
+  } }, { key: "_logUseAfterDestroy", value: function() {
+    var d = Object.values(ui)[0];
+    if (this.needsLoad())
+      if (d && !d.needsLoad()) {
+        var S = { action: Js, level: "error", code: this.strictMode ? 9995 : 9997 };
+        d.sendMessageToCallMachine(S);
+      } else this.strictMode || console.error("You are are attempting to use a call instance that was previously destroyed, which is unsupported. Please remove `strictMode: false` from your constructor properties to enable strict mode to track down and fix this unsupported usage.");
+    else {
+      var w = { action: Js, level: "error", code: this.strictMode ? 9995 : 9997 };
+      this._messageChannel.sendMessageToCallMachine(w, null, this.callClientId, this._iframe);
+    }
+  } }, { key: "_logDuplicateInstanceAttempt", value: function() {
+    for (var d = 0, S = Object.values(ui); d < S.length; d++) {
+      var w = S[d];
+      w._callMachineInitialized ? (w.sendMessageToCallMachine({ action: Js, level: "warn", code: this.allowMultipleCallInstances ? 9993 : 9992 }), w._delayDuplicateInstanceLog = !1) : w._delayDuplicateInstanceLog = !0;
+    }
+  } }, { key: "_maybeSendToSentry", value: function(d) {
+    var S, w, x, P;
+    if (!((S = d.error) !== null && S !== void 0 && S.type && (![dv, cv, kd].includes(d.error.type) || d.error.type === kd && d.error.msg.includes("deleted")))) {
+      var U = (w = this.properties) !== null && w !== void 0 && w.url ? new URL(this.properties.url) : void 0, Q = "production";
+      U && U.host.includes(".staging.daily") && (Q = "staging");
+      var K, he, Te, Oe, gt, Rt = function(tn) {
+        const hn = [ek(), KS(), xk(), Ek(), Ok(), Lk(), ik(), Ik()];
+        return tn.autoSessionTracking !== !1 && hn.push(Pk()), hn;
+      }({}).filter(function(tn) {
+        return !["BrowserApiErrors", "Breadcrumbs", "GlobalHandlers"].includes(tn.name);
+      }), en = new fk({ dsn: "https://f10f1c81e5d44a4098416c0867a8b740@o77906.ingest.sentry.io/168844", transport: yk, stackParser: bk, integrations: Rt, environment: Q }), Je = new $r();
+      if (Je.setClient(en), en.init(), this.session_id && Je.setExtra("sessionId", this.session_id), this.properties) {
+        var ft = _e({}, this.properties);
+        ft.userName = ft.userName ? "[Filtered]" : void 0, ft.userData = ft.userData ? "[Filtered]" : void 0, ft.token = ft.token ? "[Filtered]" : void 0, Je.setExtra("properties", ft);
+      }
+      if (U) {
+        var At = U.searchParams.get("domain");
+        if (!At) {
+          var yt = U.host.match(/(.*?)\./);
+          At = yt && yt[1] || "";
+        }
+        At && Je.setTag("domain", At);
+      }
+      d.error && (Je.setTag("fatalErrorType", d.error.type), Je.setExtra("errorDetails", d.error.details), !((K = d.error.details) === null || K === void 0) && K.uri && Je.setTag("serverAddress", d.error.details.uri), !((he = d.error.details) === null || he === void 0) && he.workerGroup && Je.setTag("workerGroup", d.error.details.workerGroup), !((Te = d.error.details) === null || Te === void 0) && Te.geoGroup && Je.setTag("geoGroup", d.error.details.geoGroup), !((Oe = d.error.details) === null || Oe === void 0) && Oe.on && Je.setTag("connectionAttempt", d.error.details.on), (gt = d.error.details) !== null && gt !== void 0 && gt.bundleUrl && (Je.setTag("bundleUrl", d.error.details.bundleUrl), Je.setTag("bundleError", d.error.details.sourceError.type))), Je.setTags({ callMode: this._callObjectMode ? Fe() ? "reactNative" : (x = this.properties) !== null && x !== void 0 && (x = x.dailyConfig) !== null && x !== void 0 && (x = x.callMode) !== null && x !== void 0 && x.includes("prebuilt") ? this.properties.dailyConfig.callMode : "custom" : "prebuilt-frame", version: e.version() });
+      var _t = ((P = d.error) === null || P === void 0 ? void 0 : P.msg) || d.errorMsg;
+      Je.captureException(new Error(_t));
+    }
+  } }, { key: "_callMachine", value: function() {
+    var d;
+    return (d = window._daily) === null || d === void 0 || (d = d.instances) === null || d === void 0 || (d = d[this.callClientId]) === null || d === void 0 ? void 0 : d.callMachine;
+  } }, { key: "_maybeUpdateInputSettings", value: function(d) {
+    if (!Ut(this._inputSettings, d)) {
+      var S = this._getInputSettings();
+      this._inputSettings = d;
+      var w = this._getInputSettings();
+      Ut(S, w) || this.emitDailyJSEvent({ action: Cd, inputSettings: w });
+    }
+  } }], [{ key: "supportedBrowser", value: function() {
+    if (Fe()) return { supported: !0, mobile: !0, name: "React Native", version: null, supportsScreenShare: !0, supportsSfu: !0, supportsVideoProcessing: !1, supportsAudioProcessing: !1 };
+    var d = SS.getParser(Cn());
+    return { supported: !!Rc(), mobile: d.getPlatformType() === "mobile", name: d.getBrowserName(), version: d.getBrowserVersion(), supportsFullscreen: !!vg(), supportsScreenShare: !!a_(), supportsSfu: !!Rc(), supportsVideoProcessing: u0(), supportsAudioProcessing: c0() };
+  } }, { key: "version", value: function() {
+    return "0.84.0";
+  } }, { key: "createCallObject", value: function() {
+    var d = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    return d.layout = "none", new e(null, d);
+  } }, { key: "wrap", value: function(d) {
+    var S = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
+    if (Re(), !d || !d.contentWindow || typeof d.src != "string") throw new Error("DailyIframe::Wrap needs an iframe-like first argument");
+    return S.layout || (S.customLayout ? S.layout = "custom-v1" : S.layout = "browser"), new e(d, S);
+  } }, { key: "createFrame", value: function(d, S) {
+    var w, x;
+    Re(), d && S ? (w = d, x = S) : d && d.append ? (w = d, x = {}) : (w = document.body, x = d || {});
+    var P = x.iframeStyle;
+    P || (P = w === document.body ? { position: "fixed", border: "1px solid black", backgroundColor: "white", width: "375px", height: "450px", right: "1em", bottom: "1em" } : { border: 0, width: "100%", height: "100%" });
+    var U = document.createElement("iframe");
+    window.navigator && window.navigator.userAgent.match(/Chrome\/61\./) ? U.allow = "microphone, camera" : U.allow = "microphone; camera; autoplay; display-capture; screen-wake-lock", U.style.visibility = "hidden", w.appendChild(U), U.style.visibility = null, Object.keys(P).forEach(function(Q) {
+      return U.style[Q] = P[Q];
+    }), x.layout || (x.customLayout ? x.layout = "custom-v1" : x.layout = "browser");
+    try {
+      return new e(U, x);
+    } catch (Q) {
+      throw w.removeChild(U), Q;
+    }
+  } }, { key: "createTransparentFrame", value: function() {
+    var d = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    Re();
+    var S = document.createElement("iframe");
+    return S.allow = "microphone; camera; autoplay", S.style.cssText = `
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      pointer-events: none;
+    `, document.body.appendChild(S), d.layout || (d.layout = "custom-v1"), e.wrap(S, d);
+  } }, { key: "getCallInstance", value: function() {
+    var d = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : void 0;
+    return d ? ui[d] : Object.values(ui)[0];
+  } }]);
+  var t, r, o, a, s, u, f, p, m, y, v, _, k, T, E, L, M, V, B, j, N, A, H, z, ae, X, ne, le, pe, q, ue, be, ve, Y, re, C, I, G;
+}();
+function Ug(e) {
+  if (e.extension) {
+    if (typeof e.extension != "string") throw new Error("Error starting dial out: extension must be a string");
+    if (e.extension.length > 20) throw new Error("Error starting dial out: extension length must be less than or equal to 20");
+  }
+  if (e.waitBeforeExtensionDialSec) {
+    if (typeof e.waitBeforeExtensionDialSec != "number") throw new Error("Error starting dial out: waitBeforeExtensionDialSec must be a number");
+    if (e.waitBeforeExtensionDialSec > 60) throw new Error("Error starting dial out: waitBeforeExtensionDialSec must be less than or equal to 60");
+    if (!e.extension) throw new Error("Error starting dial out: waitBeforeExtensionDialSec requires a phoneNumber and extension");
+  }
+}
+function Zi(e, t) {
+  var r = {};
+  for (var o in e) if (e[o] instanceof MediaStreamTrack) console.warn("MediaStreamTrack found in props or cache.", o), r[o] = pr;
+  else if (o === "dailyConfig") {
+    if (e[o].modifyLocalSdpHook) {
+      var a = window._daily.instances[t].customCallbacks || {};
+      a.modifyLocalSdpHook = e[o].modifyLocalSdpHook, window._daily.instances[t].customCallbacks = a, delete e[o].modifyLocalSdpHook;
+    }
+    if (e[o].modifyRemoteSdpHook) {
+      var s = window._daily.instances[t].customCallbacks || {};
+      s.modifyRemoteSdpHook = e[o].modifyRemoteSdpHook, window._daily.instances[t].customCallbacks = s, delete e[o].modifyRemoteSdpHook;
+    }
+    r[o] = e[o];
+  } else r[o] = e[o];
+  return r;
+}
+function Ge(e) {
+  var t = arguments.length > 2 ? arguments[2] : void 0;
+  if (e !== Ur) {
+    var r = "".concat(arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : "This daily-js method", " only supported after join.");
+    throw t && (r += " ".concat(t)), console.error(r), new Error(r);
+  }
+}
+function al(e, t) {
+  return [ml, Ur].includes(e) || t;
+}
+function Bc(e, t) {
+  var r = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : "This daily-js method", o = arguments.length > 3 ? arguments[3] : void 0;
+  if (al(e, t)) {
+    var a = "".concat(r, " not supported after joining a meeting.");
+    throw o && (a += " ".concat(o)), console.error(a), new Error(a);
+  }
+}
+function Ys(e) {
+  var t = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : "This daily-js method", r = arguments.length > 2 ? arguments[2] : void 0;
+  if (!e) {
+    var o = "".concat(t, arguments.length > 3 && arguments[3] !== void 0 && arguments[3] ? " requires preAuth() or startCamera() to initialize call state." : " requires preAuth(), startCamera(), or join() to initialize call state.");
+    throw r && (o += " ".concat(r)), console.error(o), new Error(o);
+  }
+}
+function Uc(e) {
+  if (e) {
+    var t = "A pre-call quality test is in progress. Please try ".concat(arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : "This daily-js method", " again once testing has completed. Use stopTestCallQuality() to end it early.");
+    throw console.error(t), new Error(t);
+  }
+}
+function jn(e) {
+  if (!e) {
+    var t = "".concat(arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : "This daily-js method", " is only supported on custom callObject instances");
+    throw console.error(t), new Error(t);
+  }
+}
+function ln(e) {
+  if (e) {
+    var t = "".concat(arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : "This daily-js method", " is only supported as part of Daily's Prebuilt");
+    throw console.error(t), new Error(t);
+  }
+}
+function Re() {
+  if (Fe()) throw new Error("This daily-js method is not currently supported in React Native");
+}
+function ta() {
+  if (!Fe()) throw new Error("This daily-js method is only supported in React Native");
+}
+function b0(e) {
+  if (e === void 0) return !0;
+  var t;
+  if (typeof e == "string") t = e;
+  else try {
+    t = JSON.stringify(e), Ut(JSON.parse(t), e) || console.warn("The userData provided will be modified when serialized.");
+  } catch (r) {
+    throw Error("userData must be serializable to JSON: ".concat(r));
+  }
+  if (t.length > 4096) throw Error("userData is too large (".concat(t.length, " characters). Maximum size suppported is ").concat(4096, "."));
+  return !0;
+}
+function E0(e, t) {
+  for (var r = t.allowAllParticipantsKey, o = function(v) {
+    var _ = ["local"];
+    return r || _.push("*"), v && !_.includes(v);
+  }, a = function(v) {
+    return !!(v.layer === void 0 || Number.isInteger(v.layer) && v.layer >= 0 || v.layer === "inherit");
+  }, s = function(v) {
+    return !!v && !(v.video && !a(v.video)) && !(v.screenVideo && !a(v.screenVideo));
+  }, u = 0, f = Object.entries(e); u < f.length; u++) {
+    var p = jt(f[u], 2), m = p[0], y = p[1];
+    if (!o(m) || !s(y)) return !1;
+  }
+  return !0;
+}
+function C0(e) {
+  if (ze(e) !== "object") return !1;
+  for (var t = 0, r = Object.entries(e); t < r.length; t++) {
+    var o = jt(r[t], 2), a = o[0], s = o[1];
+    switch (a) {
+      case "video":
+        if (ze(s) !== "object") return !1;
+        for (var u = 0, f = Object.entries(s); u < f.length; u++) {
+          var p = jt(f[u], 2), m = p[0], y = p[1];
+          switch (m) {
+            case "processor":
+              if (!j_(y)) return !1;
+              break;
+            case "settings":
+              if (!qg(y)) return !1;
+              break;
+            default:
+              return !1;
+          }
+        }
+        break;
+      case "audio":
+        if (ze(s) !== "object") return !1;
+        for (var v = 0, _ = Object.entries(s); v < _.length; v++) {
+          var k = jt(_[v], 2), T = k[0], E = k[1];
+          switch (T) {
+            case "processor":
+              if (!D_(E)) return !1;
+              break;
+            case "settings":
+              if (!qg(E)) return !1;
+              break;
+            default:
+              return !1;
+          }
+        }
+        break;
+      default:
+        return !1;
+    }
+  }
+  return !0;
+}
+function x0(e, t, r) {
+  var o, a = [];
+  e.video && e.video.processor && (u0((o = t?.useLegacyVideoProcessor) !== null && o !== void 0 && o) || (e.video.settings ? delete e.video.processor : delete e.video, a.push("video"))), e.audio && e.audio.processor && (c0() || (e.audio.settings ? delete e.audio.processor : delete e.audio, a.push("audio"))), a.length > 0 && console.error("Ignoring settings for browser- or platform-unsupported input processor(s): ".concat(a.join(", "))), e.audio && e.audio.settings && (e.audio.settings.customTrack ? (r.audioTrack = e.audio.settings.customTrack, e.audio.settings = { customTrack: pr }) : delete r.audioTrack), e.video && e.video.settings && (e.video.settings.customTrack ? (r.videoTrack = e.video.settings.customTrack, e.video.settings = { customTrack: pr }) : delete r.videoTrack);
+}
+function D_(e) {
+  if (Fe()) return console.warn("Video processing is not yet supported in React Native"), !1;
+  var t = ["type"];
+  return !!e && ze(e) === "object" && (Object.keys(e).filter(function(r) {
+    return !t.includes(r);
+  }).forEach(function(r) {
+    console.warn("invalid key inputSettings -> audio -> processor : ".concat(r)), delete e[r];
+  }), !!function(r) {
+    return typeof r != "string" ? !1 : Object.values(s0).includes(r) ? !0 : (console.error("inputSettings audio processor type invalid"), !1);
+  }(e.type));
+}
+function j_(e) {
+  if (Fe()) return console.warn("Video processing is not yet supported in React Native"), !1;
+  var t = ["type", "config"];
+  return !e || ze(e) !== "object" || !function(r) {
+    return typeof r != "string" ? !1 : Object.values(ol).includes(r) ? !0 : (console.error("inputSettings video processor type invalid"), !1);
+  }(e.type) || e.config && (ze(e.config) !== "object" || !function(r, o) {
+    var a = Object.keys(o);
+    if (a.length === 0) return !0;
+    var s = "invalid object in inputSettings -> video -> processor -> config";
+    switch (r) {
+      case ol.BGBLUR:
+        return a.length > 1 || a[0] !== "strength" ? (console.error(s), !1) : !(typeof o.strength != "number" || o.strength <= 0 || o.strength > 1 || isNaN(o.strength)) || (console.error("".concat(s, "; expected: {0 < strength <= 1}, got: ").concat(o.strength)), !1);
+      case ol.BGIMAGE:
+        return !(o.source !== void 0 && !function(u) {
+          if (u.source === "default") return u.type = "default", !0;
+          if (u.source instanceof ArrayBuffer) return !0;
+          if (cl(u.source)) return u.type = "url", !!function(m) {
+            var y = new URL(m), v = y.pathname;
+            if (y.protocol === "data:") try {
+              var _ = v.substring(v.indexOf(":") + 1, v.indexOf(";")).split("/")[1];
+              return Nc.includes(_);
+            } catch (T) {
+              return console.error("failed to deduce blob content type", T), !1;
+            }
+            var k = v.split(".").at(-1).toLowerCase().trim();
+            return Nc.includes(k);
+          }(u.source) || (console.error("invalid image type; supported types: [".concat(Nc.join(", "), "]")), !1);
+          return f = u.source, p = Number(f), isNaN(p) || !Number.isInteger(p) || p <= 0 || p > 10 ? (console.error("invalid image selection; must be an int, > 0, <= ".concat(10)), !1) : (u.type = "daily-preselect", !0);
+          var f, p;
+        }(o));
+      default:
+        return !0;
+    }
+  }(e.type, e.config)) ? !1 : (Object.keys(e).filter(function(r) {
+    return !t.includes(r);
+  }).forEach(function(r) {
+    console.warn("invalid key inputSettings -> video -> processor : ".concat(r)), delete e[r];
+  }), !0);
+}
+function qg(e) {
+  return ze(e) === "object" && (!e.customTrack || e.customTrack instanceof MediaStreamTrack);
+}
+function Dd() {
+  var e = Object.values(ol).join(" | "), t = Object.values(s0).join(" | ");
+  return "inputSettings must be of the form: { video?: { processor?: { type: [ ".concat(e, " ], config?: {} } }, audio?: { processor: {type: [ ").concat(t, " ] } } }");
+}
+function T0(e) {
+  var t = e.allowAllParticipantsKey;
+  return "receiveSettings must be of the form { [<remote participant id> | ".concat(uv).concat(t ? ' | "'.concat("*", '"') : "", "]: ") + '{ [video: [{ layer: [<non-negative integer> | "inherit"] } | "inherit"]], [screenVideo: [{ layer: [<non-negative integer> | "inherit"] } | "inherit"]] }}}';
+}
+function A0() {
+  return "customIntegrations should be an object of type ".concat(JSON.stringify(Ld), ".");
+}
+function M0(e) {
+  if (e && ze(e) !== "object" || Array.isArray(e)) return console.error("customTrayButtons should be an Object of the type ".concat(JSON.stringify(vl), ".")), !1;
+  if (e) for (var t = 0, r = Object.entries(e); t < r.length; t++) for (var o = jt(r[t], 1)[0], a = 0, s = Object.entries(e[o]); a < s.length; a++) {
+    var u = jt(s[a], 2), f = u[0], p = u[1], m = vl.id[f];
+    if (!m) return console.error("customTrayButton does not support key ".concat(f)), !1;
+    switch (f) {
+      case "iconPath":
+      case "iconPathDarkMode":
+        if (!cl(p)) return console.error("customTrayButton ".concat(f, " should be a url.")), !1;
+        break;
+      case "visualState":
+        if (!["default", "sidebar-open", "active"].includes(p)) return console.error("customTrayButton ".concat(f, " should be ").concat(m, ". Got: ").concat(p)), !1;
+        break;
+      default:
+        if (ze(p) !== m) return console.error("customTrayButton ".concat(f, " should be a ").concat(m, ".")), !1;
+    }
+  }
+  return !0;
+}
+function P0(e) {
+  if (!e || e && ze(e) !== "object" || Array.isArray(e)) return console.error(A0()), !1;
+  for (var t = function(v) {
+    return "".concat(v, " should be ").concat(Ld.id[v]);
+  }, r = function(v, _) {
+    return console.error("customIntegration ".concat(v, ": ").concat(_));
+  }, o = 0, a = Object.entries(e); o < a.length; o++) {
+    var s = jt(a[o], 1)[0];
+    if (!("label" in e[s])) return r(s, "label is required"), !1;
+    if (!("location" in e[s])) return r(s, "location is required"), !1;
+    if (!("src" in e[s]) && !("srcdoc" in e[s])) return r(s, "src or srcdoc is required"), !1;
+    for (var u = 0, f = Object.entries(e[s]); u < f.length; u++) {
+      var p = jt(f[u], 2), m = p[0], y = p[1];
+      switch (m) {
+        case "allow":
+        case "csp":
+        case "name":
+        case "referrerPolicy":
+        case "sandbox":
+          if (typeof y != "string") return r(s, t(m)), !1;
+          break;
+        case "iconURL":
+          if (!cl(y)) return r(s, "".concat(m, " should be a url")), !1;
+          break;
+        case "src":
+          if ("srcdoc" in e[s]) return r(s, "cannot have both src and srcdoc"), !1;
+          if (!cl(y)) return r(s, 'src "'.concat(y, '" is not a valid URL')), !1;
+          break;
+        case "srcdoc":
+          if ("src" in e[s]) return r(s, "cannot have both src and srcdoc"), !1;
+          if (typeof y != "string") return r(s, t(m)), !1;
+          break;
+        case "location":
+          if (!["main", "sidebar"].includes(y)) return r(s, t(m)), !1;
+          break;
+        case "controlledBy":
+          if (y !== "*" && y !== "owners" && (!Array.isArray(y) || y.some(function(v) {
+            return typeof v != "string";
+          }))) return r(s, t(m)), !1;
+          break;
+        case "shared":
+          if ((!Array.isArray(y) || y.some(function(v) {
+            return typeof v != "string";
+          })) && y !== "owners" && typeof y != "boolean") return r(s, t(m)), !1;
+          break;
+        default:
+          if (!Ld.id[m]) return console.error("customIntegration does not support key ".concat(m)), !1;
+      }
+    }
+  }
+  return !0;
+}
+function O0(e, t) {
+  if (t === void 0) return !1;
+  switch (ze(t)) {
+    case "string":
+      return ze(e) === t;
+    case "object":
+      if (ze(e) !== "object") return !1;
+      for (var r in e) if (!O0(e[r], t[r])) return !1;
+      return !0;
+    default:
+      return !1;
+  }
+}
+function $g(e, t) {
+  var r = e.sessionId, o = e.toEndPoint, a = e.callerId, s = e.useSipRefer;
+  if (!r || !o) throw new Error("".concat(t, "() requires a sessionId and toEndPoint"));
+  if (typeof r != "string" || typeof o != "string") throw new Error("Invalid paramater: sessionId and toEndPoint must be of type string");
+  if (s && !o.startsWith("sip:")) throw new Error('"toEndPoint" must be a "sip" address');
+  if (!o.startsWith("sip:") && !o.startsWith("+")) throw new Error("toEndPoint: ".concat(o, ' must starts with either "sip:" or "+"'));
+  if (a && typeof a != "string") throw new Error("callerId must be of type string");
+  if (a && !o.startsWith("+")) throw new Error("callerId is only valid when transferring to a PSTN number");
+}
+function Hg(e) {
+  if (ze(e) !== "object") throw new Error('RemoteMediaPlayerSettings: must be "object" type');
+  if (e.state && !Object.values(Ad).includes(e.state)) throw new Error("Invalid value for RemoteMediaPlayerSettings.state, valid values are: " + JSON.stringify(Ad));
+  if (e.volume) {
+    if (typeof e.volume != "number") throw new Error('RemoteMediaPlayerSettings.volume: must be "number" type');
+    if (e.volume < 0 || e.volume > 2) throw new Error("RemoteMediaPlayerSettings.volume: must be between 0.0 - 2.0");
+  }
+}
+function Jg(e, t, r) {
+  return !(typeof e != "number" || e < t || e > r);
+}
+function qc(e, t) {
+  return e && !t && delete e.data, e;
+}
+const N_ = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  DAILY_ACCESS_LEVEL_FULL: lv,
+  DAILY_ACCESS_LEVEL_LOBBY: Vk,
+  DAILY_ACCESS_LEVEL_NONE: zk,
+  DAILY_ACCESS_UNKNOWN: il,
+  DAILY_CAMERA_ERROR_CAM_AND_MIC_IN_USE: Zk,
+  DAILY_CAMERA_ERROR_CAM_IN_USE: Yk,
+  DAILY_CAMERA_ERROR_CONSTRAINTS: t_,
+  DAILY_CAMERA_ERROR_MIC_IN_USE: Qk,
+  DAILY_CAMERA_ERROR_NOT_FOUND: e_,
+  DAILY_CAMERA_ERROR_PERMISSIONS: Kk,
+  DAILY_CAMERA_ERROR_UNDEF_MEDIADEVICES: Xk,
+  DAILY_CAMERA_ERROR_UNKNOWN: n_,
+  DAILY_EVENT_ACCESS_STATE_UPDATED: xv,
+  DAILY_EVENT_ACTIVE_SPEAKER_CHANGE: Yv,
+  DAILY_EVENT_ACTIVE_SPEAKER_MODE_CHANGE: Qv,
+  DAILY_EVENT_APP_MSG: Bv,
+  DAILY_EVENT_CAMERA_ERROR: vv,
+  DAILY_EVENT_CPU_LOAD_CHANGE: Xv,
+  DAILY_EVENT_ERROR: Td,
+  DAILY_EVENT_EXIT_FULLSCREEN: ua,
+  DAILY_EVENT_FACE_COUNTS_UPDATED: e0,
+  DAILY_EVENT_FULLSCREEN: la,
+  DAILY_EVENT_IFRAME_LAUNCH_CONFIG: pv,
+  DAILY_EVENT_IFRAME_READY_FOR_LAUNCH_CONFIG: fv,
+  DAILY_EVENT_INPUT_SETTINGS_UPDATED: Cd,
+  DAILY_EVENT_JOINED_MEETING: Sv,
+  DAILY_EVENT_JOINING_MEETING: wv,
+  DAILY_EVENT_LANG_UPDATED: o0,
+  DAILY_EVENT_LEFT_MEETING: kv,
+  DAILY_EVENT_LIVE_STREAMING_ERROR: i0,
+  DAILY_EVENT_LIVE_STREAMING_STARTED: t0,
+  DAILY_EVENT_LIVE_STREAMING_STOPPED: r0,
+  DAILY_EVENT_LIVE_STREAMING_UPDATED: n0,
+  DAILY_EVENT_LOADED: _d,
+  DAILY_EVENT_LOADING: mv,
+  DAILY_EVENT_LOAD_ATTEMPT_FAILED: gv,
+  DAILY_EVENT_LOCAL_SCREEN_SHARE_CANCELED: Gv,
+  DAILY_EVENT_LOCAL_SCREEN_SHARE_STARTED: Jv,
+  DAILY_EVENT_LOCAL_SCREEN_SHARE_STOPPED: Wv,
+  DAILY_EVENT_MEETING_SESSION_DATA_ERROR: r_,
+  DAILY_EVENT_MEETING_SESSION_STATE_UPDATED: Av,
+  DAILY_EVENT_MEETING_SESSION_SUMMARY_UPDATED: Tv,
+  DAILY_EVENT_NETWORK_CONNECTION: Kv,
+  DAILY_EVENT_NETWORK_QUALITY_CHANGE: Zv,
+  DAILY_EVENT_NONFATAL_ERROR: xd,
+  DAILY_EVENT_PARTICIPANT_COUNTS_UPDATED: Cv,
+  DAILY_EVENT_PARTICIPANT_JOINED: _v,
+  DAILY_EVENT_PARTICIPANT_LEFT: Ev,
+  DAILY_EVENT_PARTICIPANT_UPDATED: bv,
+  DAILY_EVENT_RECEIVE_SETTINGS_UPDATED: a0,
+  DAILY_EVENT_RECORDING_DATA: zv,
+  DAILY_EVENT_RECORDING_ERROR: Fv,
+  DAILY_EVENT_RECORDING_STARTED: bd,
+  DAILY_EVENT_RECORDING_STATS: Rv,
+  DAILY_EVENT_RECORDING_STOPPED: Ed,
+  DAILY_EVENT_RECORDING_UPLOAD_COMPLETED: Vv,
+  DAILY_EVENT_REMOTE_MEDIA_PLAYER_STARTED: qv,
+  DAILY_EVENT_REMOTE_MEDIA_PLAYER_STOPPED: Hv,
+  DAILY_EVENT_REMOTE_MEDIA_PLAYER_UPDATED: $v,
+  DAILY_EVENT_STARTED_CAMERA: yv,
+  DAILY_EVENT_THEME_UPDATED: hv,
+  DAILY_EVENT_TRACK_STARTED: Iv,
+  DAILY_EVENT_TRACK_STOPPED: Lv,
+  DAILY_EVENT_TRANSCRIPTION_ERROR: Nv,
+  DAILY_EVENT_TRANSCRIPTION_MSG: Uv,
+  DAILY_EVENT_TRANSCRIPTION_STARTED: Dv,
+  DAILY_EVENT_TRANSCRIPTION_STOPPED: jv,
+  DAILY_EVENT_WAITING_PARTICIPANT_ADDED: Mv,
+  DAILY_EVENT_WAITING_PARTICIPANT_REMOVED: Ov,
+  DAILY_EVENT_WAITING_PARTICIPANT_UPDATED: Pv,
+  DAILY_FATAL_ERROR_CONNECTION: dv,
+  DAILY_FATAL_ERROR_EJECTED: Uk,
+  DAILY_FATAL_ERROR_EOL: cv,
+  DAILY_FATAL_ERROR_EXP_ROOM: Hk,
+  DAILY_FATAL_ERROR_EXP_TOKEN: Jk,
+  DAILY_FATAL_ERROR_MEETING_FULL: Wk,
+  DAILY_FATAL_ERROR_NBF_ROOM: qk,
+  DAILY_FATAL_ERROR_NBF_TOKEN: $k,
+  DAILY_FATAL_ERROR_NOT_ALLOWED: Gk,
+  DAILY_FATAL_ERROR_NO_ROOM: kd,
+  DAILY_RECEIVE_SETTINGS_ALL_PARTICIPANTS_KEY: Bk,
+  DAILY_RECEIVE_SETTINGS_BASE_KEY: uv,
+  DAILY_STATE_ERROR: ur,
+  DAILY_STATE_JOINED: Ur,
+  DAILY_STATE_JOINING: ml,
+  DAILY_STATE_LEFT: zr,
+  DAILY_STATE_NEW: Sd,
+  DAILY_TRACK_STATE_BLOCKED: Dk,
+  DAILY_TRACK_STATE_INTERRUPTED: Fk,
+  DAILY_TRACK_STATE_LOADING: Rk,
+  DAILY_TRACK_STATE_OFF: jk,
+  DAILY_TRACK_STATE_PLAYABLE: sv,
+  DAILY_TRACK_STATE_SENDABLE: Nk,
+  default: L_
+}, Symbol.toStringTag, { value: "Module" })), R_ = /* @__PURE__ */ rS(N_);
+var Qs = { exports: {} }, Wg;
+function F_() {
+  if (Wg) return Qs.exports;
+  Wg = 1;
+  var e = typeof Reflect == "object" ? Reflect : null, t = e && typeof e.apply == "function" ? e.apply : function(N, A, H) {
+    return Function.prototype.apply.call(N, A, H);
+  }, r;
+  e && typeof e.ownKeys == "function" ? r = e.ownKeys : Object.getOwnPropertySymbols ? r = function(N) {
+    return Object.getOwnPropertyNames(N).concat(Object.getOwnPropertySymbols(N));
+  } : r = function(N) {
+    return Object.getOwnPropertyNames(N);
+  };
+  function o(j) {
+    console && console.warn && console.warn(j);
+  }
+  var a = Number.isNaN || function(N) {
+    return N !== N;
+  };
+  function s() {
+    s.init.call(this);
+  }
+  Qs.exports = s, Qs.exports.once = M, s.EventEmitter = s, s.prototype._events = void 0, s.prototype._eventsCount = 0, s.prototype._maxListeners = void 0;
+  var u = 10;
+  function f(j) {
+    if (typeof j != "function")
+      throw new TypeError('The "listener" argument must be of type Function. Received type ' + typeof j);
+  }
+  Object.defineProperty(s, "defaultMaxListeners", {
+    enumerable: !0,
+    get: function() {
+      return u;
+    },
+    set: function(j) {
+      if (typeof j != "number" || j < 0 || a(j))
+        throw new RangeError('The value of "defaultMaxListeners" is out of range. It must be a non-negative number. Received ' + j + ".");
+      u = j;
+    }
+  }), s.init = function() {
+    (this._events === void 0 || this._events === Object.getPrototypeOf(this)._events) && (this._events = /* @__PURE__ */ Object.create(null), this._eventsCount = 0), this._maxListeners = this._maxListeners || void 0;
+  }, s.prototype.setMaxListeners = function(N) {
+    if (typeof N != "number" || N < 0 || a(N))
+      throw new RangeError('The value of "n" is out of range. It must be a non-negative number. Received ' + N + ".");
+    return this._maxListeners = N, this;
+  };
+  function p(j) {
+    return j._maxListeners === void 0 ? s.defaultMaxListeners : j._maxListeners;
+  }
+  s.prototype.getMaxListeners = function() {
+    return p(this);
+  }, s.prototype.emit = function(N) {
+    for (var A = [], H = 1; H < arguments.length; H++) A.push(arguments[H]);
+    var z = N === "error", ae = this._events;
+    if (ae !== void 0)
+      z = z && ae.error === void 0;
+    else if (!z)
+      return !1;
+    if (z) {
+      var X;
+      if (A.length > 0 && (X = A[0]), X instanceof Error)
+        throw X;
+      var ne = new Error("Unhandled error." + (X ? " (" + X.message + ")" : ""));
+      throw ne.context = X, ne;
+    }
+    var le = ae[N];
+    if (le === void 0)
+      return !1;
+    if (typeof le == "function")
+      t(le, this, A);
+    else
+      for (var pe = le.length, q = T(le, pe), H = 0; H < pe; ++H)
+        t(q[H], this, A);
+    return !0;
+  };
+  function m(j, N, A, H) {
+    var z, ae, X;
+    if (f(A), ae = j._events, ae === void 0 ? (ae = j._events = /* @__PURE__ */ Object.create(null), j._eventsCount = 0) : (ae.newListener !== void 0 && (j.emit(
+      "newListener",
+      N,
+      A.listener ? A.listener : A
+    ), ae = j._events), X = ae[N]), X === void 0)
+      X = ae[N] = A, ++j._eventsCount;
+    else if (typeof X == "function" ? X = ae[N] = H ? [A, X] : [X, A] : H ? X.unshift(A) : X.push(A), z = p(j), z > 0 && X.length > z && !X.warned) {
+      X.warned = !0;
+      var ne = new Error("Possible EventEmitter memory leak detected. " + X.length + " " + String(N) + " listeners added. Use emitter.setMaxListeners() to increase limit");
+      ne.name = "MaxListenersExceededWarning", ne.emitter = j, ne.type = N, ne.count = X.length, o(ne);
+    }
+    return j;
+  }
+  s.prototype.addListener = function(N, A) {
+    return m(this, N, A, !1);
+  }, s.prototype.on = s.prototype.addListener, s.prototype.prependListener = function(N, A) {
+    return m(this, N, A, !0);
+  };
+  function y() {
+    if (!this.fired)
+      return this.target.removeListener(this.type, this.wrapFn), this.fired = !0, arguments.length === 0 ? this.listener.call(this.target) : this.listener.apply(this.target, arguments);
+  }
+  function v(j, N, A) {
+    var H = { fired: !1, wrapFn: void 0, target: j, type: N, listener: A }, z = y.bind(H);
+    return z.listener = A, H.wrapFn = z, z;
+  }
+  s.prototype.once = function(N, A) {
+    return f(A), this.on(N, v(this, N, A)), this;
+  }, s.prototype.prependOnceListener = function(N, A) {
+    return f(A), this.prependListener(N, v(this, N, A)), this;
+  }, s.prototype.removeListener = function(N, A) {
+    var H, z, ae, X, ne;
+    if (f(A), z = this._events, z === void 0)
+      return this;
+    if (H = z[N], H === void 0)
+      return this;
+    if (H === A || H.listener === A)
+      --this._eventsCount === 0 ? this._events = /* @__PURE__ */ Object.create(null) : (delete z[N], z.removeListener && this.emit("removeListener", N, H.listener || A));
+    else if (typeof H != "function") {
+      for (ae = -1, X = H.length - 1; X >= 0; X--)
+        if (H[X] === A || H[X].listener === A) {
+          ne = H[X].listener, ae = X;
+          break;
+        }
+      if (ae < 0)
+        return this;
+      ae === 0 ? H.shift() : E(H, ae), H.length === 1 && (z[N] = H[0]), z.removeListener !== void 0 && this.emit("removeListener", N, ne || A);
+    }
+    return this;
+  }, s.prototype.off = s.prototype.removeListener, s.prototype.removeAllListeners = function(N) {
+    var A, H, z;
+    if (H = this._events, H === void 0)
+      return this;
+    if (H.removeListener === void 0)
+      return arguments.length === 0 ? (this._events = /* @__PURE__ */ Object.create(null), this._eventsCount = 0) : H[N] !== void 0 && (--this._eventsCount === 0 ? this._events = /* @__PURE__ */ Object.create(null) : delete H[N]), this;
+    if (arguments.length === 0) {
+      var ae = Object.keys(H), X;
+      for (z = 0; z < ae.length; ++z)
+        X = ae[z], X !== "removeListener" && this.removeAllListeners(X);
+      return this.removeAllListeners("removeListener"), this._events = /* @__PURE__ */ Object.create(null), this._eventsCount = 0, this;
+    }
+    if (A = H[N], typeof A == "function")
+      this.removeListener(N, A);
+    else if (A !== void 0)
+      for (z = A.length - 1; z >= 0; z--)
+        this.removeListener(N, A[z]);
+    return this;
+  };
+  function _(j, N, A) {
+    var H = j._events;
+    if (H === void 0)
+      return [];
+    var z = H[N];
+    return z === void 0 ? [] : typeof z == "function" ? A ? [z.listener || z] : [z] : A ? L(z) : T(z, z.length);
+  }
+  s.prototype.listeners = function(N) {
+    return _(this, N, !0);
+  }, s.prototype.rawListeners = function(N) {
+    return _(this, N, !1);
+  }, s.listenerCount = function(j, N) {
+    return typeof j.listenerCount == "function" ? j.listenerCount(N) : k.call(j, N);
+  }, s.prototype.listenerCount = k;
+  function k(j) {
+    var N = this._events;
+    if (N !== void 0) {
+      var A = N[j];
+      if (typeof A == "function")
+        return 1;
+      if (A !== void 0)
+        return A.length;
+    }
+    return 0;
+  }
+  s.prototype.eventNames = function() {
+    return this._eventsCount > 0 ? r(this._events) : [];
+  };
+  function T(j, N) {
+    for (var A = new Array(N), H = 0; H < N; ++H)
+      A[H] = j[H];
+    return A;
+  }
+  function E(j, N) {
+    for (; N + 1 < j.length; N++)
+      j[N] = j[N + 1];
+    j.pop();
+  }
+  function L(j) {
+    for (var N = new Array(j.length), A = 0; A < N.length; ++A)
+      N[A] = j[A].listener || j[A];
+    return N;
+  }
+  function M(j, N) {
+    return new Promise(function(A, H) {
+      function z(X) {
+        j.removeListener(N, ae), H(X);
+      }
+      function ae() {
+        typeof j.removeListener == "function" && j.removeListener("error", z), A([].slice.call(arguments));
+      }
+      B(j, N, ae, { once: !0 }), N !== "error" && V(j, z, { once: !0 });
+    });
+  }
+  function V(j, N, A) {
+    typeof j.on == "function" && B(j, "error", N, A);
+  }
+  function B(j, N, A, H) {
+    if (typeof j.on == "function")
+      H.once ? j.once(N, A) : j.on(N, A);
+    else if (typeof j.addEventListener == "function")
+      j.addEventListener(N, function z(ae) {
+        H.once && j.removeEventListener(N, z), A(ae);
+      });
+    else
+      throw new TypeError('The "emitter" argument must be of type EventEmitter. Received type ' + typeof j);
+  }
+  return Qs.exports;
+}
+var na = {}, lr = {}, Gg;
+function V_() {
+  if (Gg) return lr;
+  Gg = 1, Object.defineProperty(lr, "__esModule", { value: !0 }), lr.Api = lr.HttpClient = lr.ContentType = void 0;
+  var e;
+  (function(o) {
+    o.Json = "application/json", o.JsonApi = "application/vnd.api+json", o.FormData = "multipart/form-data", o.UrlEncoded = "application/x-www-form-urlencoded", o.Text = "text/plain";
+  })(e || (lr.ContentType = e = {}));
+  class t {
+    baseUrl = "https://api.vapi.ai";
+    securityData = null;
+    securityWorker;
+    abortControllers = /* @__PURE__ */ new Map();
+    customFetch = (...a) => fetch(...a);
+    baseApiParams = {
+      credentials: "same-origin",
+      headers: {},
+      redirect: "follow",
+      referrerPolicy: "no-referrer"
+    };
+    constructor(a = {}) {
+      Object.assign(this, a);
+    }
+    setSecurityData = (a) => {
+      this.securityData = a;
+    };
+    encodeQueryParam(a, s) {
+      return `${encodeURIComponent(a)}=${encodeURIComponent(typeof s == "number" ? s : `${s}`)}`;
+    }
+    addQueryParam(a, s) {
+      return this.encodeQueryParam(s, a[s]);
+    }
+    addArrayQueryParam(a, s) {
+      return a[s].map((f) => this.encodeQueryParam(s, f)).join("&");
+    }
+    toQueryString(a) {
+      const s = a || {};
+      return Object.keys(s).filter((f) => typeof s[f] < "u").map((f) => Array.isArray(s[f]) ? this.addArrayQueryParam(s, f) : this.addQueryParam(s, f)).join("&");
+    }
+    addQueryParams(a) {
+      const s = this.toQueryString(a);
+      return s ? `?${s}` : "";
+    }
+    contentFormatters = {
+      [e.Json]: (a) => a !== null && (typeof a == "object" || typeof a == "string") ? JSON.stringify(a) : a,
+      [e.JsonApi]: (a) => a !== null && (typeof a == "object" || typeof a == "string") ? JSON.stringify(a) : a,
+      [e.Text]: (a) => a !== null && typeof a != "string" ? JSON.stringify(a) : a,
+      [e.FormData]: (a) => a instanceof FormData ? a : Object.keys(a || {}).reduce((s, u) => {
+        const f = a[u];
+        return s.append(u, f instanceof Blob ? f : typeof f == "object" && f !== null ? JSON.stringify(f) : `${f}`), s;
+      }, new FormData()),
+      [e.UrlEncoded]: (a) => this.toQueryString(a)
+    };
+    mergeRequestParams(a, s) {
+      return {
+        ...this.baseApiParams,
+        ...a,
+        ...s || {},
+        headers: {
+          ...this.baseApiParams.headers || {},
+          ...a.headers || {},
+          ...s && s.headers || {}
+        }
+      };
+    }
+    createAbortSignal = (a) => {
+      if (this.abortControllers.has(a)) {
+        const u = this.abortControllers.get(a);
+        return u ? u.signal : void 0;
+      }
+      const s = new AbortController();
+      return this.abortControllers.set(a, s), s.signal;
+    };
+    abortRequest = (a) => {
+      const s = this.abortControllers.get(a);
+      s && (s.abort(), this.abortControllers.delete(a));
+    };
+    request = async ({ body: a, secure: s, path: u, type: f, query: p, format: m, baseUrl: y, cancelToken: v, ..._ }) => {
+      const k = (typeof s == "boolean" ? s : this.baseApiParams.secure) && this.securityWorker && await this.securityWorker(this.securityData) || {}, T = this.mergeRequestParams(_, k), E = p && this.toQueryString(p), L = this.contentFormatters[f || e.Json], M = m || T.format;
+      return this.customFetch(`${y || this.baseUrl || ""}${u}${E ? `?${E}` : ""}`, {
+        ...T,
+        headers: {
+          ...T.headers || {},
+          ...f && f !== e.FormData ? { "Content-Type": f } : {}
+        },
+        signal: (v ? this.createAbortSignal(v) : T.signal) || null,
+        body: typeof a > "u" || a === null ? null : L(a)
+      }).then(async (V) => {
+        const B = V;
+        B.data = null, B.error = null;
+        const j = M ? V.clone() : V, N = M ? await j[M]().then((A) => (B.ok ? B.data = A : B.error = A, B)).catch((A) => (B.error = A, B)) : B;
+        if (v && this.abortControllers.delete(v), !V.ok)
+          throw N;
+        return N;
+      });
+    };
+  }
+  lr.HttpClient = t;
+  class r extends t {
+    assistant = {
+      /**
+       * No description
+       *
+       * @tags Assistants
+       * @name AssistantControllerCreate
+       * @summary Create Assistant
+       * @request POST:/assistant
+       * @secure
+       */
+      assistantControllerCreate: (a, s = {}) => this.request({
+        path: "/assistant",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Assistants
+       * @name AssistantControllerFindAll
+       * @summary List Assistants
+       * @request GET:/assistant
+       * @secure
+       */
+      assistantControllerFindAll: (a, s = {}) => this.request({
+        path: "/assistant",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Assistants
+       * @name AssistantControllerFindOne
+       * @summary Get Assistant
+       * @request GET:/assistant/{id}
+       * @secure
+       */
+      assistantControllerFindOne: (a, s = {}) => this.request({
+        path: `/assistant/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Assistants
+       * @name AssistantControllerUpdate
+       * @summary Update Assistant
+       * @request PATCH:/assistant/{id}
+       * @secure
+       */
+      assistantControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/assistant/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Assistants
+       * @name AssistantControllerReplace
+       * @summary Replace Assistant
+       * @request PUT:/assistant/{id}
+       * @secure
+       */
+      assistantControllerReplace: (a, s, u = {}) => this.request({
+        path: `/assistant/${a}`,
+        method: "PUT",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Assistants
+       * @name AssistantControllerRemove
+       * @summary Delete Assistant
+       * @request DELETE:/assistant/{id}
+       * @secure
+       */
+      assistantControllerRemove: (a, s = {}) => this.request({
+        path: `/assistant/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Assistants
+       * @name AssistantControllerFindVersions
+       * @summary List Assistant Versions
+       * @request GET:/assistant/{id}/version
+       * @secure
+       */
+      assistantControllerFindVersions: (a, s, u = {}) => this.request({
+        path: `/assistant/${a}/version`,
+        method: "GET",
+        query: s,
+        secure: !0,
+        format: "json",
+        ...u
+      })
+    };
+    v2 = {
+      /**
+       * No description
+       *
+       * @tags Assistants
+       * @name AssistantControllerFindAllPaginated
+       * @summary List Assistants with pagination
+       * @request GET:/v2/assistant
+       * @secure
+       */
+      assistantControllerFindAllPaginated: (a, s = {}) => this.request({
+        path: "/v2/assistant",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Calls
+       * @name CallControllerCallsExport
+       * @summary Export Calls to CSV
+       * @request GET:/v2/call/export
+       * @secure
+       */
+      callControllerCallsExport: (a, s = {}) => this.request({
+        path: "/v2/call/export",
+        method: "GET",
+        query: a,
+        secure: !0,
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Calls
+       * @name CallControllerFindAllPaginated
+       * @summary List Calls
+       * @request GET:/v2/call
+       * @secure
+       */
+      callControllerFindAllPaginated: (a, s = {}) => this.request({
+        path: "/v2/call",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Calls
+       * @name CallControllerFindAllMetadataPaginated
+       * @summary List Call Metadata
+       * @request GET:/v2/call/metadata
+       * @secure
+       */
+      callControllerFindAllMetadataPaginated: (a, s = {}) => this.request({
+        path: "/v2/call/metadata",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Phone Numbers
+       * @name PhoneNumberControllerFindAllPaginated
+       * @summary List Phone Numbers
+       * @request GET:/v2/phone-number
+       * @secure
+       */
+      phoneNumberControllerFindAllPaginated: (a, s = {}) => this.request({
+        path: "/v2/phone-number",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    squad = {
+      /**
+       * No description
+       *
+       * @tags Squads
+       * @name SquadControllerCreate
+       * @summary Create Squad
+       * @request POST:/squad
+       * @secure
+       */
+      squadControllerCreate: (a, s = {}) => this.request({
+        path: "/squad",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Squads
+       * @name SquadControllerFindAll
+       * @summary List Squads
+       * @request GET:/squad
+       * @secure
+       */
+      squadControllerFindAll: (a, s = {}) => this.request({
+        path: "/squad",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Squads
+       * @name SquadControllerFindOne
+       * @summary Get Squad
+       * @request GET:/squad/{id}
+       * @secure
+       */
+      squadControllerFindOne: (a, s = {}) => this.request({
+        path: `/squad/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Squads
+       * @name SquadControllerUpdate
+       * @summary Update Squad
+       * @request PATCH:/squad/{id}
+       * @secure
+       */
+      squadControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/squad/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Squads
+       * @name SquadControllerRemove
+       * @summary Delete Squad
+       * @request DELETE:/squad/{id}
+       * @secure
+       */
+      squadControllerRemove: (a, s = {}) => this.request({
+        path: `/squad/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    workflow = {
+      /**
+       * No description
+       *
+       * @tags Workflow
+       * @name WorkflowControllerFindAll
+       * @summary Get Workflows
+       * @request GET:/workflow
+       * @secure
+       */
+      workflowControllerFindAll: (a = {}) => this.request({
+        path: "/workflow",
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...a
+      }),
+      /**
+       * No description
+       *
+       * @tags Workflow
+       * @name WorkflowControllerCreate
+       * @summary Create Workflow
+       * @request POST:/workflow
+       * @secure
+       */
+      workflowControllerCreate: (a, s = {}) => this.request({
+        path: "/workflow",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Workflow
+       * @name WorkflowControllerFindOne
+       * @summary Get Workflow
+       * @request GET:/workflow/{id}
+       * @secure
+       */
+      workflowControllerFindOne: (a, s = {}) => this.request({
+        path: `/workflow/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Workflow
+       * @name WorkflowControllerDelete
+       * @summary Delete Workflow
+       * @request DELETE:/workflow/{id}
+       * @secure
+       */
+      workflowControllerDelete: (a, s = {}) => this.request({
+        path: `/workflow/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Workflow
+       * @name WorkflowControllerUpdate
+       * @summary Update Workflow
+       * @request PATCH:/workflow/{id}
+       * @secure
+       */
+      workflowControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/workflow/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      })
+    };
+    call = {
+      /**
+       * No description
+       *
+       * @tags Calls
+       * @name CallControllerCreate
+       * @summary Create Call
+       * @request POST:/call
+       * @secure
+       */
+      callControllerCreate: (a, s = {}) => this.request({
+        path: "/call",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Calls
+       * @name CallControllerFindAll
+       * @summary List Calls
+       * @request GET:/call
+       * @secure
+       */
+      callControllerFindAll: (a, s = {}) => this.request({
+        path: "/call",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Calls
+       * @name CallControllerFindOne
+       * @summary Get Call
+       * @request GET:/call/{id}
+       * @secure
+       */
+      callControllerFindOne: (a, s = {}) => this.request({
+        path: `/call/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Calls
+       * @name CallControllerUpdate
+       * @summary Update Call
+       * @request PATCH:/call/{id}
+       * @secure
+       */
+      callControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/call/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Calls
+       * @name CallControllerDeleteCallData
+       * @summary Delete Call Data
+       * @request DELETE:/call/{id}
+       * @secure
+       */
+      callControllerDeleteCallData: (a, s = {}) => this.request({
+        path: `/call/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Calls
+       * @name CallControllerCreatePhoneCall
+       * @summary Create Phone Call
+       * @request POST:/call/phone
+       * @deprecated
+       * @secure
+       */
+      callControllerCreatePhoneCall: (a, s = {}) => this.request({
+        path: "/call/phone",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Calls
+       * @name CallControllerCreateWebCall
+       * @summary Create Web Call
+       * @request POST:/call/web
+       * @secure
+       */
+      callControllerCreateWebCall: (a, s = {}) => this.request({
+        path: "/call/web",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      })
+    };
+    chat = {
+      /**
+       * No description
+       *
+       * @tags Chats
+       * @name ChatControllerListChats
+       * @summary List Chats
+       * @request GET:/chat
+       * @secure
+       */
+      chatControllerListChats: (a, s = {}) => this.request({
+        path: "/chat",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * @description Creates a new chat with optional SMS delivery via transport field. Requires at least one of: assistantId/assistant, sessionId, or previousChatId. Note: sessionId and previousChatId are mutually exclusive. Transport field enables SMS delivery with two modes: (1) New conversation - provide transport.phoneNumberId and transport.customer to create a new session, (2) Existing conversation - provide sessionId to use existing session data. Cannot specify both sessionId and transport fields together. The transport.useLLMGeneratedMessageForOutbound flag controls whether input is processed by LLM (true, default) or forwarded directly as SMS (false).
+       *
+       * @tags Chats
+       * @name ChatControllerCreateChat
+       * @summary Create Chat
+       * @request POST:/chat
+       * @secure
+       */
+      chatControllerCreateChat: (a, s = {}) => this.request({
+        path: "/chat",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Chats
+       * @name ChatControllerGetChat
+       * @summary Get Chat
+       * @request GET:/chat/{id}
+       * @secure
+       */
+      chatControllerGetChat: (a, s = {}) => this.request({
+        path: `/chat/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Chats
+       * @name ChatControllerDeleteChat
+       * @summary Delete Chat
+       * @request DELETE:/chat/{id}
+       * @secure
+       */
+      chatControllerDeleteChat: (a, s = {}) => this.request({
+        path: `/chat/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Chats
+       * @name ChatControllerCreateOpenAiChat
+       * @summary Create Chat (OpenAI Compatible)
+       * @request POST:/chat/responses
+       * @secure
+       */
+      chatControllerCreateOpenAiChat: (a, s = {}) => this.request({
+        path: "/chat/responses",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Chats
+       * @name ChatControllerCreateWebChat
+       * @summary Create WebChat
+       * @request POST:/chat/web
+       * @secure
+       */
+      chatControllerCreateWebChat: (a, s = {}) => this.request({
+        path: "/chat/web",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Chats
+       * @name ChatControllerCreateOpenAiWebChat
+       * @summary Create WebChat (OpenAI Compatible)
+       * @request POST:/chat/web/responses
+       * @secure
+       */
+      chatControllerCreateOpenAiWebChat: (a, s = {}) => this.request({
+        path: "/chat/web/responses",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      })
+    };
+    campaign = {
+      /**
+       * No description
+       *
+       * @tags Campaigns
+       * @name CampaignControllerCreate
+       * @summary Create Campaign
+       * @request POST:/campaign
+       * @secure
+       */
+      campaignControllerCreate: (a, s = {}) => this.request({
+        path: "/campaign",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Campaigns
+       * @name CampaignControllerFindAll
+       * @summary List Campaigns
+       * @request GET:/campaign
+       * @secure
+       */
+      campaignControllerFindAll: (a, s = {}) => this.request({
+        path: "/campaign",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Campaigns
+       * @name CampaignControllerFindOne
+       * @summary Get Campaign
+       * @request GET:/campaign/{id}
+       * @secure
+       */
+      campaignControllerFindOne: (a, s = {}) => this.request({
+        path: `/campaign/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Campaigns
+       * @name CampaignControllerUpdate
+       * @summary Update Campaign
+       * @request PATCH:/campaign/{id}
+       * @secure
+       */
+      campaignControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/campaign/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Campaigns
+       * @name CampaignControllerRemove
+       * @summary Delete Campaign
+       * @request DELETE:/campaign/{id}
+       * @secure
+       */
+      campaignControllerRemove: (a, s = {}) => this.request({
+        path: `/campaign/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    session = {
+      /**
+       * No description
+       *
+       * @tags Sessions
+       * @name SessionControllerCreate
+       * @summary Create Session
+       * @request POST:/session
+       * @secure
+       */
+      sessionControllerCreate: (a, s = {}) => this.request({
+        path: "/session",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Sessions
+       * @name SessionControllerFindAllPaginated
+       * @summary List Sessions
+       * @request GET:/session
+       * @secure
+       */
+      sessionControllerFindAllPaginated: (a, s = {}) => this.request({
+        path: "/session",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Sessions
+       * @name SessionControllerFindOne
+       * @summary Get Session
+       * @request GET:/session/{id}
+       * @secure
+       */
+      sessionControllerFindOne: (a, s = {}) => this.request({
+        path: `/session/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Sessions
+       * @name SessionControllerUpdate
+       * @summary Update Session
+       * @request PATCH:/session/{id}
+       * @secure
+       */
+      sessionControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/session/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Sessions
+       * @name SessionControllerRemove
+       * @summary Delete Session
+       * @request DELETE:/session/{id}
+       * @secure
+       */
+      sessionControllerRemove: (a, s = {}) => this.request({
+        path: `/session/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    phoneNumber = {
+      /**
+       * @description Use POST /phone-number instead.
+       *
+       * @tags Phone Numbers
+       * @name PhoneNumberControllerImportTwilio
+       * @summary Import Twilio Number
+       * @request POST:/phone-number/import/twilio
+       * @deprecated
+       * @secure
+       */
+      phoneNumberControllerImportTwilio: (a, s = {}) => this.request({
+        path: "/phone-number/import/twilio",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * @description Use POST /phone-number instead.
+       *
+       * @tags Phone Numbers
+       * @name PhoneNumberControllerImportVonage
+       * @summary Import Vonage Number
+       * @request POST:/phone-number/import/vonage
+       * @deprecated
+       * @secure
+       */
+      phoneNumberControllerImportVonage: (a, s = {}) => this.request({
+        path: "/phone-number/import/vonage",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Phone Numbers
+       * @name PhoneNumberControllerCreate
+       * @summary Create Phone Number
+       * @request POST:/phone-number
+       * @secure
+       */
+      phoneNumberControllerCreate: (a, s = {}) => this.request({
+        path: "/phone-number",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Phone Numbers
+       * @name PhoneNumberControllerFindAll
+       * @summary List Phone Numbers
+       * @request GET:/phone-number
+       * @secure
+       */
+      phoneNumberControllerFindAll: (a, s = {}) => this.request({
+        path: "/phone-number",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Phone Numbers
+       * @name PhoneNumberControllerFindOne
+       * @summary Get Phone Number
+       * @request GET:/phone-number/{id}
+       * @secure
+       */
+      phoneNumberControllerFindOne: (a, s = {}) => this.request({
+        path: `/phone-number/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Phone Numbers
+       * @name PhoneNumberControllerUpdate
+       * @summary Update Phone Number
+       * @request PATCH:/phone-number/{id}
+       * @secure
+       */
+      phoneNumberControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/phone-number/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Phone Numbers
+       * @name PhoneNumberControllerRemove
+       * @summary Delete Phone Number
+       * @request DELETE:/phone-number/{id}
+       * @secure
+       */
+      phoneNumberControllerRemove: (a, s = {}) => this.request({
+        path: `/phone-number/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    tool = {
+      /**
+       * No description
+       *
+       * @tags Tools
+       * @name ToolControllerCreate
+       * @summary Create Tool
+       * @request POST:/tool
+       * @secure
+       */
+      toolControllerCreate: (a, s = {}) => this.request({
+        path: "/tool",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Tools
+       * @name ToolControllerFindAll
+       * @summary List Tools
+       * @request GET:/tool
+       * @secure
+       */
+      toolControllerFindAll: (a, s = {}) => this.request({
+        path: "/tool",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Tools
+       * @name ToolControllerFindOne
+       * @summary Get Tool
+       * @request GET:/tool/{id}
+       * @secure
+       */
+      toolControllerFindOne: (a, s = {}) => this.request({
+        path: `/tool/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Tools
+       * @name ToolControllerUpdate
+       * @summary Update Tool
+       * @request PATCH:/tool/{id}
+       * @secure
+       */
+      toolControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/tool/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Tools
+       * @name ToolControllerRemove
+       * @summary Delete Tool
+       * @request DELETE:/tool/{id}
+       * @secure
+       */
+      toolControllerRemove: (a, s = {}) => this.request({
+        path: `/tool/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    file = {
+      /**
+       * @description Use POST /file instead.
+       *
+       * @tags Files
+       * @name FileControllerCreateDeprecated
+       * @summary Upload File
+       * @request POST:/file/upload
+       * @deprecated
+       * @secure
+       */
+      fileControllerCreateDeprecated: (a, s = {}) => this.request({
+        path: "/file/upload",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.FormData,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Files
+       * @name FileControllerCreate
+       * @summary Upload File
+       * @request POST:/file
+       * @secure
+       */
+      fileControllerCreate: (a, s = {}) => this.request({
+        path: "/file",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.FormData,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Files
+       * @name FileControllerFindAll
+       * @summary List Files
+       * @request GET:/file
+       * @secure
+       */
+      fileControllerFindAll: (a = {}) => this.request({
+        path: "/file",
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...a
+      }),
+      /**
+       * No description
+       *
+       * @tags Files
+       * @name FileControllerFindOne
+       * @summary Get File
+       * @request GET:/file/{id}
+       * @secure
+       */
+      fileControllerFindOne: (a, s = {}) => this.request({
+        path: `/file/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Files
+       * @name FileControllerUpdate
+       * @summary Update File
+       * @request PATCH:/file/{id}
+       * @secure
+       */
+      fileControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/file/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Files
+       * @name FileControllerRemove
+       * @summary Delete File
+       * @request DELETE:/file/{id}
+       * @secure
+       */
+      fileControllerRemove: (a, s = {}) => this.request({
+        path: `/file/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    knowledgeBase = {
+      /**
+       * No description
+       *
+       * @tags Knowledge Base
+       * @name KnowledgeBaseControllerCreate
+       * @summary Create Knowledge Base
+       * @request POST:/knowledge-base
+       * @secure
+       */
+      knowledgeBaseControllerCreate: (a, s = {}) => this.request({
+        path: "/knowledge-base",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Knowledge Base
+       * @name KnowledgeBaseControllerFindAll
+       * @summary List Knowledge Bases
+       * @request GET:/knowledge-base
+       * @secure
+       */
+      knowledgeBaseControllerFindAll: (a, s = {}) => this.request({
+        path: "/knowledge-base",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Knowledge Base
+       * @name KnowledgeBaseControllerFindOne
+       * @summary Get Knowledge Base
+       * @request GET:/knowledge-base/{id}
+       * @secure
+       */
+      knowledgeBaseControllerFindOne: (a, s = {}) => this.request({
+        path: `/knowledge-base/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Knowledge Base
+       * @name KnowledgeBaseControllerUpdate
+       * @summary Update Knowledge Base
+       * @request PATCH:/knowledge-base/{id}
+       * @secure
+       */
+      knowledgeBaseControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/knowledge-base/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Knowledge Base
+       * @name KnowledgeBaseControllerRemove
+       * @summary Delete Knowledge Base
+       * @request DELETE:/knowledge-base/{id}
+       * @secure
+       */
+      knowledgeBaseControllerRemove: (a, s = {}) => this.request({
+        path: `/knowledge-base/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    structuredOutput = {
+      /**
+       * No description
+       *
+       * @tags Structured Outputs
+       * @name StructuredOutputControllerFindAll
+       * @summary List Structured Outputs
+       * @request GET:/structured-output
+       * @secure
+       */
+      structuredOutputControllerFindAll: (a, s = {}) => this.request({
+        path: "/structured-output",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Structured Outputs
+       * @name StructuredOutputControllerCreate
+       * @summary Create Structured Output
+       * @request POST:/structured-output
+       * @secure
+       */
+      structuredOutputControllerCreate: (a, s = {}) => this.request({
+        path: "/structured-output",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Structured Outputs
+       * @name StructuredOutputControllerFindOne
+       * @summary Get Structured Output
+       * @request GET:/structured-output/{id}
+       * @secure
+       */
+      structuredOutputControllerFindOne: (a, s = {}) => this.request({
+        path: `/structured-output/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Structured Outputs
+       * @name StructuredOutputControllerUpdate
+       * @summary Update Structured Output
+       * @request PATCH:/structured-output/{id}
+       * @secure
+       */
+      structuredOutputControllerUpdate: (a, s, u, f = {}) => this.request({
+        path: `/structured-output/${a}`,
+        method: "PATCH",
+        query: s,
+        body: u,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...f
+      }),
+      /**
+       * No description
+       *
+       * @tags Structured Outputs
+       * @name StructuredOutputControllerRemove
+       * @summary Delete Structured Output
+       * @request DELETE:/structured-output/{id}
+       * @secure
+       */
+      structuredOutputControllerRemove: (a, s = {}) => this.request({
+        path: `/structured-output/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    testSuite = {
+      /**
+       * No description
+       *
+       * @tags Test Suites
+       * @name TestSuiteControllerFindAllPaginated
+       * @summary List Test Suites
+       * @request GET:/test-suite
+       * @secure
+       */
+      testSuiteControllerFindAllPaginated: (a, s = {}) => this.request({
+        path: "/test-suite",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suites
+       * @name TestSuiteControllerCreate
+       * @summary Create Test Suite
+       * @request POST:/test-suite
+       * @secure
+       */
+      testSuiteControllerCreate: (a, s = {}) => this.request({
+        path: "/test-suite",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suites
+       * @name TestSuiteControllerFindOne
+       * @summary Get Test Suite
+       * @request GET:/test-suite/{id}
+       * @secure
+       */
+      testSuiteControllerFindOne: (a, s = {}) => this.request({
+        path: `/test-suite/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suites
+       * @name TestSuiteControllerUpdate
+       * @summary Update Test Suite
+       * @request PATCH:/test-suite/{id}
+       * @secure
+       */
+      testSuiteControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/test-suite/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suites
+       * @name TestSuiteControllerRemove
+       * @summary Delete Test Suite
+       * @request DELETE:/test-suite/{id}
+       * @secure
+       */
+      testSuiteControllerRemove: (a, s = {}) => this.request({
+        path: `/test-suite/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suite Tests
+       * @name TestSuiteTestControllerFindAllPaginated
+       * @summary List Tests
+       * @request GET:/test-suite/{testSuiteId}/test
+       * @secure
+       */
+      testSuiteTestControllerFindAllPaginated: (a, s, u = {}) => this.request({
+        path: `/test-suite/${a}/test`,
+        method: "GET",
+        query: s,
+        secure: !0,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suite Tests
+       * @name TestSuiteTestControllerCreate
+       * @summary Create Test
+       * @request POST:/test-suite/{testSuiteId}/test
+       * @secure
+       */
+      testSuiteTestControllerCreate: (a, s, u = {}) => this.request({
+        path: `/test-suite/${a}/test`,
+        method: "POST",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suite Tests
+       * @name TestSuiteTestControllerFindOne
+       * @summary Get Test
+       * @request GET:/test-suite/{testSuiteId}/test/{id}
+       * @secure
+       */
+      testSuiteTestControllerFindOne: (a, s, u = {}) => this.request({
+        path: `/test-suite/${a}/test/${s}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suite Tests
+       * @name TestSuiteTestControllerUpdate
+       * @summary Update Test
+       * @request PATCH:/test-suite/{testSuiteId}/test/{id}
+       * @secure
+       */
+      testSuiteTestControllerUpdate: (a, s, u, f = {}) => this.request({
+        path: `/test-suite/${a}/test/${s}`,
+        method: "PATCH",
+        body: u,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...f
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suite Tests
+       * @name TestSuiteTestControllerRemove
+       * @summary Delete Test
+       * @request DELETE:/test-suite/{testSuiteId}/test/{id}
+       * @secure
+       */
+      testSuiteTestControllerRemove: (a, s, u = {}) => this.request({
+        path: `/test-suite/${a}/test/${s}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suite Runs
+       * @name TestSuiteRunControllerFindAllPaginated
+       * @summary List Test Suite Runs
+       * @request GET:/test-suite/{testSuiteId}/run
+       * @secure
+       */
+      testSuiteRunControllerFindAllPaginated: (a, s, u = {}) => this.request({
+        path: `/test-suite/${a}/run`,
+        method: "GET",
+        query: s,
+        secure: !0,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suite Runs
+       * @name TestSuiteRunControllerCreate
+       * @summary Create Test Suite Run
+       * @request POST:/test-suite/{testSuiteId}/run
+       * @secure
+       */
+      testSuiteRunControllerCreate: (a, s, u = {}) => this.request({
+        path: `/test-suite/${a}/run`,
+        method: "POST",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suite Runs
+       * @name TestSuiteRunControllerFindOne
+       * @summary Get Test Suite Run
+       * @request GET:/test-suite/{testSuiteId}/run/{id}
+       * @secure
+       */
+      testSuiteRunControllerFindOne: (a, s, u = {}) => this.request({
+        path: `/test-suite/${a}/run/${s}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suite Runs
+       * @name TestSuiteRunControllerUpdate
+       * @summary Update Test Suite Run
+       * @request PATCH:/test-suite/{testSuiteId}/run/{id}
+       * @secure
+       */
+      testSuiteRunControllerUpdate: (a, s, u, f = {}) => this.request({
+        path: `/test-suite/${a}/run/${s}`,
+        method: "PATCH",
+        body: u,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...f
+      }),
+      /**
+       * No description
+       *
+       * @tags Test Suite Runs
+       * @name TestSuiteRunControllerRemove
+       * @summary Delete Test Suite Run
+       * @request DELETE:/test-suite/{testSuiteId}/run/{id}
+       * @secure
+       */
+      testSuiteRunControllerRemove: (a, s, u = {}) => this.request({
+        path: `/test-suite/${a}/run/${s}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...u
+      })
+    };
+    eval = {
+      /**
+       * No description
+       *
+       * @tags Eval
+       * @name EvalControllerCreate
+       * @summary Create Eval
+       * @request POST:/eval
+       * @secure
+       */
+      evalControllerCreate: (a, s = {}) => this.request({
+        path: "/eval",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Eval
+       * @name EvalControllerGetPaginated
+       * @summary List Evals
+       * @request GET:/eval
+       * @secure
+       */
+      evalControllerGetPaginated: (a, s = {}) => this.request({
+        path: "/eval",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Eval
+       * @name EvalControllerUpdate
+       * @summary Update Eval
+       * @request PATCH:/eval/{id}
+       * @secure
+       */
+      evalControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/eval/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Eval
+       * @name EvalControllerRemove
+       * @summary Delete Eval
+       * @request DELETE:/eval/{id}
+       * @secure
+       */
+      evalControllerRemove: (a, s = {}) => this.request({
+        path: `/eval/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Eval
+       * @name EvalControllerGet
+       * @summary Get Eval
+       * @request GET:/eval/{id}
+       * @secure
+       */
+      evalControllerGet: (a, s = {}) => this.request({
+        path: `/eval/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Eval
+       * @name EvalControllerRemoveRun
+       * @summary Delete Eval Run
+       * @request DELETE:/eval/run/{id}
+       * @secure
+       */
+      evalControllerRemoveRun: (a, s = {}) => this.request({
+        path: `/eval/run/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Eval
+       * @name EvalControllerGetRun
+       * @summary Get Eval Run
+       * @request GET:/eval/run/{id}
+       * @secure
+       */
+      evalControllerGetRun: (a, s = {}) => this.request({
+        path: `/eval/run/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Eval
+       * @name EvalControllerRun
+       * @summary Create Eval Run
+       * @request POST:/eval/run
+       * @secure
+       */
+      evalControllerRun: (a, s = {}) => this.request({
+        path: "/eval/run",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Eval
+       * @name EvalControllerGetRunsPaginated
+       * @summary List Eval Runs
+       * @request GET:/eval/run
+       * @secure
+       */
+      evalControllerGetRunsPaginated: (a, s = {}) => this.request({
+        path: "/eval/run",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    org = {
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerCreate
+       * @summary Create Org
+       * @request POST:/org
+       * @secure
+       */
+      orgControllerCreate: (a, s = {}) => this.request({
+        path: "/org",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerFindAll
+       * @summary List Orgs
+       * @request GET:/org
+       * @secure
+       */
+      orgControllerFindAll: (a = {}) => this.request({
+        path: "/org",
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...a
+      }),
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerFeatureFlagEnabled
+       * @summary Check if Feature Flag is enabled
+       * @request GET:/org/feature-flag
+       * @secure
+       */
+      orgControllerFeatureFlagEnabled: (a, s = {}) => this.request({
+        path: "/org/feature-flag",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerFindOne
+       * @summary Get Org
+       * @request GET:/org/{id}
+       * @secure
+       */
+      orgControllerFindOne: (a, s = {}) => this.request({
+        path: `/org/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerUpdate
+       * @summary Update Org
+       * @request PATCH:/org/{id}
+       * @secure
+       */
+      orgControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/org/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerDeleteOrg
+       * @summary Delete Org
+       * @request DELETE:/org/{id}
+       * @secure
+       */
+      orgControllerDeleteOrg: (a, s = {}) => this.request({
+        path: `/org/${a}`,
+        method: "DELETE",
+        secure: !0,
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerFindAllUsers
+       * @summary List Users
+       * @request GET:/org/{id}/user
+       * @secure
+       */
+      orgControllerFindAllUsers: (a, s = {}) => this.request({
+        path: `/org/${a}/user`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerOrgLeave
+       * @summary Leave Org
+       * @request DELETE:/org/{id}/leave
+       * @secure
+       */
+      orgControllerOrgLeave: (a, s = {}) => this.request({
+        path: `/org/${a}/leave`,
+        method: "DELETE",
+        secure: !0,
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerOrgRemoveUser
+       * @summary Remove Org Member
+       * @request DELETE:/org/{id}/member/{memberId}/leave
+       * @secure
+       */
+      orgControllerOrgRemoveUser: (a, s, u = {}) => this.request({
+        path: `/org/${a}/member/${s}/leave`,
+        method: "DELETE",
+        secure: !0,
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerUsersInvite
+       * @summary Invite User
+       * @request POST:/org/{id}/invite
+       * @secure
+       */
+      orgControllerUsersInvite: (a, s, u = {}) => this.request({
+        path: `/org/${a}/invite`,
+        method: "POST",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerUserUpdate
+       * @summary Update User Role
+       * @request PATCH:/org/{id}/role
+       * @secure
+       */
+      orgControllerUserUpdate: (a, s, u = {}) => this.request({
+        path: `/org/${a}/role`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Orgs
+       * @name OrgControllerOrgToken
+       * @summary Generate User Org JWT
+       * @request GET:/org/{id}/auth
+       * @secure
+       */
+      orgControllerOrgToken: (a, s = {}) => this.request({
+        path: `/org/${a}/auth`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    token = {
+      /**
+       * No description
+       *
+       * @tags Tokens
+       * @name TokenControllerCreate
+       * @summary Create Token
+       * @request POST:/token
+       * @secure
+       */
+      tokenControllerCreate: (a, s = {}) => this.request({
+        path: "/token",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Tokens
+       * @name TokenControllerFindAll
+       * @summary List Tokens
+       * @request GET:/token
+       * @secure
+       */
+      tokenControllerFindAll: (a, s = {}) => this.request({
+        path: "/token",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Tokens
+       * @name TokenControllerFindOne
+       * @summary Get Token
+       * @request GET:/token/{id}
+       * @secure
+       */
+      tokenControllerFindOne: (a, s = {}) => this.request({
+        path: `/token/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Tokens
+       * @name TokenControllerUpdate
+       * @summary Update Token
+       * @request PATCH:/token/{id}
+       * @secure
+       */
+      tokenControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/token/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Tokens
+       * @name TokenControllerRemove
+       * @summary Delete Token
+       * @request DELETE:/token/{id}
+       * @secure
+       */
+      tokenControllerRemove: (a, s = {}) => this.request({
+        path: `/token/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    credential = {
+      /**
+       * No description
+       *
+       * @tags Credentials
+       * @name CredentialControllerCreate
+       * @summary Create Credential
+       * @request POST:/credential
+       * @secure
+       */
+      credentialControllerCreate: (a, s = {}) => this.request({
+        path: "/credential",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Credentials
+       * @name CredentialControllerFindAll
+       * @summary List Credentials
+       * @request GET:/credential
+       * @secure
+       */
+      credentialControllerFindAll: (a, s = {}) => this.request({
+        path: "/credential",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Credentials
+       * @name CredentialControllerFindOne
+       * @summary Get Credential
+       * @request GET:/credential/{id}
+       * @secure
+       */
+      credentialControllerFindOne: (a, s = {}) => this.request({
+        path: `/credential/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Credentials
+       * @name CredentialControllerUpdate
+       * @summary Update Credential
+       * @request PATCH:/credential/{id}
+       * @secure
+       */
+      credentialControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/credential/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Credentials
+       * @name CredentialControllerRemove
+       * @summary Delete Credential
+       * @request DELETE:/credential/{id}
+       * @secure
+       */
+      credentialControllerRemove: (a, s = {}) => this.request({
+        path: `/credential/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Credentials
+       * @name CredentialControllerGenerateSession
+       * @summary Generate a credential session
+       * @request POST:/credential/session
+       * @secure
+       */
+      credentialControllerGenerateSession: (a, s = {}) => this.request({
+        path: "/credential/session",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Credentials
+       * @name CredentialControllerHandleWebhook
+       * @summary Handle credential webhook
+       * @request POST:/credential/webhook
+       */
+      credentialControllerHandleWebhook: (a, s = {}) => this.request({
+        path: "/credential/webhook",
+        method: "POST",
+        body: a,
+        type: e.Json,
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Credentials
+       * @name CredentialControllerTriggerCredentialAction
+       * @summary Trigger a credential action
+       * @request POST:/credential/trigger
+       * @secure
+       */
+      credentialControllerTriggerCredentialAction: (a, s = {}) => this.request({
+        path: "/credential/trigger",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        ...s
+      })
+    };
+    template = {
+      /**
+       * No description
+       *
+       * @tags Templates
+       * @name TemplateControllerCreate
+       * @summary Create Template
+       * @request POST:/template
+       * @secure
+       */
+      templateControllerCreate: (a, s = {}) => this.request({
+        path: "/template",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Templates
+       * @name TemplateControllerFindAll
+       * @summary List Templates
+       * @request GET:/template
+       * @secure
+       */
+      templateControllerFindAll: (a, s = {}) => this.request({
+        path: "/template",
+        method: "GET",
+        query: a,
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Templates
+       * @name TemplateControllerFindAllPinned
+       * @summary List Templates
+       * @request GET:/template/pinned
+       * @secure
+       */
+      templateControllerFindAllPinned: (a = {}) => this.request({
+        path: "/template/pinned",
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...a
+      }),
+      /**
+       * No description
+       *
+       * @tags Templates
+       * @name TemplateControllerFindOne
+       * @summary Get Template
+       * @request GET:/template/{id}
+       * @secure
+       */
+      templateControllerFindOne: (a, s = {}) => this.request({
+        path: `/template/${a}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Templates
+       * @name TemplateControllerUpdate
+       * @summary Update Template
+       * @request PATCH:/template/{id}
+       * @secure
+       */
+      templateControllerUpdate: (a, s, u = {}) => this.request({
+        path: `/template/${a}`,
+        method: "PATCH",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Templates
+       * @name TemplateControllerRemove
+       * @summary Delete Template
+       * @request DELETE:/template/{id}
+       * @secure
+       */
+      templateControllerRemove: (a, s = {}) => this.request({
+        path: `/template/${a}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...s
+      })
+    };
+    voiceLibrary = {
+      /**
+       * No description
+       *
+       * @tags Voice Library
+       * @name VoiceLibraryControllerVoiceGetByProvider
+       * @summary Get voices in Voice Library by Provider
+       * @request GET:/voice-library/{provider}
+       * @secure
+       */
+      voiceLibraryControllerVoiceGetByProvider: (a, s, u = {}) => this.request({
+        path: `/voice-library/${a}`,
+        method: "GET",
+        query: s,
+        secure: !0,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Voice Library
+       * @name VoiceLibraryControllerVoiceGetAccentsByProvider
+       * @summary Get accents in Voice Library by Provider
+       * @request GET:/voice-library/{provider}/accents
+       * @secure
+       */
+      voiceLibraryControllerVoiceGetAccentsByProvider: (a, s = {}) => this.request({
+        path: `/voice-library/${a}/accents`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Voice Library
+       * @name VoiceLibraryControllerVoiceLibrarySyncByProvider
+       * @summary Sync Private voices in Voice Library by Provider
+       * @request POST:/voice-library/sync/{provider}
+       * @secure
+       */
+      voiceLibraryControllerVoiceLibrarySyncByProvider: (a, s = {}) => this.request({
+        path: `/voice-library/sync/${a}`,
+        method: "POST",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Voice Library
+       * @name VoiceLibraryControllerVoiceLibrarySyncDefaultVoices
+       * @summary Sync Default voices in Voice Library by Providers
+       * @request POST:/voice-library/sync
+       * @secure
+       */
+      voiceLibraryControllerVoiceLibrarySyncDefaultVoices: (a, s = {}) => this.request({
+        path: "/voice-library/sync",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Voice Library
+       * @name VoiceLibraryControllerVoiceLibraryCreateSesameVoice
+       * @summary Create a new voice in the Voice Library using Sesame
+       * @request POST:/voice-library/create-sesame-voice
+       * @secure
+       */
+      voiceLibraryControllerVoiceLibraryCreateSesameVoice: (a, s = {}) => this.request({
+        path: "/voice-library/create-sesame-voice",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        ...s
+      })
+    };
+    provider = {
+      /**
+       * No description
+       *
+       * @tags Provider Resources
+       * @name ProviderResourceControllerCreateProviderResource
+       * @summary Create Provider Resource
+       * @request POST:/provider/{provider}/{resourceName}
+       * @secure
+       */
+      providerResourceControllerCreateProviderResource: (a, s, u = {}) => this.request({
+        path: `/provider/${a}/${s}`,
+        method: "POST",
+        secure: !0,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Provider Resources
+       * @name ProviderResourceControllerGetProviderResourcesPaginated
+       * @summary List Provider Resources
+       * @request GET:/provider/{provider}/{resourceName}
+       * @secure
+       */
+      providerResourceControllerGetProviderResourcesPaginated: (a, s, u, f = {}) => this.request({
+        path: `/provider/${a}/${s}`,
+        method: "GET",
+        query: u,
+        secure: !0,
+        format: "json",
+        ...f
+      }),
+      /**
+       * No description
+       *
+       * @tags Provider Resources
+       * @name ProviderResourceControllerGetProviderResource
+       * @summary Get Provider Resource
+       * @request GET:/provider/{provider}/{resourceName}/{id}
+       * @secure
+       */
+      providerResourceControllerGetProviderResource: (a, s, u, f = {}) => this.request({
+        path: `/provider/${a}/${s}/${u}`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...f
+      }),
+      /**
+       * No description
+       *
+       * @tags Provider Resources
+       * @name ProviderResourceControllerDeleteProviderResource
+       * @summary Delete Provider Resource
+       * @request DELETE:/provider/{provider}/{resourceName}/{id}
+       * @secure
+       */
+      providerResourceControllerDeleteProviderResource: (a, s, u, f = {}) => this.request({
+        path: `/provider/${a}/${s}/${u}`,
+        method: "DELETE",
+        secure: !0,
+        format: "json",
+        ...f
+      }),
+      /**
+       * No description
+       *
+       * @tags Provider Resources
+       * @name ProviderResourceControllerUpdateProviderResource
+       * @summary Update Provider Resource
+       * @request PATCH:/provider/{provider}/{resourceName}/{id}
+       * @secure
+       */
+      providerResourceControllerUpdateProviderResource: (a, s, u, f = {}) => this.request({
+        path: `/provider/${a}/${s}/${u}`,
+        method: "PATCH",
+        secure: !0,
+        format: "json",
+        ...f
+      }),
+      /**
+       * No description
+       *
+       * @tags Providers
+       * @name ProviderControllerGetWorkflows
+       * @request GET:/{provider}/workflows
+       * @secure
+       */
+      providerControllerGetWorkflows: (a, s, u = {}) => this.request({
+        path: `/${a}/workflows`,
+        method: "GET",
+        query: s,
+        secure: !0,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Providers
+       * @name ProviderControllerGetWorkflowTriggerHook
+       * @request GET:/{provider}/workflows/{workflowId}/hooks
+       * @secure
+       */
+      providerControllerGetWorkflowTriggerHook: (a, s, u = {}) => this.request({
+        path: `/${a}/workflows/${s}/hooks`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Providers
+       * @name ProviderControllerGetLocations
+       * @request GET:/{provider}/locations
+       * @secure
+       */
+      providerControllerGetLocations: (a, s = {}) => this.request({
+        path: `/${a}/locations`,
+        method: "GET",
+        secure: !0,
+        format: "json",
+        ...s
+      }),
+      /**
+       * No description
+       *
+       * @tags Providers
+       * @name VoiceProviderControllerSearchVoices
+       * @summary Search Voice from Provider Voice Library.
+       * @request GET:/{provider}/voices/search
+       * @deprecated
+       * @secure
+       */
+      voiceProviderControllerSearchVoices: (a, s, u = {}) => this.request({
+        path: `/${a}/voices/search`,
+        method: "GET",
+        query: s,
+        secure: !0,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Providers
+       * @name VoiceProviderControllerSearchVoice
+       * @summary Search Voice from Provider Voice Library.
+       * @request GET:/{provider}/voice/search
+       * @secure
+       */
+      voiceProviderControllerSearchVoice: (a, s, u = {}) => this.request({
+        path: `/${a}/voice/search`,
+        method: "GET",
+        query: s,
+        secure: !0,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Providers
+       * @name VoiceProviderControllerAddVoices
+       * @summary Add Shared Voice to your Provider Account.
+       * @request POST:/{provider}/voices/add
+       * @deprecated
+       * @secure
+       */
+      voiceProviderControllerAddVoices: (a, s, u = {}) => this.request({
+        path: `/${a}/voices/add`,
+        method: "POST",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      }),
+      /**
+       * No description
+       *
+       * @tags Providers
+       * @name VoiceProviderControllerAddVoice
+       * @summary Add Shared Voice to your Provider Account.
+       * @request POST:/{provider}/voice/add
+       * @secure
+       */
+      voiceProviderControllerAddVoice: (a, s, u = {}) => this.request({
+        path: `/${a}/voice/add`,
+        method: "POST",
+        body: s,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...u
+      })
+    };
+    v11Labs = {
+      /**
+       * No description
+       *
+       * @tags Providers
+       * @name VoiceProviderControllerCloneVoices
+       * @summary Clone a voice to the provider account and add to Vapi Voice Library.
+       * @request POST:/11labs/voice/clone
+       * @secure
+       */
+      voiceProviderControllerCloneVoices: (a, s = {}) => this.request({
+        path: "/11labs/voice/clone",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.FormData,
+        ...s
+      })
+    };
+    analytics = {
+      /**
+       * No description
+       *
+       * @tags Analytics
+       * @name AnalyticsControllerQuery
+       * @summary Create Analytics Queries
+       * @request POST:/analytics
+       * @secure
+       */
+      analyticsControllerQuery: (a, s = {}) => this.request({
+        path: "/analytics",
+        method: "POST",
+        body: a,
+        secure: !0,
+        type: e.Json,
+        format: "json",
+        ...s
+      })
+    };
+  }
+  return lr.Api = r, lr;
+}
+var Yg;
+function z_() {
+  if (Yg) return na;
+  Yg = 1, Object.defineProperty(na, "__esModule", { value: !0 }), na.client = void 0;
+  const e = V_(), t = new e.Api({
+    baseUrl: "https://api.vapi.ai",
+    baseApiParams: {
+      secure: !0
+    },
+    securityWorker: async (r) => {
+      if (r)
+        return {
+          headers: {
+            Authorization: `Bearer ${r}`
+          }
+        };
+    }
+  });
+  return na.client = t, na;
+}
+var di = {}, Qg;
+function B_() {
+  if (Qg) return di;
+  Qg = 1, Object.defineProperty(di, "__esModule", { value: !0 }), di.createSafeDailyConfig = e, di.safeSetLocalAudio = t, di.safeSetInputDevicesAsync = r, di.createSafeDailyFactoryOptions = o;
+  function e(a) {
+    if (!a)
+      return {};
+    const { alwaysIncludeMicInPermissionPrompt: s, ...u } = a;
+    return s === !1 ? (console.warn("[Vapi] alwaysIncludeMicInPermissionPrompt:false detected. This can cause Chrome 140+ issues. Removing the property."), u) : a;
+  }
+  function t(a, s) {
+    if (!a)
+      throw new Error("Call object is not available.");
+    a.setLocalAudio(s);
+  }
+  async function r(a, s) {
+    if (!a)
+      throw new Error("Call object is not available.");
+    if ("audioSource" in s && s.audioSource === !1) {
+      console.warn("[Vapi] setInputDevicesAsync with audioSource:false detected. This can cause Chrome 140+ issues. Using default device instead.");
+      const { audioSource: u, ...f } = s;
+      await a.setInputDevicesAsync(f);
+      return;
+    }
+    await a.setInputDevicesAsync(s);
+  }
+  function o(a) {
+    return a ? a.audioSource === !1 ? (console.warn("[Vapi] audioSource:false detected in factory options. This can cause Chrome 140+ issues. Defaulting to true."), { ...a, audioSource: !0 }) : a : {};
+  }
+  return di;
+}
+var Zg;
+function U_() {
+  if (Zg) return Qi;
+  Zg = 1;
+  var e = Qi && Qi.__importDefault || function(v) {
+    return v && v.__esModule ? v : { default: v };
+  };
+  Object.defineProperty(Qi, "__esModule", { value: !0 });
+  const t = e(R_), r = e(F_()), o = z_(), a = B_();
+  async function s(v, _) {
+    v.muted = !1, v.autoplay = !0, _ != null && (v.srcObject = new MediaStream([_]), await v.play());
+  }
+  async function u(v, _) {
+    const k = document.createElement("audio");
+    return k.dataset.participantId = _, document.body.appendChild(k), await s(k, v), k;
+  }
+  function f(v) {
+    document.querySelector(`audio[data-participant-id="${v}"]`)?.remove();
+  }
+  function p(v, _, k, T) {
+    v.participant.local || _.updateParticipant(v.participant.session_id, {
+      setSubscribedTracks: {
+        audio: !0,
+        video: k || T
+      }
+    });
+  }
+  class m extends r.default {
+    on(_, k) {
+      return super.on(_, k), this;
+    }
+    once(_, k) {
+      return super.once(_, k), this;
+    }
+    emit(_, ...k) {
+      return super.emit(_, ...k);
+    }
+    removeListener(_, k) {
+      return super.removeListener(_, k), this;
+    }
+    removeAllListeners(_) {
+      return super.removeAllListeners(_), this;
+    }
+  }
+  class y extends m {
+    started = !1;
+    call = null;
+    speakingTimeout = null;
+    dailyCallConfig = {};
+    dailyCallObject = {};
+    hasEmittedCallEndedStatus = !1;
+    constructor(_, k, T, E) {
+      super(), o.client.baseUrl = k ?? "https://api.vapi.ai", o.client.setSecurityData(_), this.dailyCallConfig = (0, a.createSafeDailyConfig)(T), this.dailyCallObject = (0, a.createSafeDailyFactoryOptions)(E);
+    }
+    async cleanup() {
+      this.started = !1, this.hasEmittedCallEndedStatus = !1, this.call && (await this.call.destroy(), this.call = null), this.speakingTimeout = null;
+    }
+    isMobileDevice() {
+      if (typeof navigator > "u")
+        return !1;
+      const _ = navigator.userAgent;
+      return /android|iphone|ipad|ipod|iemobile|blackberry|bada/i.test(_.toLowerCase());
+    }
+    async sleep(_) {
+      return new Promise((k) => setTimeout(k, _));
+    }
+    async start(_, k, T, E, L, M) {
+      const V = Date.now();
+      if (!_ && !T && !E) {
+        const B = new Error("Assistant or Squad or Workflow must be provided.");
+        throw this.emit("error", {
+          type: "validation-error",
+          stage: "input-validation",
+          message: B.message,
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        }), B;
+      }
+      if (this.started)
+        return this.emit("call-start-progress", {
+          stage: "validation",
+          status: "failed",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          metadata: { reason: "already-started" }
+        }), null;
+      this.emit("call-start-progress", {
+        stage: "initialization",
+        status: "started",
+        timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+        metadata: {
+          hasAssistant: !!_,
+          hasSquad: !!T,
+          hasWorkflow: !!E
+        }
+      }), this.started = !0;
+      try {
+        this.emit("call-start-progress", {
+          stage: "web-call-creation",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        });
+        const B = Date.now(), j = (await o.client.call.callControllerCreateWebCall({
+          assistant: typeof _ == "string" ? void 0 : _,
+          assistantId: typeof _ == "string" ? _ : void 0,
+          assistantOverrides: k,
+          squad: typeof T == "string" ? void 0 : T,
+          squadId: typeof T == "string" ? T : void 0,
+          workflow: typeof E == "string" ? void 0 : E,
+          workflowId: typeof E == "string" ? E : void 0,
+          workflowOverrides: L,
+          roomDeleteOnUserLeaveEnabled: M?.roomDeleteOnUserLeaveEnabled
+        })).data, N = Date.now() - B;
+        this.emit("call-start-progress", {
+          stage: "web-call-creation",
+          status: "completed",
+          duration: N,
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          metadata: {
+            callId: j?.id || "unknown",
+            videoRecordingEnabled: j?.artifactPlan?.videoRecordingEnabled ?? !1,
+            voiceProvider: j?.assistant?.voice?.provider || "unknown"
+          }
+        }), this.call && (this.emit("call-start-progress", {
+          stage: "daily-call-object-creation",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          metadata: { action: "cleanup-existing" }
+        }), await this.cleanup());
+        const A = j?.artifactPlan?.videoRecordingEnabled ?? !1, H = j?.assistant?.voice?.provider === "tavus";
+        this.emit("call-start-progress", {
+          stage: "daily-call-object-creation",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          metadata: {
+            audioSource: this.dailyCallObject.audioSource ?? !0,
+            videoSource: this.dailyCallObject.videoSource ?? A,
+            isVideoRecordingEnabled: A,
+            isVideoEnabled: H
+          }
+        });
+        const z = Date.now();
+        try {
+          this.call = t.default.createCallObject({
+            audioSource: this.dailyCallObject.audioSource ?? !0,
+            videoSource: this.dailyCallObject.videoSource ?? A,
+            dailyConfig: this.dailyCallConfig
+          });
+          const q = Date.now() - z;
+          this.emit("call-start-progress", {
+            stage: "daily-call-object-creation",
+            status: "completed",
+            duration: q,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          });
+        } catch (q) {
+          const ue = Date.now() - z;
+          throw this.emit("call-start-progress", {
+            stage: "daily-call-object-creation",
+            status: "failed",
+            duration: ue,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { error: q?.toString() }
+          }), this.emit("error", {
+            type: "daily-call-object-creation-error",
+            stage: "daily-call-object-creation",
+            error: q,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          }), q;
+        }
+        this.call.iframe()?.style.setProperty("display", "none"), this.call.on("left-meeting", () => {
+          this.emit("call-end"), this.hasEmittedCallEndedStatus || (this.emit("message", {
+            type: "status-update",
+            status: "ended",
+            endedReason: "customer-ended-call"
+          }), this.hasEmittedCallEndedStatus = !0), A && this.call?.stopRecording(), this.cleanup().catch(console.error);
+        }), this.call.on("error", (q) => {
+          this.emit("error", q), A && this.call?.stopRecording();
+        }), this.call.on("camera-error", (q) => {
+          this.emit("camera-error", q);
+        }), this.call.on("network-quality-change", (q) => {
+          this.emit("network-quality-change", q);
+        }), this.call.on("network-connection", (q) => {
+          this.emit("network-connection", q);
+        }), this.call.on("track-started", async (q) => {
+          !q || !q.participant || q.participant?.local || q.participant?.user_name === "Vapi Speaker" && (q.track.kind === "video" && this.emit("video", q.track), q.track.kind === "audio" && await u(q.track, q.participant.session_id), this.call?.sendAppMessage("playable"));
+        }), this.call.on("participant-joined", (q) => {
+          !q || !this.call || p(q, this.call, A, H);
+        }), this.call.on("participant-updated", (q) => {
+          q && this.emit("daily-participant-updated", q.participant);
+        }), this.call.on("participant-left", (q) => {
+          q && f(q.participant.session_id);
+        });
+        const ae = this.isMobileDevice();
+        if (this.emit("call-start-progress", {
+          stage: "mobile-permissions",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          metadata: { isMobile: ae }
+        }), ae) {
+          const q = Date.now();
+          await this.sleep(1e3);
+          const ue = Date.now() - q;
+          this.emit("call-start-progress", {
+            stage: "mobile-permissions",
+            status: "completed",
+            duration: ue,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { action: "permissions-wait" }
+          });
+        } else
+          this.emit("call-start-progress", {
+            stage: "mobile-permissions",
+            status: "completed",
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { action: "skipped-not-mobile" }
+          });
+        this.emit("call-start-progress", {
+          stage: "daily-call-join",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        });
+        const X = Date.now();
+        try {
+          await this.call.join({
+            // @ts-expect-error This exists
+            url: j.webCallUrl,
+            subscribeToTracksAutomatically: !1
+          });
+          const q = Date.now() - X;
+          this.emit("call-start-progress", {
+            stage: "daily-call-join",
+            status: "completed",
+            duration: q,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          });
+        } catch (q) {
+          const ue = Date.now() - X;
+          throw this.emit("call-start-progress", {
+            stage: "daily-call-join",
+            status: "failed",
+            duration: ue,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { error: q?.toString() }
+          }), this.emit("error", {
+            type: "daily-call-join-error",
+            stage: "daily-call-join",
+            error: q,
+            duration: ue,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          }), q;
+        }
+        if (A) {
+          this.emit("call-start-progress", {
+            stage: "video-recording-setup",
+            status: "started",
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          });
+          const q = (/* @__PURE__ */ new Date()).getTime(), ue = Date.now();
+          try {
+            this.call.startRecording({
+              width: 1280,
+              height: 720,
+              backgroundColor: "#FF1F2D3D",
+              layout: {
+                preset: "default"
+              }
+            });
+            const be = Date.now() - ue;
+            this.emit("call-start-progress", {
+              stage: "video-recording-setup",
+              status: "completed",
+              duration: be,
+              timestamp: (/* @__PURE__ */ new Date()).toISOString()
+            }), this.call.on("recording-started", () => {
+              const ve = ((/* @__PURE__ */ new Date()).getTime() - q) / 1e3;
+              this.emit("call-start-progress", {
+                stage: "video-recording-started",
+                status: "completed",
+                timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+                metadata: { delaySeconds: ve }
+              }), this.send({
+                type: "control",
+                control: "say-first-message",
+                videoRecordingStartDelaySeconds: ve
+              });
+            });
+          } catch (be) {
+            const ve = Date.now() - ue;
+            this.emit("call-start-progress", {
+              stage: "video-recording-setup",
+              status: "failed",
+              duration: ve,
+              timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+              metadata: { error: be?.toString() }
+            }), this.emit("error", {
+              type: "video-recording-setup-error",
+              stage: "video-recording-setup",
+              error: be,
+              timestamp: (/* @__PURE__ */ new Date()).toISOString()
+            });
+          }
+        } else
+          this.emit("call-start-progress", {
+            stage: "video-recording-setup",
+            status: "completed",
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { action: "skipped-not-enabled" }
+          });
+        this.emit("call-start-progress", {
+          stage: "audio-observer-setup",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        });
+        const ne = Date.now();
+        try {
+          this.call.startRemoteParticipantsAudioLevelObserver(100);
+          const q = Date.now() - ne;
+          this.emit("call-start-progress", {
+            stage: "audio-observer-setup",
+            status: "completed",
+            duration: q,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          });
+        } catch (q) {
+          const ue = Date.now() - ne;
+          this.emit("call-start-progress", {
+            stage: "audio-observer-setup",
+            status: "failed",
+            duration: ue,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { error: q?.toString() }
+          }), this.emit("error", {
+            type: "audio-observer-setup-error",
+            stage: "audio-observer-setup",
+            error: q,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          });
+        }
+        this.call.on("remote-participants-audio-level", (q) => {
+          q && this.handleRemoteParticipantsAudioLevel(q);
+        }), this.call.on("app-message", (q) => this.onAppMessage(q)), this.call.on("nonfatal-error", (q) => {
+          q?.type === "audio-processor-error" && this.call?.updateInputSettings({
+            audio: {
+              processor: {
+                type: "none"
+              }
+            }
+          }).then(() => {
+            (0, a.safeSetLocalAudio)(this.call, !0);
+          });
+        }), this.emit("call-start-progress", {
+          stage: "audio-processing-setup",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        });
+        const le = Date.now();
+        try {
+          this.call.updateInputSettings({
+            audio: {
+              processor: {
+                type: "noise-cancellation"
+              }
+            }
+          });
+          const q = Date.now() - le;
+          this.emit("call-start-progress", {
+            stage: "audio-processing-setup",
+            status: "completed",
+            duration: q,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          });
+        } catch (q) {
+          const ue = Date.now() - le;
+          this.emit("call-start-progress", {
+            stage: "audio-processing-setup",
+            status: "failed",
+            duration: ue,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { error: q?.toString() }
+          }), this.emit("error", {
+            type: "audio-processing-setup-error",
+            stage: "audio-processing-setup",
+            error: q,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          });
+        }
+        const pe = Date.now() - V;
+        return this.emit("call-start-success", {
+          totalDuration: pe,
+          callId: j?.id || "unknown",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        }), j;
+      } catch (B) {
+        const j = Date.now() - V;
+        return this.emit("call-start-failed", {
+          stage: "unknown",
+          totalDuration: j,
+          error: B?.toString() || "Unknown error occurred",
+          errorStack: B instanceof Error ? B.stack : "No stack trace available",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          context: {
+            hasAssistant: !!_,
+            hasSquad: !!T,
+            hasWorkflow: !!E,
+            isMobile: this.isMobileDevice()
+          }
+        }), this.emit("error", {
+          type: "start-method-error",
+          stage: "unknown",
+          error: B,
+          totalDuration: j,
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          context: {
+            hasAssistant: !!_,
+            hasSquad: !!T,
+            hasWorkflow: !!E,
+            isMobile: this.isMobileDevice()
+          }
+        }), await this.cleanup(), null;
+      }
+    }
+    onAppMessage(_) {
+      if (_)
+        try {
+          if (_.data === "listening")
+            return this.emit("call-start");
+          try {
+            const k = JSON.parse(_.data);
+            this.emit("message", k), k && "type" in k && "status" in k && k.type === "status-update" && k.status === "ended" && (this.hasEmittedCallEndedStatus = !0);
+          } catch (k) {
+            console.log("Error parsing message data: ", k);
+          }
+        } catch (k) {
+          console.error(k);
+        }
+    }
+    handleRemoteParticipantsAudioLevel(_) {
+      const k = Object.values(_.participantsAudioLevel).reduce((E, L) => E + L, 0);
+      this.emit("volume-level", Math.min(1, k / 0.15)), k > 0.01 && (this.speakingTimeout ? (clearTimeout(this.speakingTimeout), this.speakingTimeout = null) : this.emit("speech-start"), this.speakingTimeout = setTimeout(() => {
+        this.emit("speech-end"), this.speakingTimeout = null;
+      }, 1e3));
+    }
+    /**
+     * Stops the call by destroying the Daily call object.
+     *
+     * If `roomDeleteOnUserLeaveEnabled` is set to `false`, the Vapi call will be kept alive, allowing reconnections to the same call using the `reconnect` method.
+     * If `roomDeleteOnUserLeaveEnabled` is set to `true`, the Vapi call will also be destroyed, preventing any reconnections.
+     */
+    async stop() {
+      this.started = !1, this.call && (await this.call.destroy(), this.call = null), this.speakingTimeout = null;
+    }
+    /**
+     * Sends a Live Call Control message to the Vapi server.
+     *
+     * Docs: https://docs.vapi.ai/calls/call-features
+     */
+    send(_) {
+      this.call?.sendAppMessage(JSON.stringify(_));
+    }
+    setMuted(_) {
+      (0, a.safeSetLocalAudio)(this.call, !_);
+    }
+    isMuted() {
+      return this.call ? this.call.localAudio() === !1 : !1;
+    }
+    say(_, k, T, E) {
+      this.send({
+        type: "say",
+        message: _,
+        endCallAfterSpoken: k,
+        interruptionsEnabled: T ?? !1,
+        interruptAssistantEnabled: E ?? !1
+      });
+    }
+    /**
+     * Ends the call immediately by sending a `end-call` message using Live Call Control, and destroys the Daily call object.
+     *
+     * This method always ends the call, regardless of the `roomDeleteOnUserLeaveEnabled` option.
+     */
+    end() {
+      this.send({
+        type: "end-call"
+      }), this.stop();
+    }
+    setInputDevicesAsync(_) {
+      return (0, a.safeSetInputDevicesAsync)(this.call, _);
+    }
+    async increaseMicLevel(_) {
+      if (!this.call)
+        throw new Error("Call object is not available.");
+      try {
+        const k = await navigator.mediaDevices.getUserMedia({ audio: !0 }), T = new AudioContext(), E = T.createMediaStreamSource(k), L = T.createGain();
+        L.gain.value = _, E.connect(L);
+        const M = T.createMediaStreamDestination();
+        L.connect(M);
+        const [V] = M.stream.getAudioTracks();
+        await (0, a.safeSetInputDevicesAsync)(this.call, { audioSource: V });
+      } catch (k) {
+        console.error("Error adjusting microphone level:", k);
+      }
+    }
+    setOutputDeviceAsync(_) {
+      this.call?.setOutputDeviceAsync(_);
+    }
+    getDailyCallObject() {
+      return this.call;
+    }
+    startScreenSharing(_, k) {
+      this.call?.startScreenShare({
+        displayMediaOptions: _,
+        screenVideoSendSettings: k
+      });
+    }
+    stopScreenSharing() {
+      this.call?.stopScreenShare();
+    }
+    /**
+     * Reconnects to an active call.
+     *
+     *
+     * @param webCall
+     */
+    async reconnect(_) {
+      const k = Date.now();
+      if (this.started)
+        throw new Error("Cannot reconnect while a call is already in progress. Call stop() first.");
+      if (!_.webCallUrl)
+        throw new Error("webCallUrl is required for reconnection.");
+      this.emit("call-start-progress", {
+        stage: "reconnect-initialization",
+        status: "started",
+        timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+        metadata: {
+          callId: _.id || "unknown",
+          hasVideoRecording: !!_?.artifactPlan?.videoRecordingEnabled,
+          voiceProvider: _?.assistant?.voice?.provider || "unknown"
+        }
+      }), this.started = !0;
+      try {
+        this.call && (this.emit("call-start-progress", {
+          stage: "cleanup-existing-call",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        }), await this.cleanup(), this.emit("call-start-progress", {
+          stage: "cleanup-existing-call",
+          status: "completed",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        }));
+        const T = _?.artifactPlan?.videoRecordingEnabled ?? !1, E = _?.assistant?.voice?.provider === "tavus";
+        this.emit("call-start-progress", {
+          stage: "daily-call-object-creation",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          metadata: {
+            audioSource: this.dailyCallObject.audioSource ?? !0,
+            videoSource: this.dailyCallObject.videoSource ?? T,
+            isVideoRecordingEnabled: T,
+            isVideoEnabled: E
+          }
+        });
+        const L = Date.now();
+        this.call = t.default.createCallObject({
+          audioSource: this.dailyCallObject.audioSource ?? !0,
+          videoSource: this.dailyCallObject.videoSource ?? T,
+          dailyConfig: this.dailyCallConfig
+        });
+        const M = Date.now() - L;
+        this.emit("call-start-progress", {
+          stage: "daily-call-object-creation",
+          status: "completed",
+          duration: M,
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        }), this.call.iframe()?.style.setProperty("display", "none"), this.call.on("left-meeting", () => {
+          this.emit("call-end"), this.hasEmittedCallEndedStatus || (this.emit("message", {
+            type: "status-update",
+            status: "ended",
+            endedReason: "customer-ended-call"
+          }), this.hasEmittedCallEndedStatus = !0), T && this.call?.stopRecording(), this.cleanup().catch(console.error);
+        }), this.call.on("error", (z) => {
+          this.emit("error", z), T && this.call?.stopRecording();
+        }), this.call.on("camera-error", (z) => {
+          this.emit("camera-error", z);
+        }), this.call.on("network-quality-change", (z) => {
+          this.emit("network-quality-change", z);
+        }), this.call.on("network-connection", (z) => {
+          this.emit("network-connection", z);
+        }), this.call.on("track-started", async (z) => {
+          !z || !z.participant || z.participant?.local || z.participant?.user_name === "Vapi Speaker" && (z.track.kind === "video" && this.emit("video", z.track), z.track.kind === "audio" && await u(z.track, z.participant.session_id), this.call?.sendAppMessage("playable"));
+        }), this.call.on("participant-joined", (z) => {
+          !z || !this.call || p(z, this.call, T, E);
+        }), this.call.on("participant-updated", (z) => {
+          z && this.emit("daily-participant-updated", z.participant);
+        }), this.call.on("participant-left", (z) => {
+          z && f(z.participant.session_id);
+        }), this.call.on("remote-participants-audio-level", (z) => {
+          z && this.handleRemoteParticipantsAudioLevel(z);
+        }), this.call.on("app-message", (z) => this.onAppMessage(z)), this.call.on("nonfatal-error", (z) => {
+          z?.type === "audio-processor-error" && this.call?.updateInputSettings({
+            audio: {
+              processor: {
+                type: "none"
+              }
+            }
+          }).then(() => {
+            (0, a.safeSetLocalAudio)(this.call, !0);
+          });
+        });
+        const V = this.isMobileDevice();
+        if (this.emit("call-start-progress", {
+          stage: "mobile-permissions",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          metadata: { isMobile: V }
+        }), V) {
+          const z = Date.now();
+          await this.sleep(1e3);
+          const ae = Date.now() - z;
+          this.emit("call-start-progress", {
+            stage: "mobile-permissions",
+            status: "completed",
+            duration: ae,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { action: "permissions-wait" }
+          });
+        } else
+          this.emit("call-start-progress", {
+            stage: "mobile-permissions",
+            status: "completed",
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { action: "skipped-not-mobile" }
+          });
+        this.emit("call-start-progress", {
+          stage: "daily-call-join",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        });
+        const B = Date.now();
+        await this.call.join({
+          url: _.webCallUrl,
+          subscribeToTracksAutomatically: !1
+        });
+        const j = Date.now() - B;
+        if (this.emit("call-start-progress", {
+          stage: "daily-call-join",
+          status: "completed",
+          duration: j,
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        }), T) {
+          this.emit("call-start-progress", {
+            stage: "video-recording-setup",
+            status: "started",
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          });
+          const z = Date.now(), ae = (/* @__PURE__ */ new Date()).getTime();
+          try {
+            this.call.startRecording({
+              width: 1280,
+              height: 720,
+              backgroundColor: "#FF1F2D3D",
+              layout: {
+                preset: "default"
+              }
+            });
+            const X = Date.now() - z;
+            this.emit("call-start-progress", {
+              stage: "video-recording-setup",
+              status: "completed",
+              duration: X,
+              timestamp: (/* @__PURE__ */ new Date()).toISOString()
+            }), this.call.on("recording-started", () => {
+              const ne = ((/* @__PURE__ */ new Date()).getTime() - ae) / 1e3;
+              this.emit("call-start-progress", {
+                stage: "video-recording-started",
+                status: "completed",
+                timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+                metadata: { delaySeconds: ne }
+              }), this.send({
+                type: "control",
+                control: "say-first-message",
+                videoRecordingStartDelaySeconds: ne
+              });
+            });
+          } catch (X) {
+            const ne = Date.now() - z;
+            this.emit("call-start-progress", {
+              stage: "video-recording-setup",
+              status: "failed",
+              duration: ne,
+              timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+              metadata: { error: X?.toString() }
+            });
+          }
+        } else
+          this.emit("call-start-progress", {
+            stage: "video-recording-setup",
+            status: "completed",
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { action: "skipped-not-enabled" }
+          });
+        this.emit("call-start-progress", {
+          stage: "audio-observer-setup",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        });
+        const N = Date.now();
+        try {
+          this.call.startRemoteParticipantsAudioLevelObserver(100);
+          const z = Date.now() - N;
+          this.emit("call-start-progress", {
+            stage: "audio-observer-setup",
+            status: "completed",
+            duration: z,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          });
+        } catch (z) {
+          const ae = Date.now() - N;
+          this.emit("call-start-progress", {
+            stage: "audio-observer-setup",
+            status: "failed",
+            duration: ae,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { error: z?.toString() }
+          });
+        }
+        this.emit("call-start-progress", {
+          stage: "audio-processing-setup",
+          status: "started",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        });
+        const A = Date.now();
+        try {
+          this.call.updateInputSettings({
+            audio: {
+              processor: {
+                type: "noise-cancellation"
+              }
+            }
+          });
+          const z = Date.now() - A;
+          this.emit("call-start-progress", {
+            stage: "audio-processing-setup",
+            status: "completed",
+            duration: z,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString()
+          });
+        } catch (z) {
+          const ae = Date.now() - A;
+          this.emit("call-start-progress", {
+            stage: "audio-processing-setup",
+            status: "failed",
+            duration: ae,
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            metadata: { error: z?.toString() }
+          });
+        }
+        const H = Date.now() - k;
+        this.emit("call-start-success", {
+          totalDuration: H,
+          callId: _?.id || "unknown",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        }), this.emit("call-start");
+      } catch (T) {
+        const E = Date.now() - k;
+        throw this.emit("call-start-failed", {
+          stage: "reconnect",
+          totalDuration: E,
+          error: T?.toString() || "Unknown error occurred",
+          errorStack: T instanceof Error ? T.stack : "No stack trace available",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          context: {
+            isReconnect: !0,
+            callId: _?.id || "unknown",
+            hasVideoRecording: !!_?.artifactPlan?.videoRecordingEnabled,
+            voiceProvider: _?.assistant?.voice?.provider || "unknown",
+            isMobile: this.isMobileDevice()
+          }
+        }), this.emit("error", {
+          type: "reconnect-error",
+          error: T,
+          totalDuration: E,
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          context: {
+            isReconnect: !0,
+            callId: _?.id || "unknown",
+            hasVideoRecording: !!_?.artifactPlan?.videoRecordingEnabled,
+            voiceProvider: _?.assistant?.voice?.provider || "unknown",
+            isMobile: this.isMobileDevice()
+          }
+        }), await this.cleanup(), T;
+      }
+    }
+  }
+  return Qi.default = y, Qi;
+}
+var q_ = U_();
+const $_ = /* @__PURE__ */ _l(q_);
+/*! js-cookie v3.0.5 | MIT */
+function Zs(e) {
+  for (var t = 1; t < arguments.length; t++) {
+    var r = arguments[t];
+    for (var o in r)
+      e[o] = r[o];
+  }
+  return e;
+}
+var H_ = {
+  read: function(e) {
+    return e[0] === '"' && (e = e.slice(1, -1)), e.replace(/(%[\dA-F]{2})+/gi, decodeURIComponent);
+  },
+  write: function(e) {
+    return encodeURIComponent(e).replace(
+      /%(2[346BF]|3[AC-F]|40|5[BDE]|60|7[BCD])/g,
+      decodeURIComponent
+    );
+  }
+};
+function jd(e, t) {
+  function r(a, s, u) {
+    if (!(typeof document > "u")) {
+      u = Zs({}, t, u), typeof u.expires == "number" && (u.expires = new Date(Date.now() + u.expires * 864e5)), u.expires && (u.expires = u.expires.toUTCString()), a = encodeURIComponent(a).replace(/%(2[346B]|5E|60|7C)/g, decodeURIComponent).replace(/[()]/g, escape);
+      var f = "";
+      for (var p in u)
+        u[p] && (f += "; " + p, u[p] !== !0 && (f += "=" + u[p].split(";")[0]));
+      return document.cookie = a + "=" + e.write(s, a) + f;
+    }
+  }
+  function o(a) {
+    if (!(typeof document > "u" || arguments.length && !a)) {
+      for (var s = document.cookie ? document.cookie.split("; ") : [], u = {}, f = 0; f < s.length; f++) {
+        var p = s[f].split("="), m = p.slice(1).join("=");
+        try {
+          var y = decodeURIComponent(p[0]);
+          if (u[y] = e.read(m, y), a === y)
+            break;
+        } catch {
+        }
+      }
+      return a ? u[a] : u;
+    }
+  }
+  return Object.create(
+    {
+      set: r,
+      get: o,
+      remove: function(a, s) {
+        r(
+          a,
+          "",
+          Zs({}, s, {
+            expires: -1
+          })
+        );
+      },
+      withAttributes: function(a) {
+        return jd(this.converter, Zs({}, this.attributes, a));
+      },
+      withConverter: function(a) {
+        return jd(Zs({}, this.converter, a), this.attributes);
+      }
+    },
+    {
+      attributes: { value: Object.freeze(t) },
+      converter: { value: Object.freeze(e) }
+    }
+  );
+}
+var uf = jd(H_, { path: "/" });
+function I0() {
+  const e = window.location.hostname;
+  if (e === "localhost" || e === "127.0.0.1" || /^\d+\.\d+\.\d+\.\d+$/.test(e))
+    return e;
+  const t = e.split(".");
+  return t.length <= 2 ? e : "." + t.slice(-2).join(".");
+}
+const J_ = (e, t, r, o = "session") => {
+  const a = t.webCallUrl || t.transport?.callUrl;
+  if (!a) {
+    console.warn(
+      "No webCallUrl found in call object, cannot store for reconnection"
+    );
+    return;
+  }
+  const s = {
+    webCallUrl: a,
+    id: t.id,
+    artifactPlan: t.artifactPlan,
+    assistant: t.assistant,
+    squad: t.squad,
+    callOptions: r,
+    timestamp: Date.now()
+  };
+  if (o === "session")
+    sessionStorage.setItem(e, JSON.stringify(s));
+  else if (o === "cookies")
+    try {
+      const u = I0();
+      uf.set(e, JSON.stringify(s), {
+        domain: u,
+        path: "/",
+        secure: !0,
+        sameSite: "lax",
+        expires: 1 / 24
+        // 1 hour (expires takes days, so 1/24 = 1 hour)
+      });
+    } catch (u) {
+      console.error("Failed to store call data in cookie:", u);
+    }
+}, W_ = (e, t = "session") => {
+  try {
+    if (t === "session") {
+      const r = sessionStorage.getItem(e);
+      return r ? JSON.parse(r) : null;
+    } else if (t === "cookies") {
+      const r = uf.get(e);
+      return r ? JSON.parse(r) : null;
+    }
+    return null;
+  } catch (r) {
+    return console.error("Error reading stored call data:", r), null;
+  }
+}, Ks = (e, t = "session") => {
+  if (t === "session")
+    sessionStorage.removeItem(e);
+  else if (t === "cookies") {
+    const r = I0();
+    uf.remove(e, {
+      domain: r,
+      path: "/"
+    });
+  }
+}, G_ = (e, t) => {
+  if (e === t) return !0;
+  if (!e || !t) return !1;
+  try {
+    return JSON.stringify(e) === JSON.stringify(t);
+  } catch {
+    return e === t;
+  }
+}, Y_ = ({
+  publicKey: e,
+  callOptions: t,
+  apiUrl: r,
+  enabled: o = !0,
+  voiceAutoReconnect: a = !1,
+  voiceReconnectStorage: s = "session",
+  reconnectStorageKey: u = "vapi_widget_web_call",
+  onCallStart: f,
+  onCallEnd: p,
+  onMessage: m,
+  onError: y,
+  onTranscript: v
+}) => {
+  const [_] = D.useState(
+    () => e ? new $_(e, r) : null
+  ), [k, T] = D.useState(!1), [E, L] = D.useState(!1), [M, V] = D.useState(!1), [B, j] = D.useState(0), [N, A] = D.useState("disconnected"), H = D.useRef({
+    onCallStart: f,
+    onCallEnd: p,
+    onMessage: m,
+    onError: y,
+    onTranscript: v
+  });
+  D.useEffect(() => {
+    H.current = {
+      onCallStart: f,
+      onCallEnd: p,
+      onMessage: m,
+      onError: y,
+      onTranscript: v
+    };
+  }), D.useEffect(() => {
+    if (!_)
+      return;
+    const q = () => {
+      T(!0), A("connected"), H.current.onCallStart?.();
+    }, ue = () => {
+      T(!1), A("disconnected"), j(0), L(!1), V(!1), Ks(
+        u,
+        s
+      ), H.current.onCallEnd?.();
+    }, be = () => {
+      L(!0);
+    }, ve = () => {
+      L(!1);
+    }, Y = (I) => {
+      j(I);
+    }, re = (I) => {
+      I.type === "transcript" && I.transcriptType === "final" && (I.role === "user" || I.role === "assistant") && H.current.onTranscript?.({
+        role: I.role,
+        text: I.transcript,
+        timestamp: /* @__PURE__ */ new Date()
+      }), H.current.onMessage?.(I);
+    }, C = (I) => {
+      console.error("Vapi error:", I), A("disconnected"), T(!1), L(!1), H.current.onError?.(I);
+    };
+    return _.on("call-start", q), _.on("call-end", ue), _.on("speech-start", be), _.on("speech-end", ve), _.on("volume-level", Y), _.on("message", re), _.on("error", C), () => {
+      _.removeListener("call-start", q), _.removeListener("call-end", ue), _.removeListener("speech-start", be), _.removeListener("speech-end", ve), _.removeListener("volume-level", Y), _.removeListener("message", re), _.removeListener("error", C);
+    };
+  }, [_, u, s]), D.useEffect(() => () => {
+    _ && _.stop();
+  }, [_]);
+  const z = D.useCallback(async () => {
+    if (!_ || !o) {
+      console.error("Cannot start call: no vapi instance or not enabled");
+      return;
+    }
+    if (!t) {
+      console.error("Cannot start call: no callOptions provided");
+      return;
+    }
+    const q = !!(t.squad || t.squadId), ue = !!(t.assistant || t.assistantId);
+    if (q && ue) {
+      console.error(
+        "Cannot start call: exactly one of assistant or squad must be provided in callOptions"
+      );
+      return;
+    }
+    if (!q && !ue) {
+      console.error("Cannot start call: no assistant or squad provided");
+      return;
+    }
+    const be = q, ve = ue && !be ? t.assistant ?? t.assistantId : void 0, Y = ve && !t.assistant ? t.assistantOverrides : void 0, re = be ? t.squad ?? t.squadId : void 0;
+    try {
+      console.log("Starting call with configuration:", t), console.log("Starting call with options:", {
+        voiceAutoReconnect: a
+      }), A("connecting");
+      const C = await _.start(
+        // assistant
+        ve,
+        // assistant overrides,
+        Y,
+        // squad
+        re,
+        // workflow
+        void 0,
+        // workflow overrides
+        void 0,
+        // options
+        {
+          roomDeleteOnUserLeaveEnabled: !a
+        }
+      );
+      C && a && J_(
+        u,
+        C,
+        t,
+        s
+      );
+    } catch (C) {
+      console.error("Error starting call:", C), A("disconnected"), H.current.onError?.(C);
+    }
+  }, [
+    _,
+    t,
+    o,
+    a,
+    s,
+    u
+  ]), ae = D.useCallback(
+    async ({ force: q = !1 } = {}) => {
+      if (!_) {
+        console.log("Cannot end call: no vapi instance");
+        return;
+      }
+      console.log("Ending call with force:", q), q ? _.end() : _.stop();
+    },
+    [_]
+  ), X = D.useCallback(
+    async ({ force: q = !1 } = {}) => {
+      k ? await ae({ force: q }) : await z();
+    },
+    [k, z, ae]
+  ), ne = D.useCallback(() => {
+    if (!_ || !k) {
+      console.log("Cannot toggle mute: no vapi instance or call not active");
+      return;
+    }
+    const q = !M;
+    _.setMuted(q), V(q);
+  }, [_, k, M]), le = D.useCallback(async () => {
+    if (!_ || !o) {
+      console.error("Cannot reconnect: no vapi instance or not enabled");
+      return;
+    }
+    const q = W_(
+      u,
+      s
+    );
+    if (!q) {
+      console.warn("No stored call data found for reconnection");
+      return;
+    }
+    if (!G_(q.callOptions, t)) {
+      console.warn(
+        "CallOptions have changed since last call, clearing stored data and skipping reconnection"
+      ), Ks(
+        u,
+        s
+      );
+      return;
+    }
+    A("connecting");
+    try {
+      await _.reconnect({
+        webCallUrl: q.webCallUrl,
+        id: q.id,
+        artifactPlan: q.artifactPlan,
+        assistant: q.assistant
+        // squad is not part of the typed reconnect options; server
+        // already knows which squad/assistant this call belongs to.
+      }), console.log("Successfully reconnected to call");
+    } catch (ue) {
+      A("disconnected"), console.error("Reconnection failed:", ue), Ks(
+        u,
+        s
+      ), H.current.onError?.(ue);
+    }
+  }, [_, o, u, s, t]), pe = D.useCallback(() => {
+    Ks(u, s);
+  }, [u, s]);
+  return D.useEffect(() => {
+    !_ || !o || !a || le();
+  }, [_, o, a, le, u]), {
+    // State
+    isCallActive: k,
+    isSpeaking: E,
+    volumeLevel: B,
+    connectionStatus: N,
+    isMuted: M,
+    // Handlers
+    startCall: z,
+    endCall: ae,
+    toggleCall: X,
+    toggleMute: ne,
+    reconnect: le,
+    clearStoredCall: pe
+  };
+};
+async function Q_(e, t) {
+  const r = e.getReader();
+  let o;
+  for (; !(o = await r.read()).done; )
+    t(o.value);
+}
+function Z_(e) {
+  let t, r, o, a = !1;
+  return function(u) {
+    t === void 0 ? (t = u, r = 0, o = -1) : t = X_(t, u);
+    const f = t.length;
+    let p = 0;
+    for (; r < f; ) {
+      a && (t[r] === 10 && (p = ++r), a = !1);
+      let m = -1;
+      for (; r < f && m === -1; ++r)
+        switch (t[r]) {
+          case 58:
+            o === -1 && (o = r - p);
+            break;
+          case 13:
+            a = !0;
+          case 10:
+            m = r;
+            break;
+        }
+      if (m === -1)
+        break;
+      e(t.subarray(p, m), o), p = r, o = -1;
+    }
+    p === f ? t = void 0 : p !== 0 && (t = t.subarray(p), r -= p);
+  };
+}
+function K_(e, t, r) {
+  let o = Kg();
+  const a = new TextDecoder();
+  return function(u, f) {
+    if (u.length === 0)
+      r?.(o), o = Kg();
+    else if (f > 0) {
+      const p = a.decode(u.subarray(0, f)), m = f + (u[f + 1] === 32 ? 2 : 1), y = a.decode(u.subarray(m));
+      switch (p) {
+        case "data":
+          o.data = o.data ? o.data + `
+` + y : y;
+          break;
+        case "event":
+          o.event = y;
+          break;
+        case "id":
+          e(o.id = y);
+          break;
+        case "retry":
+          const v = parseInt(y, 10);
+          isNaN(v) || t(o.retry = v);
+          break;
+      }
+    }
+  };
+}
+function X_(e, t) {
+  const r = new Uint8Array(e.length + t.length);
+  return r.set(e), r.set(t, e.length), r;
+}
+function Kg() {
+  return {
+    data: "",
+    event: "",
+    id: "",
+    retry: void 0
+  };
+}
+var eb = function(e, t) {
+  var r = {};
+  for (var o in e) Object.prototype.hasOwnProperty.call(e, o) && t.indexOf(o) < 0 && (r[o] = e[o]);
+  if (e != null && typeof Object.getOwnPropertySymbols == "function")
+    for (var a = 0, o = Object.getOwnPropertySymbols(e); a < o.length; a++)
+      t.indexOf(o[a]) < 0 && Object.prototype.propertyIsEnumerable.call(e, o[a]) && (r[o[a]] = e[o[a]]);
+  return r;
+};
+const Nd = "text/event-stream", tb = 1e3, Xg = "last-event-id";
+function nb(e, t) {
+  var { signal: r, headers: o, onopen: a, onmessage: s, onclose: u, onerror: f, openWhenHidden: p, fetch: m } = t, y = eb(t, ["signal", "headers", "onopen", "onmessage", "onclose", "onerror", "openWhenHidden", "fetch"]);
+  return new Promise((v, _) => {
+    const k = Object.assign({}, o);
+    k.accept || (k.accept = Nd);
+    let T;
+    function E() {
+      T.abort(), document.hidden || N();
+    }
+    p || document.addEventListener("visibilitychange", E);
+    let L = tb, M = 0;
+    function V() {
+      document.removeEventListener("visibilitychange", E), window.clearTimeout(M), T.abort();
+    }
+    r?.addEventListener("abort", () => {
+      V(), v();
+    });
+    const B = m ?? window.fetch, j = a ?? rb;
+    async function N() {
+      var A;
+      T = new AbortController();
+      try {
+        const H = await B(e, Object.assign(Object.assign({}, y), { headers: k, signal: T.signal }));
+        await j(H), await Q_(H.body, Z_(K_((z) => {
+          z ? k[Xg] = z : delete k[Xg];
+        }, (z) => {
+          L = z;
+        }, s))), u?.(), V(), v();
+      } catch (H) {
+        if (!T.signal.aborted)
+          try {
+            const z = (A = f?.(H)) !== null && A !== void 0 ? A : L;
+            window.clearTimeout(M), M = window.setTimeout(N, z);
+          } catch (z) {
+            V(), _(z);
+          }
+      }
+    }
+    N();
+  });
+}
+function rb(e) {
+  const t = e.headers.get("content-type");
+  if (!t?.startsWith(Nd))
+    throw new Error(`Expected content-type to be ${Nd}, Actual: ${t}`);
+}
+class ib extends Error {
+}
+class ey extends Error {
+}
+class ob {
+  apiUrl;
+  publicKey;
+  abortController = null;
+  constructor(t) {
+    this.publicKey = t.publicKey, this.apiUrl = t.apiUrl || "https://api.vapi.ai";
+  }
+  async streamChat(t, r, o, a) {
+    this.abort(), this.abortController = new AbortController();
+    try {
+      await nb(`${this.apiUrl}/chat/web`, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${this.publicKey}`,
+          "Content-Type": "application/json",
+          "X-Client-ID": "vapi-widget"
+        },
+        body: JSON.stringify({
+          ...t,
+          stream: !0
+        }),
+        signal: this.abortController.signal,
+        // Event handlers
+        async onopen(s) {
+          if (!(s.ok && s.headers.get("content-type")?.includes("text/event-stream")))
+            throw s.status >= 400 && s.status < 500 && s.status !== 429 ? new ey(`HTTP error! status: ${s.status}`) : new ib(`HTTP error! status: ${s.status}`);
+        },
+        onmessage(s) {
+          if (s.data !== "[DONE]")
+            try {
+              const u = JSON.parse(s.data);
+              (u.delta !== void 0 || u.output !== void 0 || u.path !== void 0) && r(u);
+            } catch {
+              console.warn(`Failed to parse SSE data: ${s.data}`);
+            }
+        },
+        onclose() {
+          a?.();
+        },
+        onerror(s) {
+          if (s instanceof ey)
+            throw o?.(s), s;
+          if (s instanceof Error && s.name === "AbortError")
+            throw a?.(), s;
+          console.warn("Retriable error occurred, retrying...", s);
+        }
+      });
+    } catch (s) {
+      s instanceof Error && s.name !== "AbortError" && o?.(s);
+    }
+    return () => this.abort();
+  }
+  abort() {
+    this.abortController && (this.abortController.abort(), this.abortController = null);
+  }
+}
+function ab(e) {
+  return e.delta && e.path === "chat.output[0].content" ? e.delta : e.output !== void 0 ? e.output : null;
+}
+const sb = (e, t, r, o, a, s) => {
+  if (!t || !e.trim())
+    throw new Error("Chat is disabled or message is empty");
+  const u = !!o, f = !!a;
+  if (!r || !u && !f)
+    throw new Error(
+      "Missing required configuration: publicKey and either assistantId or squadId"
+    );
+  if (u && f)
+    throw new Error(
+      "Invalid configuration: exactly one of assistantId or squadId must be provided"
+    );
+  if (!s)
+    throw new Error("Chat client not initialized");
+}, lb = (e) => ({
+  role: "user",
+  content: e.trim(),
+  timestamp: /* @__PURE__ */ new Date()
+}), ub = (e) => ({
+  role: "assistant",
+  content: e,
+  timestamp: /* @__PURE__ */ new Date()
+}), ty = (e, t) => {
+  e.current = "", t.current = null;
+}, cb = (e, t) => {
+  t((r) => {
+    const o = [...r];
+    return e.current = o.length, o.push({
+      role: "assistant",
+      content: "",
+      // Start with empty content
+      timestamp: /* @__PURE__ */ new Date()
+    }), o;
+  });
+}, db = (e, t, r, o) => {
+  console.error("Stream error:", e), t(!1), r.current = null, o?.(e);
+}, fb = (e, t, r, o, a, s) => {
+  e.sessionId && e.sessionId !== t && r(e.sessionId);
+  const u = ab(e);
+  if (u && (o.current += u, a.current !== null)) {
+    const f = a.current;
+    s((p) => {
+      const m = [...p];
+      return f < m.length && (m[f] = {
+        ...m[f],
+        content: o.current
+      }), m;
+    });
+  }
+}, pb = (e, t, r, o) => {
+  if (e(!1), t.current = null, r.current) {
+    const a = ub(
+      r.current
+    );
+    o?.(a);
+  }
+}, hb = ({
+  enabled: e = !0,
+  publicKey: t,
+  assistantId: r,
+  squadId: o,
+  assistantOverrides: a,
+  apiUrl: s,
+  sessionId: u,
+  firstChatMessage: f,
+  onMessage: p,
+  onError: m
+}) => {
+  const [y, v] = D.useState(() => e && f ? [
+    {
+      role: "assistant",
+      content: f,
+      timestamp: /* @__PURE__ */ new Date()
+    }
+  ] : []), [_, k] = D.useState(!1), [T, E] = D.useState(!1), [L, M] = D.useState(
+    u
+  ), V = D.useRef(null), B = D.useRef(null), j = D.useRef(""), N = D.useRef(null), A = D.useRef(!1);
+  D.useEffect(() => (t && e && (V.current = new ob({ publicKey: t, apiUrl: s })), () => {
+    B.current?.();
+  }), [t, s, e]), D.useEffect(() => {
+    u && M(u);
+  }, [u]);
+  const H = D.useCallback(
+    (X) => {
+      v((ne) => [...ne, X]), p?.(X);
+    },
+    [p]
+  ), z = D.useCallback(
+    async (X, ne = !1) => {
+      try {
+        if (ne) {
+          if (A.current)
+            return;
+          A.current = !0;
+        }
+        const le = !!o, pe = le ? void 0 : r, q = le ? o : void 0;
+        if (sb(
+          X,
+          e,
+          t,
+          pe,
+          q,
+          V.current
+        ), E(!0), !ne && X.trim()) {
+          const C = lb(X);
+          H(C);
+        }
+        if (!ne)
+          ty(
+            j,
+            N
+          ), cb(N, v), k(!0);
+        else {
+          const C = X.trim() || "Ending chat...";
+          v((I) => [
+            ...I,
+            {
+              role: "assistant",
+              content: C,
+              timestamp: /* @__PURE__ */ new Date()
+            }
+          ]), k(!0);
+        }
+        const ue = (C) => db(
+          C,
+          k,
+          N,
+          m
+        ), be = (C) => fb(
+          C,
+          L,
+          M,
+          j,
+          N,
+          v
+        ), ve = ne ? () => {
+          k(!1), N.current = null;
+        } : () => pb(
+          k,
+          N,
+          j,
+          p
+        );
+        let Y;
+        ne ? Y = X.trim() : f && f.trim() !== "" && y.length === 1 && y[0].role === "assistant" ? Y = [
+          {
+            role: "assistant",
+            content: f
+          },
+          {
+            role: "user",
+            content: X.trim()
+          }
+        ] : Y = X.trim();
+        const re = await V.current.streamChat(
+          {
+            input: Y,
+            assistantId: pe,
+            squadId: q,
+            assistantOverrides: a,
+            sessionId: L,
+            stream: !0,
+            sessionEnd: ne
+          },
+          be,
+          ue,
+          ve
+        );
+        B.current = re;
+      } catch (le) {
+        throw console.error("Error sending message:", le), k(!1), N.current = null, m?.(le), le;
+      } finally {
+        E(!1), ne && (A.current = !1);
+      }
+    },
+    [
+      e,
+      t,
+      r,
+      o,
+      a,
+      L,
+      H,
+      m,
+      p,
+      f,
+      y
+    ]
+  ), ae = D.useCallback(() => {
+    v(e && f ? [
+      {
+        role: "assistant",
+        content: f,
+        timestamp: /* @__PURE__ */ new Date()
+      }
+    ] : []), B.current?.(), k(!1), E(!1), ty(
+      j,
+      N
+    ), M(void 0);
+  }, [e, f]);
+  return {
+    // State
+    messages: y,
+    isTyping: _,
+    isLoading: T,
+    sessionId: L,
+    isEnabled: e,
+    // Handlers
+    sendMessage: z,
+    clearMessages: ae
+  };
+}, mb = ({
+  mode: e,
+  publicKey: t,
+  assistantId: r,
+  assistant: o,
+  assistantOverrides: a,
+  squadId: s,
+  squad: u,
+  apiUrl: f,
+  firstChatMessage: p,
+  voiceAutoReconnect: m = !1,
+  voiceReconnectStorage: y = "session",
+  reconnectStorageKey: v,
+  onCallStart: _,
+  onCallEnd: k,
+  onMessage: T,
+  onError: E
+}) => {
+  const [L, M] = D.useState(null), [V, B] = D.useState(!1), [j, N] = D.useState([]), A = () => {
+    const Y = !!o || !!r, re = !!u || !!s;
+    if (Y && re) {
+      console.error(
+        "VapiWidget: exactly one of assistant (assistantId/assistant) or squad (squadId/squad) must be provided."
+      );
+      return;
+    }
+    if (!(!Y && !re))
+      return re ? {
+        squad: u ?? void 0,
+        squadId: u ? void 0 : s
+      } : {
+        assistant: o ?? void 0,
+        assistantId: o ? void 0 : r,
+        assistantOverrides: a
+      };
+  }, H = e === "voice" || e === "hybrid", z = Y_({
+    publicKey: t,
+    callOptions: A(),
+    apiUrl: f,
+    enabled: H,
+    voiceAutoReconnect: m,
+    voiceReconnectStorage: y,
+    reconnectStorageKey: v,
+    onCallStart: () => {
+      e === "hybrid" && (X.clearMessages(), N([])), M("voice"), B(!1), _?.();
+    },
+    onCallEnd: () => {
+      M(null), k?.();
+    },
+    onMessage: T,
+    onError: E,
+    onTranscript: (Y) => {
+      const re = {
+        role: Y.role,
+        content: Y.text,
+        timestamp: Y.timestamp
+      };
+      N((C) => [...C, re]);
+    }
+  }), ae = e === "chat" || e === "hybrid", X = hb({
+    enabled: ae,
+    publicKey: ae ? t : void 0,
+    assistantId: ae ? r : void 0,
+    squadId: ae ? s : void 0,
+    assistantOverrides: ae ? a : void 0,
+    apiUrl: f,
+    onMessage: T,
+    // Keep the callback for external notifications
+    onError: E,
+    firstChatMessage: p
+  }), ne = e === "voice" ? j : e === "chat" ? X.messages : [...j, ...X.messages].sort(
+    (Y, re) => Y.timestamp.getTime() - re.timestamp.getTime()
+  ), le = D.useCallback((Y) => {
+    B(Y.length > 0);
+  }, []), pe = D.useCallback(
+    async (Y, re = !1) => {
+      e === "hybrid" && (z.isCallActive && await z.endCall({ force: !0 }), L !== "chat" && (N([]), X.clearMessages()), M("chat")), await X.sendMessage(Y, re);
+    },
+    [e, X, z, L]
+  ), q = D.useCallback(
+    async ({ force: Y } = {}) => {
+      e === "hybrid" && !z.isCallActive && (X.clearMessages(), N([]), M("voice"), B(!1)), await z.toggleCall({ force: Y });
+    },
+    [e, z, X]
+  ), ue = D.useCallback(() => {
+    N([]), X.clearMessages(), M(null), B(!1);
+  }, [X]), be = H && !z.isCallActive && !X.isLoading, ve = ae && !X.isLoading;
+  return {
+    // Current mode and state
+    mode: e,
+    activeMode: L,
+    conversation: ne,
+    // Voice state and handlers
+    voice: {
+      ...z,
+      isAvailable: be,
+      toggleCall: q
+    },
+    // Chat state and handlers
+    chat: {
+      ...X,
+      isAvailable: ve,
+      sendMessage: pe,
+      handleInput: le
+    },
+    // Combined handlers
+    clearConversation: ue,
+    isUserTyping: V
+  };
+}, L0 = {
+  tiny: {
+    button: { width: "3rem", height: "3rem" },
+    // w-12 h-12
+    expanded: { width: "18rem", height: "20rem" },
+    // w-72 h-80
+    icon: { width: "1.25rem", height: "1.25rem" }
+    // w-5 h-5
+  },
+  compact: {
+    button: {
+      paddingLeft: "1rem",
+      paddingRight: "1rem",
+      paddingTop: "0.75rem",
+      paddingBottom: "0.75rem",
+      height: "3rem"
+    },
+    // px-4 py-3 h-12
+    expanded: { width: "24rem", height: "32rem" },
+    // w-96 h-[32rem]
+    icon: { width: "1.25rem", height: "1.25rem" }
+    // w-5 h-5
+  },
+  full: {
+    button: {
+      paddingLeft: "1.5rem",
+      paddingRight: "1.5rem",
+      paddingTop: "1rem",
+      paddingBottom: "1rem",
+      height: "3.5rem"
+    },
+    // px-6 py-4 h-14
+    expanded: { width: "28rem", height: "40rem" },
+    // w-[28rem] h-[40rem]
+    icon: { width: "1.5rem", height: "1.5rem" }
+    // w-6 h-6
+  }
+}, gb = {
+  none: { borderRadius: "0" },
+  small: { borderRadius: "0.5rem" },
+  // rounded-lg
+  medium: { borderRadius: "1rem" },
+  // rounded-2xl
+  large: { borderRadius: "1.5rem" }
+  // rounded-3xl
+}, yb = {
+  none: { borderRadius: "0" },
+  small: { borderRadius: "0.5rem" },
+  // rounded-lg
+  medium: { borderRadius: "1rem" },
+  // rounded-2xl
+  large: { borderRadius: "1.5rem" }
+  // rounded-3xl
+}, vb = {
+  none: "rounded-none",
+  small: "rounded-md",
+  // 6px - subtle rounding
+  medium: "rounded-lg",
+  // 8px - moderate rounding
+  large: "rounded-xl"
+  // 12px - more rounded but not excessive
+}, wb = {
+  "bottom-right": { bottom: "1.5rem", right: "1.5rem" },
+  "bottom-left": { bottom: "1.5rem", left: "1.5rem" },
+  "top-right": { top: "1.5rem", right: "1.5rem" },
+  "top-left": { top: "1.5rem", left: "1.5rem" },
+  "bottom-center": {
+    bottom: "1.5rem",
+    left: "50%",
+    transform: "translateX(-50%)"
+  }
+}, $c = {
+  none: { borderRadius: "0" },
+  small: { borderRadius: "0.5rem" },
+  medium: { borderRadius: "1rem" },
+  large: { borderRadius: "1.5rem" }
+}, Sb = ({
+  consentTitle: e = "Terms and conditions",
+  consentContent: t,
+  onAccept: r,
+  onCancel: o,
+  colors: a,
+  styles: s,
+  radius: u
+}) => {
+  const f = s.theme === "dark", p = f ? "#1F2937" : "#E5E7EB", m = f ? "#FFFFFF" : "#111827", y = f ? "#D1D5DB" : "#4B5563", v = {
+    ...$c[u],
+    backgroundColor: a.baseColor,
+    // Use configured base color
+    border: `1px solid ${p}`,
+    boxShadow: f ? "0 25px 50px -12px rgba(0, 0, 0, 0.5)" : "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+    padding: "1rem",
+    maxWidth: "360px",
+    minWidth: "300px"
+  }, _ = {
+    color: m,
+    fontSize: "1rem",
+    fontWeight: "600",
+    marginBottom: "0.75rem",
+    margin: "0 0 0.75rem 0"
+  }, k = {
+    color: y,
+    fontSize: "0.75rem",
+    lineHeight: "1.5",
+    marginBottom: "1rem",
+    maxHeight: "120px",
+    overflowY: "auto",
+    // Custom scrollbar styling for dark mode
+    scrollbarWidth: "thin",
+    scrollbarColor: f ? "#4B5563 transparent" : "#CBD5E1 transparent"
+  }, T = {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-end",
+    gap: "0.5rem"
+  }, E = {
+    ...$c[u],
+    backgroundColor: "transparent",
+    border: f ? "none" : "1px solid #D1D5DB",
+    // No border in dark mode
+    color: f ? "#9CA3AF" : "#4B5563",
+    padding: "0.5rem 1rem",
+    fontSize: "0.75rem",
+    fontWeight: "500",
+    cursor: "pointer",
+    transition: "all 0.2s ease-in-out"
+  }, L = {
+    ...$c[u],
+    // Invert colors based on theme - white bg in dark mode, use configured colors in light mode
+    backgroundColor: f ? a.ctaButtonTextColor || "#FFFFFF" : a.ctaButtonColor || "#000000",
+    color: f ? a.ctaButtonColor || "#000000" : a.ctaButtonTextColor || "#FFFFFF",
+    border: "none",
+    padding: "0.5rem 1rem",
+    fontSize: "0.75rem",
+    fontWeight: "500",
+    cursor: "pointer",
+    transition: "all 0.2s ease-in-out"
+  };
+  return /* @__PURE__ */ ee.jsxs("div", { style: v, children: [
+    /* @__PURE__ */ ee.jsx("style", { children: `
+        /* Custom scrollbar styles for webkit browsers */
+        .consent-terms-content::-webkit-scrollbar {
+          width: 6px;
+        }
+        .consent-terms-content::-webkit-scrollbar-track {
+          background: transparent;
+        }
+        .consent-terms-content::-webkit-scrollbar-thumb {
+          background: ${f ? "#4B5563" : "#CBD5E1"};
+          border-radius: 3px;
+        }
+        .consent-terms-content::-webkit-scrollbar-thumb:hover {
+          background: ${f ? "#6B7280" : "#94A3B8"};
+        }
+        .consent-cancel-button:hover {
+          background-color: ${f ? "#1F2937" : "#F9FAFB"} !important;
+          ${f ? "" : "border-color: #9CA3AF !important;"}
+        }
+        .consent-accept-button:hover {
+          opacity: 0.9;
+          box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+      ` }),
+    /* @__PURE__ */ ee.jsx("h3", { style: _, children: e }),
+    /* @__PURE__ */ ee.jsx(
+      "div",
+      {
+        className: "consent-terms-content",
+        style: k,
+        dangerouslySetInnerHTML: { __html: t }
+      }
+    ),
+    /* @__PURE__ */ ee.jsxs("div", { style: T, children: [
+      /* @__PURE__ */ ee.jsx(
+        "button",
+        {
+          className: "consent-cancel-button",
+          onClick: o,
+          style: E,
+          children: "Cancel"
+        }
+      ),
+      /* @__PURE__ */ ee.jsx(
+        "button",
+        {
+          className: "consent-accept-button",
+          onClick: r,
+          style: L,
+          children: "Accept"
+        }
+      )
+    ] })
+  ] });
+}, wl = ({
+  size: e = 40,
+  connectionStatus: t,
+  isCallActive: r,
+  isSpeaking: o,
+  isTyping: a,
+  isError: s,
+  volumeLevel: u = 0,
+  baseColor: f = "#9CA3AF",
+  animationType: p,
+  animationSpeed: m,
+  colors: y,
+  barCount: v = 17,
+  barWidthRatio: _ = 0.08,
+  barHeightRatio: k = 0.19,
+  className: T = ""
+}) => {
+  const [E, L] = D.useState(0), M = r, V = M ? 5 : v, j = s ? {
+    animationType: "pulse",
+    colors: "#EF4444",
+    // Red for errors
+    animationSpeed: 300
+  } : t === "connecting" ? {
+    animationType: "spin",
+    colors: "#FCD34D",
+    // Yellow
+    animationSpeed: 1e3
+  } : r && o ? {
+    animationType: "scale",
+    colors: "#F87171",
+    // Light red
+    animationSpeed: 600
+    // Match the SVG animation duration
+  } : r ? {
+    animationType: "none",
+    colors: "#62F6B5",
+    // Green
+    animationSpeed: 1e3
+  } : a ? {
+    animationType: "sequential",
+    colors: "#60A5FA",
+    // Blue
+    animationSpeed: 1e3
+  } : {
+    animationType: "none",
+    colors: f,
+    animationSpeed: 3e3
+  }, N = p ?? j.animationType, A = m ?? j.animationSpeed, H = y ?? j.colors;
+  D.useEffect(() => {
+    if (N !== "none") {
+      const Y = Date.now();
+      let re;
+      const C = () => {
+        L((Date.now() - Y) / A), re = requestAnimationFrame(C);
+      };
+      return re = requestAnimationFrame(C), () => cancelAnimationFrame(re);
+    }
+  }, [N, A]);
+  const z = M ? 24 : 253, X = (() => {
+    const Y = z / 2, re = z / 2, C = z * 0.38;
+    return Array.from({ length: V }, (I, G) => {
+      const d = G / V * 2 * Math.PI - Math.PI / 2, S = Y + C * Math.cos(d), w = re + C * Math.sin(d), x = d * 180 / Math.PI + 90;
+      return { x: S, y: w, rotate: x };
+    });
+  })(), ne = () => {
+    const re = [0.5, 0.75, 1, 0.75, 0.5];
+    return Array.from({ length: 5 }, (C, I) => {
+      const S = re[I];
+      return {
+        x: 1 + I * 4.8,
+        y: 6,
+        width: 2.8,
+        baseHeight: 16 * S,
+        maxHeight: 22,
+        delay: I === 2 ? 0 : Math.abs(I - 2) * 0.2,
+        // Center bar starts first
+        rotate: 0
+      };
+    });
+  }, le = (Y) => Array.isArray(H) ? H[Y % H.length] : H, pe = (Y, re) => {
+    const C = E % 1;
+    switch (N) {
+      case "rotate-fade": {
+        const I = V, G = C * I % I, S = Math.min(
+          Math.abs(Y - G),
+          Math.abs(Y - G + I),
+          Math.abs(Y - G - I)
+        ) / (I / 2);
+        return { opacity: Math.max(0.14, 1 - S * 0.86), transform: "" };
+      }
+      case "scale": {
+        if (M && "delay" in re) {
+          const I = re, G = Math.max(0, Math.min(1, u)), d = [
+            { sensitivity: 0.8, frequency: 1.2, baseActivity: 0.3 },
+            // Bar 0 - Low freq, less sensitive
+            { sensitivity: 1, frequency: 1.8, baseActivity: 0.4 },
+            // Bar 1 - Mid-low freq
+            { sensitivity: 1.2, frequency: 2.5, baseActivity: 0.5 },
+            // Bar 2 - Center, most responsive
+            { sensitivity: 1, frequency: 2, baseActivity: 0.4 },
+            // Bar 3 - Mid-high freq
+            { sensitivity: 0.9, frequency: 1.5, baseActivity: 0.35 }
+            // Bar 4 - High freq
+          ], S = d[Y] || d[2], x = E % 1 * S.frequency % 1, P = Math.sin(x * 2 * Math.PI) * 0.3 + Math.sin(x * 6 * Math.PI) * 0.2 + Math.sin(x * 12 * Math.PI) * 0.1, U = G * S.sensitivity, Q = Math.max(
+            0,
+            Math.min(
+              1,
+              S.baseActivity + U * 0.6 + P * G * 0.4
+            )
+          ), K = 0.7 + Q * 1.1, he = I.baseHeight * K, Te = 12 - he / 2;
+          return {
+            opacity: 0.4 + Q * 0.6,
+            height: he,
+            y: Te,
+            transform: ""
+          };
+        }
+        if (!M) {
+          const I = Math.max(0, Math.min(1, u)), G = E % 1, d = Y / V * 2 * Math.PI, S = Math.sin(G * 4 * Math.PI + d) * 0.3 + Math.sin(G * 8 * Math.PI + d * 2) * 0.2 + Math.sin(G * 16 * Math.PI + d * 3) * 0.1, w = 0.7 + 0.3 * Math.sin(d + Math.PI / 4), x = Math.max(
+            0,
+            Math.min(
+              1,
+              0.3 + I * w * 0.5 + S * I * 0.2
+            )
+          );
+          return {
+            opacity: 0.4 + x * 0.6,
+            transform: x > 0.5 ? `scale(${1 + (x - 0.5) * 0.4})` : ""
+          };
+        }
+        return { opacity: 1, transform: "" };
+      }
+      case "spin": {
+        const I = C * 2 * Math.PI % (2 * Math.PI), G = Y / V * 2 * Math.PI;
+        return { opacity: 0.3 + 0.7 * (1 - Math.abs(
+          (I - G + Math.PI) % (2 * Math.PI) - Math.PI
+        ) / Math.PI), transform: "" };
+      }
+      case "pulse":
+        return {
+          opacity: 0.5 + 0.5 * Math.sin(C * 2 * Math.PI),
+          transform: ""
+        };
+      case "sequential": {
+        const I = Math.floor(C * V) % V;
+        return {
+          opacity: Y === I || Y === (I + 1) % V ? 1 : 0.3,
+          transform: ""
+        };
+      }
+      case "wave": {
+        const I = C * 2 * Math.PI, G = Y / V * 2 * Math.PI;
+        return {
+          opacity: 0.5 + 0.5 * Math.sin(I + G),
+          transform: ""
+        };
+      }
+      default:
+        return { opacity: 1, transform: "" };
+    }
+  }, q = M ? 2.8 : z * _, ue = M ? 12 : z * k, be = q / 2, ve = M ? ne() : X;
+  return /* @__PURE__ */ ee.jsx(
+    "div",
+    {
+      className: `relative ${T}`,
+      style: { width: e, height: e },
+      children: /* @__PURE__ */ ee.jsxs(
+        "svg",
+        {
+          width: e,
+          height: e,
+          viewBox: `0 0 ${z} ${M ? 24 : z + 1}`,
+          fill: "none",
+          xmlns: "http://www.w3.org/2000/svg",
+          children: [
+            !M && /* @__PURE__ */ ee.jsx(
+              "circle",
+              {
+                cx: z / 2,
+                cy: z / 2,
+                r: z * 0.38,
+                fill: "none",
+                stroke: f,
+                strokeWidth: "1",
+                opacity: "0.05"
+              }
+            ),
+            ve.map((Y, re) => {
+              const C = N !== "none", I = C ? pe(re, Y) : { opacity: 1 }, G = C ? le(re) : H === f ? f : le(re);
+              if (M && "width" in Y) {
+                const d = Y, S = I.y !== void 0 ? I.y : 12 - d.baseHeight / 2;
+                return /* @__PURE__ */ ee.jsx(
+                  "rect",
+                  {
+                    x: d.x,
+                    y: S,
+                    width: d.width,
+                    height: I.height !== void 0 ? I.height : d.baseHeight,
+                    fill: G,
+                    opacity: I.opacity,
+                    rx: d.width / 2
+                  },
+                  re
+                );
+              } else {
+                const d = Y;
+                let S = ue;
+                if (N === "rotate-fade") {
+                  const P = V, U = E % 1 * P, K = Math.min(
+                    Math.abs(re - U),
+                    Math.abs(re - U + P),
+                    Math.abs(re - U - P)
+                  ) / (P / 2), he = 0.4 + 0.6 * (1 - K), Te = Math.sin(K * Math.PI) * 0.2;
+                  S = ue * (he + Te);
+                } else {
+                  const U = 0.7 + 0.3 * (1 - Math.min(re, V - re) / (V / 2));
+                  S = ue * U;
+                }
+                const w = d.x - q / 2, x = d.y - S / 2;
+                return /* @__PURE__ */ ee.jsx(
+                  "rect",
+                  {
+                    x: w,
+                    y: x,
+                    width: q,
+                    height: S,
+                    rx: be,
+                    fill: G,
+                    opacity: I.opacity,
+                    transform: d.rotate !== 0 ? `rotate(${d.rotate} ${d.x} ${d.y})` : void 0,
+                    style: {
+                      transition: N === "sequential" ? "opacity 0.1s ease-in-out" : void 0
+                    }
+                  },
+                  re
+                );
+              }
+            })
+          ]
+        }
+      )
+    }
+  );
+}, kb = ({
+  isCallActive: e,
+  connectionStatus: t,
+  isSpeaking: r,
+  isTyping: o,
+  volumeLevel: a,
+  onClick: s,
+  onToggleCall: u,
+  mainLabel: f,
+  ctaTitle: p,
+  ctaSubtitle: m,
+  colors: y,
+  styles: v,
+  mode: _
+}) => {
+  const k = _ === "voice" && v.size === "tiny", T = () => {
+    k && u ? u() : s();
+  }, E = p || f, L = {
+    ...k && e ? { width: "5rem", height: "5rem" } : L0[v.size].button,
+    ...yb[v.radius],
+    backgroundColor: e && k ? "#ef4444" : y.ctaButtonColor,
+    boxShadow: "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+    // shadow-lg
+    cursor: "pointer",
+    transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+    // transition-all duration-300
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    position: "relative",
+    // Adjust height when subtitle is present
+    ...m && (v.size === "compact" || v.size === "full") && !k ? { height: v.size === "compact" ? "4rem" : "4.5rem" } : {}
+  };
+  return /* @__PURE__ */ ee.jsx(
+    "div",
+    {
+      className: `hover:scale-105 hover:-translate-y-1 hover:shadow-xl ${k && e ? "animate-glow" : ""}`,
+      style: L,
+      onClick: T,
+      children: /* @__PURE__ */ ee.jsxs(
+        "div",
+        {
+          className: "flex items-center space-x-2",
+          style: {
+            display: "flex",
+            alignItems: "center",
+            gap: "0.5rem"
+            // space-x-2
+          },
+          children: [
+            /* @__PURE__ */ ee.jsx(
+              wl,
+              {
+                size: k && e ? 48 : v.size === "tiny" ? 24 : 28,
+                connectionStatus: t,
+                isCallActive: e,
+                isSpeaking: r,
+                isTyping: o,
+                baseColor: y.accentColor,
+                colors: y.accentColor,
+                volumeLevel: a
+              }
+            ),
+            (v.size === "compact" || v.size === "full") && !k && /* @__PURE__ */ ee.jsxs(
+              "div",
+              {
+                style: {
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                  justifyContent: "center"
+                },
+                children: [
+                  /* @__PURE__ */ ee.jsx(
+                    "span",
+                    {
+                      style: {
+                        color: y.ctaButtonTextColor,
+                        fontSize: "0.875rem",
+                        // text-sm
+                        fontWeight: "500",
+                        // font-medium
+                        lineHeight: "1.2"
+                      },
+                      children: E
+                    }
+                  ),
+                  m && /* @__PURE__ */ ee.jsx(
+                    "span",
+                    {
+                      style: {
+                        color: y.ctaButtonTextColor,
+                        fontSize: "0.75rem",
+                        // text-xs
+                        fontWeight: "400",
+                        // font-normal
+                        opacity: 0.8,
+                        lineHeight: "1.2",
+                        marginTop: "0.125rem"
+                      },
+                      children: m
+                    }
+                  )
+                ]
+              }
+            )
+          ]
+        }
+      )
+    }
+  );
+}, _b = /* @__PURE__ */ new Map([
+  [
+    "bold",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M228,48V96a12,12,0,0,1-12,12H168a12,12,0,0,1,0-24h19l-7.8-7.8a75.55,75.55,0,0,0-53.32-22.26h-.43A75.49,75.49,0,0,0,72.39,75.57,12,12,0,1,1,55.61,58.41a99.38,99.38,0,0,1,69.87-28.47H126A99.42,99.42,0,0,1,196.2,59.23L204,67V48a12,12,0,0,1,24,0ZM183.61,180.43a75.49,75.49,0,0,1-53.09,21.63h-.43A75.55,75.55,0,0,1,76.77,179.8L69,172H88a12,12,0,0,0,0-24H40a12,12,0,0,0-12,12v48a12,12,0,0,0,24,0V189l7.8,7.8A99.42,99.42,0,0,0,130,226.06h.56a99.38,99.38,0,0,0,69.87-28.47,12,12,0,0,0-16.78-17.16Z" }))
+  ],
+  [
+    "duotone",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M216,128a88,88,0,1,1-88-88A88,88,0,0,1,216,128Z", opacity: "0.2" }), /* @__PURE__ */ D.createElement("path", { d: "M224,48V96a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h28.69L182.06,73.37a79.56,79.56,0,0,0-56.13-23.43h-.45A79.52,79.52,0,0,0,69.59,72.71,8,8,0,0,1,58.41,61.27a96,96,0,0,1,135,.79L208,76.69V48a8,8,0,0,1,16,0ZM186.41,183.29a80,80,0,0,1-112.47-.66L59.31,168H88a8,8,0,0,0,0-16H40a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V179.31l14.63,14.63A95.43,95.43,0,0,0,130,222.06h.53a95.36,95.36,0,0,0,67.07-27.33,8,8,0,0,0-11.18-11.44Z" }))
+  ],
+  [
+    "fill",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M224,48V96a8,8,0,0,1-8,8H168a8,8,0,0,1-5.66-13.66L180.65,72a79.48,79.48,0,0,0-54.72-22.09h-.45A79.52,79.52,0,0,0,69.59,72.71,8,8,0,0,1,58.41,61.27,96,96,0,0,1,192,60.7l18.36-18.36A8,8,0,0,1,224,48ZM186.41,183.29A80,80,0,0,1,75.35,184l18.31-18.31A8,8,0,0,0,88,152H40a8,8,0,0,0-8,8v48a8,8,0,0,0,13.66,5.66L64,195.3a95.42,95.42,0,0,0,66,26.76h.53a95.36,95.36,0,0,0,67.07-27.33,8,8,0,0,0-11.18-11.44Z" }))
+  ],
+  [
+    "light",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M222,48V96a6,6,0,0,1-6,6H168a6,6,0,0,1,0-12h33.52L183.47,72a81.51,81.51,0,0,0-57.53-24h-.46A81.5,81.5,0,0,0,68.19,71.28a6,6,0,1,1-8.38-8.58,93.38,93.38,0,0,1,65.67-26.76H126a93.45,93.45,0,0,1,66,27.53l18,18V48a6,6,0,0,1,12,0ZM187.81,184.72a81.5,81.5,0,0,1-57.29,23.34h-.46a81.51,81.51,0,0,1-57.53-24L54.48,166H88a6,6,0,0,0,0-12H40a6,6,0,0,0-6,6v48a6,6,0,0,0,12,0V174.48l18,18.05a93.45,93.45,0,0,0,66,27.53h.52a93.38,93.38,0,0,0,65.67-26.76,6,6,0,1,0-8.38-8.58Z" }))
+  ],
+  [
+    "regular",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M224,48V96a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h28.69L182.06,73.37a79.56,79.56,0,0,0-56.13-23.43h-.45A79.52,79.52,0,0,0,69.59,72.71,8,8,0,0,1,58.41,61.27a96,96,0,0,1,135,.79L208,76.69V48a8,8,0,0,1,16,0ZM186.41,183.29a80,80,0,0,1-112.47-.66L59.31,168H88a8,8,0,0,0,0-16H40a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V179.31l14.63,14.63A95.43,95.43,0,0,0,130,222.06h.53a95.36,95.36,0,0,0,67.07-27.33,8,8,0,0,0-11.18-11.44Z" }))
+  ],
+  [
+    "thin",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M220,48V96a4,4,0,0,1-4,4H168a4,4,0,0,1,0-8h38.34L184.89,70.54A84,84,0,0,0,66.8,69.85a4,4,0,1,1-5.6-5.72,92,92,0,0,1,129.34.76L212,86.34V48a4,4,0,0,1,8,0ZM189.2,186.15a83.44,83.44,0,0,1-58.68,23.91h-.47a83.52,83.52,0,0,1-58.94-24.6L49.66,164H88a4,4,0,0,0,0-8H40a4,4,0,0,0-4,4v48a4,4,0,0,0,8,0V169.66l21.46,21.45A91.43,91.43,0,0,0,130,218.06h.51a91.45,91.45,0,0,0,64.28-26.19,4,4,0,1,0-5.6-5.72Z" }))
+  ]
+]), bb = /* @__PURE__ */ new Map([
+  [
+    "bold",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M128,20A108,108,0,0,0,31.85,177.23L21,209.66A20,20,0,0,0,46.34,235l32.43-10.81A108,108,0,1,0,128,20Zm0,192a84,84,0,0,1-42.06-11.27,12,12,0,0,0-6-1.62,12.1,12.1,0,0,0-3.8.62l-29.79,9.93,9.93-29.79a12,12,0,0,0-1-9.81A84,84,0,1,1,128,212Z" }))
+  ],
+  [
+    "duotone",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement(
+      "path",
+      {
+        d: "M224,128A96,96,0,0,1,79.93,211.11h0L42.54,223.58a8,8,0,0,1-10.12-10.12l12.47-37.39h0A96,96,0,1,1,224,128Z",
+        opacity: "0.2"
+      }
+    ), /* @__PURE__ */ D.createElement("path", { d: "M128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z" }))
+  ],
+  [
+    "fill",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M232,128A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Z" }))
+  ],
+  [
+    "light",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M128,26A102,102,0,0,0,38.35,176.69L26.73,211.56a14,14,0,0,0,17.71,17.71l34.87-11.62A102,102,0,1,0,128,26Zm0,192a90,90,0,0,1-45.06-12.08,6.09,6.09,0,0,0-3-.81,6.2,6.2,0,0,0-1.9.31L40.65,217.88a2,2,0,0,1-2.53-2.53L50.58,178a6,6,0,0,0-.5-4.91A90,90,0,1,1,128,218Z" }))
+  ],
+  [
+    "regular",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z" }))
+  ],
+  [
+    "thin",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M128,28A100,100,0,0,0,40.53,176.5l-11.9,35.69a12,12,0,0,0,15.18,15.18l35.69-11.9A100,100,0,1,0,128,28Zm0,192a92,92,0,0,1-46.07-12.35,4.05,4.05,0,0,0-2-.54,3.93,3.93,0,0,0-1.27.21L41.28,219.78a4,4,0,0,1-5.06-5.06l12.46-37.38a4,4,0,0,0-.33-3.27A92,92,0,1,1,128,220Z" }))
+  ]
+]), Eb = /* @__PURE__ */ new Map([
+  [
+    "bold",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M128,180a52.06,52.06,0,0,0,52-52V64A52,52,0,0,0,76,64v64A52.06,52.06,0,0,0,128,180ZM100,64a28,28,0,0,1,56,0v64a28,28,0,0,1-56,0Zm40,155.22V240a12,12,0,0,1-24,0V219.22A92.14,92.14,0,0,1,36,128a12,12,0,0,1,24,0,68,68,0,0,0,136,0,12,12,0,0,1,24,0A92.14,92.14,0,0,1,140,219.22Z" }))
+  ],
+  [
+    "duotone",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement(
+      "path",
+      {
+        d: "M168,64v64a40,40,0,0,1-40,40h0a40,40,0,0,1-40-40V64a40,40,0,0,1,40-40h0A40,40,0,0,1,168,64Z",
+        opacity: "0.2"
+      }
+    ), /* @__PURE__ */ D.createElement("path", { d: "M128,176a48.05,48.05,0,0,0,48-48V64a48,48,0,0,0-96,0v64A48.05,48.05,0,0,0,128,176ZM96,64a32,32,0,0,1,64,0v64a32,32,0,0,1-64,0Zm40,143.6V240a8,8,0,0,1-16,0V207.6A80.11,80.11,0,0,1,48,128a8,8,0,0,1,16,0,64,64,0,0,0,128,0,8,8,0,0,1,16,0A80.11,80.11,0,0,1,136,207.6Z" }))
+  ],
+  [
+    "fill",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M80,128V64a48,48,0,0,1,96,0v64a48,48,0,0,1-96,0Zm128,0a8,8,0,0,0-16,0,64,64,0,0,1-128,0,8,8,0,0,0-16,0,80.11,80.11,0,0,0,72,79.6V240a8,8,0,0,0,16,0V207.6A80.11,80.11,0,0,0,208,128Z" }))
+  ],
+  [
+    "light",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M128,174a46.06,46.06,0,0,0,46-46V64a46,46,0,0,0-92,0v64A46.06,46.06,0,0,0,128,174ZM94,64a34,34,0,0,1,68,0v64a34,34,0,0,1-68,0Zm40,141.75V240a6,6,0,0,1-12,0V205.75A78.09,78.09,0,0,1,50,128a6,6,0,0,1,12,0,66,66,0,0,0,132,0,6,6,0,0,1,12,0A78.09,78.09,0,0,1,134,205.75Z" }))
+  ],
+  [
+    "regular",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M128,176a48.05,48.05,0,0,0,48-48V64a48,48,0,0,0-96,0v64A48.05,48.05,0,0,0,128,176ZM96,64a32,32,0,0,1,64,0v64a32,32,0,0,1-64,0Zm40,143.6V240a8,8,0,0,1-16,0V207.6A80.11,80.11,0,0,1,48,128a8,8,0,0,1,16,0,64,64,0,0,0,128,0,8,8,0,0,1,16,0A80.11,80.11,0,0,1,136,207.6Z" }))
+  ],
+  [
+    "thin",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M128,172a44.05,44.05,0,0,0,44-44V64a44,44,0,0,0-88,0v64A44.05,44.05,0,0,0,128,172ZM92,64a36,36,0,0,1,72,0v64a36,36,0,0,1-72,0Zm40,139.89V240a4,4,0,0,1-8,0V203.89A76.09,76.09,0,0,1,52,128a4,4,0,0,1,8,0,68,68,0,0,0,136,0,4,4,0,0,1,8,0A76.09,76.09,0,0,1,132,203.89Z" }))
+  ]
+]), Cb = /* @__PURE__ */ new Map([
+  [
+    "bold",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M56.88,39.93A12,12,0,1,0,39.12,56.07L76,96.64V128a52,52,0,0,0,72.11,48l11.26,12.39A67.34,67.34,0,0,1,128,196a68.07,68.07,0,0,1-68-68,12,12,0,0,0-24,0,92.14,92.14,0,0,0,80,91.22V240a12,12,0,0,0,24,0V219.23a90.39,90.39,0,0,0,35.92-12.68l23.2,25.52a12,12,0,0,0,17.76-16.14ZM128,156a28,28,0,0,1-28-28v-5l29.9,32.89C129.27,156,128.64,156,128,156Zm63-2.42A67.63,67.63,0,0,0,196,128a12,12,0,0,1,24,0,91.48,91.48,0,0,1-6.74,34.61,12,12,0,0,1-22.23-9ZM85.7,33.75A52,52,0,0,1,180,64v56.54a12,12,0,0,1-24,0V64a28,28,0,0,0-50.79-16.28,12,12,0,0,1-19.51-14Z" }))
+  ],
+  [
+    "duotone",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement(
+      "path",
+      {
+        d: "M168,64v64a40,40,0,0,1-40,40h0a40,40,0,0,1-40-40V64a40,40,0,0,1,40-40h0A40,40,0,0,1,168,64Z",
+        opacity: "0.2"
+      }
+    ), /* @__PURE__ */ D.createElement("path", { d: "M213.92,218.62l-160-176A8,8,0,0,0,42.08,53.38L80,95.09V128a48,48,0,0,0,69.11,43.12l11.1,12.2A63.41,63.41,0,0,1,128,192a64.07,64.07,0,0,1-64-64,8,8,0,0,0-16,0,80.11,80.11,0,0,0,72,79.6V240a8,8,0,0,0,16,0V207.59a78.83,78.83,0,0,0,35.16-12.22l30.92,34a8,8,0,1,0,11.84-10.76ZM128,160a32,32,0,0,1-32-32V112.69l41.66,45.82A32,32,0,0,1,128,160Zm57.52-3.91A63.32,63.32,0,0,0,192,128a8,8,0,0,1,16,0,79.16,79.16,0,0,1-8.11,35.12,8,8,0,0,1-7.19,4.49,7.88,7.88,0,0,1-3.51-.82A8,8,0,0,1,185.52,156.09ZM84,44.87A48,48,0,0,1,176,64v64a49.19,49.19,0,0,1-.26,5,8,8,0,0,1-8,7.17,8.13,8.13,0,0,1-.84,0,8,8,0,0,1-7.12-8.79c.11-1.1.17-2.24.17-3.36V64A32,32,0,0,0,98.64,51.25,8,8,0,1,1,84,44.87Z" }))
+  ],
+  [
+    "fill",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M213.38,229.92a8,8,0,0,1-11.3-.54l-30.92-34A78.83,78.83,0,0,1,136,207.59V240a8,8,0,0,1-16,0V207.6A80.11,80.11,0,0,1,48,128a8,8,0,0,1,16,0,64.07,64.07,0,0,0,64,64,63.41,63.41,0,0,0,32.21-8.68l-11.1-12.2A48,48,0,0,1,80,128V95.09L42.08,53.38A8,8,0,0,1,53.92,42.62l160,176A8,8,0,0,1,213.38,229.92Zm-24.19-63.13a7.88,7.88,0,0,0,3.51.82,8,8,0,0,0,7.19-4.49A79.16,79.16,0,0,0,208,128a8,8,0,0,0-16,0,63.32,63.32,0,0,1-6.48,28.09A8,8,0,0,0,189.19,166.79Zm-27.33-29.22A8,8,0,0,0,175.74,133a49.49,49.49,0,0,0,.26-5V64A48,48,0,0,0,84,44.87a8,8,0,0,0,1.41,8.57Z" }))
+  ],
+  [
+    "light",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M212.44,220,52.44,44A6,6,0,0,0,43.56,52L82,94.32V128a46,46,0,0,0,67.56,40.64l13.75,15.12A65.26,65.26,0,0,1,128,194a66.08,66.08,0,0,1-66-66,6,6,0,0,0-12,0,78.09,78.09,0,0,0,72,77.75V240a6,6,0,0,0,12,0V205.77a76.93,76.93,0,0,0,37.48-13L203.56,228a6,6,0,0,0,8.88-8.08ZM128,162a34,34,0,0,1-34-34V107.52l47.12,51.84A33.82,33.82,0,0,1,128,162Zm59.32-5A65.38,65.38,0,0,0,194,128a6,6,0,0,1,12,0,77.33,77.33,0,0,1-7.9,34.25A6,6,0,1,1,187.32,157ZM85.8,45.67A46,46,0,0,1,174,64v64a45.17,45.17,0,0,1-.25,4.81,6,6,0,0,1-6,5.38q-.31,0-.63,0a6,6,0,0,1-5.34-6.59A35.41,35.41,0,0,0,162,128V64A34,34,0,0,0,96.8,50.45a6,6,0,0,1-11-4.78Z" }))
+  ],
+  [
+    "regular",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M213.92,218.62l-160-176A8,8,0,0,0,42.08,53.38L80,95.09V128a48,48,0,0,0,69.11,43.12l11.1,12.2A63.41,63.41,0,0,1,128,192a64.07,64.07,0,0,1-64-64,8,8,0,0,0-16,0,80.11,80.11,0,0,0,72,79.6V240a8,8,0,0,0,16,0V207.59a78.83,78.83,0,0,0,35.16-12.22l30.92,34a8,8,0,1,0,11.84-10.76ZM128,160a32,32,0,0,1-32-32V112.69l41.66,45.82A32,32,0,0,1,128,160Zm57.52-3.91A63.32,63.32,0,0,0,192,128a8,8,0,0,1,16,0,79.16,79.16,0,0,1-8.11,35.12,8,8,0,0,1-7.19,4.49,7.88,7.88,0,0,1-3.51-.82A8,8,0,0,1,185.52,156.09ZM84,44.87A48,48,0,0,1,176,64v64a49.19,49.19,0,0,1-.26,5,8,8,0,0,1-8,7.17,8.13,8.13,0,0,1-.84,0,8,8,0,0,1-7.12-8.79c.11-1.1.17-2.24.17-3.36V64A32,32,0,0,0,98.64,51.25,8,8,0,1,1,84,44.87Z" }))
+  ],
+  [
+    "thin",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M211,221.31,51,45.31A4,4,0,0,0,45,50.69L84,93.55V128a44,44,0,0,0,66,38.12l16.38,18A67.21,67.21,0,0,1,128,196a68.07,68.07,0,0,1-68-68,4,4,0,0,0-8,0,76.09,76.09,0,0,0,72,75.89V240a4,4,0,0,0,8,0V203.89a75.1,75.1,0,0,0,39.79-13.77L205,226.69a4,4,0,1,0,5.92-5.38ZM128,164a36,36,0,0,1-36-36V102.35L144.43,160A35.83,35.83,0,0,1,128,164Zm61.12-6.15A67.44,67.44,0,0,0,196,128a4,4,0,0,1,8,0,75.28,75.28,0,0,1-7.7,33.37,4,4,0,0,1-7.18-3.52ZM87.63,46.46A44,44,0,0,1,172,64v64a44.2,44.2,0,0,1-.24,4.61,4,4,0,0,1-4,3.58l-.42,0a4,4,0,0,1-3.57-4.39A36.67,36.67,0,0,0,164,128V64A36,36,0,0,0,95,49.66a4,4,0,0,1-7.34-3.2Z" }))
+  ]
+]), xb = /* @__PURE__ */ new Map([
+  [
+    "bold",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M230.14,25.86a20,20,0,0,0-19.57-5.11l-.22.07L18.44,79a20,20,0,0,0-3.06,37.25L99,157l40.71,83.65a19.81,19.81,0,0,0,18,11.38c.57,0,1.15,0,1.73-.07A19.82,19.82,0,0,0,177,237.56L235.18,45.65a1.42,1.42,0,0,0,.07-.22A20,20,0,0,0,230.14,25.86ZM156.91,221.07l-34.37-70.64,46-45.95a12,12,0,0,0-17-17l-46,46L34.93,99.09,210,46Z" }))
+  ],
+  [
+    "duotone",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement(
+      "path",
+      {
+        d: "M223.69,42.18l-58.22,192a8,8,0,0,1-14.92,1.25L108,148,20.58,105.45a8,8,0,0,1,1.25-14.92l192-58.22A8,8,0,0,1,223.69,42.18Z",
+        opacity: "0.2"
+      }
+    ), /* @__PURE__ */ D.createElement("path", { d: "M227.32,28.68a16,16,0,0,0-15.66-4.08l-.15,0L19.57,82.84a16,16,0,0,0-2.49,29.8L102,154l41.3,84.87A15.86,15.86,0,0,0,157.74,248q.69,0,1.38-.06a15.88,15.88,0,0,0,14-11.51l58.2-191.94c0-.05,0-.1,0-.15A16,16,0,0,0,227.32,28.68ZM157.83,231.85l-.05.14,0-.07-40.06-82.3,48-48a8,8,0,0,0-11.31-11.31l-48,48L24.08,98.25l-.07,0,.14,0L216,40Z" }))
+  ],
+  [
+    "fill",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M231.4,44.34s0,.1,0,.15l-58.2,191.94a15.88,15.88,0,0,1-14,11.51q-.69.06-1.38.06a15.86,15.86,0,0,1-14.42-9.15L107,164.15a4,4,0,0,1,.77-4.58l57.92-57.92a8,8,0,0,0-11.31-11.31L96.43,148.26a4,4,0,0,1-4.58.77L17.08,112.64a16,16,0,0,1,2.49-29.8l191.94-58.2.15,0A16,16,0,0,1,231.4,44.34Z" }))
+  ],
+  [
+    "light",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M225.88,30.12a13.83,13.83,0,0,0-13.7-3.58l-.11,0L20.14,84.77A14,14,0,0,0,18,110.85l85.56,41.64L145.12,238a13.87,13.87,0,0,0,12.61,8c.4,0,.81,0,1.21-.05a13.9,13.9,0,0,0,12.29-10.09l58.2-191.93,0-.11A13.83,13.83,0,0,0,225.88,30.12Zm-8,10.4L159.73,232.43l0,.11a2,2,0,0,1-3.76.26l-40.68-83.58,49-49a6,6,0,1,0-8.49-8.49l-49,49L23.15,100a2,2,0,0,1,.31-3.74l.11,0L215.48,38.08a1.94,1.94,0,0,1,1.92.52A2,2,0,0,1,217.92,40.52Z" }))
+  ],
+  [
+    "regular",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M227.32,28.68a16,16,0,0,0-15.66-4.08l-.15,0L19.57,82.84a16,16,0,0,0-2.49,29.8L102,154l41.3,84.87A15.86,15.86,0,0,0,157.74,248q.69,0,1.38-.06a15.88,15.88,0,0,0,14-11.51l58.2-191.94c0-.05,0-.1,0-.15A16,16,0,0,0,227.32,28.68ZM157.83,231.85l-.05.14,0-.07-40.06-82.3,48-48a8,8,0,0,0-11.31-11.31l-48,48L24.08,98.25l-.07,0,.14,0L216,40Z" }))
+  ],
+  [
+    "thin",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M224.47,31.52a11.87,11.87,0,0,0-11.82-3L20.74,86.67a12,12,0,0,0-1.91,22.38L105,151l41.92,86.15A11.88,11.88,0,0,0,157.74,244c.34,0,.69,0,1,0a11.89,11.89,0,0,0,10.52-8.63l58.21-192,0-.08A11.85,11.85,0,0,0,224.47,31.52Zm-4.62,9.54-58.23,192a4,4,0,0,1-7.48.59l-41.3-84.86,50-50a4,4,0,1,0-5.66-5.66l-50,50-84.9-41.31a3.88,3.88,0,0,1-2.27-4,3.93,3.93,0,0,1,3-3.54L214.9,36.16A3.93,3.93,0,0,1,216,36a4,4,0,0,1,2.79,1.19A3.93,3.93,0,0,1,219.85,41.06Z" }))
+  ]
+]), Tb = /* @__PURE__ */ new Map([
+  [
+    "bold",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M200,36H56A20,20,0,0,0,36,56V200a20,20,0,0,0,20,20H200a20,20,0,0,0,20-20V56A20,20,0,0,0,200,36Zm-4,160H60V60H196Z" }))
+  ],
+  [
+    "duotone",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement(
+      "path",
+      {
+        d: "M208,56V200a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H200A8,8,0,0,1,208,56Z",
+        opacity: "0.2"
+      }
+    ), /* @__PURE__ */ D.createElement("path", { d: "M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,160H56V56H200V200Z" }))
+  ],
+  [
+    "fill",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M216,56V200a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V56A16,16,0,0,1,56,40H200A16,16,0,0,1,216,56Z" }))
+  ],
+  [
+    "light",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M200,42H56A14,14,0,0,0,42,56V200a14,14,0,0,0,14,14H200a14,14,0,0,0,14-14V56A14,14,0,0,0,200,42Zm2,158a2,2,0,0,1-2,2H56a2,2,0,0,1-2-2V56a2,2,0,0,1,2-2H200a2,2,0,0,1,2,2Z" }))
+  ],
+  [
+    "regular",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,160H56V56H200V200Z" }))
+  ],
+  [
+    "thin",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M200,44H56A12,12,0,0,0,44,56V200a12,12,0,0,0,12,12H200a12,12,0,0,0,12-12V56A12,12,0,0,0,200,44Zm4,156a4,4,0,0,1-4,4H56a4,4,0,0,1-4-4V56a4,4,0,0,1,4-4H200a4,4,0,0,1,4,4Z" }))
+  ]
+]), Ab = /* @__PURE__ */ new Map([
+  [
+    "bold",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M60,96v64a12,12,0,0,1-24,0V96a12,12,0,0,1,24,0ZM88,20A12,12,0,0,0,76,32V224a12,12,0,0,0,24,0V32A12,12,0,0,0,88,20Zm40,32a12,12,0,0,0-12,12V192a12,12,0,0,0,24,0V64A12,12,0,0,0,128,52Zm40,32a12,12,0,0,0-12,12v64a12,12,0,0,0,24,0V96A12,12,0,0,0,168,84Zm40-16a12,12,0,0,0-12,12v96a12,12,0,0,0,24,0V80A12,12,0,0,0,208,68Z" }))
+  ],
+  [
+    "duotone",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M208,96v64H48V96Z", opacity: "0.2" }), /* @__PURE__ */ D.createElement("path", { d: "M56,96v64a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0ZM88,24a8,8,0,0,0-8,8V224a8,8,0,0,0,16,0V32A8,8,0,0,0,88,24Zm40,32a8,8,0,0,0-8,8V192a8,8,0,0,0,16,0V64A8,8,0,0,0,128,56Zm40,32a8,8,0,0,0-8,8v64a8,8,0,0,0,16,0V96A8,8,0,0,0,168,88Zm40-16a8,8,0,0,0-8,8v96a8,8,0,0,0,16,0V80A8,8,0,0,0,208,72Z" }))
+  ],
+  [
+    "fill",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM72,152a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm32,32a8,8,0,0,1-16,0V72a8,8,0,0,1,16,0Zm32-16a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Zm32-16a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm32,8a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0Z" }))
+  ],
+  [
+    "light",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M54,96v64a6,6,0,0,1-12,0V96a6,6,0,0,1,12,0ZM88,26a6,6,0,0,0-6,6V224a6,6,0,0,0,12,0V32A6,6,0,0,0,88,26Zm40,32a6,6,0,0,0-6,6V192a6,6,0,0,0,12,0V64A6,6,0,0,0,128,58Zm40,32a6,6,0,0,0-6,6v64a6,6,0,0,0,12,0V96A6,6,0,0,0,168,90Zm40-16a6,6,0,0,0-6,6v96a6,6,0,0,0,12,0V80A6,6,0,0,0,208,74Z" }))
+  ],
+  [
+    "regular",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M56,96v64a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0ZM88,24a8,8,0,0,0-8,8V224a8,8,0,0,0,16,0V32A8,8,0,0,0,88,24Zm40,32a8,8,0,0,0-8,8V192a8,8,0,0,0,16,0V64A8,8,0,0,0,128,56Zm40,32a8,8,0,0,0-8,8v64a8,8,0,0,0,16,0V96A8,8,0,0,0,168,88Zm40-16a8,8,0,0,0-8,8v96a8,8,0,0,0,16,0V80A8,8,0,0,0,208,72Z" }))
+  ],
+  [
+    "thin",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M52,96v64a4,4,0,0,1-8,0V96a4,4,0,0,1,8,0ZM88,28a4,4,0,0,0-4,4V224a4,4,0,0,0,8,0V32A4,4,0,0,0,88,28Zm40,32a4,4,0,0,0-4,4V192a4,4,0,0,0,8,0V64A4,4,0,0,0,128,60Zm40,32a4,4,0,0,0-4,4v64a4,4,0,0,0,8,0V96A4,4,0,0,0,168,92Zm40-16a4,4,0,0,0-4,4v96a4,4,0,0,0,8,0V80A4,4,0,0,0,208,76Z" }))
+  ]
+]), Mb = /* @__PURE__ */ new Map([
+  [
+    "bold",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z" }))
+  ],
+  [
+    "duotone",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement(
+      "path",
+      {
+        d: "M216,56V200a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V56A16,16,0,0,1,56,40H200A16,16,0,0,1,216,56Z",
+        opacity: "0.2"
+      }
+    ), /* @__PURE__ */ D.createElement("path", { d: "M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z" }))
+  ],
+  [
+    "fill",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM181.66,170.34a8,8,0,0,1-11.32,11.32L128,139.31,85.66,181.66a8,8,0,0,1-11.32-11.32L116.69,128,74.34,85.66A8,8,0,0,1,85.66,74.34L128,116.69l42.34-42.35a8,8,0,0,1,11.32,11.32L139.31,128Z" }))
+  ],
+  [
+    "light",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M204.24,195.76a6,6,0,1,1-8.48,8.48L128,136.49,60.24,204.24a6,6,0,0,1-8.48-8.48L119.51,128,51.76,60.24a6,6,0,0,1,8.48-8.48L128,119.51l67.76-67.75a6,6,0,0,1,8.48,8.48L136.49,128Z" }))
+  ],
+  [
+    "regular",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z" }))
+  ],
+  [
+    "thin",
+    /* @__PURE__ */ D.createElement(D.Fragment, null, /* @__PURE__ */ D.createElement("path", { d: "M202.83,197.17a4,4,0,0,1-5.66,5.66L128,133.66,58.83,202.83a4,4,0,0,1-5.66-5.66L122.34,128,53.17,58.83a4,4,0,0,1,5.66-5.66L128,122.34l69.17-69.17a4,4,0,1,1,5.66,5.66L133.66,128Z" }))
+  ]
+]), Pb = D.createContext({
+  color: "currentColor",
+  size: "1em",
+  weight: "regular",
+  mirrored: !1
+}), mr = D.forwardRef(
+  (e, t) => {
+    const {
+      alt: r,
+      color: o,
+      size: a,
+      weight: s,
+      mirrored: u,
+      children: f,
+      weights: p,
+      ...m
+    } = e, {
+      color: y = "currentColor",
+      size: v,
+      weight: _ = "regular",
+      mirrored: k = !1,
+      ...T
+    } = D.useContext(Pb);
+    return /* @__PURE__ */ D.createElement(
+      "svg",
+      {
+        ref: t,
+        xmlns: "http://www.w3.org/2000/svg",
+        width: a ?? v,
+        height: a ?? v,
+        fill: o ?? y,
+        viewBox: "0 0 256 256",
+        transform: u || k ? "scale(-1, 1)" : void 0,
+        ...T,
+        ...m
+      },
+      !!r && /* @__PURE__ */ D.createElement("title", null, r),
+      f,
+      p.get(s ?? _)
+    );
+  }
+);
+mr.displayName = "IconBase";
+const D0 = D.forwardRef((e, t) => /* @__PURE__ */ D.createElement(mr, { ref: t, ...e, weights: _b }));
+D0.displayName = "ArrowsClockwiseIcon";
+const j0 = D.forwardRef((e, t) => /* @__PURE__ */ D.createElement(mr, { ref: t, ...e, weights: bb }));
+j0.displayName = "ChatCircleIcon";
+const Ol = D.forwardRef((e, t) => /* @__PURE__ */ D.createElement(mr, { ref: t, ...e, weights: Eb }));
+Ol.displayName = "MicrophoneIcon";
+const cf = D.forwardRef((e, t) => /* @__PURE__ */ D.createElement(mr, { ref: t, ...e, weights: Cb }));
+cf.displayName = "MicrophoneSlashIcon";
+const df = D.forwardRef((e, t) => /* @__PURE__ */ D.createElement(mr, { ref: t, ...e, weights: xb }));
+df.displayName = "PaperPlaneTiltIcon";
+const ff = D.forwardRef((e, t) => /* @__PURE__ */ D.createElement(mr, { ref: t, ...e, weights: Tb }));
+ff.displayName = "StopIcon";
+const pf = D.forwardRef((e, t) => /* @__PURE__ */ D.createElement(mr, { ref: t, ...e, weights: Ab }));
+pf.displayName = "WaveformIcon";
+const N0 = D.forwardRef((e, t) => /* @__PURE__ */ D.createElement(mr, { ref: t, ...e, weights: Mb }));
+N0.displayName = "XIcon";
+const Ob = ({
+  mode: e,
+  connectionStatus: t,
+  isCallActive: r,
+  isSpeaking: o,
+  isTyping: a,
+  hasActiveConversation: s,
+  mainLabel: u,
+  onClose: f,
+  onReset: p,
+  onChatComplete: m,
+  showEndChatButton: y,
+  colors: v,
+  styles: _
+}) => {
+  const k = () => t === "connecting" ? "Connecting..." : r ? o ? "Assistant Speaking..." : "Listening..." : a ? "Assistant is typing..." : s ? e === "chat" ? "Chat active" : e === "hybrid" ? "Ready to assist" : "Connected" : e === "voice" ? "Click the microphone to start" : e === "chat" ? "Type a message below" : "Choose voice or text";
+  return /* @__PURE__ */ ee.jsxs(
+    "div",
+    {
+      className: `relative z-10 p-4 flex items-center justify-between border-b ${_.theme === "dark" ? "text-white border-gray-800 shadow-lg" : "text-gray-900 border-gray-200 shadow-sm"}`,
+      style: { backgroundColor: v.baseColor },
+      children: [
+        /* @__PURE__ */ ee.jsxs("div", { className: "flex items-center space-x-3", children: [
+          /* @__PURE__ */ ee.jsx(
+            wl,
+            {
+              size: 40,
+              connectionStatus: t,
+              isCallActive: r,
+              isSpeaking: o,
+              isTyping: a,
+              baseColor: v.accentColor,
+              colors: v.accentColor
+            }
+          ),
+          /* @__PURE__ */ ee.jsxs("div", { children: [
+            /* @__PURE__ */ ee.jsx("div", { className: "font-medium", children: u }),
+            /* @__PURE__ */ ee.jsx(
+              "div",
+              {
+                className: `text-sm ${_.theme === "dark" ? "text-gray-300" : "text-gray-600"}`,
+                children: k()
+              }
+            )
+          ] })
+        ] }),
+        /* @__PURE__ */ ee.jsxs("div", { className: "flex items-center space-x-2", children: [
+          y !== !1 && e === "chat" && /* @__PURE__ */ ee.jsx(
+            "button",
+            {
+              onClick: m,
+              className: "text-red-600 text-sm font-medium px-2 py-1 border border-transparent hover:border-red-600 rounded-md transition-colors",
+              title: "End Chat",
+              children: "End Chat"
+            }
+          ),
+          /* @__PURE__ */ ee.jsx(
+            "button",
+            {
+              onClick: p,
+              className: "w-8 h-8 rounded-full flex items-center justify-center transition-all}",
+              title: "Reset conversation",
+              children: /* @__PURE__ */ ee.jsx(D0, { size: 16, weight: "bold" })
+            }
+          ),
+          /* @__PURE__ */ ee.jsx(
+            "button",
+            {
+              onClick: f,
+              className: "w-8 h-8 rounded-full flex items-center justify-center transition-all",
+              children: /* @__PURE__ */ ee.jsx(N0, { size: 16, weight: "bold" })
+            }
+          )
+        ] })
+      ]
+    }
+  );
+};
+function Ib(e, t) {
+  const r = {};
+  return (e[e.length - 1] === "" ? [...e, ""] : e).join(
+    (r.padRight ? " " : "") + "," + (r.padLeft === !1 ? "" : " ")
+  ).trim();
+}
+const Lb = /^[$_\p{ID_Start}][$_\u{200C}\u{200D}\p{ID_Continue}]*$/u, Db = /^[$_\p{ID_Start}][-$_\u{200C}\u{200D}\p{ID_Continue}]*$/u, jb = {};
+function ny(e, t) {
+  return (jb.jsx ? Db : Lb).test(e);
+}
+const Nb = /[ \t\n\f\r]/g;
+function Rb(e) {
+  return typeof e == "object" ? e.type === "text" ? ry(e.value) : !1 : ry(e);
+}
+function ry(e) {
+  return e.replace(Nb, "") === "";
+}
+class _a {
+  /**
+   * @param {SchemaType['property']} property
+   *   Property.
+   * @param {SchemaType['normal']} normal
+   *   Normal.
+   * @param {Space | undefined} [space]
+   *   Space.
+   * @returns
+   *   Schema.
+   */
+  constructor(t, r, o) {
+    this.normal = r, this.property = t, o && (this.space = o);
+  }
+}
+_a.prototype.normal = {};
+_a.prototype.property = {};
+_a.prototype.space = void 0;
+function R0(e, t) {
+  const r = {}, o = {};
+  for (const a of e)
+    Object.assign(r, a.property), Object.assign(o, a.normal);
+  return new _a(r, o, t);
+}
+function Rd(e) {
+  return e.toLowerCase();
+}
+class Xt {
+  /**
+   * @param {string} property
+   *   Property.
+   * @param {string} attribute
+   *   Attribute.
+   * @returns
+   *   Info.
+   */
+  constructor(t, r) {
+    this.attribute = r, this.property = t;
+  }
+}
+Xt.prototype.attribute = "";
+Xt.prototype.booleanish = !1;
+Xt.prototype.boolean = !1;
+Xt.prototype.commaOrSpaceSeparated = !1;
+Xt.prototype.commaSeparated = !1;
+Xt.prototype.defined = !1;
+Xt.prototype.mustUseProperty = !1;
+Xt.prototype.number = !1;
+Xt.prototype.overloadedBoolean = !1;
+Xt.prototype.property = "";
+Xt.prototype.spaceSeparated = !1;
+Xt.prototype.space = void 0;
+let Fb = 0;
+const De = _i(), dt = _i(), Fd = _i(), ce = _i(), Qe = _i(), ro = _i(), un = _i();
+function _i() {
+  return 2 ** ++Fb;
+}
+const Vd = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  boolean: De,
+  booleanish: dt,
+  commaOrSpaceSeparated: un,
+  commaSeparated: ro,
+  number: ce,
+  overloadedBoolean: Fd,
+  spaceSeparated: Qe
+}, Symbol.toStringTag, { value: "Module" })), Hc = (
+  /** @type {ReadonlyArray<keyof typeof types>} */
+  Object.keys(Vd)
+);
+class hf extends Xt {
+  /**
+   * @constructor
+   * @param {string} property
+   *   Property.
+   * @param {string} attribute
+   *   Attribute.
+   * @param {number | null | undefined} [mask]
+   *   Mask.
+   * @param {Space | undefined} [space]
+   *   Space.
+   * @returns
+   *   Info.
+   */
+  constructor(t, r, o, a) {
+    let s = -1;
+    if (super(t, r), iy(this, "space", a), typeof o == "number")
+      for (; ++s < Hc.length; ) {
+        const u = Hc[s];
+        iy(this, Hc[s], (o & Vd[u]) === Vd[u]);
+      }
+  }
+}
+hf.prototype.defined = !0;
+function iy(e, t, r) {
+  r && (e[t] = r);
+}
+function fo(e) {
+  const t = {}, r = {};
+  for (const [o, a] of Object.entries(e.properties)) {
+    const s = new hf(
+      o,
+      e.transform(e.attributes || {}, o),
+      a,
+      e.space
+    );
+    e.mustUseProperty && e.mustUseProperty.includes(o) && (s.mustUseProperty = !0), t[o] = s, r[Rd(o)] = o, r[Rd(s.attribute)] = o;
+  }
+  return new _a(t, r, e.space);
+}
+const F0 = fo({
+  properties: {
+    ariaActiveDescendant: null,
+    ariaAtomic: dt,
+    ariaAutoComplete: null,
+    ariaBusy: dt,
+    ariaChecked: dt,
+    ariaColCount: ce,
+    ariaColIndex: ce,
+    ariaColSpan: ce,
+    ariaControls: Qe,
+    ariaCurrent: null,
+    ariaDescribedBy: Qe,
+    ariaDetails: null,
+    ariaDisabled: dt,
+    ariaDropEffect: Qe,
+    ariaErrorMessage: null,
+    ariaExpanded: dt,
+    ariaFlowTo: Qe,
+    ariaGrabbed: dt,
+    ariaHasPopup: null,
+    ariaHidden: dt,
+    ariaInvalid: null,
+    ariaKeyShortcuts: null,
+    ariaLabel: null,
+    ariaLabelledBy: Qe,
+    ariaLevel: ce,
+    ariaLive: null,
+    ariaModal: dt,
+    ariaMultiLine: dt,
+    ariaMultiSelectable: dt,
+    ariaOrientation: null,
+    ariaOwns: Qe,
+    ariaPlaceholder: null,
+    ariaPosInSet: ce,
+    ariaPressed: dt,
+    ariaReadOnly: dt,
+    ariaRelevant: null,
+    ariaRequired: dt,
+    ariaRoleDescription: Qe,
+    ariaRowCount: ce,
+    ariaRowIndex: ce,
+    ariaRowSpan: ce,
+    ariaSelected: dt,
+    ariaSetSize: ce,
+    ariaSort: null,
+    ariaValueMax: ce,
+    ariaValueMin: ce,
+    ariaValueNow: ce,
+    ariaValueText: null,
+    role: null
+  },
+  transform(e, t) {
+    return t === "role" ? t : "aria-" + t.slice(4).toLowerCase();
+  }
+});
+function V0(e, t) {
+  return t in e ? e[t] : t;
+}
+function z0(e, t) {
+  return V0(e, t.toLowerCase());
+}
+const Vb = fo({
+  attributes: {
+    acceptcharset: "accept-charset",
+    classname: "class",
+    htmlfor: "for",
+    httpequiv: "http-equiv"
+  },
+  mustUseProperty: ["checked", "multiple", "muted", "selected"],
+  properties: {
+    // Standard Properties.
+    abbr: null,
+    accept: ro,
+    acceptCharset: Qe,
+    accessKey: Qe,
+    action: null,
+    allow: null,
+    allowFullScreen: De,
+    allowPaymentRequest: De,
+    allowUserMedia: De,
+    alt: null,
+    as: null,
+    async: De,
+    autoCapitalize: null,
+    autoComplete: Qe,
+    autoFocus: De,
+    autoPlay: De,
+    blocking: Qe,
+    capture: null,
+    charSet: null,
+    checked: De,
+    cite: null,
+    className: Qe,
+    cols: ce,
+    colSpan: null,
+    content: null,
+    contentEditable: dt,
+    controls: De,
+    controlsList: Qe,
+    coords: ce | ro,
+    crossOrigin: null,
+    data: null,
+    dateTime: null,
+    decoding: null,
+    default: De,
+    defer: De,
+    dir: null,
+    dirName: null,
+    disabled: De,
+    download: Fd,
+    draggable: dt,
+    encType: null,
+    enterKeyHint: null,
+    fetchPriority: null,
+    form: null,
+    formAction: null,
+    formEncType: null,
+    formMethod: null,
+    formNoValidate: De,
+    formTarget: null,
+    headers: Qe,
+    height: ce,
+    hidden: Fd,
+    high: ce,
+    href: null,
+    hrefLang: null,
+    htmlFor: Qe,
+    httpEquiv: Qe,
+    id: null,
+    imageSizes: null,
+    imageSrcSet: null,
+    inert: De,
+    inputMode: null,
+    integrity: null,
+    is: null,
+    isMap: De,
+    itemId: null,
+    itemProp: Qe,
+    itemRef: Qe,
+    itemScope: De,
+    itemType: Qe,
+    kind: null,
+    label: null,
+    lang: null,
+    language: null,
+    list: null,
+    loading: null,
+    loop: De,
+    low: ce,
+    manifest: null,
+    max: null,
+    maxLength: ce,
+    media: null,
+    method: null,
+    min: null,
+    minLength: ce,
+    multiple: De,
+    muted: De,
+    name: null,
+    nonce: null,
+    noModule: De,
+    noValidate: De,
+    onAbort: null,
+    onAfterPrint: null,
+    onAuxClick: null,
+    onBeforeMatch: null,
+    onBeforePrint: null,
+    onBeforeToggle: null,
+    onBeforeUnload: null,
+    onBlur: null,
+    onCancel: null,
+    onCanPlay: null,
+    onCanPlayThrough: null,
+    onChange: null,
+    onClick: null,
+    onClose: null,
+    onContextLost: null,
+    onContextMenu: null,
+    onContextRestored: null,
+    onCopy: null,
+    onCueChange: null,
+    onCut: null,
+    onDblClick: null,
+    onDrag: null,
+    onDragEnd: null,
+    onDragEnter: null,
+    onDragExit: null,
+    onDragLeave: null,
+    onDragOver: null,
+    onDragStart: null,
+    onDrop: null,
+    onDurationChange: null,
+    onEmptied: null,
+    onEnded: null,
+    onError: null,
+    onFocus: null,
+    onFormData: null,
+    onHashChange: null,
+    onInput: null,
+    onInvalid: null,
+    onKeyDown: null,
+    onKeyPress: null,
+    onKeyUp: null,
+    onLanguageChange: null,
+    onLoad: null,
+    onLoadedData: null,
+    onLoadedMetadata: null,
+    onLoadEnd: null,
+    onLoadStart: null,
+    onMessage: null,
+    onMessageError: null,
+    onMouseDown: null,
+    onMouseEnter: null,
+    onMouseLeave: null,
+    onMouseMove: null,
+    onMouseOut: null,
+    onMouseOver: null,
+    onMouseUp: null,
+    onOffline: null,
+    onOnline: null,
+    onPageHide: null,
+    onPageShow: null,
+    onPaste: null,
+    onPause: null,
+    onPlay: null,
+    onPlaying: null,
+    onPopState: null,
+    onProgress: null,
+    onRateChange: null,
+    onRejectionHandled: null,
+    onReset: null,
+    onResize: null,
+    onScroll: null,
+    onScrollEnd: null,
+    onSecurityPolicyViolation: null,
+    onSeeked: null,
+    onSeeking: null,
+    onSelect: null,
+    onSlotChange: null,
+    onStalled: null,
+    onStorage: null,
+    onSubmit: null,
+    onSuspend: null,
+    onTimeUpdate: null,
+    onToggle: null,
+    onUnhandledRejection: null,
+    onUnload: null,
+    onVolumeChange: null,
+    onWaiting: null,
+    onWheel: null,
+    open: De,
+    optimum: ce,
+    pattern: null,
+    ping: Qe,
+    placeholder: null,
+    playsInline: De,
+    popover: null,
+    popoverTarget: null,
+    popoverTargetAction: null,
+    poster: null,
+    preload: null,
+    readOnly: De,
+    referrerPolicy: null,
+    rel: Qe,
+    required: De,
+    reversed: De,
+    rows: ce,
+    rowSpan: ce,
+    sandbox: Qe,
+    scope: null,
+    scoped: De,
+    seamless: De,
+    selected: De,
+    shadowRootClonable: De,
+    shadowRootDelegatesFocus: De,
+    shadowRootMode: null,
+    shape: null,
+    size: ce,
+    sizes: null,
+    slot: null,
+    span: ce,
+    spellCheck: dt,
+    src: null,
+    srcDoc: null,
+    srcLang: null,
+    srcSet: null,
+    start: ce,
+    step: null,
+    style: null,
+    tabIndex: ce,
+    target: null,
+    title: null,
+    translate: null,
+    type: null,
+    typeMustMatch: De,
+    useMap: null,
+    value: dt,
+    width: ce,
+    wrap: null,
+    writingSuggestions: null,
+    // Legacy.
+    // See: https://html.spec.whatwg.org/#other-elements,-attributes-and-apis
+    align: null,
+    // Several. Use CSS `text-align` instead,
+    aLink: null,
+    // `<body>`. Use CSS `a:active {color}` instead
+    archive: Qe,
+    // `<object>`. List of URIs to archives
+    axis: null,
+    // `<td>` and `<th>`. Use `scope` on `<th>`
+    background: null,
+    // `<body>`. Use CSS `background-image` instead
+    bgColor: null,
+    // `<body>` and table elements. Use CSS `background-color` instead
+    border: ce,
+    // `<table>`. Use CSS `border-width` instead,
+    borderColor: null,
+    // `<table>`. Use CSS `border-color` instead,
+    bottomMargin: ce,
+    // `<body>`
+    cellPadding: null,
+    // `<table>`
+    cellSpacing: null,
+    // `<table>`
+    char: null,
+    // Several table elements. When `align=char`, sets the character to align on
+    charOff: null,
+    // Several table elements. When `char`, offsets the alignment
+    classId: null,
+    // `<object>`
+    clear: null,
+    // `<br>`. Use CSS `clear` instead
+    code: null,
+    // `<object>`
+    codeBase: null,
+    // `<object>`
+    codeType: null,
+    // `<object>`
+    color: null,
+    // `<font>` and `<hr>`. Use CSS instead
+    compact: De,
+    // Lists. Use CSS to reduce space between items instead
+    declare: De,
+    // `<object>`
+    event: null,
+    // `<script>`
+    face: null,
+    // `<font>`. Use CSS instead
+    frame: null,
+    // `<table>`
+    frameBorder: null,
+    // `<iframe>`. Use CSS `border` instead
+    hSpace: ce,
+    // `<img>` and `<object>`
+    leftMargin: ce,
+    // `<body>`
+    link: null,
+    // `<body>`. Use CSS `a:link {color: *}` instead
+    longDesc: null,
+    // `<frame>`, `<iframe>`, and `<img>`. Use an `<a>`
+    lowSrc: null,
+    // `<img>`. Use a `<picture>`
+    marginHeight: ce,
+    // `<body>`
+    marginWidth: ce,
+    // `<body>`
+    noResize: De,
+    // `<frame>`
+    noHref: De,
+    // `<area>`. Use no href instead of an explicit `nohref`
+    noShade: De,
+    // `<hr>`. Use background-color and height instead of borders
+    noWrap: De,
+    // `<td>` and `<th>`
+    object: null,
+    // `<applet>`
+    profile: null,
+    // `<head>`
+    prompt: null,
+    // `<isindex>`
+    rev: null,
+    // `<link>`
+    rightMargin: ce,
+    // `<body>`
+    rules: null,
+    // `<table>`
+    scheme: null,
+    // `<meta>`
+    scrolling: dt,
+    // `<frame>`. Use overflow in the child context
+    standby: null,
+    // `<object>`
+    summary: null,
+    // `<table>`
+    text: null,
+    // `<body>`. Use CSS `color` instead
+    topMargin: ce,
+    // `<body>`
+    valueType: null,
+    // `<param>`
+    version: null,
+    // `<html>`. Use a doctype.
+    vAlign: null,
+    // Several. Use CSS `vertical-align` instead
+    vLink: null,
+    // `<body>`. Use CSS `a:visited {color}` instead
+    vSpace: ce,
+    // `<img>` and `<object>`
+    // Non-standard Properties.
+    allowTransparency: null,
+    autoCorrect: null,
+    autoSave: null,
+    disablePictureInPicture: De,
+    disableRemotePlayback: De,
+    prefix: null,
+    property: null,
+    results: ce,
+    security: null,
+    unselectable: null
+  },
+  space: "html",
+  transform: z0
+}), zb = fo({
+  attributes: {
+    accentHeight: "accent-height",
+    alignmentBaseline: "alignment-baseline",
+    arabicForm: "arabic-form",
+    baselineShift: "baseline-shift",
+    capHeight: "cap-height",
+    className: "class",
+    clipPath: "clip-path",
+    clipRule: "clip-rule",
+    colorInterpolation: "color-interpolation",
+    colorInterpolationFilters: "color-interpolation-filters",
+    colorProfile: "color-profile",
+    colorRendering: "color-rendering",
+    crossOrigin: "crossorigin",
+    dataType: "datatype",
+    dominantBaseline: "dominant-baseline",
+    enableBackground: "enable-background",
+    fillOpacity: "fill-opacity",
+    fillRule: "fill-rule",
+    floodColor: "flood-color",
+    floodOpacity: "flood-opacity",
+    fontFamily: "font-family",
+    fontSize: "font-size",
+    fontSizeAdjust: "font-size-adjust",
+    fontStretch: "font-stretch",
+    fontStyle: "font-style",
+    fontVariant: "font-variant",
+    fontWeight: "font-weight",
+    glyphName: "glyph-name",
+    glyphOrientationHorizontal: "glyph-orientation-horizontal",
+    glyphOrientationVertical: "glyph-orientation-vertical",
+    hrefLang: "hreflang",
+    horizAdvX: "horiz-adv-x",
+    horizOriginX: "horiz-origin-x",
+    horizOriginY: "horiz-origin-y",
+    imageRendering: "image-rendering",
+    letterSpacing: "letter-spacing",
+    lightingColor: "lighting-color",
+    markerEnd: "marker-end",
+    markerMid: "marker-mid",
+    markerStart: "marker-start",
+    navDown: "nav-down",
+    navDownLeft: "nav-down-left",
+    navDownRight: "nav-down-right",
+    navLeft: "nav-left",
+    navNext: "nav-next",
+    navPrev: "nav-prev",
+    navRight: "nav-right",
+    navUp: "nav-up",
+    navUpLeft: "nav-up-left",
+    navUpRight: "nav-up-right",
+    onAbort: "onabort",
+    onActivate: "onactivate",
+    onAfterPrint: "onafterprint",
+    onBeforePrint: "onbeforeprint",
+    onBegin: "onbegin",
+    onCancel: "oncancel",
+    onCanPlay: "oncanplay",
+    onCanPlayThrough: "oncanplaythrough",
+    onChange: "onchange",
+    onClick: "onclick",
+    onClose: "onclose",
+    onCopy: "oncopy",
+    onCueChange: "oncuechange",
+    onCut: "oncut",
+    onDblClick: "ondblclick",
+    onDrag: "ondrag",
+    onDragEnd: "ondragend",
+    onDragEnter: "ondragenter",
+    onDragExit: "ondragexit",
+    onDragLeave: "ondragleave",
+    onDragOver: "ondragover",
+    onDragStart: "ondragstart",
+    onDrop: "ondrop",
+    onDurationChange: "ondurationchange",
+    onEmptied: "onemptied",
+    onEnd: "onend",
+    onEnded: "onended",
+    onError: "onerror",
+    onFocus: "onfocus",
+    onFocusIn: "onfocusin",
+    onFocusOut: "onfocusout",
+    onHashChange: "onhashchange",
+    onInput: "oninput",
+    onInvalid: "oninvalid",
+    onKeyDown: "onkeydown",
+    onKeyPress: "onkeypress",
+    onKeyUp: "onkeyup",
+    onLoad: "onload",
+    onLoadedData: "onloadeddata",
+    onLoadedMetadata: "onloadedmetadata",
+    onLoadStart: "onloadstart",
+    onMessage: "onmessage",
+    onMouseDown: "onmousedown",
+    onMouseEnter: "onmouseenter",
+    onMouseLeave: "onmouseleave",
+    onMouseMove: "onmousemove",
+    onMouseOut: "onmouseout",
+    onMouseOver: "onmouseover",
+    onMouseUp: "onmouseup",
+    onMouseWheel: "onmousewheel",
+    onOffline: "onoffline",
+    onOnline: "ononline",
+    onPageHide: "onpagehide",
+    onPageShow: "onpageshow",
+    onPaste: "onpaste",
+    onPause: "onpause",
+    onPlay: "onplay",
+    onPlaying: "onplaying",
+    onPopState: "onpopstate",
+    onProgress: "onprogress",
+    onRateChange: "onratechange",
+    onRepeat: "onrepeat",
+    onReset: "onreset",
+    onResize: "onresize",
+    onScroll: "onscroll",
+    onSeeked: "onseeked",
+    onSeeking: "onseeking",
+    onSelect: "onselect",
+    onShow: "onshow",
+    onStalled: "onstalled",
+    onStorage: "onstorage",
+    onSubmit: "onsubmit",
+    onSuspend: "onsuspend",
+    onTimeUpdate: "ontimeupdate",
+    onToggle: "ontoggle",
+    onUnload: "onunload",
+    onVolumeChange: "onvolumechange",
+    onWaiting: "onwaiting",
+    onZoom: "onzoom",
+    overlinePosition: "overline-position",
+    overlineThickness: "overline-thickness",
+    paintOrder: "paint-order",
+    panose1: "panose-1",
+    pointerEvents: "pointer-events",
+    referrerPolicy: "referrerpolicy",
+    renderingIntent: "rendering-intent",
+    shapeRendering: "shape-rendering",
+    stopColor: "stop-color",
+    stopOpacity: "stop-opacity",
+    strikethroughPosition: "strikethrough-position",
+    strikethroughThickness: "strikethrough-thickness",
+    strokeDashArray: "stroke-dasharray",
+    strokeDashOffset: "stroke-dashoffset",
+    strokeLineCap: "stroke-linecap",
+    strokeLineJoin: "stroke-linejoin",
+    strokeMiterLimit: "stroke-miterlimit",
+    strokeOpacity: "stroke-opacity",
+    strokeWidth: "stroke-width",
+    tabIndex: "tabindex",
+    textAnchor: "text-anchor",
+    textDecoration: "text-decoration",
+    textRendering: "text-rendering",
+    transformOrigin: "transform-origin",
+    typeOf: "typeof",
+    underlinePosition: "underline-position",
+    underlineThickness: "underline-thickness",
+    unicodeBidi: "unicode-bidi",
+    unicodeRange: "unicode-range",
+    unitsPerEm: "units-per-em",
+    vAlphabetic: "v-alphabetic",
+    vHanging: "v-hanging",
+    vIdeographic: "v-ideographic",
+    vMathematical: "v-mathematical",
+    vectorEffect: "vector-effect",
+    vertAdvY: "vert-adv-y",
+    vertOriginX: "vert-origin-x",
+    vertOriginY: "vert-origin-y",
+    wordSpacing: "word-spacing",
+    writingMode: "writing-mode",
+    xHeight: "x-height",
+    // These were camelcased in Tiny. Now lowercased in SVG 2
+    playbackOrder: "playbackorder",
+    timelineBegin: "timelinebegin"
+  },
+  properties: {
+    about: un,
+    accentHeight: ce,
+    accumulate: null,
+    additive: null,
+    alignmentBaseline: null,
+    alphabetic: ce,
+    amplitude: ce,
+    arabicForm: null,
+    ascent: ce,
+    attributeName: null,
+    attributeType: null,
+    azimuth: ce,
+    bandwidth: null,
+    baselineShift: null,
+    baseFrequency: null,
+    baseProfile: null,
+    bbox: null,
+    begin: null,
+    bias: ce,
+    by: null,
+    calcMode: null,
+    capHeight: ce,
+    className: Qe,
+    clip: null,
+    clipPath: null,
+    clipPathUnits: null,
+    clipRule: null,
+    color: null,
+    colorInterpolation: null,
+    colorInterpolationFilters: null,
+    colorProfile: null,
+    colorRendering: null,
+    content: null,
+    contentScriptType: null,
+    contentStyleType: null,
+    crossOrigin: null,
+    cursor: null,
+    cx: null,
+    cy: null,
+    d: null,
+    dataType: null,
+    defaultAction: null,
+    descent: ce,
+    diffuseConstant: ce,
+    direction: null,
+    display: null,
+    dur: null,
+    divisor: ce,
+    dominantBaseline: null,
+    download: De,
+    dx: null,
+    dy: null,
+    edgeMode: null,
+    editable: null,
+    elevation: ce,
+    enableBackground: null,
+    end: null,
+    event: null,
+    exponent: ce,
+    externalResourcesRequired: null,
+    fill: null,
+    fillOpacity: ce,
+    fillRule: null,
+    filter: null,
+    filterRes: null,
+    filterUnits: null,
+    floodColor: null,
+    floodOpacity: null,
+    focusable: null,
+    focusHighlight: null,
+    fontFamily: null,
+    fontSize: null,
+    fontSizeAdjust: null,
+    fontStretch: null,
+    fontStyle: null,
+    fontVariant: null,
+    fontWeight: null,
+    format: null,
+    fr: null,
+    from: null,
+    fx: null,
+    fy: null,
+    g1: ro,
+    g2: ro,
+    glyphName: ro,
+    glyphOrientationHorizontal: null,
+    glyphOrientationVertical: null,
+    glyphRef: null,
+    gradientTransform: null,
+    gradientUnits: null,
+    handler: null,
+    hanging: ce,
+    hatchContentUnits: null,
+    hatchUnits: null,
+    height: null,
+    href: null,
+    hrefLang: null,
+    horizAdvX: ce,
+    horizOriginX: ce,
+    horizOriginY: ce,
+    id: null,
+    ideographic: ce,
+    imageRendering: null,
+    initialVisibility: null,
+    in: null,
+    in2: null,
+    intercept: ce,
+    k: ce,
+    k1: ce,
+    k2: ce,
+    k3: ce,
+    k4: ce,
+    kernelMatrix: un,
+    kernelUnitLength: null,
+    keyPoints: null,
+    // SEMI_COLON_SEPARATED
+    keySplines: null,
+    // SEMI_COLON_SEPARATED
+    keyTimes: null,
+    // SEMI_COLON_SEPARATED
+    kerning: null,
+    lang: null,
+    lengthAdjust: null,
+    letterSpacing: null,
+    lightingColor: null,
+    limitingConeAngle: ce,
+    local: null,
+    markerEnd: null,
+    markerMid: null,
+    markerStart: null,
+    markerHeight: null,
+    markerUnits: null,
+    markerWidth: null,
+    mask: null,
+    maskContentUnits: null,
+    maskUnits: null,
+    mathematical: null,
+    max: null,
+    media: null,
+    mediaCharacterEncoding: null,
+    mediaContentEncodings: null,
+    mediaSize: ce,
+    mediaTime: null,
+    method: null,
+    min: null,
+    mode: null,
+    name: null,
+    navDown: null,
+    navDownLeft: null,
+    navDownRight: null,
+    navLeft: null,
+    navNext: null,
+    navPrev: null,
+    navRight: null,
+    navUp: null,
+    navUpLeft: null,
+    navUpRight: null,
+    numOctaves: null,
+    observer: null,
+    offset: null,
+    onAbort: null,
+    onActivate: null,
+    onAfterPrint: null,
+    onBeforePrint: null,
+    onBegin: null,
+    onCancel: null,
+    onCanPlay: null,
+    onCanPlayThrough: null,
+    onChange: null,
+    onClick: null,
+    onClose: null,
+    onCopy: null,
+    onCueChange: null,
+    onCut: null,
+    onDblClick: null,
+    onDrag: null,
+    onDragEnd: null,
+    onDragEnter: null,
+    onDragExit: null,
+    onDragLeave: null,
+    onDragOver: null,
+    onDragStart: null,
+    onDrop: null,
+    onDurationChange: null,
+    onEmptied: null,
+    onEnd: null,
+    onEnded: null,
+    onError: null,
+    onFocus: null,
+    onFocusIn: null,
+    onFocusOut: null,
+    onHashChange: null,
+    onInput: null,
+    onInvalid: null,
+    onKeyDown: null,
+    onKeyPress: null,
+    onKeyUp: null,
+    onLoad: null,
+    onLoadedData: null,
+    onLoadedMetadata: null,
+    onLoadStart: null,
+    onMessage: null,
+    onMouseDown: null,
+    onMouseEnter: null,
+    onMouseLeave: null,
+    onMouseMove: null,
+    onMouseOut: null,
+    onMouseOver: null,
+    onMouseUp: null,
+    onMouseWheel: null,
+    onOffline: null,
+    onOnline: null,
+    onPageHide: null,
+    onPageShow: null,
+    onPaste: null,
+    onPause: null,
+    onPlay: null,
+    onPlaying: null,
+    onPopState: null,
+    onProgress: null,
+    onRateChange: null,
+    onRepeat: null,
+    onReset: null,
+    onResize: null,
+    onScroll: null,
+    onSeeked: null,
+    onSeeking: null,
+    onSelect: null,
+    onShow: null,
+    onStalled: null,
+    onStorage: null,
+    onSubmit: null,
+    onSuspend: null,
+    onTimeUpdate: null,
+    onToggle: null,
+    onUnload: null,
+    onVolumeChange: null,
+    onWaiting: null,
+    onZoom: null,
+    opacity: null,
+    operator: null,
+    order: null,
+    orient: null,
+    orientation: null,
+    origin: null,
+    overflow: null,
+    overlay: null,
+    overlinePosition: ce,
+    overlineThickness: ce,
+    paintOrder: null,
+    panose1: null,
+    path: null,
+    pathLength: ce,
+    patternContentUnits: null,
+    patternTransform: null,
+    patternUnits: null,
+    phase: null,
+    ping: Qe,
+    pitch: null,
+    playbackOrder: null,
+    pointerEvents: null,
+    points: null,
+    pointsAtX: ce,
+    pointsAtY: ce,
+    pointsAtZ: ce,
+    preserveAlpha: null,
+    preserveAspectRatio: null,
+    primitiveUnits: null,
+    propagate: null,
+    property: un,
+    r: null,
+    radius: null,
+    referrerPolicy: null,
+    refX: null,
+    refY: null,
+    rel: un,
+    rev: un,
+    renderingIntent: null,
+    repeatCount: null,
+    repeatDur: null,
+    requiredExtensions: un,
+    requiredFeatures: un,
+    requiredFonts: un,
+    requiredFormats: un,
+    resource: null,
+    restart: null,
+    result: null,
+    rotate: null,
+    rx: null,
+    ry: null,
+    scale: null,
+    seed: null,
+    shapeRendering: null,
+    side: null,
+    slope: null,
+    snapshotTime: null,
+    specularConstant: ce,
+    specularExponent: ce,
+    spreadMethod: null,
+    spacing: null,
+    startOffset: null,
+    stdDeviation: null,
+    stemh: null,
+    stemv: null,
+    stitchTiles: null,
+    stopColor: null,
+    stopOpacity: null,
+    strikethroughPosition: ce,
+    strikethroughThickness: ce,
+    string: null,
+    stroke: null,
+    strokeDashArray: un,
+    strokeDashOffset: null,
+    strokeLineCap: null,
+    strokeLineJoin: null,
+    strokeMiterLimit: ce,
+    strokeOpacity: ce,
+    strokeWidth: null,
+    style: null,
+    surfaceScale: ce,
+    syncBehavior: null,
+    syncBehaviorDefault: null,
+    syncMaster: null,
+    syncTolerance: null,
+    syncToleranceDefault: null,
+    systemLanguage: un,
+    tabIndex: ce,
+    tableValues: null,
+    target: null,
+    targetX: ce,
+    targetY: ce,
+    textAnchor: null,
+    textDecoration: null,
+    textRendering: null,
+    textLength: null,
+    timelineBegin: null,
+    title: null,
+    transformBehavior: null,
+    type: null,
+    typeOf: un,
+    to: null,
+    transform: null,
+    transformOrigin: null,
+    u1: null,
+    u2: null,
+    underlinePosition: ce,
+    underlineThickness: ce,
+    unicode: null,
+    unicodeBidi: null,
+    unicodeRange: null,
+    unitsPerEm: ce,
+    values: null,
+    vAlphabetic: ce,
+    vMathematical: ce,
+    vectorEffect: null,
+    vHanging: ce,
+    vIdeographic: ce,
+    version: null,
+    vertAdvY: ce,
+    vertOriginX: ce,
+    vertOriginY: ce,
+    viewBox: null,
+    viewTarget: null,
+    visibility: null,
+    width: null,
+    widths: null,
+    wordSpacing: null,
+    writingMode: null,
+    x: null,
+    x1: null,
+    x2: null,
+    xChannelSelector: null,
+    xHeight: ce,
+    y: null,
+    y1: null,
+    y2: null,
+    yChannelSelector: null,
+    z: null,
+    zoomAndPan: null
+  },
+  space: "svg",
+  transform: V0
+}), B0 = fo({
+  properties: {
+    xLinkActuate: null,
+    xLinkArcRole: null,
+    xLinkHref: null,
+    xLinkRole: null,
+    xLinkShow: null,
+    xLinkTitle: null,
+    xLinkType: null
+  },
+  space: "xlink",
+  transform(e, t) {
+    return "xlink:" + t.slice(5).toLowerCase();
+  }
+}), U0 = fo({
+  attributes: { xmlnsxlink: "xmlns:xlink" },
+  properties: { xmlnsXLink: null, xmlns: null },
+  space: "xmlns",
+  transform: z0
+}), q0 = fo({
+  properties: { xmlBase: null, xmlLang: null, xmlSpace: null },
+  space: "xml",
+  transform(e, t) {
+    return "xml:" + t.slice(3).toLowerCase();
+  }
+}), Bb = {
+  classId: "classID",
+  dataType: "datatype",
+  itemId: "itemID",
+  strokeDashArray: "strokeDasharray",
+  strokeDashOffset: "strokeDashoffset",
+  strokeLineCap: "strokeLinecap",
+  strokeLineJoin: "strokeLinejoin",
+  strokeMiterLimit: "strokeMiterlimit",
+  typeOf: "typeof",
+  xLinkActuate: "xlinkActuate",
+  xLinkArcRole: "xlinkArcrole",
+  xLinkHref: "xlinkHref",
+  xLinkRole: "xlinkRole",
+  xLinkShow: "xlinkShow",
+  xLinkTitle: "xlinkTitle",
+  xLinkType: "xlinkType",
+  xmlnsXLink: "xmlnsXlink"
+}, Ub = /[A-Z]/g, oy = /-[a-z]/g, qb = /^data[-\w.:]+$/i;
+function $b(e, t) {
+  const r = Rd(t);
+  let o = t, a = Xt;
+  if (r in e.normal)
+    return e.property[e.normal[r]];
+  if (r.length > 4 && r.slice(0, 4) === "data" && qb.test(t)) {
+    if (t.charAt(4) === "-") {
+      const s = t.slice(5).replace(oy, Jb);
+      o = "data" + s.charAt(0).toUpperCase() + s.slice(1);
+    } else {
+      const s = t.slice(4);
+      if (!oy.test(s)) {
+        let u = s.replace(Ub, Hb);
+        u.charAt(0) !== "-" && (u = "-" + u), t = "data" + u;
+      }
+    }
+    a = hf;
+  }
+  return new a(o, t);
+}
+function Hb(e) {
+  return "-" + e.toLowerCase();
+}
+function Jb(e) {
+  return e.charAt(1).toUpperCase();
+}
+const Wb = R0([F0, Vb, B0, U0, q0], "html"), mf = R0([F0, zb, B0, U0, q0], "svg");
+function Gb(e) {
+  return e.join(" ").trim();
+}
+var Ki = {}, Jc, ay;
+function Yb() {
+  if (ay) return Jc;
+  ay = 1;
+  var e = /\/\*[^*]*\*+([^/*][^*]*\*+)*\//g, t = /\n/g, r = /^\s*/, o = /^(\*?[-#/*\\\w]+(\[[0-9a-z_-]+\])?)\s*/, a = /^:\s*/, s = /^((?:'(?:\\'|.)*?'|"(?:\\"|.)*?"|\([^)]*?\)|[^};])+)/, u = /^[;\s]*/, f = /^\s+|\s+$/g, p = `
+`, m = "/", y = "*", v = "", _ = "comment", k = "declaration";
+  Jc = function(E, L) {
+    if (typeof E != "string")
+      throw new TypeError("First argument must be a string");
+    if (!E) return [];
+    L = L || {};
+    var M = 1, V = 1;
+    function B(pe) {
+      var q = pe.match(t);
+      q && (M += q.length);
+      var ue = pe.lastIndexOf(p);
+      V = ~ue ? pe.length - ue : V + pe.length;
+    }
+    function j() {
+      var pe = { line: M, column: V };
+      return function(q) {
+        return q.position = new N(pe), z(), q;
+      };
+    }
+    function N(pe) {
+      this.start = pe, this.end = { line: M, column: V }, this.source = L.source;
+    }
+    N.prototype.content = E;
+    function A(pe) {
+      var q = new Error(
+        L.source + ":" + M + ":" + V + ": " + pe
+      );
+      if (q.reason = pe, q.filename = L.source, q.line = M, q.column = V, q.source = E, !L.silent) throw q;
+    }
+    function H(pe) {
+      var q = pe.exec(E);
+      if (q) {
+        var ue = q[0];
+        return B(ue), E = E.slice(ue.length), q;
+      }
+    }
+    function z() {
+      H(r);
+    }
+    function ae(pe) {
+      var q;
+      for (pe = pe || []; q = X(); )
+        q !== !1 && pe.push(q);
+      return pe;
+    }
+    function X() {
+      var pe = j();
+      if (!(m != E.charAt(0) || y != E.charAt(1))) {
+        for (var q = 2; v != E.charAt(q) && (y != E.charAt(q) || m != E.charAt(q + 1)); )
+          ++q;
+        if (q += 2, v === E.charAt(q - 1))
+          return A("End of comment missing");
+        var ue = E.slice(2, q - 2);
+        return V += 2, B(ue), E = E.slice(q), V += 2, pe({
+          type: _,
+          comment: ue
+        });
+      }
+    }
+    function ne() {
+      var pe = j(), q = H(o);
+      if (q) {
+        if (X(), !H(a)) return A("property missing ':'");
+        var ue = H(s), be = pe({
+          type: k,
+          property: T(q[0].replace(e, v)),
+          value: ue ? T(ue[0].replace(e, v)) : v
+        });
+        return H(u), be;
+      }
+    }
+    function le() {
+      var pe = [];
+      ae(pe);
+      for (var q; q = ne(); )
+        q !== !1 && (pe.push(q), ae(pe));
+      return pe;
+    }
+    return z(), le();
+  };
+  function T(E) {
+    return E ? E.replace(f, v) : v;
+  }
+  return Jc;
+}
+var sy;
+function Qb() {
+  if (sy) return Ki;
+  sy = 1;
+  var e = Ki && Ki.__importDefault || function(o) {
+    return o && o.__esModule ? o : { default: o };
+  };
+  Object.defineProperty(Ki, "__esModule", { value: !0 }), Ki.default = r;
+  var t = e(Yb());
+  function r(o, a) {
+    var s = null;
+    if (!o || typeof o != "string")
+      return s;
+    var u = (0, t.default)(o), f = typeof a == "function";
+    return u.forEach(function(p) {
+      if (p.type === "declaration") {
+        var m = p.property, y = p.value;
+        f ? a(m, y, p) : y && (s = s || {}, s[m] = y);
+      }
+    }), s;
+  }
+  return Ki;
+}
+var ra = {}, ly;
+function Zb() {
+  if (ly) return ra;
+  ly = 1, Object.defineProperty(ra, "__esModule", { value: !0 }), ra.camelCase = void 0;
+  var e = /^--[a-zA-Z0-9_-]+$/, t = /-([a-z])/g, r = /^[^-]+$/, o = /^-(webkit|moz|ms|o|khtml)-/, a = /^-(ms)-/, s = function(m) {
+    return !m || r.test(m) || e.test(m);
+  }, u = function(m, y) {
+    return y.toUpperCase();
+  }, f = function(m, y) {
+    return "".concat(y, "-");
+  }, p = function(m, y) {
+    return y === void 0 && (y = {}), s(m) ? m : (m = m.toLowerCase(), y.reactCompat ? m = m.replace(a, f) : m = m.replace(o, f), m.replace(t, u));
+  };
+  return ra.camelCase = p, ra;
+}
+var ia, uy;
+function Kb() {
+  if (uy) return ia;
+  uy = 1;
+  var e = ia && ia.__importDefault || function(a) {
+    return a && a.__esModule ? a : { default: a };
+  }, t = e(Qb()), r = Zb();
+  function o(a, s) {
+    var u = {};
+    return !a || typeof a != "string" || (0, t.default)(a, function(f, p) {
+      f && p && (u[(0, r.camelCase)(f, s)] = p);
+    }), u;
+  }
+  return o.default = o, ia = o, ia;
+}
+var Xb = Kb();
+const eE = /* @__PURE__ */ _l(Xb), $0 = H0("end"), gf = H0("start");
+function H0(e) {
+  return t;
+  function t(r) {
+    const o = r && r.position && r.position[e] || {};
+    if (typeof o.line == "number" && o.line > 0 && typeof o.column == "number" && o.column > 0)
+      return {
+        line: o.line,
+        column: o.column,
+        offset: typeof o.offset == "number" && o.offset > -1 ? o.offset : void 0
+      };
+  }
+}
+function tE(e) {
+  const t = gf(e), r = $0(e);
+  if (t && r)
+    return { start: t, end: r };
+}
+function pa(e) {
+  return !e || typeof e != "object" ? "" : "position" in e || "type" in e ? cy(e.position) : "start" in e || "end" in e ? cy(e) : "line" in e || "column" in e ? zd(e) : "";
+}
+function zd(e) {
+  return dy(e && e.line) + ":" + dy(e && e.column);
+}
+function cy(e) {
+  return zd(e && e.start) + "-" + zd(e && e.end);
+}
+function dy(e) {
+  return e && typeof e == "number" ? e : 1;
+}
+class Nt extends Error {
+  /**
+   * Create a message for `reason`.
+   *
+   * > 🪦 **Note**: also has obsolete signatures.
+   *
+   * @overload
+   * @param {string} reason
+   * @param {Options | null | undefined} [options]
+   * @returns
+   *
+   * @overload
+   * @param {string} reason
+   * @param {Node | NodeLike | null | undefined} parent
+   * @param {string | null | undefined} [origin]
+   * @returns
+   *
+   * @overload
+   * @param {string} reason
+   * @param {Point | Position | null | undefined} place
+   * @param {string | null | undefined} [origin]
+   * @returns
+   *
+   * @overload
+   * @param {string} reason
+   * @param {string | null | undefined} [origin]
+   * @returns
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {Node | NodeLike | null | undefined} parent
+   * @param {string | null | undefined} [origin]
+   * @returns
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {Point | Position | null | undefined} place
+   * @param {string | null | undefined} [origin]
+   * @returns
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {string | null | undefined} [origin]
+   * @returns
+   *
+   * @param {Error | VFileMessage | string} causeOrReason
+   *   Reason for message, should use markdown.
+   * @param {Node | NodeLike | Options | Point | Position | string | null | undefined} [optionsOrParentOrPlace]
+   *   Configuration (optional).
+   * @param {string | null | undefined} [origin]
+   *   Place in code where the message originates (example:
+   *   `'my-package:my-rule'` or `'my-rule'`).
+   * @returns
+   *   Instance of `VFileMessage`.
+   */
+  // eslint-disable-next-line complexity
+  constructor(t, r, o) {
+    super(), typeof r == "string" && (o = r, r = void 0);
+    let a = "", s = {}, u = !1;
+    if (r && ("line" in r && "column" in r ? s = { place: r } : "start" in r && "end" in r ? s = { place: r } : "type" in r ? s = {
+      ancestors: [r],
+      place: r.position
+    } : s = { ...r }), typeof t == "string" ? a = t : !s.cause && t && (u = !0, a = t.message, s.cause = t), !s.ruleId && !s.source && typeof o == "string") {
+      const p = o.indexOf(":");
+      p === -1 ? s.ruleId = o : (s.source = o.slice(0, p), s.ruleId = o.slice(p + 1));
+    }
+    if (!s.place && s.ancestors && s.ancestors) {
+      const p = s.ancestors[s.ancestors.length - 1];
+      p && (s.place = p.position);
+    }
+    const f = s.place && "start" in s.place ? s.place.start : s.place;
+    this.ancestors = s.ancestors || void 0, this.cause = s.cause || void 0, this.column = f ? f.column : void 0, this.fatal = void 0, this.file, this.message = a, this.line = f ? f.line : void 0, this.name = pa(s.place) || "1:1", this.place = s.place || void 0, this.reason = this.message, this.ruleId = s.ruleId || void 0, this.source = s.source || void 0, this.stack = u && s.cause && typeof s.cause.stack == "string" ? s.cause.stack : "", this.actual, this.expected, this.note, this.url;
+  }
+}
+Nt.prototype.file = "";
+Nt.prototype.name = "";
+Nt.prototype.reason = "";
+Nt.prototype.message = "";
+Nt.prototype.stack = "";
+Nt.prototype.column = void 0;
+Nt.prototype.line = void 0;
+Nt.prototype.ancestors = void 0;
+Nt.prototype.cause = void 0;
+Nt.prototype.fatal = void 0;
+Nt.prototype.place = void 0;
+Nt.prototype.ruleId = void 0;
+Nt.prototype.source = void 0;
+const yf = {}.hasOwnProperty, nE = /* @__PURE__ */ new Map(), rE = /[A-Z]/g, iE = /* @__PURE__ */ new Set(["table", "tbody", "thead", "tfoot", "tr"]), oE = /* @__PURE__ */ new Set(["td", "th"]), J0 = "https://github.com/syntax-tree/hast-util-to-jsx-runtime";
+function aE(e, t) {
+  if (!t || t.Fragment === void 0)
+    throw new TypeError("Expected `Fragment` in options");
+  const r = t.filePath || void 0;
+  let o;
+  if (t.development) {
+    if (typeof t.jsxDEV != "function")
+      throw new TypeError(
+        "Expected `jsxDEV` in options when `development: true`"
+      );
+    o = hE(r, t.jsxDEV);
+  } else {
+    if (typeof t.jsx != "function")
+      throw new TypeError("Expected `jsx` in production options");
+    if (typeof t.jsxs != "function")
+      throw new TypeError("Expected `jsxs` in production options");
+    o = pE(r, t.jsx, t.jsxs);
+  }
+  const a = {
+    Fragment: t.Fragment,
+    ancestors: [],
+    components: t.components || {},
+    create: o,
+    elementAttributeNameCase: t.elementAttributeNameCase || "react",
+    evaluater: t.createEvaluater ? t.createEvaluater() : void 0,
+    filePath: r,
+    ignoreInvalidStyle: t.ignoreInvalidStyle || !1,
+    passKeys: t.passKeys !== !1,
+    passNode: t.passNode || !1,
+    schema: t.space === "svg" ? mf : Wb,
+    stylePropertyNameCase: t.stylePropertyNameCase || "dom",
+    tableCellAlignToStyle: t.tableCellAlignToStyle !== !1
+  }, s = W0(a, e, void 0);
+  return s && typeof s != "string" ? s : a.create(
+    e,
+    a.Fragment,
+    { children: s || void 0 },
+    void 0
+  );
+}
+function W0(e, t, r) {
+  if (t.type === "element")
+    return sE(e, t, r);
+  if (t.type === "mdxFlowExpression" || t.type === "mdxTextExpression")
+    return lE(e, t);
+  if (t.type === "mdxJsxFlowElement" || t.type === "mdxJsxTextElement")
+    return cE(e, t, r);
+  if (t.type === "mdxjsEsm")
+    return uE(e, t);
+  if (t.type === "root")
+    return dE(e, t, r);
+  if (t.type === "text")
+    return fE(e, t);
+}
+function sE(e, t, r) {
+  const o = e.schema;
+  let a = o;
+  t.tagName.toLowerCase() === "svg" && o.space === "html" && (a = mf, e.schema = a), e.ancestors.push(t);
+  const s = Y0(e, t.tagName, !1), u = mE(e, t);
+  let f = wf(e, t);
+  return iE.has(t.tagName) && (f = f.filter(function(p) {
+    return typeof p == "string" ? !Rb(p) : !0;
+  })), G0(e, u, s, t), vf(u, f), e.ancestors.pop(), e.schema = o, e.create(t, s, u, r);
+}
+function lE(e, t) {
+  if (t.data && t.data.estree && e.evaluater) {
+    const o = t.data.estree.body[0];
+    return o.type, /** @type {Child | undefined} */
+    e.evaluater.evaluateExpression(o.expression);
+  }
+  va(e, t.position);
+}
+function uE(e, t) {
+  if (t.data && t.data.estree && e.evaluater)
+    return (
+      /** @type {Child | undefined} */
+      e.evaluater.evaluateProgram(t.data.estree)
+    );
+  va(e, t.position);
+}
+function cE(e, t, r) {
+  const o = e.schema;
+  let a = o;
+  t.name === "svg" && o.space === "html" && (a = mf, e.schema = a), e.ancestors.push(t);
+  const s = t.name === null ? e.Fragment : Y0(e, t.name, !0), u = gE(e, t), f = wf(e, t);
+  return G0(e, u, s, t), vf(u, f), e.ancestors.pop(), e.schema = o, e.create(t, s, u, r);
+}
+function dE(e, t, r) {
+  const o = {};
+  return vf(o, wf(e, t)), e.create(t, e.Fragment, o, r);
+}
+function fE(e, t) {
+  return t.value;
+}
+function G0(e, t, r, o) {
+  typeof r != "string" && r !== e.Fragment && e.passNode && (t.node = o);
+}
+function vf(e, t) {
+  if (t.length > 0) {
+    const r = t.length > 1 ? t : t[0];
+    r && (e.children = r);
+  }
+}
+function pE(e, t, r) {
+  return o;
+  function o(a, s, u, f) {
+    const m = Array.isArray(u.children) ? r : t;
+    return f ? m(s, u, f) : m(s, u);
+  }
+}
+function hE(e, t) {
+  return r;
+  function r(o, a, s, u) {
+    const f = Array.isArray(s.children), p = gf(o);
+    return t(
+      a,
+      s,
+      u,
+      f,
+      {
+        columnNumber: p ? p.column - 1 : void 0,
+        fileName: e,
+        lineNumber: p ? p.line : void 0
+      },
+      void 0
+    );
+  }
+}
+function mE(e, t) {
+  const r = {};
+  let o, a;
+  for (a in t.properties)
+    if (a !== "children" && yf.call(t.properties, a)) {
+      const s = yE(e, a, t.properties[a]);
+      if (s) {
+        const [u, f] = s;
+        e.tableCellAlignToStyle && u === "align" && typeof f == "string" && oE.has(t.tagName) ? o = f : r[u] = f;
+      }
+    }
+  if (o) {
+    const s = (
+      /** @type {Style} */
+      r.style || (r.style = {})
+    );
+    s[e.stylePropertyNameCase === "css" ? "text-align" : "textAlign"] = o;
+  }
+  return r;
+}
+function gE(e, t) {
+  const r = {};
+  for (const o of t.attributes)
+    if (o.type === "mdxJsxExpressionAttribute")
+      if (o.data && o.data.estree && e.evaluater) {
+        const s = o.data.estree.body[0];
+        s.type;
+        const u = s.expression;
+        u.type;
+        const f = u.properties[0];
+        f.type, Object.assign(
+          r,
+          e.evaluater.evaluateExpression(f.argument)
+        );
+      } else
+        va(e, t.position);
+    else {
+      const a = o.name;
+      let s;
+      if (o.value && typeof o.value == "object")
+        if (o.value.data && o.value.data.estree && e.evaluater) {
+          const f = o.value.data.estree.body[0];
+          f.type, s = e.evaluater.evaluateExpression(f.expression);
+        } else
+          va(e, t.position);
+      else
+        s = o.value === null ? !0 : o.value;
+      r[a] = /** @type {Props[keyof Props]} */
+      s;
+    }
+  return r;
+}
+function wf(e, t) {
+  const r = [];
+  let o = -1;
+  const a = e.passKeys ? /* @__PURE__ */ new Map() : nE;
+  for (; ++o < t.children.length; ) {
+    const s = t.children[o];
+    let u;
+    if (e.passKeys) {
+      const p = s.type === "element" ? s.tagName : s.type === "mdxJsxFlowElement" || s.type === "mdxJsxTextElement" ? s.name : void 0;
+      if (p) {
+        const m = a.get(p) || 0;
+        u = p + "-" + m, a.set(p, m + 1);
+      }
+    }
+    const f = W0(e, s, u);
+    f !== void 0 && r.push(f);
+  }
+  return r;
+}
+function yE(e, t, r) {
+  const o = $b(e.schema, t);
+  if (!(r == null || typeof r == "number" && Number.isNaN(r))) {
+    if (Array.isArray(r) && (r = o.commaSeparated ? Ib(r) : Gb(r)), o.property === "style") {
+      let a = typeof r == "object" ? r : vE(e, String(r));
+      return e.stylePropertyNameCase === "css" && (a = wE(a)), ["style", a];
+    }
+    return [
+      e.elementAttributeNameCase === "react" && o.space ? Bb[o.property] || o.property : o.attribute,
+      r
+    ];
+  }
+}
+function vE(e, t) {
+  try {
+    return eE(t, { reactCompat: !0 });
+  } catch (r) {
+    if (e.ignoreInvalidStyle)
+      return {};
+    const o = (
+      /** @type {Error} */
+      r
+    ), a = new Nt("Cannot parse `style` attribute", {
+      ancestors: e.ancestors,
+      cause: o,
+      ruleId: "style",
+      source: "hast-util-to-jsx-runtime"
+    });
+    throw a.file = e.filePath || void 0, a.url = J0 + "#cannot-parse-style-attribute", a;
+  }
+}
+function Y0(e, t, r) {
+  let o;
+  if (!r)
+    o = { type: "Literal", value: t };
+  else if (t.includes(".")) {
+    const a = t.split(".");
+    let s = -1, u;
+    for (; ++s < a.length; ) {
+      const f = ny(a[s]) ? { type: "Identifier", name: a[s] } : { type: "Literal", value: a[s] };
+      u = u ? {
+        type: "MemberExpression",
+        object: u,
+        property: f,
+        computed: !!(s && f.type === "Literal"),
+        optional: !1
+      } : f;
+    }
+    o = u;
+  } else
+    o = ny(t) && !/^[a-z]/.test(t) ? { type: "Identifier", name: t } : { type: "Literal", value: t };
+  if (o.type === "Literal") {
+    const a = (
+      /** @type {string | number} */
+      o.value
+    );
+    return yf.call(e.components, a) ? e.components[a] : a;
+  }
+  if (e.evaluater)
+    return e.evaluater.evaluateExpression(o);
+  va(e);
+}
+function va(e, t) {
+  const r = new Nt(
+    "Cannot handle MDX estrees without `createEvaluater`",
+    {
+      ancestors: e.ancestors,
+      place: t,
+      ruleId: "mdx-estree",
+      source: "hast-util-to-jsx-runtime"
+    }
+  );
+  throw r.file = e.filePath || void 0, r.url = J0 + "#cannot-handle-mdx-estrees-without-createevaluater", r;
+}
+function wE(e) {
+  const t = {};
+  let r;
+  for (r in e)
+    yf.call(e, r) && (t[SE(r)] = e[r]);
+  return t;
+}
+function SE(e) {
+  let t = e.replace(rE, kE);
+  return t.slice(0, 3) === "ms-" && (t = "-" + t), t;
+}
+function kE(e) {
+  return "-" + e.toLowerCase();
+}
+const Wc = {
+  action: ["form"],
+  cite: ["blockquote", "del", "ins", "q"],
+  data: ["object"],
+  formAction: ["button", "input"],
+  href: ["a", "area", "base", "link"],
+  icon: ["menuitem"],
+  itemId: null,
+  manifest: ["html"],
+  ping: ["a", "area"],
+  poster: ["video"],
+  src: [
+    "audio",
+    "embed",
+    "iframe",
+    "img",
+    "input",
+    "script",
+    "source",
+    "track",
+    "video"
+  ]
+}, _E = {};
+function bE(e, t) {
+  const r = _E, o = typeof r.includeImageAlt == "boolean" ? r.includeImageAlt : !0, a = typeof r.includeHtml == "boolean" ? r.includeHtml : !0;
+  return Q0(e, o, a);
+}
+function Q0(e, t, r) {
+  if (EE(e)) {
+    if ("value" in e)
+      return e.type === "html" && !r ? "" : e.value;
+    if (t && "alt" in e && e.alt)
+      return e.alt;
+    if ("children" in e)
+      return fy(e.children, t, r);
+  }
+  return Array.isArray(e) ? fy(e, t, r) : "";
+}
+function fy(e, t, r) {
+  const o = [];
+  let a = -1;
+  for (; ++a < e.length; )
+    o[a] = Q0(e[a], t, r);
+  return o.join("");
+}
+function EE(e) {
+  return !!(e && typeof e == "object");
+}
+const py = document.createElement("i");
+function Sf(e) {
+  const t = "&" + e + ";";
+  py.innerHTML = t;
+  const r = py.textContent;
+  return (
+    // @ts-expect-error: TypeScript is wrong that `textContent` on elements can
+    // yield `null`.
+    r.charCodeAt(r.length - 1) === 59 && e !== "semi" || r === t ? !1 : r
+  );
+}
+function Yn(e, t, r, o) {
+  const a = e.length;
+  let s = 0, u;
+  if (t < 0 ? t = -t > a ? 0 : a + t : t = t > a ? a : t, r = r > 0 ? r : 0, o.length < 1e4)
+    u = Array.from(o), u.unshift(t, r), e.splice(...u);
+  else
+    for (r && e.splice(t, r); s < o.length; )
+      u = o.slice(s, s + 1e4), u.unshift(t, 0), e.splice(...u), s += 1e4, t += 1e4;
+}
+function _n(e, t) {
+  return e.length > 0 ? (Yn(e, e.length, 0, t), e) : t;
+}
+const hy = {}.hasOwnProperty;
+function CE(e) {
+  const t = {};
+  let r = -1;
+  for (; ++r < e.length; )
+    xE(t, e[r]);
+  return t;
+}
+function xE(e, t) {
+  let r;
+  for (r in t) {
+    const a = (hy.call(e, r) ? e[r] : void 0) || (e[r] = {}), s = t[r];
+    let u;
+    if (s)
+      for (u in s) {
+        hy.call(a, u) || (a[u] = []);
+        const f = s[u];
+        TE(
+          // @ts-expect-error Looks like a list.
+          a[u],
+          Array.isArray(f) ? f : f ? [f] : []
+        );
+      }
+  }
+}
+function TE(e, t) {
+  let r = -1;
+  const o = [];
+  for (; ++r < t.length; )
+    (t[r].add === "after" ? e : o).push(t[r]);
+  Yn(e, 0, 0, o);
+}
+function Z0(e, t) {
+  const r = Number.parseInt(e, t);
+  return (
+    // C0 except for HT, LF, FF, CR, space.
+    r < 9 || r === 11 || r > 13 && r < 32 || // Control character (DEL) of C0, and C1 controls.
+    r > 126 && r < 160 || // Lone high surrogates and low surrogates.
+    r > 55295 && r < 57344 || // Noncharacters.
+    r > 64975 && r < 65008 || /* eslint-disable no-bitwise */
+    (r & 65535) === 65535 || (r & 65535) === 65534 || /* eslint-enable no-bitwise */
+    // Out of range
+    r > 1114111 ? "�" : String.fromCodePoint(r)
+  );
+}
+function io(e) {
+  return e.replace(/[\t\n\r ]+/g, " ").replace(/^ | $/g, "").toLowerCase().toUpperCase();
+}
+const Gn = Hr(/[A-Za-z]/), dn = Hr(/[\dA-Za-z]/), AE = Hr(/[#-'*+\--9=?A-Z^-~]/);
+function Bd(e) {
+  return (
+    // Special whitespace codes (which have negative values), C0 and Control
+    // character DEL
+    e !== null && (e < 32 || e === 127)
+  );
+}
+const Ud = Hr(/\d/), ME = Hr(/[\dA-Fa-f]/), PE = Hr(/[!-/:-@[-`{-~]/);
+function Pe(e) {
+  return e !== null && e < -2;
+}
+function Kt(e) {
+  return e !== null && (e < 0 || e === 32);
+}
+function Ue(e) {
+  return e === -2 || e === -1 || e === 32;
+}
+const OE = Hr(new RegExp("\\p{P}|\\p{S}", "u")), IE = Hr(/\s/);
+function Hr(e) {
+  return t;
+  function t(r) {
+    return r !== null && r > -1 && e.test(String.fromCharCode(r));
+  }
+}
+function po(e) {
+  const t = [];
+  let r = -1, o = 0, a = 0;
+  for (; ++r < e.length; ) {
+    const s = e.charCodeAt(r);
+    let u = "";
+    if (s === 37 && dn(e.charCodeAt(r + 1)) && dn(e.charCodeAt(r + 2)))
+      a = 2;
+    else if (s < 128)
+      /[!#$&-;=?-Z_a-z~]/.test(String.fromCharCode(s)) || (u = String.fromCharCode(s));
+    else if (s > 55295 && s < 57344) {
+      const f = e.charCodeAt(r + 1);
+      s < 56320 && f > 56319 && f < 57344 ? (u = String.fromCharCode(s, f), a = 1) : u = "�";
+    } else
+      u = String.fromCharCode(s);
+    u && (t.push(e.slice(o, r), encodeURIComponent(u)), o = r + a + 1, u = ""), a && (r += a, a = 0);
+  }
+  return t.join("") + e.slice(o);
+}
+function Ke(e, t, r, o) {
+  const a = o ? o - 1 : Number.POSITIVE_INFINITY;
+  let s = 0;
+  return u;
+  function u(p) {
+    return Ue(p) ? (e.enter(r), f(p)) : t(p);
+  }
+  function f(p) {
+    return Ue(p) && s++ < a ? (e.consume(p), f) : (e.exit(r), t(p));
+  }
+}
+const LE = {
+  tokenize: DE
+};
+function DE(e) {
+  const t = e.attempt(this.parser.constructs.contentInitial, o, a);
+  let r;
+  return t;
+  function o(f) {
+    if (f === null) {
+      e.consume(f);
+      return;
+    }
+    return e.enter("lineEnding"), e.consume(f), e.exit("lineEnding"), Ke(e, t, "linePrefix");
+  }
+  function a(f) {
+    return e.enter("paragraph"), s(f);
+  }
+  function s(f) {
+    const p = e.enter("chunkText", {
+      contentType: "text",
+      previous: r
+    });
+    return r && (r.next = p), r = p, u(f);
+  }
+  function u(f) {
+    if (f === null) {
+      e.exit("chunkText"), e.exit("paragraph"), e.consume(f);
+      return;
+    }
+    return Pe(f) ? (e.consume(f), e.exit("chunkText"), s) : (e.consume(f), u);
+  }
+}
+const jE = {
+  tokenize: NE
+}, my = {
+  tokenize: RE
+};
+function NE(e) {
+  const t = this, r = [];
+  let o = 0, a, s, u;
+  return f;
+  function f(B) {
+    if (o < r.length) {
+      const j = r[o];
+      return t.containerState = j[1], e.attempt(j[0].continuation, p, m)(B);
+    }
+    return m(B);
+  }
+  function p(B) {
+    if (o++, t.containerState._closeFlow) {
+      t.containerState._closeFlow = void 0, a && V();
+      const j = t.events.length;
+      let N = j, A;
+      for (; N--; )
+        if (t.events[N][0] === "exit" && t.events[N][1].type === "chunkFlow") {
+          A = t.events[N][1].end;
+          break;
+        }
+      M(o);
+      let H = j;
+      for (; H < t.events.length; )
+        t.events[H][1].end = {
+          ...A
+        }, H++;
+      return Yn(t.events, N + 1, 0, t.events.slice(j)), t.events.length = H, m(B);
+    }
+    return f(B);
+  }
+  function m(B) {
+    if (o === r.length) {
+      if (!a)
+        return _(B);
+      if (a.currentConstruct && a.currentConstruct.concrete)
+        return T(B);
+      t.interrupt = !!(a.currentConstruct && !a._gfmTableDynamicInterruptHack);
+    }
+    return t.containerState = {}, e.check(my, y, v)(B);
+  }
+  function y(B) {
+    return a && V(), M(o), _(B);
+  }
+  function v(B) {
+    return t.parser.lazy[t.now().line] = o !== r.length, u = t.now().offset, T(B);
+  }
+  function _(B) {
+    return t.containerState = {}, e.attempt(my, k, T)(B);
+  }
+  function k(B) {
+    return o++, r.push([t.currentConstruct, t.containerState]), _(B);
+  }
+  function T(B) {
+    if (B === null) {
+      a && V(), M(0), e.consume(B);
+      return;
+    }
+    return a = a || t.parser.flow(t.now()), e.enter("chunkFlow", {
+      _tokenizer: a,
+      contentType: "flow",
+      previous: s
+    }), E(B);
+  }
+  function E(B) {
+    if (B === null) {
+      L(e.exit("chunkFlow"), !0), M(0), e.consume(B);
+      return;
+    }
+    return Pe(B) ? (e.consume(B), L(e.exit("chunkFlow")), o = 0, t.interrupt = void 0, f) : (e.consume(B), E);
+  }
+  function L(B, j) {
+    const N = t.sliceStream(B);
+    if (j && N.push(null), B.previous = s, s && (s.next = B), s = B, a.defineSkip(B.start), a.write(N), t.parser.lazy[B.start.line]) {
+      let A = a.events.length;
+      for (; A--; )
+        if (
+          // The token starts before the line ending…
+          a.events[A][1].start.offset < u && // …and either is not ended yet…
+          (!a.events[A][1].end || // …or ends after it.
+          a.events[A][1].end.offset > u)
+        )
+          return;
+      const H = t.events.length;
+      let z = H, ae, X;
+      for (; z--; )
+        if (t.events[z][0] === "exit" && t.events[z][1].type === "chunkFlow") {
+          if (ae) {
+            X = t.events[z][1].end;
+            break;
+          }
+          ae = !0;
+        }
+      for (M(o), A = H; A < t.events.length; )
+        t.events[A][1].end = {
+          ...X
+        }, A++;
+      Yn(t.events, z + 1, 0, t.events.slice(H)), t.events.length = A;
+    }
+  }
+  function M(B) {
+    let j = r.length;
+    for (; j-- > B; ) {
+      const N = r[j];
+      t.containerState = N[1], N[0].exit.call(t, e);
+    }
+    r.length = B;
+  }
+  function V() {
+    a.write([null]), s = void 0, a = void 0, t.containerState._closeFlow = void 0;
+  }
+}
+function RE(e, t, r) {
+  return Ke(e, e.attempt(this.parser.constructs.document, t, r), "linePrefix", this.parser.constructs.disable.null.includes("codeIndented") ? void 0 : 4);
+}
+function gy(e) {
+  if (e === null || Kt(e) || IE(e))
+    return 1;
+  if (OE(e))
+    return 2;
+}
+function kf(e, t, r) {
+  const o = [];
+  let a = -1;
+  for (; ++a < e.length; ) {
+    const s = e[a].resolveAll;
+    s && !o.includes(s) && (t = s(t, r), o.push(s));
+  }
+  return t;
+}
+const qd = {
+  name: "attention",
+  resolveAll: FE,
+  tokenize: VE
+};
+function FE(e, t) {
+  let r = -1, o, a, s, u, f, p, m, y;
+  for (; ++r < e.length; )
+    if (e[r][0] === "enter" && e[r][1].type === "attentionSequence" && e[r][1]._close) {
+      for (o = r; o--; )
+        if (e[o][0] === "exit" && e[o][1].type === "attentionSequence" && e[o][1]._open && // If the markers are the same:
+        t.sliceSerialize(e[o][1]).charCodeAt(0) === t.sliceSerialize(e[r][1]).charCodeAt(0)) {
+          if ((e[o][1]._close || e[r][1]._open) && (e[r][1].end.offset - e[r][1].start.offset) % 3 && !((e[o][1].end.offset - e[o][1].start.offset + e[r][1].end.offset - e[r][1].start.offset) % 3))
+            continue;
+          p = e[o][1].end.offset - e[o][1].start.offset > 1 && e[r][1].end.offset - e[r][1].start.offset > 1 ? 2 : 1;
+          const v = {
+            ...e[o][1].end
+          }, _ = {
+            ...e[r][1].start
+          };
+          yy(v, -p), yy(_, p), u = {
+            type: p > 1 ? "strongSequence" : "emphasisSequence",
+            start: v,
+            end: {
+              ...e[o][1].end
+            }
+          }, f = {
+            type: p > 1 ? "strongSequence" : "emphasisSequence",
+            start: {
+              ...e[r][1].start
+            },
+            end: _
+          }, s = {
+            type: p > 1 ? "strongText" : "emphasisText",
+            start: {
+              ...e[o][1].end
+            },
+            end: {
+              ...e[r][1].start
+            }
+          }, a = {
+            type: p > 1 ? "strong" : "emphasis",
+            start: {
+              ...u.start
+            },
+            end: {
+              ...f.end
+            }
+          }, e[o][1].end = {
+            ...u.start
+          }, e[r][1].start = {
+            ...f.end
+          }, m = [], e[o][1].end.offset - e[o][1].start.offset && (m = _n(m, [["enter", e[o][1], t], ["exit", e[o][1], t]])), m = _n(m, [["enter", a, t], ["enter", u, t], ["exit", u, t], ["enter", s, t]]), m = _n(m, kf(t.parser.constructs.insideSpan.null, e.slice(o + 1, r), t)), m = _n(m, [["exit", s, t], ["enter", f, t], ["exit", f, t], ["exit", a, t]]), e[r][1].end.offset - e[r][1].start.offset ? (y = 2, m = _n(m, [["enter", e[r][1], t], ["exit", e[r][1], t]])) : y = 0, Yn(e, o - 1, r - o + 3, m), r = o + m.length - y - 2;
+          break;
+        }
+    }
+  for (r = -1; ++r < e.length; )
+    e[r][1].type === "attentionSequence" && (e[r][1].type = "data");
+  return e;
+}
+function VE(e, t) {
+  const r = this.parser.constructs.attentionMarkers.null, o = this.previous, a = gy(o);
+  let s;
+  return u;
+  function u(p) {
+    return s = p, e.enter("attentionSequence"), f(p);
+  }
+  function f(p) {
+    if (p === s)
+      return e.consume(p), f;
+    const m = e.exit("attentionSequence"), y = gy(p), v = !y || y === 2 && a || r.includes(p), _ = !a || a === 2 && y || r.includes(o);
+    return m._open = !!(s === 42 ? v : v && (a || !_)), m._close = !!(s === 42 ? _ : _ && (y || !v)), t(p);
+  }
+}
+function yy(e, t) {
+  e.column += t, e.offset += t, e._bufferIndex += t;
+}
+const zE = {
+  name: "autolink",
+  tokenize: BE
+};
+function BE(e, t, r) {
+  let o = 0;
+  return a;
+  function a(k) {
+    return e.enter("autolink"), e.enter("autolinkMarker"), e.consume(k), e.exit("autolinkMarker"), e.enter("autolinkProtocol"), s;
+  }
+  function s(k) {
+    return Gn(k) ? (e.consume(k), u) : k === 64 ? r(k) : m(k);
+  }
+  function u(k) {
+    return k === 43 || k === 45 || k === 46 || dn(k) ? (o = 1, f(k)) : m(k);
+  }
+  function f(k) {
+    return k === 58 ? (e.consume(k), o = 0, p) : (k === 43 || k === 45 || k === 46 || dn(k)) && o++ < 32 ? (e.consume(k), f) : (o = 0, m(k));
+  }
+  function p(k) {
+    return k === 62 ? (e.exit("autolinkProtocol"), e.enter("autolinkMarker"), e.consume(k), e.exit("autolinkMarker"), e.exit("autolink"), t) : k === null || k === 32 || k === 60 || Bd(k) ? r(k) : (e.consume(k), p);
+  }
+  function m(k) {
+    return k === 64 ? (e.consume(k), y) : AE(k) ? (e.consume(k), m) : r(k);
+  }
+  function y(k) {
+    return dn(k) ? v(k) : r(k);
+  }
+  function v(k) {
+    return k === 46 ? (e.consume(k), o = 0, y) : k === 62 ? (e.exit("autolinkProtocol").type = "autolinkEmail", e.enter("autolinkMarker"), e.consume(k), e.exit("autolinkMarker"), e.exit("autolink"), t) : _(k);
+  }
+  function _(k) {
+    if ((k === 45 || dn(k)) && o++ < 63) {
+      const T = k === 45 ? _ : v;
+      return e.consume(k), T;
+    }
+    return r(k);
+  }
+}
+const Il = {
+  partial: !0,
+  tokenize: UE
+};
+function UE(e, t, r) {
+  return o;
+  function o(s) {
+    return Ue(s) ? Ke(e, a, "linePrefix")(s) : a(s);
+  }
+  function a(s) {
+    return s === null || Pe(s) ? t(s) : r(s);
+  }
+}
+const K0 = {
+  continuation: {
+    tokenize: $E
+  },
+  exit: HE,
+  name: "blockQuote",
+  tokenize: qE
+};
+function qE(e, t, r) {
+  const o = this;
+  return a;
+  function a(u) {
+    if (u === 62) {
+      const f = o.containerState;
+      return f.open || (e.enter("blockQuote", {
+        _container: !0
+      }), f.open = !0), e.enter("blockQuotePrefix"), e.enter("blockQuoteMarker"), e.consume(u), e.exit("blockQuoteMarker"), s;
+    }
+    return r(u);
+  }
+  function s(u) {
+    return Ue(u) ? (e.enter("blockQuotePrefixWhitespace"), e.consume(u), e.exit("blockQuotePrefixWhitespace"), e.exit("blockQuotePrefix"), t) : (e.exit("blockQuotePrefix"), t(u));
+  }
+}
+function $E(e, t, r) {
+  const o = this;
+  return a;
+  function a(u) {
+    return Ue(u) ? Ke(e, s, "linePrefix", o.parser.constructs.disable.null.includes("codeIndented") ? void 0 : 4)(u) : s(u);
+  }
+  function s(u) {
+    return e.attempt(K0, t, r)(u);
+  }
+}
+function HE(e) {
+  e.exit("blockQuote");
+}
+const X0 = {
+  name: "characterEscape",
+  tokenize: JE
+};
+function JE(e, t, r) {
+  return o;
+  function o(s) {
+    return e.enter("characterEscape"), e.enter("escapeMarker"), e.consume(s), e.exit("escapeMarker"), a;
+  }
+  function a(s) {
+    return PE(s) ? (e.enter("characterEscapeValue"), e.consume(s), e.exit("characterEscapeValue"), e.exit("characterEscape"), t) : r(s);
+  }
+}
+const e1 = {
+  name: "characterReference",
+  tokenize: WE
+};
+function WE(e, t, r) {
+  const o = this;
+  let a = 0, s, u;
+  return f;
+  function f(v) {
+    return e.enter("characterReference"), e.enter("characterReferenceMarker"), e.consume(v), e.exit("characterReferenceMarker"), p;
+  }
+  function p(v) {
+    return v === 35 ? (e.enter("characterReferenceMarkerNumeric"), e.consume(v), e.exit("characterReferenceMarkerNumeric"), m) : (e.enter("characterReferenceValue"), s = 31, u = dn, y(v));
+  }
+  function m(v) {
+    return v === 88 || v === 120 ? (e.enter("characterReferenceMarkerHexadecimal"), e.consume(v), e.exit("characterReferenceMarkerHexadecimal"), e.enter("characterReferenceValue"), s = 6, u = ME, y) : (e.enter("characterReferenceValue"), s = 7, u = Ud, y(v));
+  }
+  function y(v) {
+    if (v === 59 && a) {
+      const _ = e.exit("characterReferenceValue");
+      return u === dn && !Sf(o.sliceSerialize(_)) ? r(v) : (e.enter("characterReferenceMarker"), e.consume(v), e.exit("characterReferenceMarker"), e.exit("characterReference"), t);
+    }
+    return u(v) && a++ < s ? (e.consume(v), y) : r(v);
+  }
+}
+const vy = {
+  partial: !0,
+  tokenize: YE
+}, wy = {
+  concrete: !0,
+  name: "codeFenced",
+  tokenize: GE
+};
+function GE(e, t, r) {
+  const o = this, a = {
+    partial: !0,
+    tokenize: N
+  };
+  let s = 0, u = 0, f;
+  return p;
+  function p(A) {
+    return m(A);
+  }
+  function m(A) {
+    const H = o.events[o.events.length - 1];
+    return s = H && H[1].type === "linePrefix" ? H[2].sliceSerialize(H[1], !0).length : 0, f = A, e.enter("codeFenced"), e.enter("codeFencedFence"), e.enter("codeFencedFenceSequence"), y(A);
+  }
+  function y(A) {
+    return A === f ? (u++, e.consume(A), y) : u < 3 ? r(A) : (e.exit("codeFencedFenceSequence"), Ue(A) ? Ke(e, v, "whitespace")(A) : v(A));
+  }
+  function v(A) {
+    return A === null || Pe(A) ? (e.exit("codeFencedFence"), o.interrupt ? t(A) : e.check(vy, E, j)(A)) : (e.enter("codeFencedFenceInfo"), e.enter("chunkString", {
+      contentType: "string"
+    }), _(A));
+  }
+  function _(A) {
+    return A === null || Pe(A) ? (e.exit("chunkString"), e.exit("codeFencedFenceInfo"), v(A)) : Ue(A) ? (e.exit("chunkString"), e.exit("codeFencedFenceInfo"), Ke(e, k, "whitespace")(A)) : A === 96 && A === f ? r(A) : (e.consume(A), _);
+  }
+  function k(A) {
+    return A === null || Pe(A) ? v(A) : (e.enter("codeFencedFenceMeta"), e.enter("chunkString", {
+      contentType: "string"
+    }), T(A));
+  }
+  function T(A) {
+    return A === null || Pe(A) ? (e.exit("chunkString"), e.exit("codeFencedFenceMeta"), v(A)) : A === 96 && A === f ? r(A) : (e.consume(A), T);
+  }
+  function E(A) {
+    return e.attempt(a, j, L)(A);
+  }
+  function L(A) {
+    return e.enter("lineEnding"), e.consume(A), e.exit("lineEnding"), M;
+  }
+  function M(A) {
+    return s > 0 && Ue(A) ? Ke(e, V, "linePrefix", s + 1)(A) : V(A);
+  }
+  function V(A) {
+    return A === null || Pe(A) ? e.check(vy, E, j)(A) : (e.enter("codeFlowValue"), B(A));
+  }
+  function B(A) {
+    return A === null || Pe(A) ? (e.exit("codeFlowValue"), V(A)) : (e.consume(A), B);
+  }
+  function j(A) {
+    return e.exit("codeFenced"), t(A);
+  }
+  function N(A, H, z) {
+    let ae = 0;
+    return X;
+    function X(ue) {
+      return A.enter("lineEnding"), A.consume(ue), A.exit("lineEnding"), ne;
+    }
+    function ne(ue) {
+      return A.enter("codeFencedFence"), Ue(ue) ? Ke(A, le, "linePrefix", o.parser.constructs.disable.null.includes("codeIndented") ? void 0 : 4)(ue) : le(ue);
+    }
+    function le(ue) {
+      return ue === f ? (A.enter("codeFencedFenceSequence"), pe(ue)) : z(ue);
+    }
+    function pe(ue) {
+      return ue === f ? (ae++, A.consume(ue), pe) : ae >= u ? (A.exit("codeFencedFenceSequence"), Ue(ue) ? Ke(A, q, "whitespace")(ue) : q(ue)) : z(ue);
+    }
+    function q(ue) {
+      return ue === null || Pe(ue) ? (A.exit("codeFencedFence"), H(ue)) : z(ue);
+    }
+  }
+}
+function YE(e, t, r) {
+  const o = this;
+  return a;
+  function a(u) {
+    return u === null ? r(u) : (e.enter("lineEnding"), e.consume(u), e.exit("lineEnding"), s);
+  }
+  function s(u) {
+    return o.parser.lazy[o.now().line] ? r(u) : t(u);
+  }
+}
+const Gc = {
+  name: "codeIndented",
+  tokenize: ZE
+}, QE = {
+  partial: !0,
+  tokenize: KE
+};
+function ZE(e, t, r) {
+  const o = this;
+  return a;
+  function a(m) {
+    return e.enter("codeIndented"), Ke(e, s, "linePrefix", 5)(m);
+  }
+  function s(m) {
+    const y = o.events[o.events.length - 1];
+    return y && y[1].type === "linePrefix" && y[2].sliceSerialize(y[1], !0).length >= 4 ? u(m) : r(m);
+  }
+  function u(m) {
+    return m === null ? p(m) : Pe(m) ? e.attempt(QE, u, p)(m) : (e.enter("codeFlowValue"), f(m));
+  }
+  function f(m) {
+    return m === null || Pe(m) ? (e.exit("codeFlowValue"), u(m)) : (e.consume(m), f);
+  }
+  function p(m) {
+    return e.exit("codeIndented"), t(m);
+  }
+}
+function KE(e, t, r) {
+  const o = this;
+  return a;
+  function a(u) {
+    return o.parser.lazy[o.now().line] ? r(u) : Pe(u) ? (e.enter("lineEnding"), e.consume(u), e.exit("lineEnding"), a) : Ke(e, s, "linePrefix", 5)(u);
+  }
+  function s(u) {
+    const f = o.events[o.events.length - 1];
+    return f && f[1].type === "linePrefix" && f[2].sliceSerialize(f[1], !0).length >= 4 ? t(u) : Pe(u) ? a(u) : r(u);
+  }
+}
+const XE = {
+  name: "codeText",
+  previous: tC,
+  resolve: eC,
+  tokenize: nC
+};
+function eC(e) {
+  let t = e.length - 4, r = 3, o, a;
+  if ((e[r][1].type === "lineEnding" || e[r][1].type === "space") && (e[t][1].type === "lineEnding" || e[t][1].type === "space")) {
+    for (o = r; ++o < t; )
+      if (e[o][1].type === "codeTextData") {
+        e[r][1].type = "codeTextPadding", e[t][1].type = "codeTextPadding", r += 2, t -= 2;
+        break;
+      }
+  }
+  for (o = r - 1, t++; ++o <= t; )
+    a === void 0 ? o !== t && e[o][1].type !== "lineEnding" && (a = o) : (o === t || e[o][1].type === "lineEnding") && (e[a][1].type = "codeTextData", o !== a + 2 && (e[a][1].end = e[o - 1][1].end, e.splice(a + 2, o - a - 2), t -= o - a - 2, o = a + 2), a = void 0);
+  return e;
+}
+function tC(e) {
+  return e !== 96 || this.events[this.events.length - 1][1].type === "characterEscape";
+}
+function nC(e, t, r) {
+  let o = 0, a, s;
+  return u;
+  function u(v) {
+    return e.enter("codeText"), e.enter("codeTextSequence"), f(v);
+  }
+  function f(v) {
+    return v === 96 ? (e.consume(v), o++, f) : (e.exit("codeTextSequence"), p(v));
+  }
+  function p(v) {
+    return v === null ? r(v) : v === 32 ? (e.enter("space"), e.consume(v), e.exit("space"), p) : v === 96 ? (s = e.enter("codeTextSequence"), a = 0, y(v)) : Pe(v) ? (e.enter("lineEnding"), e.consume(v), e.exit("lineEnding"), p) : (e.enter("codeTextData"), m(v));
+  }
+  function m(v) {
+    return v === null || v === 32 || v === 96 || Pe(v) ? (e.exit("codeTextData"), p(v)) : (e.consume(v), m);
+  }
+  function y(v) {
+    return v === 96 ? (e.consume(v), a++, y) : a === o ? (e.exit("codeTextSequence"), e.exit("codeText"), t(v)) : (s.type = "codeTextData", m(v));
+  }
+}
+class rC {
+  /**
+   * @param {ReadonlyArray<T> | null | undefined} [initial]
+   *   Initial items (optional).
+   * @returns
+   *   Splice buffer.
+   */
+  constructor(t) {
+    this.left = t ? [...t] : [], this.right = [];
+  }
+  /**
+   * Array access;
+   * does not move the cursor.
+   *
+   * @param {number} index
+   *   Index.
+   * @return {T}
+   *   Item.
+   */
+  get(t) {
+    if (t < 0 || t >= this.left.length + this.right.length)
+      throw new RangeError("Cannot access index `" + t + "` in a splice buffer of size `" + (this.left.length + this.right.length) + "`");
+    return t < this.left.length ? this.left[t] : this.right[this.right.length - t + this.left.length - 1];
+  }
+  /**
+   * The length of the splice buffer, one greater than the largest index in the
+   * array.
+   */
+  get length() {
+    return this.left.length + this.right.length;
+  }
+  /**
+   * Remove and return `list[0]`;
+   * moves the cursor to `0`.
+   *
+   * @returns {T | undefined}
+   *   Item, optional.
+   */
+  shift() {
+    return this.setCursor(0), this.right.pop();
+  }
+  /**
+   * Slice the buffer to get an array;
+   * does not move the cursor.
+   *
+   * @param {number} start
+   *   Start.
+   * @param {number | null | undefined} [end]
+   *   End (optional).
+   * @returns {Array<T>}
+   *   Array of items.
+   */
+  slice(t, r) {
+    const o = r ?? Number.POSITIVE_INFINITY;
+    return o < this.left.length ? this.left.slice(t, o) : t > this.left.length ? this.right.slice(this.right.length - o + this.left.length, this.right.length - t + this.left.length).reverse() : this.left.slice(t).concat(this.right.slice(this.right.length - o + this.left.length).reverse());
+  }
+  /**
+   * Mimics the behavior of Array.prototype.splice() except for the change of
+   * interface necessary to avoid segfaults when patching in very large arrays.
+   *
+   * This operation moves cursor is moved to `start` and results in the cursor
+   * placed after any inserted items.
+   *
+   * @param {number} start
+   *   Start;
+   *   zero-based index at which to start changing the array;
+   *   negative numbers count backwards from the end of the array and values
+   *   that are out-of bounds are clamped to the appropriate end of the array.
+   * @param {number | null | undefined} [deleteCount=0]
+   *   Delete count (default: `0`);
+   *   maximum number of elements to delete, starting from start.
+   * @param {Array<T> | null | undefined} [items=[]]
+   *   Items to include in place of the deleted items (default: `[]`).
+   * @return {Array<T>}
+   *   Any removed items.
+   */
+  splice(t, r, o) {
+    const a = r || 0;
+    this.setCursor(Math.trunc(t));
+    const s = this.right.splice(this.right.length - a, Number.POSITIVE_INFINITY);
+    return o && oa(this.left, o), s.reverse();
+  }
+  /**
+   * Remove and return the highest-numbered item in the array, so
+   * `list[list.length - 1]`;
+   * Moves the cursor to `length`.
+   *
+   * @returns {T | undefined}
+   *   Item, optional.
+   */
+  pop() {
+    return this.setCursor(Number.POSITIVE_INFINITY), this.left.pop();
+  }
+  /**
+   * Inserts a single item to the high-numbered side of the array;
+   * moves the cursor to `length`.
+   *
+   * @param {T} item
+   *   Item.
+   * @returns {undefined}
+   *   Nothing.
+   */
+  push(t) {
+    this.setCursor(Number.POSITIVE_INFINITY), this.left.push(t);
+  }
+  /**
+   * Inserts many items to the high-numbered side of the array.
+   * Moves the cursor to `length`.
+   *
+   * @param {Array<T>} items
+   *   Items.
+   * @returns {undefined}
+   *   Nothing.
+   */
+  pushMany(t) {
+    this.setCursor(Number.POSITIVE_INFINITY), oa(this.left, t);
+  }
+  /**
+   * Inserts a single item to the low-numbered side of the array;
+   * Moves the cursor to `0`.
+   *
+   * @param {T} item
+   *   Item.
+   * @returns {undefined}
+   *   Nothing.
+   */
+  unshift(t) {
+    this.setCursor(0), this.right.push(t);
+  }
+  /**
+   * Inserts many items to the low-numbered side of the array;
+   * moves the cursor to `0`.
+   *
+   * @param {Array<T>} items
+   *   Items.
+   * @returns {undefined}
+   *   Nothing.
+   */
+  unshiftMany(t) {
+    this.setCursor(0), oa(this.right, t.reverse());
+  }
+  /**
+   * Move the cursor to a specific position in the array. Requires
+   * time proportional to the distance moved.
+   *
+   * If `n < 0`, the cursor will end up at the beginning.
+   * If `n > length`, the cursor will end up at the end.
+   *
+   * @param {number} n
+   *   Position.
+   * @return {undefined}
+   *   Nothing.
+   */
+  setCursor(t) {
+    if (!(t === this.left.length || t > this.left.length && this.right.length === 0 || t < 0 && this.left.length === 0))
+      if (t < this.left.length) {
+        const r = this.left.splice(t, Number.POSITIVE_INFINITY);
+        oa(this.right, r.reverse());
+      } else {
+        const r = this.right.splice(this.left.length + this.right.length - t, Number.POSITIVE_INFINITY);
+        oa(this.left, r.reverse());
+      }
+  }
+}
+function oa(e, t) {
+  let r = 0;
+  if (t.length < 1e4)
+    e.push(...t);
+  else
+    for (; r < t.length; )
+      e.push(...t.slice(r, r + 1e4)), r += 1e4;
+}
+function t1(e) {
+  const t = {};
+  let r = -1, o, a, s, u, f, p, m;
+  const y = new rC(e);
+  for (; ++r < y.length; ) {
+    for (; r in t; )
+      r = t[r];
+    if (o = y.get(r), r && o[1].type === "chunkFlow" && y.get(r - 1)[1].type === "listItemPrefix" && (p = o[1]._tokenizer.events, s = 0, s < p.length && p[s][1].type === "lineEndingBlank" && (s += 2), s < p.length && p[s][1].type === "content"))
+      for (; ++s < p.length && p[s][1].type !== "content"; )
+        p[s][1].type === "chunkText" && (p[s][1]._isInFirstContentOfListItem = !0, s++);
+    if (o[0] === "enter")
+      o[1].contentType && (Object.assign(t, iC(y, r)), r = t[r], m = !0);
+    else if (o[1]._container) {
+      for (s = r, a = void 0; s--; )
+        if (u = y.get(s), u[1].type === "lineEnding" || u[1].type === "lineEndingBlank")
+          u[0] === "enter" && (a && (y.get(a)[1].type = "lineEndingBlank"), u[1].type = "lineEnding", a = s);
+        else if (!(u[1].type === "linePrefix" || u[1].type === "listItemIndent")) break;
+      a && (o[1].end = {
+        ...y.get(a)[1].start
+      }, f = y.slice(a, r), f.unshift(o), y.splice(a, r - a + 1, f));
+    }
+  }
+  return Yn(e, 0, Number.POSITIVE_INFINITY, y.slice(0)), !m;
+}
+function iC(e, t) {
+  const r = e.get(t)[1], o = e.get(t)[2];
+  let a = t - 1;
+  const s = [];
+  let u = r._tokenizer;
+  u || (u = o.parser[r.contentType](r.start), r._contentTypeTextTrailing && (u._contentTypeTextTrailing = !0));
+  const f = u.events, p = [], m = {};
+  let y, v, _ = -1, k = r, T = 0, E = 0;
+  const L = [E];
+  for (; k; ) {
+    for (; e.get(++a)[1] !== k; )
+      ;
+    s.push(a), k._tokenizer || (y = o.sliceStream(k), k.next || y.push(null), v && u.defineSkip(k.start), k._isInFirstContentOfListItem && (u._gfmTasklistFirstContentOfListItem = !0), u.write(y), k._isInFirstContentOfListItem && (u._gfmTasklistFirstContentOfListItem = void 0)), v = k, k = k.next;
+  }
+  for (k = r; ++_ < f.length; )
+    // Find a void token that includes a break.
+    f[_][0] === "exit" && f[_ - 1][0] === "enter" && f[_][1].type === f[_ - 1][1].type && f[_][1].start.line !== f[_][1].end.line && (E = _ + 1, L.push(E), k._tokenizer = void 0, k.previous = void 0, k = k.next);
+  for (u.events = [], k ? (k._tokenizer = void 0, k.previous = void 0) : L.pop(), _ = L.length; _--; ) {
+    const M = f.slice(L[_], L[_ + 1]), V = s.pop();
+    p.push([V, V + M.length - 1]), e.splice(V, 2, M);
+  }
+  for (p.reverse(), _ = -1; ++_ < p.length; )
+    m[T + p[_][0]] = T + p[_][1], T += p[_][1] - p[_][0] - 1;
+  return m;
+}
+const oC = {
+  resolve: sC,
+  tokenize: lC
+}, aC = {
+  partial: !0,
+  tokenize: uC
+};
+function sC(e) {
+  return t1(e), e;
+}
+function lC(e, t) {
+  let r;
+  return o;
+  function o(f) {
+    return e.enter("content"), r = e.enter("chunkContent", {
+      contentType: "content"
+    }), a(f);
+  }
+  function a(f) {
+    return f === null ? s(f) : Pe(f) ? e.check(aC, u, s)(f) : (e.consume(f), a);
+  }
+  function s(f) {
+    return e.exit("chunkContent"), e.exit("content"), t(f);
+  }
+  function u(f) {
+    return e.consume(f), e.exit("chunkContent"), r.next = e.enter("chunkContent", {
+      contentType: "content",
+      previous: r
+    }), r = r.next, a;
+  }
+}
+function uC(e, t, r) {
+  const o = this;
+  return a;
+  function a(u) {
+    return e.exit("chunkContent"), e.enter("lineEnding"), e.consume(u), e.exit("lineEnding"), Ke(e, s, "linePrefix");
+  }
+  function s(u) {
+    if (u === null || Pe(u))
+      return r(u);
+    const f = o.events[o.events.length - 1];
+    return !o.parser.constructs.disable.null.includes("codeIndented") && f && f[1].type === "linePrefix" && f[2].sliceSerialize(f[1], !0).length >= 4 ? t(u) : e.interrupt(o.parser.constructs.flow, r, t)(u);
+  }
+}
+function n1(e, t, r, o, a, s, u, f, p) {
+  const m = p || Number.POSITIVE_INFINITY;
+  let y = 0;
+  return v;
+  function v(M) {
+    return M === 60 ? (e.enter(o), e.enter(a), e.enter(s), e.consume(M), e.exit(s), _) : M === null || M === 32 || M === 41 || Bd(M) ? r(M) : (e.enter(o), e.enter(u), e.enter(f), e.enter("chunkString", {
+      contentType: "string"
+    }), E(M));
+  }
+  function _(M) {
+    return M === 62 ? (e.enter(s), e.consume(M), e.exit(s), e.exit(a), e.exit(o), t) : (e.enter(f), e.enter("chunkString", {
+      contentType: "string"
+    }), k(M));
+  }
+  function k(M) {
+    return M === 62 ? (e.exit("chunkString"), e.exit(f), _(M)) : M === null || M === 60 || Pe(M) ? r(M) : (e.consume(M), M === 92 ? T : k);
+  }
+  function T(M) {
+    return M === 60 || M === 62 || M === 92 ? (e.consume(M), k) : k(M);
+  }
+  function E(M) {
+    return !y && (M === null || M === 41 || Kt(M)) ? (e.exit("chunkString"), e.exit(f), e.exit(u), e.exit(o), t(M)) : y < m && M === 40 ? (e.consume(M), y++, E) : M === 41 ? (e.consume(M), y--, E) : M === null || M === 32 || M === 40 || Bd(M) ? r(M) : (e.consume(M), M === 92 ? L : E);
+  }
+  function L(M) {
+    return M === 40 || M === 41 || M === 92 ? (e.consume(M), E) : E(M);
+  }
+}
+function r1(e, t, r, o, a, s) {
+  const u = this;
+  let f = 0, p;
+  return m;
+  function m(k) {
+    return e.enter(o), e.enter(a), e.consume(k), e.exit(a), e.enter(s), y;
+  }
+  function y(k) {
+    return f > 999 || k === null || k === 91 || k === 93 && !p || // To do: remove in the future once we’ve switched from
+    // `micromark-extension-footnote` to `micromark-extension-gfm-footnote`,
+    // which doesn’t need this.
+    // Hidden footnotes hook.
+    /* c8 ignore next 3 */
+    k === 94 && !f && "_hiddenFootnoteSupport" in u.parser.constructs ? r(k) : k === 93 ? (e.exit(s), e.enter(a), e.consume(k), e.exit(a), e.exit(o), t) : Pe(k) ? (e.enter("lineEnding"), e.consume(k), e.exit("lineEnding"), y) : (e.enter("chunkString", {
+      contentType: "string"
+    }), v(k));
+  }
+  function v(k) {
+    return k === null || k === 91 || k === 93 || Pe(k) || f++ > 999 ? (e.exit("chunkString"), y(k)) : (e.consume(k), p || (p = !Ue(k)), k === 92 ? _ : v);
+  }
+  function _(k) {
+    return k === 91 || k === 92 || k === 93 ? (e.consume(k), f++, v) : v(k);
+  }
+}
+function i1(e, t, r, o, a, s) {
+  let u;
+  return f;
+  function f(_) {
+    return _ === 34 || _ === 39 || _ === 40 ? (e.enter(o), e.enter(a), e.consume(_), e.exit(a), u = _ === 40 ? 41 : _, p) : r(_);
+  }
+  function p(_) {
+    return _ === u ? (e.enter(a), e.consume(_), e.exit(a), e.exit(o), t) : (e.enter(s), m(_));
+  }
+  function m(_) {
+    return _ === u ? (e.exit(s), p(u)) : _ === null ? r(_) : Pe(_) ? (e.enter("lineEnding"), e.consume(_), e.exit("lineEnding"), Ke(e, m, "linePrefix")) : (e.enter("chunkString", {
+      contentType: "string"
+    }), y(_));
+  }
+  function y(_) {
+    return _ === u || _ === null || Pe(_) ? (e.exit("chunkString"), m(_)) : (e.consume(_), _ === 92 ? v : y);
+  }
+  function v(_) {
+    return _ === u || _ === 92 ? (e.consume(_), y) : y(_);
+  }
+}
+function ha(e, t) {
+  let r;
+  return o;
+  function o(a) {
+    return Pe(a) ? (e.enter("lineEnding"), e.consume(a), e.exit("lineEnding"), r = !0, o) : Ue(a) ? Ke(e, o, r ? "linePrefix" : "lineSuffix")(a) : t(a);
+  }
+}
+const cC = {
+  name: "definition",
+  tokenize: fC
+}, dC = {
+  partial: !0,
+  tokenize: pC
+};
+function fC(e, t, r) {
+  const o = this;
+  let a;
+  return s;
+  function s(k) {
+    return e.enter("definition"), u(k);
+  }
+  function u(k) {
+    return r1.call(
+      o,
+      e,
+      f,
+      // Note: we don’t need to reset the way `markdown-rs` does.
+      r,
+      "definitionLabel",
+      "definitionLabelMarker",
+      "definitionLabelString"
+    )(k);
+  }
+  function f(k) {
+    return a = io(o.sliceSerialize(o.events[o.events.length - 1][1]).slice(1, -1)), k === 58 ? (e.enter("definitionMarker"), e.consume(k), e.exit("definitionMarker"), p) : r(k);
+  }
+  function p(k) {
+    return Kt(k) ? ha(e, m)(k) : m(k);
+  }
+  function m(k) {
+    return n1(
+      e,
+      y,
+      // Note: we don’t need to reset the way `markdown-rs` does.
+      r,
+      "definitionDestination",
+      "definitionDestinationLiteral",
+      "definitionDestinationLiteralMarker",
+      "definitionDestinationRaw",
+      "definitionDestinationString"
+    )(k);
+  }
+  function y(k) {
+    return e.attempt(dC, v, v)(k);
+  }
+  function v(k) {
+    return Ue(k) ? Ke(e, _, "whitespace")(k) : _(k);
+  }
+  function _(k) {
+    return k === null || Pe(k) ? (e.exit("definition"), o.parser.defined.push(a), t(k)) : r(k);
+  }
+}
+function pC(e, t, r) {
+  return o;
+  function o(f) {
+    return Kt(f) ? ha(e, a)(f) : r(f);
+  }
+  function a(f) {
+    return i1(e, s, r, "definitionTitle", "definitionTitleMarker", "definitionTitleString")(f);
+  }
+  function s(f) {
+    return Ue(f) ? Ke(e, u, "whitespace")(f) : u(f);
+  }
+  function u(f) {
+    return f === null || Pe(f) ? t(f) : r(f);
+  }
+}
+const hC = {
+  name: "hardBreakEscape",
+  tokenize: mC
+};
+function mC(e, t, r) {
+  return o;
+  function o(s) {
+    return e.enter("hardBreakEscape"), e.consume(s), a;
+  }
+  function a(s) {
+    return Pe(s) ? (e.exit("hardBreakEscape"), t(s)) : r(s);
+  }
+}
+const gC = {
+  name: "headingAtx",
+  resolve: yC,
+  tokenize: vC
+};
+function yC(e, t) {
+  let r = e.length - 2, o = 3, a, s;
+  return e[o][1].type === "whitespace" && (o += 2), r - 2 > o && e[r][1].type === "whitespace" && (r -= 2), e[r][1].type === "atxHeadingSequence" && (o === r - 1 || r - 4 > o && e[r - 2][1].type === "whitespace") && (r -= o + 1 === r ? 2 : 4), r > o && (a = {
+    type: "atxHeadingText",
+    start: e[o][1].start,
+    end: e[r][1].end
+  }, s = {
+    type: "chunkText",
+    start: e[o][1].start,
+    end: e[r][1].end,
+    contentType: "text"
+  }, Yn(e, o, r - o + 1, [["enter", a, t], ["enter", s, t], ["exit", s, t], ["exit", a, t]])), e;
+}
+function vC(e, t, r) {
+  let o = 0;
+  return a;
+  function a(y) {
+    return e.enter("atxHeading"), s(y);
+  }
+  function s(y) {
+    return e.enter("atxHeadingSequence"), u(y);
+  }
+  function u(y) {
+    return y === 35 && o++ < 6 ? (e.consume(y), u) : y === null || Kt(y) ? (e.exit("atxHeadingSequence"), f(y)) : r(y);
+  }
+  function f(y) {
+    return y === 35 ? (e.enter("atxHeadingSequence"), p(y)) : y === null || Pe(y) ? (e.exit("atxHeading"), t(y)) : Ue(y) ? Ke(e, f, "whitespace")(y) : (e.enter("atxHeadingText"), m(y));
+  }
+  function p(y) {
+    return y === 35 ? (e.consume(y), p) : (e.exit("atxHeadingSequence"), f(y));
+  }
+  function m(y) {
+    return y === null || y === 35 || Kt(y) ? (e.exit("atxHeadingText"), f(y)) : (e.consume(y), m);
+  }
+}
+const wC = [
+  "address",
+  "article",
+  "aside",
+  "base",
+  "basefont",
+  "blockquote",
+  "body",
+  "caption",
+  "center",
+  "col",
+  "colgroup",
+  "dd",
+  "details",
+  "dialog",
+  "dir",
+  "div",
+  "dl",
+  "dt",
+  "fieldset",
+  "figcaption",
+  "figure",
+  "footer",
+  "form",
+  "frame",
+  "frameset",
+  "h1",
+  "h2",
+  "h3",
+  "h4",
+  "h5",
+  "h6",
+  "head",
+  "header",
+  "hr",
+  "html",
+  "iframe",
+  "legend",
+  "li",
+  "link",
+  "main",
+  "menu",
+  "menuitem",
+  "nav",
+  "noframes",
+  "ol",
+  "optgroup",
+  "option",
+  "p",
+  "param",
+  "search",
+  "section",
+  "summary",
+  "table",
+  "tbody",
+  "td",
+  "tfoot",
+  "th",
+  "thead",
+  "title",
+  "tr",
+  "track",
+  "ul"
+], Sy = ["pre", "script", "style", "textarea"], SC = {
+  concrete: !0,
+  name: "htmlFlow",
+  resolveTo: bC,
+  tokenize: EC
+}, kC = {
+  partial: !0,
+  tokenize: xC
+}, _C = {
+  partial: !0,
+  tokenize: CC
+};
+function bC(e) {
+  let t = e.length;
+  for (; t-- && !(e[t][0] === "enter" && e[t][1].type === "htmlFlow"); )
+    ;
+  return t > 1 && e[t - 2][1].type === "linePrefix" && (e[t][1].start = e[t - 2][1].start, e[t + 1][1].start = e[t - 2][1].start, e.splice(t - 2, 2)), e;
+}
+function EC(e, t, r) {
+  const o = this;
+  let a, s, u, f, p;
+  return m;
+  function m(d) {
+    return y(d);
+  }
+  function y(d) {
+    return e.enter("htmlFlow"), e.enter("htmlFlowData"), e.consume(d), v;
+  }
+  function v(d) {
+    return d === 33 ? (e.consume(d), _) : d === 47 ? (e.consume(d), s = !0, E) : d === 63 ? (e.consume(d), a = 3, o.interrupt ? t : C) : Gn(d) ? (e.consume(d), u = String.fromCharCode(d), L) : r(d);
+  }
+  function _(d) {
+    return d === 45 ? (e.consume(d), a = 2, k) : d === 91 ? (e.consume(d), a = 5, f = 0, T) : Gn(d) ? (e.consume(d), a = 4, o.interrupt ? t : C) : r(d);
+  }
+  function k(d) {
+    return d === 45 ? (e.consume(d), o.interrupt ? t : C) : r(d);
+  }
+  function T(d) {
+    const S = "CDATA[";
+    return d === S.charCodeAt(f++) ? (e.consume(d), f === S.length ? o.interrupt ? t : le : T) : r(d);
+  }
+  function E(d) {
+    return Gn(d) ? (e.consume(d), u = String.fromCharCode(d), L) : r(d);
+  }
+  function L(d) {
+    if (d === null || d === 47 || d === 62 || Kt(d)) {
+      const S = d === 47, w = u.toLowerCase();
+      return !S && !s && Sy.includes(w) ? (a = 1, o.interrupt ? t(d) : le(d)) : wC.includes(u.toLowerCase()) ? (a = 6, S ? (e.consume(d), M) : o.interrupt ? t(d) : le(d)) : (a = 7, o.interrupt && !o.parser.lazy[o.now().line] ? r(d) : s ? V(d) : B(d));
+    }
+    return d === 45 || dn(d) ? (e.consume(d), u += String.fromCharCode(d), L) : r(d);
+  }
+  function M(d) {
+    return d === 62 ? (e.consume(d), o.interrupt ? t : le) : r(d);
+  }
+  function V(d) {
+    return Ue(d) ? (e.consume(d), V) : X(d);
+  }
+  function B(d) {
+    return d === 47 ? (e.consume(d), X) : d === 58 || d === 95 || Gn(d) ? (e.consume(d), j) : Ue(d) ? (e.consume(d), B) : X(d);
+  }
+  function j(d) {
+    return d === 45 || d === 46 || d === 58 || d === 95 || dn(d) ? (e.consume(d), j) : N(d);
+  }
+  function N(d) {
+    return d === 61 ? (e.consume(d), A) : Ue(d) ? (e.consume(d), N) : B(d);
+  }
+  function A(d) {
+    return d === null || d === 60 || d === 61 || d === 62 || d === 96 ? r(d) : d === 34 || d === 39 ? (e.consume(d), p = d, H) : Ue(d) ? (e.consume(d), A) : z(d);
+  }
+  function H(d) {
+    return d === p ? (e.consume(d), p = null, ae) : d === null || Pe(d) ? r(d) : (e.consume(d), H);
+  }
+  function z(d) {
+    return d === null || d === 34 || d === 39 || d === 47 || d === 60 || d === 61 || d === 62 || d === 96 || Kt(d) ? N(d) : (e.consume(d), z);
+  }
+  function ae(d) {
+    return d === 47 || d === 62 || Ue(d) ? B(d) : r(d);
+  }
+  function X(d) {
+    return d === 62 ? (e.consume(d), ne) : r(d);
+  }
+  function ne(d) {
+    return d === null || Pe(d) ? le(d) : Ue(d) ? (e.consume(d), ne) : r(d);
+  }
+  function le(d) {
+    return d === 45 && a === 2 ? (e.consume(d), be) : d === 60 && a === 1 ? (e.consume(d), ve) : d === 62 && a === 4 ? (e.consume(d), I) : d === 63 && a === 3 ? (e.consume(d), C) : d === 93 && a === 5 ? (e.consume(d), re) : Pe(d) && (a === 6 || a === 7) ? (e.exit("htmlFlowData"), e.check(kC, G, pe)(d)) : d === null || Pe(d) ? (e.exit("htmlFlowData"), pe(d)) : (e.consume(d), le);
+  }
+  function pe(d) {
+    return e.check(_C, q, G)(d);
+  }
+  function q(d) {
+    return e.enter("lineEnding"), e.consume(d), e.exit("lineEnding"), ue;
+  }
+  function ue(d) {
+    return d === null || Pe(d) ? pe(d) : (e.enter("htmlFlowData"), le(d));
+  }
+  function be(d) {
+    return d === 45 ? (e.consume(d), C) : le(d);
+  }
+  function ve(d) {
+    return d === 47 ? (e.consume(d), u = "", Y) : le(d);
+  }
+  function Y(d) {
+    if (d === 62) {
+      const S = u.toLowerCase();
+      return Sy.includes(S) ? (e.consume(d), I) : le(d);
+    }
+    return Gn(d) && u.length < 8 ? (e.consume(d), u += String.fromCharCode(d), Y) : le(d);
+  }
+  function re(d) {
+    return d === 93 ? (e.consume(d), C) : le(d);
+  }
+  function C(d) {
+    return d === 62 ? (e.consume(d), I) : d === 45 && a === 2 ? (e.consume(d), C) : le(d);
+  }
+  function I(d) {
+    return d === null || Pe(d) ? (e.exit("htmlFlowData"), G(d)) : (e.consume(d), I);
+  }
+  function G(d) {
+    return e.exit("htmlFlow"), t(d);
+  }
+}
+function CC(e, t, r) {
+  const o = this;
+  return a;
+  function a(u) {
+    return Pe(u) ? (e.enter("lineEnding"), e.consume(u), e.exit("lineEnding"), s) : r(u);
+  }
+  function s(u) {
+    return o.parser.lazy[o.now().line] ? r(u) : t(u);
+  }
+}
+function xC(e, t, r) {
+  return o;
+  function o(a) {
+    return e.enter("lineEnding"), e.consume(a), e.exit("lineEnding"), e.attempt(Il, t, r);
+  }
+}
+const TC = {
+  name: "htmlText",
+  tokenize: AC
+};
+function AC(e, t, r) {
+  const o = this;
+  let a, s, u;
+  return f;
+  function f(C) {
+    return e.enter("htmlText"), e.enter("htmlTextData"), e.consume(C), p;
+  }
+  function p(C) {
+    return C === 33 ? (e.consume(C), m) : C === 47 ? (e.consume(C), N) : C === 63 ? (e.consume(C), B) : Gn(C) ? (e.consume(C), z) : r(C);
+  }
+  function m(C) {
+    return C === 45 ? (e.consume(C), y) : C === 91 ? (e.consume(C), s = 0, T) : Gn(C) ? (e.consume(C), V) : r(C);
+  }
+  function y(C) {
+    return C === 45 ? (e.consume(C), k) : r(C);
+  }
+  function v(C) {
+    return C === null ? r(C) : C === 45 ? (e.consume(C), _) : Pe(C) ? (u = v, ve(C)) : (e.consume(C), v);
+  }
+  function _(C) {
+    return C === 45 ? (e.consume(C), k) : v(C);
+  }
+  function k(C) {
+    return C === 62 ? be(C) : C === 45 ? _(C) : v(C);
+  }
+  function T(C) {
+    const I = "CDATA[";
+    return C === I.charCodeAt(s++) ? (e.consume(C), s === I.length ? E : T) : r(C);
+  }
+  function E(C) {
+    return C === null ? r(C) : C === 93 ? (e.consume(C), L) : Pe(C) ? (u = E, ve(C)) : (e.consume(C), E);
+  }
+  function L(C) {
+    return C === 93 ? (e.consume(C), M) : E(C);
+  }
+  function M(C) {
+    return C === 62 ? be(C) : C === 93 ? (e.consume(C), M) : E(C);
+  }
+  function V(C) {
+    return C === null || C === 62 ? be(C) : Pe(C) ? (u = V, ve(C)) : (e.consume(C), V);
+  }
+  function B(C) {
+    return C === null ? r(C) : C === 63 ? (e.consume(C), j) : Pe(C) ? (u = B, ve(C)) : (e.consume(C), B);
+  }
+  function j(C) {
+    return C === 62 ? be(C) : B(C);
+  }
+  function N(C) {
+    return Gn(C) ? (e.consume(C), A) : r(C);
+  }
+  function A(C) {
+    return C === 45 || dn(C) ? (e.consume(C), A) : H(C);
+  }
+  function H(C) {
+    return Pe(C) ? (u = H, ve(C)) : Ue(C) ? (e.consume(C), H) : be(C);
+  }
+  function z(C) {
+    return C === 45 || dn(C) ? (e.consume(C), z) : C === 47 || C === 62 || Kt(C) ? ae(C) : r(C);
+  }
+  function ae(C) {
+    return C === 47 ? (e.consume(C), be) : C === 58 || C === 95 || Gn(C) ? (e.consume(C), X) : Pe(C) ? (u = ae, ve(C)) : Ue(C) ? (e.consume(C), ae) : be(C);
+  }
+  function X(C) {
+    return C === 45 || C === 46 || C === 58 || C === 95 || dn(C) ? (e.consume(C), X) : ne(C);
+  }
+  function ne(C) {
+    return C === 61 ? (e.consume(C), le) : Pe(C) ? (u = ne, ve(C)) : Ue(C) ? (e.consume(C), ne) : ae(C);
+  }
+  function le(C) {
+    return C === null || C === 60 || C === 61 || C === 62 || C === 96 ? r(C) : C === 34 || C === 39 ? (e.consume(C), a = C, pe) : Pe(C) ? (u = le, ve(C)) : Ue(C) ? (e.consume(C), le) : (e.consume(C), q);
+  }
+  function pe(C) {
+    return C === a ? (e.consume(C), a = void 0, ue) : C === null ? r(C) : Pe(C) ? (u = pe, ve(C)) : (e.consume(C), pe);
+  }
+  function q(C) {
+    return C === null || C === 34 || C === 39 || C === 60 || C === 61 || C === 96 ? r(C) : C === 47 || C === 62 || Kt(C) ? ae(C) : (e.consume(C), q);
+  }
+  function ue(C) {
+    return C === 47 || C === 62 || Kt(C) ? ae(C) : r(C);
+  }
+  function be(C) {
+    return C === 62 ? (e.consume(C), e.exit("htmlTextData"), e.exit("htmlText"), t) : r(C);
+  }
+  function ve(C) {
+    return e.exit("htmlTextData"), e.enter("lineEnding"), e.consume(C), e.exit("lineEnding"), Y;
+  }
+  function Y(C) {
+    return Ue(C) ? Ke(e, re, "linePrefix", o.parser.constructs.disable.null.includes("codeIndented") ? void 0 : 4)(C) : re(C);
+  }
+  function re(C) {
+    return e.enter("htmlTextData"), u(C);
+  }
+}
+const _f = {
+  name: "labelEnd",
+  resolveAll: IC,
+  resolveTo: LC,
+  tokenize: DC
+}, MC = {
+  tokenize: jC
+}, PC = {
+  tokenize: NC
+}, OC = {
+  tokenize: RC
+};
+function IC(e) {
+  let t = -1;
+  const r = [];
+  for (; ++t < e.length; ) {
+    const o = e[t][1];
+    if (r.push(e[t]), o.type === "labelImage" || o.type === "labelLink" || o.type === "labelEnd") {
+      const a = o.type === "labelImage" ? 4 : 2;
+      o.type = "data", t += a;
+    }
+  }
+  return e.length !== r.length && Yn(e, 0, e.length, r), e;
+}
+function LC(e, t) {
+  let r = e.length, o = 0, a, s, u, f;
+  for (; r--; )
+    if (a = e[r][1], s) {
+      if (a.type === "link" || a.type === "labelLink" && a._inactive)
+        break;
+      e[r][0] === "enter" && a.type === "labelLink" && (a._inactive = !0);
+    } else if (u) {
+      if (e[r][0] === "enter" && (a.type === "labelImage" || a.type === "labelLink") && !a._balanced && (s = r, a.type !== "labelLink")) {
+        o = 2;
+        break;
+      }
+    } else a.type === "labelEnd" && (u = r);
+  const p = {
+    type: e[s][1].type === "labelLink" ? "link" : "image",
+    start: {
+      ...e[s][1].start
+    },
+    end: {
+      ...e[e.length - 1][1].end
+    }
+  }, m = {
+    type: "label",
+    start: {
+      ...e[s][1].start
+    },
+    end: {
+      ...e[u][1].end
+    }
+  }, y = {
+    type: "labelText",
+    start: {
+      ...e[s + o + 2][1].end
+    },
+    end: {
+      ...e[u - 2][1].start
+    }
+  };
+  return f = [["enter", p, t], ["enter", m, t]], f = _n(f, e.slice(s + 1, s + o + 3)), f = _n(f, [["enter", y, t]]), f = _n(f, kf(t.parser.constructs.insideSpan.null, e.slice(s + o + 4, u - 3), t)), f = _n(f, [["exit", y, t], e[u - 2], e[u - 1], ["exit", m, t]]), f = _n(f, e.slice(u + 1)), f = _n(f, [["exit", p, t]]), Yn(e, s, e.length, f), e;
+}
+function DC(e, t, r) {
+  const o = this;
+  let a = o.events.length, s, u;
+  for (; a--; )
+    if ((o.events[a][1].type === "labelImage" || o.events[a][1].type === "labelLink") && !o.events[a][1]._balanced) {
+      s = o.events[a][1];
+      break;
+    }
+  return f;
+  function f(_) {
+    return s ? s._inactive ? v(_) : (u = o.parser.defined.includes(io(o.sliceSerialize({
+      start: s.end,
+      end: o.now()
+    }))), e.enter("labelEnd"), e.enter("labelMarker"), e.consume(_), e.exit("labelMarker"), e.exit("labelEnd"), p) : r(_);
+  }
+  function p(_) {
+    return _ === 40 ? e.attempt(MC, y, u ? y : v)(_) : _ === 91 ? e.attempt(PC, y, u ? m : v)(_) : u ? y(_) : v(_);
+  }
+  function m(_) {
+    return e.attempt(OC, y, v)(_);
+  }
+  function y(_) {
+    return t(_);
+  }
+  function v(_) {
+    return s._balanced = !0, r(_);
+  }
+}
+function jC(e, t, r) {
+  return o;
+  function o(v) {
+    return e.enter("resource"), e.enter("resourceMarker"), e.consume(v), e.exit("resourceMarker"), a;
+  }
+  function a(v) {
+    return Kt(v) ? ha(e, s)(v) : s(v);
+  }
+  function s(v) {
+    return v === 41 ? y(v) : n1(e, u, f, "resourceDestination", "resourceDestinationLiteral", "resourceDestinationLiteralMarker", "resourceDestinationRaw", "resourceDestinationString", 32)(v);
+  }
+  function u(v) {
+    return Kt(v) ? ha(e, p)(v) : y(v);
+  }
+  function f(v) {
+    return r(v);
+  }
+  function p(v) {
+    return v === 34 || v === 39 || v === 40 ? i1(e, m, r, "resourceTitle", "resourceTitleMarker", "resourceTitleString")(v) : y(v);
+  }
+  function m(v) {
+    return Kt(v) ? ha(e, y)(v) : y(v);
+  }
+  function y(v) {
+    return v === 41 ? (e.enter("resourceMarker"), e.consume(v), e.exit("resourceMarker"), e.exit("resource"), t) : r(v);
+  }
+}
+function NC(e, t, r) {
+  const o = this;
+  return a;
+  function a(f) {
+    return r1.call(o, e, s, u, "reference", "referenceMarker", "referenceString")(f);
+  }
+  function s(f) {
+    return o.parser.defined.includes(io(o.sliceSerialize(o.events[o.events.length - 1][1]).slice(1, -1))) ? t(f) : r(f);
+  }
+  function u(f) {
+    return r(f);
+  }
+}
+function RC(e, t, r) {
+  return o;
+  function o(s) {
+    return e.enter("reference"), e.enter("referenceMarker"), e.consume(s), e.exit("referenceMarker"), a;
+  }
+  function a(s) {
+    return s === 93 ? (e.enter("referenceMarker"), e.consume(s), e.exit("referenceMarker"), e.exit("reference"), t) : r(s);
+  }
+}
+const FC = {
+  name: "labelStartImage",
+  resolveAll: _f.resolveAll,
+  tokenize: VC
+};
+function VC(e, t, r) {
+  const o = this;
+  return a;
+  function a(f) {
+    return e.enter("labelImage"), e.enter("labelImageMarker"), e.consume(f), e.exit("labelImageMarker"), s;
+  }
+  function s(f) {
+    return f === 91 ? (e.enter("labelMarker"), e.consume(f), e.exit("labelMarker"), e.exit("labelImage"), u) : r(f);
+  }
+  function u(f) {
+    return f === 94 && "_hiddenFootnoteSupport" in o.parser.constructs ? r(f) : t(f);
+  }
+}
+const zC = {
+  name: "labelStartLink",
+  resolveAll: _f.resolveAll,
+  tokenize: BC
+};
+function BC(e, t, r) {
+  const o = this;
+  return a;
+  function a(u) {
+    return e.enter("labelLink"), e.enter("labelMarker"), e.consume(u), e.exit("labelMarker"), e.exit("labelLink"), s;
+  }
+  function s(u) {
+    return u === 94 && "_hiddenFootnoteSupport" in o.parser.constructs ? r(u) : t(u);
+  }
+}
+const Yc = {
+  name: "lineEnding",
+  tokenize: UC
+};
+function UC(e, t) {
+  return r;
+  function r(o) {
+    return e.enter("lineEnding"), e.consume(o), e.exit("lineEnding"), Ke(e, t, "linePrefix");
+  }
+}
+const sl = {
+  name: "thematicBreak",
+  tokenize: qC
+};
+function qC(e, t, r) {
+  let o = 0, a;
+  return s;
+  function s(m) {
+    return e.enter("thematicBreak"), u(m);
+  }
+  function u(m) {
+    return a = m, f(m);
+  }
+  function f(m) {
+    return m === a ? (e.enter("thematicBreakSequence"), p(m)) : o >= 3 && (m === null || Pe(m)) ? (e.exit("thematicBreak"), t(m)) : r(m);
+  }
+  function p(m) {
+    return m === a ? (e.consume(m), o++, p) : (e.exit("thematicBreakSequence"), Ue(m) ? Ke(e, f, "whitespace")(m) : f(m));
+  }
+}
+const Zt = {
+  continuation: {
+    tokenize: WC
+  },
+  exit: YC,
+  name: "list",
+  tokenize: JC
+}, $C = {
+  partial: !0,
+  tokenize: QC
+}, HC = {
+  partial: !0,
+  tokenize: GC
+};
+function JC(e, t, r) {
+  const o = this, a = o.events[o.events.length - 1];
+  let s = a && a[1].type === "linePrefix" ? a[2].sliceSerialize(a[1], !0).length : 0, u = 0;
+  return f;
+  function f(k) {
+    const T = o.containerState.type || (k === 42 || k === 43 || k === 45 ? "listUnordered" : "listOrdered");
+    if (T === "listUnordered" ? !o.containerState.marker || k === o.containerState.marker : Ud(k)) {
+      if (o.containerState.type || (o.containerState.type = T, e.enter(T, {
+        _container: !0
+      })), T === "listUnordered")
+        return e.enter("listItemPrefix"), k === 42 || k === 45 ? e.check(sl, r, m)(k) : m(k);
+      if (!o.interrupt || k === 49)
+        return e.enter("listItemPrefix"), e.enter("listItemValue"), p(k);
+    }
+    return r(k);
+  }
+  function p(k) {
+    return Ud(k) && ++u < 10 ? (e.consume(k), p) : (!o.interrupt || u < 2) && (o.containerState.marker ? k === o.containerState.marker : k === 41 || k === 46) ? (e.exit("listItemValue"), m(k)) : r(k);
+  }
+  function m(k) {
+    return e.enter("listItemMarker"), e.consume(k), e.exit("listItemMarker"), o.containerState.marker = o.containerState.marker || k, e.check(
+      Il,
+      // Can’t be empty when interrupting.
+      o.interrupt ? r : y,
+      e.attempt($C, _, v)
+    );
+  }
+  function y(k) {
+    return o.containerState.initialBlankLine = !0, s++, _(k);
+  }
+  function v(k) {
+    return Ue(k) ? (e.enter("listItemPrefixWhitespace"), e.consume(k), e.exit("listItemPrefixWhitespace"), _) : r(k);
+  }
+  function _(k) {
+    return o.containerState.size = s + o.sliceSerialize(e.exit("listItemPrefix"), !0).length, t(k);
+  }
+}
+function WC(e, t, r) {
+  const o = this;
+  return o.containerState._closeFlow = void 0, e.check(Il, a, s);
+  function a(f) {
+    return o.containerState.furtherBlankLines = o.containerState.furtherBlankLines || o.containerState.initialBlankLine, Ke(e, t, "listItemIndent", o.containerState.size + 1)(f);
+  }
+  function s(f) {
+    return o.containerState.furtherBlankLines || !Ue(f) ? (o.containerState.furtherBlankLines = void 0, o.containerState.initialBlankLine = void 0, u(f)) : (o.containerState.furtherBlankLines = void 0, o.containerState.initialBlankLine = void 0, e.attempt(HC, t, u)(f));
+  }
+  function u(f) {
+    return o.containerState._closeFlow = !0, o.interrupt = void 0, Ke(e, e.attempt(Zt, t, r), "linePrefix", o.parser.constructs.disable.null.includes("codeIndented") ? void 0 : 4)(f);
+  }
+}
+function GC(e, t, r) {
+  const o = this;
+  return Ke(e, a, "listItemIndent", o.containerState.size + 1);
+  function a(s) {
+    const u = o.events[o.events.length - 1];
+    return u && u[1].type === "listItemIndent" && u[2].sliceSerialize(u[1], !0).length === o.containerState.size ? t(s) : r(s);
+  }
+}
+function YC(e) {
+  e.exit(this.containerState.type);
+}
+function QC(e, t, r) {
+  const o = this;
+  return Ke(e, a, "listItemPrefixWhitespace", o.parser.constructs.disable.null.includes("codeIndented") ? void 0 : 5);
+  function a(s) {
+    const u = o.events[o.events.length - 1];
+    return !Ue(s) && u && u[1].type === "listItemPrefixWhitespace" ? t(s) : r(s);
+  }
+}
+const ky = {
+  name: "setextUnderline",
+  resolveTo: ZC,
+  tokenize: KC
+};
+function ZC(e, t) {
+  let r = e.length, o, a, s;
+  for (; r--; )
+    if (e[r][0] === "enter") {
+      if (e[r][1].type === "content") {
+        o = r;
+        break;
+      }
+      e[r][1].type === "paragraph" && (a = r);
+    } else
+      e[r][1].type === "content" && e.splice(r, 1), !s && e[r][1].type === "definition" && (s = r);
+  const u = {
+    type: "setextHeading",
+    start: {
+      ...e[o][1].start
+    },
+    end: {
+      ...e[e.length - 1][1].end
+    }
+  };
+  return e[a][1].type = "setextHeadingText", s ? (e.splice(a, 0, ["enter", u, t]), e.splice(s + 1, 0, ["exit", e[o][1], t]), e[o][1].end = {
+    ...e[s][1].end
+  }) : e[o][1] = u, e.push(["exit", u, t]), e;
+}
+function KC(e, t, r) {
+  const o = this;
+  let a;
+  return s;
+  function s(m) {
+    let y = o.events.length, v;
+    for (; y--; )
+      if (o.events[y][1].type !== "lineEnding" && o.events[y][1].type !== "linePrefix" && o.events[y][1].type !== "content") {
+        v = o.events[y][1].type === "paragraph";
+        break;
+      }
+    return !o.parser.lazy[o.now().line] && (o.interrupt || v) ? (e.enter("setextHeadingLine"), a = m, u(m)) : r(m);
+  }
+  function u(m) {
+    return e.enter("setextHeadingLineSequence"), f(m);
+  }
+  function f(m) {
+    return m === a ? (e.consume(m), f) : (e.exit("setextHeadingLineSequence"), Ue(m) ? Ke(e, p, "lineSuffix")(m) : p(m));
+  }
+  function p(m) {
+    return m === null || Pe(m) ? (e.exit("setextHeadingLine"), t(m)) : r(m);
+  }
+}
+const XC = {
+  tokenize: e2
+};
+function e2(e) {
+  const t = this, r = e.attempt(
+    // Try to parse a blank line.
+    Il,
+    o,
+    // Try to parse initial flow (essentially, only code).
+    e.attempt(this.parser.constructs.flowInitial, a, Ke(e, e.attempt(this.parser.constructs.flow, a, e.attempt(oC, a)), "linePrefix"))
+  );
+  return r;
+  function o(s) {
+    if (s === null) {
+      e.consume(s);
+      return;
+    }
+    return e.enter("lineEndingBlank"), e.consume(s), e.exit("lineEndingBlank"), t.currentConstruct = void 0, r;
+  }
+  function a(s) {
+    if (s === null) {
+      e.consume(s);
+      return;
+    }
+    return e.enter("lineEnding"), e.consume(s), e.exit("lineEnding"), t.currentConstruct = void 0, r;
+  }
+}
+const t2 = {
+  resolveAll: a1()
+}, n2 = o1("string"), r2 = o1("text");
+function o1(e) {
+  return {
+    resolveAll: a1(e === "text" ? i2 : void 0),
+    tokenize: t
+  };
+  function t(r) {
+    const o = this, a = this.parser.constructs[e], s = r.attempt(a, u, f);
+    return u;
+    function u(y) {
+      return m(y) ? s(y) : f(y);
+    }
+    function f(y) {
+      if (y === null) {
+        r.consume(y);
+        return;
+      }
+      return r.enter("data"), r.consume(y), p;
+    }
+    function p(y) {
+      return m(y) ? (r.exit("data"), s(y)) : (r.consume(y), p);
+    }
+    function m(y) {
+      if (y === null)
+        return !0;
+      const v = a[y];
+      let _ = -1;
+      if (v)
+        for (; ++_ < v.length; ) {
+          const k = v[_];
+          if (!k.previous || k.previous.call(o, o.previous))
+            return !0;
+        }
+      return !1;
+    }
+  }
+}
+function a1(e) {
+  return t;
+  function t(r, o) {
+    let a = -1, s;
+    for (; ++a <= r.length; )
+      s === void 0 ? r[a] && r[a][1].type === "data" && (s = a, a++) : (!r[a] || r[a][1].type !== "data") && (a !== s + 2 && (r[s][1].end = r[a - 1][1].end, r.splice(s + 2, a - s - 2), a = s + 2), s = void 0);
+    return e ? e(r, o) : r;
+  }
+}
+function i2(e, t) {
+  let r = 0;
+  for (; ++r <= e.length; )
+    if ((r === e.length || e[r][1].type === "lineEnding") && e[r - 1][1].type === "data") {
+      const o = e[r - 1][1], a = t.sliceStream(o);
+      let s = a.length, u = -1, f = 0, p;
+      for (; s--; ) {
+        const m = a[s];
+        if (typeof m == "string") {
+          for (u = m.length; m.charCodeAt(u - 1) === 32; )
+            f++, u--;
+          if (u) break;
+          u = -1;
+        } else if (m === -2)
+          p = !0, f++;
+        else if (m !== -1) {
+          s++;
+          break;
+        }
+      }
+      if (t._contentTypeTextTrailing && r === e.length && (f = 0), f) {
+        const m = {
+          type: r === e.length || p || f < 2 ? "lineSuffix" : "hardBreakTrailing",
+          start: {
+            _bufferIndex: s ? u : o.start._bufferIndex + u,
+            _index: o.start._index + s,
+            line: o.end.line,
+            column: o.end.column - f,
+            offset: o.end.offset - f
+          },
+          end: {
+            ...o.end
+          }
+        };
+        o.end = {
+          ...m.start
+        }, o.start.offset === o.end.offset ? Object.assign(o, m) : (e.splice(r, 0, ["enter", m, t], ["exit", m, t]), r += 2);
+      }
+      r++;
+    }
+  return e;
+}
+const o2 = {
+  42: Zt,
+  43: Zt,
+  45: Zt,
+  48: Zt,
+  49: Zt,
+  50: Zt,
+  51: Zt,
+  52: Zt,
+  53: Zt,
+  54: Zt,
+  55: Zt,
+  56: Zt,
+  57: Zt,
+  62: K0
+}, a2 = {
+  91: cC
+}, s2 = {
+  [-2]: Gc,
+  [-1]: Gc,
+  32: Gc
+}, l2 = {
+  35: gC,
+  42: sl,
+  45: [ky, sl],
+  60: SC,
+  61: ky,
+  95: sl,
+  96: wy,
+  126: wy
+}, u2 = {
+  38: e1,
+  92: X0
+}, c2 = {
+  [-5]: Yc,
+  [-4]: Yc,
+  [-3]: Yc,
+  33: FC,
+  38: e1,
+  42: qd,
+  60: [zE, TC],
+  91: zC,
+  92: [hC, X0],
+  93: _f,
+  95: qd,
+  96: XE
+}, d2 = {
+  null: [qd, t2]
+}, f2 = {
+  null: [42, 95]
+}, p2 = {
+  null: []
+}, h2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  attentionMarkers: f2,
+  contentInitial: a2,
+  disable: p2,
+  document: o2,
+  flow: l2,
+  flowInitial: s2,
+  insideSpan: d2,
+  string: u2,
+  text: c2
+}, Symbol.toStringTag, { value: "Module" }));
+function m2(e, t, r) {
+  let o = {
+    _bufferIndex: -1,
+    _index: 0,
+    line: r && r.line || 1,
+    column: r && r.column || 1,
+    offset: r && r.offset || 0
+  };
+  const a = {}, s = [];
+  let u = [], f = [];
+  const p = {
+    attempt: H(N),
+    check: H(A),
+    consume: V,
+    enter: B,
+    exit: j,
+    interrupt: H(A, {
+      interrupt: !0
+    })
+  }, m = {
+    code: null,
+    containerState: {},
+    defineSkip: E,
+    events: [],
+    now: T,
+    parser: e,
+    previous: null,
+    sliceSerialize: _,
+    sliceStream: k,
+    write: v
+  };
+  let y = t.tokenize.call(m, p);
+  return t.resolveAll && s.push(t), m;
+  function v(ne) {
+    return u = _n(u, ne), L(), u[u.length - 1] !== null ? [] : (z(t, 0), m.events = kf(s, m.events, m), m.events);
+  }
+  function _(ne, le) {
+    return y2(k(ne), le);
+  }
+  function k(ne) {
+    return g2(u, ne);
+  }
+  function T() {
+    const {
+      _bufferIndex: ne,
+      _index: le,
+      line: pe,
+      column: q,
+      offset: ue
+    } = o;
+    return {
+      _bufferIndex: ne,
+      _index: le,
+      line: pe,
+      column: q,
+      offset: ue
+    };
+  }
+  function E(ne) {
+    a[ne.line] = ne.column, X();
+  }
+  function L() {
+    let ne;
+    for (; o._index < u.length; ) {
+      const le = u[o._index];
+      if (typeof le == "string")
+        for (ne = o._index, o._bufferIndex < 0 && (o._bufferIndex = 0); o._index === ne && o._bufferIndex < le.length; )
+          M(le.charCodeAt(o._bufferIndex));
+      else
+        M(le);
+    }
+  }
+  function M(ne) {
+    y = y(ne);
+  }
+  function V(ne) {
+    Pe(ne) ? (o.line++, o.column = 1, o.offset += ne === -3 ? 2 : 1, X()) : ne !== -1 && (o.column++, o.offset++), o._bufferIndex < 0 ? o._index++ : (o._bufferIndex++, o._bufferIndex === // Points w/ non-negative `_bufferIndex` reference
+    // strings.
+    /** @type {string} */
+    u[o._index].length && (o._bufferIndex = -1, o._index++)), m.previous = ne;
+  }
+  function B(ne, le) {
+    const pe = le || {};
+    return pe.type = ne, pe.start = T(), m.events.push(["enter", pe, m]), f.push(pe), pe;
+  }
+  function j(ne) {
+    const le = f.pop();
+    return le.end = T(), m.events.push(["exit", le, m]), le;
+  }
+  function N(ne, le) {
+    z(ne, le.from);
+  }
+  function A(ne, le) {
+    le.restore();
+  }
+  function H(ne, le) {
+    return pe;
+    function pe(q, ue, be) {
+      let ve, Y, re, C;
+      return Array.isArray(q) ? (
+        /* c8 ignore next 1 */
+        G(q)
+      ) : "tokenize" in q ? (
+        // Looks like a construct.
+        G([
+          /** @type {Construct} */
+          q
+        ])
+      ) : I(q);
+      function I(x) {
+        return P;
+        function P(U) {
+          const Q = U !== null && x[U], K = U !== null && x.null, he = [
+            // To do: add more extension tests.
+            /* c8 ignore next 2 */
+            ...Array.isArray(Q) ? Q : Q ? [Q] : [],
+            ...Array.isArray(K) ? K : K ? [K] : []
+          ];
+          return G(he)(U);
+        }
+      }
+      function G(x) {
+        return ve = x, Y = 0, x.length === 0 ? be : d(x[Y]);
+      }
+      function d(x) {
+        return P;
+        function P(U) {
+          return C = ae(), re = x, x.partial || (m.currentConstruct = x), x.name && m.parser.constructs.disable.null.includes(x.name) ? w() : x.tokenize.call(
+            // If we do have fields, create an object w/ `context` as its
+            // prototype.
+            // This allows a “live binding”, which is needed for `interrupt`.
+            le ? Object.assign(Object.create(m), le) : m,
+            p,
+            S,
+            w
+          )(U);
+        }
+      }
+      function S(x) {
+        return ne(re, C), ue;
+      }
+      function w(x) {
+        return C.restore(), ++Y < ve.length ? d(ve[Y]) : be;
+      }
+    }
+  }
+  function z(ne, le) {
+    ne.resolveAll && !s.includes(ne) && s.push(ne), ne.resolve && Yn(m.events, le, m.events.length - le, ne.resolve(m.events.slice(le), m)), ne.resolveTo && (m.events = ne.resolveTo(m.events, m));
+  }
+  function ae() {
+    const ne = T(), le = m.previous, pe = m.currentConstruct, q = m.events.length, ue = Array.from(f);
+    return {
+      from: q,
+      restore: be
+    };
+    function be() {
+      o = ne, m.previous = le, m.currentConstruct = pe, m.events.length = q, f = ue, X();
+    }
+  }
+  function X() {
+    o.line in a && o.column < 2 && (o.column = a[o.line], o.offset += a[o.line] - 1);
+  }
+}
+function g2(e, t) {
+  const r = t.start._index, o = t.start._bufferIndex, a = t.end._index, s = t.end._bufferIndex;
+  let u;
+  if (r === a)
+    u = [e[r].slice(o, s)];
+  else {
+    if (u = e.slice(r, a), o > -1) {
+      const f = u[0];
+      typeof f == "string" ? u[0] = f.slice(o) : u.shift();
+    }
+    s > 0 && u.push(e[a].slice(0, s));
+  }
+  return u;
+}
+function y2(e, t) {
+  let r = -1;
+  const o = [];
+  let a;
+  for (; ++r < e.length; ) {
+    const s = e[r];
+    let u;
+    if (typeof s == "string")
+      u = s;
+    else switch (s) {
+      case -5: {
+        u = "\r";
+        break;
+      }
+      case -4: {
+        u = `
+`;
+        break;
+      }
+      case -3: {
+        u = `\r
+`;
+        break;
+      }
+      case -2: {
+        u = t ? " " : "	";
+        break;
+      }
+      case -1: {
+        if (!t && a) continue;
+        u = " ";
+        break;
+      }
+      default:
+        u = String.fromCharCode(s);
+    }
+    a = s === -2, o.push(u);
+  }
+  return o.join("");
+}
+function v2(e) {
+  const o = {
+    constructs: (
+      /** @type {FullNormalizedExtension} */
+      CE([h2, ...(e || {}).extensions || []])
+    ),
+    content: a(LE),
+    defined: [],
+    document: a(jE),
+    flow: a(XC),
+    lazy: {},
+    string: a(n2),
+    text: a(r2)
+  };
+  return o;
+  function a(s) {
+    return u;
+    function u(f) {
+      return m2(o, s, f);
+    }
+  }
+}
+function w2(e) {
+  for (; !t1(e); )
+    ;
+  return e;
+}
+const _y = /[\0\t\n\r]/g;
+function S2() {
+  let e = 1, t = "", r = !0, o;
+  return a;
+  function a(s, u, f) {
+    const p = [];
+    let m, y, v, _, k;
+    for (s = t + (typeof s == "string" ? s.toString() : new TextDecoder(u || void 0).decode(s)), v = 0, t = "", r && (s.charCodeAt(0) === 65279 && v++, r = void 0); v < s.length; ) {
+      if (_y.lastIndex = v, m = _y.exec(s), _ = m && m.index !== void 0 ? m.index : s.length, k = s.charCodeAt(_), !m) {
+        t = s.slice(v);
+        break;
+      }
+      if (k === 10 && v === _ && o)
+        p.push(-3), o = void 0;
+      else
+        switch (o && (p.push(-5), o = void 0), v < _ && (p.push(s.slice(v, _)), e += _ - v), k) {
+          case 0: {
+            p.push(65533), e++;
+            break;
+          }
+          case 9: {
+            for (y = Math.ceil(e / 4) * 4, p.push(-2); e++ < y; ) p.push(-1);
+            break;
+          }
+          case 10: {
+            p.push(-4), e = 1;
+            break;
+          }
+          default:
+            o = !0, e = 1;
+        }
+      v = _ + 1;
+    }
+    return f && (o && p.push(-5), t && p.push(t), p.push(null)), p;
+  }
+}
+const k2 = /\\([!-/:-@[-`{-~])|&(#(?:\d{1,7}|x[\da-f]{1,6})|[\da-z]{1,31});/gi;
+function _2(e) {
+  return e.replace(k2, b2);
+}
+function b2(e, t, r) {
+  if (t)
+    return t;
+  if (r.charCodeAt(0) === 35) {
+    const a = r.charCodeAt(1), s = a === 120 || a === 88;
+    return Z0(r.slice(s ? 2 : 1), s ? 16 : 10);
+  }
+  return Sf(r) || e;
+}
+const s1 = {}.hasOwnProperty;
+function E2(e, t, r) {
+  return typeof t != "string" && (r = t, t = void 0), C2(r)(w2(v2(r).document().write(S2()(e, t, !0))));
+}
+function C2(e) {
+  const t = {
+    transforms: [],
+    canContainEols: ["emphasis", "fragment", "heading", "paragraph", "strong"],
+    enter: {
+      autolink: s(At),
+      autolinkProtocol: ae,
+      autolinkEmail: ae,
+      atxHeading: s(Rt),
+      blockQuote: s(K),
+      characterEscape: ae,
+      characterReference: ae,
+      codeFenced: s(he),
+      codeFencedFenceInfo: u,
+      codeFencedFenceMeta: u,
+      codeIndented: s(he, u),
+      codeText: s(Te, u),
+      codeTextData: ae,
+      data: ae,
+      codeFlowValue: ae,
+      definition: s(Oe),
+      definitionDestinationString: u,
+      definitionLabelString: u,
+      definitionTitleString: u,
+      emphasis: s(gt),
+      hardBreakEscape: s(en),
+      hardBreakTrailing: s(en),
+      htmlFlow: s(Je, u),
+      htmlFlowData: ae,
+      htmlText: s(Je, u),
+      htmlTextData: ae,
+      image: s(ft),
+      label: u,
+      link: s(At),
+      listItem: s(_t),
+      listItemValue: _,
+      listOrdered: s(yt, v),
+      listUnordered: s(yt),
+      paragraph: s(tn),
+      reference: d,
+      referenceString: u,
+      resourceDestinationString: u,
+      resourceTitleString: u,
+      setextHeading: s(Rt),
+      strong: s(hn),
+      thematicBreak: s(Tn)
+    },
+    exit: {
+      atxHeading: p(),
+      atxHeadingSequence: N,
+      autolink: p(),
+      autolinkEmail: Q,
+      autolinkProtocol: U,
+      blockQuote: p(),
+      characterEscapeValue: X,
+      characterReferenceMarkerHexadecimal: w,
+      characterReferenceMarkerNumeric: w,
+      characterReferenceValue: x,
+      characterReference: P,
+      codeFenced: p(L),
+      codeFencedFence: E,
+      codeFencedFenceInfo: k,
+      codeFencedFenceMeta: T,
+      codeFlowValue: X,
+      codeIndented: p(M),
+      codeText: p(ue),
+      codeTextData: X,
+      data: X,
+      definition: p(),
+      definitionDestinationString: j,
+      definitionLabelString: V,
+      definitionTitleString: B,
+      emphasis: p(),
+      hardBreakEscape: p(le),
+      hardBreakTrailing: p(le),
+      htmlFlow: p(pe),
+      htmlFlowData: X,
+      htmlText: p(q),
+      htmlTextData: X,
+      image: p(ve),
+      label: re,
+      labelText: Y,
+      lineEnding: ne,
+      link: p(be),
+      listItem: p(),
+      listOrdered: p(),
+      listUnordered: p(),
+      paragraph: p(),
+      referenceString: S,
+      resourceDestinationString: C,
+      resourceTitleString: I,
+      resource: G,
+      setextHeading: p(z),
+      setextHeadingLineSequence: H,
+      setextHeadingText: A,
+      strong: p(),
+      thematicBreak: p()
+    }
+  };
+  l1(t, (e || {}).mdastExtensions || []);
+  const r = {};
+  return o;
+  function o(Z) {
+    let fe = {
+      type: "root",
+      children: []
+    };
+    const Ee = {
+      stack: [fe],
+      tokenStack: [],
+      config: t,
+      enter: f,
+      exit: m,
+      buffer: u,
+      resume: y,
+      data: r
+    }, Le = [];
+    let je = -1;
+    for (; ++je < Z.length; )
+      if (Z[je][1].type === "listOrdered" || Z[je][1].type === "listUnordered")
+        if (Z[je][0] === "enter")
+          Le.push(je);
+        else {
+          const at = Le.pop();
+          je = a(Z, at, je);
+        }
+    for (je = -1; ++je < Z.length; ) {
+      const at = t[Z[je][0]];
+      s1.call(at, Z[je][1].type) && at[Z[je][1].type].call(Object.assign({
+        sliceSerialize: Z[je][2].sliceSerialize
+      }, Ee), Z[je][1]);
+    }
+    if (Ee.tokenStack.length > 0) {
+      const at = Ee.tokenStack[Ee.tokenStack.length - 1];
+      (at[1] || by).call(Ee, void 0, at[0]);
+    }
+    for (fe.position = {
+      start: Fr(Z.length > 0 ? Z[0][1].start : {
+        line: 1,
+        column: 1,
+        offset: 0
+      }),
+      end: Fr(Z.length > 0 ? Z[Z.length - 2][1].end : {
+        line: 1,
+        column: 1,
+        offset: 0
+      })
+    }, je = -1; ++je < t.transforms.length; )
+      fe = t.transforms[je](fe) || fe;
+    return fe;
+  }
+  function a(Z, fe, Ee) {
+    let Le = fe - 1, je = -1, at = !1, An, Mt, Vn, Qn;
+    for (; ++Le <= Ee; ) {
+      const pt = Z[Le];
+      switch (pt[1].type) {
+        case "listUnordered":
+        case "listOrdered":
+        case "blockQuote": {
+          pt[0] === "enter" ? je++ : je--, Qn = void 0;
+          break;
+        }
+        case "lineEndingBlank": {
+          pt[0] === "enter" && (An && !Qn && !je && !Vn && (Vn = Le), Qn = void 0);
+          break;
+        }
+        case "linePrefix":
+        case "listItemValue":
+        case "listItemMarker":
+        case "listItemPrefix":
+        case "listItemPrefixWhitespace":
+          break;
+        default:
+          Qn = void 0;
+      }
+      if (!je && pt[0] === "enter" && pt[1].type === "listItemPrefix" || je === -1 && pt[0] === "exit" && (pt[1].type === "listUnordered" || pt[1].type === "listOrdered")) {
+        if (An) {
+          let $t = Le;
+          for (Mt = void 0; $t--; ) {
+            const Ft = Z[$t];
+            if (Ft[1].type === "lineEnding" || Ft[1].type === "lineEndingBlank") {
+              if (Ft[0] === "exit") continue;
+              Mt && (Z[Mt][1].type = "lineEndingBlank", at = !0), Ft[1].type = "lineEnding", Mt = $t;
+            } else if (!(Ft[1].type === "linePrefix" || Ft[1].type === "blockQuotePrefix" || Ft[1].type === "blockQuotePrefixWhitespace" || Ft[1].type === "blockQuoteMarker" || Ft[1].type === "listItemIndent")) break;
+          }
+          Vn && (!Mt || Vn < Mt) && (An._spread = !0), An.end = Object.assign({}, Mt ? Z[Mt][1].start : pt[1].end), Z.splice(Mt || Le, 0, ["exit", An, pt[2]]), Le++, Ee++;
+        }
+        if (pt[1].type === "listItemPrefix") {
+          const $t = {
+            type: "listItem",
+            _spread: !1,
+            start: Object.assign({}, pt[1].start),
+            // @ts-expect-error: we’ll add `end` in a second.
+            end: void 0
+          };
+          An = $t, Z.splice(Le, 0, ["enter", $t, pt[2]]), Le++, Ee++, Vn = void 0, Qn = !0;
+        }
+      }
+    }
+    return Z[fe][1]._spread = at, Ee;
+  }
+  function s(Z, fe) {
+    return Ee;
+    function Ee(Le) {
+      f.call(this, Z(Le), Le), fe && fe.call(this, Le);
+    }
+  }
+  function u() {
+    this.stack.push({
+      type: "fragment",
+      children: []
+    });
+  }
+  function f(Z, fe, Ee) {
+    this.stack[this.stack.length - 1].children.push(Z), this.stack.push(Z), this.tokenStack.push([fe, Ee || void 0]), Z.position = {
+      start: Fr(fe.start),
+      // @ts-expect-error: `end` will be patched later.
+      end: void 0
+    };
+  }
+  function p(Z) {
+    return fe;
+    function fe(Ee) {
+      Z && Z.call(this, Ee), m.call(this, Ee);
+    }
+  }
+  function m(Z, fe) {
+    const Ee = this.stack.pop(), Le = this.tokenStack.pop();
+    if (Le)
+      Le[0].type !== Z.type && (fe ? fe.call(this, Z, Le[0]) : (Le[1] || by).call(this, Z, Le[0]));
+    else throw new Error("Cannot close `" + Z.type + "` (" + pa({
+      start: Z.start,
+      end: Z.end
+    }) + "): it’s not open");
+    Ee.position.end = Fr(Z.end);
+  }
+  function y() {
+    return bE(this.stack.pop());
+  }
+  function v() {
+    this.data.expectingFirstListItemValue = !0;
+  }
+  function _(Z) {
+    if (this.data.expectingFirstListItemValue) {
+      const fe = this.stack[this.stack.length - 2];
+      fe.start = Number.parseInt(this.sliceSerialize(Z), 10), this.data.expectingFirstListItemValue = void 0;
+    }
+  }
+  function k() {
+    const Z = this.resume(), fe = this.stack[this.stack.length - 1];
+    fe.lang = Z;
+  }
+  function T() {
+    const Z = this.resume(), fe = this.stack[this.stack.length - 1];
+    fe.meta = Z;
+  }
+  function E() {
+    this.data.flowCodeInside || (this.buffer(), this.data.flowCodeInside = !0);
+  }
+  function L() {
+    const Z = this.resume(), fe = this.stack[this.stack.length - 1];
+    fe.value = Z.replace(/^(\r?\n|\r)|(\r?\n|\r)$/g, ""), this.data.flowCodeInside = void 0;
+  }
+  function M() {
+    const Z = this.resume(), fe = this.stack[this.stack.length - 1];
+    fe.value = Z.replace(/(\r?\n|\r)$/g, "");
+  }
+  function V(Z) {
+    const fe = this.resume(), Ee = this.stack[this.stack.length - 1];
+    Ee.label = fe, Ee.identifier = io(this.sliceSerialize(Z)).toLowerCase();
+  }
+  function B() {
+    const Z = this.resume(), fe = this.stack[this.stack.length - 1];
+    fe.title = Z;
+  }
+  function j() {
+    const Z = this.resume(), fe = this.stack[this.stack.length - 1];
+    fe.url = Z;
+  }
+  function N(Z) {
+    const fe = this.stack[this.stack.length - 1];
+    if (!fe.depth) {
+      const Ee = this.sliceSerialize(Z).length;
+      fe.depth = Ee;
+    }
+  }
+  function A() {
+    this.data.setextHeadingSlurpLineEnding = !0;
+  }
+  function H(Z) {
+    const fe = this.stack[this.stack.length - 1];
+    fe.depth = this.sliceSerialize(Z).codePointAt(0) === 61 ? 1 : 2;
+  }
+  function z() {
+    this.data.setextHeadingSlurpLineEnding = void 0;
+  }
+  function ae(Z) {
+    const Ee = this.stack[this.stack.length - 1].children;
+    let Le = Ee[Ee.length - 1];
+    (!Le || Le.type !== "text") && (Le = xn(), Le.position = {
+      start: Fr(Z.start),
+      // @ts-expect-error: we’ll add `end` later.
+      end: void 0
+    }, Ee.push(Le)), this.stack.push(Le);
+  }
+  function X(Z) {
+    const fe = this.stack.pop();
+    fe.value += this.sliceSerialize(Z), fe.position.end = Fr(Z.end);
+  }
+  function ne(Z) {
+    const fe = this.stack[this.stack.length - 1];
+    if (this.data.atHardBreak) {
+      const Ee = fe.children[fe.children.length - 1];
+      Ee.position.end = Fr(Z.end), this.data.atHardBreak = void 0;
+      return;
+    }
+    !this.data.setextHeadingSlurpLineEnding && t.canContainEols.includes(fe.type) && (ae.call(this, Z), X.call(this, Z));
+  }
+  function le() {
+    this.data.atHardBreak = !0;
+  }
+  function pe() {
+    const Z = this.resume(), fe = this.stack[this.stack.length - 1];
+    fe.value = Z;
+  }
+  function q() {
+    const Z = this.resume(), fe = this.stack[this.stack.length - 1];
+    fe.value = Z;
+  }
+  function ue() {
+    const Z = this.resume(), fe = this.stack[this.stack.length - 1];
+    fe.value = Z;
+  }
+  function be() {
+    const Z = this.stack[this.stack.length - 1];
+    if (this.data.inReference) {
+      const fe = this.data.referenceType || "shortcut";
+      Z.type += "Reference", Z.referenceType = fe, delete Z.url, delete Z.title;
+    } else
+      delete Z.identifier, delete Z.label;
+    this.data.referenceType = void 0;
+  }
+  function ve() {
+    const Z = this.stack[this.stack.length - 1];
+    if (this.data.inReference) {
+      const fe = this.data.referenceType || "shortcut";
+      Z.type += "Reference", Z.referenceType = fe, delete Z.url, delete Z.title;
+    } else
+      delete Z.identifier, delete Z.label;
+    this.data.referenceType = void 0;
+  }
+  function Y(Z) {
+    const fe = this.sliceSerialize(Z), Ee = this.stack[this.stack.length - 2];
+    Ee.label = _2(fe), Ee.identifier = io(fe).toLowerCase();
+  }
+  function re() {
+    const Z = this.stack[this.stack.length - 1], fe = this.resume(), Ee = this.stack[this.stack.length - 1];
+    if (this.data.inReference = !0, Ee.type === "link") {
+      const Le = Z.children;
+      Ee.children = Le;
+    } else
+      Ee.alt = fe;
+  }
+  function C() {
+    const Z = this.resume(), fe = this.stack[this.stack.length - 1];
+    fe.url = Z;
+  }
+  function I() {
+    const Z = this.resume(), fe = this.stack[this.stack.length - 1];
+    fe.title = Z;
+  }
+  function G() {
+    this.data.inReference = void 0;
+  }
+  function d() {
+    this.data.referenceType = "collapsed";
+  }
+  function S(Z) {
+    const fe = this.resume(), Ee = this.stack[this.stack.length - 1];
+    Ee.label = fe, Ee.identifier = io(this.sliceSerialize(Z)).toLowerCase(), this.data.referenceType = "full";
+  }
+  function w(Z) {
+    this.data.characterReferenceType = Z.type;
+  }
+  function x(Z) {
+    const fe = this.sliceSerialize(Z), Ee = this.data.characterReferenceType;
+    let Le;
+    Ee ? (Le = Z0(fe, Ee === "characterReferenceMarkerNumeric" ? 10 : 16), this.data.characterReferenceType = void 0) : Le = Sf(fe);
+    const je = this.stack[this.stack.length - 1];
+    je.value += Le;
+  }
+  function P(Z) {
+    const fe = this.stack.pop();
+    fe.position.end = Fr(Z.end);
+  }
+  function U(Z) {
+    X.call(this, Z);
+    const fe = this.stack[this.stack.length - 1];
+    fe.url = this.sliceSerialize(Z);
+  }
+  function Q(Z) {
+    X.call(this, Z);
+    const fe = this.stack[this.stack.length - 1];
+    fe.url = "mailto:" + this.sliceSerialize(Z);
+  }
+  function K() {
+    return {
+      type: "blockquote",
+      children: []
+    };
+  }
+  function he() {
+    return {
+      type: "code",
+      lang: null,
+      meta: null,
+      value: ""
+    };
+  }
+  function Te() {
+    return {
+      type: "inlineCode",
+      value: ""
+    };
+  }
+  function Oe() {
+    return {
+      type: "definition",
+      identifier: "",
+      label: null,
+      title: null,
+      url: ""
+    };
+  }
+  function gt() {
+    return {
+      type: "emphasis",
+      children: []
+    };
+  }
+  function Rt() {
+    return {
+      type: "heading",
+      // @ts-expect-error `depth` will be set later.
+      depth: 0,
+      children: []
+    };
+  }
+  function en() {
+    return {
+      type: "break"
+    };
+  }
+  function Je() {
+    return {
+      type: "html",
+      value: ""
+    };
+  }
+  function ft() {
+    return {
+      type: "image",
+      title: null,
+      url: "",
+      alt: null
+    };
+  }
+  function At() {
+    return {
+      type: "link",
+      title: null,
+      url: "",
+      children: []
+    };
+  }
+  function yt(Z) {
+    return {
+      type: "list",
+      ordered: Z.type === "listOrdered",
+      start: null,
+      spread: Z._spread,
+      children: []
+    };
+  }
+  function _t(Z) {
+    return {
+      type: "listItem",
+      spread: Z._spread,
+      checked: null,
+      children: []
+    };
+  }
+  function tn() {
+    return {
+      type: "paragraph",
+      children: []
+    };
+  }
+  function hn() {
+    return {
+      type: "strong",
+      children: []
+    };
+  }
+  function xn() {
+    return {
+      type: "text",
+      value: ""
+    };
+  }
+  function Tn() {
+    return {
+      type: "thematicBreak"
+    };
+  }
+}
+function Fr(e) {
+  return {
+    line: e.line,
+    column: e.column,
+    offset: e.offset
+  };
+}
+function l1(e, t) {
+  let r = -1;
+  for (; ++r < t.length; ) {
+    const o = t[r];
+    Array.isArray(o) ? l1(e, o) : x2(e, o);
+  }
+}
+function x2(e, t) {
+  let r;
+  for (r in t)
+    if (s1.call(t, r))
+      switch (r) {
+        case "canContainEols": {
+          const o = t[r];
+          o && e[r].push(...o);
+          break;
+        }
+        case "transforms": {
+          const o = t[r];
+          o && e[r].push(...o);
+          break;
+        }
+        case "enter":
+        case "exit": {
+          const o = t[r];
+          o && Object.assign(e[r], o);
+          break;
+        }
+      }
+}
+function by(e, t) {
+  throw e ? new Error("Cannot close `" + e.type + "` (" + pa({
+    start: e.start,
+    end: e.end
+  }) + "): a different token (`" + t.type + "`, " + pa({
+    start: t.start,
+    end: t.end
+  }) + ") is open") : new Error("Cannot close document, a token (`" + t.type + "`, " + pa({
+    start: t.start,
+    end: t.end
+  }) + ") is still open");
+}
+function T2(e) {
+  const t = this;
+  t.parser = r;
+  function r(o) {
+    return E2(o, {
+      ...t.data("settings"),
+      ...e,
+      // Note: these options are not in the readme.
+      // The goal is for them to be set by plugins on `data` instead of being
+      // passed by users.
+      extensions: t.data("micromarkExtensions") || [],
+      mdastExtensions: t.data("fromMarkdownExtensions") || []
+    });
+  }
+}
+function A2(e, t) {
+  const r = {
+    type: "element",
+    tagName: "blockquote",
+    properties: {},
+    children: e.wrap(e.all(t), !0)
+  };
+  return e.patch(t, r), e.applyData(t, r);
+}
+function M2(e, t) {
+  const r = { type: "element", tagName: "br", properties: {}, children: [] };
+  return e.patch(t, r), [e.applyData(t, r), { type: "text", value: `
+` }];
+}
+function P2(e, t) {
+  const r = t.value ? t.value + `
+` : "", o = {};
+  t.lang && (o.className = ["language-" + t.lang]);
+  let a = {
+    type: "element",
+    tagName: "code",
+    properties: o,
+    children: [{ type: "text", value: r }]
+  };
+  return t.meta && (a.data = { meta: t.meta }), e.patch(t, a), a = e.applyData(t, a), a = { type: "element", tagName: "pre", properties: {}, children: [a] }, e.patch(t, a), a;
+}
+function O2(e, t) {
+  const r = {
+    type: "element",
+    tagName: "del",
+    properties: {},
+    children: e.all(t)
+  };
+  return e.patch(t, r), e.applyData(t, r);
+}
+function I2(e, t) {
+  const r = {
+    type: "element",
+    tagName: "em",
+    properties: {},
+    children: e.all(t)
+  };
+  return e.patch(t, r), e.applyData(t, r);
+}
+function L2(e, t) {
+  const r = typeof e.options.clobberPrefix == "string" ? e.options.clobberPrefix : "user-content-", o = String(t.identifier).toUpperCase(), a = po(o.toLowerCase()), s = e.footnoteOrder.indexOf(o);
+  let u, f = e.footnoteCounts.get(o);
+  f === void 0 ? (f = 0, e.footnoteOrder.push(o), u = e.footnoteOrder.length) : u = s + 1, f += 1, e.footnoteCounts.set(o, f);
+  const p = {
+    type: "element",
+    tagName: "a",
+    properties: {
+      href: "#" + r + "fn-" + a,
+      id: r + "fnref-" + a + (f > 1 ? "-" + f : ""),
+      dataFootnoteRef: !0,
+      ariaDescribedBy: ["footnote-label"]
+    },
+    children: [{ type: "text", value: String(u) }]
+  };
+  e.patch(t, p);
+  const m = {
+    type: "element",
+    tagName: "sup",
+    properties: {},
+    children: [p]
+  };
+  return e.patch(t, m), e.applyData(t, m);
+}
+function D2(e, t) {
+  const r = {
+    type: "element",
+    tagName: "h" + t.depth,
+    properties: {},
+    children: e.all(t)
+  };
+  return e.patch(t, r), e.applyData(t, r);
+}
+function j2(e, t) {
+  if (e.options.allowDangerousHtml) {
+    const r = { type: "raw", value: t.value };
+    return e.patch(t, r), e.applyData(t, r);
+  }
+}
+function u1(e, t) {
+  const r = t.referenceType;
+  let o = "]";
+  if (r === "collapsed" ? o += "[]" : r === "full" && (o += "[" + (t.label || t.identifier) + "]"), t.type === "imageReference")
+    return [{ type: "text", value: "![" + t.alt + o }];
+  const a = e.all(t), s = a[0];
+  s && s.type === "text" ? s.value = "[" + s.value : a.unshift({ type: "text", value: "[" });
+  const u = a[a.length - 1];
+  return u && u.type === "text" ? u.value += o : a.push({ type: "text", value: o }), a;
+}
+function N2(e, t) {
+  const r = String(t.identifier).toUpperCase(), o = e.definitionById.get(r);
+  if (!o)
+    return u1(e, t);
+  const a = { src: po(o.url || ""), alt: t.alt };
+  o.title !== null && o.title !== void 0 && (a.title = o.title);
+  const s = { type: "element", tagName: "img", properties: a, children: [] };
+  return e.patch(t, s), e.applyData(t, s);
+}
+function R2(e, t) {
+  const r = { src: po(t.url) };
+  t.alt !== null && t.alt !== void 0 && (r.alt = t.alt), t.title !== null && t.title !== void 0 && (r.title = t.title);
+  const o = { type: "element", tagName: "img", properties: r, children: [] };
+  return e.patch(t, o), e.applyData(t, o);
+}
+function F2(e, t) {
+  const r = { type: "text", value: t.value.replace(/\r?\n|\r/g, " ") };
+  e.patch(t, r);
+  const o = {
+    type: "element",
+    tagName: "code",
+    properties: {},
+    children: [r]
+  };
+  return e.patch(t, o), e.applyData(t, o);
+}
+function V2(e, t) {
+  const r = String(t.identifier).toUpperCase(), o = e.definitionById.get(r);
+  if (!o)
+    return u1(e, t);
+  const a = { href: po(o.url || "") };
+  o.title !== null && o.title !== void 0 && (a.title = o.title);
+  const s = {
+    type: "element",
+    tagName: "a",
+    properties: a,
+    children: e.all(t)
+  };
+  return e.patch(t, s), e.applyData(t, s);
+}
+function z2(e, t) {
+  const r = { href: po(t.url) };
+  t.title !== null && t.title !== void 0 && (r.title = t.title);
+  const o = {
+    type: "element",
+    tagName: "a",
+    properties: r,
+    children: e.all(t)
+  };
+  return e.patch(t, o), e.applyData(t, o);
+}
+function B2(e, t, r) {
+  const o = e.all(t), a = r ? U2(r) : c1(t), s = {}, u = [];
+  if (typeof t.checked == "boolean") {
+    const y = o[0];
+    let v;
+    y && y.type === "element" && y.tagName === "p" ? v = y : (v = { type: "element", tagName: "p", properties: {}, children: [] }, o.unshift(v)), v.children.length > 0 && v.children.unshift({ type: "text", value: " " }), v.children.unshift({
+      type: "element",
+      tagName: "input",
+      properties: { type: "checkbox", checked: t.checked, disabled: !0 },
+      children: []
+    }), s.className = ["task-list-item"];
+  }
+  let f = -1;
+  for (; ++f < o.length; ) {
+    const y = o[f];
+    (a || f !== 0 || y.type !== "element" || y.tagName !== "p") && u.push({ type: "text", value: `
+` }), y.type === "element" && y.tagName === "p" && !a ? u.push(...y.children) : u.push(y);
+  }
+  const p = o[o.length - 1];
+  p && (a || p.type !== "element" || p.tagName !== "p") && u.push({ type: "text", value: `
+` });
+  const m = { type: "element", tagName: "li", properties: s, children: u };
+  return e.patch(t, m), e.applyData(t, m);
+}
+function U2(e) {
+  let t = !1;
+  if (e.type === "list") {
+    t = e.spread || !1;
+    const r = e.children;
+    let o = -1;
+    for (; !t && ++o < r.length; )
+      t = c1(r[o]);
+  }
+  return t;
+}
+function c1(e) {
+  const t = e.spread;
+  return t ?? e.children.length > 1;
+}
+function q2(e, t) {
+  const r = {}, o = e.all(t);
+  let a = -1;
+  for (typeof t.start == "number" && t.start !== 1 && (r.start = t.start); ++a < o.length; ) {
+    const u = o[a];
+    if (u.type === "element" && u.tagName === "li" && u.properties && Array.isArray(u.properties.className) && u.properties.className.includes("task-list-item")) {
+      r.className = ["contains-task-list"];
+      break;
+    }
+  }
+  const s = {
+    type: "element",
+    tagName: t.ordered ? "ol" : "ul",
+    properties: r,
+    children: e.wrap(o, !0)
+  };
+  return e.patch(t, s), e.applyData(t, s);
+}
+function $2(e, t) {
+  const r = {
+    type: "element",
+    tagName: "p",
+    properties: {},
+    children: e.all(t)
+  };
+  return e.patch(t, r), e.applyData(t, r);
+}
+function H2(e, t) {
+  const r = { type: "root", children: e.wrap(e.all(t)) };
+  return e.patch(t, r), e.applyData(t, r);
+}
+function J2(e, t) {
+  const r = {
+    type: "element",
+    tagName: "strong",
+    properties: {},
+    children: e.all(t)
+  };
+  return e.patch(t, r), e.applyData(t, r);
+}
+function W2(e, t) {
+  const r = e.all(t), o = r.shift(), a = [];
+  if (o) {
+    const u = {
+      type: "element",
+      tagName: "thead",
+      properties: {},
+      children: e.wrap([o], !0)
+    };
+    e.patch(t.children[0], u), a.push(u);
+  }
+  if (r.length > 0) {
+    const u = {
+      type: "element",
+      tagName: "tbody",
+      properties: {},
+      children: e.wrap(r, !0)
+    }, f = gf(t.children[1]), p = $0(t.children[t.children.length - 1]);
+    f && p && (u.position = { start: f, end: p }), a.push(u);
+  }
+  const s = {
+    type: "element",
+    tagName: "table",
+    properties: {},
+    children: e.wrap(a, !0)
+  };
+  return e.patch(t, s), e.applyData(t, s);
+}
+function G2(e, t, r) {
+  const o = r ? r.children : void 0, s = (o ? o.indexOf(t) : 1) === 0 ? "th" : "td", u = r && r.type === "table" ? r.align : void 0, f = u ? u.length : t.children.length;
+  let p = -1;
+  const m = [];
+  for (; ++p < f; ) {
+    const v = t.children[p], _ = {}, k = u ? u[p] : void 0;
+    k && (_.align = k);
+    let T = { type: "element", tagName: s, properties: _, children: [] };
+    v && (T.children = e.all(v), e.patch(v, T), T = e.applyData(v, T)), m.push(T);
+  }
+  const y = {
+    type: "element",
+    tagName: "tr",
+    properties: {},
+    children: e.wrap(m, !0)
+  };
+  return e.patch(t, y), e.applyData(t, y);
+}
+function Y2(e, t) {
+  const r = {
+    type: "element",
+    tagName: "td",
+    // Assume body cell.
+    properties: {},
+    children: e.all(t)
+  };
+  return e.patch(t, r), e.applyData(t, r);
+}
+const Ey = 9, Cy = 32;
+function Q2(e) {
+  const t = String(e), r = /\r?\n|\r/g;
+  let o = r.exec(t), a = 0;
+  const s = [];
+  for (; o; )
+    s.push(
+      xy(t.slice(a, o.index), a > 0, !0),
+      o[0]
+    ), a = o.index + o[0].length, o = r.exec(t);
+  return s.push(xy(t.slice(a), a > 0, !1)), s.join("");
+}
+function xy(e, t, r) {
+  let o = 0, a = e.length;
+  if (t) {
+    let s = e.codePointAt(o);
+    for (; s === Ey || s === Cy; )
+      o++, s = e.codePointAt(o);
+  }
+  if (r) {
+    let s = e.codePointAt(a - 1);
+    for (; s === Ey || s === Cy; )
+      a--, s = e.codePointAt(a - 1);
+  }
+  return a > o ? e.slice(o, a) : "";
+}
+function Z2(e, t) {
+  const r = { type: "text", value: Q2(String(t.value)) };
+  return e.patch(t, r), e.applyData(t, r);
+}
+function K2(e, t) {
+  const r = {
+    type: "element",
+    tagName: "hr",
+    properties: {},
+    children: []
+  };
+  return e.patch(t, r), e.applyData(t, r);
+}
+const X2 = {
+  blockquote: A2,
+  break: M2,
+  code: P2,
+  delete: O2,
+  emphasis: I2,
+  footnoteReference: L2,
+  heading: D2,
+  html: j2,
+  imageReference: N2,
+  image: R2,
+  inlineCode: F2,
+  linkReference: V2,
+  link: z2,
+  listItem: B2,
+  list: q2,
+  paragraph: $2,
+  // @ts-expect-error: root is different, but hard to type.
+  root: H2,
+  strong: J2,
+  table: W2,
+  tableCell: Y2,
+  tableRow: G2,
+  text: Z2,
+  thematicBreak: K2,
+  toml: Xs,
+  yaml: Xs,
+  definition: Xs,
+  footnoteDefinition: Xs
+};
+function Xs() {
+}
+const d1 = -1, Ll = 0, ma = 1, Sl = 2, bf = 3, Ef = 4, Cf = 5, xf = 6, f1 = 7, p1 = 8, Ty = typeof self == "object" ? self : globalThis, ex = (e, t) => {
+  const r = (a, s) => (e.set(s, a), a), o = (a) => {
+    if (e.has(a))
+      return e.get(a);
+    const [s, u] = t[a];
+    switch (s) {
+      case Ll:
+      case d1:
+        return r(u, a);
+      case ma: {
+        const f = r([], a);
+        for (const p of u)
+          f.push(o(p));
+        return f;
+      }
+      case Sl: {
+        const f = r({}, a);
+        for (const [p, m] of u)
+          f[o(p)] = o(m);
+        return f;
+      }
+      case bf:
+        return r(new Date(u), a);
+      case Ef: {
+        const { source: f, flags: p } = u;
+        return r(new RegExp(f, p), a);
+      }
+      case Cf: {
+        const f = r(/* @__PURE__ */ new Map(), a);
+        for (const [p, m] of u)
+          f.set(o(p), o(m));
+        return f;
+      }
+      case xf: {
+        const f = r(/* @__PURE__ */ new Set(), a);
+        for (const p of u)
+          f.add(o(p));
+        return f;
+      }
+      case f1: {
+        const { name: f, message: p } = u;
+        return r(new Ty[f](p), a);
+      }
+      case p1:
+        return r(BigInt(u), a);
+      case "BigInt":
+        return r(Object(BigInt(u)), a);
+      case "ArrayBuffer":
+        return r(new Uint8Array(u).buffer, u);
+      case "DataView": {
+        const { buffer: f } = new Uint8Array(u);
+        return r(new DataView(f), u);
+      }
+    }
+    return r(new Ty[s](u), a);
+  };
+  return o;
+}, Ay = (e) => ex(/* @__PURE__ */ new Map(), e)(0), Xi = "", { toString: tx } = {}, { keys: nx } = Object, aa = (e) => {
+  const t = typeof e;
+  if (t !== "object" || !e)
+    return [Ll, t];
+  const r = tx.call(e).slice(8, -1);
+  switch (r) {
+    case "Array":
+      return [ma, Xi];
+    case "Object":
+      return [Sl, Xi];
+    case "Date":
+      return [bf, Xi];
+    case "RegExp":
+      return [Ef, Xi];
+    case "Map":
+      return [Cf, Xi];
+    case "Set":
+      return [xf, Xi];
+    case "DataView":
+      return [ma, r];
+  }
+  return r.includes("Array") ? [ma, r] : r.includes("Error") ? [f1, r] : [Sl, r];
+}, el = ([e, t]) => e === Ll && (t === "function" || t === "symbol"), rx = (e, t, r, o) => {
+  const a = (u, f) => {
+    const p = o.push(u) - 1;
+    return r.set(f, p), p;
+  }, s = (u) => {
+    if (r.has(u))
+      return r.get(u);
+    let [f, p] = aa(u);
+    switch (f) {
+      case Ll: {
+        let y = u;
+        switch (p) {
+          case "bigint":
+            f = p1, y = u.toString();
+            break;
+          case "function":
+          case "symbol":
+            if (e)
+              throw new TypeError("unable to serialize " + p);
+            y = null;
+            break;
+          case "undefined":
+            return a([d1], u);
+        }
+        return a([f, y], u);
+      }
+      case ma: {
+        if (p) {
+          let _ = u;
+          return p === "DataView" ? _ = new Uint8Array(u.buffer) : p === "ArrayBuffer" && (_ = new Uint8Array(u)), a([p, [..._]], u);
+        }
+        const y = [], v = a([f, y], u);
+        for (const _ of u)
+          y.push(s(_));
+        return v;
+      }
+      case Sl: {
+        if (p)
+          switch (p) {
+            case "BigInt":
+              return a([p, u.toString()], u);
+            case "Boolean":
+            case "Number":
+            case "String":
+              return a([p, u.valueOf()], u);
+          }
+        if (t && "toJSON" in u)
+          return s(u.toJSON());
+        const y = [], v = a([f, y], u);
+        for (const _ of nx(u))
+          (e || !el(aa(u[_]))) && y.push([s(_), s(u[_])]);
+        return v;
+      }
+      case bf:
+        return a([f, u.toISOString()], u);
+      case Ef: {
+        const { source: y, flags: v } = u;
+        return a([f, { source: y, flags: v }], u);
+      }
+      case Cf: {
+        const y = [], v = a([f, y], u);
+        for (const [_, k] of u)
+          (e || !(el(aa(_)) || el(aa(k)))) && y.push([s(_), s(k)]);
+        return v;
+      }
+      case xf: {
+        const y = [], v = a([f, y], u);
+        for (const _ of u)
+          (e || !el(aa(_))) && y.push(s(_));
+        return v;
+      }
+    }
+    const { message: m } = u;
+    return a([f, { name: p, message: m }], u);
+  };
+  return s;
+}, My = (e, { json: t, lossy: r } = {}) => {
+  const o = [];
+  return rx(!(t || r), !!t, /* @__PURE__ */ new Map(), o)(e), o;
+}, kl = typeof structuredClone == "function" ? (
+  /* c8 ignore start */
+  (e, t) => t && ("json" in t || "lossy" in t) ? Ay(My(e, t)) : structuredClone(e)
+) : (e, t) => Ay(My(e, t));
+function ix(e, t) {
+  const r = [{ type: "text", value: "↩" }];
+  return t > 1 && r.push({
+    type: "element",
+    tagName: "sup",
+    properties: {},
+    children: [{ type: "text", value: String(t) }]
+  }), r;
+}
+function ox(e, t) {
+  return "Back to reference " + (e + 1) + (t > 1 ? "-" + t : "");
+}
+function ax(e) {
+  const t = typeof e.options.clobberPrefix == "string" ? e.options.clobberPrefix : "user-content-", r = e.options.footnoteBackContent || ix, o = e.options.footnoteBackLabel || ox, a = e.options.footnoteLabel || "Footnotes", s = e.options.footnoteLabelTagName || "h2", u = e.options.footnoteLabelProperties || {
+    className: ["sr-only"]
+  }, f = [];
+  let p = -1;
+  for (; ++p < e.footnoteOrder.length; ) {
+    const m = e.footnoteById.get(
+      e.footnoteOrder[p]
+    );
+    if (!m)
+      continue;
+    const y = e.all(m), v = String(m.identifier).toUpperCase(), _ = po(v.toLowerCase());
+    let k = 0;
+    const T = [], E = e.footnoteCounts.get(v);
+    for (; E !== void 0 && ++k <= E; ) {
+      T.length > 0 && T.push({ type: "text", value: " " });
+      let V = typeof r == "string" ? r : r(p, k);
+      typeof V == "string" && (V = { type: "text", value: V }), T.push({
+        type: "element",
+        tagName: "a",
+        properties: {
+          href: "#" + t + "fnref-" + _ + (k > 1 ? "-" + k : ""),
+          dataFootnoteBackref: "",
+          ariaLabel: typeof o == "string" ? o : o(p, k),
+          className: ["data-footnote-backref"]
+        },
+        children: Array.isArray(V) ? V : [V]
+      });
+    }
+    const L = y[y.length - 1];
+    if (L && L.type === "element" && L.tagName === "p") {
+      const V = L.children[L.children.length - 1];
+      V && V.type === "text" ? V.value += " " : L.children.push({ type: "text", value: " " }), L.children.push(...T);
+    } else
+      y.push(...T);
+    const M = {
+      type: "element",
+      tagName: "li",
+      properties: { id: t + "fn-" + _ },
+      children: e.wrap(y, !0)
+    };
+    e.patch(m, M), f.push(M);
+  }
+  if (f.length !== 0)
+    return {
+      type: "element",
+      tagName: "section",
+      properties: { dataFootnotes: !0, className: ["footnotes"] },
+      children: [
+        {
+          type: "element",
+          tagName: s,
+          properties: {
+            ...kl(u),
+            id: "footnote-label"
+          },
+          children: [{ type: "text", value: a }]
+        },
+        { type: "text", value: `
+` },
+        {
+          type: "element",
+          tagName: "ol",
+          properties: {},
+          children: e.wrap(f, !0)
+        },
+        { type: "text", value: `
+` }
+      ]
+    };
+}
+const h1 = (
+  // Note: overloads in JSDoc can’t yet use different `@template`s.
+  /**
+   * @type {(
+   *   (<Condition extends string>(test: Condition) => (node: unknown, index?: number | null | undefined, parent?: Parent | null | undefined, context?: unknown) => node is Node & {type: Condition}) &
+   *   (<Condition extends Props>(test: Condition) => (node: unknown, index?: number | null | undefined, parent?: Parent | null | undefined, context?: unknown) => node is Node & Condition) &
+   *   (<Condition extends TestFunction>(test: Condition) => (node: unknown, index?: number | null | undefined, parent?: Parent | null | undefined, context?: unknown) => node is Node & Predicate<Condition, Node>) &
+   *   ((test?: null | undefined) => (node?: unknown, index?: number | null | undefined, parent?: Parent | null | undefined, context?: unknown) => node is Node) &
+   *   ((test?: Test) => Check)
+   * )}
+   */
+  /**
+   * @param {Test} [test]
+   * @returns {Check}
+   */
+  function(e) {
+    if (e == null)
+      return cx;
+    if (typeof e == "function")
+      return Dl(e);
+    if (typeof e == "object")
+      return Array.isArray(e) ? sx(e) : lx(e);
+    if (typeof e == "string")
+      return ux(e);
+    throw new Error("Expected function, string, or object as test");
+  }
+);
+function sx(e) {
+  const t = [];
+  let r = -1;
+  for (; ++r < e.length; )
+    t[r] = h1(e[r]);
+  return Dl(o);
+  function o(...a) {
+    let s = -1;
+    for (; ++s < t.length; )
+      if (t[s].apply(this, a)) return !0;
+    return !1;
+  }
+}
+function lx(e) {
+  const t = (
+    /** @type {Record<string, unknown>} */
+    e
+  );
+  return Dl(r);
+  function r(o) {
+    const a = (
+      /** @type {Record<string, unknown>} */
+      /** @type {unknown} */
+      o
+    );
+    let s;
+    for (s in e)
+      if (a[s] !== t[s]) return !1;
+    return !0;
+  }
+}
+function ux(e) {
+  return Dl(t);
+  function t(r) {
+    return r && r.type === e;
+  }
+}
+function Dl(e) {
+  return t;
+  function t(r, o, a) {
+    return !!(dx(r) && e.call(
+      this,
+      r,
+      typeof o == "number" ? o : void 0,
+      a || void 0
+    ));
+  }
+}
+function cx() {
+  return !0;
+}
+function dx(e) {
+  return e !== null && typeof e == "object" && "type" in e;
+}
+const m1 = [], fx = !0, Py = !1, px = "skip";
+function hx(e, t, r, o) {
+  let a;
+  typeof t == "function" && typeof r != "function" ? (o = r, r = t) : a = t;
+  const s = h1(a), u = o ? -1 : 1;
+  f(e, void 0, [])();
+  function f(p, m, y) {
+    const v = (
+      /** @type {Record<string, unknown>} */
+      p && typeof p == "object" ? p : {}
+    );
+    if (typeof v.type == "string") {
+      const k = (
+        // `hast`
+        typeof v.tagName == "string" ? v.tagName : (
+          // `xast`
+          typeof v.name == "string" ? v.name : void 0
+        )
+      );
+      Object.defineProperty(_, "name", {
+        value: "node (" + (p.type + (k ? "<" + k + ">" : "")) + ")"
+      });
+    }
+    return _;
+    function _() {
+      let k = m1, T, E, L;
+      if ((!t || s(p, m, y[y.length - 1] || void 0)) && (k = mx(r(p, y)), k[0] === Py))
+        return k;
+      if ("children" in p && p.children) {
+        const M = (
+          /** @type {UnistParent} */
+          p
+        );
+        if (M.children && k[0] !== px)
+          for (E = (o ? M.children.length : -1) + u, L = y.concat(M); E > -1 && E < M.children.length; ) {
+            const V = M.children[E];
+            if (T = f(V, E, L)(), T[0] === Py)
+              return T;
+            E = typeof T[1] == "number" ? T[1] : E + u;
+          }
+      }
+      return k;
+    }
+  }
+}
+function mx(e) {
+  return Array.isArray(e) ? e : typeof e == "number" ? [fx, e] : e == null ? m1 : [e];
+}
+function g1(e, t, r, o) {
+  let a, s, u;
+  typeof t == "function" && typeof r != "function" ? (s = void 0, u = t, a = r) : (s = t, u = r, a = o), hx(e, s, f, a);
+  function f(p, m) {
+    const y = m[m.length - 1], v = y ? y.children.indexOf(p) : void 0;
+    return u(p, v, y);
+  }
+}
+const $d = {}.hasOwnProperty, gx = {};
+function yx(e, t) {
+  const r = t || gx, o = /* @__PURE__ */ new Map(), a = /* @__PURE__ */ new Map(), s = /* @__PURE__ */ new Map(), u = { ...X2, ...r.handlers }, f = {
+    all: m,
+    applyData: wx,
+    definitionById: o,
+    footnoteById: a,
+    footnoteCounts: s,
+    footnoteOrder: [],
+    handlers: u,
+    one: p,
+    options: r,
+    patch: vx,
+    wrap: kx
+  };
+  return g1(e, function(y) {
+    if (y.type === "definition" || y.type === "footnoteDefinition") {
+      const v = y.type === "definition" ? o : a, _ = String(y.identifier).toUpperCase();
+      v.has(_) || v.set(_, y);
+    }
+  }), f;
+  function p(y, v) {
+    const _ = y.type, k = f.handlers[_];
+    if ($d.call(f.handlers, _) && k)
+      return k(f, y, v);
+    if (f.options.passThrough && f.options.passThrough.includes(_)) {
+      if ("children" in y) {
+        const { children: E, ...L } = y, M = kl(L);
+        return M.children = f.all(y), M;
+      }
+      return kl(y);
+    }
+    return (f.options.unknownHandler || Sx)(f, y, v);
+  }
+  function m(y) {
+    const v = [];
+    if ("children" in y) {
+      const _ = y.children;
+      let k = -1;
+      for (; ++k < _.length; ) {
+        const T = f.one(_[k], y);
+        if (T) {
+          if (k && _[k - 1].type === "break" && (!Array.isArray(T) && T.type === "text" && (T.value = Oy(T.value)), !Array.isArray(T) && T.type === "element")) {
+            const E = T.children[0];
+            E && E.type === "text" && (E.value = Oy(E.value));
+          }
+          Array.isArray(T) ? v.push(...T) : v.push(T);
+        }
+      }
+    }
+    return v;
+  }
+}
+function vx(e, t) {
+  e.position && (t.position = tE(e));
+}
+function wx(e, t) {
+  let r = t;
+  if (e && e.data) {
+    const o = e.data.hName, a = e.data.hChildren, s = e.data.hProperties;
+    if (typeof o == "string")
+      if (r.type === "element")
+        r.tagName = o;
+      else {
+        const u = "children" in r ? r.children : [r];
+        r = { type: "element", tagName: o, properties: {}, children: u };
+      }
+    r.type === "element" && s && Object.assign(r.properties, kl(s)), "children" in r && r.children && a !== null && a !== void 0 && (r.children = a);
+  }
+  return r;
+}
+function Sx(e, t) {
+  const r = t.data || {}, o = "value" in t && !($d.call(r, "hProperties") || $d.call(r, "hChildren")) ? { type: "text", value: t.value } : {
+    type: "element",
+    tagName: "div",
+    properties: {},
+    children: e.all(t)
+  };
+  return e.patch(t, o), e.applyData(t, o);
+}
+function kx(e, t) {
+  const r = [];
+  let o = -1;
+  for (t && r.push({ type: "text", value: `
+` }); ++o < e.length; )
+    o && r.push({ type: "text", value: `
+` }), r.push(e[o]);
+  return t && e.length > 0 && r.push({ type: "text", value: `
+` }), r;
+}
+function Oy(e) {
+  let t = 0, r = e.charCodeAt(t);
+  for (; r === 9 || r === 32; )
+    t++, r = e.charCodeAt(t);
+  return e.slice(t);
+}
+function Iy(e, t) {
+  const r = yx(e, t), o = r.one(e, void 0), a = ax(r), s = Array.isArray(o) ? { type: "root", children: o } : o || { type: "root", children: [] };
+  return a && s.children.push({ type: "text", value: `
+` }, a), s;
+}
+function _x(e, t) {
+  return e && "run" in e ? async function(r, o) {
+    const a = (
+      /** @type {HastRoot} */
+      Iy(r, { file: o, ...t })
+    );
+    await e.run(a, o);
+  } : function(r, o) {
+    return (
+      /** @type {HastRoot} */
+      Iy(r, { file: o, ...e || t })
+    );
+  };
+}
+function Ly(e) {
+  if (e)
+    throw e;
+}
+var Qc, Dy;
+function bx() {
+  if (Dy) return Qc;
+  Dy = 1;
+  var e = Object.prototype.hasOwnProperty, t = Object.prototype.toString, r = Object.defineProperty, o = Object.getOwnPropertyDescriptor, a = function(m) {
+    return typeof Array.isArray == "function" ? Array.isArray(m) : t.call(m) === "[object Array]";
+  }, s = function(m) {
+    if (!m || t.call(m) !== "[object Object]")
+      return !1;
+    var y = e.call(m, "constructor"), v = m.constructor && m.constructor.prototype && e.call(m.constructor.prototype, "isPrototypeOf");
+    if (m.constructor && !y && !v)
+      return !1;
+    var _;
+    for (_ in m)
+      ;
+    return typeof _ > "u" || e.call(m, _);
+  }, u = function(m, y) {
+    r && y.name === "__proto__" ? r(m, y.name, {
+      enumerable: !0,
+      configurable: !0,
+      value: y.newValue,
+      writable: !0
+    }) : m[y.name] = y.newValue;
+  }, f = function(m, y) {
+    if (y === "__proto__")
+      if (e.call(m, y)) {
+        if (o)
+          return o(m, y).value;
+      } else return;
+    return m[y];
+  };
+  return Qc = function p() {
+    var m, y, v, _, k, T, E = arguments[0], L = 1, M = arguments.length, V = !1;
+    for (typeof E == "boolean" && (V = E, E = arguments[1] || {}, L = 2), (E == null || typeof E != "object" && typeof E != "function") && (E = {}); L < M; ++L)
+      if (m = arguments[L], m != null)
+        for (y in m)
+          v = f(E, y), _ = f(m, y), E !== _ && (V && _ && (s(_) || (k = a(_))) ? (k ? (k = !1, T = v && a(v) ? v : []) : T = v && s(v) ? v : {}, u(E, { name: y, newValue: p(V, T, _) })) : typeof _ < "u" && u(E, { name: y, newValue: _ }));
+    return E;
+  }, Qc;
+}
+var Ex = bx();
+const Zc = /* @__PURE__ */ _l(Ex);
+function Hd(e) {
+  if (typeof e != "object" || e === null)
+    return !1;
+  const t = Object.getPrototypeOf(e);
+  return (t === null || t === Object.prototype || Object.getPrototypeOf(t) === null) && !(Symbol.toStringTag in e) && !(Symbol.iterator in e);
+}
+function Cx() {
+  const e = [], t = { run: r, use: o };
+  return t;
+  function r(...a) {
+    let s = -1;
+    const u = a.pop();
+    if (typeof u != "function")
+      throw new TypeError("Expected function as last argument, not " + u);
+    f(null, ...a);
+    function f(p, ...m) {
+      const y = e[++s];
+      let v = -1;
+      if (p) {
+        u(p);
+        return;
+      }
+      for (; ++v < a.length; )
+        (m[v] === null || m[v] === void 0) && (m[v] = a[v]);
+      a = m, y ? xx(y, f)(...m) : u(null, ...m);
+    }
+  }
+  function o(a) {
+    if (typeof a != "function")
+      throw new TypeError(
+        "Expected `middelware` to be a function, not " + a
+      );
+    return e.push(a), t;
+  }
+}
+function xx(e, t) {
+  let r;
+  return o;
+  function o(...u) {
+    const f = e.length > u.length;
+    let p;
+    f && u.push(a);
+    try {
+      p = e.apply(this, u);
+    } catch (m) {
+      const y = (
+        /** @type {Error} */
+        m
+      );
+      if (f && r)
+        throw y;
+      return a(y);
+    }
+    f || (p && p.then && typeof p.then == "function" ? p.then(s, a) : p instanceof Error ? a(p) : s(p));
+  }
+  function a(u, ...f) {
+    r || (r = !0, t(u, ...f));
+  }
+  function s(u) {
+    a(null, u);
+  }
+}
+const $n = { basename: Tx, dirname: Ax, extname: Mx, join: Px, sep: "/" };
+function Tx(e, t) {
+  if (t !== void 0 && typeof t != "string")
+    throw new TypeError('"ext" argument must be a string');
+  ba(e);
+  let r = 0, o = -1, a = e.length, s;
+  if (t === void 0 || t.length === 0 || t.length > e.length) {
+    for (; a--; )
+      if (e.codePointAt(a) === 47) {
+        if (s) {
+          r = a + 1;
+          break;
+        }
+      } else o < 0 && (s = !0, o = a + 1);
+    return o < 0 ? "" : e.slice(r, o);
+  }
+  if (t === e)
+    return "";
+  let u = -1, f = t.length - 1;
+  for (; a--; )
+    if (e.codePointAt(a) === 47) {
+      if (s) {
+        r = a + 1;
+        break;
+      }
+    } else
+      u < 0 && (s = !0, u = a + 1), f > -1 && (e.codePointAt(a) === t.codePointAt(f--) ? f < 0 && (o = a) : (f = -1, o = u));
+  return r === o ? o = u : o < 0 && (o = e.length), e.slice(r, o);
+}
+function Ax(e) {
+  if (ba(e), e.length === 0)
+    return ".";
+  let t = -1, r = e.length, o;
+  for (; --r; )
+    if (e.codePointAt(r) === 47) {
+      if (o) {
+        t = r;
+        break;
+      }
+    } else o || (o = !0);
+  return t < 0 ? e.codePointAt(0) === 47 ? "/" : "." : t === 1 && e.codePointAt(0) === 47 ? "//" : e.slice(0, t);
+}
+function Mx(e) {
+  ba(e);
+  let t = e.length, r = -1, o = 0, a = -1, s = 0, u;
+  for (; t--; ) {
+    const f = e.codePointAt(t);
+    if (f === 47) {
+      if (u) {
+        o = t + 1;
+        break;
+      }
+      continue;
+    }
+    r < 0 && (u = !0, r = t + 1), f === 46 ? a < 0 ? a = t : s !== 1 && (s = 1) : a > -1 && (s = -1);
+  }
+  return a < 0 || r < 0 || // We saw a non-dot character immediately before the dot.
+  s === 0 || // The (right-most) trimmed path component is exactly `..`.
+  s === 1 && a === r - 1 && a === o + 1 ? "" : e.slice(a, r);
+}
+function Px(...e) {
+  let t = -1, r;
+  for (; ++t < e.length; )
+    ba(e[t]), e[t] && (r = r === void 0 ? e[t] : r + "/" + e[t]);
+  return r === void 0 ? "." : Ox(r);
+}
+function Ox(e) {
+  ba(e);
+  const t = e.codePointAt(0) === 47;
+  let r = Ix(e, !t);
+  return r.length === 0 && !t && (r = "."), r.length > 0 && e.codePointAt(e.length - 1) === 47 && (r += "/"), t ? "/" + r : r;
+}
+function Ix(e, t) {
+  let r = "", o = 0, a = -1, s = 0, u = -1, f, p;
+  for (; ++u <= e.length; ) {
+    if (u < e.length)
+      f = e.codePointAt(u);
+    else {
+      if (f === 47)
+        break;
+      f = 47;
+    }
+    if (f === 47) {
+      if (!(a === u - 1 || s === 1)) if (a !== u - 1 && s === 2) {
+        if (r.length < 2 || o !== 2 || r.codePointAt(r.length - 1) !== 46 || r.codePointAt(r.length - 2) !== 46) {
+          if (r.length > 2) {
+            if (p = r.lastIndexOf("/"), p !== r.length - 1) {
+              p < 0 ? (r = "", o = 0) : (r = r.slice(0, p), o = r.length - 1 - r.lastIndexOf("/")), a = u, s = 0;
+              continue;
+            }
+          } else if (r.length > 0) {
+            r = "", o = 0, a = u, s = 0;
+            continue;
+          }
+        }
+        t && (r = r.length > 0 ? r + "/.." : "..", o = 2);
+      } else
+        r.length > 0 ? r += "/" + e.slice(a + 1, u) : r = e.slice(a + 1, u), o = u - a - 1;
+      a = u, s = 0;
+    } else f === 46 && s > -1 ? s++ : s = -1;
+  }
+  return r;
+}
+function ba(e) {
+  if (typeof e != "string")
+    throw new TypeError(
+      "Path must be a string. Received " + JSON.stringify(e)
+    );
+}
+const Lx = { cwd: Dx };
+function Dx() {
+  return "/";
+}
+function Jd(e) {
+  return !!(e !== null && typeof e == "object" && "href" in e && e.href && "protocol" in e && e.protocol && // @ts-expect-error: indexing is fine.
+  e.auth === void 0);
+}
+function jx(e) {
+  if (typeof e == "string")
+    e = new URL(e);
+  else if (!Jd(e)) {
+    const t = new TypeError(
+      'The "path" argument must be of type string or an instance of URL. Received `' + e + "`"
+    );
+    throw t.code = "ERR_INVALID_ARG_TYPE", t;
+  }
+  if (e.protocol !== "file:") {
+    const t = new TypeError("The URL must be of scheme file");
+    throw t.code = "ERR_INVALID_URL_SCHEME", t;
+  }
+  return Nx(e);
+}
+function Nx(e) {
+  if (e.hostname !== "") {
+    const o = new TypeError(
+      'File URL host must be "localhost" or empty on darwin'
+    );
+    throw o.code = "ERR_INVALID_FILE_URL_HOST", o;
+  }
+  const t = e.pathname;
+  let r = -1;
+  for (; ++r < t.length; )
+    if (t.codePointAt(r) === 37 && t.codePointAt(r + 1) === 50) {
+      const o = t.codePointAt(r + 2);
+      if (o === 70 || o === 102) {
+        const a = new TypeError(
+          "File URL path must not include encoded / characters"
+        );
+        throw a.code = "ERR_INVALID_FILE_URL_PATH", a;
+      }
+    }
+  return decodeURIComponent(t);
+}
+const Kc = (
+  /** @type {const} */
+  [
+    "history",
+    "path",
+    "basename",
+    "stem",
+    "extname",
+    "dirname"
+  ]
+);
+class y1 {
+  /**
+   * Create a new virtual file.
+   *
+   * `options` is treated as:
+   *
+   * *   `string` or `Uint8Array` — `{value: options}`
+   * *   `URL` — `{path: options}`
+   * *   `VFile` — shallow copies its data over to the new file
+   * *   `object` — all fields are shallow copied over to the new file
+   *
+   * Path related fields are set in the following order (least specific to
+   * most specific): `history`, `path`, `basename`, `stem`, `extname`,
+   * `dirname`.
+   *
+   * You cannot set `dirname` or `extname` without setting either `history`,
+   * `path`, `basename`, or `stem` too.
+   *
+   * @param {Compatible | null | undefined} [value]
+   *   File value.
+   * @returns
+   *   New instance.
+   */
+  constructor(t) {
+    let r;
+    t ? Jd(t) ? r = { path: t } : typeof t == "string" || Rx(t) ? r = { value: t } : r = t : r = {}, this.cwd = "cwd" in r ? "" : Lx.cwd(), this.data = {}, this.history = [], this.messages = [], this.value, this.map, this.result, this.stored;
+    let o = -1;
+    for (; ++o < Kc.length; ) {
+      const s = Kc[o];
+      s in r && r[s] !== void 0 && r[s] !== null && (this[s] = s === "history" ? [...r[s]] : r[s]);
+    }
+    let a;
+    for (a in r)
+      Kc.includes(a) || (this[a] = r[a]);
+  }
+  /**
+   * Get the basename (including extname) (example: `'index.min.js'`).
+   *
+   * @returns {string | undefined}
+   *   Basename.
+   */
+  get basename() {
+    return typeof this.path == "string" ? $n.basename(this.path) : void 0;
+  }
+  /**
+   * Set basename (including extname) (`'index.min.js'`).
+   *
+   * Cannot contain path separators (`'/'` on unix, macOS, and browsers, `'\'`
+   * on windows).
+   * Cannot be nullified (use `file.path = file.dirname` instead).
+   *
+   * @param {string} basename
+   *   Basename.
+   * @returns {undefined}
+   *   Nothing.
+   */
+  set basename(t) {
+    ed(t, "basename"), Xc(t, "basename"), this.path = $n.join(this.dirname || "", t);
+  }
+  /**
+   * Get the parent path (example: `'~'`).
+   *
+   * @returns {string | undefined}
+   *   Dirname.
+   */
+  get dirname() {
+    return typeof this.path == "string" ? $n.dirname(this.path) : void 0;
+  }
+  /**
+   * Set the parent path (example: `'~'`).
+   *
+   * Cannot be set if there’s no `path` yet.
+   *
+   * @param {string | undefined} dirname
+   *   Dirname.
+   * @returns {undefined}
+   *   Nothing.
+   */
+  set dirname(t) {
+    jy(this.basename, "dirname"), this.path = $n.join(t || "", this.basename);
+  }
+  /**
+   * Get the extname (including dot) (example: `'.js'`).
+   *
+   * @returns {string | undefined}
+   *   Extname.
+   */
+  get extname() {
+    return typeof this.path == "string" ? $n.extname(this.path) : void 0;
+  }
+  /**
+   * Set the extname (including dot) (example: `'.js'`).
+   *
+   * Cannot contain path separators (`'/'` on unix, macOS, and browsers, `'\'`
+   * on windows).
+   * Cannot be set if there’s no `path` yet.
+   *
+   * @param {string | undefined} extname
+   *   Extname.
+   * @returns {undefined}
+   *   Nothing.
+   */
+  set extname(t) {
+    if (Xc(t, "extname"), jy(this.dirname, "extname"), t) {
+      if (t.codePointAt(0) !== 46)
+        throw new Error("`extname` must start with `.`");
+      if (t.includes(".", 1))
+        throw new Error("`extname` cannot contain multiple dots");
+    }
+    this.path = $n.join(this.dirname, this.stem + (t || ""));
+  }
+  /**
+   * Get the full path (example: `'~/index.min.js'`).
+   *
+   * @returns {string}
+   *   Path.
+   */
+  get path() {
+    return this.history[this.history.length - 1];
+  }
+  /**
+   * Set the full path (example: `'~/index.min.js'`).
+   *
+   * Cannot be nullified.
+   * You can set a file URL (a `URL` object with a `file:` protocol) which will
+   * be turned into a path with `url.fileURLToPath`.
+   *
+   * @param {URL | string} path
+   *   Path.
+   * @returns {undefined}
+   *   Nothing.
+   */
+  set path(t) {
+    Jd(t) && (t = jx(t)), ed(t, "path"), this.path !== t && this.history.push(t);
+  }
+  /**
+   * Get the stem (basename w/o extname) (example: `'index.min'`).
+   *
+   * @returns {string | undefined}
+   *   Stem.
+   */
+  get stem() {
+    return typeof this.path == "string" ? $n.basename(this.path, this.extname) : void 0;
+  }
+  /**
+   * Set the stem (basename w/o extname) (example: `'index.min'`).
+   *
+   * Cannot contain path separators (`'/'` on unix, macOS, and browsers, `'\'`
+   * on windows).
+   * Cannot be nullified (use `file.path = file.dirname` instead).
+   *
+   * @param {string} stem
+   *   Stem.
+   * @returns {undefined}
+   *   Nothing.
+   */
+  set stem(t) {
+    ed(t, "stem"), Xc(t, "stem"), this.path = $n.join(this.dirname || "", t + (this.extname || ""));
+  }
+  // Normal prototypal methods.
+  /**
+   * Create a fatal message for `reason` associated with the file.
+   *
+   * The `fatal` field of the message is set to `true` (error; file not usable)
+   * and the `file` field is set to the current file path.
+   * The message is added to the `messages` field on `file`.
+   *
+   * > 🪦 **Note**: also has obsolete signatures.
+   *
+   * @overload
+   * @param {string} reason
+   * @param {MessageOptions | null | undefined} [options]
+   * @returns {never}
+   *
+   * @overload
+   * @param {string} reason
+   * @param {Node | NodeLike | null | undefined} parent
+   * @param {string | null | undefined} [origin]
+   * @returns {never}
+   *
+   * @overload
+   * @param {string} reason
+   * @param {Point | Position | null | undefined} place
+   * @param {string | null | undefined} [origin]
+   * @returns {never}
+   *
+   * @overload
+   * @param {string} reason
+   * @param {string | null | undefined} [origin]
+   * @returns {never}
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {Node | NodeLike | null | undefined} parent
+   * @param {string | null | undefined} [origin]
+   * @returns {never}
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {Point | Position | null | undefined} place
+   * @param {string | null | undefined} [origin]
+   * @returns {never}
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {string | null | undefined} [origin]
+   * @returns {never}
+   *
+   * @param {Error | VFileMessage | string} causeOrReason
+   *   Reason for message, should use markdown.
+   * @param {Node | NodeLike | MessageOptions | Point | Position | string | null | undefined} [optionsOrParentOrPlace]
+   *   Configuration (optional).
+   * @param {string | null | undefined} [origin]
+   *   Place in code where the message originates (example:
+   *   `'my-package:my-rule'` or `'my-rule'`).
+   * @returns {never}
+   *   Never.
+   * @throws {VFileMessage}
+   *   Message.
+   */
+  fail(t, r, o) {
+    const a = this.message(t, r, o);
+    throw a.fatal = !0, a;
+  }
+  /**
+   * Create an info message for `reason` associated with the file.
+   *
+   * The `fatal` field of the message is set to `undefined` (info; change
+   * likely not needed) and the `file` field is set to the current file path.
+   * The message is added to the `messages` field on `file`.
+   *
+   * > 🪦 **Note**: also has obsolete signatures.
+   *
+   * @overload
+   * @param {string} reason
+   * @param {MessageOptions | null | undefined} [options]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {string} reason
+   * @param {Node | NodeLike | null | undefined} parent
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {string} reason
+   * @param {Point | Position | null | undefined} place
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {string} reason
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {Node | NodeLike | null | undefined} parent
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {Point | Position | null | undefined} place
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @param {Error | VFileMessage | string} causeOrReason
+   *   Reason for message, should use markdown.
+   * @param {Node | NodeLike | MessageOptions | Point | Position | string | null | undefined} [optionsOrParentOrPlace]
+   *   Configuration (optional).
+   * @param {string | null | undefined} [origin]
+   *   Place in code where the message originates (example:
+   *   `'my-package:my-rule'` or `'my-rule'`).
+   * @returns {VFileMessage}
+   *   Message.
+   */
+  info(t, r, o) {
+    const a = this.message(t, r, o);
+    return a.fatal = void 0, a;
+  }
+  /**
+   * Create a message for `reason` associated with the file.
+   *
+   * The `fatal` field of the message is set to `false` (warning; change may be
+   * needed) and the `file` field is set to the current file path.
+   * The message is added to the `messages` field on `file`.
+   *
+   * > 🪦 **Note**: also has obsolete signatures.
+   *
+   * @overload
+   * @param {string} reason
+   * @param {MessageOptions | null | undefined} [options]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {string} reason
+   * @param {Node | NodeLike | null | undefined} parent
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {string} reason
+   * @param {Point | Position | null | undefined} place
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {string} reason
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {Node | NodeLike | null | undefined} parent
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {Point | Position | null | undefined} place
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @overload
+   * @param {Error | VFileMessage} cause
+   * @param {string | null | undefined} [origin]
+   * @returns {VFileMessage}
+   *
+   * @param {Error | VFileMessage | string} causeOrReason
+   *   Reason for message, should use markdown.
+   * @param {Node | NodeLike | MessageOptions | Point | Position | string | null | undefined} [optionsOrParentOrPlace]
+   *   Configuration (optional).
+   * @param {string | null | undefined} [origin]
+   *   Place in code where the message originates (example:
+   *   `'my-package:my-rule'` or `'my-rule'`).
+   * @returns {VFileMessage}
+   *   Message.
+   */
+  message(t, r, o) {
+    const a = new Nt(
+      // @ts-expect-error: the overloads are fine.
+      t,
+      r,
+      o
+    );
+    return this.path && (a.name = this.path + ":" + a.name, a.file = this.path), a.fatal = !1, this.messages.push(a), a;
+  }
+  /**
+   * Serialize the file.
+   *
+   * > **Note**: which encodings are supported depends on the engine.
+   * > For info on Node.js, see:
+   * > <https://nodejs.org/api/util.html#whatwg-supported-encodings>.
+   *
+   * @param {string | null | undefined} [encoding='utf8']
+   *   Character encoding to understand `value` as when it’s a `Uint8Array`
+   *   (default: `'utf-8'`).
+   * @returns {string}
+   *   Serialized file.
+   */
+  toString(t) {
+    return this.value === void 0 ? "" : typeof this.value == "string" ? this.value : new TextDecoder(t || void 0).decode(this.value);
+  }
+}
+function Xc(e, t) {
+  if (e && e.includes($n.sep))
+    throw new Error(
+      "`" + t + "` cannot be a path: did not expect `" + $n.sep + "`"
+    );
+}
+function ed(e, t) {
+  if (!e)
+    throw new Error("`" + t + "` cannot be empty");
+}
+function jy(e, t) {
+  if (!e)
+    throw new Error("Setting `" + t + "` requires `path` to be set too");
+}
+function Rx(e) {
+  return !!(e && typeof e == "object" && "byteLength" in e && "byteOffset" in e);
+}
+const Fx = (
+  /**
+   * @type {new <Parameters extends Array<unknown>, Result>(property: string | symbol) => (...parameters: Parameters) => Result}
+   */
+  /** @type {unknown} */
+  /**
+   * @this {Function}
+   * @param {string | symbol} property
+   * @returns {(...parameters: Array<unknown>) => unknown}
+   */
+  function(e) {
+    const o = (
+      /** @type {Record<string | symbol, Function>} */
+      // Prototypes do exist.
+      // type-coverage:ignore-next-line
+      this.constructor.prototype
+    ), a = o[e], s = function() {
+      return a.apply(s, arguments);
+    };
+    return Object.setPrototypeOf(s, o), s;
+  }
+), Vx = {}.hasOwnProperty;
+class Tf extends Fx {
+  /**
+   * Create a processor.
+   */
+  constructor() {
+    super("copy"), this.Compiler = void 0, this.Parser = void 0, this.attachers = [], this.compiler = void 0, this.freezeIndex = -1, this.frozen = void 0, this.namespace = {}, this.parser = void 0, this.transformers = Cx();
+  }
+  /**
+   * Copy a processor.
+   *
+   * @deprecated
+   *   This is a private internal method and should not be used.
+   * @returns {Processor<ParseTree, HeadTree, TailTree, CompileTree, CompileResult>}
+   *   New *unfrozen* processor ({@linkcode Processor}) that is
+   *   configured to work the same as its ancestor.
+   *   When the descendant processor is configured in the future it does not
+   *   affect the ancestral processor.
+   */
+  copy() {
+    const t = (
+      /** @type {Processor<ParseTree, HeadTree, TailTree, CompileTree, CompileResult>} */
+      new Tf()
+    );
+    let r = -1;
+    for (; ++r < this.attachers.length; ) {
+      const o = this.attachers[r];
+      t.use(...o);
+    }
+    return t.data(Zc(!0, {}, this.namespace)), t;
+  }
+  /**
+   * Configure the processor with info available to all plugins.
+   * Information is stored in an object.
+   *
+   * Typically, options can be given to a specific plugin, but sometimes it
+   * makes sense to have information shared with several plugins.
+   * For example, a list of HTML elements that are self-closing, which is
+   * needed during all phases.
+   *
+   * > **Note**: setting information cannot occur on *frozen* processors.
+   * > Call the processor first to create a new unfrozen processor.
+   *
+   * > **Note**: to register custom data in TypeScript, augment the
+   * > {@linkcode Data} interface.
+   *
+   * @example
+   *   This example show how to get and set info:
+   *
+   *   ```js
+   *   import {unified} from 'unified'
+   *
+   *   const processor = unified().data('alpha', 'bravo')
+   *
+   *   processor.data('alpha') // => 'bravo'
+   *
+   *   processor.data() // => {alpha: 'bravo'}
+   *
+   *   processor.data({charlie: 'delta'})
+   *
+   *   processor.data() // => {charlie: 'delta'}
+   *   ```
+   *
+   * @template {keyof Data} Key
+   *
+   * @overload
+   * @returns {Data}
+   *
+   * @overload
+   * @param {Data} dataset
+   * @returns {Processor<ParseTree, HeadTree, TailTree, CompileTree, CompileResult>}
+   *
+   * @overload
+   * @param {Key} key
+   * @returns {Data[Key]}
+   *
+   * @overload
+   * @param {Key} key
+   * @param {Data[Key]} value
+   * @returns {Processor<ParseTree, HeadTree, TailTree, CompileTree, CompileResult>}
+   *
+   * @param {Data | Key} [key]
+   *   Key to get or set, or entire dataset to set, or nothing to get the
+   *   entire dataset (optional).
+   * @param {Data[Key]} [value]
+   *   Value to set (optional).
+   * @returns {unknown}
+   *   The current processor when setting, the value at `key` when getting, or
+   *   the entire dataset when getting without key.
+   */
+  data(t, r) {
+    return typeof t == "string" ? arguments.length === 2 ? (rd("data", this.frozen), this.namespace[t] = r, this) : Vx.call(this.namespace, t) && this.namespace[t] || void 0 : t ? (rd("data", this.frozen), this.namespace = t, this) : this.namespace;
+  }
+  /**
+   * Freeze a processor.
+   *
+   * Frozen processors are meant to be extended and not to be configured
+   * directly.
+   *
+   * When a processor is frozen it cannot be unfrozen.
+   * New processors working the same way can be created by calling the
+   * processor.
+   *
+   * It’s possible to freeze processors explicitly by calling `.freeze()`.
+   * Processors freeze automatically when `.parse()`, `.run()`, `.runSync()`,
+   * `.stringify()`, `.process()`, or `.processSync()` are called.
+   *
+   * @returns {Processor<ParseTree, HeadTree, TailTree, CompileTree, CompileResult>}
+   *   The current processor.
+   */
+  freeze() {
+    if (this.frozen)
+      return this;
+    const t = (
+      /** @type {Processor} */
+      /** @type {unknown} */
+      this
+    );
+    for (; ++this.freezeIndex < this.attachers.length; ) {
+      const [r, ...o] = this.attachers[this.freezeIndex];
+      if (o[0] === !1)
+        continue;
+      o[0] === !0 && (o[0] = void 0);
+      const a = r.call(t, ...o);
+      typeof a == "function" && this.transformers.use(a);
+    }
+    return this.frozen = !0, this.freezeIndex = Number.POSITIVE_INFINITY, this;
+  }
+  /**
+   * Parse text to a syntax tree.
+   *
+   * > **Note**: `parse` freezes the processor if not already *frozen*.
+   *
+   * > **Note**: `parse` performs the parse phase, not the run phase or other
+   * > phases.
+   *
+   * @param {Compatible | undefined} [file]
+   *   file to parse (optional); typically `string` or `VFile`; any value
+   *   accepted as `x` in `new VFile(x)`.
+   * @returns {ParseTree extends undefined ? Node : ParseTree}
+   *   Syntax tree representing `file`.
+   */
+  parse(t) {
+    this.freeze();
+    const r = tl(t), o = this.parser || this.Parser;
+    return td("parse", o), o(String(r), r);
+  }
+  /**
+   * Process the given file as configured on the processor.
+   *
+   * > **Note**: `process` freezes the processor if not already *frozen*.
+   *
+   * > **Note**: `process` performs the parse, run, and stringify phases.
+   *
+   * @overload
+   * @param {Compatible | undefined} file
+   * @param {ProcessCallback<VFileWithOutput<CompileResult>>} done
+   * @returns {undefined}
+   *
+   * @overload
+   * @param {Compatible | undefined} [file]
+   * @returns {Promise<VFileWithOutput<CompileResult>>}
+   *
+   * @param {Compatible | undefined} [file]
+   *   File (optional); typically `string` or `VFile`]; any value accepted as
+   *   `x` in `new VFile(x)`.
+   * @param {ProcessCallback<VFileWithOutput<CompileResult>> | undefined} [done]
+   *   Callback (optional).
+   * @returns {Promise<VFile> | undefined}
+   *   Nothing if `done` is given.
+   *   Otherwise a promise, rejected with a fatal error or resolved with the
+   *   processed file.
+   *
+   *   The parsed, transformed, and compiled value is available at
+   *   `file.value` (see note).
+   *
+   *   > **Note**: unified typically compiles by serializing: most
+   *   > compilers return `string` (or `Uint8Array`).
+   *   > Some compilers, such as the one configured with
+   *   > [`rehype-react`][rehype-react], return other values (in this case, a
+   *   > React tree).
+   *   > If you’re using a compiler that doesn’t serialize, expect different
+   *   > result values.
+   *   >
+   *   > To register custom results in TypeScript, add them to
+   *   > {@linkcode CompileResultMap}.
+   *
+   *   [rehype-react]: https://github.com/rehypejs/rehype-react
+   */
+  process(t, r) {
+    const o = this;
+    return this.freeze(), td("process", this.parser || this.Parser), nd("process", this.compiler || this.Compiler), r ? a(void 0, r) : new Promise(a);
+    function a(s, u) {
+      const f = tl(t), p = (
+        /** @type {HeadTree extends undefined ? Node : HeadTree} */
+        /** @type {unknown} */
+        o.parse(f)
+      );
+      o.run(p, f, function(y, v, _) {
+        if (y || !v || !_)
+          return m(y);
+        const k = (
+          /** @type {CompileTree extends undefined ? Node : CompileTree} */
+          /** @type {unknown} */
+          v
+        ), T = o.stringify(k, _);
+        Ux(T) ? _.value = T : _.result = T, m(
+          y,
+          /** @type {VFileWithOutput<CompileResult>} */
+          _
+        );
+      });
+      function m(y, v) {
+        y || !v ? u(y) : s ? s(v) : r(void 0, v);
+      }
+    }
+  }
+  /**
+   * Process the given file as configured on the processor.
+   *
+   * An error is thrown if asynchronous transforms are configured.
+   *
+   * > **Note**: `processSync` freezes the processor if not already *frozen*.
+   *
+   * > **Note**: `processSync` performs the parse, run, and stringify phases.
+   *
+   * @param {Compatible | undefined} [file]
+   *   File (optional); typically `string` or `VFile`; any value accepted as
+   *   `x` in `new VFile(x)`.
+   * @returns {VFileWithOutput<CompileResult>}
+   *   The processed file.
+   *
+   *   The parsed, transformed, and compiled value is available at
+   *   `file.value` (see note).
+   *
+   *   > **Note**: unified typically compiles by serializing: most
+   *   > compilers return `string` (or `Uint8Array`).
+   *   > Some compilers, such as the one configured with
+   *   > [`rehype-react`][rehype-react], return other values (in this case, a
+   *   > React tree).
+   *   > If you’re using a compiler that doesn’t serialize, expect different
+   *   > result values.
+   *   >
+   *   > To register custom results in TypeScript, add them to
+   *   > {@linkcode CompileResultMap}.
+   *
+   *   [rehype-react]: https://github.com/rehypejs/rehype-react
+   */
+  processSync(t) {
+    let r = !1, o;
+    return this.freeze(), td("processSync", this.parser || this.Parser), nd("processSync", this.compiler || this.Compiler), this.process(t, a), Ry("processSync", "process", r), o;
+    function a(s, u) {
+      r = !0, Ly(s), o = u;
+    }
+  }
+  /**
+   * Run *transformers* on a syntax tree.
+   *
+   * > **Note**: `run` freezes the processor if not already *frozen*.
+   *
+   * > **Note**: `run` performs the run phase, not other phases.
+   *
+   * @overload
+   * @param {HeadTree extends undefined ? Node : HeadTree} tree
+   * @param {RunCallback<TailTree extends undefined ? Node : TailTree>} done
+   * @returns {undefined}
+   *
+   * @overload
+   * @param {HeadTree extends undefined ? Node : HeadTree} tree
+   * @param {Compatible | undefined} file
+   * @param {RunCallback<TailTree extends undefined ? Node : TailTree>} done
+   * @returns {undefined}
+   *
+   * @overload
+   * @param {HeadTree extends undefined ? Node : HeadTree} tree
+   * @param {Compatible | undefined} [file]
+   * @returns {Promise<TailTree extends undefined ? Node : TailTree>}
+   *
+   * @param {HeadTree extends undefined ? Node : HeadTree} tree
+   *   Tree to transform and inspect.
+   * @param {(
+   *   RunCallback<TailTree extends undefined ? Node : TailTree> |
+   *   Compatible
+   * )} [file]
+   *   File associated with `node` (optional); any value accepted as `x` in
+   *   `new VFile(x)`.
+   * @param {RunCallback<TailTree extends undefined ? Node : TailTree>} [done]
+   *   Callback (optional).
+   * @returns {Promise<TailTree extends undefined ? Node : TailTree> | undefined}
+   *   Nothing if `done` is given.
+   *   Otherwise, a promise rejected with a fatal error or resolved with the
+   *   transformed tree.
+   */
+  run(t, r, o) {
+    Ny(t), this.freeze();
+    const a = this.transformers;
+    return !o && typeof r == "function" && (o = r, r = void 0), o ? s(void 0, o) : new Promise(s);
+    function s(u, f) {
+      const p = tl(r);
+      a.run(t, p, m);
+      function m(y, v, _) {
+        const k = (
+          /** @type {TailTree extends undefined ? Node : TailTree} */
+          v || t
+        );
+        y ? f(y) : u ? u(k) : o(void 0, k, _);
+      }
+    }
+  }
+  /**
+   * Run *transformers* on a syntax tree.
+   *
+   * An error is thrown if asynchronous transforms are configured.
+   *
+   * > **Note**: `runSync` freezes the processor if not already *frozen*.
+   *
+   * > **Note**: `runSync` performs the run phase, not other phases.
+   *
+   * @param {HeadTree extends undefined ? Node : HeadTree} tree
+   *   Tree to transform and inspect.
+   * @param {Compatible | undefined} [file]
+   *   File associated with `node` (optional); any value accepted as `x` in
+   *   `new VFile(x)`.
+   * @returns {TailTree extends undefined ? Node : TailTree}
+   *   Transformed tree.
+   */
+  runSync(t, r) {
+    let o = !1, a;
+    return this.run(t, r, s), Ry("runSync", "run", o), a;
+    function s(u, f) {
+      Ly(u), a = f, o = !0;
+    }
+  }
+  /**
+   * Compile a syntax tree.
+   *
+   * > **Note**: `stringify` freezes the processor if not already *frozen*.
+   *
+   * > **Note**: `stringify` performs the stringify phase, not the run phase
+   * > or other phases.
+   *
+   * @param {CompileTree extends undefined ? Node : CompileTree} tree
+   *   Tree to compile.
+   * @param {Compatible | undefined} [file]
+   *   File associated with `node` (optional); any value accepted as `x` in
+   *   `new VFile(x)`.
+   * @returns {CompileResult extends undefined ? Value : CompileResult}
+   *   Textual representation of the tree (see note).
+   *
+   *   > **Note**: unified typically compiles by serializing: most compilers
+   *   > return `string` (or `Uint8Array`).
+   *   > Some compilers, such as the one configured with
+   *   > [`rehype-react`][rehype-react], return other values (in this case, a
+   *   > React tree).
+   *   > If you’re using a compiler that doesn’t serialize, expect different
+   *   > result values.
+   *   >
+   *   > To register custom results in TypeScript, add them to
+   *   > {@linkcode CompileResultMap}.
+   *
+   *   [rehype-react]: https://github.com/rehypejs/rehype-react
+   */
+  stringify(t, r) {
+    this.freeze();
+    const o = tl(r), a = this.compiler || this.Compiler;
+    return nd("stringify", a), Ny(t), a(t, o);
+  }
+  /**
+   * Configure the processor to use a plugin, a list of usable values, or a
+   * preset.
+   *
+   * If the processor is already using a plugin, the previous plugin
+   * configuration is changed based on the options that are passed in.
+   * In other words, the plugin is not added a second time.
+   *
+   * > **Note**: `use` cannot be called on *frozen* processors.
+   * > Call the processor first to create a new unfrozen processor.
+   *
+   * @example
+   *   There are many ways to pass plugins to `.use()`.
+   *   This example gives an overview:
+   *
+   *   ```js
+   *   import {unified} from 'unified'
+   *
+   *   unified()
+   *     // Plugin with options:
+   *     .use(pluginA, {x: true, y: true})
+   *     // Passing the same plugin again merges configuration (to `{x: true, y: false, z: true}`):
+   *     .use(pluginA, {y: false, z: true})
+   *     // Plugins:
+   *     .use([pluginB, pluginC])
+   *     // Two plugins, the second with options:
+   *     .use([pluginD, [pluginE, {}]])
+   *     // Preset with plugins and settings:
+   *     .use({plugins: [pluginF, [pluginG, {}]], settings: {position: false}})
+   *     // Settings only:
+   *     .use({settings: {position: false}})
+   *   ```
+   *
+   * @template {Array<unknown>} [Parameters=[]]
+   * @template {Node | string | undefined} [Input=undefined]
+   * @template [Output=Input]
+   *
+   * @overload
+   * @param {Preset | null | undefined} [preset]
+   * @returns {Processor<ParseTree, HeadTree, TailTree, CompileTree, CompileResult>}
+   *
+   * @overload
+   * @param {PluggableList} list
+   * @returns {Processor<ParseTree, HeadTree, TailTree, CompileTree, CompileResult>}
+   *
+   * @overload
+   * @param {Plugin<Parameters, Input, Output>} plugin
+   * @param {...(Parameters | [boolean])} parameters
+   * @returns {UsePlugin<ParseTree, HeadTree, TailTree, CompileTree, CompileResult, Input, Output>}
+   *
+   * @param {PluggableList | Plugin | Preset | null | undefined} value
+   *   Usable value.
+   * @param {...unknown} parameters
+   *   Parameters, when a plugin is given as a usable value.
+   * @returns {Processor<ParseTree, HeadTree, TailTree, CompileTree, CompileResult>}
+   *   Current processor.
+   */
+  use(t, ...r) {
+    const o = this.attachers, a = this.namespace;
+    if (rd("use", this.frozen), t != null) if (typeof t == "function")
+      p(t, r);
+    else if (typeof t == "object")
+      Array.isArray(t) ? f(t) : u(t);
+    else
+      throw new TypeError("Expected usable value, not `" + t + "`");
+    return this;
+    function s(m) {
+      if (typeof m == "function")
+        p(m, []);
+      else if (typeof m == "object")
+        if (Array.isArray(m)) {
+          const [y, ...v] = (
+            /** @type {PluginTuple<Array<unknown>>} */
+            m
+          );
+          p(y, v);
+        } else
+          u(m);
+      else
+        throw new TypeError("Expected usable value, not `" + m + "`");
+    }
+    function u(m) {
+      if (!("plugins" in m) && !("settings" in m))
+        throw new Error(
+          "Expected usable value but received an empty preset, which is probably a mistake: presets typically come with `plugins` and sometimes with `settings`, but this has neither"
+        );
+      f(m.plugins), m.settings && (a.settings = Zc(!0, a.settings, m.settings));
+    }
+    function f(m) {
+      let y = -1;
+      if (m != null) if (Array.isArray(m))
+        for (; ++y < m.length; ) {
+          const v = m[y];
+          s(v);
+        }
+      else
+        throw new TypeError("Expected a list of plugins, not `" + m + "`");
+    }
+    function p(m, y) {
+      let v = -1, _ = -1;
+      for (; ++v < o.length; )
+        if (o[v][0] === m) {
+          _ = v;
+          break;
+        }
+      if (_ === -1)
+        o.push([m, ...y]);
+      else if (y.length > 0) {
+        let [k, ...T] = y;
+        const E = o[_][1];
+        Hd(E) && Hd(k) && (k = Zc(!0, E, k)), o[_] = [m, k, ...T];
+      }
+    }
+  }
+}
+const zx = new Tf().freeze();
+function td(e, t) {
+  if (typeof t != "function")
+    throw new TypeError("Cannot `" + e + "` without `parser`");
+}
+function nd(e, t) {
+  if (typeof t != "function")
+    throw new TypeError("Cannot `" + e + "` without `compiler`");
+}
+function rd(e, t) {
+  if (t)
+    throw new Error(
+      "Cannot call `" + e + "` on a frozen processor.\nCreate a new processor first, by calling it: use `processor()` instead of `processor`."
+    );
+}
+function Ny(e) {
+  if (!Hd(e) || typeof e.type != "string")
+    throw new TypeError("Expected node, got `" + e + "`");
+}
+function Ry(e, t, r) {
+  if (!r)
+    throw new Error(
+      "`" + e + "` finished async. Use `" + t + "` instead"
+    );
+}
+function tl(e) {
+  return Bx(e) ? e : new y1(e);
+}
+function Bx(e) {
+  return !!(e && typeof e == "object" && "message" in e && "messages" in e);
+}
+function Ux(e) {
+  return typeof e == "string" || qx(e);
+}
+function qx(e) {
+  return !!(e && typeof e == "object" && "byteLength" in e && "byteOffset" in e);
+}
+const $x = "https://github.com/remarkjs/react-markdown/blob/main/changelog.md", Fy = [], Vy = { allowDangerousHtml: !0 }, Hx = /^(https?|ircs?|mailto|xmpp)$/i, Jx = [
+  { from: "astPlugins", id: "remove-buggy-html-in-markdown-parser" },
+  { from: "allowDangerousHtml", id: "remove-buggy-html-in-markdown-parser" },
+  {
+    from: "allowNode",
+    id: "replace-allownode-allowedtypes-and-disallowedtypes",
+    to: "allowElement"
+  },
+  {
+    from: "allowedTypes",
+    id: "replace-allownode-allowedtypes-and-disallowedtypes",
+    to: "allowedElements"
+  },
+  { from: "className", id: "remove-classname" },
+  {
+    from: "disallowedTypes",
+    id: "replace-allownode-allowedtypes-and-disallowedtypes",
+    to: "disallowedElements"
+  },
+  { from: "escapeHtml", id: "remove-buggy-html-in-markdown-parser" },
+  { from: "includeElementIndex", id: "#remove-includeelementindex" },
+  {
+    from: "includeNodeIndex",
+    id: "change-includenodeindex-to-includeelementindex"
+  },
+  { from: "linkTarget", id: "remove-linktarget" },
+  { from: "plugins", id: "change-plugins-to-remarkplugins", to: "remarkPlugins" },
+  { from: "rawSourcePos", id: "#remove-rawsourcepos" },
+  { from: "renderers", id: "change-renderers-to-components", to: "components" },
+  { from: "source", id: "change-source-to-children", to: "children" },
+  { from: "sourcePos", id: "#remove-sourcepos" },
+  { from: "transformImageUri", id: "#add-urltransform", to: "urlTransform" },
+  { from: "transformLinkUri", id: "#add-urltransform", to: "urlTransform" }
+];
+function Wx(e) {
+  const t = Gx(e), r = Yx(e);
+  return Qx(t.runSync(t.parse(r), r), e);
+}
+function Gx(e) {
+  const t = e.rehypePlugins || Fy, r = e.remarkPlugins || Fy, o = e.remarkRehypeOptions ? { ...e.remarkRehypeOptions, ...Vy } : Vy;
+  return zx().use(T2).use(r).use(_x, o).use(t);
+}
+function Yx(e) {
+  const t = e.children || "", r = new y1();
+  return typeof t == "string" && (r.value = t), r;
+}
+function Qx(e, t) {
+  const r = t.allowedElements, o = t.allowElement, a = t.components, s = t.disallowedElements, u = t.skipHtml, f = t.unwrapDisallowed, p = t.urlTransform || Zx;
+  for (const y of Jx)
+    Object.hasOwn(t, y.from) && ("" + y.from + (y.to ? "use `" + y.to + "` instead" : "remove it") + $x + y.id, void 0);
+  return g1(e, m), aE(e, {
+    Fragment: ee.Fragment,
+    components: a,
+    ignoreInvalidStyle: !0,
+    jsx: ee.jsx,
+    jsxs: ee.jsxs,
+    passKeys: !0,
+    passNode: !0
+  });
+  function m(y, v, _) {
+    if (y.type === "raw" && _ && typeof v == "number")
+      return u ? _.children.splice(v, 1) : _.children[v] = { type: "text", value: y.value }, v;
+    if (y.type === "element") {
+      let k;
+      for (k in Wc)
+        if (Object.hasOwn(Wc, k) && Object.hasOwn(y.properties, k)) {
+          const T = y.properties[k], E = Wc[k];
+          (E === null || E.includes(y.tagName)) && (y.properties[k] = p(String(T || ""), k, y));
+        }
+    }
+    if (y.type === "element") {
+      let k = r ? !r.includes(y.tagName) : s ? s.includes(y.tagName) : !1;
+      if (!k && o && typeof v == "number" && (k = !o(y, v, _)), k && _ && typeof v == "number")
+        return f && y.children ? _.children.splice(v, 1, ...y.children) : _.children.splice(v, 1), v;
+    }
+  }
+}
+function Zx(e) {
+  const t = e.indexOf(":"), r = e.indexOf("?"), o = e.indexOf("#"), a = e.indexOf("/");
+  return (
+    // If there is no protocol, it’s relative.
+    t === -1 || // If the first colon is after a `?`, `#`, or `/`, it’s not a protocol.
+    a !== -1 && t > a || r !== -1 && t > r || o !== -1 && t > o || // It is a protocol, it should be allowed.
+    Hx.test(e.slice(0, t)) ? e : ""
+  );
+}
+const Kx = ({
+  content: e,
+  isLoading: t,
+  role: r
+}) => /* @__PURE__ */ ee.jsxs("div", { className: "markdown-content", children: [
+  /* @__PURE__ */ ee.jsx(
+    Wx,
+    {
+      components: {
+        p: ({ children: o }) => /* @__PURE__ */ ee.jsx("p", { className: "mb-3 last:mb-0", children: o }),
+        ul: ({ children: o }) => /* @__PURE__ */ ee.jsx("ul", { className: "list-disc list-inside mb-3 last:mb-0", children: o }),
+        ol: ({ children: o }) => /* @__PURE__ */ ee.jsx("ol", { className: "list-decimal list-inside mb-3 last:mb-0", children: o }),
+        li: ({ children: o }) => /* @__PURE__ */ ee.jsx("li", { className: "mb-0.5", children: o }),
+        code: ({ children: o, ...a }) => !("inline" in a) || a.inline ? /* @__PURE__ */ ee.jsx("code", { className: "px-1 py-0.5 rounded bg-black bg-opacity-10 text-sm", children: o }) : /* @__PURE__ */ ee.jsx("pre", { className: "p-2 rounded bg-black bg-opacity-10 overflow-x-auto text-sm", children: /* @__PURE__ */ ee.jsx("code", { children: o }) }),
+        a: ({ children: o, href: a }) => /* @__PURE__ */ ee.jsx(
+          "a",
+          {
+            href: a,
+            target: "_blank",
+            rel: "noopener noreferrer",
+            className: "underline hover:opacity-80",
+            children: o
+          }
+        ),
+        strong: ({ children: o }) => /* @__PURE__ */ ee.jsx("strong", { className: "font-semibold", children: o }),
+        em: ({ children: o }) => /* @__PURE__ */ ee.jsx("em", { className: "italic", children: o }),
+        h1: ({ children: o }) => /* @__PURE__ */ ee.jsx("h1", { className: "text-lg font-bold mb-1", children: o }),
+        h2: ({ children: o }) => /* @__PURE__ */ ee.jsx("h2", { className: "text-base font-bold mb-1", children: o }),
+        h3: ({ children: o }) => /* @__PURE__ */ ee.jsx("h3", { className: "text-sm font-bold mb-1", children: o }),
+        blockquote: ({ children: o }) => /* @__PURE__ */ ee.jsx("blockquote", { className: "border-l-2 pl-2 my-3 opacity-80", children: o })
+      },
+      children: e
+    }
+  ),
+  t && r === "assistant" && /* @__PURE__ */ ee.jsx("span", { className: "inline-block w-0.5 h-4 ml-0.5 bg-current animate-blink" })
+] }), Xx = ({
+  role: e,
+  content: t,
+  colors: r,
+  styles: o,
+  isLoading: a = !1
+}) => /* @__PURE__ */ ee.jsx("div", { className: `flex ${e === "user" ? "justify-end" : "justify-start"}`, children: /* @__PURE__ */ ee.jsx(
+  "div",
+  {
+    className: `max-w-xs px-3 py-2 ${vb[o.radius]} text-sm`,
+    style: {
+      backgroundColor: e === "user" ? r.accentColor : (o.theme === "dark", r.baseColor),
+      color: e === "user" || o.theme === "dark" ? "#FFFFFF" : "#1F2937",
+      ...e === "assistant" && {
+        filter: o.theme === "dark" ? "brightness(1.5) contrast(0.9)" : "brightness(0.95) contrast(1.05)"
+      }
+    },
+    children: /* @__PURE__ */ ee.jsx(Kx, { content: t, isLoading: a, role: e })
+  }
+) }), zy = ({
+  mode: e,
+  isCallActive: t,
+  theme: r,
+  voiceEmptyMessage: o,
+  voiceActiveEmptyMessage: a,
+  chatEmptyMessage: s,
+  hybridEmptyMessage: u
+}) => /* @__PURE__ */ ee.jsxs("div", { className: "text-center", children: [
+  /* @__PURE__ */ ee.jsx(
+    "div",
+    {
+      className: `w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 ${r === "dark" ? "bg-gray-700" : "bg-gray-100"}`,
+      children: e === "voice" ? /* @__PURE__ */ ee.jsx(
+        Ol,
+        {
+          size: 32,
+          className: "text-gray-400"
+        }
+      ) : /* @__PURE__ */ ee.jsx(
+        j0,
+        {
+          size: 32,
+          className: "text-gray-400"
+        }
+      )
+    }
+  ),
+  /* @__PURE__ */ ee.jsx(
+    "p",
+    {
+      className: `text-sm ${r === "dark" ? "text-gray-400" : "text-gray-500"}`,
+      children: e === "voice" ? t ? a : o : e === "chat" ? s : u
+    }
+  )
+] }), eT = ({
+  isCallActive: e,
+  connectionStatus: t,
+  isAvailable: r,
+  isMuted: o,
+  onToggleCall: a,
+  onToggleMute: s,
+  startButtonText: u,
+  endButtonText: f,
+  colors: p
+}) => /* @__PURE__ */ ee.jsxs("div", { className: "flex items-center justify-center space-x-2", children: [
+  e && t === "connected" && /* @__PURE__ */ ee.jsx(
+    "button",
+    {
+      onClick: s,
+      className: "h-12 w-12 flex items-center justify-center rounded-full transition-all hover:opacity-90 active:scale-95",
+      style: {
+        backgroundColor: o ? "#ef4444" : p.accentColor,
+        color: p.ctaButtonTextColor || "white"
+      },
+      title: o ? "Unmute microphone" : "Mute microphone",
+      children: o ? /* @__PURE__ */ ee.jsx(cf, { size: 20, weight: "fill" }) : /* @__PURE__ */ ee.jsx(Ol, { size: 20, weight: "fill" })
+    }
+  ),
+  /* @__PURE__ */ ee.jsx(
+    "button",
+    {
+      onClick: a,
+      disabled: !r && !e,
+      className: `px-6 py-3 rounded-full font-medium transition-all flex items-center space-x-2 ${!r && !e ? "opacity-50 cursor-not-allowed" : "hover:opacity-90 active:scale-95"}`,
+      style: {
+        backgroundColor: e ? "#ef4444" : p.accentColor,
+        color: p.ctaButtonTextColor || "white"
+      },
+      children: t === "connecting" ? /* @__PURE__ */ ee.jsxs(ee.Fragment, { children: [
+        /* @__PURE__ */ ee.jsx("div", { className: "animate-spin w-4 h-4 border-2 border-current border-t-transparent rounded-full" }),
+        /* @__PURE__ */ ee.jsx("span", { children: "Connecting..." })
+      ] }) : e ? /* @__PURE__ */ ee.jsxs(ee.Fragment, { children: [
+        /* @__PURE__ */ ee.jsx(ff, { size: 16, weight: "fill" }),
+        /* @__PURE__ */ ee.jsx("span", { children: f })
+      ] }) : /* @__PURE__ */ ee.jsxs(ee.Fragment, { children: [
+        /* @__PURE__ */ ee.jsx(pf, { size: 16, weight: "bold" }),
+        /* @__PURE__ */ ee.jsx("span", { children: u })
+      ] })
+    }
+  )
+] }), tT = ({
+  chatInput: e,
+  isAvailable: t,
+  onInputChange: r,
+  onSendMessage: o,
+  colors: a,
+  styles: s,
+  inputRef: u,
+  placeholder: f = "Type your message..."
+  // Default fallback
+}) => /* @__PURE__ */ ee.jsxs("div", { className: "flex items-center space-x-2", children: [
+  /* @__PURE__ */ ee.jsx(
+    "input",
+    {
+      ref: u,
+      type: "text",
+      value: e,
+      onChange: r,
+      onKeyPress: (p) => p.key === "Enter" && t && o(),
+      placeholder: f,
+      className: `flex-1 px-3 py-2 rounded-lg border ${s.theme === "dark" ? "border-gray-600 text-white placeholder-gray-400" : "border-gray-300 text-gray-900 placeholder-gray-500"} focus:outline-none focus:ring-2`,
+      style: {
+        "--tw-ring-color": s.theme === "dark" ? `${a.accentColor}33` : `${a.accentColor}80`,
+        // 50% opacity in light mode
+        backgroundColor: a.baseColor,
+        filter: s.theme === "dark" ? "brightness(1.8)" : "brightness(0.98)"
+      }
+    }
+  ),
+  /* @__PURE__ */ ee.jsx(
+    "button",
+    {
+      onClick: o,
+      disabled: !e.trim() || !t,
+      className: `h-10 w-10 flex items-center justify-center rounded-lg transition-all ${!e.trim() || !t ? "opacity-50 cursor-not-allowed" : "hover:opacity-90 active:scale-95"}`,
+      style: {
+        backgroundColor: a.accentColor,
+        color: a.ctaButtonTextColor || "white"
+      },
+      children: /* @__PURE__ */ ee.jsx(df, { size: 20, weight: "fill" })
+    }
+  )
+] }), nT = ({
+  chatInput: e,
+  isCallActive: t,
+  connectionStatus: r,
+  isChatAvailable: o,
+  isVoiceAvailable: a,
+  isMuted: s,
+  onInputChange: u,
+  onSendMessage: f,
+  onToggleCall: p,
+  onToggleMute: m,
+  colors: y,
+  styles: v,
+  inputRef: _,
+  placeholder: k = "Type your message..."
+  // Default fallback
+}) => /* @__PURE__ */ ee.jsxs("div", { className: "flex items-center space-x-2", children: [
+  /* @__PURE__ */ ee.jsx(
+    "input",
+    {
+      ref: _,
+      type: "text",
+      value: e,
+      onChange: u,
+      onKeyPress: (T) => T.key === "Enter" && o && !t && f(),
+      placeholder: k,
+      disabled: t,
+      className: `flex-1 px-3 py-2 rounded-lg border ${v.theme === "dark" ? "border-gray-600 text-white placeholder-gray-400" : "border-gray-300 text-gray-900 placeholder-gray-500"} focus:outline-none focus:ring-2 ${t ? "opacity-50 cursor-not-allowed" : ""}`,
+      style: {
+        "--tw-ring-color": v.theme === "dark" ? `${y.accentColor}33` : `${y.accentColor}80`,
+        // 50% opacity in light mode
+        backgroundColor: y.baseColor,
+        filter: v.theme === "dark" ? "brightness(1.8)" : "brightness(0.98)"
+      }
+    }
+  ),
+  /* @__PURE__ */ ee.jsx(
+    "button",
+    {
+      onClick: f,
+      disabled: !e.trim() || !o || t,
+      className: `h-10 w-10 flex items-center justify-center rounded-lg transition-all ${!e.trim() || !o || t ? "opacity-50 cursor-not-allowed" : "hover:opacity-90 active:scale-95"}`,
+      style: {
+        backgroundColor: y.accentColor,
+        color: y.ctaButtonTextColor || "white"
+      },
+      title: "Send message",
+      children: /* @__PURE__ */ ee.jsx(df, { size: 20, weight: "fill" })
+    }
+  ),
+  t && r === "connected" && /* @__PURE__ */ ee.jsx(
+    "button",
+    {
+      onClick: m,
+      className: "h-10 w-10 flex items-center justify-center rounded-lg transition-all hover:opacity-90 active:scale-95",
+      style: {
+        backgroundColor: s ? "#ef4444" : y.accentColor,
+        color: y.ctaButtonTextColor || "white"
+      },
+      title: s ? "Unmute microphone" : "Mute microphone",
+      children: s ? /* @__PURE__ */ ee.jsx(cf, { size: 20, weight: "fill" }) : /* @__PURE__ */ ee.jsx(Ol, { size: 20, weight: "fill" })
+    }
+  ),
+  /* @__PURE__ */ ee.jsx(
+    "button",
+    {
+      onClick: p,
+      disabled: !a && !t,
+      className: `h-10 w-10 flex items-center justify-center rounded-lg transition-all ${!a && !t ? "opacity-50 cursor-not-allowed" : "hover:opacity-90 active:scale-95"}`,
+      style: {
+        backgroundColor: t ? "#ef4444" : y.accentColor,
+        color: y.ctaButtonTextColor || "white"
+      },
+      title: r === "connecting" ? "Connecting..." : t ? "Stop voice call" : "Start voice call",
+      children: r === "connecting" ? /* @__PURE__ */ ee.jsx("div", { className: "animate-spin w-5 h-5 border-2 border-current border-t-transparent rounded-full" }) : t ? /* @__PURE__ */ ee.jsx(ff, { size: 20, weight: "fill" }) : /* @__PURE__ */ ee.jsx(pf, { size: 20, weight: "bold" })
+    }
+  )
+] }), rT = ({
+  publicKey: e,
+  assistantId: t,
+  assistant: r,
+  assistantOverrides: o,
+  squadId: a,
+  squad: s,
+  apiUrl: u,
+  position: f = "bottom-right",
+  size: p = "full",
+  borderRadius: m,
+  radius: y = "medium",
+  // deprecated
+  mode: v = "chat",
+  theme: _ = "light",
+  // Colors
+  baseBgColor: k,
+  baseColor: T,
+  // deprecated
+  accentColor: E,
+  ctaButtonColor: L,
+  buttonBaseColor: M,
+  // deprecated
+  ctaButtonTextColor: V,
+  buttonAccentColor: B,
+  // deprecated
+  // Text labels
+  title: j,
+  mainLabel: N,
+  // deprecated
+  startButtonText: A,
+  endButtonText: H,
+  ctaTitle: z,
+  ctaSubtitle: ae,
+  // Empty messages
+  voiceEmptyMessage: X,
+  emptyVoiceMessage: ne = "Click the start button to begin a conversation",
+  // deprecated
+  voiceActiveEmptyMessage: le,
+  emptyVoiceActiveMessage: pe = "Listening...",
+  // deprecated
+  chatEmptyMessage: q,
+  emptyChatMessage: ue = "Type a message to start chatting",
+  // deprecated
+  hybridEmptyMessage: be,
+  emptyHybridMessage: ve = "Use voice or text to communicate",
+  // deprecated
+  // Chat configuration
+  chatFirstMessage: Y,
+  chatEndMessage: re,
+  firstChatMessage: C,
+  // deprecated
+  chatPlaceholder: I,
+  // Voice configuration
+  voiceShowTranscript: G,
+  showTranscript: d = !1,
+  // deprecated
+  voiceAutoReconnect: S = !1,
+  voiceReconnectStorage: w = "session",
+  reconnectStorageKey: x = "vapi_widget_web_call",
+  // Consent configuration
+  consentRequired: P,
+  requireConsent: U = !1,
+  // deprecated
+  consentTitle: Q,
+  consentContent: K,
+  termsContent: he = 'By clicking "Agree," and each time I interact with this AI agent, I consent to the recording, storage, and sharing of my communications with third-party service providers, and as otherwise described in our Terms of Service.',
+  // deprecated
+  consentStorageKey: Te,
+  localStorageKey: Oe = "vapi_widget_consent",
+  // deprecated
+  // Event handlers
+  onVoiceStart: gt,
+  onCallStart: Rt,
+  // deprecated
+  onVoiceEnd: en,
+  onCallEnd: Je,
+  // deprecated
+  onMessage: ft,
+  onError: At
+}) => {
+  const yt = "vapi_widget_expanded", [_t, tn] = D.useState(() => {
+    try {
+      return sessionStorage.getItem(yt) === "true";
+    } catch {
+      return !1;
+    }
+  }), [hn, xn] = D.useState(!1), [Tn, Z] = D.useState(""), [fe, Ee] = D.useState(!1), Le = D.useRef(null), je = D.useRef(null), at = D.useCallback(
+    (He) => {
+      tn(He);
+      try {
+        sessionStorage.setItem(yt, He.toString());
+      } catch (nn) {
+        console.warn("Failed to save expanded state to localStorage:", nn);
+      }
+    },
+    [yt]
+  ), An = m ?? y, Mt = k ?? T, Vn = E ?? "#14B8A6", Qn = M ?? L ?? "#000000", pt = B ?? V ?? "#FFFFFF", $t = j ?? N ?? "Talk with AI", Ft = z ?? $t, ho = ae, mo = A ?? "Start", gr = H ?? "End Call", Zn = X ?? ne, go = le ?? pe, yo = q ?? ue, vo = be ?? ve, Ea = Y ?? C, bi = G ?? d, Jr = P ?? U, Ca = Q, Wr = K ?? he, Gr = Te ?? Oe, Yr = gt ?? Rt, jl = en ?? Je, yr = I ?? "Type your message...", Ei = re ?? "This chat has ended. Thank you.", ke = mb({
+    mode: v,
+    publicKey: e,
+    assistantId: t,
+    assistant: r,
+    assistantOverrides: o,
+    squadId: a,
+    squad: s,
+    apiUrl: u,
+    firstChatMessage: Ea,
+    voiceAutoReconnect: S,
+    voiceReconnectStorage: w,
+    reconnectStorageKey: x,
+    onCallStart: Yr,
+    onCallEnd: jl,
+    onMessage: ft,
+    onError: At
+  }), ut = {
+    baseColor: Mt ? _ === "dark" && Mt === "#FFFFFF" ? "#000000" : Mt : _ === "dark" ? "#000000" : "#FFFFFF",
+    accentColor: Vn,
+    ctaButtonColor: Qn,
+    ctaButtonTextColor: pt
+  }, bt = {
+    size: v !== "voice" && p === "tiny" ? "compact" : p,
+    radius: An,
+    theme: _
+  }, Nl = _t && !(v === "voice" && p === "tiny"), Kn = () => ({
+    ...L0[p].expanded,
+    ...gb[y],
+    backgroundColor: ut.baseColor,
+    border: `1px solid ${bt.theme === "dark" ? "#1F2937" : "#E5E7EB"}`,
+    display: "flex",
+    flexDirection: "column",
+    overflow: "hidden",
+    boxShadow: bt.theme === "dark" ? "0 25px 50px -12px rgba(0, 0, 0, 0.5)" : "0 25px 50px -12px rgb(0 0 0 / 0.25)"
+  }), xa = () => ({
+    flex: "1 1 0%",
+    padding: "1rem",
+    overflowY: "auto",
+    backgroundColor: ut.baseColor,
+    ...bt.theme === "dark" ? { filter: "brightness(1.1)" } : {}
+  }), Ta = () => ({
+    padding: "1rem",
+    borderTop: `1px solid ${bt.theme === "dark" ? "#1F2937" : "#E5E7EB"}`,
+    backgroundColor: ut.baseColor,
+    ...bt.theme === "dark" ? { filter: "brightness(1.05)" } : { filter: "brightness(0.97)" }
+  }), Rl = () => {
+    const He = ke.conversation.length === 0, nn = !bi && ke.voice.isCallActive && (v === "voice" || v === "hybrid"), Et = v === "voice" && !ke.voice.isCallActive;
+    return He || nn || Et ? {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center"
+    } : {
+      display: "flex",
+      flexDirection: "column",
+      gap: "0.75rem"
+    };
+  };
+  D.useEffect(() => {
+    if (Jr) {
+      const nn = localStorage.getItem(Gr) === "true";
+      xn(nn);
+    } else
+      xn(!0);
+  }, [Jr, Gr]), D.useEffect(() => {
+    Le.current?.scrollIntoView({ behavior: "smooth" });
+  }, [ke.conversation, ke.chat.isTyping]), D.useEffect(() => {
+    _t && (v === "chat" || v === "hybrid") && setTimeout(() => {
+      je.current?.focus();
+    }, 100);
+  }, [_t, v]);
+  const Aa = () => {
+    localStorage.setItem(Gr, "true"), xn(!0);
+  }, Ma = () => {
+    at(!1);
+  }, Ci = async () => {
+    await ke.voice.toggleCall({ force: S });
+  }, wo = async () => {
+    if (!Tn.trim()) return;
+    const He = Tn.trim();
+    Z(""), await ke.chat.sendMessage(He), je.current?.focus();
+  }, Pa = (He) => {
+    const nn = He.target.value;
+    Z(nn), ke.chat.handleInput(nn);
+  }, Fl = () => {
+    ke.clearConversation(), Ee(!1), ke.voice.isCallActive && ke.voice.endCall({ force: S }), Z(""), (v === "chat" || v === "hybrid") && setTimeout(() => {
+      je.current?.focus();
+    }, 100);
+  }, nt = async () => {
+    try {
+      await ke.chat.sendMessage("Ending chat...", !0), Ee(!0);
+    } finally {
+      Z("");
+    }
+  }, Vl = () => {
+    ke.clearConversation(), Ee(!1), (v === "chat" || v === "hybrid") && setTimeout(() => {
+      je.current?.focus();
+    }, 100);
+  }, xi = () => {
+    fe && (ke.clearConversation(), Ee(!1), Z("")), at(!1);
+  }, Oa = () => {
+    at(!0);
+  }, Xn = () => ke.conversation.length === 0 ? /* @__PURE__ */ ee.jsx(
+    zy,
+    {
+      mode: v,
+      isCallActive: ke.voice.isCallActive,
+      theme: bt.theme,
+      voiceEmptyMessage: Zn,
+      voiceActiveEmptyMessage: go,
+      chatEmptyMessage: yo,
+      hybridEmptyMessage: vo
+    }
+  ) : /* @__PURE__ */ ee.jsxs(ee.Fragment, { children: [
+    ke.conversation.map((He, nn) => {
+      try {
+        const Et = He?.id || `${He.role}-${nn}`;
+        return /* @__PURE__ */ ee.jsx(
+          Xx,
+          {
+            role: He.role,
+            content: He.content || "",
+            colors: ut,
+            styles: bt,
+            isLoading: nn === ke.conversation.length - 1 && He.role === "assistant" && ke.chat.isTyping
+          },
+          Et
+        );
+      } catch (Et) {
+        return console.error("Error rendering message:", Et, He), null;
+      }
+    }),
+    /* @__PURE__ */ ee.jsx("div", { ref: Le })
+  ] }), zl = () => fe ? /* @__PURE__ */ ee.jsxs(
+    "div",
+    {
+      className: "flex flex-col items-center justify-center text-center gap-4",
+      style: { width: "100%" },
+      children: [
+        /* @__PURE__ */ ee.jsx(
+          "div",
+          {
+            className: `text-base ${bt.theme === "dark" ? "text-gray-200" : "text-gray-800"}`,
+            children: Ei
+          }
+        ),
+        /* @__PURE__ */ ee.jsxs("div", { className: "flex items-center gap-3", children: [
+          /* @__PURE__ */ ee.jsx(
+            "button",
+            {
+              onClick: Vl,
+              className: "px-3 py-1.5 rounded-md",
+              style: {
+                backgroundColor: ut.ctaButtonColor,
+                color: ut.ctaButtonTextColor
+              },
+              children: "Start new chat"
+            }
+          ),
+          /* @__PURE__ */ ee.jsx(
+            "button",
+            {
+              onClick: xi,
+              className: `px-3 py-1.5 rounded-md ${bt.theme === "dark" ? "bg-gray-800 text-gray-100" : "bg-gray-100 text-gray-800"}`,
+              children: "Close"
+            }
+          )
+        ] })
+      ]
+    }
+  ) : v === "chat" ? Xn() : v === "hybrid" ? ke.voice.isCallActive ? bi ? Xn() : /* @__PURE__ */ ee.jsx(
+    wl,
+    {
+      size: 150,
+      connectionStatus: ke.voice.connectionStatus,
+      isCallActive: ke.voice.isCallActive,
+      isSpeaking: ke.voice.isSpeaking,
+      isTyping: ke.chat.isTyping,
+      volumeLevel: ke.voice.volumeLevel,
+      baseColor: ut.accentColor,
+      colors: ut.accentColor
+    }
+  ) : Xn() : v === "voice" && ke.voice.isCallActive ? bi ? Xn() : /* @__PURE__ */ ee.jsx(
+    wl,
+    {
+      size: 150,
+      connectionStatus: ke.voice.connectionStatus,
+      isCallActive: ke.voice.isCallActive,
+      isSpeaking: ke.voice.isSpeaking,
+      isTyping: ke.chat.isTyping,
+      volumeLevel: ke.voice.volumeLevel,
+      baseColor: ut.accentColor,
+      colors: ut.accentColor
+    }
+  ) : /* @__PURE__ */ ee.jsx(
+    zy,
+    {
+      mode: v,
+      isCallActive: ke.voice.isCallActive,
+      theme: bt.theme,
+      voiceEmptyMessage: Zn,
+      voiceActiveEmptyMessage: go,
+      chatEmptyMessage: yo,
+      hybridEmptyMessage: vo
+    }
+  ), Ia = () => fe ? null : v === "voice" ? /* @__PURE__ */ ee.jsx(
+    eT,
+    {
+      isCallActive: ke.voice.isCallActive,
+      connectionStatus: ke.voice.connectionStatus,
+      isAvailable: ke.voice.isAvailable,
+      isMuted: ke.voice.isMuted,
+      onToggleCall: Ci,
+      onToggleMute: ke.voice.toggleMute,
+      startButtonText: mo,
+      endButtonText: gr,
+      colors: ut
+    }
+  ) : v === "chat" ? /* @__PURE__ */ ee.jsx(
+    tT,
+    {
+      chatInput: Tn,
+      isAvailable: ke.chat.isAvailable,
+      onInputChange: Pa,
+      onSendMessage: wo,
+      colors: ut,
+      styles: bt,
+      inputRef: je,
+      placeholder: yr
+    }
+  ) : v === "hybrid" ? /* @__PURE__ */ ee.jsx(
+    nT,
+    {
+      chatInput: Tn,
+      isCallActive: ke.voice.isCallActive,
+      connectionStatus: ke.voice.connectionStatus,
+      isChatAvailable: ke.chat.isAvailable,
+      isVoiceAvailable: ke.voice.isAvailable,
+      isMuted: ke.voice.isMuted,
+      onInputChange: Pa,
+      onSendMessage: wo,
+      onToggleCall: Ci,
+      onToggleMute: ke.voice.toggleMute,
+      colors: ut,
+      styles: bt,
+      inputRef: je,
+      placeholder: yr
+    }
+  ) : null, Ti = () => Jr && !hn ? /* @__PURE__ */ ee.jsx(
+    Sb,
+    {
+      consentTitle: Ca,
+      consentContent: Wr,
+      onAccept: Aa,
+      onCancel: Ma,
+      colors: ut,
+      styles: bt,
+      radius: y
+    }
+  ) : /* @__PURE__ */ ee.jsxs("div", { style: Kn(), children: [
+    /* @__PURE__ */ ee.jsx(
+      Ob,
+      {
+        mode: v,
+        connectionStatus: ke.voice.connectionStatus,
+        isCallActive: ke.voice.isCallActive,
+        isSpeaking: ke.voice.isSpeaking,
+        isTyping: ke.chat.isTyping,
+        hasActiveConversation: ke.conversation.length > 0,
+        mainLabel: $t,
+        onClose: xi,
+        onReset: Fl,
+        onChatComplete: nt,
+        showEndChatButton: !fe,
+        colors: ut,
+        styles: bt
+      }
+    ),
+    /* @__PURE__ */ ee.jsx(
+      "div",
+      {
+        className: "vapi-conversation-area",
+        style: {
+          ...xa(),
+          ...Rl()
+        },
+        children: zl()
+      }
+    ),
+    /* @__PURE__ */ ee.jsx("div", { style: Ta(), children: Ia() })
+  ] });
+  return /* @__PURE__ */ ee.jsx("div", { className: "vapi-widget-wrapper", children: /* @__PURE__ */ ee.jsx(
+    "div",
+    {
+      style: {
+        position: "fixed",
+        zIndex: 9999,
+        ...wb[f]
+      },
+      children: Nl ? Ti() : /* @__PURE__ */ ee.jsx(
+        kb,
+        {
+          isCallActive: ke.voice.isCallActive,
+          connectionStatus: ke.voice.connectionStatus,
+          isSpeaking: ke.voice.isSpeaking,
+          isTyping: ke.chat.isTyping,
+          volumeLevel: ke.voice.volumeLevel,
+          onClick: Oa,
+          onToggleCall: Ci,
+          mainLabel: $t,
+          ctaTitle: Ft,
+          ctaSubtitle: ho,
+          colors: ut,
+          styles: bt,
+          mode: v
+        }
+      )
+    }
+  ) });
+}, v1 = {
+  VapiWidget: rT
+};
+class ll {
+  root;
+  container;
+  constructor(t) {
+    if (this.container = typeof t.container == "string" ? document.querySelector(t.container) : t.container, !this.container)
+      throw new Error("Container element not found");
+    const r = v1[t.component];
+    if (!r)
+      throw new Error(`Component "${t.component}" not found`);
+    this.root = dS.createRoot(this.container), this.root.render(oS.createElement(r, t.props || {}));
+  }
+  destroy() {
+    this.root && (this.root.unmount(), this.root = null);
+  }
+}
+function iT(e) {
+  return e.replace(/-([a-z])/g, (t) => t[1].toUpperCase());
+}
+function By(e) {
+  return e === "true" ? !0 : e === "false" ? !1 : !isNaN(Number(e)) && e !== "" ? Number(e) : e;
+}
+function Uy() {
+  document.querySelectorAll(
+    '[data-client-widget="VapiWidget"]'
+  ).forEach((o) => {
+    const a = o;
+    let s = {};
+    const u = a.getAttribute("data-props");
+    if (u)
+      try {
+        s = JSON.parse(u);
+      } catch (m) {
+        console.error("Failed to parse data-props:", m);
+      }
+    Array.from(a.attributes).forEach((m) => {
+      if (m.name.startsWith("data-") && m.name !== "data-client-widget" && m.name !== "data-props") {
+        const y = iT(m.name.replace("data-", ""));
+        if (y === "assistantOverrides" || y === "assistant" || y === "squad")
+          try {
+            s[y] = JSON.parse(m.value);
+          } catch (v) {
+            console.warn(`Failed to parse ${m.name} JSON:`, v), s[y] = m.value;
+          }
+        else
+          s[y] = By(m.value);
+      }
+    }), s.publicKey || (console.warn("VapiWidget: publicKey is required but not provided"), s.publicKey = "demo-key");
+    const f = !!(s.assistantId || s.assistant), p = !!(s.squadId || s.squad);
+    if (f && p) {
+      console.error(
+        "VapiWidget: exactly one of assistant (assistant-id/assistant) or squad (squad-id/squad) must be provided."
+      );
+      return;
+    }
+    !f && !p && (console.warn(
+      "VapiWidget: assistantId or squadId is required but not provided; falling back to demo assistant."
+    ), s.assistantId = "demo-assistant");
+    try {
+      new ll({
+        container: a,
+        component: "VapiWidget",
+        props: s
+      });
+    } catch (m) {
+      console.error("Failed to initialize VapiWidget:", m);
+    }
+  }), document.querySelectorAll("vapi-widget").forEach((o) => {
+    const a = o, s = {};
+    Object.entries({
+      // Mode & Theme
+      mode: "mode",
+      theme: "theme",
+      // Layout & Position
+      position: "position",
+      size: "size",
+      "border-radius": "borderRadius",
+      radius: "radius",
+      // deprecated alias
+      // Colors
+      "base-bg-color": "baseBgColor",
+      "accent-color": "accentColor",
+      "cta-button-color": "ctaButtonColor",
+      "cta-button-text-color": "ctaButtonTextColor",
+      // Text & Labels
+      title: "title",
+      "cta-title": "ctaTitle",
+      "cta-subtitle": "ctaSubtitle",
+      "start-button-text": "startButtonText",
+      "end-button-text": "endButtonText",
+      // Empty State Messages
+      "voice-empty-message": "voiceEmptyMessage",
+      "voice-active-empty-message": "voiceActiveEmptyMessage",
+      "chat-empty-message": "chatEmptyMessage",
+      "hybrid-empty-message": "hybridEmptyMessage",
+      // Chat Configuration
+      "chat-first-message": "chatFirstMessage",
+      "chat-placeholder": "chatPlaceholder",
+      // Voice Configuration
+      "voice-show-transcript": "voiceShowTranscript",
+      "voice-auto-reconnect": "voiceAutoReconnect",
+      "voice-reconnect-storage": "voiceReconnectStorage",
+      "reconnect-storage-key": "reconnectStorageKey",
+      // Consent Configuration
+      "consent-required": "consentRequired",
+      "consent-title": "consentTitle",
+      "consent-content": "consentContent",
+      "consent-storage-key": "consentStorageKey",
+      // API Configuration
+      "api-url": "apiUrl",
+      // Vapi Configuration
+      "public-key": "publicKey",
+      "assistant-id": "assistantId",
+      "assistant-overrides": "assistantOverrides",
+      assistant: "assistant",
+      "squad-id": "squadId",
+      squad: "squad",
+      // Deprecated properties
+      "base-color": "baseColor",
+      "button-base-color": "buttonBaseColor",
+      "button-accent-color": "buttonAccentColor",
+      "main-label": "mainLabel",
+      "empty-voice-message": "emptyVoiceMessage",
+      "empty-voice-active-message": "emptyVoiceActiveMessage",
+      "empty-chat-message": "emptyChatMessage",
+      "empty-hybrid-message": "emptyHybridMessage",
+      "first-chat-message": "firstChatMessage",
+      "show-transcript": "showTranscript",
+      "require-consent": "requireConsent",
+      "terms-content": "termsContent",
+      "local-storage-key": "localStorageKey"
+    }).forEach(([m, y]) => {
+      const v = a.getAttribute(m);
+      if (v !== null)
+        if (y === "assistantOverrides" || y === "assistant" || y === "squad")
+          try {
+            s[y] = JSON.parse(v);
+          } catch (_) {
+            console.warn(`Failed to parse ${m} JSON:`, _);
+          }
+        else
+          s[y] = By(v);
+    }), s.publicKey || (console.warn("VapiWidget: publicKey is required but not provided"), s.publicKey = "demo-key");
+    const f = !!(s.assistantId || s.assistant), p = !!(s.squadId || s.squad);
+    if (f && p) {
+      console.error(
+        "VapiWidget: exactly one of assistant (assistant-id/assistant) or squad (squad-id/squad) must be provided."
+      );
+      return;
+    }
+    !f && !p && (console.warn(
+      "VapiWidget: assistantId or squadId is required but not provided; falling back to demo assistant."
+    ), s.assistantId = "demo-assistant");
+    try {
+      new ll({
+        container: a,
+        component: "VapiWidget",
+        props: s
+      });
+    } catch (m) {
+      console.error(
+        "Failed to initialize VapiWidget from custom element:",
+        m
+      );
+    }
+  }), document.querySelectorAll("[data-client-widget]").forEach((o) => {
+    const a = o, s = a.getAttribute("data-client-widget");
+    if (s !== "VapiWidget" && s && s in v1) {
+      const u = a.getAttribute("data-props");
+      let f = {};
+      if (u)
+        try {
+          f = JSON.parse(u);
+        } catch (p) {
+          console.error("Failed to parse data-props:", p);
+        }
+      try {
+        new ll({
+          container: a,
+          component: s,
+          props: f
+        });
+      } catch (p) {
+        console.error(`Failed to initialize ${s}:`, p);
+      }
+    }
+  });
+}
+document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", Uy) : Uy();
+typeof window < "u" && (window.WidgetLoader = ll);
+export {
+  ll as default
+};
